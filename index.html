@@ -1,112 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#09090d">
-    <meta name="description" content="Listen live to Diamond Angels Sounds, broadcasting 24/7 from King's Lynn, West Norfolk. Dance, house, trance, rave, classics, independent music, live shows and community radio.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Diamond Angels Sounds | Live 24/7">
-    <meta property="og:description" content="Independent 24/7 internet radio from King's Lynn, West Norfolk.">
-    <meta property="og:image" content="assets/diamond-angels-logo.png">
-    <link rel="icon" type="image/png" href="assets/diamond-angels-logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <title>Diamond Angels Sounds | Live 24/7</title>
+  <meta name="description" content="Diamond Angels Sounds — independent 24/7 internet radio from King's Lynn, West Norfolk.">
+  <meta property="og:title" content="Diamond Angels Sounds | Live 24/7">
+  <meta property="og:description" content="Dance, house, trance, rave, classics, independent music and live shows from King's Lynn, West Norfolk.">
+  <meta property="og:image" content="diamond-angels-logo.png">
+  <link rel="icon" href="diamond-angels-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <img class="logo" src="diamond-angels-logo.png" alt="Diamond Angels Sounds logo">
+      <div>
+        <div class="live-pill"><span></span> LIVE 24/7</div>
+        <p class="kicker">KING'S LYNN · WEST NORFOLK</p>
+        <h1>DIAMOND<br>ANGELS <em>Sounds</em></h1>
+        <p class="genres">Dance · House · Trance · Rave · Classics · Independent Music</p>
+        <p class="intro">Independent radio with live presenters, community voices and non-stop music around the clock.</p>
+        <a class="gold-btn" href="https://ec5.yesstreaming.net:2150/api/links/?t=web&amp;l=diamondangelsso2&amp;c=1" target="_blank" rel="noopener">▶ Listen Live</a>
+      </div>
+    </div>
+  </header>
 
-    <script>var API_URL = "https://ec5.yesstreaming.net:2150", SERVER_ID=1, BASE_URL="", DEF_IMG_URL="https://streaming.center/minisite/img/default-cover.png";</script>
-    <title>Diamond Angels Sounds | Live Internet Radio | King's Lynn</title>
-    <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" href="./index.css">
-  </head>
-  <body>
-    <header class="das-hero">
-      <div class="das-glow das-glow-one"></div>
-      <div class="das-glow das-glow-two"></div>
-      <div class="das-shell das-hero-grid">
-        <div class="das-logo-wrap">
-          <img class="das-logo" src="assets/diamond-angels-logo.png" alt="Diamond Angels Sounds logo">
+  <section class="stats">
+    <div><strong>320</strong><span>KBPS STREAM</span></div>
+    <div><strong>24/7</strong><span>INTERNET RADIO</span></div>
+    <div><strong>LIVE</strong><span>FROM WEST NORFOLK</span></div>
+  </section>
+
+  <main>
+    <section id="listen" class="wrap section">
+      <p class="eyebrow">ON AIR</p>
+      <h2>Listen to Diamond Angels Sounds</h2>
+      <div class="player-card">
+        <div class="art"><img src="diamond-angels-logo.png" alt="Diamond Angels Sounds"></div>
+        <div class="track-info">
+          <div id="status" class="status">Connecting to the live station…</div>
+          <div id="nowPlaying" class="now">Diamond Angels Sounds</div>
+          <div class="sub">Live from King's Lynn, West Norfolk</div>
         </div>
-        <div class="das-hero-copy">
-          <div class="das-live-pill"><span></span> LIVE 24/7</div>
-          <p class="das-kicker">KING'S LYNN · WEST NORFOLK</p>
-          <h1>Diamond Angels <em>Sounds</em></h1>
-          <p class="das-subtitle">Dance · House · Trance · Rave · Classics · Independent Music</p>
-          <p class="das-intro">Independent radio with live presenters, community voices and non-stop music around the clock.</p>
-          <a class="das-primary-btn" href="#radio-live">▶ Listen Live</a>
+        <button id="playBtn" class="play" type="button" aria-label="Play live radio">▶</button>
+        <div class="quality">320 kbps MP3</div>
+        <audio id="radio" preload="none"></audio>
+      </div>
+      <p class="fallback">If the player does not start, <a id="directLink" href="https://ec5.yesstreaming.net:2150/api/links/?t=web&amp;l=diamondangelsso2&amp;c=1" target="_blank" rel="noopener">open the YesStreaming live player</a>.</p>
+    </section>
+
+    <section class="programmes">
+      <div class="wrap">
+        <p class="eyebrow">PROGRAMMES</p>
+        <h2>Live shows & station sound</h2>
+        <div class="cards">
+          <article><div class="icon">☀️</div><small>BREAKFAST</small><h3>Nick Whiley aka DJFlames</h3><strong>07:00–11:00</strong><p>Music, conversation, local community talk and energy to start the day.</p></article>
+          <article><div class="icon">🎧</div><small>ALL DAY</small><h3>Non-stop music</h3><strong>24/7</strong><p>Dance, house, trance, rave, classics and independent releases.</p></article>
+          <article><div class="icon">📻</div><small>COMMUNITY</small><h3>West Norfolk voices</h3><strong>LOCAL & LIVE</strong><p>A platform for local stories, artists, events and community conversation.</p></article>
         </div>
       </div>
-    </header>
+    </section>
+  </main>
 
-    <main>
-      <section class="das-strip">
-        <div class="das-shell das-stats">
-          <div><strong>320</strong><span>kbps stream</span></div>
-          <div><strong>24/7</strong><span>internet radio</span></div>
-          <div><strong>LIVE</strong><span>from West Norfolk</span></div>
-        </div>
-      </section>
-
-      <section id="radio-live" class="das-live-section">
-        <div class="das-shell">
-          <div class="das-section-heading">
-            <span>ON AIR</span>
-            <h2>Listen to Diamond Angels Sounds</h2>
-            <p>The player below is powered by our live YesStreaming feed.</p>
-          </div>
-          <div class="das-app-card">
-            <div id="app"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="das-programmes">
-        <div class="das-shell">
-          <div class="das-section-heading">
-            <span>PROGRAMMES</span>
-            <h2>Live shows & station sound</h2>
-          </div>
-          <div class="das-cards">
-            <article class="das-card das-card-featured">
-              <div class="das-card-icon">☀️</div>
-              <p class="das-card-label">BREAKFAST</p>
-              <h3>Nick Whiley aka DJFlames</h3>
-              <p class="das-time">07:00–11:00</p>
-              <p>Music, conversation, local community talk and plenty of energy to start the day.</p>
-            </article>
-            <article class="das-card">
-              <div class="das-card-icon">🎧</div>
-              <p class="das-card-label">ALL DAY</p>
-              <h3>Non-stop music</h3>
-              <p class="das-time">24/7</p>
-              <p>Dance, house, trance, rave, classics and independent releases.</p>
-            </article>
-            <article class="das-card">
-              <div class="das-card-icon">📻</div>
-              <p class="das-card-label">COMMUNITY</p>
-              <h3>West Norfolk voices</h3>
-              <p class="das-time">LOCAL & LIVE</p>
-              <p>A platform for local stories, artists, events and community conversation.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="das-about">
-        <div class="das-shell das-about-grid">
-          <div>
-            <p class="das-kicker">MUSIC · RADIO · COMMUNITY</p>
-            <h2>Independent radio with a local heart.</h2>
-          </div>
-          <p>Diamond Angels Sounds broadcasts from King's Lynn, West Norfolk, bringing together great music, live presenting and community-focused programming. Stay tuned as the station grows with more shows, features and ways to listen.</p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="das-footer">
-      <div class="das-shell">
-        <img src="assets/diamond-angels-logo.png" alt="Diamond Angels Sounds" class="das-footer-logo">
-        <p>© 2026 Diamond Angels Sounds · King's Lynn, West Norfolk</p>
-        <p class="das-footer-tag">Music · Radio · Community</p>
-      </div>
-    </footer>
-  </body>
+  <footer>
+    <img src="diamond-angels-logo.png" alt="Diamond Angels Sounds">
+    <p>© 2026 Diamond Angels Sounds · King's Lynn, West Norfolk</p>
+    <p>Music · Radio · Community</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
 </html>
