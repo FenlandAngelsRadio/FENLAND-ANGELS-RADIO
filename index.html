@@ -25,7 +25,7 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <a class="btn primary" id="topListen" href="https://ec5.yesstreaming.net:2150/api/startpage/1/" target="_blank" rel="noopener">🎧 Listen Live</a>
+    <button class="btn primary player-button" type="button" data-action="play">🎧 Listen Live</button>
   </header>
 
   <main>
@@ -35,7 +35,7 @@
         <h1>INDEPENDENT MUSIC<br><span>RADIO COMMUNITY</span></h1>
         <p class="lead">Independent music, live radio, local voices, community stories, hourly news and weather — broadcasting 24/7.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="https://ec5.yesstreaming.net:2150/api/startpage/1/" target="_blank" rel="noopener">▶ Listen Live</a>
+          <button class="btn primary player-button" type="button" data-action="play">▶ Listen Live</button>
           <a class="btn outline" href="#shows">▣ Show Schedule</a>
         </div>
       </div>
@@ -52,7 +52,17 @@
             <div class="wave" aria-hidden="true">
               <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
             </div>
-            <a class="btn primary compact" href="https://ec5.yesstreaming.net:2150/api/startpage/1/" target="_blank" rel="noopener">Open Live Player</a>
+            <div class="inline-player">
+              <button class="round-play" id="mainPlay" type="button" aria-label="Play Fenland Angels Radio">▶</button>
+              <div class="player-copy">
+                <strong id="playerStatus">Tap play to listen live</strong>
+                <span>Fenland Angels Radio · 320 kbps</span>
+              </div>
+              <input id="volume" class="volume" type="range" min="0" max="1" step="0.01" value="0.9" aria-label="Volume">
+            </div>
+            <audio id="radioStream" preload="none">
+              <source src="https://ec5.yesstreaming.net:2190/stream" type="audio/mpeg">
+            </audio>
           </div>
           <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio">
         </div>
@@ -152,7 +162,7 @@
     </div>
     <div class="footer-live">
       <span>🎧 LISTEN LIVE 24/7</span>
-      <a href="https://ec5.yesstreaming.net:2150/api/startpage/1/" target="_blank" rel="noopener">Open Player</a>
+      <button class="footer-play" type="button" data-action="play">Play Fenland Angels Radio</button>
     </div>
     <div>
       <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a>

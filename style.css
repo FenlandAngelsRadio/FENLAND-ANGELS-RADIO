@@ -53,3 +53,12 @@ footer{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px;padding:28px 3.
 footer div{display:flex;flex-direction:column;gap:8px}footer span,footer a{color:#c8cbd2;text-decoration:none}.footer-live{border-left:1px solid #3a3021;border-right:1px solid #3a3021;padding:0 26px}
 @media(max-width:1100px){.nav{display:none}.site-header{justify-content:space-between}.brand{min-width:0}.hero{grid-template-columns:1fr}.show-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:720px){.site-header{padding:10px 16px}.brand img{width:58px;height:58px}.brand-name{font-size:20px}.tagline{display:none}.site-header>.btn{padding:11px 12px;font-size:12px}.hero{padding:45px 18px}.hero h1{font-size:44px}.live-main{grid-template-columns:1fr}.live-main img{width:160px;height:160px}.section{padding:50px 18px}.show-grid{grid-template-columns:1fr}.news-banner{margin:0 18px 50px;grid-template-columns:1fr}.weather-icons{display:none}.about-contact{grid-template-columns:1fr;padding:0 18px 50px}footer{grid-template-columns:1fr;padding:24px 18px}.footer-live{border:0;padding:0}}
+
+button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
+.inline-player{display:grid;grid-template-columns:auto 1fr minmax(110px,180px);gap:14px;align-items:center;margin-top:22px;padding:14px;border:1px solid #48351c;border-radius:14px;background:#08090c}
+.round-play{width:54px;height:54px;border-radius:50%;border:0;background:linear-gradient(180deg,#ef2027,#b90f15);color:#fff;font-size:22px;font-weight:900;cursor:pointer;box-shadow:0 0 20px rgba(215,25,32,.22)}
+.player-copy{display:flex;flex-direction:column;gap:4px}.player-copy strong{font-size:15px}.player-copy span{color:var(--muted);font-size:12px}
+.volume{width:100%;accent-color:var(--red2)}
+.footer-play{border:0;background:none;color:#ff4b50;padding:0;text-align:left;cursor:pointer;font-weight:800}
+.player-button{cursor:pointer}
+@media(max-width:720px){.inline-player{grid-template-columns:auto 1fr}.volume{grid-column:1/-1}}
