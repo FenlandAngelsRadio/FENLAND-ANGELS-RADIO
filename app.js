@@ -1,5 +1,5 @@
 const API='https://ec5.yesstreaming.net:2150';
-const WEBPLAYER='https://ec5.yesstreaming.net:2150/api/links/?t=web&l=diamondangelsso2&c=1';
+const WEBPLAYER='https://ec5.yesstreaming.net:2150/api/startpage/1/';
 const SERVER_ID=1;
 const audio=document.getElementById('radio');
 const playBtn=document.getElementById('playBtn');
