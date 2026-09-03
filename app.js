@@ -62,3 +62,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js').catch(()=>{}));
+}
+let deferredInstallPrompt=null;
+const headerInstall=document.getElementById('installApp');
+const mainInstall=document.getElementById('installAppMain');
+const installHelp=document.getElementById('installHelp');
+
+window.addEventListener('beforeinstallprompt',event=>{
+  event.preventDefault();
+  deferredInstallPrompt=event;
+  if(headerInstall) headerInstall.hidden=false;
+});
+
+async function installFenlandApp(){
+  if(deferredInstallPrompt){
+    deferredInstallPrompt.prompt();
+    const result=await deferredInstallPrompt.userChoice;
+    deferredInstallPrompt=null;
+    if(headerInstall) headerInstall.hidden=true;
+    if(result.outcome==='accepted'&&installHelp) installHelp.textContent='Fenland Angels Radio has been added to your device.';
+    return;
+  }
+  const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  if(installHelp){
+    installHelp.textContent=isIOS
+      ? 'On iPhone/iPad: open this page in Safari, tap Share, then choose “Add to Home Screen”.'
+      : 'Use your browser menu and choose “Install app” or “Add to Home screen”.';
+  }
+}
+if(headerInstall) headerInstall.addEventListener('click',installFenlandApp);
+if(mainInstall) mainInstall.addEventListener('click',installFenlandApp);
+window.addEventListener('appinstalled',()=>{if(headerInstall)headerInstall.hidden=true; if(installHelp)installHelp.textContent='Fenland Angels Radio is installed and ready to use.';});

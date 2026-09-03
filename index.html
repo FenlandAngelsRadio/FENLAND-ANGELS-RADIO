@@ -6,6 +6,12 @@
   <meta name="description" content="Fenland Angels Radio — Independent Music Radio Community. Live shows, independent music, hourly news and weather from The Fens.">
   <title>Fenland Angels Radio</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#d71920">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Fenland Angels">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-192.png">
 </head>
 <body>
   <header class="site-header">
@@ -26,7 +32,8 @@
     </nav>
 
     <button class="btn primary player-button" type="button" data-action="play">🎧 Listen Live</button>
-  </header>
+    <button class="btn outline install-app" id="installApp" type="button" hidden>📲 Install App</button>
+</header>
 
   <main>
     <section class="hero" id="home">
@@ -155,7 +162,19 @@
     </section>
   </main>
 
-  <footer>
+  
+<section class="app-install-section" id="app">
+  <div class="info-card app-card">
+    <p class="eyebrow">FREE RADIO APP</p>
+    <h2>Take Fenland Angels Radio with you</h2>
+    <p>Install Fenland Angels Radio on your phone for free. No app-store download is required.</p>
+    <button class="btn primary" id="installAppMain" type="button">📲 Install Fenland Angels Radio</button>
+    <p class="install-help" id="installHelp">Android: use the Install button when offered. iPhone/iPad: open this site in Safari, tap Share, then choose “Add to Home Screen”.</p>
+    <p class="install-help">For the car, connect your phone by Bluetooth, USB, CarPlay or Android Auto and play Fenland Angels Radio from your phone.</p>
+  </div>
+</section>
+
+<footer>
     <div>
       <strong>© 2026 BASTONE MAJOR GROUP LTD</strong>
       <span>Independent Music Radio Community</span>

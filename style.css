@@ -62,3 +62,10 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 .footer-play{border:0;background:none;color:#ff4b50;padding:0;text-align:left;cursor:pointer;font-weight:800}
 .player-button{cursor:pointer}
 @media(max-width:720px){.inline-player{grid-template-columns:auto 1fr}.volume{grid-column:1/-1}}
+
+.install-app{white-space:nowrap}
+.app-install-section{padding:0 3.5vw 70px}
+.app-card{max-width:900px;margin:0 auto;text-align:center;border-color:#5b4520}
+.app-card .btn{margin-top:14px}
+.install-help{font-size:15px!important;color:#b8bcc5!important}
+@media(max-width:1100px){.install-app{display:none!important}}
