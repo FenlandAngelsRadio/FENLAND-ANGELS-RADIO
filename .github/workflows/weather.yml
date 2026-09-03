@@ -1,0 +1,43 @@
+name: Update Weather Across The Fens
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 5,6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-weather:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check UK local time
+        id: uk_time
+        run: |
+          HOUR=$(TZ=Europe/London date +%H)
+          echo "hour=$HOUR" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout repository
+        if: steps.uk_time.outputs.hour == '06' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.uk_time.outputs.hour == '06' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update Fenland weather
+        if: steps.uk_time.outputs.hour == '06' || github.event_name == 'workflow_dispatch'
+        run: python scripts/update_weather.py
+
+      - name: Commit updated weather
+        if: steps.uk_time.outputs.hour == '06' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "Fenland Angels Weather Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add weather-data.json weather.xml
+          git diff --cached --quiet || git commit -m "Update Weather Across The Fens"
+          git push
