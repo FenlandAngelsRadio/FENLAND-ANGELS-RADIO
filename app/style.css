@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#050505;color:#fff;font-family:Arial,Helvetica,sans-serif}
+body{display:flex;justify-content:center}
+.app{width:100%;max-width:430px;min-height:100vh;padding:18px;background:radial-gradient(circle at 50% 24%,#250506,#050505 46%)}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.brand img{width:66px;height:66px;border-radius:50%;object-fit:cover;border:2px solid #caa13b}
+.brand strong{display:block;font-size:21px;line-height:.95;letter-spacing:1px}.brand strong span{color:#f22130}
+.brand small{display:block;margin-top:7px;color:#d6ad41;font-size:10px;font-weight:bold;letter-spacing:1px}
+.player{background:linear-gradient(145deg,#1b1b1b,#080808);border:1px solid #403421;border-radius:22px;padding:22px;text-align:center;box-shadow:0 15px 45px #000}
+.status{display:inline-flex;align-items:center;gap:7px;background:#e91827;border-radius:8px;padding:7px 11px;font-size:13px;font-weight:800}
+.status i{width:8px;height:8px;background:white;border-radius:50%}
+h1{font-size:32px;margin:16px 0 5px}.player>p{margin:0 0 20px;color:#d6ad41;font-size:13px}
+.play{width:108px;height:108px;border-radius:50%;border:2px solid #ff2b39;background:#e81725;color:white;font-size:44px;padding-left:8px;box-shadow:0 0 28px rgba(238,25,38,.38)}
+.state{display:flex;justify-content:space-between;gap:12px;margin:18px 0 8px;font-size:12px;color:#ddd}.state b{color:#d6ad41;white-space:nowrap}
+.volume{display:flex;align-items:center;gap:10px;margin:12px 0 18px}.volume input{width:100%;accent-color:#ed1d2b}
+.now{text-align:left;background:#050505;border:1px solid #202020;border-radius:14px;padding:14px}
+.now small{display:block;color:#ff2635;letter-spacing:1px;margin-bottom:6px}.now strong{display:block;font-size:18px}.now span{display:block;color:#999;font-size:12px;margin-top:3px}
+.website{display:block;text-align:center;margin:16px auto 0;color:#fff;text-decoration:none;border:1px solid #b68c31;border-radius:10px;padding:10px;max-width:190px}
+.hint{text-align:center;color:#777;font-size:11px;line-height:1.4}
