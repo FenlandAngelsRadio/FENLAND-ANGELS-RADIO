@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Weather Across The Fens from Fenland Angels Radio - The Sound of the Fens.">
+  <title>Weather Across The Fens | Fenland Angels Radio</title>
+  <link rel="alternate" type="application/rss+xml" title="Fenland Angels Radio Weather RSS" href="weather.xml">
+  <link rel="stylesheet" href="assets/weather.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="eyebrow">FENLAND ANGELS RADIO</p>
+      <h1>Weather Across The Fens</h1>
+      <p class="tagline">The Sound of the Fens</p>
+      <p class="updated" id="updated">Forecast updates automatically each morning.</p>
+    </header>
+
+    <section class="intro">
+      <p>A regional outlook using representative forecast points across the northern, eastern, central, western and southern Fens.</p>
+    </section>
+
+    <section id="forecast" class="grid" aria-live="polite">
+      <article class="card"><h2>Forecast loading</h2><p>The first automatic update will populate this page.</p></article>
+    </section>
+
+    <footer>
+      <p>Fenland Angels Radio • Independent Music • Local Voices • Community</p>
+      <p><a href="weather.xml">Weather RSS feed</a></p>
+    </footer>
+  </main>
+
+  <script>
+    fetch('weather-data.json?ts=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById('updated').textContent =
+          'Updated ' + (data.updated_display || data.updated || '');
+        const forecast = document.getElementById('forecast');
+        forecast.innerHTML = '';
+        (data.regions || []).forEach(r => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <p class="zone">${r.zone}</p>
+            <h2>${r.name}</h2>
+            <p class="condition">${r.condition}</p>
+            <div class="stats">
+              <span><strong>${r.high_c}°C</strong><small>High</small></span>
+              <span><strong>${r.low_c}°C</strong><small>Low</small></span>
+              <span><strong>${r.rain_chance}%</strong><small>Rain</small></span>
+              <span><strong>${r.wind_kmh} km/h</strong><small>Wind</small></span>
+            </div>`;
+          forecast.appendChild(card);
+        });
+      })
+      .catch(() => {});
+  </script>
+</body>
+</html>
