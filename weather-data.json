@@ -1,6 +1,52 @@
 {
-  "updated": "",
-  "updated_display": "Awaiting first automatic update",
-  "date": "",
-  "regions": []
+  "updated": "2026-09-04T00:44:08.763645+01:00",
+  "updated_display": "Friday 04 September 2026 at 00:44",
+  "date": "2026-09-04",
+  "regions": [
+    {
+      "zone": "Northern Fens",
+      "name": "Spalding & South Holland",
+      "condition": "Rain",
+      "high_c": 20,
+      "low_c": 16,
+      "rain_chance": 94,
+      "wind_kmh": 31
+    },
+    {
+      "zone": "Eastern Fens",
+      "name": "King's Lynn & West Norfolk",
+      "condition": "Rain",
+      "high_c": 20,
+      "low_c": 15,
+      "rain_chance": 88,
+      "wind_kmh": 32
+    },
+    {
+      "zone": "Central Fens",
+      "name": "Wisbech, March & central Fenland",
+      "condition": "Rain",
+      "high_c": 20,
+      "low_c": 15,
+      "rain_chance": 88,
+      "wind_kmh": 30
+    },
+    {
+      "zone": "Western Fens",
+      "name": "Peterborough & Whittlesey",
+      "condition": "Rain",
+      "high_c": 21,
+      "low_c": 16,
+      "rain_chance": 69,
+      "wind_kmh": 28
+    },
+    {
+      "zone": "Southern Fens",
+      "name": "Ely, Chatteris & southern Fens",
+      "condition": "Drizzle",
+      "high_c": 21,
+      "low_c": 15,
+      "rain_chance": 71,
+      "wind_kmh": 32
+    }
+  ]
 }
