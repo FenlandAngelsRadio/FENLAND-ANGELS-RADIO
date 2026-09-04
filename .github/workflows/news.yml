@@ -2,8 +2,10 @@ name: Update Fenland Angels Newsroom
 
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: "45 0,5,6,11,12,17,18,23 * * *"
+    - cron: "45 0,6,12,18 * * *"
+      timezone: "Europe/London"
 
 permissions:
   contents: write
@@ -11,32 +13,22 @@ permissions:
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    steps:
-      - name: Check UK local time
-        id: uk_time
-        shell: bash
-        run: |
-          HOUR=$(TZ=Europe/London date +%H)
-          echo "hour=$HOUR" >> "$GITHUB_OUTPUT"
 
+    steps:
       - name: Checkout repository
-        if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["00","06","12","18"]'), steps.uk_time.outputs.hour)
         uses: actions/checkout@v4
 
       - name: Set up Python
-        if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["00","06","12","18"]'), steps.uk_time.outputs.hour)
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Build Fenland Angels news
-        if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["00","06","12","18"]'), steps.uk_time.outputs.hour)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_news.py
 
       - name: Commit newsroom updates
-        if: github.event_name == 'workflow_dispatch' || contains(fromJSON('["00","06","12","18"]'), steps.uk_time.outputs.hour)
         run: |
           git config user.name "Fenland Angels News Bot"
           git config user.email "actions@users.noreply.github.com"
