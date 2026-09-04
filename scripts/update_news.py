@@ -511,16 +511,41 @@ def main():
                 f"{error}"
             )
 
-    new_items = []
+   new_items = []
 
-    for item in candidates:
-        key = story_key(item)
+for item in candidates:
+    key = story_key(item)
 
-        if key not in processed:
-            item["_key"] = key
-            new_items.append(item)
+    if key not in processed:
+        item["_key"] = key
+        new_items.append(item)
 
-    for item in new_items[:MAX_NEW_STORIES_PER_RUN]:
+# Balance stories across all news sources
+by_source = {}
+
+for item in new_items:
+    by_source.setdefault(item["source"], []).append(item)
+
+selected_items = []
+
+while len(selected_items) < MAX_NEW_STORIES_PER_RUN:
+    added_any = False
+
+    for source in SOURCES:
+        source_name = source["name"]
+        source_queue = by_source.get(source_name, [])
+
+        if source_queue:
+            selected_items.append(source_queue.pop(0))
+            added_any = True
+
+            if len(selected_items) >= MAX_NEW_STORIES_PER_RUN:
+                break
+
+    if not added_any:
+        break
+
+for item in selected_items:
         print(
             f"Processing: "
             f"{item['source']} | "
