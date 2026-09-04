@@ -837,3 +837,23 @@ a{
   }
 
 }
+
+/* Fix Fenland Angels header logo size */
+.station-header .station-brand img {
+  width: 58px !important;
+  height: 58px !important;
+  max-width: 58px !important;
+  max-height: 58px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  display: block !important;
+}
+
+.station-brand {
+  width: auto !important;
+}
+
+.station-header {
+  min-height: 90px !important;
+  height: auto !important;
+}
