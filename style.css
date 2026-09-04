@@ -62,3 +62,92 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 .footer-play{border:0;background:none;color:#ff4b50;padding:0;text-align:left;cursor:pointer;font-weight:800}
 .player-button{cursor:pointer}
 @media(max-width:720px){.inline-player{grid-template-columns:auto 1fr}.volume{grid-column:1/-1}}
+
+/* =========================================
+   NEWS & WEATHER - TIDY CARD LAYOUT
+   ========================================= */
+
+.news-weather-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.news-weather-section .section-heading {
+  margin-bottom: 35px;
+}
+
+.news-weather-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto 35px;
+}
+
+.news-weather-card {
+  display: block;
+  padding: 32px;
+  text-decoration: none;
+  color: inherit;
+  background: linear-gradient(145deg, #101114, #08090b);
+  border: 1px solid rgba(218, 170, 48, 0.45);
+  border-radius: 18px;
+  transition: transform 0.2s ease,
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.news-weather-card:hover {
+  transform: translateY(-4px);
+  border-color: #d8aa30;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.news-weather-card .icon {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.news-weather-card .eyebrow {
+  margin-bottom: 8px;
+}
+
+.news-weather-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.55rem;
+}
+
+.news-weather-card p:not(.eyebrow) {
+  margin: 0 0 22px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.news-weather-card span {
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Clean information banner */
+
+.news-weather-section .news-banner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Mobile layout */
+
+@media (max-width: 760px) {
+
+  .news-weather-links {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .news-weather-card {
+    padding: 25px;
+  }
+
+}
