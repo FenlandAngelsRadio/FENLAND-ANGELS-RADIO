@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-04T01:24:29.245673+00:00",
+  "updated_at": "2026-09-04T01:36:30.872987+00:00",
   "stories": [
+    {
+      "id": "fenland-news-ddfb72c54082eae5fd7e8b3a",
+      "headline": "Wisbech youngster completes 93-mile charity walk",
+      "brief": "An 11-year-old from Wisbech has raised over £3,200 for local charities after completing a 93-mile walk. Shyla Brown, a pupil at Peckover Primary School, walked from Silverstone race track to the Alan Hudson Centre in Wisbech over three days. Accompanied by Darren Barnard, she took more than 185,000 steps to honour the memory of Emma Barnard. \n\nThe funds raised will support the Alan Hudson Centre and Edith’s Purse, a charity providing aid to families in poverty. Shyla was greeted by the Mayor of Wisbech, Lucie Foice-Beard, as she completed the final leg of her journey on Sunday afternoon. Donations are still being accepted following the successful challenge.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/11-year-old-raises-thousands-after-walking-more-than-185-000-9480773/",
+      "source": "Fenland Citizen",
+      "published": "2026-08-31T10:32:38+00:00",
+      "generated_at": "2026-09-04T01:36:30.872859+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:30 +0000"
+    },
+    {
+      "id": "fenland-news-dd6c7443ec5d50757da18039",
+      "headline": "Bereavement services open day at Mintlyn Crematorium",
+      "brief": "Mintlyn Crematorium in Bawsey is hosting a community open day on Saturday, September 12. Running from 9.30am until 1pm, the event offers families the chance to explore the grounds and learn about the cremation process. Staff will provide regular tours and talks, while various local funeral professionals and bereavement support services will be on hand to offer guidance.\n\nVisitors are invited to ask questions in a supportive environment and view the Book of Remembrance Room. The event will also raise funds for local charities, including Tapping House hospice and the 8:56 Foundation. Any donations made during the morning will be shared between these causes.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-style-bereavement-services-open-day-at-crematorium-9481045/",
+      "source": "Lynn News",
+      "published": "2026-09-02T08:46:16+00:00",
+      "generated_at": "2026-09-04T01:36:26.461154+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:26 +0000"
+    },
+    {
+      "id": "fenland-news-ec7d5f068471ec3efb89027a",
+      "headline": "Peterborough Cathedral displays new needlework project",
+      "brief": "Peterborough Cathedral has unveiled a new artistic tribute to its historic medieval ceiling. The project features the cathedral's famous ceiling recreated in needlework, consisting of one and a half million individual stitches. The Association of English Cathedrals confirmed the completion of the work, which highlights the intricate design of the landmark's interior. Visitors to the city can now view the detailed textile display at the cathedral.",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNVlwU0s2dGYycWhCUzd0dTZhZ1BSdGFDZ0l3dlNQVXNnX0Z4YmR4dlU5M0VDUGdKd002Zkp4NXEtbGZBbl9EbUJBZHBiN1VCSWFmWU1vcWt3RmNDSzFWMzh2bVUzRVlWUVVhVFh5VUFlWUppdk4yTEVIcTlSU2JhdmdwZkxoOGM5dXJSdDBEdUpFSzlxY2lUQkkxdjFZalhMdUhxWlZhZHB4eWUzcmRqZ2ZsbU9oamNQeFpz?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-03T14:25:32+00:00",
+      "generated_at": "2026-09-04T01:36:22.930157+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:22 +0000"
+    },
+    {
+      "id": "fenland-news-5d0c636691053c2ab382f66c",
+      "headline": "Planning permission granted for East Cambridgeshire industrial site",
+      "brief": "Planning permission has been granted for an industrial site in East Cambridgeshire. The approval follows a long-running dispute regarding the development. No further details have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQakZRbm5CdHdScFh2Z1k1bS1qU1hPX3dJMHJiREhJcUdXZThHRjY0eTBITEZMYWpmaDNhaXd6eHJsX3g1TjhVZ1JFRUc2NEt6VGRlbHA5OTZ4X2txd1FnOHpSWlJmVXozai0waEIwcHI0YVVyLU5kemJES3k1M0lZQ05NcW5KSVNLVE5WRGxXajdoRXRfdEJsOWhjS191aDg?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-03T16:00:00+00:00",
+      "generated_at": "2026-09-04T01:36:20.401822+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:20 +0000"
+    },
+    {
+      "id": "fenland-news-5d7d16fae0ca2bf5e0dbdd95",
+      "headline": "Lincolnshire village identified as one of the country's most deprived areas",
+      "brief": "A village in Lincolnshire has been highlighted as one of the most deprived locations in the UK. According to a report by LincsOnline, the area has been described as a \"forgotten\" community. The findings place the village among the most disadvantaged regions across the country. No further details regarding the specific location or the criteria used for the assessment have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQm1ZeDdmYWxOb0RiQ29lWDNWd2xUaVNPX3FRRk1yQXNldjlUb0RYdEprZF9VY0RDbXlKRVpfSWZ6NXhoUVVDU0ZBcEN2N0xaQm1xM1E0QzBBUm0wYkR6eWtDZ0NGei0ybU1jMklVbldXdEtxRHk4QUxBQTBfX0x5NDhIcXFYVm9SM0pzZlhIellYalloRG5PcFB5UEM5X1NlRTl6VUpCWjJfRlBhOUR6TA?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-08-26T04:00:00+00:00",
+      "generated_at": "2026-09-04T01:36:19.401535+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:19 +0000"
+    },
+    {
+      "id": "fenland-news-809d982d1b35e81b33499b17",
+      "headline": "Cambridgeshire County Council considers school parking cameras",
+      "brief": "Cambridgeshire County Council is exploring the use of cameras outside schools to tackle illegal and dangerous parking. The authority’s highways and transport committee is reviewing a report on how camera technology could enforce traffic rules and support ‘school streets’ schemes, which restrict vehicle access during drop-off and pick-up times.\n\nWhile councillors have welcomed the proposal, committee chair Alex Beckett noted that volunteers remain vital to the success of these zones. However, officials acknowledged that cameras may be necessary in areas where volunteers have faced harassment. Any implementation of these measures will require further assessment before receiving final approval.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/cameras-outside-schools-to-stop-bad-parking-being-considered-9480996/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-01T15:41:33+00:00",
+      "generated_at": "2026-09-04T01:36:17.417107+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:17 +0000"
+    },
+    {
+      "id": "fenland-news-f4788f97bd88a4cf9b19dce8",
+      "headline": "King’s Lynn coffee shop reopens drive-thru following ram raid",
+      "brief": "The Costa Coffee branch at St Nicholas Retail Park in King’s Lynn has reopened for drive-thru and delivery customers following a ram raid last week. The store on Edward Benefer Way was forced to close after a stolen car was driven into the building at 2:51am last Thursday. The incident caused significant damage to the main entrance, which has now been boarded up.\n\nWhile the drive-thru lane is operational, the shop remains closed to walk-in customers. Norfolk Police confirmed that the stolen vehicle used in the raid has been recovered, though no arrests have been made at this stage. It is not yet known when the premises will fully reopen for sit-in service.",
+      "original_url": "https://www.lynnnews.co.uk/news/coffee-shop-reopens-to-drive-thru-customers-after-ram-raid-9481061/",
+      "source": "Lynn News",
+      "published": "2026-09-02T10:04:09+00:00",
+      "generated_at": "2026-09-04T01:36:15.332135+00:00",
+      "rss_date": "Fri, 04 Sep 2026 01:36:15 +0000"
+    },
     {
       "id": "fenland-news-89f1666e4047fae6bc347e57",
       "headline": "Drainage works to cause disruption on A149 near King’s Lynn",
