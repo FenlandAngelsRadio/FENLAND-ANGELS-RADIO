@@ -27,6 +27,22 @@ SOURCES = [
         "name": "Fenland Citizen",
         "feed": "https://www.fenlandcitizen.co.uk/_api/rss/fenland_citizen_news_feed.xml",
     },
+    {
+        "name": "March Chatteris Whittlesey News",
+        "feed": "https://news.google.com/rss/search?q=March+OR+Chatteris+OR+Whittlesey+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en",
+    },
+    {
+        "name": "Spalding South Holland News",
+        "feed": "https://news.google.com/rss/search?q=Spalding+OR+Holbeach+OR+Long+Sutton+Lincolnshire&hl=en-GB&gl=GB&ceid=GB:en",
+    },
+    {
+        "name": "Ely East Cambridgeshire News",
+        "feed": "https://news.google.com/rss/search?q=Ely+OR+Littleport+OR+East+Cambridgeshire&hl=en-GB&gl=GB&ceid=GB:en",
+    },
+    {
+        "name": "Peterborough Fenland Edge News",
+        "feed": "https://news.google.com/rss/search?q=Peterborough+OR+Eye+OR+Thorney+OR+Whittlesey&hl=en-GB&gl=GB&ceid=GB:en",
+    },
 ]
 
 USER_AGENT = (
