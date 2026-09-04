@@ -61,3 +61,15 @@ window.addEventListener('appinstalled', () => {
   installHint.textContent = 'Fenland Angels Radio is installed.';
   installButton.textContent = '✓ App Installed';
 });
+// Hide the install button when running as an installed app
+const runningAsApp =
+  window.matchMedia('(display-mode: standalone)').matches ||
+  window.navigator.standalone === true;
+
+if (runningAsApp) {
+  const installButton = document.getElementById('installApp');
+  const installHint = document.getElementById('installHint');
+
+  if (installButton) installButton.style.display = 'none';
+  if (installHint) installHint.style.display = 'none';
+}
