@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Fenland Angels Radio Local News</title><link>https://fenlandangelsradio.github.io/FENLAND-ANGELS-RADIO/news.html</link><description>Local news briefs from Fenland Angels Radio — The Sound of the Fens.</description><language>en-gb</language></channel></rss>
+<rss version="2.0">
+<channel>
+<title>Fenland Angels Radio Local News</title>
+<link>https://fenlandangelsradio.github.io/FENLAND-ANGELS-RADIO/news.html</link>
+<description>Local news briefs from Fenland Angels Radio — The Sound of the Fens.</description>
+<language>en-gb</language>
+<lastBuildDate>Fri, 04 Sep 2026 00:37:41 +0000</lastBuildDate>
+</channel>
+</rss>
