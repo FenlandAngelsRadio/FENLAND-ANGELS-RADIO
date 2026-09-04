@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-04T17:47:32.553262+00:00",
+  "updated_at": "2026-09-04T23:47:20.709898+00:00",
   "stories": [
+    {
+      "id": "fenland-news-6c13efe4aa5debba4a864211",
+      "headline": "Concerns raised over potential service cuts at QEH",
+      "brief": "Patients living across the Fens are expressing concern regarding potential service reductions at the Queen Elizabeth Hospital. Reports from the Ely East Cambridgeshire News suggest that fears are growing over the future of local healthcare provision at the facility. No specific details regarding which departments may be affected have been confirmed at this time. Residents are being advised to monitor official updates from the hospital trust as the situation develops.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMFFfLXdFY1JSRENKNW5aaEtPZW1jcW1pMFVvOF9iQW5GTkEwR3BWM0tMS0RaV1ZGMGlnY2MtR1E3cFpRMk5tTHh0aHRkZVFGLTc1a05tWHRDOWN3dGtjMWVqYldKMTZCdHpxbkVPTlJsU3ZUUkE4VndzVnVRQjBCcXJWT2I5YkdYTUxBdlhOUEtocXlCRmYyMXNocHhwQQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-04T09:22:00+00:00",
+      "generated_at": "2026-09-04T23:47:20.709763+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:20 +0000"
+    },
+    {
+      "id": "fenland-news-2b8a24402ed0ceaf00bd0f7a",
+      "headline": "RAF memorial sign vandalised in Spalding",
+      "brief": "A memorial sign dedicated to the RAF in Spalding has been targeted by vandals. The site was defaced with Nazi swastikas. Police are investigating the incident.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlTkh1bW1NQlJsaTFZX1J1aWphTnd1VEszaThmdzVQMDc0UHpsU09HVjR3dTJid2NNUzd5TlNfVktXOVRSWU1qUGVhVXpJdFQycXpFZ1FBT0lVcWpz?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-03-23T07:00:00+00:00",
+      "generated_at": "2026-09-04T23:47:16.339023+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:16 +0000"
+    },
+    {
+      "id": "fenland-news-72213145fa18a7ec8685c1cc",
+      "headline": "Roof collapse at Iceland store in March",
+      "brief": "Emergency services were called to the Iceland supermarket in March following a roof collapse at the premises. Officials have confirmed that no injuries were reported during the incident. The site remains the focus of attention following the structural failure. Further updates will be provided as more information becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96RU5ubExCaEFhQWNfcWNCOUZKQTBha19Qb1FjSVBmWVpkclJHazBSbDJwbmxCUUEzbFdWel94dU1iSUxobm5qWGplSVJmTUJyQVJHbUp2TWVaYjRY?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-07-28T07:00:00+00:00",
+      "generated_at": "2026-09-04T23:47:14.039431+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:14 +0000"
+    },
+    {
+      "id": "fenland-news-a0160da834e80e89b1dd4beb",
+      "headline": "Travel information released for Peterborough versus Sheffield Wednesday match",
+      "brief": "An away fan guide has been published ahead of the upcoming football fixture between Peterborough and Sheffield Wednesday. The document provides essential information for supporters travelling to the game. Fans planning to attend are advised to consult the guide for relevant details regarding their visit.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUjJ1ME5aRFJJd3pPZkRuTzJseENyZzBIaWhEUVBJVUptNTVFOFA5RVR1dUdNZkVzRjNOMFpOWWs4NENrOTlmNVBZZmdrOUlHNEhpN2VsaWJ4U2lNNmZoXzVPV0FGMXkyd0w1Y3hsVXI1SFkzaTVNOEhsNEJEdWE4UktjTkRjcm9DSWFLckR0RkU?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-04T12:29:46+00:00",
+      "generated_at": "2026-09-04T23:47:10.283244+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:10 +0000"
+    },
+    {
+      "id": "fenland-news-4b2a8235dbc6d1d1de46741f",
+      "headline": "Lamp-posts could be used to improve mobile signal in Cambridgeshire",
+      "brief": "Plans are being considered to use street lighting columns to boost mobile phone coverage across Cambridgeshire. According to reports, local lamp-posts could be utilised to host equipment designed to improve signal strength for residents and businesses in the area. \n\nThe proposal aims to address connectivity issues by repurposing existing infrastructure. Further details on how this technology might be implemented across the county are expected as the project develops.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KZG5rQTZMeGNiYk91X3hWYlZHNlVwcEpKcEY5dERIWjliU2NLMTBpYUllSzF1NEtHb1E2WTh3Q0VSMUdtbkllQTZHMnFmS1IyWlo2OWh1TjBOLXkz?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-02T05:01:40+00:00",
+      "generated_at": "2026-09-04T23:47:07.832691+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:07 +0000"
+    },
+    {
+      "id": "fenland-news-9ef9b12fbdcd535104757fa3",
+      "headline": "Breast screening appointments open in Long Sutton",
+      "brief": "The United Lincolnshire Teaching Hospitals NHS Trust has announced that breast screening appointments are currently available in Long Sutton. Residents eligible for screening are encouraged to take advantage of the local availability. Further details regarding the service can be obtained directly through the NHS Trust.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPajFsbTlzbFRCRUFBcC1lVkVPOG90V0ltZTZkMXo3RVhjckdNdlNsXzNacFlDbHF6NFc4WHdRaGtyVnc4MXBQa01ocXlYQVlaaExiMTBpQmxDNjdzcUUwMmoxejlPMkNVNkRRNTJILWJaalB5LVZQRmhrZS16eE9zS1ZNN2JkWVhvMEhlbE9n?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-11-19T08:00:00+00:00",
+      "generated_at": "2026-09-04T23:47:05.405491+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:05 +0000"
+    },
+    {
+      "id": "fenland-news-56e4c6c8348d1152e630ba24",
+      "headline": "Fire crews tackle vehicle blaze in Wisbech",
+      "brief": "Firefighters were called to Onyx Court in Wisbech on Thursday afternoon following reports of two cars on fire. A crew from Wisbech arrived at the scene at 3:29pm to find both vehicles engulfed in flames.\n\nWearing breathing apparatus, the team used hose reels to extinguish the fire. The operation was completed and the crew returned to their station by 4:50pm. Officials have confirmed that the cause of the blaze was accidental.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/two-cars-caught-alight-in-car-park-9481540/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-04T13:15:41+00:00",
+      "generated_at": "2026-09-04T23:47:02.040791+00:00",
+      "rss_date": "Fri, 04 Sep 2026 23:47:02 +0000"
+    },
     {
       "id": "fenland-news-2916d2a98a85aa6c2afc10ac",
       "headline": "Saxon Pit operator plans appeal following expansion refusal",
