@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T00:44:08.763645+01:00",
-  "updated_display": "Friday 04 September 2026 at 00:44",
+  "updated": "2026-09-04T06:41:55.189732+01:00",
+  "updated_display": "Friday 04 September 2026 at 06:41",
   "date": "2026-09-04",
   "regions": [
     {
@@ -9,7 +9,7 @@
       "condition": "Rain",
       "high_c": 20,
       "low_c": 16,
-      "rain_chance": 94,
+      "rain_chance": 100,
       "wind_kmh": 31
     },
     {
@@ -18,35 +18,35 @@
       "condition": "Rain",
       "high_c": 20,
       "low_c": 15,
-      "rain_chance": 88,
-      "wind_kmh": 32
+      "rain_chance": 100,
+      "wind_kmh": 30
     },
     {
       "zone": "Central Fens",
       "name": "Wisbech, March & central Fenland",
       "condition": "Rain",
       "high_c": 20,
-      "low_c": 15,
-      "rain_chance": 88,
-      "wind_kmh": 30
+      "low_c": 16,
+      "rain_chance": 100,
+      "wind_kmh": 31
     },
     {
       "zone": "Western Fens",
       "name": "Peterborough & Whittlesey",
       "condition": "Rain",
-      "high_c": 21,
+      "high_c": 20,
       "low_c": 16,
-      "rain_chance": 69,
+      "rain_chance": 100,
       "wind_kmh": 28
     },
     {
       "zone": "Southern Fens",
       "name": "Ely, Chatteris & southern Fens",
       "condition": "Drizzle",
-      "high_c": 21,
-      "low_c": 15,
-      "rain_chance": 71,
-      "wind_kmh": 32
+      "high_c": 20,
+      "low_c": 16,
+      "rain_chance": 100,
+      "wind_kmh": 31
     }
   ]
 }
