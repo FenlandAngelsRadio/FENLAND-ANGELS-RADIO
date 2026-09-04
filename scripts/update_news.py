@@ -6,7 +6,7 @@ from html.parser import HTMLParser
 from email.utils import parsedate_to_datetime
 
 BASE_URL = "https://fenlandangelsradio.github.io/FENLAND-ANGELS-RADIO"
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.1-flash-lite"
 MAX_NEW_STORIES_PER_RUN = 8
 SOURCES = [
     {"name": "Lynn News", "feed": "https://www.lynnnews.co.uk/_api/rss/kings_lynn_news_feed.xml"},
