@@ -1,61 +1,393 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Weather Across The Fens from Fenland Angels Radio - The Sound of the Fens.">
+
   <title>Weather Across The Fens | Fenland Angels Radio</title>
-  <link rel="alternate" type="application/rss+xml" title="Fenland Angels Radio Weather RSS" href="weather.xml">
+
+  <meta
+    name="description"
+    content="Weather Across The Fens from Fenland Angels Radio — The Sound of the Fens."
+  >
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Fenland Angels Radio Weather RSS"
+    href="weather.xml"
+  >
+
   <link rel="stylesheet" href="assets/weather.css">
 </head>
+
 <body>
-  <main class="wrap">
-    <header class="hero">
-      <p class="eyebrow">FENLAND ANGELS RADIO</p>
-      <h1>Weather Across The Fens</h1>
-      <p class="tagline">The Sound of the Fens</p>
-      <p class="updated" id="updated">Forecast updates automatically each morning.</p>
+
+  <div class="page-shell">
+
+    <header class="station-header">
+
+      <a class="station-brand" href="index.html">
+
+        <img
+          src="fenland-angels-radio-logo.jpg"
+          alt="Fenland Angels Radio"
+        >
+
+        <div>
+          <strong>FENLAND ANGELS RADIO</strong>
+          <span>THE SOUND OF THE FENS</span>
+        </div>
+
+      </a>
+
+
+      <nav class="subpage-nav" aria-label="Main navigation">
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="news.html">
+          News
+        </a>
+
+        <a class="active" href="weather.html">
+          Weather
+        </a>
+
+        <a class="listen" href="index.html#home">
+          🎧 Listen Live
+        </a>
+
+      </nav>
+
     </header>
 
-    <section class="intro">
-      <p>A regional outlook using representative forecast points across the northern, eastern, central, western and southern Fens.</p>
-    </section>
 
-    <section id="forecast" class="grid" aria-live="polite">
-      <article class="card"><h2>Forecast loading</h2><p>The first automatic update will populate this page.</p></article>
-    </section>
+    <main class="wrap">
 
-    <footer>
-      <p>Fenland Angels Radio • Independent Music • Local Voices • Community</p>
-      <p><a href="weather.xml">Weather RSS feed</a></p>
+      <section class="weather-hero">
+
+        <div class="weather-hero-copy">
+
+          <div class="live-label">
+            <span></span>
+            FENLAND ANGELS WEATHER
+          </div>
+
+          <p class="kicker">
+            REGIONAL FORECAST • ACROSS THE FENS
+          </p>
+
+          <h1>
+            Weather Across<br>
+            <span>The Fens</span>
+          </h1>
+
+          <p class="strap">
+            Regional weather information for communities across
+            King's Lynn, Wisbech, March, Chatteris, Whittlesey,
+            Spalding, Ely, Peterborough and the surrounding Fens.
+          </p>
+
+        </div>
+
+
+        <div class="weather-hero-panel">
+
+          <div class="panel-icon">
+            🌦️
+          </div>
+
+          <strong>
+            TODAY'S OUTLOOK
+          </strong>
+
+          <h2>
+            Local weather for the whole Fenland region
+          </h2>
+
+          <p id="updated">
+            Forecast updates automatically each morning.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <section class="forecast-heading">
+
+        <div>
+
+          <p class="kicker">
+            REGIONAL WEATHER
+          </p>
+
+          <h2>
+            Today's Forecast
+          </h2>
+
+        </div>
+
+        <span class="updated-badge">
+          ● AUTOMATICALLY UPDATED
+        </span>
+
+      </section>
+
+
+      <section
+        id="forecast"
+        class="forecast-grid"
+        aria-live="polite"
+      >
+
+        <article class="weather-card loading-card">
+
+          <h2>
+            Forecast loading
+          </h2>
+
+          <p>
+            The latest regional weather is being loaded.
+          </p>
+
+        </article>
+
+      </section>
+
+
+      <section class="weather-info">
+
+        <span>
+          ℹ️
+        </span>
+
+        <p>
+          Fenland Angels Radio uses representative forecast points
+          across the northern, eastern, central, western and southern
+          Fens to provide a regional weather outlook.
+        </p>
+
+      </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+      <div>
+        <strong>
+          FENLAND ANGELS RADIO
+        </strong>
+
+        <span>
+          Independent Music Radio Community
+        </span>
+      </div>
+
+
+      <div class="footer-centre">
+        THE SOUND OF THE FENS
+      </div>
+
+
+      <div>
+        <a href="index.html">
+          Home
+        </a>
+
+        <a href="news.html">
+          News
+        </a>
+
+        <a href="weather.xml">
+          Weather RSS
+        </a>
+      </div>
+
     </footer>
-  </main>
+
+  </div>
+
 
   <script>
+
     fetch('weather-data.json?ts=' + Date.now())
-      .then(r => r.json())
+
+      .then(response => response.json())
+
       .then(data => {
+
         document.getElementById('updated').textContent =
           'Updated ' + (data.updated_display || data.updated || '');
-        const forecast = document.getElementById('forecast');
+
+        const forecast =
+          document.getElementById('forecast');
+
         forecast.innerHTML = '';
-        (data.regions || []).forEach(r => {
-          const card = document.createElement('article');
-          card.className = 'card';
+
+        (data.regions || []).forEach((region, index) => {
+
+          const card =
+            document.createElement('article');
+
+          card.className =
+            'weather-card';
+
           card.innerHTML = `
-            <p class="zone">${r.zone}</p>
-            <h2>${r.name}</h2>
-            <p class="condition">${r.condition}</p>
+
+            <div class="weather-card-top">
+
+              <span class="region-number">
+                ${String(index + 1).padStart(2, '0')}
+              </span>
+
+              <span class="zone">
+                ${region.zone}
+              </span>
+
+            </div>
+
+
+            <div class="weather-icon">
+              ${weatherIcon(region.condition)}
+            </div>
+
+
+            <h2>
+              ${region.name}
+            </h2>
+
+            <p class="condition">
+              ${region.condition}
+            </p>
+
+
             <div class="stats">
-              <span><strong>${r.high_c}°C</strong><small>High</small></span>
-              <span><strong>${r.low_c}°C</strong><small>Low</small></span>
-              <span><strong>${r.rain_chance}%</strong><small>Rain</small></span>
-              <span><strong>${r.wind_kmh} km/h</strong><small>Wind</small></span>
-            </div>`;
+
+              <span>
+                <strong>
+                  ${region.high_c}°C
+                </strong>
+                <small>
+                  High
+                </small>
+              </span>
+
+              <span>
+                <strong>
+                  ${region.low_c}°C
+                </strong>
+                <small>
+                  Low
+                </small>
+              </span>
+
+              <span>
+                <strong>
+                  ${region.rain_chance}%
+                </strong>
+                <small>
+                  Rain
+                </small>
+              </span>
+
+              <span>
+                <strong>
+                  ${region.wind_kmh}
+                </strong>
+                <small>
+                  km/h Wind
+                </small>
+              </span>
+
+            </div>
+
+          `;
+
           forecast.appendChild(card);
+
         });
+
       })
-      .catch(() => {});
+
+      .catch(() => {
+
+        document.getElementById('forecast').innerHTML = `
+
+          <article class="weather-card loading-card">
+
+            <h2>
+              Weather temporarily unavailable
+            </h2>
+
+            <p>
+              Please try again shortly.
+            </p>
+
+          </article>
+
+        `;
+
+      });
+
+
+    function weatherIcon(condition = '') {
+
+      const text =
+        condition.toLowerCase();
+
+      if (
+        text.includes('thunder')
+      ) {
+        return '⛈️';
+      }
+
+      if (
+        text.includes('snow') ||
+        text.includes('sleet')
+      ) {
+        return '🌨️';
+      }
+
+      if (
+        text.includes('rain') ||
+        text.includes('drizzle') ||
+        text.includes('shower')
+      ) {
+        return '🌧️';
+      }
+
+      if (
+        text.includes('fog') ||
+        text.includes('mist')
+      ) {
+        return '🌫️';
+      }
+
+      if (
+        text.includes('cloud')
+      ) {
+        return '☁️';
+      }
+
+      if (
+        text.includes('clear') ||
+        text.includes('sun')
+      ) {
+        return '☀️';
+      }
+
+      return '🌤️';
+
+    }
+
   </script>
+
 </body>
+
 </html>
