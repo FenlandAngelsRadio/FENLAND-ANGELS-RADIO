@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-09-04T23:47:20.709898+00:00",
+  "updated_at": "2026-09-05T05:47:15.544722+00:00",
   "stories": [
+    {
+      "id": "fenland-news-abdd3df6e8919da946d2097f",
+      "headline": "Olive growing trial underway in the Fens",
+      "brief": "A local man is attempting to cultivate olives using traditional Italian methods. The project, which has been highlighted by the BBC, sees the grower applying Mediterranean techniques to the unique environment of the Fens. Further details regarding the specific location or the scale of the olive grove have not been disclosed.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uUzFuN1QxZS1jcGtRdXY3ZVB1R184Z0pxVnlwSDEtUlF1LVRNMU1TOWt5OFg3Um9Nb01zWTdENEN3ekpyNDN5TVk4dVJZTGVwY0cwN1VlcU1vU0RC?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-12-16T08:00:00+00:00",
+      "generated_at": "2026-09-05T05:47:15.544571+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:47:15 +0000"
+    },
+    {
+      "id": "fenland-news-a9c7196278ca024ee8582273",
+      "headline": "Burglar jailed after crime spree across 15 villages",
+      "brief": "A burglar has been sentenced to time in prison following a series of offences committed across 15 villages. Cambridgeshire Constabulary confirmed the outcome after the individual was linked to the crime spree. No further details regarding the specific locations or the length of the sentence have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSkFJWEpPa1BDS0laN0dvMzY3VmF4dWNaLWNBRl9TcmUyNUVNaWJYeDVQTVh4VnRPc3A1c1N3cE9hM0FSU2FvS0dYMFR3Njlfd2JuSFc0eXFteVVZaWNXbUJaUkJDblI3bzgwN0RUd2tfZkwxZkM5aWdmcGNfbFBhUE5wYXZubHpqZy15dE1EamlZM1JNTzZpRDRzWVM4cGFNSDFjVi1YX1I3c0NXVldPN01KVmo5VzMySHhSeQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-03-17T07:00:00+00:00",
+      "generated_at": "2026-09-05T05:47:12.405285+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:47:12 +0000"
+    },
+    {
+      "id": "fenland-news-8d40042ccbf97ca4c13c0862",
+      "headline": "King’s Lynn man fined for stalking and assault",
+      "brief": "A 49-year-old man from Fairstead has been fined after admitting to stalking his partner and assault. Antonio Vaz, of Beechan Drive, placed a tracking and recording device inside the woman’s handbag last October, which allowed him to monitor her movements and conversations for several months. The victim discovered the device on March 6 and contacted the police. \n\nVaz also pleaded guilty to assault by beating following an argument in February where he pushed the woman to the floor. At Lynn Magistrates’ Court on Thursday, Vaz was ordered to pay a total of £1,227 in fines, costs, and a victim surcharge. The victim stated that the incidents have left her feeling traumatised.",
+      "original_url": "https://www.lynnnews.co.uk/news/stalker-fined-after-he-installed-tracking-device-in-partner-9481371/",
+      "source": "Lynn News",
+      "published": "2026-09-05T05:00:00+00:00",
+      "generated_at": "2026-09-05T05:47:07.780635+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:47:07 +0000"
+    },
+    {
+      "id": "fenland-news-38139a7b8b8fabafd63442e5",
+      "headline": "New campaign launched to tackle fly-tipping",
+      "brief": "A new initiative titled 'Love where you live' has been launched in an effort to reduce fly-tipping. The campaign aims to encourage residents to take better care of their local environment and discourage the illegal dumping of waste. Further details on how the scheme will operate across the region have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYZlhkLTkwVUNOMlZWV2tQV2dFYm5sTENoU0MyXzFKOElpZUlqZUNJajNXM1FtR1ZuRTFpRHBPR3VkTzNIanA5b0FoT3BHSGdRdC1DZkZhcG5oUGhy?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-05T05:24:22+00:00",
+      "generated_at": "2026-09-05T05:47:05.922807+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:47:05 +0000"
+    },
+    {
+      "id": "fenland-news-1ba5b3f9c93ed51590c4efb7",
+      "headline": "New measures introduced to combat anti-social driving in East Cambridgeshire",
+      "brief": "Cambridgeshire Constabulary has launched new powers aimed at tackling anti-social driving across East Cambridgeshire. The initiative is designed to address concerns regarding vehicle-related nuisance in the local area. Police have confirmed these measures are now in effect to help manage and reduce such behaviour on the roads. Residents are encouraged to report incidents of anti-social driving to the force to assist with ongoing efforts to improve road safety and community standards.",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQjV0RTJxMF9MTjdEU3Z1czJyN3VUWmp5VjFDT20zWHZmem5wbGJpeDVJWE9YNU1IM0J5YkEzTG82dzB5SG5kSW0xNVJ2YVhTRTc2SWM2dXZ0dmJQbDZnSlVicjZoZFZtdHJKMjMwa3ZJRENGMDBrMGtXMGxCWjZiMzRLYVhDai1BVjctaFA1VlNCdER1TTZjTXZoX3NiUHM3dmJzM01oWlc2cHBWa29OMktXczRqSlBzR2tsQmRna1RTeTdYVGQxdw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-08-24T11:45:00+00:00",
+      "generated_at": "2026-09-05T05:47:02.730738+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:47:02 +0000"
+    },
+    {
+      "id": "fenland-news-d759d14918e83b83098c2b77",
+      "headline": "Nearly 90 dogs seized from Spalding property",
+      "brief": "Authorities have removed almost 90 dogs from a property in Spalding. The animals were seized over the weekend following an operation at the site. No further details regarding the circumstances of the seizure or the current condition of the animals have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzZrTVpsZlZaUktPR0JWMTZIODJmUkU0SWxzenhUNmgtdk9vbVdNY2JJOWh4empEWTktczA2a181dDRKMmo0ci15T1BXOXVtWUVoelZrYm5fOEhYa1ZWRDlpYVlzOHJ4SV9xZ0JFeFBWSkpUVktwWThwMTRfbW9sNnRBUVRvV1dSV1dXZ2hmWmc0WGlTVjN4VElQV1pJd3VhSkVhNFdzYkROdw?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-06-29T07:00:00+00:00",
+      "generated_at": "2026-09-05T05:46:59.949449+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:46:59 +0000"
+    },
+    {
+      "id": "fenland-news-633dff96a3de36aeecffef60",
+      "headline": "Kitten rescued in Chatteris",
+      "brief": "A kitten has been rescued in Chatteris after an incident described as resembling a prison escape attempt. The young cat was saved following an abseil operation. No further details regarding the circumstances of the rescue or the current condition of the animal have been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAycUxUNUVEd1BHWVVjeEMwQmc3RlR3VW1iY0p2eGdUNEcta2dpVE13V19KWm1ySXFkMzdTbzhDQTlHazgwNnEtWFJSX3VldTQzcThMRS1Jd0psUQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-18T07:00:00+00:00",
+      "generated_at": "2026-09-05T05:46:57.230932+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:46:57 +0000"
+    },
+    {
+      "id": "fenland-news-9f5600df81ce5ab76d27b53a",
+      "headline": "North Lynn man sentenced after driving while disqualified",
+      "brief": "A 53-year-old man from North Lynn has been sentenced after being caught speeding while already banned from the roads. Kwok Wai Ho of Birchwood Street was spotted by police travelling at 58mph in a 30mph zone on Grimston Road in South Wootton on August 23. He failed to stop immediately when signalled by officers.\n\nAppearing at Lynn Magistrates’ Court, Wai Ho admitted to driving while disqualified, failing to stop for police, and driving without insurance. He claimed he was unaware of his existing six-month ban, which had been issued in July. Magistrates have now extended his disqualification by a further 11 months and ordered him to complete 170 hours of unpaid work, alongside paying court costs and a victim surcharge.",
+      "original_url": "https://www.lynnnews.co.uk/news/disqualified-driver-caught-speeding-days-after-receiving-ban-9481345/",
+      "source": "Lynn News",
+      "published": "2026-09-05T05:00:00+00:00",
+      "generated_at": "2026-09-05T05:46:52.846314+00:00",
+      "rss_date": "Sat, 05 Sep 2026 05:46:52 +0000"
+    },
     {
       "id": "fenland-news-6c13efe4aa5debba4a864211",
       "headline": "Concerns raised over potential service cuts at QEH",
