@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenland Angels Radio | Presenter Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="dashboard">
+
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">FENLAND ANGELS RADIO</p>
+        <h1>Presenter Dashboard</h1>
+        <p class="tagline">The Sound of the Fens</p>
+      </div>
+
+      <div class="status-wrap">
+        <span id="statusDot" class="status-dot"></span>
+        <span id="dataStatus">Demo data</span>
+      </div>
+    </header>
+
+    <section class="clock-card">
+      <p class="label">STATION TIME</p>
+      <div id="clock" class="clock">00:00:00</div>
+      <div id="date" class="date">Loading date…</div>
+    </section>
+
+    <section class="grid">
+
+      <article class="card">
+        <p class="label">NOW PLAYING</p>
+        <h2 id="nowTitle">Fenland Angels Radio</h2>
+        <p id="nowArtist" class="subtext">
+          Waiting for live PlayIt connection
+        </p>
+      </article>
+
+      <article class="card">
+        <p class="label">NEXT</p>
+        <h2 id="nextTitle">Station ID</h2>
+        <p id="nextArtist" class="subtext">
+          Fenland Angels Radio
+        </p>
+      </article>
+
+      <article class="card">
+        <p class="label">NEXT FIXED EVENT</p>
+        <h2 id="fixedName">News / Station ID</h2>
+        <p id="fixedTime" class="subtext">--:--</p>
+      </article>
+
+      <article class="card countdown-card">
+        <p class="label">COUNTDOWN</p>
+        <h2 id="countdown">--:--</h2>
+        <p class="subtext">Until next fixed event</p>
+      </article>
+
+    </section>
+
+    <section class="schedule-card">
+
+      <div class="schedule-head">
+        <div>
+          <p class="label">UPCOMING</p>
+          <h2>Playout Schedule</h2>
+        </div>
+
+        <span class="read-only">READ ONLY</span>
+      </div>
+
+      <div id="upcoming" class="upcoming">
+        <p class="subtext">Waiting for schedule data…</p>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>Fenland Angels Radio • Presenter View</p>
+      <p class="small">
+        No playout controls are available from this dashboard.
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
