@@ -1,0 +1,23 @@
+{
+  "status": "Demo data",
+  "source": "presenter-data.json",
+  "now": {
+    "title": "Fenland Angels Radio",
+    "artist": "Waiting for live PlayIt connection"
+  },
+  "next": {
+    "title": "Station ID",
+    "artist": "Fenland Angels Radio"
+  },
+  "nextFixedEvent": {
+    "name": "News / Station ID",
+    "time": "04:00",
+    "iso": "2026-09-05T04:00:00+01:00"
+  },
+  "upcoming": [
+    { "time": "03:50", "title": "Music / Live Show", "type": "LIVE" },
+    { "time": "04:00", "title": "Time + News + Station ID", "type": "FIXED" },
+    { "time": "04:04", "title": "Presenter Audio Returns", "type": "LIVE" },
+    { "time": "04:30", "title": "Station Break", "type": "FIXED" }
+  ]
+}

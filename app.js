@@ -1,64 +1,101 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const audio = document.getElementById('radioStream');
-  const mainPlay = document.getElementById('mainPlay');
-  const status = document.getElementById('playerStatus');
-  const volume = document.getElementById('volume');
-  const playButtons = document.querySelectorAll('[data-action="play"]');
+const DATA_URL = 'presenter-data.json';
+const REFRESH_MS = 5000;
+let latestData = null;
 
-  function setState(playing) {
-    if (mainPlay) mainPlay.textContent = playing ? '❚❚' : '▶';
-    if (status) status.textContent = playing ? 'LIVE — Fenland Angels Radio' : 'Tap play to listen live';
-    playButtons.forEach(btn => {
-      btn.textContent = playing
-        ? (btn.classList.contains('footer-play') ? 'Pause Fenland Angels Radio' : '❚❚ Pause Live')
-        : (btn.classList.contains('footer-play') ? 'Play Fenland Angels Radio' : (btn.id === 'topListen' ? '🎧 Listen Live' : '▶ Listen Live'));
-    });
-  }
+function updateClock() {
+  const now = new Date();
+  document.getElementById('clock').textContent = new Intl.DateTimeFormat('en-GB', {
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+    timeZone: 'Europe/London'
+  }).format(now);
 
-  async function toggleRadio() {
-    if (!audio) return;
-    try {
-      if (audio.paused) {
-        status.textContent = 'Connecting to live stream…';
-        await audio.play();
-      } else {
-        audio.pause();
-      }
-    } catch (err) {
-      status.textContent = 'Unable to start stream — tap again in a moment';
-      setState(false);
-    }
-  }
+  document.getElementById('date').textContent = new Intl.DateTimeFormat('en-GB', {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+    timeZone: 'Europe/London'
+  }).format(now);
 
-  if (mainPlay) mainPlay.addEventListener('click', toggleRadio);
-  playButtons.forEach(btn => btn.addEventListener('click', toggleRadio));
+  updateCountdown(now);
+}
 
-  if (volume && audio) {
-    audio.volume = Number(volume.value);
-    volume.addEventListener('input', () => {
-      audio.volume = Number(volume.value);
-    });
-  }
+function setStatus(ok, text) {
+  const dot = document.getElementById('statusDot');
+  const label = document.getElementById('statusText');
+  dot.classList.toggle('live', ok);
+  label.textContent = text;
+}
 
-  if (audio) {
-    audio.addEventListener('playing', () => setState(true));
-    audio.addEventListener('pause', () => setState(false));
-    audio.addEventListener('waiting', () => {
-      if (status) status.textContent = 'Connecting to live stream…';
-    });
-    audio.addEventListener('error', () => {
-      if (status) status.textContent = 'Stream unavailable right now';
-      setState(false);
-    });
-  }
+function textOrDash(value) {
+  return value && String(value).trim() ? value : '—';
+}
 
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', event => {
-      const target = document.querySelector(link.getAttribute('href'));
-      if (target) {
-        event.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
+function render(data) {
+  latestData = data;
+  document.getElementById('nowTitle').textContent = textOrDash(data.now?.title);
+  document.getElementById('nowArtist').textContent = textOrDash(data.now?.artist);
+  document.getElementById('nextTitle').textContent = textOrDash(data.next?.title);
+  document.getElementById('nextArtist').textContent = textOrDash(data.next?.artist);
+  document.getElementById('nextBreak').textContent = textOrDash(data.nextFixedEvent?.name);
+  document.getElementById('nextBreakTime').textContent = textOrDash(data.nextFixedEvent?.time);
+  document.getElementById('sourceName').textContent = textOrDash(data.source || DATA_URL);
+
+  const upcoming = document.getElementById('upcoming');
+  upcoming.innerHTML = '';
+  (data.upcoming || []).slice(0, 8).forEach(item => {
+    const row = document.createElement('div');
+    row.className = 'upcoming-row';
+    row.innerHTML = `
+      <div class="upcoming-time">${escapeHtml(item.time || '—')}</div>
+      <div>${escapeHtml(item.title || '—')}</div>
+      <div class="upcoming-type">${escapeHtml(item.type || '')}</div>
+    `;
+    upcoming.appendChild(row);
   });
-});
+
+  if (!upcoming.children.length) {
+    upcoming.innerHTML = '<div class="upcoming-row"><div class="upcoming-time">—</div><div>No upcoming items supplied</div><div class="upcoming-type"></div></div>';
+  }
+
+  setStatus(true, data.status || 'Live data connected');
+}
+
+function updateCountdown(now = new Date()) {
+  const el = document.getElementById('countdown');
+  const time = latestData?.nextFixedEvent?.iso;
+  if (!time) {
+    el.textContent = '--:--';
+    return;
+  }
+
+  const target = new Date(time);
+  const diff = Math.max(0, target.getTime() - now.getTime());
+  const totalSeconds = Math.floor(diff / 1000);
+  const mins = Math.floor(totalSeconds / 60);
+  const secs = totalSeconds % 60;
+  el.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+}
+
+async function loadData() {
+  try {
+    const response = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    render(data);
+  } catch (err) {
+    setStatus(false, 'Using sample/offline data');
+    console.warn('Presenter data unavailable:', err);
+  }
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+updateClock();
+loadData();
+setInterval(updateClock, 1000);
+setInterval(loadData, REFRESH_MS);
