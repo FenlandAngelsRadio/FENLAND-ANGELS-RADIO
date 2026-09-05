@@ -1,4 +1,4 @@
-const DATA_URL = 'presenter-data.json';
+const DATA_URL = 'https://presenter.fenlandangelsradio.co.uk/';
 
 function updateClock() {
   const now = new Date();
