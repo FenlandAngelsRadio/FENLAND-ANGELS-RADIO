@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-05T17:47:14.076748+00:00",
+  "updated_at": "2026-09-05T23:47:24.600248+00:00",
   "stories": [
+    {
+      "id": "fenland-news-adb68e98a3a19ffde36a9173",
+      "headline": "Peterborough United defeated by Sheffield Wednesday",
+      "brief": "Peterborough United have suffered a home defeat against Sheffield Wednesday. The match saw new players introduced to the side, with some receiving ratings of eight out of ten for their performance. Despite the changes made to the squad, the result did not go in favour of the home team.",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVzkxenp4SHpRaEpVQ0ZlRG1pZ2hRdElaWnlMVy1aOG8wSWdIRTQyQXAtdnFRbDV0OG16ajZWT2FNVWNrWTJjMGhsWlhadk9UUXl0V2lWY0xnUkdJTVhlalJtLURBYTRSa04zaWJOODVCSk1pdmJ5YXIydVVfanJYVWZ3T0Y5ZWNqcFhXa2dmWUctcGVwMG5vOF8xRHU2b1IxVHNIVkZxMFNFMlVMUzdGNmJXc0s4UWc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-05T13:40:00+00:00",
+      "generated_at": "2026-09-05T23:47:24.600094+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:24 +0000"
+    },
+    {
+      "id": "fenland-news-6e323a3a0749d79cea2bc7b9",
+      "headline": "Data indicates lower speeds in new 20mph zones",
+      "brief": "Recent reports suggest that motorists are driving more slowly in areas where new 20mph speed limits have been introduced. According to information from the BBC, the implementation of these zones has resulted in a reduction in vehicle speeds. The findings highlight the impact of the lower speed restrictions on local traffic flow.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xRzQ0RWkxQU5hdzdTRDBodVN1V3hrcENRUU15YzhiRHh6UWNTYTlIc2VJZmlpVWVWWmZTQVpMZ01vSC1oM2NQY3VIOFlvdldhRGcwTEtzOHl5LTNa?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-01T05:34:41+00:00",
+      "generated_at": "2026-09-05T23:47:23.619250+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:23 +0000"
+    },
+    {
+      "id": "fenland-news-fc7a8c103c921b6f59a04e57",
+      "headline": "Reform UK candidate wins Long Sutton by-election",
+      "brief": "Reform UK has secured victory in the Long Sutton by-election. The result was reported by LincsOnline following the conclusion of the vote. No further details regarding the turnout or the margin of victory have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWk5sRzJad3BHXy1JRThNcjJOZHY2RmR2dDRPUmYyM3RzS0dJZ3JDbjdpQ1JWbl9ROE41LTZPcVZsTVBBd0k1MExFeGxoQXc5dUJNUlh2a3I3WnByV19TVDF4RnJfR0VINU82bklLS0VmNGRZaTJ4M3FQbkR2cTNyeXJuTzY?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-07-31T07:00:00+00:00",
+      "generated_at": "2026-09-05T23:47:22.614023+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:22 +0000"
+    },
+    {
+      "id": "fenland-news-600a9ae46ccdcfbf534b678e",
+      "headline": "March Armed Forces Fair 2026 expects 20,000 visitors",
+      "brief": "Organisers are preparing for a large turnout at the upcoming March Armed Forces Fair. Up to 20,000 people are expected to attend the event in 2026.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV0RzSXNIT2VqTXVnd1ZFU3ZGWkZUTEx5TUYxODdDTkRKT3NQd2l0ZS15cHlQSzN6eE1La0R4X3dvNGxkX2dJOF9FZzU0Yk5VSEJ1WU9lN1RoSGItNFZyRVFsaWg4QUZZa2dESkRPM3RvNjd4bGxaSDFYMVNzNUtXS1k4VUZnbnF1VHhubWJFNHNWZ0NrT3Vz?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-13T07:00:00+00:00",
+      "generated_at": "2026-09-05T23:47:21.805604+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:21 +0000"
+    },
+    {
+      "id": "fenland-news-c4920d936b332e2791736989",
+      "headline": "Peterborough United show promise despite defensive concerns",
+      "brief": "Peterborough United have made a challenging start to the new League One campaign. While observers suggest the team appears stronger than they were last season, the club’s defensive strategy implemented over the summer has faced criticism. Reports indicate that the coaching staff are now considering a change in formation to address these early issues. Fans will be watching closely to see if tactical adjustments can provide more stability as the season progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQaXBDMksyVVJia1h6NmpVZXhmTFZmMlROempmVHJfLTM0Mmx4Tmt5a2h3REpqbHBTS2t6TE1nWFJqZEYwWEY4MWRNbHl6cDJBWHp6S3U0SWpYWXlIN0hEOENTQ21CWkgzZGVfR09oUnBTZDl3dVZOQ0JpY3FkZExfN1JjUV9nUkUzSTI1RnZfMGc4ZzlVQ0VnSUtyVklkQy1EUnZzMmJQY3EyNkVKWHIyV1J2RjNXbHIzUXRxZkl4d1VnUmpoWW1XYUROUUdUem5LWjhZa1B3TVY3M0IxWkFRTTMyUkdDbHByTVhEajFjNFdSU2pNQ0JKWmtFcW1qbmg5ZkEzVzFUZ0tleFJpSmFVX3NrUWx6LUt5Wk1RcVlPa1Z1M2ZjdUt6QjYtd2JaV3hxcWo4R0hSVk9nNlFZS1V6U0JXU3pJc0Jzcl9nZUFTTVFKbXpLM0FUMEk2RFlGTHNyYTRfT19rU1NWRXdnYmRLRXpTMjc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-05T17:28:00+00:00",
+      "generated_at": "2026-09-05T23:47:21.054247+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:21 +0000"
+    },
+    {
+      "id": "fenland-news-c36f6cd4178d26d273835f7e",
+      "headline": "Update issued regarding migrant housing claims in East Cambridgeshire",
+      "brief": "East Cambridgeshire District Council has provided an update following recent reports concerning the housing of migrants in the area. The local authority addressed claims that individuals were being accommodated within the district. No further details regarding the specific nature of the update or the council's findings have been released at this time. Residents are advised to monitor official council communications for any additional information as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0cwVThXU3hsNnZhNjJQSVZScGlIVmFmandwc2hHbDBocEVrcjQzdnhqa2NiRmpZQTY2WVR2WVM0M1FvX2NFQlp0MWhtcFdRRjJlUHhnc1NCbjYyNDFxaHp2NjNaUDlDb0NmcjJObjE3ZmNMNDdLYUhWU3NPLWlRVDJYWXQ1d0MtT1AyR09MVV9YYzhiNkE?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-02T16:00:00+00:00",
+      "generated_at": "2026-09-05T23:47:19.252788+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:19 +0000"
+    },
+    {
+      "id": "fenland-news-4f40c8d0b0f179376221bed7",
+      "headline": "Fifteen road closures planned across Cambridgeshire this week",
+      "brief": "Motorists travelling across Cambridgeshire are being advised to plan their journeys carefully over the coming days. A total of fifteen road closures are scheduled to take place across the county throughout this week. Drivers are encouraged to check local travel updates before setting off to avoid potential disruption to their routes.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1F3YWNaeWZLVVRFbWFod0tJZ3JRM2lLVlBpNU95akdTX1gyODZiLVRLZTZHcjJaRVU0QW80Q2hibmp5aXhTSDJCWTJwSFVwZk1FRGl5bDI4Y1Rydk1pSXp0YVRVSEhxSkdyZEh0dHJfb3pRbVptNV9udG52TGhUc1Z4RGFCWlJmTHN6ajRjMUpGN1hKUHc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-23T07:00:00+00:00",
+      "generated_at": "2026-09-05T23:47:17.515120+00:00",
+      "rss_date": "Sat, 05 Sep 2026 23:47:17 +0000"
+    },
     {
       "id": "fenland-news-3969816089df36071a206151",
       "headline": "Changes announced for Cambridgeshire bus services",
@@ -930,36 +1000,6 @@
       "published": "2026-09-03T08:44:46+00:00",
       "generated_at": "2026-09-04T00:45:35.359217+00:00",
       "rss_date": "Fri, 04 Sep 2026 00:45:35 +0000"
-    },
-    {
-      "id": "fenland-news-fd0eb0fc7113e30a2be5b211",
-      "headline": "Possible closures of three key units at King’s Lynn’s Queen Elizabeth Hospital discussed",
-      "brief": "Senior leaders at the Norfolk and Waveney University Hospitals Group are discussing the potential closure of accident and emergency, intensive care, and maternity units at the Queen Elizabeth Hospital in King’s Lynn. The hospital, which serves much of Fenland, is currently part of a long-term strategy review for the county’s three flagship hospitals. \n\nThe group stated that no final decisions have been made and any changes would require public consultation. While the hospital is undergoing a £1.4 billion rebuild, local MPs have expressed differing views on the potential service changes. The hospital group maintains that patients in West Norfolk will continue to have access to urgent and emergency care services on-site.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/troubled-hospital-s-accident-and-emergency-intensive-care-a-9481239/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-03T08:52:36+00:00",
-      "generated_at": "2026-09-04T00:45:33.473804+00:00",
-      "rss_date": "Fri, 04 Sep 2026 00:45:33 +0000"
-    },
-    {
-      "id": "fenland-news-e907fd6662a1a0f5a23ed5f5",
-      "headline": "Wisbech incinerator construction continues as planned",
-      "brief": "Construction of the Wisbech incinerator is proceeding according to schedule, eleven months after work began. Current progress includes piling, drainage, and the installation of foundation slabs and walls for the main storage bunker. Two cranes, each approximately 50 metres high, are now visible on the site. Additionally, work has commenced to widen New Bridge Lane.\n\nThe Medworth team confirmed that construction will continue throughout the winter, with structural steel work expected to begin in late 2026. While the project faced significant opposition from local councils and campaign groups during the planning stages, including a failed High Court challenge by Fenland District Council, the construction team states that maintaining site cleanliness and keeping neighbours informed remains a priority.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/work-on-incinerator-progresses-according-to-plan-since-con-9481258/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-03T10:07:45+00:00",
-      "generated_at": "2026-09-04T00:45:31.235369+00:00",
-      "rss_date": "Fri, 04 Sep 2026 00:45:31 +0000"
-    },
-    {
-      "id": "fenland-news-a53cc5654b34b315e3cf9747",
-      "headline": "Wisbech cinema announces ticket price cuts for National Cinema Day",
-      "brief": "The Light Cinema in Wisbech is reducing ticket prices to £3 for all films throughout this coming weekend. The offer, which runs all day on both Saturday and Sunday, is being held to mark National Cinema Day. \n\nThe schedule includes screenings of Cars, Coyote vs. ACME, and Insidious: Out of the Further, alongside a variety of other titles. Residents are encouraged to visit the cinema’s official website to view the full programme and further details regarding the promotion.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/cinema-cutting-its-prices-on-all-tickets-for-every-film-at-w-9481267/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-03T10:21:46+00:00",
-      "generated_at": "2026-09-04T00:45:29.206155+00:00",
-      "rss_date": "Fri, 04 Sep 2026 00:45:29 +0000"
     }
   ]
 }
