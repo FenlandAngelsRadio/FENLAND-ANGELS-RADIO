@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-09-10T05:50:05.094754+00:00",
+  "updated_at": "2026-09-10T11:49:37.817614+00:00",
   "stories": [
+    {
+      "id": "fenland-news-96de94d687f5e9855a22f01a",
+      "headline": "Historic Fenland venues open doors for Heritage Open Days",
+      "brief": "Residents across the Fens are invited to explore local history as part of the annual National Heritage Open Days. Over the next two weekends, various sites in Wisbech and March will offer free public access and guided tours.\n\nIn March, visitors can view the railway station heritage room or the Masonic Centre. Wisbech venues participating include Peckover House, the Town Hall, and the Fenland Museum. Other highlights include tours of the Tydd Pumping Station, the General Cemetery, and the St Peter and St Paul Church. Opening times and dates vary by location, with events running across September 12, 13, 19, and 20. Full details on specific opening hours for each venue are available through local listings.",
+      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/discover-historic-venues-in-fenland-across-two-weekends-as-p-9482193/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-10T08:30:32+00:00",
+      "generated_at": "2026-09-10T11:49:37.817410+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:37 +0000"
+    },
+    {
+      "id": "fenland-news-12e9d389bb57bf0aa86a5c38",
+      "headline": "King’s Lynn parkrun celebrates 15th anniversary",
+      "brief": "Hundreds of people gathered at The Walks in King’s Lynn this weekend to mark the 15th anniversary of the local parkrun. A total of 430 participants took part in the weekly 5k event, which first launched in September 2011 with just 61 runners.\n\nFollowing the anniversary run, 150 participants took on a 24-hour endurance challenge, completing a combined total of 1,050 miles. Event director Gary Walker thanked the Terrington St Clement Running Club for their volunteer support throughout the weekend. The parkrun remains a free, volunteer-led event open to people of all ages and abilities.",
+      "original_url": "https://www.lynnnews.co.uk/news/hundreds-mark-15-years-of-fantastic-parkrun-and-take-on-9482212/",
+      "source": "Lynn News",
+      "published": "2026-09-10T09:45:28+00:00",
+      "generated_at": "2026-09-10T11:49:34.023981+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:34 +0000"
+    },
+    {
+      "id": "fenland-news-f43721bea2afd1aab1b1b166",
+      "headline": "Students highlight local benefits of ARU Peterborough",
+      "brief": "Students at ARU Peterborough have reported that the university is providing new opportunities closer to their homes. According to reports, those attending the institution feel that having the facility in the city has made higher education more accessible. The feedback suggests that the presence of the university is helping local learners pursue their academic goals without the need to travel further afield.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OSVhFMnMtTmdIcTFhVVQ0cmpYVUx3VG5mU0hhbENKWk4wNWEwX2xLM1BmRUVzWWR1NUFCR1dVS1NWTzNrVUNTVmtaY0dCYW9BTzBNY1h5V0ZtS2Vt?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-10T05:25:20+00:00",
+      "generated_at": "2026-09-10T11:49:30.032582+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:30 +0000"
+    },
+    {
+      "id": "fenland-news-9254e8e9ff1ae5c9c3a544c4",
+      "headline": "Changes announced for number 31 bus services",
+      "brief": "Passengers using the number 31 bus service are being warned of upcoming changes to their journeys. According to reports from the Ely East Cambridgeshire News, the service is facing a shake-up that will include alterations to existing timetables. In addition to these scheduling adjustments, some bus stops are set to be dropped from the route. Commuters are advised to check for updated information regarding their specific stops and travel times before planning their journeys.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTBDTFNHcmlHenVhbS1vVDYtd3VmT0cyX0g5VDFFN1NxdlJwZEh1V0dNcUkwY2h1U04ySVhIa3lGV3Ayd1VfcVNxcEJYdmIzdmI3WG9VTUNaRnh3OEloNXVJQjByNlNjLVBtM0Jfcnh3SzJTbU83NEpqdkJPSnZicmlHbi15WjlpWnN5T1JoVdIBlAFBVV95cUxQdnZxWHFyZVJvcHVIbXZMeGJuak5ZUV9SdnozQlRaOEE2YzBlX2V1VUttV08xTk16dU1sZEtsWTg5SWc2Vk1ndkIwN2lVSUIxdWZsZ0JoNWVRZk9YMmZpdmc4QkRxVXdVdXVKSk5nbUhYdG5qLXFuMmpKam9EQXRSektWUGpMOFJlT1VJSFIxcFNZcFJG?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-10T05:00:00+00:00",
+      "generated_at": "2026-09-10T11:49:28.330277+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:28 +0000"
+    },
+    {
+      "id": "fenland-news-01d81c594fd2c05d84f34823",
+      "headline": "Lincolnshire family shares diagnosis story",
+      "brief": "A family in Lincolnshire has spoken out after a relative received a serious medical diagnosis. Relatives initially believed the man was suffering from seasonal blues before his condition was identified. The story, reported by Lincolnshire Live, highlights the family's experience following the unexpected health news.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcnJkZTN1aGFiYnAyVTk1bHNRYkxzQTJMNC1WTXlQYkUzS05lNnR1Sm0xNWFWZUFzelNSYklGZExybFk5TFZ1M3g1bDF4THJGMXY5TS1ER0tvb3dpVzdfSkZodFExT1l0UjlDS0pxNGdJRE44eFRvOU1nWFdRcWxkbUktbWFwWDVjOTRsSE9ZZm9tNGZ4bFRybXdnTkN2R3JPZGfSAacBQVVfeXFMUGNHU3Y0b0ZLeDczNHZvN3FSa0lsYmw1T2owalAxV3MwZ092OTRPS2Y4UzBFOXNZVnB6QTVOcng5QmhGNWY5aXNzRkxQX1FkNnVYc2FVS21kSmpDWFltWW5mT3FuejdrRkt1Y3FGZUFFQXNSdEFGWkMzSVlOQWdzc0tvVWk0ajdWVmZYZEMtd2VNd2QtemE5Q2d0NVlzcGZZU3ZjbXF4Vzg?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-05-15T07:00:00+00:00",
+      "generated_at": "2026-09-10T11:49:25.935356+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:25 +0000"
+    },
+    {
+      "id": "fenland-news-ce6452fc230a2980f2982e8e",
+      "headline": "Concerns raised over proposed energy plant in Chatteris",
+      "brief": "Residents in Chatteris have expressed concerns regarding a proposed energy plant for the town. Local reports indicate that fears have been raised about the potential for unpleasant odours resulting from the development. No further details regarding the planning application or the nature of the facility have been confirmed at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGVKNWpkYkhkNjNZYlJnQ1BGS2xmVVVnZGNLRWk2T2RiLTNfV2NsY1Z0R0V5eXEtbEgwZ2lUMEVmbm5OTlg2SjhqRHdVT29GVUs0eVpSekZFX1BEMjJYQy1xSW5fSjd3VjQ2eGlmbVN6S1NwN3Qwa3BwRVVhN2t4NmNhTWZHclJFODZweDl2WdIBlAFBVV95cUxOaENKZVFhMHB2cnlYcndTdWpxeXpQZ3ZvZXd4XzNnM2ozaFhSdFFUNjVIZDFkZGdVMXNGMGZIdzROV1NfSmlUSERpY1NCVEFqMi1KVVVFelEwcEpOYkxUUjBMUzJJWFdJdWJYUkJvTVhqSGdiVzZXTU5YZ0llaWtUbUNSQTRXX1RUR0FyeTM4bUoyVU5V?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-06T13:00:00+00:00",
+      "generated_at": "2026-09-10T11:49:23.220318+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:23 +0000"
+    },
+    {
+      "id": "fenland-news-7e218c5895d97e086df619d7",
+      "headline": "Changes proposed for Fenland bus services",
+      "brief": "Plans to alter 31 bus routes across Cambridgeshire have been presented to the Combined Authority’s transport committee. The report, titled “Bus Services Reimagined,” includes proposals to redesign services 56 and T7 in Fenland. Officials state these changes would improve connections between March and Wisbech by offering earlier and later journeys, alongside increased weekend availability. Additionally, timetables for services 46 and 50 may be adjusted, affecting routes through Chatteris and villages near Wisbech.\n\nThe committee met on Wednesday to discuss the recommendations, which include various timetable changes and stop removals. If the Combined Authority’s board approves the proposals, the first stage of the new bus network is scheduled to begin in February 2027.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/plans-to-reimagine-bus-services-9482211/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-10T09:44:26+00:00",
+      "generated_at": "2026-09-10T11:49:20.974871+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:20 +0000"
+    },
+    {
+      "id": "fenland-news-424d8c8d0f6efc2b759faec2",
+      "headline": "Debate continues over Norfolk County Council ward funding cuts",
+      "brief": "Norfolk County Council’s Reform leadership is facing criticism following the decision to scrap the local members’ fund in June. The £924,000 pot previously allowed councillors to spend £11,000 each on local highways improvements. Liberal Democrat councillor Rob Colwell, who represents Gaywood North, highlighted the impact of the cuts by showcasing a recently completed £3,000 project to install safety bollards outside Churchill Park Academy.\n\nHowever, cabinet member for highways and transport, Tom Dickerson, has defended the move. He stated that centralising the budget allows the council to prioritise essential road maintenance, such as fixing potholes. He added that other funding remains available for smaller local schemes, and the change is intended to provide better value for money across the county.",
+      "original_url": "https://www.lynnnews.co.uk/news/reform-under-fresh-fire-for-scrapping-ward-funding-as-counci-9482237/",
+      "source": "Lynn News",
+      "published": "2026-09-10T11:18:44+00:00",
+      "generated_at": "2026-09-10T11:49:15.711665+00:00",
+      "rss_date": "Thu, 10 Sep 2026 11:49:15 +0000"
+    },
     {
       "id": "fenland-news-5d7ac9115869e4cfe4ec06aa",
       "headline": "Norfolk council reorganisation plans paused by Government",
@@ -920,86 +1000,6 @@
       "published": "2026-04-14T07:00:00+00:00",
       "generated_at": "2026-09-06T23:47:04.121812+00:00",
       "rss_date": "Sun, 06 Sep 2026 23:47:04 +0000"
-    },
-    {
-      "id": "fenland-news-944cea200fb0a3c9f776ae36",
-      "headline": "Data indicates slower speeds in new 20mph zones",
-      "brief": "Recent reports suggest that motorists are reducing their speed in areas where new 20mph limits have been introduced. According to information from the BBC, the implementation of these zones has resulted in a measurable decrease in vehicle speeds. The findings indicate that the lower speed restrictions are having an impact on driver behaviour in the affected locations.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nWEVCdGJ6V2VRZGV1WkNRNWRybG8zN0wyZEJ6eUxzN2VYQ2xnYWo5b2E4TjVsbHZWenN2bXpjV2RzdnVuYkhqLW1TT09IU1RhRjZ5SFZiLVp5dw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-01T05:34:41+00:00",
-      "generated_at": "2026-09-06T23:47:02.467796+00:00",
-      "rss_date": "Sun, 06 Sep 2026 23:47:02 +0000"
-    },
-    {
-      "id": "fenland-news-c284eb846c55fd23eaaa0d16",
-      "headline": "Long Sutton farm begins olive production",
-      "brief": "A farm in Long Sutton is now growing olives. Reports indicate that the Lincolnshire business is utilising changing climate conditions to cultivate the crop.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43cEgxTGdPS2gzRVZKVFNBUG9vbzVhOWdjTmlaRmxpVlYtODcwZ25CbWQ2dXV3T1dqRmRUdi1ONXUtTTRMd2RaemNady1kUk8ydTNieXBnUnBKZw?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-12-16T08:00:00+00:00",
-      "generated_at": "2026-09-06T23:47:01.428431+00:00",
-      "rss_date": "Sun, 06 Sep 2026 23:47:01 +0000"
-    },
-    {
-      "id": "fenland-news-5dba539e284195fb640cc040",
-      "headline": "Concerns raised over proposed energy plant in Chatteris",
-      "brief": "Residents in Chatteris have expressed concerns regarding a proposed energy plant for the town. Local reports indicate that fears have been raised about potential unpleasant odours resulting from the development. No further details regarding the planning application or the nature of the facility have been confirmed at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaENKZVFhMHB2cnlYcndTdWpxeXpQZ3ZvZXd4XzNnM2ozaFhSdFFUNjVIZDFkZGdVMXNGMGZIdzROV1NfSmlUSERpY1NCVEFqMi1KVVVFelEwcEpOYkxUUjBMUzJJWFdJdWJYUkJvTVhqSGdiVzZXTU5YZ0llaWtUbUNSQTRXX1RUR0FyeTM4bUoyVU5V0gGUAUFVX3lxTE5oQ0plUWEwcHZyeVhyd1N1anF5elBndm9ld3hfM2czajNoWFJ0UVQ2NUhkMWRkZ1Uxc0YwZkh3NE5XU19KaVRIRGljU0JUQWoyLUpVVUV6UTBwSk5iTFRSMExTMklYV0l1YlhSQm9NWGpIZ2JXNldNTlhnSWVpa1RtQ1JBNFdfVFRHQXJ5MzhtSjJVTlU?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-06T13:00:00+00:00",
-      "generated_at": "2026-09-06T23:47:00.550821+00:00",
-      "rss_date": "Sun, 06 Sep 2026 23:47:00 +0000"
-    },
-    {
-      "id": "fenland-news-3bbc660baa2eed538ff577a5",
-      "headline": "Peterborough celebrates Heritage Open Days",
-      "brief": "Peterborough is marking the annual Heritage Open Days event. The celebration invites residents and visitors to explore local history and discover a variety of stories from across the area. The event is part of the national Heritage Open Days programme, which aims to provide public access to historical sites and cultural experiences. Those interested in taking part can find further information through local listings.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNXl3N0R2RXBlTWJEMnBfUmhicFVBdXhvZFhSd1BTdGhDX0VRVUIwQlV6QU5iR2hRb0ZLZlBYWWNsYWE1RUVOZ29KSGFTN2IwVF8xT2ZSYTJOWlcwR1NjSTdhWWdvOWNVWk0tX0dFSk81ZExfcG5pUnpfV2NyTDZEdnM0X09pUGxyaThDaUdzWGl6cjRxak9uM0xia09rRWdabGlfVUlJT2RyajdFeXgxQmVPNlMxaVlTdGFmeEpvLXdOWnc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-06T11:00:00+00:00",
-      "generated_at": "2026-09-06T17:47:38.657245+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:47:38 +0000"
-    },
-    {
-      "id": "fenland-news-cd9d76be889f64b2ca88b243",
-      "headline": "Nineteen road closures planned across Cambridgeshire this week",
-      "brief": "Motorists travelling across Cambridgeshire are being advised to plan their journeys carefully over the coming days. A total of nineteen road closures are scheduled to take place across the county throughout this week. Drivers are encouraged to check their local routes before setting off to avoid potential delays caused by these works. Further details regarding the specific locations and timings of these disruptions can be found via the Ely East Cambridgeshire News website.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdGxJMmJ1MlptZ1h2ZC1yWlB4RVJXVlRucG50bW9MTmVDb0FaajJwOS1JbkhuVFhDS3lWUVd6bFdWblVXZDJpQVVsYVlhTUFkdG51UGtOX0hIcWZ4VUdLUUtQSEJPa0NkZlJpbUE3dlRLVkNYRU4zanlWSEo0bkFJR1RISWhKOUpFWDhUQmwzUVZaVzhNOFFnOA?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-06T15:00:00+00:00",
-      "generated_at": "2026-09-06T17:47:36.949250+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:47:36 +0000"
-    },
-    {
-      "id": "fenland-news-5423608ef1161ce6b49a78f7",
-      "headline": "Fire safety warning following e-scooter battery blaze",
-      "brief": "Fire officials are issuing a safety warning after a house fire was caused by an e-scooter battery. Investigators determined that the blaze was sparked by the use of an incompatible charger with the device. \n\nResidents are being reminded to ensure they only use charging equipment specifically designed for their e-scooters to prevent similar incidents. No further details regarding the location or extent of the damage have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkt0d0oxTkVNSDY1MVNiY0JSbHUtdWdvZEdRa0Q0TFowM1h6SkNTU3dmcWNucWVPZzJqV25zbkNHOHVrTG53MHlTRkxUMV9pUW1lTUNYeUllWlBzVV9YQmlqSWVwYTZXS0xnWVFSY1RPOWZwUFozYmZnS0dmeGU4R21LNWQ4X0NPbWlORXBxRElCYS1ORjY4d2FDdDR1OGxlWU9qWERBS3ZLVWFta1FIMG4wVQ?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-03-06T08:00:00+00:00",
-      "generated_at": "2026-09-06T17:47:35.291269+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:47:35 +0000"
-    },
-    {
-      "id": "fenland-news-2246a55aa1e7cc9860b92763",
-      "headline": "Anglian Water faces potential prosecution over fish deaths",
-      "brief": "Anglian Water may face legal action following a pollution incident that resulted in the deaths of 900 fish. The case is currently being reviewed, with the utility company potentially facing prosecution for the environmental impact. No further details regarding the location or timing of the incident have been released at this stage. We will bring you more on this story as further information becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkNrR2dOTzN6MGM4c3I1U1RILWRIcFNWUEZUNUhNTXlCa2tYV3hkYldiT05VOW4wdVZUTHpxNlZmRmJIT0psSl8yUEE5eHg5ZGRDbkMtb3VMbTlWUmVLRUFEaGVkR283WUNCZ3lJNS11YkN6ODFoSGNmNE02QnR2MkdfT3JpVWtLRTU5Z3FZYnBNaXcybDVlc9IBngFBVV95cUxQaDFXcjZmQVg5andwVVJMaTNjSGtJN0x5ZmpaVHExWnh3UTNFOTM2X1UyRVZHWWhfZmY5ZUkwcURWZnY0d1dFODBDcUxtMlMwTXVVVDVTQndGWkhlUGc3aXVZYldoQ1NTVmlXdXBVOWdkMFRWcDctaU5ENS1oWktkR3M4LWltZ2psYUJrak9WMlprUGV1enphSHllT0MyZw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-06T11:00:00+00:00",
-      "generated_at": "2026-09-06T17:47:10.638218+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:47:10 +0000"
-    },
-    {
-      "id": "fenland-news-be72a59fa45c84b255a28a75",
-      "headline": "Cambridgeshire Police report high volume of domestic abuse calls",
-      "brief": "Cambridgeshire Police have recorded more than 400 reports of domestic abuse within a single month. The figures, highlighted by The Hunts Post, reflect the volume of calls received by the force during that period. Authorities continue to monitor domestic abuse incidents across the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZzNyWnRqUXVyN3czeHV4cUx1SW16N1JiNkxaQXBXOU1ENmRqYmowMjcySjgwN0VSemYtTkJrbllOMjNXZF9IcUNIQkphZV9xZU5DNmYwNHdzN3E2NTRxdUxSc3pMOV9JbjlMcVdtT3hOWHVWZS1pa0x3bkJscE16WlJSYzd5c2tsSXNEX3NDUThRZUVZUkF6OV9lWGRlUnM?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-04T03:30:00+00:00",
-      "generated_at": "2026-09-06T17:47:00.547692+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:47:00 +0000"
     }
   ]
 }
