@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-09T23:47:19.601226+00:00",
+  "updated_at": "2026-09-10T05:50:05.094754+00:00",
   "stories": [
+    {
+      "id": "fenland-news-5d7ac9115869e4cfe4ec06aa",
+      "headline": "Norfolk council reorganisation plans paused by Government",
+      "brief": "Plans to reorganise local government in Norfolk have been put on hold by the Government. The review, which aimed to split the county into three councils, has been paused by Housing Secretary Angela Rayner to ensure the correct process is followed.\n\nLocal representatives have expressed frustration over the move, citing the loss of time and money already invested in the project. Norfolk County Council’s deputy leader, Councillor Robin Hunter-Clarke, says the authority has spent £1.2 million on the process and is calling for the Government to reimburse these costs. While the Government remains committed to the reorganisation, officials expect to provide a further update on the project’s future in the coming months.",
+      "original_url": "https://www.lynnnews.co.uk/news/time-and-resources-now-down-the-drain-as-council-reorganis-9482155/",
+      "source": "Lynn News",
+      "published": "2026-09-10T05:00:00+00:00",
+      "generated_at": "2026-09-10T05:50:05.094615+00:00",
+      "rss_date": "Thu, 10 Sep 2026 05:50:05 +0000"
+    },
+    {
+      "id": "fenland-news-806c8a1c25dbda6adebef817",
+      "headline": "Looking back at West Norfolk headlines from 1986",
+      "brief": "This week we look back at the news from September 1986. Campaigners in Boughton held a silent protest to save their village school during the Best Kept Village Award presentations. Meanwhile, the Portland Arms in South Lynn, previously labelled a local eyesore, was cleared for demolition to make way for an Anglian Water administration block.\n\nElsewhere, fire chiefs saw their request for smoke detectors in council homes rejected due to budget constraints, and concerns were raised regarding cliff erosion in Hunstanton. Additionally, the leaning walnut tree near the South Lynn post office was marked for felling due to safety fears, and American airforce personnel at RAF Sculthorpe were set to undergo mandatory AIDS screening.",
+      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-silent-protest-in-bid-to-save-school-and-ugly-9481554/",
+      "source": "Lynn News",
+      "published": "2026-09-10T05:00:00+00:00",
+      "generated_at": "2026-09-10T05:50:03.076599+00:00",
+      "rss_date": "Thu, 10 Sep 2026 05:50:03 +0000"
+    },
+    {
+      "id": "fenland-news-34637ca14a05da4b7dfc6d98",
+      "headline": "Looking back at past community fundraising efforts in West Norfolk",
+      "brief": "We are taking a look back at charitable events held across West Norfolk during past Septembers. In 2014, King’s Lynn’s Blue Watch firefighters raised over £360 for the Fire Fighters Charity by hosting a car wash. \n\nBy September 2016, several local causes saw significant support. Staff from Goodwins Hall care home in Lynn raised £500 during a nine-kilometre walk for the Alzheimer’s Society. That same month, a Macmillan coffee morning at Knights’ Hill Great Barn collected £911, while a fashion show at Park House Hotel raised £4,250. Additionally, local author Bob Booth donated £750 to the East Anglian Air Ambulance, and a garden open day in Wimbotsham raised £400 for the Macmillan Centre at the Queen Elizabeth Hospital.",
+      "original_url": "https://www.lynnnews.co.uk/news/looking-back-at-firefighters-charity-car-wash-in-2014-and-c-9481542/",
+      "source": "Lynn News",
+      "published": "2026-09-10T05:00:00+00:00",
+      "generated_at": "2026-09-10T05:49:59.904328+00:00",
+      "rss_date": "Thu, 10 Sep 2026 05:49:59 +0000"
+    },
     {
       "id": "fenland-news-d330022182fe642a0e57b460",
       "headline": "Fundraising appeal launched for new school equipment",
@@ -970,36 +1000,6 @@
       "published": "2026-09-04T03:30:00+00:00",
       "generated_at": "2026-09-06T17:47:00.547692+00:00",
       "rss_date": "Sun, 06 Sep 2026 17:47:00 +0000"
-    },
-    {
-      "id": "fenland-news-5fdd672c167a33f9b1ed4f26",
-      "headline": "Japanese knotweed identified in Lincolnshire",
-      "brief": "Reports have confirmed the presence of Japanese knotweed within Lincolnshire. Residents across the Fens are being encouraged to check their local areas to see if they fall within a known hotspot for the invasive plant. Further information regarding the distribution of the species and how to identify potential infestations is available through the latest data provided by LincsOnline.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2RLT1otMW1mVTVicnpPWk0yeGVRNUtvX1lMblVWMTJjQkxlUFl0bkVzR0ZnZjlrSl9GS1FTTm9tS2pKQ1dNRU5rbWdqWUJocUp4WkRYbFhnVDVWRjV4M3NKV1VYMW82WV9XNFVnYTVyRkhzMmFQeUtNcGYwb2t0bEx2UXRlY2s0SzNGU2dwZnRuV1FsM0wxZm54N1RnQ2xfZFZSb05mRDRkSWJTQUgxMQ?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-03-15T07:00:00+00:00",
-      "generated_at": "2026-09-06T17:46:56.956733+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:46:56 +0000"
-    },
-    {
-      "id": "fenland-news-cc07915ad49249128bc45bc9",
-      "headline": "Fire crews rescue dog in Chatteris",
-      "brief": "Firefighters have successfully rescued a dog that became trapped in a barbed wire fence in Chatteris. Emergency crews were called to the scene to free the animal after it became tangled in the wire. No further details regarding the dog's condition or the exact location of the incident have been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jbGdaN1kzbUN6a3J0SzV6T0pxeTZRNGxZR0R6V05jNWJmWFRvMzZxaWtZZDRRUUhZRzNVc1JaNjdjX2R4dHh3cGJhTllkN0tZVmNXYklWbFRFdw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-06T12:57:05+00:00",
-      "generated_at": "2026-09-06T17:46:54.069052+00:00",
-      "rss_date": "Sun, 06 Sep 2026 17:46:54 +0000"
-    },
-    {
-      "id": "fenland-news-e0cb6279152b5c6e7988ed4d",
-      "headline": "Local entrepreneur features on Dragons' Den",
-      "brief": "A former council estate resident has shared their personal journey to the popular BBC television programme, Dragons' Den. The individual detailed their path from their upbringing to appearing before the show's panel of investors. The story, which highlights the entrepreneur's background and career progression, was recently featured by the BBC.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zV1JNZ1oyY0lXRjlvcHFBb2hBY0p5MGNFekt3ZEw3UEFzTDU1dzZvOEppMlFDU2xhRjUwNDVUSXl0eGR6WDZaV0tOd2poakhYaVBKekRkUE82MGZJ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-06T05:03:57+00:00",
-      "generated_at": "2026-09-06T11:47:00.505614+00:00",
-      "rss_date": "Sun, 06 Sep 2026 11:47:00 +0000"
     }
   ]
 }
