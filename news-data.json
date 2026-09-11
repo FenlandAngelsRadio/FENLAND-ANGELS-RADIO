@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-11T11:48:53.221090+00:00",
+  "updated_at": "2026-09-11T17:47:35.886089+00:00",
   "stories": [
+    {
+      "id": "fenland-news-d944ee268234cff475368eab",
+      "headline": "Eight-week road closure near Chatteris",
+      "brief": "A road in Cambridgeshire is set to be closed for two months to allow for essential repairs. The route, located near Chatteris, will remain shut to traffic for the duration of the eight-week project. Motorists are advised to plan their journeys accordingly while the work is carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-02-02T08:00:00+00:00",
+      "generated_at": "2026-09-11T17:47:35.885940+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:35 +0000"
+    },
+    {
+      "id": "fenland-news-e91448c5bffcb7c406825e8d",
+      "headline": "Rail disruption following fatality between Ely and Cambridge North",
+      "brief": "British Transport Police have confirmed that a person has died after being struck by a train between Ely and Cambridge North stations this morning. Officers were called to the tracks at 11:16 am.\n\nAs a result, all train services between King’s Lynn and Cambridge are cancelled until further notice, affecting passengers at Watlington, Downham Market, Littleport, Ely, and Waterbeach. Great Northern Rail expects major disruption to continue until at least 6:00 pm this evening. Passengers are advised to delay travel or allow an extra hour for alternative routes. Enquiries into the circumstances of the incident are ongoing. Anyone in need of emotional support can contact Samaritans at any time by calling 116 123.",
+      "original_url": "https://www.lynnnews.co.uk/news/person-struck-by-train-died-at-scene-police-confirm-9482483/",
+      "source": "Lynn News",
+      "published": "2026-09-11T13:13:37+00:00",
+      "generated_at": "2026-09-11T17:47:33.929213+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:33 +0000"
+    },
+    {
+      "id": "fenland-news-f4ccbab64f89ad7ccfd28c9f",
+      "headline": "Rail disruption near Ely following fatality",
+      "brief": "Train services near Ely are currently facing significant disruption. This follows an incident where a person was struck by a train. Emergency services have attended the scene, and rail lines in the area remain blocked while investigations continue. Passengers are advised to check for the latest travel updates before setting off, as delays and cancellations are expected to affect routes passing through the region. Further information regarding the reopening of the lines will be provided as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iZzB0LV9NRV9tWWNhbDNDMkNELWRtMGhZbFdCUEVMejF3T1RQMms2QVdkWlN0Z2I2eFlaVXhxcDZKbFRaWVM1SGJEQnZtRkpkVFFrUEVVLTRxY3h0?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-11T14:24:48+00:00",
+      "generated_at": "2026-09-11T17:47:27.802312+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:27 +0000"
+    },
+    {
+      "id": "fenland-news-ce79c0e55783e613a9fa2e05",
+      "headline": "Obituary notice for Norman Parnell",
+      "brief": "An obituary has been published for Norman Parnell, a resident of the Fenland area in Lincolnshire. The notice, appearing in the Fenland Citizen, marks the passing of Mr. Parnell in 2026. Further details regarding his life and legacy are available through the Legacy obituary service.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUFFpSU50RUR0ZF9GUWhpdnlNNUhMWDYtQXY1VFM4Q1Rwd1J1NjNpM09YV0F2VGdsNVhlRzdJbU9wZkNoZkJ4TGhDR2xfbHJkRV8xcXQzZndrLWh6SDN4Rm1iVl92bUxYeTFXMmZVU2N3OFZHNE1QY01ZOFB6c3FuVUVYNUx2OGxaTS1wa2RFWU4xeV9MRVdiYlk0OA?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-07-15T07:00:00+00:00",
+      "generated_at": "2026-09-11T17:47:25.326971+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:25 +0000"
+    },
+    {
+      "id": "fenland-news-57a46debbfb5e8decf475254",
+      "headline": "A141 road closures scheduled for this weekend",
+      "brief": "Drivers in the Fens should prepare for disruption on the A141 this weekend. The road is set to close to allow for essential resurfacing and bridge waterproofing works to take place. Motorists are advised to plan their journeys in advance and expect potential delays while these maintenance projects are carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZHV4RF9CQjNwNjQxbkNGT1Z2LTJmaVVWdnBBZGFXNF83X1JKNXBBMlpXZ3hzZ2xXWWF0eVlEZkFLTlhsUHJtelFxUEJoQ3d4MHY5dmtOSmNoMkk4Y3dMTW5kVmFnS250OWZMQ2o1TTI1eVhwa0g3emZDZHZvRU5HMGdDa1dtcmJrQWNiRE9TR2lZTUR1b1E?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-09T03:00:00+00:00",
+      "generated_at": "2026-09-11T17:47:22.099273+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:22 +0000"
+    },
+    {
+      "id": "fenland-news-a29a3d77380da4edfdda4dcc",
+      "headline": "Freshers’ Fair held at College of West Anglia in Wisbech",
+      "brief": "Students at the College of West Anglia’s Wisbech campus have been welcomed to the new academic year with a Freshers’ Fair. The event was designed to introduce learners to college life and the various support services available both on campus and within the wider community.\n\nStalls were hosted by a range of organisations, including local health and wellbeing providers, financial services, and community groups. College officials stated the event highlights the strong partnership between the institution and the Wisbech area. Attendees described the fair as a helpful way to learn about available opportunities and support, with organisers emphasising their commitment to the student experience throughout their time at the college.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/warm-welcome-for-college-students-at-freshers-fair-9482546/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-11T15:48:43+00:00",
+      "generated_at": "2026-09-11T17:47:19.975877+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:19 +0000"
+    },
+    {
+      "id": "fenland-news-19676777dded16f777122dff",
+      "headline": "New industrial units approved for King’s Lynn",
+      "brief": "West Norfolk Council has granted planning permission for seven new metal starter units on Rollesby Road at the Hardwick Industrial Estate in King’s Lynn. The project, led by Downham-based developers Alan Homes Ltd, will occupy 682 square metres of land currently consisting of grass and trees behind the existing Potters building. \n\nWhile Anglian Water raised objections regarding the proximity of their assets to the site, council officers have approved the development for general industrial use. The specific nature of the businesses that will occupy the new units remains to be confirmed.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-units-for-town-s-industrial-estate-approved-9482542/",
+      "source": "Lynn News",
+      "published": "2026-09-11T15:40:01+00:00",
+      "generated_at": "2026-09-11T17:47:16.768648+00:00",
+      "rss_date": "Fri, 11 Sep 2026 17:47:16 +0000"
+    },
     {
       "id": "fenland-news-3ab7d045ba438550b6bce9af",
       "headline": "Free weekly running sessions offered at Wisbech Park",
@@ -930,76 +1000,6 @@
       "published": "2026-09-08T05:00:00+00:00",
       "generated_at": "2026-09-08T05:50:23.661613+00:00",
       "rss_date": "Tue, 08 Sep 2026 05:50:23 +0000"
-    },
-    {
-      "id": "fenland-news-865030365065dd86e63f8f42",
-      "headline": "Whittlesey shop closed following drug concerns",
-      "brief": "Police have closed a shop in Whittlesey due to concerns regarding drug dealing at the premises. Officers took action to shut the business following reports linked to illegal activity. No further details regarding the length of the closure or the specific location of the shop have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2TFQ0NDV3cFo1MXJNY2duWkYycGZLZ09rWUV0dlhpeDlYRG9FS25DaFl2SXlhSnBwTk9XbmJjT3c1R3NfS2FEVDJIUGFjZ3BScEJTeG9Edk9YUUU2?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-08T05:45:16+00:00",
-      "generated_at": "2026-09-08T05:50:20.809410+00:00",
-      "rss_date": "Tue, 08 Sep 2026 05:50:20 +0000"
-    },
-    {
-      "id": "fenland-news-5d0d036c19cc54771dc88f3b",
-      "headline": "Five Cambridgeshire businesses named for underpaying staff",
-      "brief": "The government has publicly identified five businesses based in Cambridgeshire for failing to pay their staff the required legal minimum wage. The names were released following an official review into payroll practices across the region. While the specific identities of the companies have been disclosed by authorities, no further details regarding the scale of the underpayments or the sectors involved have been provided at this time. Residents are advised that the government continues to monitor local employers to ensure compliance with national wage regulations.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYzlCU3NYc0NrN2JGYWM5NFNSVzBjQ0JZa1BCTUNZVDJFUmZhbUd6UlVVNnBvZkxIdUxlTlI0blo5VWdSR3hKaU43NHNBT0dLZktZMkNjODVOVFF1OGlhSHF1OFVEeWdWbW1oYkVpaGNBQVF1cXNSa3R6MjFrajNxWjQyOUlxMmsyZmNHemluamI3MDd1WjBnM3ZFR1RJQ3hNVHFn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-08T03:00:00+00:00",
-      "generated_at": "2026-09-08T05:50:18.904582+00:00",
-      "rss_date": "Tue, 08 Sep 2026 05:50:18 +0000"
-    },
-    {
-      "id": "fenland-news-0471cacac47a8d442512efb8",
-      "headline": "Retired vicar appointed to historic chivalric order",
-      "brief": "A retired vicar has been inducted into the oldest chivalric order in the country. The appointment was reported by the Spalding South Holland News. No further details regarding the identity of the individual or the specific order involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQODgwZThaM1ljejdsQjROd09GSlBqWUU3bUV2bjNwM3N4dEV3dlBqa3o3YkgwR3Z6cGxiTk41M1NNdWlGdU5PZW05cUNsV2FvdlZzbE9mbGtqX1ZsQ0lhM2kwQTBTUmdHYUdXNnBzVEc0MUxOTnBCMTFld0lFLVdCR1FQSE9BSTl1cWNDa1F1eDVUUHc5QnB0LWFKYw?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-04-23T07:00:00+00:00",
-      "generated_at": "2026-09-08T05:50:16.832961+00:00",
-      "rss_date": "Tue, 08 Sep 2026 05:50:16 +0000"
-    },
-    {
-      "id": "fenland-news-bd5ccdba4c24b313c0f00f7f",
-      "headline": "Whittlesey shop closed following drug concerns",
-      "brief": "Police have closed a shop in Whittlesey due to concerns regarding drug dealing at the premises. Officers took action to shut the business following reports linked to the site. No further details regarding the duration of the closure or the specific location of the shop have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2TFQ0NDV3cFo1MXJNY2duWkYycGZLZ09rWUV0dlhpeDlYRG9FS25DaFl2SXlhSnBwTk9XbmJjT3c1R3NfS2FEVDJIUGFjZ3BScEJTeG9Edk9YUUU2?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-08T05:45:16+00:00",
-      "generated_at": "2026-09-08T05:50:15.767445+00:00",
-      "rss_date": "Tue, 08 Sep 2026 05:50:15 +0000"
-    },
-    {
-      "id": "fenland-news-31abf2b2f95c63ec7cd5f318",
-      "headline": "King’s Lynn board game cafe celebrates first anniversary",
-      "brief": "The Dice Box on Tower Street in King’s Lynn is marking its first year of business this weekend. Owners Chris Larwood and Stuart Walkley are hosting a birthday event on Saturday to celebrate the milestone. The cafe, which opened in 2025, offers a library of over 600 board games alongside LEGO, food, and drinks. \n\nSaturday’s celebration will feature giveaways, birthday cake, and a “roll for a discount” promotion for customers. The owners say they have welcomed thousands of visitors since opening and are inviting both experienced gamers and newcomers to join the festivities. Further details on the event and table bookings are available through the cafe’s social media pages.",
-      "original_url": "https://www.lynnnews.co.uk/news/birthday-event-to-mark-first-year-of-board-game-cafe-which-9481833/",
-      "source": "Lynn News",
-      "published": "2026-09-08T05:00:00+00:00",
-      "generated_at": "2026-09-08T05:50:14.726906+00:00",
-      "rss_date": "Tue, 08 Sep 2026 05:50:14 +0000"
-    },
-    {
-      "id": "fenland-news-932a469ccf82f7dc5e049dc6",
-      "headline": "Leicestershire children with learning disabilities missing eye care",
-      "brief": "New figures from the Association of Optometrists reveal that one in three children in Leicestershire with autism or a learning disability are not receiving necessary eye care. The data highlights a significant gap in service access for these young people. Health professionals are being urged to address these barriers to ensure children get the support they need for their vision.",
-      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYTNvbUdhM2Z0TDRPMlR0WHhleTlBNjZDUlRmaDU5TU8yN2NoTTZNTDNtLW9ETTR4WjhvSkxDdXRTY0dINU04dW01UVBIY1Bkal9pSktCWjIxMDVxWV9rTkJ5X1pTSFc1ejNUNUZ2TDY3MlJUMnYtbTFObHlnemhDZXg4OWtTVHVQWFF4dF9TYktMbWluYVhBUk1wei1iM0hkYnRJMzhqcHZUR2lWZGtNMm9hQ1c5N29EWjFmRk9BOGRNMVkyaWJNaDZzbUx6TVctd05PdFVB?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-07T15:20:33+00:00",
-      "generated_at": "2026-09-07T23:47:26.590486+00:00",
-      "rss_date": "Mon, 07 Sep 2026 23:47:26 +0000"
-    },
-    {
-      "id": "fenland-news-6193f88a98e8e5292c0bbe7d",
-      "headline": "Concerns raised over plans for nine-bedroom HMO in East Cambridgeshire",
-      "brief": "Residents have expressed concerns regarding a planning application for a nine-bedroom house in multiple occupation within East Cambridgeshire. The proposal, which has been reported by the Ely East Cambridgeshire News, is currently under scrutiny. No further details regarding the specific location or the nature of the objections have been provided at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRDhOMnhSdDhzV0lsZVctYXFGOTQyTW0wbmstMFlJT3FVbWZDeU0wQ0RWYmdtQ2YzeTZlYldPZEtJWjZPWjEwWWRJUWMxRUtlbk54elVEOUw0R19PckV6T21ZandfRHVyalBxc0xWT1RSRXE5Yjd6X1pMR0tJWUZ0RjMwcFI0LWUtTE1kS1NVZm0?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-07T14:00:00+00:00",
-      "generated_at": "2026-09-07T23:47:25.569832+00:00",
-      "rss_date": "Mon, 07 Sep 2026 23:47:25 +0000"
     }
   ]
 }
