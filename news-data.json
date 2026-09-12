@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-09-11T23:47:05.592751+00:00",
+  "updated_at": "2026-09-12T05:47:30.089348+00:00",
   "stories": [
+    {
+      "id": "fenland-news-4ce50dfd7b6856eeaceaed2b",
+      "headline": "Firefighters attend midnight blaze in Spalding",
+      "brief": "Emergency services were called to a house fire in Spalding shortly after midnight. Fire crews attended the scene to tackle the blaze in the Lincolnshire town. No further details regarding the cause of the fire or any potential injuries have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYi1xYmlZaGdPSkZPQTZhOVBRVEtuZW1ETlVKc2g0aGZTYXU0YjI4dUNIMG83VWRSbWhiQmJqTXdTTWtLT21fZS1CRTBRcWRDWVVWMkszNWtHSFBVcHdsX1Z2NWc5RXVLdEJOOVBNQUFGdHJyYWdjLWdtNmlPSmlpNV82WGYwSWczY3E1QjVXMnctZ9IBlwFBVV95cUxPalNnT2d6OVhOd0NwM3lZbFppU0VXRDIzSUdhQWRPbmJoU0U2RUdTUTRacXJYUGVpWTNTTVV5enlyZ0pDNFdxOWhRUHI2QnU3SFV3eHBGbnhRci1SZ2VyckxPNFFvdnY1VlRDeFhKWkxpaXQxU3BWSnNDYVlCX19VbHJuUU9Ma0JYb3dyYlZQVGwtVnFHelZz?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2026-03-05T08:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:30.089215+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:30 +0000"
+    },
+    {
+      "id": "fenland-news-f9576db29c838d5d9f407a30",
+      "headline": "Murder investigation launched following baby's death in March",
+      "brief": "Police have launched a murder inquiry following the death of a baby in March, Cambridgeshire. Officers are currently investigating the circumstances surrounding the incident. No further details have been released at this stage regarding the identity of the child or the timeline of events. We will bring you more information as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MbDBLWmYyTENYRzN1VzNWMXFjcjQyVW51YzdJSGJpUENjNlVLbWs0Rk9Yc1VFTnlPa3ZxaF9aTVpIc2hWcFJaMTBTQ0ZaXzlzQWIxQjc4UGF6UQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-01-23T08:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:28.767229+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:28 +0000"
+    },
+    {
+      "id": "fenland-news-e7709832735d027dd72a2e24",
+      "headline": "New florist shop to open in King’s Lynn",
+      "brief": "A new florist is set to open its doors in King’s Lynn this coming Monday. The Flower Shed, run by South Wootton florist Laura Garnham, is located within the new microbusiness units on Edward Benefer Way. \n\nMs Garnham, who has nearly a decade of floristry experience, will provide bouquets for weddings and seasonal events, alongside a mobile flower cart service. The shop will also offer a postal delivery option and greeting cards. The business will operate Monday to Friday. Customers can book appointments or make enquiries by calling 07359 191692.",
+      "original_url": "https://www.lynnnews.co.uk/news/excitement-as-florist-makes-final-touches-to-open-in-microbu-9482559/",
+      "source": "Lynn News",
+      "published": "2026-09-12T05:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:27.962309+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:27 +0000"
+    },
+    {
+      "id": "fenland-news-d2bbb78ed3e8f73cbdff8dd4",
+      "headline": "Cambridgeshire and Peterborough council plans paused",
+      "brief": "Plans involving the Cambridgeshire and Peterborough Combined Authority have been put on hold. According to reports from the BBC, the proposed developments for the region have been paused. No further details regarding the reasons for the delay or the specific projects affected have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PZ2dNSUxXd1hhbzVmVnZ0MEkzUjNhUjh2andWV09FRWkwbTdIczMzaEdRWnJQMHRpLW8ycTM0RG5xUlZDWFU5RFNEdW0tMURtNFhOVDZ1NVNVRlBj?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-12T05:13:00+00:00",
+      "generated_at": "2026-09-12T05:47:26.111128+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:26 +0000"
+    },
+    {
+      "id": "fenland-news-b125ad5d658fc93cf09b6c4a",
+      "headline": "Cambridgeshire and Peterborough council plans paused",
+      "brief": "Plans involving the Cambridgeshire and Peterborough council have been put on hold. The BBC reports that the proposals have been paused, though no further details regarding the nature of these plans or the reasons for the delay have been provided at this stage. We will bring you more information as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PZ2dNSUxXd1hhbzVmVnZ0MEkzUjNhUjh2andWV09FRWkwbTdIczMzaEdRWnJQMHRpLW8ycTM0RG5xUlZDWFU5RFNEdW0tMURtNFhOVDZ1NVNVRlBj?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-12T05:13:00+00:00",
+      "generated_at": "2026-09-12T05:47:25.191259+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:25 +0000"
+    },
+    {
+      "id": "fenland-news-ca503594677dcedb56964c8f",
+      "headline": "Firefighters attend garage blaze in Spalding",
+      "brief": "Fire crews have been called to deal with a garage fire in the Spalding area. Emergency services attended the scene following reports of the blaze. No further details regarding the cause of the fire or any potential injuries have been released at this time. Residents are advised to stay clear of the immediate area while emergency teams carry out their work.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHdMMkliR1lEN0xpWThVTXVLZl9sQklRcWdCNVJxalFQMnYyUmppeWNXR1FFZ3ZKUTRHSUNnVHQ5ZGkwTFQyQWw4OTVOUm1ITG1mOTZsV1Q3bDJtVHlYbTFnR05GQjBHZTRseGp1bXZmSUhxU3B0T2NjMGZOT2Z6S19UQ29jcG9rdGJ4N0dR?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-09-24T07:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:23.886564+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:23 +0000"
+    },
+    {
+      "id": "fenland-news-083d0b90d40563811c89875b",
+      "headline": "New indoor cycling studio to open in Cambridgeshire",
+      "brief": "A new indoor cycling studio is set to open in a Cambridgeshire town. According to reports from the March Chatteris Whittlesey News, the facility is being described as the first of its kind in the area. Further details regarding the exact location and the official opening date have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkFTdU11TU44d1dRZFg4UzRYa1BXQ3h5d2NPR3d5MTFQX2lWQnhHOU85SDRCbjRxRHVKYnJ4MDJoTklMRmJlMnZWTDVuNU5RWldPVTRRaVlKZlJjSVRtNkQ4UzQwMmYyYWdHSVNraXZmcHpraFp3aERfRmlBenBRMmtNM0lTYWRPU3ktSkd1TlJkdFRW?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-06-15T07:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:22.090861+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:22 +0000"
+    },
+    {
+      "id": "fenland-news-bd35429c657ce0e4aa395a46",
+      "headline": "MP opposes potential service cuts at Queen Elizabeth Hospital",
+      "brief": "North West Norfolk MP James Wild has voiced strong opposition to reports suggesting a potential downgrade of A&E, intensive care, and maternity services at the Queen Elizabeth Hospital in King’s Lynn. Mr Wild met with the chief executive of the Norfolk and Waveney University Hospitals Group to express concerns over a lack of transparency regarding a working group currently reviewing long-term service strategies. \n\nThe MP argued that removing consultant-led services would be unacceptable for rural communities, citing the impact on ambulance travel times and patient access. A review is expected to report to the hospital group’s board in October. Mr Wild has received assurances that the current review will not jeopardise plans for a new hospital facility.",
+      "original_url": "https://www.lynnnews.co.uk/news/answer-to-qeh-s-challenges-is-to-improve-care-not-remove-s-9482091/",
+      "source": "Lynn News",
+      "published": "2026-09-12T05:00:00+00:00",
+      "generated_at": "2026-09-12T05:47:20.212341+00:00",
+      "rss_date": "Sat, 12 Sep 2026 05:47:20 +0000"
+    },
     {
       "id": "fenland-news-5b28a6c01de224fbb81612f9",
       "headline": "Waste company fined £1 million for illegal site",
@@ -920,86 +1000,6 @@
       "published": "2026-09-08T17:03:43+00:00",
       "generated_at": "2026-09-08T17:48:24.621618+00:00",
       "rss_date": "Tue, 08 Sep 2026 17:48:24 +0000"
-    },
-    {
-      "id": "fenland-news-c0482bc205a2faae5a0e42d1",
-      "headline": "Government pauses decisions on Cambridgeshire local government reform",
-      "brief": "The government has announced a halt to decisions regarding local government reform in Cambridgeshire. The move has prompted reactions from local leaders across the county. Further updates on the status of these changes are expected as the situation develops.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVlmMkk0aFdNVk5aeFhsVk45UUZBTjVZbFNlaW5rbGpSTjFtRGZaNnlVLVJJY3JlRjhCazY0VkE3amphaHVjamVjRkxfblJWeU9QR3pDQkR4Vy1qWHR0TElZTHJPUVp3UnlqTTlDWXZaQldfZmhCLURGQnFKVVN5bUFQaHdDYnExUUZYdENLVHZNckdRY0p6dGRiQlJSR2M?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-07T14:08:38+00:00",
-      "generated_at": "2026-09-08T17:48:21.676914+00:00",
-      "rss_date": "Tue, 08 Sep 2026 17:48:21 +0000"
-    },
-    {
-      "id": "fenland-news-e239420a515a8684a92d9595",
-      "headline": "Fenland shop closed following police seizure",
-      "brief": "A shop in the Fenland area has been shut down by police. The closure follows the seizure of a quantity of cigarettes and vapes from the premises. No further details regarding the specific location of the business or the timing of the operation have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3Fwd2FjaGt3SWQ2X0xFdWtRZDVYa3dYdjQ0RnJ3NUdzVF9xOHpUTUhxNUZWbGRsSHlaUWlTeTA1bnY4ZGVXMTc2b2NZZXRGanlZd2lzQk5PZDJ6eVZXdjNYMTRMelpUMHpwTk9XTVpXajh6Y3g4cVVtZF9QTEJNNHV3WmVNSGVVc1VmTlZSbDV3WnNBcVJhT2Y0Q0xDUQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-08T08:39:00+00:00",
-      "generated_at": "2026-09-08T17:48:13.968342+00:00",
-      "rss_date": "Tue, 08 Sep 2026 17:48:13 +0000"
-    },
-    {
-      "id": "fenland-news-f2c21d3cc212b6585b0c38a7",
-      "headline": "New £2 million pavilion opens at Wisbech Town Cricket and Hockey Club",
-      "brief": "A new £2.03 million pavilion has officially opened at the Wisbech Town Cricket and Hockey Club on Harecroft Road. Club stalwart Jane Peggs performed the ribbon-cutting ceremony on Sunday in front of more than 300 guests. The facility features improved changing rooms, a bar, and social spaces designed for both sporting and community use.\n\nWhile the building is now open, the club is continuing its Lasting Legacy crowdfunding campaign to raise a final £50,000. These funds will go towards completing the kitchen and bar areas, as well as furnishing the new social space. The campaign is currently scheduled to run until September 30.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/new-2m-pavilion-opens-after-years-of-planning-and-fundraisi-9481940/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-08T14:34:07+00:00",
-      "generated_at": "2026-09-08T17:48:10.586100+00:00",
-      "rss_date": "Tue, 08 Sep 2026 17:48:10 +0000"
-    },
-    {
-      "id": "fenland-news-66b4477e3579fdeb8c8ed070",
-      "headline": "Springwood High School students celebrate exam success",
-      "brief": "Students from the Springwood High School Class of 2026 have marked the end of their school year with a special celebration in King’s Lynn. The graduates gathered at The Duke’s Head on Tuesday Market Place, which was transformed into a casino for the occasion. \n\nDressed in formal evening wear, the students enjoyed a variety of entertainment including blackjack, roulette, arcade games, and a dance machine. The event, which was organised by heads of Year 13 Jess Cuss and Nicky Thompson, also featured a hot buffet and was attended by members of the school staff. The evening served as a final celebration of the students' exam achievements and their time together at the school.",
-      "original_url": "https://www.lynnnews.co.uk/news/graduating-students-dressed-up-for-casino-themed-night-to-ce-9481962/",
-      "source": "Lynn News",
-      "published": "2026-09-08T15:41:33+00:00",
-      "generated_at": "2026-09-08T17:48:06.836336+00:00",
-      "rss_date": "Tue, 08 Sep 2026 17:48:06 +0000"
-    },
-    {
-      "id": "fenland-news-5546e6cdb215f0cf2fce1c68",
-      "headline": "Residents report sewage smell in Cambridgeshire market town",
-      "brief": "People living in a Cambridgeshire market town are reporting a persistent and unpleasant odour. According to reports, the area is currently being affected by what has been described as a foul stench of sewage. No further details regarding the source of the smell or any potential action being taken have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVWRTRkpGME90cFJFRmRRb3VGMHYxdkJiZ0Nud1FFbldnRGVVMkVMMlNXYVpXNVZIYm1DYWpGSk1NeUVXd0dEOE1ZcGNqT3ZmUlJXcmQzZzVwdVY5Zk1OR0tjQTZ4RGlWaFhFbVktTUdCYjRUZjRpcjRfLWlBc2V6UFY3dVJrbktBQ2JYbG92ejFvdDhDSHVBd2t6VWxjakU?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-08-05T07:00:00+00:00",
-      "generated_at": "2026-09-08T11:50:52.317349+00:00",
-      "rss_date": "Tue, 08 Sep 2026 11:50:52 +0000"
-    },
-    {
-      "id": "fenland-news-e139be793da40a4192a92ebb",
-      "headline": "Tilney St Lawrence man charged following King’s Lynn retail park incident",
-      "brief": "A 24-year-old man from Tilney St Lawrence has been charged with drink-driving following reports of anti-social driving at the Hardwick Retail Park in King’s Lynn. Police were called to the site last Friday evening after receiving reports of vehicles drifting and performing handbrake turns.\n\nOfficers stopped a BMW at the scene, which was subsequently seized. The driver, Tom Perry of St John’s Road, was arrested and later charged with drink-driving. He has been bailed to appear at Lynn Magistrates Court on September 24. Norfolk Police have reminded the public that they have powers to seize vehicles involved in anti-social behaviour.",
-      "original_url": "https://www.lynnnews.co.uk/news/24-year-old-charged-with-drink-driving-after-boy-racers-re-9481872/",
-      "source": "Lynn News",
-      "published": "2026-09-08T10:19:26+00:00",
-      "generated_at": "2026-09-08T11:50:50.449491+00:00",
-      "rss_date": "Tue, 08 Sep 2026 11:50:50 +0000"
-    },
-    {
-      "id": "fenland-news-a85b85eb1f3c2edfadcea0ef",
-      "headline": "Police discover body in Peterborough search",
-      "brief": "Peterborough Police have confirmed that a body has been discovered during their search for a missing man. Officers made the find as part of an ongoing operation in the area. No further details regarding the identity of the individual or the circumstances surrounding the discovery have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaWJES1BWeTB3Q25IR3Q1VFlIellSdHFSbFNfblctd2FfVGNDdTYtRDNDSTdGRzQ3N1JwSHNtbzZtSUVsWVc4cC0zVV9Db2hISG5EUnpEZHUxT0ROSmJrZXN0UGVNRXRGU3BKZ0FzTExuTGNPZTI0VFpNRVlCYW10Z3Y4azNrWDN6YWR0bXZhdWdtS3NMV282NENQVUl6MDRyT0tMaGl0M3hpYnhJelBvUE5qNnJuMzJVbWpmSWhTQWE?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-08T10:19:00+00:00",
-      "generated_at": "2026-09-08T11:50:46.451310+00:00",
-      "rss_date": "Tue, 08 Sep 2026 11:50:46 +0000"
-    },
-    {
-      "id": "fenland-news-51d7b90ec1f36d8dd5c81c03",
-      "headline": "Final protest held at Mepal crematorium site",
-      "brief": "A final protest has taken place at the site of the proposed Mepal crematorium. Charlotte Cane led the demonstration against the thirteen-million-pound project, which critics have labelled a white elephant. The development remains a point of contention for local residents as the campaign against the facility continues.",
-      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOejdCMmZMTWN2WW1iUEFrT21uckl3cnBqVldOMnVBSkRnaVZjVW5SUWI4czVHZ2RxSDQ1RV9PV3RLT0syeXJqTmxBejNuWDNtaFdia0ZaQUlmbVdyamN0ZUtoaGFXaGgyY3NrUWxnS3V1M1RLZlBXR2VXZk5BSTZQLTdzQy1WN2M3bDNiUl9fQk5JaUVhcFhjVXlNR0FSY3V1MjhQSWZKNkIteGVIbDV2aE5DeFB2enFNaXZXSTVlRQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-08T09:19:00+00:00",
-      "generated_at": "2026-09-08T11:50:43.859811+00:00",
-      "rss_date": "Tue, 08 Sep 2026 11:50:43 +0000"
     }
   ]
 }
