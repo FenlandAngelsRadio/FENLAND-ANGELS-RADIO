@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-12T17:46:59.011298+00:00",
+  "updated_at": "2026-09-12T23:47:04.878208+00:00",
   "stories": [
+    {
+      "id": "fenland-news-92175fd7552ef3c4278b458f",
+      "headline": "Local diners name top spots for afternoon tea in Cambridgeshire",
+      "brief": "A recent report from the Ely Standard has highlighted five popular locations for afternoon tea across Cambridgeshire. The list was compiled based on feedback and recommendations from local diners. Residents looking for tea rooms in the region may wish to consult the full report for details on the venues selected.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSjFJU2g5MFNIdWNqLUgtcDhUNHJxbmh5N25UUVpSd3lXb3VRbVk0SDNFQ1p2SjRxb0xFdzdNV0k4SC1EVHZDeV9Ea2FNSGFiczMya0Y0SEJPT0w3QTA4OXBmMEtwMkFDVHF6MEtIM0JlOXBrV2JJMnNwNUNucWg3c0dFZkpKUDFjcGVFdURmMWI?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-12T11:00:00+00:00",
+      "generated_at": "2026-09-12T23:47:04.314564+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:47:04 +0000"
+    },
+    {
+      "id": "fenland-news-1d1948e8ac89f1685b1cc291",
+      "headline": "New independent vet opens at Hoddins Way",
+      "brief": "A new independent veterinary practice has opened its doors at Hoddins Way. The business is now fully operational, marking the completion of the site's commercial development. The facility is supported by Lincolnshire County Council.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONjhaMURrdWlEV29kZ2c3d1M1eHJ3NWJEdk0wLTJYcE9yaGJIUXpmcVV5RU41ZFpldGJfZGZia0t5SzJVOFVJalFoNmZGejBuRm9ZMGZSWnhGOXcxTVZXUmdYWlFKYktJeUZaZm9sN25TS2phZG5razUwNlFsZGw3UnRkbFFBc0RRQkRxRnlGS3R1aERGeElUTDdVVjlqMkF1?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2024-10-31T07:00:00+00:00",
+      "generated_at": "2026-09-12T23:47:03.418576+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:47:03 +0000"
+    },
+    {
+      "id": "fenland-news-a282073d914a0337c48713de",
+      "headline": "Man sentenced for domestic abuse offences in Cambridgeshire",
+      "brief": "A man has been sentenced following a sustained campaign of violence against his partner. Reports from the Cambs Times confirm the offender terrorised and strangled the victim during the course of the abuse. The case, which was covered by the March Chatteris Whittlesey News, highlights the severity of the domestic violence involved. No further details regarding the sentencing or the location of the court have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbFN4aWNNUnNSUWVRRE1ReDNhVDVsem0yNTRSY01XUy1oOWhmbzFoaTJuNk5NSV9ucjNrTFROY2RGTlpZS3R1S25kOFpGUW9DV0t2aTBReDR2RmhLS2RGcWNNZTB6d3dIYWh6NTU1LUppRExrSmwybFMtQWRnSGxQU2tNVndMWHVhcWRLOWpHMXpIOUV0eUgwTEU0UQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-07-21T07:00:00+00:00",
+      "generated_at": "2026-09-12T23:47:02.735566+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:47:02 +0000"
+    },
+    {
+      "id": "fenland-news-6ed18974792f7c815666031a",
+      "headline": "Peterborough United draw with MK Dons",
+      "brief": "Peterborough United finished their latest League One fixture with a share of the points. The match against MK Dons ended in a one-all draw. Highlights of the game are currently available via Sky Sports.",
+      "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcFFYckRydERXQmlzTWRmSmVBNktOVThySE5uQ0ZvbTJlRDZkWldYWVA2T2t1N1YyV0s5ckhEZkszYmFiZGZSZEV6eFZfVzRPVklsTnhVMUdUNlctZ1FvcUI1M2tNRHRnUTVaaTJFaWx0dm4zaEhmeVdEelA2UENJSFF6MU05dzRFRkcxTjk0OWFmWFhPb3FTcXkxVkhHYUItQ3lSYW5BUDgwYi03YkE?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-12T18:05:59+00:00",
+      "generated_at": "2026-09-12T23:46:59.734949+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:46:59 +0000"
+    },
+    {
+      "id": "fenland-news-a9a4157db22980edd1383c64",
+      "headline": "Person found dead on railway tracks near Ely",
+      "brief": "Emergency services have been called to the railway tracks near Ely following the discovery of a person who has died. Authorities are currently managing the scene, and commuters are advised to check for potential travel disruptions in the area. No further details regarding the identity of the individual or the circumstances surrounding the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQk9EbmZQbC12UjRyNV9LdV9rcnZjc2JZdFo1eXNRM0dIMlFCMEpBTW5PX21pNzVrVVF4eXY3OVpveWhSTkt2bE5HcGtlWTJzWGNhZGliUldhOHR1WDNDWUEwNTdMeFBsWGxlSkRWYUVNQ2pSR0xqRDhNaGNDTXhiRU1ILVNHNzZxN0ItUENyR1d1M2w1MjVUMkNjRjRoeTB5bUZQT3JB?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-11T14:27:33+00:00",
+      "generated_at": "2026-09-12T23:46:58.991102+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:46:58 +0000"
+    },
+    {
+      "id": "fenland-news-71ba709580be055f03c0e18b",
+      "headline": "Pedestrian crossing refurbishment planned for Long Sutton",
+      "brief": "Lincolnshire County Council has announced that the pedestrian crossing on High Street in Long Sutton is set for refurbishment. The local authority confirmed the upcoming works, though specific dates for the project have not yet been released. Residents and motorists in the area are advised to look out for further updates regarding potential traffic management or diversions while the improvements are carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1RhMUx2V3VyMmVNR2VsNnFsX0hmQkdQN1QtTWl6cE5pdWZIXzdnTk5QbWtwdG1xdUlULVl2QzZIX1c4alRtb1hUNWJRXzhYRW5xRDNpT200NHhoMUtmZ1dtOENpaGVJclZZSnRRMy1RY2Q2LU96cjNWRmJ1WG00NThnNTFfRW1waDhKUkZBV0F4bnlGZnNlSV84SnFVYndDc1hmTTN2NTdPQkVaUHc2Y0lweUJldw?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2022-04-29T07:00:00+00:00",
+      "generated_at": "2026-09-12T23:46:57.153272+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:46:57 +0000"
+    },
+    {
+      "id": "fenland-news-c84ed6e018358cdafe1a0e34",
+      "headline": "Peat road repair trial to begin",
+      "brief": "A trial project to repair roads built on peat is set to get underway. The initiative aims to address the specific challenges of maintaining surfaces on this type of ground. Further details regarding the location and duration of the work have not been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoQXZQLUNWc0xmcjRiNE9jX1U1b1o1TFRpeFh2NHUxcUhyOUwxSzM0cl9TWVZkR1B4OTBLX3ZmdDM5dG4wWl9pWGs3SllnQkxHRXNYNlM2TDRrQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-07T07:00:00+00:00",
+      "generated_at": "2026-09-12T23:46:56.301627+00:00",
+      "rss_date": "Sat, 12 Sep 2026 23:46:56 +0000"
+    },
     {
       "id": "fenland-news-9e316084baa2e55b3d09c16c",
       "headline": "Decision pending on 13 new homes in Ely",
@@ -930,76 +1000,6 @@
       "published": "2026-09-09T11:26:57+00:00",
       "generated_at": "2026-09-09T11:50:06.372337+00:00",
       "rss_date": "Wed, 09 Sep 2026 11:50:06 +0000"
-    },
-    {
-      "id": "fenland-news-156da5e4380e4198c72b895c",
-      "headline": "Cambridgeshire local government reorganisation plans paused",
-      "brief": "Proposed changes to the structure of local government in Cambridgeshire have been put on hold. Officials have confirmed that the plans are currently suspended while a formal review is carried out. No further details regarding the scope or expected duration of this review have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeWxscUhrNHUyeEVWbi1NNGNEaEViYnlhbWQ2T1plZ1NXNVI1VEw0WDJJOUVwRWZZUVJtN3VBU0FHT1VoaGR5MjFjTVFxc05zYkp4MF8zb0UxLUx4VTJDN2FtdGNxZGlHczZBLWhKZjZacGFsUkVMbnZob3FYUnp1dUxGMnZhOU9aS043T3hwMWktT25Hakl0MA?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-07T13:58:00+00:00",
-      "generated_at": "2026-09-09T05:50:25.431554+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:25 +0000"
-    },
-    {
-      "id": "fenland-news-25e8b38dc04756fe9463a6cd",
-      "headline": "New treatment room opens at local salon",
-      "brief": "A beauty and holistic wellbeing salon has expanded its facilities. The business has officially opened a new treatment room for its clients. The development was reported by the Fenland Citizen.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLVdvM2hBaDJDRi13alRZdk4xcmozaS1laEJ3a2lBTjdSRnF0SDFLRUxDM3dhU0t2Mi04bnZMblBDMzBUcHpkaTI4bnNPb09FajExYVB0VG5PZ0JodGZvYnJlNFg5bXhFcHNDWV9KOFkzQW5PTWhDREsyWGZTZU02WjdzYTgxQWtZSDNhel9CdGk2YWxUVkhsWjlEVGZnREFGT1NjaU5OVExMUmM?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-08-23T07:00:00+00:00",
-      "generated_at": "2026-09-09T05:50:23.707052+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:23 +0000"
-    },
-    {
-      "id": "fenland-news-682a6512ae5a1a740b92c9e1",
-      "headline": "Police appeal following serious collision in Whittlesey",
-      "brief": "Cambridgeshire Constabulary is appealing for information following a serious road traffic collision in Whittlesey. Officers are currently investigating the circumstances surrounding the incident. Anyone who may have witnessed the collision or who has relevant information is being urged to contact the police.",
-      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkRrcVJsQUNvdnRxOUozakVEUTZMQnVaUGlXWFJfM2pISXExb0lzeUFIUjlnWGdtYWI5OVRZLUZzRGZmLXloZFVzQ3REYkRSVFYtaGZLclFRNjVKX3p1Q3JYUF9QVGNYcF9JX0tGT1BTQlY2M1pzUUlEUURoUFFWNXVQU2pxZE02OFRTYk85YVBiUU9PbjA3ZDJBejN6c2VfMFBPT1dpcUszTDR4azNscGFEeTR4QQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-07T11:16:00+00:00",
-      "generated_at": "2026-09-09T05:50:22.581349+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:22 +0000"
-    },
-    {
-      "id": "fenland-news-b852d4f1aa2d17c620681f05",
-      "headline": "Rainbow Run returns to Peterborough’s Ferry Meadows",
-      "brief": "The annual Rainbow Run is making a comeback at Ferry Meadows in Peterborough. Organisers have confirmed the popular event will return to the park, offering participants the chance to take part in the colourful charity challenge once again. Those interested in joining the festivities are encouraged to look out for further details regarding registration and event timings. The run remains a staple fixture in the local calendar for the area.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5URzVoczB6bkY2VmhpdWFhbm9EdENxSWU5aGh6aTdqOC1Rb2I0anhLUnlqNzJZdTVaenZOV0tVaXBsUGFyeFNPTENjbktYXzNuTk5tcnVvSUNNT2NG?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-09T05:28:20+00:00",
-      "generated_at": "2026-09-09T05:50:20.329869+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:20 +0000"
-    },
-    {
-      "id": "fenland-news-a5c00d7d9c1517882d42eb79",
-      "headline": "Festive light show draws crowds to local church",
-      "brief": "A church in the Spalding area has hosted a popular light display, attracting a large number of visitors. The event featured a spectacular illumination show and gave attendees the opportunity to meet special festive guests. The gathering was reported by the Spalding South Holland News.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYkxhVzBzZXFicXVxWGMyeU42Vy1tWXVFckgwQ3J3UzRfSF81emRsRVpDSWo5RFZBZjZCX01RZHFrdXl6ZmhrcE5XTlhHVXM1NUsxNW53RDZMQ1VVMDQ0UnQ5Sm41WGRCUWNLTDM4dmlBamo1eWVxcGdfMlRxU0FQZlI0MnhsalRTRzRpVUNRdVdHaXgtRWJyakdjZXlscG9BNWdwX3JTUnRfdW5KZy1GMDJyNA?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-12-22T08:00:00+00:00",
-      "generated_at": "2026-09-09T05:50:15.718941+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:15 +0000"
-    },
-    {
-      "id": "fenland-news-b05693945b7b65e3308383d2",
-      "headline": "Fenland shop closed following police seizure",
-      "brief": "A shop in the Fenland area has been shut down by police. The closure follows the seizure of a quantity of cigarettes and vapes from the premises. No further details regarding the location of the shop or the timing of the operation have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMHdOMXplQWZWZ09GTmQzQUxFcTgwV0FfUXN4bXZ2YTFKZUJWRWV3cUYyRTl0VGZUeXZmQVBkNGt2R2pEV2Zvc29yUDU5STVlVHFXYmNsUWN2T3R1UkxxZ0ZLSm92STloNzZyeHdIS2dXckdsQktkY3JQMzAzR2RXQXYtRElTYThYMndfb1VPaEgxeDZqcUZyMGVWaUg?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-08T08:39:00+00:00",
-      "generated_at": "2026-09-09T05:50:13.180375+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:13 +0000"
-    },
-    {
-      "id": "fenland-news-afbc75e61519200354ef5c0a",
-      "headline": "King’s Lynn founded charity expands support for bereaved military families",
-      "brief": "A charity originally established in King’s Lynn is widening its reach to support adults affected by military-connected bereavement. Previously known as Scotty’s Little Soldiers, the organisation will now offer services to people of all ages, including veterans, reservists, and regular service personnel. \n\nFounded in 2010 by Nikki Scott, the charity confirms that children will remain a central focus of their work. The expansion aims to provide mental health support, social connections, and guidance to anyone grieving a death within the British Armed Forces community. Those seeking further information or support can contact the charity by calling 0800 092 8571 or emailing welcome@scottys.org.uk.",
-      "original_url": "https://www.lynnnews.co.uk/news/charity-expands-services-to-help-adults-affected-by-military-9481993/",
-      "source": "Lynn News",
-      "published": "2026-09-09T05:00:00+00:00",
-      "generated_at": "2026-09-09T05:50:11.201707+00:00",
-      "rss_date": "Wed, 09 Sep 2026 05:50:11 +0000"
     }
   ]
 }
