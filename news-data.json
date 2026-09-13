@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-09-13T11:47:17.196699+00:00",
+  "updated_at": "2026-09-13T17:47:06.885685+00:00",
   "stories": [
+    {
+      "id": "fenland-news-b55c9e192ce237baaceac879",
+      "headline": "Students across East Cambridgeshire receive GCSE results",
+      "brief": "Students throughout East Cambridgeshire are heading to their schools today to collect their GCSE results. The Ely Standard is providing live coverage as teenagers across the district find out their grades. Families and pupils are currently receiving the outcome of their exams following months of study.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ0Y0cHQ4YllBOGQ1NF9Cb2xSb21keGtWYlF5MFg0T1RoUmo0eE1pZWZ3WXl6bTk0N1BoR1VIZEJ3eURPenQ3S1JQNXBudTNQU3BNZ1VEVWliNmZIYkV0amt1Zk5wTnVxVnBpZU5aTnl2UGgtU1FpMW42d3cwdFdTaFJJcEQ3UUtxWldHaF9kVWgtUUEzTEhNRXJR?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-08-20T07:00:00+00:00",
+      "generated_at": "2026-09-13T17:47:06.168180+00:00",
+      "rss_date": "Sun, 13 Sep 2026 17:47:06 +0000"
+    },
+    {
+      "id": "fenland-news-7dc571cb088dbcedbae89e07",
+      "headline": "Local vicar contributes to report on Covid-19 impact",
+      "brief": "A local vicar has played a significant role in a new report examining the impact of the Covid-19 pandemic on the region. The findings, which highlight how the area was affected by the health crisis, were recently featured by the Spalding South Holland News. The report aims to provide insight into the challenges faced by local communities during the pandemic period.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzBlbFpmLTd5OGNZX01tUTg5UXMzZ2Z1QmRmTmdQbXZ2TjFTd1ZsR3lxOHJ0QUlKSGlTYzVFUTM1b3RoNFRDRk9fblEyZWR2c3k1MjJMcXFPUUFKekhGSTF6cWJ6Y1ZQdjVwdVlSMHJTUVJWTWRuSFlPVnNWRFkxbWhzQmlhekF5RlpiT2NSQlVoa3VyTEpDSm1ZdDhqN2s2Ul96RnJndGZXdFY3UF81VG13?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2023-12-30T08:00:00+00:00",
+      "generated_at": "2026-09-13T17:47:05.179956+00:00",
+      "rss_date": "Sun, 13 Sep 2026 17:47:05 +0000"
+    },
+    {
+      "id": "fenland-news-e6cd30ddeeffd53232a4816c",
+      "headline": "Man jailed for controlling behaviour in Cambridgeshire",
+      "brief": "A man has been sentenced to prison for controlling his partner. The case was brought to court following an investigation by Cambridgeshire Constabulary. No further details regarding the length of the sentence or the location of the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3ptZFNXYVpXVGRTbmRaeHg2T2Z6czVJQXFSeWdMWVBnWFRfZUxZZmkzOXVwVXFxc1h2OC1VT09Va3p1dGNMWklEaUJRU2szd0pnLV9ZX2phb1I5QWV2V2ZkZ3I0Z1NRcEloSWxkZWVzYVNIOHVuZExCeVc3Z0VhRTFDeFhsVjhCSE5zOWRtUHAxQ2VLYmpkN0MxYy1qc1BORnZJ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-06-03T07:00:00+00:00",
+      "generated_at": "2026-09-13T17:47:04.327818+00:00",
+      "rss_date": "Sun, 13 Sep 2026 17:47:04 +0000"
+    },
+    {
+      "id": "fenland-news-485846074f887970d447fc3f",
+      "headline": "Emergency services attend incident in Spalding town centre",
+      "brief": "Emergency crews were called to Spalding town centre following reports of a man on a roof. Lincolnshire Police and other emergency services attended the scene to respond to the situation. No further details regarding the individual or the outcome of the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWGszd0dJR3lNc3d4dE85NklYa3lkUE5mRFpDcXZKcTIxZXRySk12OE5rSzloNHR6QW92SjkyZkZkLTVDYzk0OXB0MV9OdDVvZlJqVFc3UHZTZENtWC1DVEJMZFk1NWtjSG0zLXJMNnVfamR5OEVpbDdMSGt5dGEya1dXWVVnVDc3azByV1VQdlZVV29GT3hwOGhWd2thSzVqZHhMbGxTZ0lFdWM0clF3YWhSMA?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2024-10-23T07:00:00+00:00",
+      "generated_at": "2026-09-13T17:47:01.758027+00:00",
+      "rss_date": "Sun, 13 Sep 2026 17:47:01 +0000"
+    },
+    {
+      "id": "fenland-news-ea39569ac8fa7d995994de43",
+      "headline": "Cambridgeshire Fire Service reports 20 incidents in a single day",
+      "brief": "Cambridgeshire Fire and Rescue Service says crews have been pushed to their limits following a busy period. Firefighters were called out to 20 separate incidents within the space of 24 hours. The service has highlighted the pressure placed on resources during this high volume of callouts.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeEcyNzdob2twTjF5VlZraEFuVWx4cEZ2UllxaVZVQVkzTjJCUUxIeHFwNFpLclZqa1dUbWFsOFRJTlNHMVJQTzZPMmdDQlpOcTI0VkM1MkZqS2ZpMkVlS0pLS19YQkdGcFF2QndQRksySUN1dXN0dWZNRXoyaFMxOWV0QzRZSURfUERaSWNOVXJxelk?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-07-27T07:00:00+00:00",
+      "generated_at": "2026-09-13T17:47:00.835535+00:00",
+      "rss_date": "Sun, 13 Sep 2026 17:47:00 +0000"
+    },
     {
       "id": "fenland-news-bb486878f0cb2b68eced811b",
       "headline": "Arts programme to return to Cambridgeshire libraries",
@@ -950,56 +1000,6 @@
       "published": "2026-04-02T07:00:00+00:00",
       "generated_at": "2026-09-09T23:47:18.620083+00:00",
       "rss_date": "Wed, 09 Sep 2026 23:47:18 +0000"
-    },
-    {
-      "id": "fenland-news-a942af745d15404bf999bc87",
-      "headline": "King’s Lynn doctor struck off for misconduct",
-      "brief": "A doctor who previously worked at Southgates Medical Centre and The Woottons Surgery has been removed from the medical register. The Medical Practitioners Tribunal Service found that Dr William Smerdon behaved inappropriately towards two mentally vulnerable patients. \n\nThe tribunal heard that Dr Smerdon engaged in a sexual relationship with one patient and sexually harassed another between 2012 and 2019. The panel concluded that the doctor deliberately disregarded professional standards and showed a deep-seated attitudinal issue. While Dr Smerdon offered apologies during the hearing, the tribunal ruled that he must be erased from the register immediately, stating that the public would be appalled if he were allowed to continue practising as a GP.",
-      "original_url": "https://www.lynnnews.co.uk/news/doctor-who-slept-with-mentally-ill-patient-told-her-she-had-9482043/",
-      "source": "Lynn News",
-      "published": "2026-09-09T10:41:42+00:00",
-      "generated_at": "2026-09-09T23:47:17.575484+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:17 +0000"
-    },
-    {
-      "id": "fenland-news-19b9865ae5b41639c6b98475",
-      "headline": "Royal visit marks milestone at ARU Peterborough",
-      "brief": "A member of the Royal Family has visited ARU Peterborough to mark a significant milestone for the university. The event highlighted the institution's ongoing development and its role within the local area. Further details regarding the specific nature of the milestone or the identity of the royal visitor have not been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTF3cHkwNGRseEtCei1fTFlIdEJOcXdtLWdrcllGcEI1blctbzVjbU52c21XSzhmSjM2Y200cHFaRy1xVVp0a182Vi1DMkUzNVFYM2NPYTlkSURuajhycTJOWkxTRWR5TDRDaHhUaERFVlZkVThleWZvZm04V0RKN3p1bTh6aEVUcERBQQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-09T14:35:08+00:00",
-      "generated_at": "2026-09-09T23:47:15.478813+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:15 +0000"
-    },
-    {
-      "id": "fenland-news-016c3d80f8cd39547124579e",
-      "headline": "Cambridgeshire car thieves featured on Channel 4",
-      "brief": "A group of thieves from Cambridgeshire who were responsible for stealing vehicles valued at £500,000 are set to appear in a new Channel 4 programme. The criminals, who operated across the region, will be the subject of the upcoming television broadcast. Further details regarding the case and the specific programme schedule can be found in the latest report from the Ely East Cambridgeshire News.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQXVXYnpJWE9YQUhaWGZMN0dycmlSOElqNFFRbEZwa0E4WHcxVEVuWDlMdVRCZjNKS3BIbjZxWlZHMWYzbWtDdVZDUEVjOHVWQ0s1WmNLSmhQMS1KaHhoSFlYREdpM25sZGVRNXlMTHczMVBiVU53ZEc4OVlMbnJ2QjNuWXhITWdnZGgxbklBalRfaDV3UVE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-09T03:30:00+00:00",
-      "generated_at": "2026-09-09T23:47:13.980026+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:13 +0000"
-    },
-    {
-      "id": "fenland-news-5ba73d99b4abc8cd9767a027",
-      "headline": "Nearly 90 dogs seized from Spalding property",
-      "brief": "Authorities have removed almost 90 dogs from a property in Spalding. The animals were seized over the weekend following an operation at the site. No further details regarding the circumstances of the seizure or the current condition of the animals have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWUpnRVRCMndsSG1xWXZkdnJYSVc5b2N4cXlydjlVRHB4d0pFMzRUQVNCaHI3NG5YVzBZdkhXbmpJUGVacnd0Ukdlbkw5UzhsSUltaE94TFV0TDVBamRuTmVPRmJUakg1VGtfczlEY1J4REp3NkJhc29NZHBuM25pTTgyaHJ6bENxYVMwbU9WOV9wRWJxX19aaVVSRGhyQlo1UEE?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-06-29T07:00:00+00:00",
-      "generated_at": "2026-09-09T23:47:12.876108+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:12 +0000"
-    },
-    {
-      "id": "fenland-news-06aa2d2379f9040d4146da3c",
-      "headline": "Tributes paid following fatal A142 crash in Chatteris",
-      "brief": "Tributes have been paid to a father who died following a road traffic collision on the A142 in Chatteris. Further details regarding the circumstances of the incident have not been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80RjUyRUIzcjQ5a292eGdWZTdIQ0FZaTkzV2kyNWdKU1FQS04zdlBLRk5BdTdSZ2IyR0pEdG94cjhyWW1zZGJnRUt5TmZPVVVBQ3ByMU0yNWhGOFd3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-10T07:00:00+00:00",
-      "generated_at": "2026-09-09T23:47:11.568513+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:11 +0000"
     }
   ]
 }
