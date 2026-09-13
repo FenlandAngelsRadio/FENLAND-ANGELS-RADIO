@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-09-13T17:47:06.885685+00:00",
+  "updated_at": "2026-09-13T23:48:49.109727+00:00",
   "stories": [
+    {
+      "id": "fenland-news-e2135d85bf305dd30c513381",
+      "headline": "Ten high-rise buildings in region remain fitted with unsafe cladding",
+      "brief": "New figures reveal that ten high-rise buildings across Cambridgeshire and Peterborough are still fitted with unsafe cladding. The data, reported by the Ely Standard, highlights ongoing safety concerns for residents living in these properties. While the report identifies the number of affected buildings, it does not specify their exact locations. Local authorities and building owners are expected to address these fire safety risks as part of national remediation efforts. Residents are advised to check with their building management for further information regarding the safety status of their specific property.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSHp2WVNsNzBJNWx3TGFvMzZaNUFqS0tEQ0psQ0J1X2g0R05lSGJrS0V1RnVVV01LNV9lQTNxTFNIRld2ekQtUFlEcUVidl9md20yRnNCYkM2QmR4OFJSRGNNYmMyUndjLUNZSUlRTm1LcHdzLTNlQWVxeEFyTU1mREo5cThlN0NqaWFFYU5MUjNTYmtwVWg4TEgtMkJidzJN?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-11T03:00:00+00:00",
+      "generated_at": "2026-09-13T23:48:19.980355+00:00",
+      "rss_date": "Sun, 13 Sep 2026 23:48:19 +0000"
+    },
+    {
+      "id": "fenland-news-8ec58ff6bca40b8c9316c98d",
+      "headline": "Positive coronavirus tests confirmed at Lincolnshire school",
+      "brief": "A school in Lincolnshire has reported several positive cases of coronavirus. The news was confirmed by the institution following reports from local media. No further details regarding the specific location of the school or the number of individuals affected have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd2tIalA5UGo0ZmU4OEVhNkhBTGhUZXJaRjNOTWN1QnZrVEZCZHA0RzlLRlFmbWZRbDZkZ3hyN3pYNnFnbEpNOGhCcjM2TTRGZ1gwdWxoRTBkamsxQm5BTFM0Tm5FZzVFSm4yTmVWSVo5azJySEhncUxLbzJsR2V1VzlZeUt2cjNsbEFqbnRBTktZSWR0Q1BmeVk3VFJlZWNfZGJSMUl30gGrAUFVX3lxTE1fdU5nMnl2amxqcUNqMjBXcDZCWEliTTVxLXF5TGRlTzRSRDBkT051Q1ltcEhnWjZ5Zk1wSjFHNEEzU0pFclhUMGh3bzQ2eFQ3Q3Z4WDh6TmFTSnV2TGJTZU5YLW90bVlzU1RlbTlwV3VJakJXZDVNTndXZkswc3FkY0YtUTJQYXhXekN5bFFsLWQ0bjhBOXNHeGNWWGE4TDZqSEV6bHVzRHVnUQ?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2020-10-22T07:00:00+00:00",
+      "generated_at": "2026-09-13T23:48:11.858928+00:00",
+      "rss_date": "Sun, 13 Sep 2026 23:48:11 +0000"
+    },
+    {
+      "id": "fenland-news-5795760f617ad9fdd49513ca",
+      "headline": "Field fire reported in Whittlesey",
+      "brief": "Emergency services have responded to a large fire in a field in Whittlesey. Details regarding the cause of the blaze or any potential impact on the surrounding area have not yet been released. Residents are advised to remain aware of their surroundings if travelling near the site. We will bring you further updates as more information becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWG1mUG1NUjl0VVFuUFZTT3JBWlBWLXZoUUVyc3BXc05HOWgyY0xiLVhMWGptNV83elRNb01kTGFHRzhiM1NwZHBlOFF1QURGUnhxU2dFM25fMDNSa0VQUzZyOUpyUFdNMmdOSHJKQ1JHZE1sYkN3emdiYlQzQlhRcEZaZGo0TVVVbmN0VmhsSGU3QUk?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-07-26T07:00:00+00:00",
+      "generated_at": "2026-09-13T23:48:10.621503+00:00",
+      "rss_date": "Sun, 13 Sep 2026 23:48:10 +0000"
+    },
+    {
+      "id": "fenland-news-35f0bb1c2f5336dafef1f442",
+      "headline": "Long Sutton Library to reopen this May",
+      "brief": "Lincolnshire County Council has announced that Long Sutton Library is scheduled to reopen its doors to the public this May. Further details regarding the specific date of the reopening or the library's operating hours have not yet been provided by the local authority. Residents are advised to look out for additional updates from the council as the reopening date approaches.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb3lGUVRWcEh1RWRYZW9PS01RZE01SmxsdTBPVFppWVNVaGdITkt6UUpaeFZSZHJIMlpOaHFXVjYwVUljbWJSbVdBZ1dKNi1IQlJHLXZrcktuT2J0bmtvT2t1dnpkMGJHandhRFBfQVlwZDRxTTMwaWZScW9xVjVRT080cDdjdndjelVpdnp2djE0NWVH?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2022-04-19T07:00:00+00:00",
+      "generated_at": "2026-09-13T23:46:50.329972+00:00",
+      "rss_date": "Sun, 13 Sep 2026 23:46:50 +0000"
+    },
+    {
+      "id": "fenland-news-8b48862590aa5cb6683ae896",
+      "headline": "Campaign launched to save Whittlesey Scaldgate Centre",
+      "brief": "A campaign is underway to protect the Scaldgate Centre in Whittlesey. Local residents are currently fighting to save the facility from closure. Further details regarding the future of the site have not yet been confirmed.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMFBBUEdoWkhyTENnMnhqdzlURjZ5a2RRVlVGbFI4Q295c2szRnVYajFLblNrcUgwUVNJUk1UNXVaUnA0dVNOdXQ0dGFScDRmRFJHQndHbEhsVXhXb1FoSklEaEVhcjNxaU5tRFhEZXV2cURPZ3ZWSkxvemxKV1pRdTdUSmduc1Q2ZUQ0OHlyZjdtdTdDcWc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-06-28T07:00:00+00:00",
+      "generated_at": "2026-09-13T23:46:48.856282+00:00",
+      "rss_date": "Sun, 13 Sep 2026 23:46:48 +0000"
+    },
     {
       "id": "fenland-news-b55c9e192ce237baaceac879",
       "headline": "Students across East Cambridgeshire receive GCSE results",
@@ -950,56 +1000,6 @@
       "published": "2026-09-10T11:18:44+00:00",
       "generated_at": "2026-09-10T11:49:15.711665+00:00",
       "rss_date": "Thu, 10 Sep 2026 11:49:15 +0000"
-    },
-    {
-      "id": "fenland-news-5d7ac9115869e4cfe4ec06aa",
-      "headline": "Norfolk council reorganisation plans paused by Government",
-      "brief": "Plans to reorganise local government in Norfolk have been put on hold by the Government. The review, which aimed to split the county into three councils, has been paused by Housing Secretary Angela Rayner to ensure the correct process is followed.\n\nLocal representatives have expressed frustration over the move, citing the loss of time and money already invested in the project. Norfolk County Council’s deputy leader, Councillor Robin Hunter-Clarke, says the authority has spent £1.2 million on the process and is calling for the Government to reimburse these costs. While the Government remains committed to the reorganisation, officials expect to provide a further update on the project’s future in the coming months.",
-      "original_url": "https://www.lynnnews.co.uk/news/time-and-resources-now-down-the-drain-as-council-reorganis-9482155/",
-      "source": "Lynn News",
-      "published": "2026-09-10T05:00:00+00:00",
-      "generated_at": "2026-09-10T05:50:05.094615+00:00",
-      "rss_date": "Thu, 10 Sep 2026 05:50:05 +0000"
-    },
-    {
-      "id": "fenland-news-806c8a1c25dbda6adebef817",
-      "headline": "Looking back at West Norfolk headlines from 1986",
-      "brief": "This week we look back at the news from September 1986. Campaigners in Boughton held a silent protest to save their village school during the Best Kept Village Award presentations. Meanwhile, the Portland Arms in South Lynn, previously labelled a local eyesore, was cleared for demolition to make way for an Anglian Water administration block.\n\nElsewhere, fire chiefs saw their request for smoke detectors in council homes rejected due to budget constraints, and concerns were raised regarding cliff erosion in Hunstanton. Additionally, the leaning walnut tree near the South Lynn post office was marked for felling due to safety fears, and American airforce personnel at RAF Sculthorpe were set to undergo mandatory AIDS screening.",
-      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-silent-protest-in-bid-to-save-school-and-ugly-9481554/",
-      "source": "Lynn News",
-      "published": "2026-09-10T05:00:00+00:00",
-      "generated_at": "2026-09-10T05:50:03.076599+00:00",
-      "rss_date": "Thu, 10 Sep 2026 05:50:03 +0000"
-    },
-    {
-      "id": "fenland-news-34637ca14a05da4b7dfc6d98",
-      "headline": "Looking back at past community fundraising efforts in West Norfolk",
-      "brief": "We are taking a look back at charitable events held across West Norfolk during past Septembers. In 2014, King’s Lynn’s Blue Watch firefighters raised over £360 for the Fire Fighters Charity by hosting a car wash. \n\nBy September 2016, several local causes saw significant support. Staff from Goodwins Hall care home in Lynn raised £500 during a nine-kilometre walk for the Alzheimer’s Society. That same month, a Macmillan coffee morning at Knights’ Hill Great Barn collected £911, while a fashion show at Park House Hotel raised £4,250. Additionally, local author Bob Booth donated £750 to the East Anglian Air Ambulance, and a garden open day in Wimbotsham raised £400 for the Macmillan Centre at the Queen Elizabeth Hospital.",
-      "original_url": "https://www.lynnnews.co.uk/news/looking-back-at-firefighters-charity-car-wash-in-2014-and-c-9481542/",
-      "source": "Lynn News",
-      "published": "2026-09-10T05:00:00+00:00",
-      "generated_at": "2026-09-10T05:49:59.904328+00:00",
-      "rss_date": "Thu, 10 Sep 2026 05:49:59 +0000"
-    },
-    {
-      "id": "fenland-news-d330022182fe642a0e57b460",
-      "headline": "Fundraising appeal launched for new school equipment",
-      "brief": "A school is seeking to raise 80,000 pounds to pay for equipment in a new building. The appeal was reported by the Spalding South Holland News. Further details regarding the specific school or the timeline for the project have not been disclosed.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzE1S2ZBdF9xeld5bnNINWdMMDBucVp6cmRBU0gwSDlNSWNndVhLeEVqT2JoMDNhMmJKblhlNGNiTms3SjA2cW9CYldTTnFTTkFSTnNVUk15T1BqTVJNTGdHZVNOSEtkMW81SlJyUGZPMkdabUg5ajcwTEtsVGZhWDNIMGgtcWl3eEhyVVhEQU9mVlZBQXlpNTVkazAtd3lKQ2pyYTg4aGg5Q1ZDYWZacHBn?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-11-03T08:00:00+00:00",
-      "generated_at": "2026-09-09T23:47:19.601095+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:19 +0000"
-    },
-    {
-      "id": "fenland-news-2c8058f8935f1a51826d852d",
-      "headline": "Thirteen young dogs rescued after being abandoned",
-      "brief": "Thirteen young dogs have been rescued after being left on the side of a road. The animals were discovered abandoned in an incident reported by the BBC. No further details regarding the location or the condition of the dogs have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6eE9iNy1WLTFmZk8tMjZiekg5ZHhPU2JfQzFTajVadk1xT2pBcmR0djVoYmhxVHNmZmlsNGFhZjFyUkp1dEktRGlZVmFYRVh4X2hFWWdXcWlBdEI3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-02T07:00:00+00:00",
-      "generated_at": "2026-09-09T23:47:18.620083+00:00",
-      "rss_date": "Wed, 09 Sep 2026 23:47:18 +0000"
     }
   ]
 }
