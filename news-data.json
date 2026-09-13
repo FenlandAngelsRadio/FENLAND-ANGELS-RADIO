@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-12T23:47:04.878208+00:00",
+  "updated_at": "2026-09-13T05:47:40.681888+00:00",
   "stories": [
+    {
+      "id": "fenland-news-1ac529fe57643146b17c2715",
+      "headline": "East Cambridgeshire man faces charges over online messages",
+      "brief": "A man from East Cambridgeshire has been charged following allegations regarding inappropriate online communication. The individual is accused of asking a young girl to send photographs of herself wearing her school uniform. The case is currently being reported by the Ely Standard.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDVQQ2FtVU1UYjRvMFlPYUJmcE9ZV1RuZTlqaXcwb0VWeXBqemVtM1loQmRwMFlsSGtSTnJGOV83bHBqajlpR2MxT2xldV9KR0ZvbnFQNnhGUWlnTHhPN2xWdm91ZWM1UFJLT0xYbV9xRDhEMnZkUWJaTE9DTEpwRW85czMxb1JUcDdCcE91bmMxQmh2aHZSa0VSS2RxZnFjbGlj?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-09T13:34:00+00:00",
+      "generated_at": "2026-09-13T05:47:40.681735+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:40 +0000"
+    },
+    {
+      "id": "fenland-news-245a2506f363d838113ac8cf",
+      "headline": "Long Sutton park set for fifty-thousand pound improvement",
+      "brief": "A park in Long Sutton is due to undergo a significant refurbishment. Plans have been confirmed for a fifty-thousand pound makeover at the site. The project aims to improve the local facility, though further details regarding the specific nature of the upgrades or the start date for the work have not yet been announced. Residents are advised to look out for further updates as the development progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVptaTYyUUMtc0gxVjlrdVI2UnRnVHUxd0FvMmd4YTV0bFM5amNRTzBNeFNzWlpCaWw5UXI3Vl84SWI0b3VlM3JYNDBuR1JNQlh1bFc4dkJCTGFXYndlM2lrTlFfbWlBam5TcGhVeVQ1OEhZWm90d2ZDVjR2UG9ma3ZUZEFqZGdPazlDNQ?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-09-05T07:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:38.870434+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:38 +0000"
+    },
+    {
+      "id": "fenland-news-72c2e2b7da82f75571eb56db",
+      "headline": "Police provide update on investigation into infant death",
+      "brief": "Cambridgeshire Police have issued an update regarding the death of a three-month-old baby. A man and a woman have been arrested in connection with the incident. No further details have been released by authorities at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOellLcWRXSGctaEx1TUNxUjBWSzRpQjdjcVJ3T3l3N1g5dmJjbUtMTXJZMl9JNlozN1ZJc1liUXRGRFNDTGhVZ2ltYXJtelZsVVY1aGc1YnVTbmFLNXVxQUl1Wk5Bd1RSYXBIYVl2WGNKVEgxbkZ2MG9ya0xxN2Y4NmpIc1dHR0st?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-07-27T07:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:35.852714+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:35 +0000"
+    },
+    {
+      "id": "fenland-news-f5b297896683bb8e7a047012",
+      "headline": "New museum dedicated to RAF bases opens in East Cambridgeshire",
+      "brief": "A new museum focusing on the history of RAF bases has opened its doors in East Cambridgeshire. The facility offers visitors an initial look at exhibits dedicated to the region's aviation heritage. Those interested in local military history can now visit the site to view the collection.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOREthZUtEUWtyLTZJNkJjOWZJc1dVbnFhY2NPZ2t6MXluWUVFeVJXZDZMMmFvRDgzcGFDTVdIa0dmNGRmZFBlUmdEcGFVRXVpMmd3Tjk4RUJDNnl2emhTMDZmbnAwcWFRWFp2Y0Y5d3NQTllycGVXWnRaM09jZlhRRXZfRkI5N3dLSjdSSGZLcEtJaFU?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-13T04:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:32.998604+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:32 +0000"
+    },
+    {
+      "id": "fenland-news-4eae041d5c783acc67877f90",
+      "headline": "Long Sutton dental practice changes hands",
+      "brief": "A dental practice in Long Sutton has been sold for the first time. The business transaction was facilitated by the firm Christie and Company. No further details regarding the sale or any potential changes to patient services have been announced at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa2ptMUsyUzBiX0tCR0E2Z2taa3VWRlVKbmEwX1RnZnN6VTZ5RG1yZ1lqdTV2Wi0xcnBQMWVESmVRUzJJUGN4RVpkeXR2SXZHalRJd3htNlJ0cnZyN0VJemo5a21pM0VJa3ZjeVVVUWxicE1GWHI2QnpjVS1YSmNfdGhaOXh4ZmZ5TzFfNXZ6Y1J0VktvblVlZFBSNU5Fbk1MOXVF?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-03-30T07:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:31.016072+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:31 +0000"
+    },
+    {
+      "id": "fenland-news-2d9ea6e07e0195ab34019dbc",
+      "headline": "A141 weekend closure announced for roadworks",
+      "brief": "Drivers in the Fens are being advised of upcoming disruption on the A141. The road is scheduled to close this weekend to allow for essential maintenance. Work crews will be carrying out resurfacing and bridge waterproofing projects during the closure. Motorists are encouraged to plan their journeys in advance and allow extra time for travel while these improvements are completed.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFhJUlowdkJwVlVMblREeDRjTWEzNmxRdEt3Z3hnMGNxMGt2MmRzZXBKZXZadTJkSTRBZ2s3N29CMmdheHBFT0FkNFl2dnhWNnlmUE5aMUljWkcwYl9abTFpWVpPQ0hMVGVLZk1tN2QxaFF1T1ZnY2FoQ1l6cVlsaWpQZ3IyeWxQT3VKR2hoaG10Qi1w?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-09T03:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:28.503713+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:28 +0000"
+    },
+    {
+      "id": "fenland-news-6babc0cc89a872de70adabfb",
+      "headline": "Great Bircham woman admits affray following King’s Lynn park fight",
+      "brief": "A 29-year-old woman from Great Bircham has pleaded guilty to affray following an incident at Tower Gardens in King’s Lynn. Kirsten Skipper, of Queens Crescent, appeared at Lynn Magistrates’ Court on Thursday. The court heard that on August 10, Skipper became involved in a fight where she was seen grabbing a man’s legs, kicking him in the back, and punching him in the head. \n\nHer solicitor stated that the altercation began after another individual rode a bike into her. The court has ordered a pre-sentence report, and Skipper has been released on conditional bail. She is prohibited from contacting the two men involved in the fight and is due to return to court on November 3.",
+      "original_url": "https://www.lynnnews.co.uk/news/woman-punched-kicked-and-grabbed-victim-during-town-park-br-9482475/",
+      "source": "Lynn News",
+      "published": "2026-09-13T05:00:00+00:00",
+      "generated_at": "2026-09-13T05:47:27.297624+00:00",
+      "rss_date": "Sun, 13 Sep 2026 05:47:27 +0000"
+    },
     {
       "id": "fenland-news-92175fd7552ef3c4278b458f",
       "headline": "Local diners name top spots for afternoon tea in Cambridgeshire",
@@ -930,76 +1000,6 @@
       "published": "2026-09-09T13:56:00+00:00",
       "generated_at": "2026-09-09T17:48:35.112911+00:00",
       "rss_date": "Wed, 09 Sep 2026 17:48:35 +0000"
-    },
-    {
-      "id": "fenland-news-15a87fe72446d456e71ba3e6",
-      "headline": "Chatteris firefighters rescue dog from barbed wire",
-      "brief": "Fire crews in Chatteris have successfully rescued a dog that had become trapped in a barbed wire fence. The incident required intervention from local firefighters to safely free the animal from the wire. No further details regarding the condition of the dog or the exact location of the rescue have been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTJYc2xMUWZ6UzN0OUZsSGEwVXdXLTRVWkhRNkFFLXJyTlk3a0hvVkdWU2Z1ajJtRXEybm84TFR2QWNuUTVBNzB1cUNDRGhHOTRtbkowNThGdElsYk1UV1k5TzU2Z0p0TjhhV3lSWXltZ3R4Mko2MlVodHFJT1BfMDRuY29nODlOMDZRT2ZaaS1LeGh4LTlPaHNQRkp3Z1ZiSWNkdHBFcHRad0JFajZ0NElyRTNfMXV0bkVZOXBR?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-07T06:02:55+00:00",
-      "generated_at": "2026-09-09T11:50:25.979770+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:25 +0000"
-    },
-    {
-      "id": "fenland-news-d806e1b1be8c59319382e15a",
-      "headline": "Historic King’s Lynn poster collection to be displayed this Sunday",
-      "brief": "A collection of 31 historic posters, preserved by former West Norfolk mayor Clifford Walters, will be exhibited this Sunday for King’s Lynn’s Heritage Open Day. The items, which date from 1791 to 1944, will be on display at the Chequer House Gallery on King Street. Mr Walters gathered the posters during his time as a councillor, including some discovered in the town hall. The King’s Lynn Civic Society has organised the event, and the first 200 visitors will receive a free commemorative booklet. Organisers hope the collection will eventually move to a permanent home at the Stories of Lynn museum.",
-      "original_url": "https://www.lynnnews.co.uk/news/former-mayor-s-historic-poster-collection-set-to-go-on-displ-9482049/",
-      "source": "Lynn News",
-      "published": "2026-09-09T10:59:42+00:00",
-      "generated_at": "2026-09-09T11:50:22.952319+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:22 +0000"
-    },
-    {
-      "id": "fenland-news-186080c020dcd47d14e4ec2d",
-      "headline": "New bereavement centre to open in Cambridgeshire",
-      "brief": "A new facility dedicated to bereavement support is set to open in Cambridgeshire. The centre, which will be known as Lake View, aims to provide services for those dealing with the loss of a loved one. Further details regarding the exact location and the range of support available are expected to be released as the project progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOFN4d21Ra21pMFpCYTBtRTRQc3RMRGZsaEZWSmpCZlA2dnNhNjVWczVfTUJXNlhaVmxPMlcyY3gzVE42Rmh4ZE9sTXBzZ0lTcTg5YnJqVGJ2QURmdmR0S2Q3d1BHMWdnb0gwU2JuWHgzMUJSQTdKZnVQamhIS1RDSGNKUDJ6di1XQ3pkQXJFa3hGRmNpZ3Z1bw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-09T09:50:00+00:00",
-      "generated_at": "2026-09-09T11:50:18.132282+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:18 +0000"
-    },
-    {
-      "id": "fenland-news-d30d2428394160f12bcc1396",
-      "headline": "Lincolnshire landlord fined for unsafe rental property",
-      "brief": "A landlord in Lincolnshire has been ordered to pay six thousand pounds following issues with an unsafe rental property. The case, reported by the Spalding South Holland News, highlights the legal consequences for failing to maintain safe living conditions for tenants. Further details regarding the specific location or the nature of the safety breaches have not been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMUY4YzNKNmJ6bTVvS3F1djc5M2JPUm1lWkZpS0FFRVhRd2NMWkR0LWpWMnRaRFlvTWpCTDJPSlN3VkkxQUpUQVZ0VkpOdmgxZ1huQXhySFNycE5GRHBfMk9XLWJGNFk3d0g5cWFyQm1CZXl0R2tLeE1BUUU0dVdmOXY0b3dMVHIyQVVqQUJnck9jSk1hVURRalc0ejZKbFHSAaQBQVVfeXFMTklLdFNhZG5STW02dEpXUnlBOG5OY3JWUlVXcGZaWUJPZnRZa3NDT1Q3UW1mVnl5REhaLXNGN2VvanliNG56cmpwSWFsVzRSSGFPT1JEWXVtYUFFUjZqWHNfOUxlenY2akdLQjM5VDRQUml2SkplVmlLRmM2X1dQdElVSkRzSlNLR3pLc2Rld0ItRXVHXzVyZF92Y2pQZVlHRm41U2M?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-08-04T07:00:00+00:00",
-      "generated_at": "2026-09-09T11:50:14.740693+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:14 +0000"
-    },
-    {
-      "id": "fenland-news-181c7fdd2656f92ab189a1c0",
-      "headline": "Whittlesey Mayor invites residents to join pub crawl",
-      "brief": "The Mayor of Whittlesey, Paul Bristow, has extended an invitation to local residents to join him for a pub crawl. Details regarding the date, timing, or specific venues involved in the event have not been released. Residents are encouraged to keep an eye out for further information as it becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeGozVE5WS2d1d1BDd0J6QkJxdlQ2Q0xyS3VyQWJ0Nl9XZndLVDVQdzVQSm5vU3pib0hGUWJXaklVaUFhMXFCVkVnN1V0bkJrU09UbVhUeEktWGdTaE5fVm5GWjFQRTA2YTRzT1ItaFNLbWlfZUFsQmVhYUZKT00wSUVBSTdVcWlnUTlEVzlaaXFDSU1melVUUnZSVzRRWVJxcGc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-09T10:17:00+00:00",
-      "generated_at": "2026-09-09T11:50:11.965769+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:11 +0000"
-    },
-    {
-      "id": "fenland-news-a4fc6f6c2dcf886d00aa4328",
-      "headline": "Simply Red tribute act to perform in Wisbech St Mary",
-      "brief": "A tribute band dedicated to the music of Simply Red is set to perform in Wisbech St Mary next month. The act, known as Holding Back The Years, will appear at The Secret Garden on Saturday, September 12. The show is scheduled to run from 7.30pm until 10pm.\n\nOrganisers say the performance aims to recreate the atmosphere of a live Simply Red concert, featuring a lead vocalist and a full band. Tickets for the event are priced at £22 each. Those interested in attending can book their places online through the TicketSource website.",
-      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/tribute-night-full-of-classic-hits-to-bring-truly-memorable-9482044/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-09T10:42:56+00:00",
-      "generated_at": "2026-09-09T11:50:09.980397+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:09 +0000"
-    },
-    {
-      "id": "fenland-news-760c624254cb63bf48bf34b6",
-      "headline": "Large storage tanks arrive at King’s Lynn paper mill",
-      "brief": "Large metal storage tanks were transported to the Palm Paper site on the Saddlebow Industrial Estate over the weekend. Police escorted the wide loads as they moved along the River Great Ouse and through King’s Lynn on Saturday and Sunday. \n\nThe delivery is part of a major infrastructure project at the plant, which involves converting the site’s 10.6-metre-wide paper machine. Palm Paper recently announced it is shifting production away from newsprint to focus on manufacturing material for cardboard boxes. The company, which is one of West Norfolk’s largest employers, expects to begin production of the new corrugated material early next year.",
-      "original_url": "https://www.lynnnews.co.uk/news/huge-storage-tanks-seen-heading-for-paper-mill-as-firm-prepa-9482059/",
-      "source": "Lynn News",
-      "published": "2026-09-09T11:26:57+00:00",
-      "generated_at": "2026-09-09T11:50:06.372337+00:00",
-      "rss_date": "Wed, 09 Sep 2026 11:50:06 +0000"
     }
   ]
 }
