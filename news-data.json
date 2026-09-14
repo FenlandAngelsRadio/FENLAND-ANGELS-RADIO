@@ -1,6 +1,86 @@
 {
-  "updated_at": "2026-09-14T17:51:17.838362+00:00",
+  "updated_at": "2026-09-14T23:48:38.631955+00:00",
   "stories": [
+    {
+      "id": "fenland-news-090cf750cfb61d31779e9e82",
+      "headline": "Police cordon in place at Peterborough playing fields",
+      "brief": "Officers have established a cordon at a playing field in Peterborough following an incident. The Peterborough Telegraph reports that the area has been taped off while police attend the scene. No further details regarding the nature of the incident or any potential injuries have been released at this time. Residents are advised that access to the site is currently restricted while investigations continue.",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOblZzSVZBLThtTVlRRFBzdWR1aGJtU0FVSktYdjFYWndHU0s4VWlnSVZINHZfSURZd0lFYzJmUEZmVlhfaDBUdWtkNUpfVWtUNkhOeFZrbXVwa1E0dnU5RksyNzF1d2JGVHVMNkVoMzlKVWJIZGdvaGFJQ1FmRGl0REI5Z0Q1ZVRUTzQ5bmt1VU5RWlZaeW8tM05IblpmbUMwRXdnZHVsY2J1a0NZbmEzSmwydG9LTEhZLUlqRnd0UDd0V3dyWlE?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-14T16:12:00+00:00",
+      "generated_at": "2026-09-14T23:48:38.631808+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:38 +0000"
+    },
+    {
+      "id": "fenland-news-711d34060abe43bd0aaed129",
+      "headline": "Conservative Party secures majority in East Cambridgeshire",
+      "brief": "The Conservative Party has gained a majority on East Cambridgeshire District Council. This shift in the local political landscape follows the defection of a former Liberal Democrat councillor to the Conservative group. The change in party affiliation has altered the balance of power within the local authority.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yYWVpMFluMVhJdWNNclJITDU0cGcwZENZVmJZQUY4dm5GbUNvdVVtUS10cHowX0hJMGxObVlJRWlyaF9fcjdoRmpySWswWTN1YXprcXNWQVgxZw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-06-15T07:00:00+00:00",
+      "generated_at": "2026-09-14T23:48:19.340058+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:19 +0000"
+    },
+    {
+      "id": "fenland-news-29f62c1379f6fc3a60f9cab0",
+      "headline": "Public meeting scheduled regarding Spalding flat development",
+      "brief": "A public meeting is set to take place to discuss plans for new flats in Spalding. The proposal has been described in reports as a \"stealth\" plan for the town. Residents are invited to attend the session to learn more about the development and share their views on the project. Further details regarding the specific time and venue for the meeting have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZlZYY2RIaWRybGc2Vm5KTkNQcXdtcE1tRUFRWTlSQkE1LUI2MFh5SWlqRVZHd3dic3pYalk3VUQ5VE4teUMxUFN5ODJSdTBfM2tmcGhWQnJRakhqUTZTSUx0dFB6b0FWMk1Ya0VoMVQ2bVZ4TnQ3aTRGSlhwOW9laE1PU1ZXcWVtM09KVlZIbE53NGNmWnJMbHBRWVpLMjYxMlNkYU1MNFZmQQ?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-08-26T07:00:00+00:00",
+      "generated_at": "2026-09-14T23:48:17.286187+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:17 +0000"
+    },
+    {
+      "id": "fenland-news-33d7650311fa93a7d1d300f1",
+      "headline": "South Cambridgeshire District Council planning meeting scheduled",
+      "brief": "The South Cambridgeshire District Council planning committee is set to meet in March 2026. Residents are advised that this upcoming session will address local planning matters within the district. Further details regarding the specific agenda or the exact date of the meeting have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42cXhWREwzUGU5NXNYRUdOVTF2bk9RREhxTGhqV0hCa2JCMjhUOWlsUk01S0xWM3JCbWxvNUZscDdRR0I3NjNlX245RmlWczVPUi1DR19aMlhsMzhad1dRdkctVzRPdWxtN0Q0eg?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-03-11T07:00:00+00:00",
+      "generated_at": "2026-09-14T23:48:15.835109+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:15 +0000"
+    },
+    {
+      "id": "fenland-news-215c27acb3477f6990b1273c",
+      "headline": "Tom Aspinall vacates UFC heavyweight title",
+      "brief": "UFC heavyweight champion Tom Aspinall has vacated his title. The decision follows reports of ongoing issues with his vision. No further details regarding his condition or future career plans have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFRldlhXcEtITnNHNjg3TnZSOWlVRUlsdkFnS2hpQldLWjN1Q0NrbjI3YjFsY1dzVEZpSVVGYmlRV2pyRUxaRURNMFpzdGFSZlMwMnVzXzBRem83NFFvaVoxdFFXalZMWDlfNk83czBLNDM4LVVZWnpGaURVZ05Ic05lM203RUlpVGlwYXpDT0dOSzlwYU16VHNuTm1xamE3SXBUSVQzcnRHUWVpcFR6RFFzWQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-14T08:33:00+00:00",
+      "generated_at": "2026-09-14T23:48:14.266057+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:14 +0000"
+    },
+    {
+      "id": "fenland-news-428f69f7b6cd846374694ec6",
+      "headline": "Ely nursery receives positive first Ofsted report",
+      "brief": "A nursery in Ely has been awarded a strong rating across all categories following its first inspection by Ofsted. The education watchdog assessed the facility and found it met high standards in every area reviewed. This marks a successful debut for the nursery, which has now officially completed its initial regulatory evaluation.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcllES1JyckhTYlRSNThWMDQ5dzZYcmloS0txSnF2STdpdlZpQXZvTkJtQTV1bUlJRy1qLU5JOG1vQXpuMHI1eUVUYVhKenpEQmViNDVUSjNfeV85TFlORFd1Mk5TcFFqcGVkSE1fYVhLN1loV1Rtcm1oTDROTWlPWjg2U3p0YURmUUVJN09BT1JzVThGRVR3LVlFUUQtUnRaWlE?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-14T14:00:00+00:00",
+      "generated_at": "2026-09-14T23:48:12.907853+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:12 +0000"
+    },
+    {
+      "id": "fenland-news-c794555ac0d60fbd4c6586b6",
+      "headline": "Long Sutton pensioner remanded in custody",
+      "brief": "A 74-year-old resident from Long Sutton has been remanded in custody. The decision was made following a court appearance at Lincoln Magistrates’ Court. No further details regarding the case have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekpOd01lMlQwdnFycXMzY2doNldpQ3piZnRUQWQ0dlU5VzNxMUFKU2t0Ync0NmpnWDZfX1psOWZ5Z19CR2pTVTVpa0p0N21DOEg4WU82Uzc3alVnVzd2ZEFkMU9nel9QX1JScHZSbUpvaWlnaFo4ZjlBYmtBN1hnLTF6N1RDN3lMU0dUR1dR?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-08-07T07:00:00+00:00",
+      "generated_at": "2026-09-14T23:48:11.741989+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:11 +0000"
+    },
+    {
+      "id": "fenland-news-c25c8b64d73b6e56ed0de3bb",
+      "headline": "Road surface issues reported in the Fens",
+      "brief": "Motorists in the Fens are facing difficulties following recent resurfacing work on a local road. Reports indicate the condition of the surface is poor enough to trigger car alarms on passing vehicles. The situation has been described as horrendous by those travelling through the area. Local residents and commuters are advised to take care when using the route.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVkkyWktJc3F2UF93OEZYNXE3RTMxbXpmZVpjV1ktS3hjcXFqQk14a3F2WGFqRDNXbmRXRkpUZU82VU5YVExFVlY0d3BHalIybkJwWUhHbGpWZ29NeFJTa2lLY2pOTFNkUTl6MUpiclRYbWFjYThXUUlyTjdkS2hZb25IVWQ5R1lpT2o4cmJiTmRNYnJOb1VB?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-14T08:26:00+00:00",
+      "generated_at": "2026-09-14T23:48:10.539563+00:00",
+      "rss_date": "Mon, 14 Sep 2026 23:48:10 +0000"
+    },
     {
       "id": "fenland-news-5d6cdd61f9a94f59847fb6da",
       "headline": "Man from Ipswich dies in Cambridgeshire van crash",
@@ -920,86 +1000,6 @@
       "published": "2026-02-25T08:00:00+00:00",
       "generated_at": "2026-09-11T05:49:36.296176+00:00",
       "rss_date": "Fri, 11 Sep 2026 05:49:36 +0000"
-    },
-    {
-      "id": "fenland-news-1cd0af78d9b8b715abd4762a",
-      "headline": "Neale-Wade Academy trust issued formal warning",
-      "brief": "The trust responsible for the Neale-Wade Academy has been issued a formal warning regarding its performance. Officials have stated that the organisation must show significant improvement or face the possibility of being removed from its position overseeing the school. No further details regarding the specific nature of the concerns or the timeline for these improvements have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3b3hYREd1T3VIRUhESC1FYlRtaHBUWFd4N0J0c0dvWlZXb212VnZoYmROZ1FXclZlNm1qWkFwZTNPSUctekdadmRiRGRYZ2xwZlo4MG0ydUFmSVFB?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-05-15T07:00:00+00:00",
-      "generated_at": "2026-09-11T05:49:35.386477+00:00",
-      "rss_date": "Fri, 11 Sep 2026 05:49:35 +0000"
-    },
-    {
-      "id": "fenland-news-b068a3da8ca4f8edbf430f10",
-      "headline": "College of West Anglia hosts annual Freshers’ Fair",
-      "brief": "Hundreds of new students have marked the start of the academic year at the College of West Anglia in King’s Lynn. The two-day Freshers’ Fair introduced learners to a variety of local charities, businesses, and support services. \n\nRepresentatives from organisations including the Samaritans, the Benjamin Foundation, and West Norfolk Council attended the event to engage with the student body. The fair is a key part of the college’s induction programme, designed to help new arrivals settle into college life, connect with the local community, and discover opportunities beyond their studies.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-students-welcomed-to-freshers-fair-9482324/",
-      "source": "Lynn News",
-      "published": "2026-09-11T05:00:00+00:00",
-      "generated_at": "2026-09-11T05:49:33.996996+00:00",
-      "rss_date": "Fri, 11 Sep 2026 05:49:33 +0000"
-    },
-    {
-      "id": "fenland-news-63f7bfb9fa0d6e023b2e5f7e",
-      "headline": "Preparations underway for 2025 Pilgrim Hospital Christmas Convoy",
-      "brief": "Organisers have officially started the countdown for the 2025 Christmas Convoy heading to Pilgrim Hospital in Boston. Planning is now underway for the annual event, which sees a procession of vehicles travel to the site during the festive season. Further details regarding the schedule and how the public can get involved are expected to be released as the date approaches.",
-      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUEJpODRmLXFKYVpIdzdzVlZMSnprM2dtVjNJSHNrYTlIdjlZejZ1Zzk5ZmdpLXRiZ0hTN3ZyLU9qX3hfS3QyUGFHeFBiMnhlRTVYbzluck1rTTB5VzQxNXFtQUt5eVhvUm5TdzZnS2xVUndnUzRjRVJvc0ptT2hjRDgxbVZSUTZ6THhGdlhibnVQc29CT1d3bnV5eFVTQ00t?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-12-11T08:00:00+00:00",
-      "generated_at": "2026-09-10T23:47:11.331809+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:11 +0000"
-    },
-    {
-      "id": "fenland-news-3af2fbc27ca6c0280f5465cd",
-      "headline": "Fenland District Council to sell former Barclays bank site in March",
-      "brief": "Fenland District Council has reached an agreement to sell the former Barclays bank building located in March. The decision follows reports from the BBC regarding the future of the site. No further details regarding the sale price or the identity of the buyer have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12NjZ5aXU5X3o5ay0wVDBub0JQVW55c3o2aFJVTjd1WWJVakUxbVR0Qkp0UlZxanNjRnNBZm9JeFF1ZjJadU50N2VNd2hTOTcteFlkQlhGX3A1aEZ1?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-03-24T07:00:00+00:00",
-      "generated_at": "2026-09-10T23:47:10.247462+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:10 +0000"
-    },
-    {
-      "id": "fenland-news-8c3a7637f7357c2ace068689",
-      "headline": "Water leak causes disruption in King’s Lynn town centre",
-      "brief": "Drivers in King’s Lynn are facing travel disruption this morning following a water leak at the Tuesday Market Place. The leak has resulted in a large pool of water forming on the road directly outside the Alive Corn Exchange. \n\nEngineers from Anglian Water are currently on-site carrying out repairs to address low-pressure issues in the area. West Norfolk Council has confirmed that the nearby public toilets on Ferry Street are closed while the work is underway. Motorists are advised to take care when navigating the area.",
-      "original_url": "https://www.lynnnews.co.uk/news/motorists-navigate-through-pool-of-water-in-town-centre-as-l-9482204/",
-      "source": "Lynn News",
-      "published": "2026-09-10T10:53:43+00:00",
-      "generated_at": "2026-09-10T23:47:09.260212+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:09 +0000"
-    },
-    {
-      "id": "fenland-news-8b628c637c1c91073a2c6690",
-      "headline": "Peterborough Museum prehistoric collection receives new status",
-      "brief": "The prehistoric collection at Peterborough Museum has been granted a new official status. The announcement follows reports from the Peterborough Fenland Edge News regarding the museum's historical exhibits. No further details have been provided at this time regarding the specific nature of the classification.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YU0dFZGI4ck1RdDNxMmNnWnBpQ2trZGhDRzdBRXVUc1ROMmdrSUdSMk5IbTFmNXNTdU93XzhQWnpJNXhZd2tJSVJqYkVIWVk3OUl1MDEwYWlHN2hU?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-10T14:42:47+00:00",
-      "generated_at": "2026-09-10T23:47:07.761601+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:07 +0000"
-    },
-    {
-      "id": "fenland-news-18c59fadeee01ff4c66ba246",
-      "headline": "Weekend activities listed for Cambridge area",
-      "brief": "Residents looking for plans this weekend can choose from a selection of eight activities in and around Cambridge. The list, published by the Cambridge Independent, highlights various local options for those in the region. Anyone interested in finding out more about what is happening nearby can view the full details on the Cambridge Independent website.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWR3Q1hiZDhiMm1ZT2xWLVN3N0FIQ04tVDJzZ1RoMmR0aGVGOVY4di1iWEU0YXZBalVWX2NlelpzdmVxUEZCYnNrSnBCTnJUNERyYW1CM3ExMk5UX3FqYlRRcVA2RGRvdDktT1IxUVgxUkEzSXIwcWJ0RnhZR255Z2k5cXlod1diM05UMXJvMHpWenN0bzQzQUNUVVJBOGFQeVZaSUl6eldIS1FLVFZnbzFn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-10T11:45:00+00:00",
-      "generated_at": "2026-09-10T23:47:06.912260+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:06 +0000"
-    },
-    {
-      "id": "fenland-news-7ad09d8bd949d86073eba9ba",
-      "headline": "Nazi symbol scratched onto RAF sign",
-      "brief": "Police are investigating after a Nazi symbol was found scratched onto an RAF sign. The incident has been described as deplorable by those reporting on the vandalism. No further details regarding the location of the sign or the timing of the damage have been released at this stage. Authorities are appealing for anyone with information regarding the incident to come forward.",
-      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkttNmJKU3ZNeEJldWVCdHpBdW5vNHRvRUJEWkJuaWIzWDdYRDRxUDFoVF9IOUFUVFNoZnJfTmlXTlQwVU1oeWFuNkVESnRrYnhnZWNDSm92REU5bk9fa2xGY1RoZW5EUnk0YVduWEY0ZmkyamVfNVhLdHQ0aVNYeE9lbE93bnVzbUU2Y003YUMyS3RMT2ZCOHlDeDZneUVUWHFaMmNB?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-03-23T07:00:00+00:00",
-      "generated_at": "2026-09-10T23:47:05.950823+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:05 +0000"
     }
   ]
 }
