@@ -1,6 +1,56 @@
 {
-  "updated_at": "2026-09-14T11:52:25.696604+00:00",
+  "updated_at": "2026-09-14T17:51:17.838362+00:00",
   "stories": [
+    {
+      "id": "fenland-news-5d6cdd61f9a94f59847fb6da",
+      "headline": "Man from Ipswich dies in Cambridgeshire van crash",
+      "brief": "A man from Ipswich has died following a van crash in Cambridgeshire. The incident was reported by the East Anglian Daily Times. No further details regarding the location or the circumstances of the collision have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUd4RWhqbjVNb2NSUno0TGt1ekxsRDNuLVZVMTBOVzB3Smw1cDVEOFhDLUNTZEhaVEwwQWcxNHlXQ1FyajE0d2RVVy12OHk4RC14UFg0ZS03Mjc0ZEMxWVFkcFVJbTViOEZMa1VxbXhOUzI4aTZWYjI1cWpWNy1yclRaZEk3aF9jd0plbTVDM0FiQQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-14T13:55:00+00:00",
+      "generated_at": "2026-09-14T17:51:17.838221+00:00",
+      "rss_date": "Mon, 14 Sep 2026 17:51:17 +0000"
+    },
+    {
+      "id": "fenland-news-053acf3351d13806998a832e",
+      "headline": "Police investigate meat theft in Spalding",
+      "brief": "Lincolnshire Police are investigating the theft of meat from a shop in Spalding. Officers are currently looking into the circumstances surrounding the incident at the town centre store. No further details regarding the suspects or the value of the goods taken have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmkyQlZ6Zk1aYWttM2FQS2o3OUNYcDc5QkduRHhYNlBWN211Z05mZ2lzR3ZaY3hnWEtPTnlfRy1RR0lQbzgtS05Ba0FqUURYTWpzd19Jc3c2SzRBLXYwM2JFak03Ny01WlFYdHJVTDVoc0ktSzRuUmE0VDhCNFZGYURvZ253YjRFc3NqdEU2c3VheGpDSVFXS0RNZDB6UVU?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-04-07T07:00:00+00:00",
+      "generated_at": "2026-09-14T17:51:15.359835+00:00",
+      "rss_date": "Mon, 14 Sep 2026 17:51:15 +0000"
+    },
+    {
+      "id": "fenland-news-15707abed002d736340e42ee",
+      "headline": "Prison officer jailed following relationship with inmate",
+      "brief": "A prison officer has been sentenced to time in jail after engaging in a relationship with an inmate. The case was brought forward by Cambridgeshire Constabulary. No further details regarding the location of the prison or the length of the sentence have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNb1Q2UDliN2xxdUNrTGhJS200b041VmxYbC1PSjJjRE44R0tNd0JDdXZUU25maXpORmdzaDBfUTRMOVFUVFB0VGNoR1BYVWNZanBXNGhyT2llbEJOWjd2TVdrd05KUDV1Y3lRUlIxejJRZnhkNVV5ZXVSb2UwdDlXWHEzN0VVbXlCb1lyYkRsbWowRDNGSExRcGVHQVhzREotaHVaeF9lSHFMam5YMmlVdWlRb0prQWN4ZUROWGRUcGhmQTdqME4yWmtrMnc2UzRPMklMNUpLSWxOQUNoNHRqeHZUZUIzYkprMUg1YUxTQU5MMGFVUkUzLU9uUUJHUmlheDBmQ1FrLVg2QTZDRWxyNWJKeUxBVGtvTjVXajFIQmptZ2lhUE1BV3d3NTY3RFVZXzBNUVplNTZvaFBacXFrN0R2T1h2dl9SMmJ5VC1XTUNDN3cwb3c?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-06-30T07:00:00+00:00",
+      "generated_at": "2026-09-14T17:51:12.466678+00:00",
+      "rss_date": "Mon, 14 Sep 2026 17:51:12 +0000"
+    },
+    {
+      "id": "fenland-news-65552177742d9ecfc505bfd0",
+      "headline": "Traffic disruption following lorry incident in Spalding",
+      "brief": "Drivers in Spalding are being advised of potential delays following an incident at a busy roundabout. A lorry has lost its load, causing an obstruction in the area. Motorists are encouraged to approach the junction with caution and allow extra time for their journeys while the scene is cleared. No further details regarding the cause of the incident or any potential injuries have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYlZtOU9BOTBlM0ZLX3pGLXdlN1VZNFB4RGJZNVd4aUNNbU4tNVNMS1BpaU1ydmFsd0JRTjhiVXdmeTZyQXN1X21VN2Mza3NBRDdKdzNHZGNQX3hrNjJVVVFmd3NFT2ZzVGFSQjdBOEtveTdURF94bWg5V0FkR0VCUUFfRkR6NE8wMU8zM0lyRl9ubVEwZHNN?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-07-11T07:00:00+00:00",
+      "generated_at": "2026-09-14T17:50:39.894840+00:00",
+      "rss_date": "Mon, 14 Sep 2026 17:50:39 +0000"
+    },
+    {
+      "id": "fenland-news-42282944a6d3f37f082a6d0b",
+      "headline": "King’s Lynn Corn Exchange to light up for domestic abuse charity",
+      "brief": "The King’s Lynn-based Pandora Project is marking its 13th anniversary with a special illumination of the town’s Corn Exchange. The building will be lit in purple this Saturday, September 19, ahead of Domestic Abuse Awareness Month in October. \n\nThe charity provides specialist support to women and children across North and West Norfolk affected by domestic abuse. Figures from Norfolk County Council show nearly 11,400 domestic abuse-related crimes were recorded in the county during 2023/24. Organisers hope the display will raise awareness and remind those in need that local support services remain available. Further information can be found on the Pandora Project website.",
+      "original_url": "https://www.lynnnews.co.uk/news/charity-supporting-domestic-abuse-victims-celebrates-13th-bi-9482713/",
+      "source": "Lynn News",
+      "published": "2026-09-14T13:25:01+00:00",
+      "generated_at": "2026-09-14T17:50:35.412658+00:00",
+      "rss_date": "Mon, 14 Sep 2026 17:50:35 +0000"
+    },
     {
       "id": "fenland-news-267079140b02818675aff2c1",
       "headline": "Conservative majority secured in East Cambridgeshire",
@@ -950,56 +1000,6 @@
       "published": "2026-03-23T07:00:00+00:00",
       "generated_at": "2026-09-10T23:47:05.950823+00:00",
       "rss_date": "Thu, 10 Sep 2026 23:47:05 +0000"
-    },
-    {
-      "id": "fenland-news-30baaeb8f709881f918a965a",
-      "headline": "Wimblington golf centre issues statement following death of seven-year-old boy",
-      "brief": "A golf centre in Wimblington has described the death of a seven-year-old boy as heartbreaking. The venue released a statement following the incident, though no further details regarding the circumstances have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PdklrRFVNNElXN3lscWNjZzd2OUhWV01LNmtvTUtvbXg3SEtubDlNcTlxLXN4LUpfclpiZTJ5Q2JxQmxGU2ZVOTFBZThlTDFKN0hsRHpsUVhKQ3Ju?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-09T07:00:00+00:00",
-      "generated_at": "2026-09-10T23:47:05.062306+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:05 +0000"
-    },
-    {
-      "id": "fenland-news-43e37a269af57da3ca50db08",
-      "headline": "King’s Lynn adult entertainment club seeks move to larger premises",
-      "brief": "The owner of the King’s Lynn gentleman’s club, 7th Heaven, has applied for a new sexual entertainment licence to relocate to larger premises. Ian Cunliffe is seeking permission to move the business from its current Norfolk Street location to the second floor of the nearby Rewind nightclub. \n\nIf the application is approved, the owner intends to provide more dance space and an improved bar area. The club currently operates from Thursday to Saturday, between 9pm and 4am. The proposal is open for public consultation until September 25. Residents wishing to comment on the application should write to the Licensing department at the Borough Council of King’s Lynn and West Norfolk.",
-      "original_url": "https://www.lynnnews.co.uk/news/adult-entertainment-club-looks-to-move-into-larger-premises-9482298/",
-      "source": "Lynn News",
-      "published": "2026-09-10T14:28:58+00:00",
-      "generated_at": "2026-09-10T23:47:03.763474+00:00",
-      "rss_date": "Thu, 10 Sep 2026 23:47:03 +0000"
-    },
-    {
-      "id": "fenland-news-067d941363ff6cc3d4ec126b",
-      "headline": "Cambridgeshire police conduct county lines crackdown",
-      "brief": "Cambridgeshire Constabulary has carried out a series of arrests as part of a targeted operation against county lines drug activity. The police force confirmed that action was taken to disrupt the illegal supply networks operating across the region. No further details regarding the specific locations of the arrests or the number of individuals detained have been released at this time. Residents are encouraged to report any suspicious activity to the police as efforts to tackle these criminal operations continue.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUko3c0o5QVJEb3NpRmpGbm9Da1p1NnBEeVQ0LU9pMkNOMmFtdnN3SGhQRVFFMEJaMTRWT0Fhdy1aeHB3ZmVDRGM4WjhSanYwOUUzN0l2Z0IzUHJrbjhSdXVibnBOUl9kTS1vOXZnOWdPLUFMd0M2WERRSE81UlUxc0R3dUp6eGdDMkxvcFhLV3JlRTZCUzJOZzk0MGdqQ2c2dVVLWE1KeW0?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-03-13T07:00:00+00:00",
-      "generated_at": "2026-09-10T17:49:01.829976+00:00",
-      "rss_date": "Thu, 10 Sep 2026 17:49:01 +0000"
-    },
-    {
-      "id": "fenland-news-09ed0aca8a7b9b3ed1e4e8de",
-      "headline": "Support project for Armed Forces community launched in King’s Lynn",
-      "brief": "A new initiative called Project Nourish and Connect is offering support to the Armed Forces community in King’s Lynn. Run by The Bridge for Heroes, the scheme aims to combat loneliness by providing home-cooked meals and a space for social interaction six days a week.\n\nThe drop-in centre, located on South Clough Lane, is open Monday to Friday from 10am until 3pm, and on Saturdays between 10am and 2pm. The project is funded by the Norfolk Community Foundation. Members of the Armed Forces community interested in the service can visit the centre in person or call 01553 760230 for further information.",
-      "original_url": "https://www.lynnnews.co.uk/news/project-nourish-and-connect-brings-food-friendship-and-supp-9482309/",
-      "source": "Lynn News",
-      "published": "2026-09-10T15:09:34+00:00",
-      "generated_at": "2026-09-10T17:48:56.074156+00:00",
-      "rss_date": "Thu, 10 Sep 2026 17:48:56 +0000"
-    },
-    {
-      "id": "fenland-news-b18afa552146be7cb52e29fc",
-      "headline": "Peterborough Museum prehistoric collection receives new status",
-      "brief": "The prehistoric collection held at Peterborough Museum has been granted a new official status. The announcement follows reports from the Peterborough Fenland Edge News regarding the site's historical exhibits. No further details have been provided at this time regarding the nature of the designation or how it will affect future displays.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxT0hHTWNoNDYxUUxrdEVyZzYyZXAwZko1elBXSng4R1B4WWdNdEZOTGxIeUhhbFlFbW50eWp1TTRsb0VZcHFwaXY0clByWXgyWlBoc2RKZ0lzdw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-10T14:42:47+00:00",
-      "generated_at": "2026-09-10T17:48:49.838659+00:00",
-      "rss_date": "Thu, 10 Sep 2026 17:48:49 +0000"
     }
   ]
 }
