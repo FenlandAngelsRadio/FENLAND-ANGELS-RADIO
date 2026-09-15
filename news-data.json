@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-15T05:52:06.526866+00:00",
+  "updated_at": "2026-09-15T11:48:52.510034+00:00",
   "stories": [
+    {
+      "id": "fenland-news-092fc5da128093d8dd24674f",
+      "headline": "Planning application submitted for new Cambridgeshire landmark hub",
+      "brief": "A formal planning application has been submitted to develop a new landmark hub in a Cambridgeshire town. The proposal, referred to as Buttondown, is currently being put forward by the local council. No further details regarding the specific location or the nature of the facility have been released at this stage. Residents are advised to monitor official council planning portals for updates as the application progresses through the review process.",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQclhOSHpHVXJicGRrQTItY01fV1ZrOTgzakxocU9KemZmRGRiczRQNTdQUHJjSTVoRUFraFZUV0hJWm5rcm45TFhEUGhSczJOZEF3QTl0Szh2cUVvU2g4UExONDI0cF9COXRZZlZCYzdDc1ljbnh4QXJOelZkZVZvVnk5NlNkbXBCMktmRmJ3cU50V0ZCMk5HeVRvOE1LeUYwX0FpdXNidw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-15T11:46:33+00:00",
+      "generated_at": "2026-09-15T11:48:52.509909+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:52 +0000"
+    },
+    {
+      "id": "fenland-news-614c91aaf41f50d60b09bc99",
+      "headline": "New traffic calming measures planned for March",
+      "brief": "Drivers in March should prepare for upcoming changes to local roads. New traffic calming measures are set to be introduced in the town, with the primary aim of improving road safety for the community. Further details regarding the specific locations and the timeline for these installations have not yet been released. Residents are advised to keep an eye out for future updates as the project progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnYld1UnloTjZSQWRvdmFKT3B6X2dEMXpzQUp4N2Y5RG5XMmhyT3BCZUFPWW1lbzRXMmZOWG5KekRlaHNTWl9tWEhGLU1vUTZzcUhnVElBZjVJZw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-06-09T07:00:00+00:00",
+      "generated_at": "2026-09-15T11:48:50.613733+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:50 +0000"
+    },
+    {
+      "id": "fenland-news-b195aa82a728633f0636d519",
+      "headline": "East Cambridgeshire councillor defends crematorium funding",
+      "brief": "An East Cambridgeshire councillor has defended the 13-million-pound cost of a new crematorium. The official described the funding used for the project as being left over money. No further details regarding the development have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVHN6R0pFdm5uYTFNUHh4dS1ZZ1V1TWZWWGJic28tLWcyaktsQmRhZU5ibGVMNWxIeTZPUU14VzJCd3VBQzdaMks5bllOUjFKUi1MSUJXMzZqLXRCNlFpVUlKc1dkVWJ1d1JQcGx5ZUd3LXdQTTFUdHBhV2ZXbG9aOTYyRU0tUEpFNENzaldSaURZb3ktZnhpSU94THBmcmE2aVl0ck03TWx4WE1z?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-15T07:03:00+00:00",
+      "generated_at": "2026-09-15T11:48:48.808814+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:48 +0000"
+    },
+    {
+      "id": "fenland-news-06e0e8110683cae79a392f19",
+      "headline": "Approval granted for 70 new homes in Long Sutton",
+      "brief": "A development of 70 new homes in Long Sutton has been given the go-ahead. Planning permission was granted following an agreement between the developer and local authorities to make changes to the original proposal. The project is set to proceed after these adjustments were finalised.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZXJBMlNJV1JSYlBQUU9XNmJQRU1zOWdZVlBmOEMwLWNhRWJkVk9mSXdMcU0yVlg0eDBiQWI3M1I0cHJFXzZpdlBLcGRJaUw4dnEwQXlwVU41S3VkTk5HS2JlRkp2dGFQaTk4eHdTZzdmaUR2MUNtaTN2dlp1bTRWcjJCTm01bWFYNUdSLWl5ONIBlAFBVV95cUxQa1pub2NZRl83bjRpX1pBaWV2eUNBU19QNWxCdVlpOWsyYmZwbllEcHBFMVU2NzV2YlkwVnJWTjZ2dGY4dmJJaEZhNjM3RzVHcmdGRFVuaE9uVVlpOVJaWEdFUXZKb0dodU03V0xZa3k1TjUzbnFDSzV3YXJxckptenFrby0tOFBoZHlfV1p1djY4cmRl?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-08-11T07:00:00+00:00",
+      "generated_at": "2026-09-15T11:48:47.946663+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:47 +0000"
+    },
+    {
+      "id": "fenland-news-c53adeca227ee9998581a484",
+      "headline": "Illegal tobacco and vapes seized in Fenland",
+      "brief": "Police have confiscated a large quantity of illegal cigarettes and vapes from a shop in the Fenland area. Officers carried out the operation to remove the illicit items from circulation. No further details regarding the specific location or any potential arrests have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVG5vdVpobGtzOGU0RTAzZ3BkaDVSR3ZrWHNtRkRDRnlMNDBiMDFPMU5FNkxneVV0RzE3VS1Tc3FVUWJFU2w2aUJMVTRyMGNSZGlNQXhzaTcyUVNqLTN3bE53TFRDRVJFZkduOFJiMUZIclh3SjNPUFVXc2hYMnhjX1RCUy1PUklOYnBqRjNwNXhrLWp3ZDdRcWpuX3BvTmFEVkE?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-12T07:00:00+00:00",
+      "generated_at": "2026-09-15T11:48:46.925035+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:46 +0000"
+    },
+    {
+      "id": "fenland-news-4dc12ca77f2ee0402e37c424",
+      "headline": "Local residents share concerns over hospital services and transport",
+      "brief": "Readers of the Lynn News have raised concerns regarding the future of the Queen Elizabeth Hospital in King’s Lynn. Discussions are currently underway regarding the potential relocation of maternity and intensive care services, prompting local debate about the hospital's long-term role in the region.\n\nIn other news, a new bus route has been introduced to improve transport links for several Norfolk villages. The service connects Crimplesham, Fincham, Marham, and Narborough with Swaffham. Operating every two hours from Monday to Saturday, the route includes a stop at Tesco and costs three pounds each way, with bus passes accepted.",
+      "original_url": "https://www.lynnnews.co.uk/news/views-on-transport-education-and-health-9482244/",
+      "source": "Lynn News",
+      "published": "2026-09-15T05:00:00+00:00",
+      "generated_at": "2026-09-15T11:48:45.962857+00:00",
+      "rss_date": "Tue, 15 Sep 2026 11:48:45 +0000"
+    },
     {
       "id": "fenland-news-ff78a3fa3ee9f886ff8e8024",
       "headline": "Police appeal following Peterborough collision",
@@ -940,66 +1000,6 @@
       "published": "2026-09-09T03:00:00+00:00",
       "generated_at": "2026-09-11T17:47:22.099273+00:00",
       "rss_date": "Fri, 11 Sep 2026 17:47:22 +0000"
-    },
-    {
-      "id": "fenland-news-a29a3d77380da4edfdda4dcc",
-      "headline": "Freshers’ Fair held at College of West Anglia in Wisbech",
-      "brief": "Students at the College of West Anglia’s Wisbech campus have been welcomed to the new academic year with a Freshers’ Fair. The event was designed to introduce learners to college life and the various support services available both on campus and within the wider community.\n\nStalls were hosted by a range of organisations, including local health and wellbeing providers, financial services, and community groups. College officials stated the event highlights the strong partnership between the institution and the Wisbech area. Attendees described the fair as a helpful way to learn about available opportunities and support, with organisers emphasising their commitment to the student experience throughout their time at the college.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/warm-welcome-for-college-students-at-freshers-fair-9482546/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-11T15:48:43+00:00",
-      "generated_at": "2026-09-11T17:47:19.975877+00:00",
-      "rss_date": "Fri, 11 Sep 2026 17:47:19 +0000"
-    },
-    {
-      "id": "fenland-news-19676777dded16f777122dff",
-      "headline": "New industrial units approved for King’s Lynn",
-      "brief": "West Norfolk Council has granted planning permission for seven new metal starter units on Rollesby Road at the Hardwick Industrial Estate in King’s Lynn. The project, led by Downham-based developers Alan Homes Ltd, will occupy 682 square metres of land currently consisting of grass and trees behind the existing Potters building. \n\nWhile Anglian Water raised objections regarding the proximity of their assets to the site, council officers have approved the development for general industrial use. The specific nature of the businesses that will occupy the new units remains to be confirmed.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-units-for-town-s-industrial-estate-approved-9482542/",
-      "source": "Lynn News",
-      "published": "2026-09-11T15:40:01+00:00",
-      "generated_at": "2026-09-11T17:47:16.768648+00:00",
-      "rss_date": "Fri, 11 Sep 2026 17:47:16 +0000"
-    },
-    {
-      "id": "fenland-news-3ab7d045ba438550b6bce9af",
-      "headline": "Free weekly running sessions offered at Wisbech Park",
-      "brief": "Residents across the Fens are being invited to join a free, weekly running programme at Wisbech Park. Organised by Active Fenland, the Couch to 5k sessions take place every Tuesday morning between 9:30am and 10:30am. \n\nThe group is led by England Athletics-qualified coach Gary Bligh and is open to all abilities, regardless of previous running experience. Organisers say the sessions focus on building confidence and stamina in a supportive environment, with no pressure to meet specific pace targets. Beyond the physical exercise, the group offers a social opportunity for participants to meet new people. Those interested in taking part can simply turn up to the park to get involved.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/more-than-just-a-couch-to-5k-weekly-event-is-supportive-9482397/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-11T09:33:03+00:00",
-      "generated_at": "2026-09-11T11:48:53.220913+00:00",
-      "rss_date": "Fri, 11 Sep 2026 11:48:53 +0000"
-    },
-    {
-      "id": "fenland-news-7141067e02c412336689fe37",
-      "headline": "Battle of Britain commemoration service in King’s Lynn",
-      "brief": "A wreath-laying ceremony will be held in King’s Lynn’s Tower Gardens this Monday to mark the 86th anniversary of the Battle of Britain. The service begins at 10:45am and will be led by the Reverend Canon Mark Dimond. West Norfolk Mayor, Councillor Steve Bearshaw, is expected to attend alongside representatives from the Armed Forces, local schools, and cadet groups.\n\nThe event also signals the launch of the Royal Air Forces Association’s annual Wings Appeal. Organisers are encouraging veterans and members of the public to attend the commemoration. Following the service, guests are invited to Marriotts Warehouse for refreshments.",
-      "original_url": "https://www.lynnnews.co.uk/news/battle-of-britain-service-on-monday-9482199/",
-      "source": "Lynn News",
-      "published": "2026-09-10T08:59:28+00:00",
-      "generated_at": "2026-09-11T11:48:49.487582+00:00",
-      "rss_date": "Fri, 11 Sep 2026 11:48:49 +0000"
-    },
-    {
-      "id": "fenland-news-58737cb8e859d261c69f538e",
-      "headline": "Major rail disruption in Ely following person hit by train",
-      "brief": "Rail services across Cambridgeshire are facing significant disruption today following reports that a person has been struck by a train in Ely. Passengers are being advised to expect major delays and potential cancellations while emergency services respond to the incident. Those planning to travel through the area should check the latest service updates before heading to the station, as the situation is currently impacting the wider rail network. Further information regarding the resumption of normal services will be provided as it becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYjNkWjZIdkZCdzZTSEw5QkJ1VUF3aXlpc3BsNU1GUk1PTDIxb05reEE3dXRtY0NKck91NUkzZUstV1lwb3QwbDdfQmI5Rkd2YUllLXk1aVhMWUxTYUtrNVdMQ1N0ckdyQWZ1cGMyclo2M2R0UVZJYV9UTUM3djRmV3JKSGZIWFBGQ1BvQUFlaDdVTHBoUTl6dNIBngFBVV95cUxORklqWXJ5elRmZzI0OHBJWVNSSHo1aU01QjRneW93OGNLX3U3WG0yd1NDWlRoekFUekhlQTU0UFBmT0owN0dNUC1FaWxKSnBOR0UzTWZNVTU0eURSdGNGeVJrQi1pbVh3U3Y4TnhqR0ZLQ2dhVnU3Y1JJX0xTNmJmSDZGSGdqV2tialJ4amh6UWVNZkdKX3BjaFBxVW1IUQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-11T11:22:00+00:00",
-      "generated_at": "2026-09-11T11:48:45.277892+00:00",
-      "rss_date": "Fri, 11 Sep 2026 11:48:45 +0000"
-    },
-    {
-      "id": "fenland-news-d78331cbac8a4dca34f58eac",
-      "headline": "Cambridgeshire man shares 9/11 experience in Newfoundland",
-      "brief": "A Cambridgeshire resident has spoken about his experience during the September 11 attacks. Gary Christy, who was a passenger at the time, has shared his story of receiving kindness while stranded in Newfoundland. The account highlights the support he encountered in the region following the events of that day.",
-      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVmdvVnhWREtqOHJlUlJ3cnhqYTZPeEtOZUdnVEJvTzhaWWFzb2dfRm5ZdDJtWnhoRzJSZ1BhOGwwOUx0RVQ5d0s5YV9OZnZzLURpVW9NaTc1cFgybmFaOFdDOWJ1UFd3OGNzZlFJYVpOeVJHaGlMSDhiU1NCcmhlS1lacHMxZ3hUQnF2ZVg0dGFrcEhndU1VQjBPenFBdlRhd0drRTRJalo2VzA1T25VLXRZNzFRSTlQQ01mOTJDUzhId1hqaUxn?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-11T10:34:00+00:00",
-      "generated_at": "2026-09-11T11:48:41.807614+00:00",
-      "rss_date": "Fri, 11 Sep 2026 11:48:41 +0000"
     }
   ]
 }
