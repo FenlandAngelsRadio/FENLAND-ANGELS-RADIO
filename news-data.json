@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-17T05:50:28.055974+00:00",
+  "updated_at": "2026-09-17T11:49:53.570119+00:00",
   "stories": [
+    {
+      "id": "fenland-news-3af3be3431c4f15d20ae458d",
+      "headline": "Looking back at local news from the archives",
+      "brief": "We are taking a look back at stories from the Fenland archives. In September 1986, pool players in Nordelph raised £415 for charity. The funds were collected during a 24-hour marathon at the Chequers pub, held in memory of former player Christopher Clingo.\n\nAlso in the archives, we recall an incident from 2016 involving a performer at Mr Fips Wonder Circus in King’s Lynn. The UK’s last human cannonball, 26-year-old Shane Beare, was taken to the Queen Elizabeth Hospital after breaking both ankles during a stunt at Knights Hill. Mr Beare later stated that he lost concentration during the performance, which was witnessed by an audience of around 300 people.",
+      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-pool-marathon-raises-hundreds-in-christopher-s-9482496/",
+      "source": "Lynn News",
+      "published": "2026-09-17T05:00:00+00:00",
+      "generated_at": "2026-09-17T11:49:52.586089+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:52 +0000"
+    },
+    {
+      "id": "fenland-news-bccdd8b2b5bd78bb51a7013e",
+      "headline": "Peterborough United drawn against Bradford in Carabao Cup",
+      "brief": "Peterborough United are set to travel to Bradford for their upcoming Carabao Cup fixture. The club, known as Posh, will face the Bantams in the next round of the competition. Further details regarding the date and kick-off time for the match are expected to be confirmed by the clubs in due course. Fans are advised to keep an eye on official announcements for ticket information and travel arrangements as the team prepares for the away trip.",
+      "original_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTkxlWU5ybmlfRXQtR3pINFRpVE0xeWRDNUhqb2IyWWREaU51cGtGZ0dyVHIySXhxV1BmMXhCZ2Rmc2NjdFRSYUdOM1Nsdm1ZLXphb2JOVnNfQ3hDYjlfVjNRZ25DOU05QUJab3haa0d3Zw?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-16T22:40:56+00:00",
+      "generated_at": "2026-09-17T11:49:50.441668+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:50 +0000"
+    },
+    {
+      "id": "fenland-news-b54e1e7493c6ed2b1e72eede",
+      "headline": "Cambridgeshire businesses advised to check fire safety",
+      "brief": "Business owners across Cambridgeshire are being encouraged to carry out a review of their current fire safety measures. The advice comes following a report from the Ely East Cambridgeshire News. Local firms are being urged to ensure their premises remain compliant with safety standards to protect staff and property.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTnVqVnFXaEt4WXd3MlNZaTVDbFVxRERWT2xqNXZ2czc0bU1xSkJsLXRkN1FyLWJIMDVFS3Z0aWd0dmIzbnJwbHJEMkhPWUhaVzNCY0hmSVBUU280S2VvQ1A1LW41M0hoYk5BSlhvZ3RLcDNlRG1JOWtOUkRVdHRqZEpwWm1qc3pBbXB6b2pSY2ZJdVpSSDdhX0EwWnFJQQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-15T03:00:00+00:00",
+      "generated_at": "2026-09-17T11:49:48.662968+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:48 +0000"
+    },
+    {
+      "id": "fenland-news-b4519b2ff0e56deef95d0235",
+      "headline": "Developer appeals butterfly park planning refusal",
+      "brief": "A developer is challenging a decision to refuse planning permission for a proposed butterfly park. The project, which has prompted concerns from local residents, was previously rejected by planning authorities. The developer is now seeking to overturn that outcome. Further details regarding the appeal process have not yet been confirmed.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTGdVaDFHZ1JYeWY1SlR1M2NzX0pSQWZoa1ExTTAyM1o4SzVpU0hRWV9GNUItLXRJVG9CUmVVcC14anJYcklxM3QzV01Hb1RmQ20xOXd6Vmc4anBvbWNIWFVFZFpJU2pkVjZEXzdfRHRfaFVQQ0J6anprTXp3bFR6QXB3YTNDVTdUY0h0S0lvd0RBbUV2WG8ybnE4bzNLZXprS0t6bFByVFJ4QUwwNE1kNTdR?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-10-14T07:00:00+00:00",
+      "generated_at": "2026-09-17T11:49:47.504195+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:47 +0000"
+    },
+    {
+      "id": "fenland-news-3eab29bb1f8ff44d6c08391d",
+      "headline": "Council leader criticises waste management contract",
+      "brief": "The leader of the council has described the local authority's annual waste management deal as a mess. The contract, which is valued at 36 million pounds per year, has come under fire from the council’s leadership. No further details regarding the specific nature of the issues or potential changes to the service have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ENElrZDMtNExIVTFNVGEzRFlfemxnZUNqeE1rV3prTWJtR2ZXTDBzNHFmc0JJZC1FcFBKYnN2Z09GN1R3amZ0ZEh0cTlaNVVrM2VockRfQ0QzdnFP?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-05-23T07:00:00+00:00",
+      "generated_at": "2026-09-17T11:49:46.311105+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:46 +0000"
+    },
+    {
+      "id": "fenland-news-bd12c77c5081f6f04ebfc704",
+      "headline": "Wisbech Statute Fair returns to town centre",
+      "brief": "The historic Wisbech Statute Fair is back in the town centre for its annual visit. Mayor Lucie Foice-Beard officially opened the event yesterday evening at the Church Terrace car park, accompanied by fellow councillors. The fair, which has a tradition spanning over 750 years, is presented by the Eastern Section of the Showmen's Guild and features a variety of rides, games, and food stalls.\n\nResidents can visit the fair tonight and tomorrow from 5pm until late. Weekend opening hours are from 2pm until late on both Saturday and Sunday. The event will conclude this Sunday.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/historic-fair-once-again-opens-in-town-for-few-days-of-fun-9483161/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-17T08:38:13+00:00",
+      "generated_at": "2026-09-17T11:49:44.943337+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:44 +0000"
+    },
+    {
+      "id": "fenland-news-d77351c84cce31afab59f405",
+      "headline": "King’s Lynn man jailed for theft and criminal damage",
+      "brief": "A 38-year-old man from King’s Lynn has been sentenced to six weeks in prison following a series of offences. Scott Manning, who is of no fixed address, was arrested in Downham on Tuesday. He appeared at Norwich Magistrates’ Court on Wednesday, where he admitted to stealing over £500 worth of make-up and other items from a chemist. \n\nIn addition to the theft, Manning pleaded guilty to criminal damage after spitting on the seat of a police vehicle during his arrest. Alongside his custodial sentence, the court has ordered him to pay a fine of £124.",
+      "original_url": "https://www.lynnnews.co.uk/news/prolific-thief-jailed-after-stealing-make-up-and-spitting-on-9483186/",
+      "source": "Lynn News",
+      "published": "2026-09-17T10:01:06+00:00",
+      "generated_at": "2026-09-17T11:49:43.200029+00:00",
+      "rss_date": "Thu, 17 Sep 2026 11:49:43 +0000"
+    },
     {
       "id": "fenland-news-d961c3e2b9e8a26ca75fd06d",
       "headline": "Three Lincolnshire shops closed over illegal tobacco sales",
@@ -930,76 +1000,6 @@
       "published": "2021-04-22T07:00:00+00:00",
       "generated_at": "2026-09-13T11:47:15.628143+00:00",
       "rss_date": "Sun, 13 Sep 2026 11:47:15 +0000"
-    },
-    {
-      "id": "fenland-news-23b890a446a3d04ff2df23f3",
-      "headline": "Leadership change at Neale-Wade Academy",
-      "brief": "Neale-Wade Academy has announced a change in leadership. The school’s departure is being linked to a wider trend involving the Active Learning Trust. No further details regarding the circumstances of the move have been provided at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVVhoU1p3SWoyQTA5dlN1QnFRZGt2S3k1RHZiNlRFM1pOQlFfOVJtWXM5TWZDak5JRGZtOUVpdTg2MzFBbVltRXBDdGh2eV9VdDIzVmFrLU1LZlVxb3lQYlpMaUY4WFVBMzVFWlIzclJKeWtieDlZX09KMXE2bHpkV3IwSjlxNFlQc1o2b2pBRUx0dUJxaFcta3RJMC1FaEZEa3NSU3c1M1VhNTVNQWtBbkREUWotQ2xwVG5wVHNHOThKS2N2NTZSblZybmVoVGY2OVlGR0N3Qk9vV3RzclZETGQySUd0Mm9aMHZQT2JFbVg?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-11T07:00:00+00:00",
-      "generated_at": "2026-09-13T11:47:14.632070+00:00",
-      "rss_date": "Sun, 13 Sep 2026 11:47:14 +0000"
-    },
-    {
-      "id": "fenland-news-8a900dc41f2d8dca8b89c910",
-      "headline": "Funding boost for Bronze Age site near Peterborough",
-      "brief": "A Bronze Age archaeological site located near Peterborough may be preserved following the allocation of new funding. The site, which dates back to the Bronze Age, has been identified as a candidate for protection thanks to this financial support. Further details regarding the specific location and the amount of funding provided have not been disclosed.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44ZS1pbGtIdHk0Y182b2FJNkk3dlpsT04yMUtqU1U3ZXVXbFVSRlJkRmxweFN1UllsVjdEU1ZFbnprckdfLVk5UnRyeks2RU85NUJpdHFWaDhkZw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-13T05:11:25+00:00",
-      "generated_at": "2026-09-13T11:47:13.743049+00:00",
-      "rss_date": "Sun, 13 Sep 2026 11:47:13 +0000"
-    },
-    {
-      "id": "fenland-news-d9cf64ca34bd830fef27aa5a",
-      "headline": "Health and wellbeing fair to return to Ely",
-      "brief": "A free health and wellbeing fair is set to take place in Ely this September. The event, which focuses on community health, is returning to the city following previous editions. Further details regarding the specific date, venue, and the range of services available to residents are expected to be announced closer to the time. Those living across the Fens who are interested in local health initiatives are encouraged to keep an eye out for further updates on the fair's schedule.",
-      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFEcE94TGxkR1ljblBhWUNqcXUtTWM5bFFQSTRqa0VjbHIxNm0tQWp5YVlZUkRtcHZRdm0xaS0xMXlJTENzMGQ2VGFrYlh1cVlhV1FHeDgyM29vZzc3MlN2dS1zN1p0em92R0VOQmk5MnY1V2N0Q1dRRG4wUVlFVFJMMGg3QjcyN29hbWItcw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-10T11:00:00+00:00",
-      "generated_at": "2026-09-13T11:47:12.763850+00:00",
-      "rss_date": "Sun, 13 Sep 2026 11:47:12 +0000"
-    },
-    {
-      "id": "fenland-news-368a965b7aeb8ce2821c6d87",
-      "headline": "Approval granted for 70 new homes in Long Sutton",
-      "brief": "Planning permission has been granted for a new housing development in Long Sutton. The project will see 70 homes built in the area. The decision follows reports from the BBC regarding the development plans.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vbGtmanZ5bVA5T09lSkdhMjZVX0xGd3Byb1BCNm1PSkd3dlhSaXJSdV8yd1lQWmFGRkhDaHhLdXhMU0Q2c1ZUQjRDTU1ndTdVTE5yTktjRTl6Mk1M?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-08-10T07:00:00+00:00",
-      "generated_at": "2026-09-13T11:47:11.784214+00:00",
-      "rss_date": "Sun, 13 Sep 2026 11:47:11 +0000"
-    },
-    {
-      "id": "fenland-news-872014876302c10078e95da2",
-      "headline": "Van strikes railway bridge in Stonea",
-      "brief": "A van has collided with the railway bridge in Stonea. The structure is frequently involved in similar incidents. Motorists in the area are advised to be aware of the disruption following the latest collision at the site.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORTNmMVY4Q0pxdG9MV0hDOVExOGN4eWUyT1FIZnJNQzBvYUlHS3cyRnJUcW1Pc0xUcmJERl8zZTlXUUk1WXdHYzVvRXEyWHNqUkZjakxtcVVkZk16WDUtTU03cGlXSFhfcDZpZGtfVGx4LTRrbjZONmFPNUdZWWFUdUMyUnpweE1BYjlaY0lpdDc1TFJhdjhqcjdtaDJvVXc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-02T07:00:00+00:00",
-      "generated_at": "2026-09-13T11:47:10.904178+00:00",
-      "rss_date": "Sun, 13 Sep 2026 11:47:10 +0000"
-    },
-    {
-      "id": "fenland-news-1ac529fe57643146b17c2715",
-      "headline": "East Cambridgeshire man faces charges over online messages",
-      "brief": "A man from East Cambridgeshire has been charged following allegations regarding inappropriate online communication. The individual is accused of asking a young girl to send photographs of herself wearing her school uniform. The case is currently being reported by the Ely Standard.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUDVQQ2FtVU1UYjRvMFlPYUJmcE9ZV1RuZTlqaXcwb0VWeXBqemVtM1loQmRwMFlsSGtSTnJGOV83bHBqajlpR2MxT2xldV9KR0ZvbnFQNnhGUWlnTHhPN2xWdm91ZWM1UFJLT0xYbV9xRDhEMnZkUWJaTE9DTEpwRW85czMxb1JUcDdCcE91bmMxQmh2aHZSa0VSS2RxZnFjbGlj?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-09T13:34:00+00:00",
-      "generated_at": "2026-09-13T05:47:40.681735+00:00",
-      "rss_date": "Sun, 13 Sep 2026 05:47:40 +0000"
-    },
-    {
-      "id": "fenland-news-245a2506f363d838113ac8cf",
-      "headline": "Long Sutton park set for fifty-thousand pound improvement",
-      "brief": "A park in Long Sutton is due to undergo a significant refurbishment. Plans have been confirmed for a fifty-thousand pound makeover at the site. The project aims to improve the local facility, though further details regarding the specific nature of the upgrades or the start date for the work have not yet been announced. Residents are advised to look out for further updates as the development progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVptaTYyUUMtc0gxVjlrdVI2UnRnVHUxd0FvMmd4YTV0bFM5amNRTzBNeFNzWlpCaWw5UXI3Vl84SWI0b3VlM3JYNDBuR1JNQlh1bFc4dkJCTGFXYndlM2lrTlFfbWlBam5TcGhVeVQ1OEhZWm90d2ZDVjR2UG9ma3ZUZEFqZGdPazlDNQ?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-09-05T07:00:00+00:00",
-      "generated_at": "2026-09-13T05:47:38.870434+00:00",
-      "rss_date": "Sun, 13 Sep 2026 05:47:38 +0000"
     }
   ]
 }
