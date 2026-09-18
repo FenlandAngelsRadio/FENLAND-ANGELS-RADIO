@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-18T17:48:22.738844+00:00",
+  "updated_at": "2026-09-18T23:48:07.539797+00:00",
   "stories": [
+    {
+      "id": "fenland-news-ec2239a498527190180d5a13",
+      "headline": "New pea processing plant opens in Lincolnshire",
+      "brief": "Food manufacturer Princes has officially opened a new pea processing facility in Lincolnshire. The development forms part of a wider investment programme by the company, which has committed eighty million pounds to its operations. The new plant is expected to bolster production capabilities within the region.",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3Qzdk5ZNnRUVjROTl9mcXRpVUJNZC1JN3JTRVRQdGppVDN3Ml9DS2dFSmZWSjFxckVQUjc3UXBFb2FzQUZicnQwZm5BcGpJY1ZhQmdrX2xfaDlLakRsX2Z1eXVYbWZlMkkzUExmalpXWUF2SGNQazRqbUFIZVo3YzdWaEF1a0YtUEJWRGZ6NzJUQ0F4YWJPYmJiOWhIc3VFZ1U5a0RvZUNIdEw4bERtVHdpdTdZWlFuMUJyYmYzWi1Nd3JEcnc?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2019-07-09T07:00:00+00:00",
+      "generated_at": "2026-09-18T23:48:07.539638+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:48:07 +0000"
+    },
+    {
+      "id": "fenland-news-0dc4ee1881c2847bfc3daef1",
+      "headline": "Nine road closures announced across Cambridgeshire",
+      "brief": "Motorists in Cambridgeshire are being advised of nine upcoming road closures in the region. The details, reported by the Cambs Times, highlight a series of disruptions that may affect travel plans for those living and working across the county. Drivers are encouraged to check their routes before setting off to avoid potential delays caused by these works. Further information regarding the specific locations and the duration of these closures can be found via the Cambs Times website.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkVEWktuVmd6bGhkOTByU1ZBOWJfVk9lVVM5MzA5bGllSHFqcUFfbUhUSU9qUDlkY0d2bnVCQzNGWkF0QzJ0T0NYbXJuT21aSXJ1YU9Kek11SHM3cG9HQ29QdGpQS1ZNbkFKUlJGZWdfNndrdGtuZEM2WFgzX2t3OVJHeVBscXdzdU5fS1U1Vkc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-05-17T07:00:00+00:00",
+      "generated_at": "2026-09-18T23:48:05.990907+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:48:05 +0000"
+    },
+    {
+      "id": "fenland-news-edf662fae722d7ed3dbf7b2f",
+      "headline": "Further delay announced for Queen Elizabeth Hospital rebuild",
+      "brief": "The completion date for the new Queen Elizabeth Hospital in King’s Lynn has been pushed back to 2033. Professor Lesley Dwyer, CEO of the Norfolk and Waveney Hospital Group, confirmed the new timeline at the hospital’s annual meeting, though she expects the facility to be fully operational by 2035.\n\nDuring the meeting, the trust did not rule out changes to the current A&E department. While Professor Dwyer guaranteed that 24-hour emergency care will remain available, she noted that different models of service are being explored. Local councillor Rob Colwell has expressed disappointment regarding the delay, as a community petition to protect vital services at the hospital has now reached 9,000 signatures.",
+      "original_url": "https://www.lynnnews.co.uk/news/qeh-rebuild-pushed-back-again-while-axing-of-a-e-not-ruled-9483372/",
+      "source": "Lynn News",
+      "published": "2026-09-18T09:05:52+00:00",
+      "generated_at": "2026-09-18T23:48:04.008894+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:48:04 +0000"
+    },
+    {
+      "id": "fenland-news-da9c5ba39703c8d2ea8439cb",
+      "headline": "Peterborough United to face Doncaster Rovers",
+      "brief": "Football fans are preparing for an upcoming match between Peterborough United and Doncaster Rovers. The fixture sees the two clubs meet as part of the latest football schedule. Supporters planning to attend the game are advised to check travel arrangements and local guidance ahead of the event.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVHlZU0hFT0pzWFBvSFdFU0Z6RHFkVlNUUmRDOVY3ZVVCNldUenE3UTRtMGhZeEU3bEdJY0lJd3pNMFhhNGFYUDFjUlV6THFFVVJac0RPTkpwUENHUDc1dE1sZEY4NDJxWHRDbXRzMjFsejhrdU9TbkkxcG0yLUcxRFpnZzJHTk9XNkxIX3F3c0p2YURuMGdz?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-18T20:37:21+00:00",
+      "generated_at": "2026-09-18T23:48:01.775294+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:48:01 +0000"
+    },
+    {
+      "id": "fenland-news-c79dee2b9826d458c2cf0652",
+      "headline": "Cambridgeshire curry house reaches regional awards final",
+      "brief": "A curry house in Cambridgeshire has been named as a finalist for the East Anglia region in a prestigious national competition. The restaurant is in the running for the top Asian Restaurant Awards, which recognise excellence across the industry. The business will now compete against other establishments from across the region for the title.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0tJZHlCb3d2QkQ4d3BLOWpuSU54NXRkZkJaTEo5cVM2S09aMC12TVBLNXF6MWJvZFdCbWlyMU9wazRyYW5KemMwVHQ2ZmtwX20wSVhHVjNRcHV0WmRHbGNITzJidWRyZGEyY0RWYmNtLWtNZnRwTkZHTU1WSnE3cmxvY3pVaFJzVXJIdHZ1aXVnQjZNdFloTjJ1OGdyRzV2Z1E?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-18T11:00:00+00:00",
+      "generated_at": "2026-09-18T23:47:59.779893+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:47:59 +0000"
+    },
+    {
+      "id": "fenland-news-b5f55732c4507f82d61865c3",
+      "headline": "New leadership appointed for sister schools",
+      "brief": "Two new headteachers have begun their roles at a pair of sister schools. The appointments mark the start of a new chapter for the institutions. Further details regarding the specific schools involved or the names of the new heads have not been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjN2NU5EeUhLQTNQbFZRUGhtMXRaYU91NExnR3AzUFp5bzI1aWRJYnhwUGlDcDl5NlZJZ3MzOWJ6amNWWFVDLXZEU0Z4S01PbVdpQnJZS0oxMmRDREp6b2loRkVXbVZNZTBNeEFLNzVrdHk3WS1BWnMyUlJXcU5SYmRXSVczR09EREVJVW1KNTlTSURyQUo0dUo3a1lsTW5JRFdYVlMzVnQ4WTg?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2019-07-17T07:00:00+00:00",
+      "generated_at": "2026-09-18T23:47:57.560346+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:47:57 +0000"
+    },
+    {
+      "id": "fenland-news-8d0f14e883fcebda15881102",
+      "headline": "Saxon Pits extension recommended for approval",
+      "brief": "Planning officials have recommended that an extension of operations at Saxon Pits be granted approval. The proposal, which would allow for continued work at the site, is now set to move forward following the recommendation. No further details regarding the scope or timeline of the extension have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rdmFaeXRkWXZFanozOWZHSjZTSjMySmRuVkE5M0c5aVN1aWFiVTRQdHB6RmNnOGszQTRjcjc3NUhUbWxhWmZJUUJIVDJvbjR1UVo1OHEtcU5ZQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-02-27T08:00:00+00:00",
+      "generated_at": "2026-09-18T23:47:55.828468+00:00",
+      "rss_date": "Fri, 18 Sep 2026 23:47:55 +0000"
+    },
     {
       "id": "fenland-news-120a1c07bfff722bda8d53fb",
       "headline": "Organisers report success at recent open day event",
@@ -930,76 +1000,6 @@
       "published": "2026-09-15T05:00:00+00:00",
       "generated_at": "2026-09-15T05:52:05.698257+00:00",
       "rss_date": "Tue, 15 Sep 2026 05:52:05 +0000"
-    },
-    {
-      "id": "fenland-news-c98f13b9a574562d693974a1",
-      "headline": "Peterborough Nepalese community launches flood appeal",
-      "brief": "The Nepalese community in Peterborough is spearheading a new fundraising appeal to support those affected by recent flooding. Organisers are calling on local residents to contribute to the relief efforts. Further details regarding how to donate or assist with the campaign are expected to be released as the initiative gets underway.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZZTg5WTdIUDNKaTVETEdadVpCSGozT0ZUQ2gtSFJjNG9PR1Y5LWdRWnZYdVJFbWl2YW56cU1IMk9sMWptakRKbnhDbXpxUENiV1ZSazBoM0NFRWs?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-15T05:24:03+00:00",
-      "generated_at": "2026-09-15T05:52:04.021462+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:52:04 +0000"
-    },
-    {
-      "id": "fenland-news-cbd073039ae0d99a2bf11844",
-      "headline": "Retrospective planning application submitted for East Cambs showman's yard",
-      "brief": "A planning application has been submitted seeking retrospective approval for a showman's yard located in an East Cambridgeshire village. The proposal, reported by the Ely East Cambridgeshire News, asks for official permission for the site’s current use. No further details regarding the specific location or the timeline for a decision have been provided at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN0JJLXRRZnhsemo5d01oelVJXzFUckg0eDZnZzNONlA1QThqcGh3bC1SNHRoV2NtNEo0dXFlUC0yUUpaTGxvS3NNV0EwMnJjZVZ1eHF2MU9UaVdMSm92cFZnRVI4X3JJOGhxQ0lQb2dsT1dWTXU1MS1tT1pGVlNOeTlObDJwZGVWUVFsS2tFcFY5eGVXZ0ZicjE5c2RvbHlzNUE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-15T03:00:00+00:00",
-      "generated_at": "2026-09-15T05:52:01.896361+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:52:01 +0000"
-    },
-    {
-      "id": "fenland-news-663ee6a87bfd5ca3d0cc76f6",
-      "headline": "Air ambulance attends incident in Long Sutton",
-      "brief": "An air ambulance has landed in Long Sutton. The arrival of the emergency aircraft was reported by the Spalding South Holland News. No further details regarding the nature of the incident or the condition of those involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa1F4OGFJSmljbmx5THRPTnZYSlBPMEF3MTVTQ3RJRzg2MDQwMlpTQTBFYkZpS0ZrcjhwZGc5SUtBWXJGUkhNNFJ0VUFLZDBEZm54OUxXNHhpVzFJT3FZcUxNR0NmWnpFSGltMGlmVE5GZ19pbGptSTVxRXp4YWtXUVJ6dTlqYUtFWW5wVDhxaDc?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2021-06-04T07:00:00+00:00",
-      "generated_at": "2026-09-15T05:52:00.903333+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:52:00 +0000"
-    },
-    {
-      "id": "fenland-news-dd90db9fe4259194267e633b",
-      "headline": "Penny Farthing marks 115 years in town",
-      "brief": "A local landmark is celebrating a significant milestone this week. The Penny Farthing has officially reached its 115th year in the town. The historic site continues to be a notable feature for the local community.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LYmZ2YmxXRU9LM25EX19KbEtpd1BDSWNlN0JVaHpOMl83ODFIeWQydndTcmF3SHVvZjNiT3ppRnlxNUx5Y2c5NjdycFRiTm4yOXRjMlloc2RxSGEy?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-05T07:00:00+00:00",
-      "generated_at": "2026-09-15T05:52:00.066864+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:52:00 +0000"
-    },
-    {
-      "id": "fenland-news-aa31a66ce3f5b8692308f0de",
-      "headline": "Coffee morning to be held at Wisbech church",
-      "brief": "Residents are invited to a community coffee morning at St Peter and St Paul’s Church in Wisbech this weekend. The event takes place in the church hall on Saturday, October 10, running from 10am until 12 noon. Visitors can enjoy tea, coffee and a selection of homemade cakes. There will also be a variety of stalls available for attendees to browse throughout the morning.",
-      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/enjoy-cuppa-homemade-cakes-and-stalls-on-church-grounds-9482775/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-15T05:00:00+00:00",
-      "generated_at": "2026-09-15T05:51:58.841783+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:51:58 +0000"
-    },
-    {
-      "id": "fenland-news-fadf5e51b3e098167e4c3a83",
-      "headline": "Historic cobblestones restored at King’s Lynn museum",
-      "brief": "The first phase of a restoration project at True’s Yard Fisherfolk Museum in King’s Lynn is now complete. Volunteers from the Lynn and West Norfolk Archaeological Society spent two weeks uncovering and restoring original cobblestones in the museum’s courtyard. The historic flooring was discovered after the removal of the Activity vessel, which has since been relocated to Dersingham.\n\nThe work has revealed the thresholds of previously demolished cottages, offering a glimpse into the lives of local fishing families from a century ago. Museum officials say the project was made possible through grants and private donations. Future plans for the site include building replica cottages for educational use, an initiative estimated to cost £500,000.",
-      "original_url": "https://www.lynnnews.co.uk/news/go-back-100-years-in-time-as-cobblestones-as-fisherfolk-muse-9482782/",
-      "source": "Lynn News",
-      "published": "2026-09-15T05:00:00+00:00",
-      "generated_at": "2026-09-15T05:51:57.256055+00:00",
-      "rss_date": "Tue, 15 Sep 2026 05:51:57 +0000"
-    },
-    {
-      "id": "fenland-news-090cf750cfb61d31779e9e82",
-      "headline": "Police cordon in place at Peterborough playing fields",
-      "brief": "Officers have established a cordon at a playing field in Peterborough following an incident. The Peterborough Telegraph reports that the area has been taped off while police attend the scene. No further details regarding the nature of the incident or any potential injuries have been released at this time. Residents are advised that access to the site is currently restricted while investigations continue.",
-      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOblZzSVZBLThtTVlRRFBzdWR1aGJtU0FVSktYdjFYWndHU0s4VWlnSVZINHZfSURZd0lFYzJmUEZmVlhfaDBUdWtkNUpfVWtUNkhOeFZrbXVwa1E0dnU5RksyNzF1d2JGVHVMNkVoMzlKVWJIZGdvaGFJQ1FmRGl0REI5Z0Q1ZVRUTzQ5bmt1VU5RWlZaeW8tM05IblpmbUMwRXdnZHVsY2J1a0NZbmEzSmwydG9LTEhZLUlqRnd0UDd0V3dyWlE?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-14T16:12:00+00:00",
-      "generated_at": "2026-09-14T23:48:38.631808+00:00",
-      "rss_date": "Mon, 14 Sep 2026 23:48:38 +0000"
     }
   ]
 }
