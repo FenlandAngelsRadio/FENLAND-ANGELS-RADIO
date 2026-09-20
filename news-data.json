@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-20T11:47:37.382312+00:00",
+  "updated_at": "2026-09-20T17:49:31.619629+00:00",
   "stories": [
+    {
+      "id": "fenland-news-c605b6b5e364b0f87323ac00",
+      "headline": "Peterborough soft play centre to close after 30 years",
+      "brief": "A long-standing soft play centre in Peterborough is set to close its doors. The facility, which has operated in the city for three decades, confirmed it will cease trading. No further details regarding the exact date of the closure or the reasons behind the decision have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTlFUd3U3MGdaQkV4ZnotNEl6MDhnUVo2UFliUTYwWlotN2hiVGVqM3haYmRZdGJvaHhNUldjdjBiQVZ4aUdXOThZdU94QVV6dlZxc2NtWWFTa0NJQTFYWG9GejJYT0oweTVSeFNTY0RWaHh2ZGdqNEpRTnhnVXY1Q2ZMVFdncHFJWGJDVVBJNE1ROElwOTdCazdMTdIBoAFBVV95cUxOUUViMDF2ckEzNWxKbDFfSG9VdDdULU82NGl4cVd4X0J1NmFrelBZM2ZpZm43S2hhNEJrYjFPMlVLX0lRdmptbmpiaElsZGZkZ0ZkNzNoWVdGeGd0aGd2aXkyZGFzdWZxSTBXaUZzcXI3azJRNXc4QVpEUlZtOTh1X3pIRE5GZDRMUmlLMFRGZlhCVldDWUZxYWFLQlZsQTVx?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-20T11:30:00+00:00",
+      "generated_at": "2026-09-20T17:49:31.619485+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:49:31 +0000"
+    },
+    {
+      "id": "fenland-news-1db2681bf077a04ebf26ec0e",
+      "headline": "Police investigate two ram raids at Lincolnshire Co-op stores",
+      "brief": "Images have been released following two separate ram raids at Lincolnshire Co-op stores. Authorities are currently investigating the incidents, which involved vehicles being driven into the shop fronts. No further details regarding the specific locations or the timing of these events have been provided at this stage. Residents are advised to contact the police if they have any information that could assist with the ongoing enquiries.",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUjMzU2NBaHVEaXZpVkg2YnlSTVViY2toZUp6cmNrTVhwcFpGSWVFb09NTDFWMXpUQng4MUtKZHpSUHQ1NHBmRVNfNGpOUGR4ekJaRS1QaENhVTN0Q0taWTlYWW0zOWR5OFMybjk0Rjc5c1VZcVNTQ2tKUHlmWW1HODlKbFhBSk1KWmtNcFNLanc0VmdyZzFTN2hBUjVaZFlkbnY4dNIBqgFBVV95cUxNbVg1VVE3VjRyTzZCRkpFVFFNbUpSaExLMVBJNC1EREczQVhyUmpyM3FNS3l5UVdJd3E2clF5VHVBX21NejNJcEd1MDhYWlNVYXNFZU14bFo5YkVzYlJrNWdqVE5BTnJnQm5HNE55TUdsT2FGRzl2ZFZBNm1TN0FDd2R5V3ZlbTZpd1RJU3BTNFYwamlYc25sanAyb3VlY3VqZmlRcU9iMk03Zw?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2020-05-06T07:00:00+00:00",
+      "generated_at": "2026-09-20T17:48:30.111123+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:48:30 +0000"
+    },
+    {
+      "id": "fenland-news-921d738d5ee505ef47068493",
+      "headline": "Man jailed for cannabis supply offences",
+      "brief": "A man has been sentenced to time in prison for supplying cannabis. The case was reported by Cambridgeshire Police. No further details regarding the individual or the location of the offences have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYUthVkxvOUFLN0tDaUdFbDZ5RVMyd0lxeEpIbXpMbzQtUThWUGM4WmtKNXBxVVptV0p3NlpJMGJaUDNuQnVnV2FxQnY0clFfUkpMOW5WdURfekM4WnNqbkhQYktrcVBLVnRCdktxZlhmZ1JMVnAyZzN6Z3NFdkwybVNOMmhBUVZrMVRKUE45dW1mQWliZ3Awem53YXgycWc0ODhn?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-02-17T08:00:00+00:00",
+      "generated_at": "2026-09-20T17:47:54.127549+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:47:54 +0000"
+    },
+    {
+      "id": "fenland-news-f1b12976aff6c6628fe97efc",
+      "headline": "Peterborough United managerial appointments questioned",
+      "brief": "The Peterborough Telegraph has published a report regarding recent managerial appointments made by the Peterborough United chairman. The article suggests that these selections have failed to inspire confidence. No further details regarding the specific appointments or the reasoning behind the assessment were provided in the report.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOUEt6V2NaZFRxbEZDTUpvVlNOb2RFZ0xpdzRmTTNQZDJJY1RWYTRPT2FELVdEUS16NTQ2RDlsRUoyNFNyYzJvcUtQUnk2OUw0ZzNWWHhZd3U0anVCZmFnTmNoTHF4SWRDUVVVU0FhbVliRWlvNEt5MFdOX0dSWEhpNTBaQ2xwU1JYeVZBc2NBa0c1N1ZUcmduRG9vNDFnN1g1ZmZYSFJoMHoyalNOSW9BajJkaTlBWkpRdm1wMlBjOUFKSEJrd2NzTUtrbG1RSHNoT3NiVXd5RXhjNzM2VnFfalE4MmF0dzNIVUhMMnBBRGFPVzhNd0wtSWZnbnBGanVWYklQN0prVlM?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-20T08:55:00+00:00",
+      "generated_at": "2026-09-20T17:47:50.471389+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:47:50 +0000"
+    },
+    {
+      "id": "fenland-news-15301493d96dce0b3b70d990",
+      "headline": "Police investigation underway following Long Sutton incident",
+      "brief": "Lincolnshire Police are investigating an incident in Long Sutton that resulted in three people sustaining injuries. Officers have confirmed that one man has been arrested in connection with the disturbance. Authorities are currently working to establish the circumstances surrounding the event. No further details regarding the condition of those injured or the specific nature of the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdE5GeGFUenBQLVgyLV9XdDR1dm9oTkZCNGJaU2wyZEhPWUFlN2drdWllTVhydjVzemdkYmRFWnpPa0hXSHhCeWl3ZlZRWnN6Q2IteHNfb0lCeWlSUllxQzBQUVRqbzBSOS1pZms1VGoxYkRrdXJ4OHlERllwNHNad0NkWEJJZXBkX0R6MlNKbnQ1TU90Rmgzb9IBngFBVV95cUxQajhuZHZrcTlHcHFwMFhPbkJwdzV4MHdDdnE2eGFmM3NnZDJrMzJvWWVPVzJXNGoxNXNFQjdXaVIzdGpUWXlPSVF4alZPS01YMjdIWDctYWFLWnVScWpCeTNkTTQ0YlEzcllWMHNCMkE4UjU0Z3NQSGxVeERtdkd3TXR1dkN0TzFlaUpEVWI4ZjBOZW1FNV8wR25HOTl5UQ?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2020-08-09T07:00:00+00:00",
+      "generated_at": "2026-09-20T17:47:02.115616+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:47:02 +0000"
+    },
+    {
+      "id": "fenland-news-8df96f40d69edc108df7944c",
+      "headline": "Further evidence required regarding Whittlesey brickworks site",
+      "brief": "Officials have stated that more information is necessary to address ongoing concerns surrounding the former brickworks site in Whittlesey. The call for additional evidence follows recent discussions regarding the location. No further details have been provided at this stage regarding the nature of the concerns or the specific requirements for the site's future. Residents are advised that the matter remains under review as authorities seek clarity on the situation.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zcGViU0h2RkJjX1VWTlU0bDF0RGZuYmxOVmJtQXpBakZUSkdUQXhlS3ZWUVp4ZlhmcG1zY2hDNWtOSHRpTzVmN01MMlF1UVRHeVJ3SXdZVDhXQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-01-13T08:00:00+00:00",
+      "generated_at": "2026-09-20T17:46:58.531762+00:00",
+      "rss_date": "Sun, 20 Sep 2026 17:46:58 +0000"
+    },
     {
       "id": "fenland-news-03fa585ff214964be2073783",
       "headline": "Plans for Cambridgeshire council merger expected",
@@ -940,66 +1000,6 @@
       "published": "2026-09-17T10:01:06+00:00",
       "generated_at": "2026-09-17T11:49:43.200029+00:00",
       "rss_date": "Thu, 17 Sep 2026 11:49:43 +0000"
-    },
-    {
-      "id": "fenland-news-d961c3e2b9e8a26ca75fd06d",
-      "headline": "Three Lincolnshire shops closed over illegal tobacco sales",
-      "brief": "Three shops in Lincolnshire have been forced to close following the sale of illegal cigarettes. The closures were confirmed in reports by the BBC. No further details regarding the specific locations of the businesses or the duration of the closures have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SSGpKYnpTQVBzOXowVlF0TVRxUzRhSVZhQ3BiZTF1RFZtaEZCeTRJdWlpb3BRY1FPT0dMZllDTE5Bd0FRSlV2dGNSUXI0bDF1Y1J5Mm90cVk0UQ?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2024-09-20T07:00:00+00:00",
-      "generated_at": "2026-09-17T05:50:28.055778+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:28 +0000"
-    },
-    {
-      "id": "fenland-news-cfac2749ad310bde23ea99f6",
-      "headline": "One-year prison sentence for Gucci thief",
-      "brief": "A thief has been sentenced to one year in prison following a conviction for stealing Gucci goods. Cambridgeshire Constabulary confirmed the outcome of the case. No further details regarding the location or timing of the theft have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM09XV3dVQzItOWxpVHpwaHNienBQTlNtaDFmdHRHSWdSSi05UUF5X00yOEYxalVZSldnSkJyalJpVFVwZmY5QmVDaDNCdVN2UVZoTXZuUnhzbUpuREFtZnNuSVRERy1ab19OZE5CTmJMRWZ0b29HekdoY3hHWElPU25YOF80d2d2RWxMNVpBWHBVbWNXOTgwVDNR?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-01T07:00:00+00:00",
-      "generated_at": "2026-09-17T05:50:22.587690+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:22 +0000"
-    },
-    {
-      "id": "fenland-news-931fb580c3f4004c61172642",
-      "headline": "New mobile mechanic service launches across West Norfolk",
-      "brief": "A husband and wife team have launched a new mobile vehicle repair business serving residents in King’s Lynn, Downham Market, Swaffham, and Wisbech. Neil and Jemma Fleckney, who have 40 years of combined trade experience, are offering a fully insured service that carries out repairs, diagnostics, and servicing at a customer’s home or workplace. \n\nThe couple stated that their new venture, West Norfolk Mobile Mechanics, aims to reduce the inconvenience of traditional garage visits for those living in rural areas. The service also includes pre-MOT inspections and a collection and delivery option for MOT testing. The founders say they hope to provide a more affordable and convenient alternative for local drivers.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-mobile-business-venture-for-husband-and-wife-9483067/",
-      "source": "Lynn News",
-      "published": "2026-09-17T05:00:00+00:00",
-      "generated_at": "2026-09-17T05:50:19.655807+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:19 +0000"
-    },
-    {
-      "id": "fenland-news-cbbb7f965a6b5bd1858a6ce1",
-      "headline": "Peterborough City Council reports budget overspend",
-      "brief": "Peterborough City Council has confirmed it is currently overspending its budget. The local authority says the financial pressure is being driven by the rising costs of providing children's care services.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DMHZJYkZBSUEybVpjZTVxRk9CZGR5SVZKc0FSUWFCNG1iTVZLRGhDeFBFVDJST250SktRenBYZWlyVG1mZDdpZU45S0JUTkROTWMwNWNxSjR1VUpaVXc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-17T05:01:15+00:00",
-      "generated_at": "2026-09-17T05:50:17.051063+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:17 +0000"
-    },
-    {
-      "id": "fenland-news-636d8691a82cfc8c6c1bcdb3",
-      "headline": "Bus service under threat in Cambridgeshire village",
-      "brief": "A Cambridgeshire village faces the potential loss of its bus connection, despite the recent installation of new shelters. The facilities, which cost sixteen thousand pounds, were intended to support local transport infrastructure. However, the future of the bus route serving the area remains uncertain. Residents are now waiting to see if the service will continue to operate.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRN2lSYlhFTnJzelpRcUFwMVpyV2dhNjVnRmVjT1A3ZzNRY3JfVHVLZXo4eTVYcnBpUUxYMHBNVEhUcXk4a1NXSkJzZjlnQU9pRkp6NHppcWhYODg?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-17T04:54:53+00:00",
-      "generated_at": "2026-09-17T05:50:15.046816+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:15 +0000"
-    },
-    {
-      "id": "fenland-news-019ecdfb2dcad5d1276c6eb1",
-      "headline": "Long-serving vicar announces retirement",
-      "brief": "A local vicar is preparing to step down from their role following a lengthy period of service. While the individual is set to retire from their current position, they have already confirmed plans for a new mission. Further details regarding the nature of this upcoming project have been described as having a \"wow\" factor. No specific date for the departure has been announced at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb3drZV9IRTRrQURPMnFFTWpOaGx3Q1U5NkpCMUxHVDJ3N013U3VFRVVueG13RDA3VXR2ckRGQlVKdzVqNGszZUlLWHZDSnNSTGFrVTd5MGxDWlQtamZxY2RyZVFkU2JDZVl6QUw5VEFJWEZsMGVVNlh1QWtLU2syUDFMcWEydVZpcGF1WTctbFVGSWpCNHRvSnBDQ3Q2S25EMXN3N0NzWnIyZkdGUDFTTXA1MA?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-02-24T08:00:00+00:00",
-      "generated_at": "2026-09-17T05:50:14.099069+00:00",
-      "rss_date": "Thu, 17 Sep 2026 05:50:14 +0000"
     }
   ]
 }
