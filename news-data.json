@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-09-21T11:51:02.534058+00:00",
+  "updated_at": "2026-09-21T17:49:14.023061+00:00",
   "stories": [
+    {
+      "id": "fenland-news-766d0f4b5a1974c116615196",
+      "headline": "New cafe opens in Spalding",
+      "brief": "A new cafe has opened its doors in Spalding. The business has been launched by a duo, according to reports from the Spalding South Holland News. No further details regarding the location or the name of the establishment have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZzFPbWcwLUhYaHFfa0xBQjYtQ3ZLaGJpc1VmM1Z1VnMzbGJEZk16Q2VoSzB6MmhpOHVGWjFWZHE4YWJ6QlNRdWxrNXVDcFdFMjVfd0JmYlVFVko0UzFMUjZCamduQnpIZVRXN1R2U0N0bE9vcTN3VWFwbzBjTjNpYTZQWW8zQQ?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-07-27T07:00:00+00:00",
+      "generated_at": "2026-09-21T17:49:14.022923+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:49:14 +0000"
+    },
+    {
+      "id": "fenland-news-301b56360c99f69858640f04",
+      "headline": "March Rugby Club faces pressure from town expansion",
+      "brief": "A rugby club in March has reported that it is operating beyond its capacity. The organisation says the situation has been caused by the unprecedented growth of the market town. The club is currently struggling to manage the increased demand placed upon its facilities.",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFhqbVZ2bUlZeFBsZElPVlFVZ00yMEJsYlducDBFblZBWlhKWllLbmV3QTBfV1lNTlJIX0pnYVlpcU1BNjZrRkV6WkFkQUYxM3VDSUFJTEZvRUNaajJLbEdBMnJWWXJoSEUwVExpdGQ5LWtoOVY1SVRuVXlXU2VuUU1lZkU1MExacUR1NGM5a29rODUxdzRqTzNpV2o?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-18T15:55:34+00:00",
+      "generated_at": "2026-09-21T17:49:07.384463+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:49:07 +0000"
+    },
+    {
+      "id": "fenland-news-987866070877cdaf761f9d7f",
+      "headline": "Dersingham charity event raises over £15,000 for Queen Elizabeth Hospital",
+      "brief": "A fundraising event in Dersingham has raised more than £15,000 to support breast care and cancer services at the Queen Elizabeth Hospital in King’s Lynn. The inaugural \"Breastfest,\" organised by the charity Breast of Friends, was held at The Pastures behind the Coach and Horses. \n\nThe event featured live music, entertainment, and food, with the final total reaching £15,192.78. Charity trustees thanked the volunteers, performers, and local business sponsors who contributed to the day's success. The funds will assist the charity in its ongoing work to improve patient care and provide support kits for those receiving treatment at the hospital.",
+      "original_url": "https://www.lynnnews.co.uk/news/first-time-event-raises-staggering-15k-for-hospital-breast-9483714/",
+      "source": "Lynn News",
+      "published": "2026-09-21T14:55:02+00:00",
+      "generated_at": "2026-09-21T17:48:54.764053+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:48:54 +0000"
+    },
+    {
+      "id": "fenland-news-b0db44143f54baa7c61a5211",
+      "headline": "Positive results in gene therapy trial for rare eye condition",
+      "brief": "A gene therapy treatment developed by Beacon has reached a primary goal during a clinical trial for a rare eye disease. According to the Peterborough Fenland Edge News, the study marks a significant milestone for the medical research project. Further details regarding the specific nature of the condition or the trial's next steps have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRTdlRHVtQ1BDeS0zUnRvOUUtdGdQYXc4UnNIemtSVk1LeFl2T2dfUnZXMkhBYWp1Qk1URHBGVXppNUxNQXJ2N0dyOWg1eVFEdU11U1pESnFmdFAwVGZ0OTYzNDk0WmhVM1JaN2ZNMEFDQU1mMmlJclNqcGhqeG5kc2NUeWNTY2JNemRsbVFIVkktTXN2dTVmZDhwYUN3d2dqVk5r?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-21T17:25:35+00:00",
+      "generated_at": "2026-09-21T17:48:43.845243+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:48:43 +0000"
+    },
+    {
+      "id": "fenland-news-60c9bd6bee7a0941f3929baf",
+      "headline": "MP calls for NHS dental reform in East Cambridgeshire",
+      "brief": "The local MP for Ely and East Cambridgeshire is calling for urgent NHS reforms, describing the area as a \"dental desert.\" The Member of Parliament is highlighting significant concerns regarding access to dental services for residents across the region. The call for change comes as part of a wider push for improvements to the current healthcare system.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNamRkYThaSkpiQko5cWFEYkFJcmV1V2dVOUZscTUtS1VQOGctRlhMTWFXa0NmWld0dW1ZZGRISGNncUoxYm40a2pnSXNCc3Joc3ZydW9ERy13UFgwRTlJWUNKVENqZ2lMTm9NMWpZQTdhWE1NNFkybzh6c19nRDVBcjQzWUtHLXhtU1JYXzhaX0RRc05rS1ZMaWp4TklEdw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-21T14:39:00+00:00",
+      "generated_at": "2026-09-21T17:48:33.377308+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:48:33 +0000"
+    },
+    {
+      "id": "fenland-news-a62648d5fb7979df019efa3f",
+      "headline": "March business reaches national kitchen award final",
+      "brief": "A family-run business based in March has been named as a finalist for a national kitchen renovation award. The company, which operates locally, is now in the running for the industry accolade. No further details regarding the specific award or the date of the final ceremony have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPem92RGlmVDhyVUQzdUg2cWpsa2VtVmk4cjBObkFEbzRJQTdZT0FERmQzbmpoMjFuUlNFWXBQZkt4c3BROF85R2VfZ1JfXzhpOG0ycnlqb0loNEFENzhMbVhtcVJMeWJScmV5cVJIazIyejZua1BIbDhuTWgxOTFMU0xWZVZzMExEa2k5T21MVHcwbHVJZERnMU1n?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-21T05:00:00+00:00",
+      "generated_at": "2026-09-21T17:48:21.748262+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:48:21 +0000"
+    },
+    {
+      "id": "fenland-news-58cb74b972328186bf1963e6",
+      "headline": "Senior doctors warn of workforce crisis at Queen Elizabeth Hospital",
+      "brief": "Senior medics at the Queen Elizabeth Hospital in King’s Lynn have warned that potential plans to downgrade A&E, intensive care, and maternity services could trigger a severe workforce crisis. In a leaked letter, consultants expressed profound concern that ongoing uncertainty is already damaging staff recruitment and retention. \n\nThe Norfolk and Waveney University Hospitals Group, which is reviewing clinical services, maintains that no decisions have been made regarding the future of these units. However, clinicians argue that a lack of clear refutation is undermining public confidence. The hospital serves a wide rural area, including parts of North Cambridgeshire and South Lincolnshire, leading to fears that any reduction in services would pose a significant risk to patient safety.",
+      "original_url": "https://www.lynnnews.co.uk/news/hospital-doctors-warn-that-severe-workforce-crisis-could-h-9483760/",
+      "source": "Lynn News",
+      "published": "2026-09-21T16:42:31+00:00",
+      "generated_at": "2026-09-21T17:48:18.758891+00:00",
+      "rss_date": "Mon, 21 Sep 2026 17:48:18 +0000"
+    },
     {
       "id": "fenland-news-539c928641632d831e0aa2a5",
       "headline": "Wisbech man jailed for shoplifting offences",
@@ -930,76 +1000,6 @@
       "published": "2023-04-28T07:00:00+00:00",
       "generated_at": "2026-09-18T05:48:43.360133+00:00",
       "rss_date": "Fri, 18 Sep 2026 05:48:43 +0000"
-    },
-    {
-      "id": "fenland-news-ee95202776fa8d8d223cf2fa",
-      "headline": "Roof collapse at Iceland supermarket",
-      "brief": "A section of the roof has collapsed at an Iceland supermarket. The incident was reported by the BBC, which has also released footage of the scene. No further details regarding the location of the store or any potential injuries have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6c1ZJZi1Zb1UzSm9SdG1nNGVGVGZJUzh4dXB1djhTbUs1QzZ3ZG9BcUNUNEtnSnN6N3pXdks1R0F3dlMtWTNaXzB6S2d1N3NNcVpOSXVtWXR5QQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-29T07:00:00+00:00",
-      "generated_at": "2026-09-18T05:48:41.087436+00:00",
-      "rss_date": "Fri, 18 Sep 2026 05:48:41 +0000"
-    },
-    {
-      "id": "fenland-news-35142d014b7f5096c79bf8b3",
-      "headline": "Nominations open for 2027 King’s Lynn and West Norfolk Mayor’s Business Awards",
-      "brief": "Nominations are now open for the 38th annual King’s Lynn and West Norfolk Mayor’s Business Awards. Organised by the Lynn News and Your Local Paper, the event celebrates local innovation and success across a range of sectors, including agriculture, retail, and tourism.\n\nThe awards ceremony will take place on Friday, March 5, 2027, at the Alive Corn Exchange in King’s Lynn. Businesses are invited to put themselves forward for various categories, such as Apprentice of the Year and Environmental Champion. A final winner for the Mayor’s Business of the Year will be selected by judges and announced during the black-tie event. Nominations opened at 8am this morning.",
-      "original_url": "https://www.lynnnews.co.uk/news/time-to-recognise-excellence-with-your-nominations-for-202-9483276/",
-      "source": "Lynn News",
-      "published": "2026-09-18T05:00:00+00:00",
-      "generated_at": "2026-09-18T05:48:39.115617+00:00",
-      "rss_date": "Fri, 18 Sep 2026 05:48:39 +0000"
-    },
-    {
-      "id": "fenland-news-2711fb4eed4ff9a56db0f9ca",
-      "headline": "Holbeach and Long Sutton recognised in county awards",
-      "brief": "Two Fenland communities have received recognition in the latest Best Kept Village and Small Towns competition. The Campaign to Protect Rural England has named both Holbeach and Long Sutton among the top locations in Lincolnshire. The awards highlight the efforts made to maintain the appearance and standards of local towns and villages across the county.",
-      "original_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUFd4ZHJZQUNET2xWaGZnSWNoRGZQc1VPN0hSN3hhTkV2ME02cXYxeHNEWHM1SmI0em5sRHBZVndtYUJobHVva2o3amxTQ2dfTUxXNFdxRDdraDBWcTRVWG5HYUYyaGtaWTdSSFY2Zktfc1VvMWtsMzdrZFdDVlZabWJ0enZpN01fRVdrNnZGOGQtckhsQUZGTFFXVVlkdEF4WFI4NHZoZkx5RTQxdzRTR2VSMTVYMkFnSUxzb0NrVFdNZ241eF9zZlE3WmFrZWhSbjMxVkpEaWNSVkE1VUI0QTZHUVNhYTlt?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2018-10-21T07:00:00+00:00",
-      "generated_at": "2026-09-17T23:47:03.129198+00:00",
-      "rss_date": "Thu, 17 Sep 2026 23:47:03 +0000"
-    },
-    {
-      "id": "fenland-news-64d644b61e341fc485792c69",
-      "headline": "Digital art project showcases Britain's 'Pompeii'",
-      "brief": "New digital artwork is being used to help illustrate the history of the site often referred to as Britain's 'Pompeii'. The project aims to bring the archaeological location to life for the public. Further details on the initiative have been reported by the BBC.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xSzVsWkhOc1BMMWJReGRrU1pSRC0wLWNXZjlJemVpQkdsUWNIZzcxT2Z1VjZ0R19EWXdvTjdMOWNEelE0RHFoNzdPbWlfT05CZVZab0JmTVBYYmN1?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-04-22T07:00:00+00:00",
-      "generated_at": "2026-09-17T23:47:02.031025+00:00",
-      "rss_date": "Thu, 17 Sep 2026 23:47:02 +0000"
-    },
-    {
-      "id": "fenland-news-64ed2025fd8bc38fd984533e",
-      "headline": "Cast announced for King’s Lynn Corn Exchange pantomime",
-      "brief": "The cast for this year’s King’s Lynn Corn Exchange pantomime, Sleeping Beauty, has been officially unveiled. The Jordan Productions show is scheduled to run from December 8 until January 3. \n\nThe production features returning performers Scott Cripps and Harry Hart, alongside newcomers including Abi Fullard and Paul Murdock. Rehearsals are set to begin on November 28. Organisers are encouraging residents to book tickets early for the festive event, which marks the venue's 30th anniversary year. Tickets are currently available through the Corn Exchange box office or via their website.",
-      "original_url": "https://www.lynnnews.co.uk/news/it-s-almost-panto-time-oh-yes-it-is-meet-the-cast-of-sl-9482984/",
-      "source": "Lynn News",
-      "published": "2026-09-16T09:11:27+00:00",
-      "generated_at": "2026-09-17T23:47:01.077934+00:00",
-      "rss_date": "Thu, 17 Sep 2026 23:47:01 +0000"
-    },
-    {
-      "id": "fenland-news-2356a43997e1a9b7c9523744",
-      "headline": "Peterborough United drawn against Bradford City in cup competition",
-      "brief": "Peterborough United are set to face Bradford City in an upcoming cup fixture. The match will see the Posh travel away to play the Bantams. Further details regarding the date and kick-off time for the tie have yet to be confirmed. Fans are advised to check official club channels for ticket information and travel arrangements as the fixture approaches.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN01QOGE4ZElGSTNDM0QyUnA3MFJtQ2llcG1NWDVWc3lvRG9maDJJLWpSWDRLb1VlUXlWNEdsNTRQWnVtOUVobUI4ZGJSTFBPdDVKT2JQVG5lRVVONmRad3JPbmVNU3lPSl9OZUJqSkRIOTVpTlh1b252bEctNUlXbGVaNnZYT0Z5R19neXlXVVpEallMekE?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-16T10:07:52+00:00",
-      "generated_at": "2026-09-17T23:46:59.046378+00:00",
-      "rss_date": "Thu, 17 Sep 2026 23:46:59 +0000"
-    },
-    {
-      "id": "fenland-news-cad3a2905987134453d70833",
-      "headline": "Field fire reported in East Cambridgeshire",
-      "brief": "Emergency services have been dealing with a large field fire in East Cambridgeshire. The incident, which was reported by the Ely Standard, involved a significant blaze in an agricultural area. No further details regarding the cause of the fire or any potential damage have been released at this time. Residents are advised to stay updated with local reports for any further developments.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUVFlWnVWSVZkenVwNXhYR05qalMxZlFNVzBOZi1vdi1DQlRtbi1uaFlnVDFENjVBZnZhakN4aXZMd0RTak5uR1d1LWRPV0lwcnVpbFBlN1VPNDBJU19YbHFjQVdaVTJfdm1ZbVk4UzdELXRHU2NJelhuaWl3R0ltdFFhbFNkM0psb2R4M3BnTGlIMWpWREVZZGd1bjd5Q0E?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-07-20T07:00:00+00:00",
-      "generated_at": "2026-09-17T23:46:57.969317+00:00",
-      "rss_date": "Thu, 17 Sep 2026 23:46:57 +0000"
     }
   ]
 }
