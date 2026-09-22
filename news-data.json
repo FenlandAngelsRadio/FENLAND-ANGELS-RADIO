@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-09-22T11:49:36.076311+00:00",
+  "updated_at": "2026-09-22T17:48:33.832555+00:00",
   "stories": [
+    {
+      "id": "fenland-news-02e8c8cc0a0b17311a82af95",
+      "headline": "Planning permission refused for listed building conversion",
+      "brief": "Plans to convert a listed building into a House in Multiple Occupation and a bedsit have been rejected. According to the Spalding South Holland News, the proposal for the site did not receive approval from local planning authorities. No further details regarding the location or the reasons for the refusal have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXpsOUk2amdxSXIxeWhSQW5SbVF4YUpxOTVhOVdvUDBtc1c4ckJYbFZxZ2lWSVZ5TEJHVGJmM241M0FpcTRwUF9DOFN3MDdmUkI1WXg3MXozNGVNTFJPRXNUSWNhQlhEcmozb0IzVzAtc2ZOYkZyU1J4bEVpOXY4V1o5dVZ3S25maFRYbHY0YURJWHZSYUJ0OFBwTDIwVnJxZVRwdzgxbHhXZU0?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2025-07-09T07:00:00+00:00",
+      "generated_at": "2026-09-22T17:48:12.082104+00:00",
+      "rss_date": "Tue, 22 Sep 2026 17:48:12 +0000"
+    },
+    {
+      "id": "fenland-news-999ed1db4cea0b70a6550f8b",
+      "headline": "Police search for Cambridgeshire man",
+      "brief": "Cambridgeshire Police are currently searching for a man wanted in connection with a series of serious domestic assaults. Officers are appealing for information regarding his whereabouts. Anyone who may have seen him or who has relevant information is urged to contact the authorities.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQnk2Vng4bk9VQmtaV3VGSm42NXUyUXpOanluMS1VdlNRVzZ4YmU1NEQzTjdJZzdFbmpBSENWdUhkQ05EcXJZbHYtcTB3RVgxcGdWNGxMLVB6QWVKZzdJeTZCa1VhV2lJMUwzYXpqb2FDT3Zsb1lXdFlXWWVacEwtbjgySUo5ajZkcmJCbjRzQmdqaHJtanZr?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-22T11:25:07+00:00",
+      "generated_at": "2026-09-22T17:48:05.981637+00:00",
+      "rss_date": "Tue, 22 Sep 2026 17:48:05 +0000"
+    },
+    {
+      "id": "fenland-news-7b375e4a232a5f640fcf1f22",
+      "headline": "Professional flautist visits Gaywood Primary School",
+      "brief": "Pupils at Gaywood Primary School have enjoyed a special performance by professional flautist Yu-Wei Lu. The musician, who has performed at the Royal Albert Hall and the Palace of Versailles, visited the school to demonstrate various flutes and share stories from her career. \n\nOrganised by the charity Classical Music Rocks, the event allowed children from Reception to Key Stage 2 to hear live music and learn about different instruments. Music lead Eden Bloomfield said the visit provided a unique opportunity for students to experience classical music firsthand. The charity aims to introduce the genre to primary schools across Norfolk and Suffolk, having reached over 65,000 children since 2016.",
+      "original_url": "https://www.lynnnews.co.uk/news/pupils-loved-performances-by-visiting-flautist-9483895/",
+      "source": "Lynn News",
+      "published": "2026-09-22T15:10:54+00:00",
+      "generated_at": "2026-09-22T17:47:45.265188+00:00",
+      "rss_date": "Tue, 22 Sep 2026 17:47:45 +0000"
+    },
     {
       "id": "fenland-news-2c96c0b6ac120a97316fc5d5",
       "headline": "Improvements planned for Spalding site",
@@ -970,36 +1000,6 @@
       "published": "2026-08-14T07:00:00+00:00",
       "generated_at": "2026-09-19T05:47:07.935212+00:00",
       "rss_date": "Sat, 19 Sep 2026 05:47:07 +0000"
-    },
-    {
-      "id": "fenland-news-0fa71c491a3e471eda05f141",
-      "headline": "King’s Lynn Soroptimists host talk on Break charity",
-      "brief": "Members of the King’s Lynn Soroptimist International recently welcomed representatives from the charity Break to their September meeting. Peter Marron and Alicia Edwards-Farrer discussed the organisation’s history and its current work supporting young people across East Anglia, particularly those transitioning out of care. The speakers highlighted the importance of therapeutic services and long-term support for care leavers.\n\nThe club, which has chosen Break as its charity of the year, heard about various ways to get involved, including volunteering and fundraising. The Soroptimists are hosting a charity quiz at South Wootton Village Hall on Wednesday, September 25. Further information is available on the King’s Lynn Soroptimist International website.",
-      "original_url": "https://www.lynnnews.co.uk/news/charity-members-thanked-for-enlightening-talk-9483521/",
-      "source": "Lynn News",
-      "published": "2026-09-19T05:00:00+00:00",
-      "generated_at": "2026-09-19T05:47:05.730669+00:00",
-      "rss_date": "Sat, 19 Sep 2026 05:47:05 +0000"
-    },
-    {
-      "id": "fenland-news-ec2239a498527190180d5a13",
-      "headline": "New pea processing plant opens in Lincolnshire",
-      "brief": "Food manufacturer Princes has officially opened a new pea processing facility in Lincolnshire. The development forms part of a wider investment programme by the company, which has committed eighty million pounds to its operations. The new plant is expected to bolster production capabilities within the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc3Qzdk5ZNnRUVjROTl9mcXRpVUJNZC1JN3JTRVRQdGppVDN3Ml9DS2dFSmZWSjFxckVQUjc3UXBFb2FzQUZicnQwZm5BcGpJY1ZhQmdrX2xfaDlLakRsX2Z1eXVYbWZlMkkzUExmalpXWUF2SGNQazRqbUFIZVo3YzdWaEF1a0YtUEJWRGZ6NzJUQ0F4YWJPYmJiOWhIc3VFZ1U5a0RvZUNIdEw4bERtVHdpdTdZWlFuMUJyYmYzWi1Nd3JEcnc?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2019-07-09T07:00:00+00:00",
-      "generated_at": "2026-09-18T23:48:07.539638+00:00",
-      "rss_date": "Fri, 18 Sep 2026 23:48:07 +0000"
-    },
-    {
-      "id": "fenland-news-0dc4ee1881c2847bfc3daef1",
-      "headline": "Nine road closures announced across Cambridgeshire",
-      "brief": "Motorists in Cambridgeshire are being advised of nine upcoming road closures in the region. The details, reported by the Cambs Times, highlight a series of disruptions that may affect travel plans for those living and working across the county. Drivers are encouraged to check their routes before setting off to avoid potential delays caused by these works. Further information regarding the specific locations and the duration of these closures can be found via the Cambs Times website.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkVEWktuVmd6bGhkOTByU1ZBOWJfVk9lVVM5MzA5bGllSHFqcUFfbUhUSU9qUDlkY0d2bnVCQzNGWkF0QzJ0T0NYbXJuT21aSXJ1YU9Kek11SHM3cG9HQ29QdGpQS1ZNbkFKUlJGZWdfNndrdGtuZEM2WFgzX2t3OVJHeVBscXdzdU5fS1U1Vkc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-05-17T07:00:00+00:00",
-      "generated_at": "2026-09-18T23:48:05.990907+00:00",
-      "rss_date": "Fri, 18 Sep 2026 23:48:05 +0000"
     }
   ]
 }
