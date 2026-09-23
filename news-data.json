@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-09-23T11:50:52.050893+00:00",
+  "updated_at": "2026-09-23T17:48:48.125821+00:00",
   "stories": [
+    {
+      "id": "fenland-news-acfe92f3d8ef891f199c27c9",
+      "headline": "Mary, Queen of Scots exhibition opens at Peterborough Cathedral",
+      "brief": "A new exhibition dedicated to Mary, Queen of Scots has opened at Peterborough Cathedral. The display, which is supported by the Association of English Cathedrals, is now available for visitors to view at the site. Those interested in local history can find further details regarding the exhibition by visiting the cathedral’s official channels.",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS0lRVXppSTc4Mnh0d2RGengxRHFEMVlNUWRTV3Uwb2VfVUsxMGRpallOT2xNQmVZa1Y5M2xJdkZRcXcyb3E4bVdXTjBUT1gzOGt0M3I1d0RDZjM1eDVwZjVqcHhUTHVOTWpGenJDc0pIQk1rZU5PZU9pV0h6cG9BRFNHaGZlVGZtS0RscTQ3X3FWZjZaa29sY09XRXItRnVUZjVKdWlqWQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-23T13:06:59+00:00",
+      "generated_at": "2026-09-23T17:48:40.607680+00:00",
+      "rss_date": "Wed, 23 Sep 2026 17:48:40 +0000"
+    },
     {
       "id": "fenland-news-1d75c224f2cb1a2a4bb3158d",
       "headline": "Former greyhound kennels and bungalow listed for sale",
@@ -990,16 +1000,6 @@
       "published": "2020-03-13T07:00:00+00:00",
       "generated_at": "2026-09-19T23:47:22.502178+00:00",
       "rss_date": "Sat, 19 Sep 2026 23:47:22 +0000"
-    },
-    {
-      "id": "fenland-news-2d02a55fdeb8bd1d31e83a77",
-      "headline": "Care home manager sentenced for defrauding residents",
-      "brief": "A care home manager has been convicted of fraud after stealing 32 thousand pounds from residents. The individual was found to have committed a significant breach of trust against those in their care. The case was reported by the Cambs Times.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd08xeHZrTDlacWxuTHJ5c1pIcUN1b240X0lYTmFjVnhzVEJoelM5bDVUMkVyZmZIandMNFZPSWIxeEE5U1hrdzMtTXpEc2FQeUVZODNMNENHM3k3ekduQXd2WUdnSVVRSDUxZlBQMkpoeVV6SE5kUjJaTzFWY0ttMW9sQy1zLVpiNE1fd29MamN6cmVvR1E?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-17T10:45:00+00:00",
-      "generated_at": "2026-09-19T23:47:17.212044+00:00",
-      "rss_date": "Sat, 19 Sep 2026 23:47:17 +0000"
     }
   ]
 }
