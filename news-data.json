@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-24T05:50:42.725640+00:00",
+  "updated_at": "2026-09-24T11:50:14.646855+00:00",
   "stories": [
+    {
+      "id": "fenland-news-546f73ef3731a4391d45b2d8",
+      "headline": "Burglary reported at family-run tattoo studio in the Fens",
+      "brief": "Police are investigating a burglary at a family-run tattoo studio located in a Fenland town. Details regarding the exact location and the timing of the incident have not been released, but authorities are currently looking into the break-in. Anyone with information that could assist with the ongoing enquiries is encouraged to contact the police.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUXJNN1ZsTHU0bk54M1VVVU1DVmloWTJVZUs0dlR0QjRQVnBsY3k0a3BzUTN0MVhTX0RnSDRLR1JGNmhpRkRZSkFFVGhEUnU5VUQ5MEVPSkU0RHlnT2g1YXJnNldQbnpYWjhiOFNjUG5jbXpiWVAxcTk4a1NFbmtibFVSTDJhdFRlQ0M2aEZJVE0wRTA?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-05-19T07:00:00+00:00",
+      "generated_at": "2026-09-24T11:50:14.646679+00:00",
+      "rss_date": "Thu, 24 Sep 2026 11:50:14 +0000"
+    },
+    {
+      "id": "fenland-news-84d6bf41dfd1f9f6e4fb155b",
+      "headline": "Motorcyclist seriously injured in King’s Lynn collision",
+      "brief": "A motorcyclist has been taken to hospital with serious injuries following a collision with a car in King’s Lynn this morning. Emergency services were called to the Southgates roundabout at 6:22am. \n\nThe driver of the car, a man in his 40s, was arrested on suspicion of driving while disqualified. He remains in custody at the King’s Lynn Police Investigation Centre for questioning. The scene of the collision was cleared by 8am.",
+      "original_url": "https://www.lynnnews.co.uk/news/man-in-40s-arrested-after-motorcyclist-seriously-hurt-in-rou-9484197/",
+      "source": "Lynn News",
+      "published": "2026-09-24T11:02:11+00:00",
+      "generated_at": "2026-09-24T11:50:10.913051+00:00",
+      "rss_date": "Thu, 24 Sep 2026 11:50:10 +0000"
+    },
+    {
+      "id": "fenland-news-f81af468125fca2cfb9a588f",
+      "headline": "Wisbech charity appeals for mannequin donations",
+      "brief": "The Salvation Army Donation Centre on Cromwell Road in Wisbech is asking for help from the public. Staff are currently looking for spare mannequins to assist with upcoming Christmas displays at the shop. Anyone who has a mannequin they no longer need is encouraged to bring it to the centre. \n\nThe charity says these figures are essential for showcasing items effectively as they prepare for the festive season. For further information or to get in touch with the team, you can visit their website at salvationarmytrading.org.uk/location/wisbech/.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/mannequins-needed-at-charity-s-donation-centre-9484156/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-24T09:00:00+00:00",
+      "generated_at": "2026-09-24T11:50:05.147451+00:00",
+      "rss_date": "Thu, 24 Sep 2026 11:50:05 +0000"
+    },
+    {
+      "id": "fenland-news-8ffb115865ed6b92d914a105",
+      "headline": "North Lynn man to face court over building site burglaries",
+      "brief": "A 37-year-old man from North Lynn is due to appear at Norwich Crown Court next month to face charges related to building site burglaries in West Norfolk. Arunas Abartis, of Lady Jane Grey Road, has been charged with three counts of trespass and four counts of stealing diesel from sites in South Wootton, Hunstanton, Downham, and King’s Lynn. \n\nThe charges follow an arrest made by Norfolk Police on the evening of Monday, September 21. Mr Abartis has been bailed until his court appearance on October 21. Officers also conducted a search at a property on Lynn Road in Terrington St Clement earlier this week, though the police cordon at that location has now been removed.",
+      "original_url": "https://www.lynnnews.co.uk/news/crown-court-date-for-37-year-old-man-charged-with-building-s-9484206/",
+      "source": "Lynn News",
+      "published": "2026-09-24T11:25:46+00:00",
+      "generated_at": "2026-09-24T11:50:01.996866+00:00",
+      "rss_date": "Thu, 24 Sep 2026 11:50:01 +0000"
+    },
     {
       "id": "fenland-news-8815c1ef4cadffe62ec8e1ca",
       "headline": "New podiatry clinic opens in West Lynn",
@@ -960,46 +1000,6 @@
       "published": "2026-08-24T07:00:00+00:00",
       "generated_at": "2026-09-20T11:47:21.300760+00:00",
       "rss_date": "Sun, 20 Sep 2026 11:47:21 +0000"
-    },
-    {
-      "id": "fenland-news-78647639a647dd145da9cf86",
-      "headline": "Man arrested in Long Sutton following armed police call-out",
-      "brief": "Armed police were called to a property in Long Sutton following reports of a firearm offence. Lincolnshire Police attended the scene, where a man was subsequently arrested in connection with the incident. No further details regarding the nature of the call or the condition of those involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWk9WU3pCZkN3dEsxXzNBN1FwNDFxTEgwamhFa1JQdm9GTkptRTNWMmI4NGlOVFA1WEdkVTV3czVXdTJBalEwVlowOENZTWhEeUN3RGlQVlNSNlc3cGcxSkJ5ekdycWNiRzJ6V0l0blJzaVdlZzEwNnJEamtibkN5YXM3RmVwSTdSN3oxMmxia19VbEotTHlkT0ZxdWRQc3I4UGVHLWFnRHU1aXl4ODI4SWpDZw?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2026-01-23T08:00:00+00:00",
-      "generated_at": "2026-09-20T11:47:18.944509+00:00",
-      "rss_date": "Sun, 20 Sep 2026 11:47:18 +0000"
-    },
-    {
-      "id": "fenland-news-e627bb53bc78334ea200d7ea",
-      "headline": "New public toilets to open in March town centre",
-      "brief": "A new toilet block is set to open in March town centre. The facility follows a period of delays in the project. No further details regarding the exact opening date have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8weUNkMllERURTeDNlSjlaZ3dQSkU5Tno4d2FKWlU5eUVLNTktN243THBnQkU1TlFPWnJiNi1tREg4Wk9lMk1JZ0dIS0hvM08yRjZJaUFRa0RiZzAy?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-01-29T08:00:00+00:00",
-      "generated_at": "2026-09-20T11:47:15.975894+00:00",
-      "rss_date": "Sun, 20 Sep 2026 11:47:15 +0000"
-    },
-    {
-      "id": "fenland-news-056caba1bea53cb8ebd82b58",
-      "headline": "Government pauses decisions on local government reorganisation in Cambridgeshire",
-      "brief": "The government has announced a halt to decisions regarding local government reorganisation in Cambridgeshire. The move has prompted reactions from leaders across the county. No further details have been provided regarding the duration of the pause or the specific impact on local administrative structures. We will bring you more on this story as further information becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVDhVMzd3bkxFWHBkZEFJU0pidmdOMDg0S1kxVnZWS1JfZGI0by1FVnE0NldXZ2VDQ25NV18xaVlqRFZaVXJXbHFWQ1FQSzBEQ28wbFBUNmlfakhzV1FLMzY2UmNCMXJHR1ZJWS1SQzEwc0FjVmxNRllGNkVwY21Va0JaRzRYQTRhTUNuaTRPcVBUZ2FzTFRadVlBalo?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-07T07:00:00+00:00",
-      "generated_at": "2026-09-20T05:48:05.674992+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:48:05 +0000"
-    },
-    {
-      "id": "fenland-news-41043ccd06b4f8cbd4cbbf82",
-      "headline": "Calls for police action on school zig-zag parking",
-      "brief": "Concerns have been raised regarding motorists parking on zig-zag lines outside schools. A report from the Spalding South Holland News suggests that police intervention is required to address the issue of drivers stopping in these restricted zones. The practice, which is prohibited to ensure the safety of pupils, remains a point of contention for local residents. There have been calls for enforcement action to be taken against those who continue to park illegally in these designated areas.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVkdjZjYzS0FaX3lPeExWVlNBb1BZMF80cjBJaGRDR1MyTjd2eEZKUEI5QVJocHFpRGFNNlNmUGdTejd2ZUcxUTdWcFVsclAxbTBWRFZnMnR1RDVnUjlhU0FNWnliT1kwZVlGYllLR2ZGNElVckFYY1JBVjRiRlVuNE0welFIV0lWSkZvMGNuenhfcl9ZZ2twSy1HdkdteFhBc1NrRGZDdXRyRm1PWW1wMg?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2019-11-16T08:00:00+00:00",
-      "generated_at": "2026-09-20T05:48:03.832107+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:48:03 +0000"
     }
   ]
 }
