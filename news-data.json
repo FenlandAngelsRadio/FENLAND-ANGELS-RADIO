@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-23T23:48:23.051350+00:00",
+  "updated_at": "2026-09-24T05:50:42.725640+00:00",
   "stories": [
+    {
+      "id": "fenland-news-8815c1ef4cadffe62ec8e1ca",
+      "headline": "New podiatry clinic opens in West Lynn",
+      "brief": "A new specialist foot care clinic has opened its doors at the East Coast Business Park in West Lynn. Located at Unit 15, CH Podiatry is led by clinical director Chioma Harris, who brings experience from both the NHS and private practice. She is joined by foot health practitioner Donna Barr.\n\nThe clinic offers professional assessments and treatments for a variety of conditions, including heel pain, nail issues, corns, and calluses. The team is also focusing on nail surgery for ingrowing toenails and verrucae needling. The practice is now welcoming patients of all ages for both routine and preventative foot care.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-foot-care-clinic-opens-at-business-park-9484067/",
+      "source": "Lynn News",
+      "published": "2026-09-24T05:00:00+00:00",
+      "generated_at": "2026-09-24T05:50:27.030103+00:00",
+      "rss_date": "Thu, 24 Sep 2026 05:50:27 +0000"
+    },
+    {
+      "id": "fenland-news-39d00f571e52ad39ce952112",
+      "headline": "Funding boost to tackle rough sleeping in Cambridgeshire and Peterborough",
+      "brief": "A new funding package worth one point seven five million pounds has been announced to help address rough sleeping across Cambridgeshire and Peterborough. The investment aims to support efforts to reduce homelessness in the region. Further details on how the money will be allocated are expected to follow as local authorities work to implement the new measures.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbldndzgyYnBJQ0ZESWw4c2xtTFh4bi1CWFpUMUVKYnRaVEczQmkzU25aUUt6ZUFJdEVsUjZTQVVhbldqd2xFRHRJb0VSVlF3ZTk5TjNTMjhBRFZhVmM0alRIS3VxeGl4elpmRmZaZ3NVZGRTMzhWX1oxWUhGY3hTVVpjajBuZnhlaDFwZ2dyNS1FQU83RXFfeWtLQQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-24T03:00:00+00:00",
+      "generated_at": "2026-09-24T05:49:39.938586+00:00",
+      "rss_date": "Thu, 24 Sep 2026 05:49:39 +0000"
+    },
+    {
+      "id": "fenland-news-f4cc6d4925e3db702510e63c",
+      "headline": "Career change for former roofer at HMP Whitemoor",
+      "brief": "A former roofer has begun a new career at HMP Whitemoor. The news was reported by the March Chatteris Whittlesey News. No further details regarding the individual or the nature of the role have been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONlNyb0hfUGZZakg3allCRHMydVRkN2NiUEg2bWhVRnhOTFVJQi1nZUtUX2prbUhmNDdtWi1BNE13NjN0ZnMxV1hObW51eEliaGNvNnE1bE9kbk1jb0xUSjRWSEluY0FqZnBudkJNbWlfNDJtdTJLNlAwYWo1dFV1elhSMVBFcndjSHNXdnRpTHdkUQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-08-05T07:00:00+00:00",
+      "generated_at": "2026-09-24T05:49:36.774422+00:00",
+      "rss_date": "Thu, 24 Sep 2026 05:49:36 +0000"
+    },
+    {
+      "id": "fenland-news-9946346acf4adcc270c237a2",
+      "headline": "New road markings installed at Gaywood clock junction",
+      "brief": "New cross-hatching has been painted at the Gaywood clock junction to help improve traffic flow. The markings are designed to prevent vehicles queuing from Wootton Road from blocking the junction, which previously restricted traffic travelling from Gayton Road. \n\nGaywood councillor Rob Colwell, who secured funding for the project through his Local Member Fund, said the change aims to ensure emergency service vehicles can pass through the area more easily. The work follows concerns raised by local residents and consultations with emergency services regarding congestion at the site. Councillor Colwell pursued the installation with Norfolk County Council following delays to road-lining schemes across the region.",
+      "original_url": "https://www.lynnnews.co.uk/news/cross-hatching-finally-installed-at-busy-junction-after-lot-9484103/",
+      "source": "Lynn News",
+      "published": "2026-09-24T05:00:00+00:00",
+      "generated_at": "2026-09-24T05:49:34.252067+00:00",
+      "rss_date": "Thu, 24 Sep 2026 05:49:34 +0000"
+    },
     {
       "id": "fenland-news-9f66cbb668a22fe15d7b3010",
       "headline": "Cambridgeshire MPs express frustration over council reorganisation delays",
@@ -960,46 +1000,6 @@
       "published": "2019-11-16T08:00:00+00:00",
       "generated_at": "2026-09-20T05:48:03.832107+00:00",
       "rss_date": "Sun, 20 Sep 2026 05:48:03 +0000"
-    },
-    {
-      "id": "fenland-news-9f3d32f947a7c9aee3a6e1f9",
-      "headline": "Cambridgeshire community centre listed for sale",
-      "brief": "A community centre in Cambridgeshire has been placed on the market. A local group is now calling for the site to be protected from potential housing development. No further details regarding the specific location or the identity of the group have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmdYcTJwUmVnQU91OGF6NzFlZmM2bS1tSXNGdUJGZ2trRXpaM1BhM295MHA0RW5VSXFsMjhnc2JHajFGMlByTU1sc3NUOU1EWUd3NGEyX0I4Y2ZPQTZIWWNncUFEZ0hOa1NKb0Jyb2RhZjFxNjI4Y0lOX2ZOckF2RU9SWWMwQkRxelFNRkl1MEZBVVAwOU41cGgtVm52djFLNWfSAacBQVVfeXFMTUl0c1pHQjdJamRMam92MGg2VEFFdy0xcm1zZFJteVlhYlFkckJLeU1zLUd6MF9RZjE4aWxUenZ3Tk9BU0RhZFI4eHBsdTYwVDdRZmtnNUNhX2pQdnQ3TlV0ZF9iS2F0WmVtc2cwMUl1WjN2aEFaMFBUN2JYSDVndkJFMTAxSmhEZVMyZURfZ2xJUkpyc1hJS3o3ekRyNkVUZnFaa1B0Wkk?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-06-28T07:00:00+00:00",
-      "generated_at": "2026-09-20T05:48:01.489075+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:48:01 +0000"
-    },
-    {
-      "id": "fenland-news-8047b8aebdf313bf3fd88fa4",
-      "headline": "Peterborough defeated by Doncaster",
-      "brief": "Peterborough United have suffered a defeat in their latest League One fixture. The team lost 2-0 to Doncaster in a match featured in recent highlights.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORzJPcmFCenROUFZDekl5VTROX3Rxcm1ldDI1dm14WVc1eVFuaUh6NThja2tOYV9GWGtLWTE2Y3REajNMQWNndGZaTDF3aW5xSnVOejk3TlNVU1NlQlZOYXphTThXUDI0RWtkWGtIaWN2aW9Dd1ZtQk1kRTA5LUpOYWh2eWV5ZkdPOFRGMmNTa0VUTEJXaUFzUWtZZjc0a1NaYy05bWcwVQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-19T16:31:56+00:00",
-      "generated_at": "2026-09-20T05:48:00.277044+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:48:00 +0000"
-    },
-    {
-      "id": "fenland-news-bd770b6a2ab50f3f51488fc6",
-      "headline": "Free workplace training offered for neurodivergent staff",
-      "brief": "A charity is providing free training sessions aimed at removing barriers for neurodivergent employees in the workplace. The initiative is designed to support staff members who may face challenges in professional environments. Further details regarding the programme and how to access the training are available through the Ely East Cambridgeshire News.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFpiQzBTbXBZUEJKQURwUm1RNFgzZXVPa0JhY19iUl9EbW1pSG9xQ2FfZmJSY0hsSHhUNjRIeko2elB4c0lSaXgyaUNYZTB5QkpXdlh3NDhtMk9uMkJXSzhEc28tcTVWY2o0Qlh4STRlQkVDRENYZWJwUHM5WHlfX3hoT1BiWjgzbU1uVjJTS19jYkdqVXRGUFVYOFNNZlk?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-18T03:00:00+00:00",
-      "generated_at": "2026-09-20T05:47:56.919467+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:47:56 +0000"
-    },
-    {
-      "id": "fenland-news-fc8a146c4baa328164e13f30",
-      "headline": "Local man receives praise for community gardening work",
-      "brief": "A local man has been publicly commended for his efforts in maintaining community gardens. The work, which has drawn positive attention, focuses on the upkeep of shared green spaces. Further details regarding the specific locations or the identity of the individual involved have not been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96cVpsbmlucl9icXI5U0E3Zm5aUmc5dGcxQWpicGxTUWNxYzY4VGU5dF9INzRtWnAyMldybWo4cjZSS3pTeUdkSDZiNUpGcm1sZUxxZ2FLdHI5Y0p5?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-20T07:00:00+00:00",
-      "generated_at": "2026-09-20T05:47:55.124943+00:00",
-      "rss_date": "Sun, 20 Sep 2026 05:47:55 +0000"
     }
   ]
 }
