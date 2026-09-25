@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-25T17:50:50.936850+00:00",
+  "updated_at": "2026-09-25T23:48:10.978980+00:00",
   "stories": [
+    {
+      "id": "fenland-news-a6cb88815e999a44c3f98dbf",
+      "headline": "Peterborough business group marks centenary",
+      "brief": "A major business organisation in Peterborough has celebrated its one-hundredth anniversary. More than 400 guests attended the event to mark the group's centenary milestone.",
+      "original_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSy1pWkx1aFBSLWpDRUVWeFg3eVBzb1dvM1cyS25HNlJlZ2k0N0ZRRjNZRUhUY1UyVDM0bHBQRGtCSXVOS0JnUVhoOGZ2ZXlKajlNTHlQRW5zdkZxZGlXTEVwVTVkSWlTYXRqakJHM2xkZWZmclp3azhxNl94NmZsRXBuMnlxeWJ4Wm45eUVsa1hUN295Y0tRVHB0UThidUVUc3J1cHk2OE9TZFVrQjVIaFV1ekR4MWhTUjhsSUVVZjFMZEh3b3lfXzJnTmtGemZyNXBSVA?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-25T14:17:00+00:00",
+      "generated_at": "2026-09-25T23:48:10.978860+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:48:10 +0000"
+    },
+    {
+      "id": "fenland-news-a07a4e716f5d7c71608882db",
+      "headline": "Care home in March rated as failing to provide good standard of care",
+      "brief": "A care home in March has been criticised for its performance. According to a report from the Cambs Times, the facility failed to provide a good standard of care for its residents. No further details regarding the specific nature of the failings or the name of the home have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSUxCY19fSEd3TExRTk1mQW11dHBBTldaclRvR2hTTjNOa3AzOXNVLTZJWGt1dWM3NEJWTWdFTS1NeVNYRjQ1RlRaTUVNMzd3LXBHbEtaY0hpeklEQjA4M29EbWpkcXdvQzh0SUw0ejYzbEw2ZWFhUWtoU3NRWjU3cnZtT3o2TVcyc2pURlZJTzFuTkVZakE2ag?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-02-17T08:00:00+00:00",
+      "generated_at": "2026-09-25T23:48:05.627052+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:48:05 +0000"
+    },
+    {
+      "id": "fenland-news-c246e51f8222f179b485ca1f",
+      "headline": "Lightning protection approved for King’s Lynn’s St George’s Guildhall",
+      "brief": "Plans to install lightning protection at the historic St George’s Guildhall in King’s Lynn have been approved by West Norfolk Council. The project involves fitting eleven rods of varying sizes across the site, including the main theatre building and The Riverside Restaurant. \n\nWhile conservation officers and Historic England noted that the rods will slightly alter the historic roofline, officials concluded that the safety benefits for the Grade I-listed site outweigh this impact. The installation is part of a wider £30 million renovation scheme designed to safeguard the building, its visitors, and the public from potential lightning damage.",
+      "original_url": "https://www.lynnnews.co.uk/news/council-s-plans-to-protect-historic-building-from-lightning-9484439/",
+      "source": "Lynn News",
+      "published": "2026-09-25T14:01:02+00:00",
+      "generated_at": "2026-09-25T23:48:02.841174+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:48:02 +0000"
+    },
+    {
+      "id": "fenland-news-8fb95e799380a94dffa31382",
+      "headline": "Pharmaceutical firm MSD reports success in eye disease treatment",
+      "brief": "Pharmaceutical company MSD has announced positive results for a new eye disease treatment. The development follows the firm’s recent acquisition of EyeBio. The drug, which targets the Wnt pathway, marks the company's first successful clinical outcome in the field of ophthalmology.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3BiYWNrUWdUZm50dXRuZndkcXY5WEphX05FZjVobjh4WkNUY0hFRWFIMmF2ZXM1eFhlNWtSaDNKazV2UUp6R0d3c21Qbk1VcG4zZXRFbDJHekp1bWhubnVHOHdTUVlzMGFHYWZ3RHlUTnRSN2RESEVoVXdKdHhONmVEdlAxbGNUREtCc2cyZF9Sdw?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "published": "2026-09-25T08:48:21+00:00",
+      "generated_at": "2026-09-25T23:47:59.408423+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:47:59 +0000"
+    },
+    {
+      "id": "fenland-news-34363a522810bda436d03d1a",
+      "headline": "Emergency services called to new crematorium",
+      "brief": "A newly opened crematorium has been evacuated following an emergency response. Firefighters were called to the site just weeks after the facility first began operations. No further details regarding the cause of the incident or the current status of the building have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTFBCS0lFZlFCaU9zNGFjX2k5WE1ld1JtUUZPVWdBN1NVdms3WWtXOHpFM0FKYjFaSUdHOEhjWjlTNThsOVJNWVFjXzNTd0gzUl93c05Ta2cwNUVOcXlIMGJOUmxlOFpweXU1MzFZMVNjSEl5a01pcHE4bHRKY3p2bVVTQmZUX0NHS0drMTVnOEM5NzY3c2Q2STR30gGfAUFVX3lxTE0yVU9SNjlVOUFweDlNLV9lQXp3bWpSVXM2ZHpfbUNrWFJTek5ud1VXUkVkUm1NNENJeTlyYmRiU002ZE5rZjdsZ0ZobXlYRDB6SG1DMGNHYkVPaE83YWlTOWRtck4zYUpBdVhKdGd2bEJMd2RPb0hlUmxicnc1SlJjalp2eWtOcUlUREdyWDhON3hJeG4zS05WQnVXSVdPcw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-25T13:32:00+00:00",
+      "generated_at": "2026-09-25T23:47:57.165297+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:47:57 +0000"
+    },
+    {
+      "id": "fenland-news-f55c3921c79580b8cb609177",
+      "headline": "West Norfolk towns celebrate success at Anglia in Bloom awards",
+      "brief": "King’s Lynn and Hunstanton have received multiple honours at the 2026 Anglia in Bloom awards. Hunstanton secured gold and the Best Coastal award in the main category, while Boston Gardens was named Best for Wildlife and Biodiversity. In King’s Lynn, The Walks and Tower Gardens both achieved gold in the virtual category. Mintlyn Crematorium at Bawsey also earned a silver gilt award and a category win.\n\nThe awards, announced last Thursday in St Ives, recognise the efforts of council teams and volunteers in maintaining green spaces. Local officials have praised the dedication of those involved in keeping the borough’s parks, town centres, and coastal areas attractive and sustainable for residents and visitors.",
+      "original_url": "https://www.lynnnews.co.uk/news/reaping-the-rewards-in-successful-in-bloom-contest-9484463/",
+      "source": "Lynn News",
+      "published": "2026-09-25T15:18:10+00:00",
+      "generated_at": "2026-09-25T23:47:54.133205+00:00",
+      "rss_date": "Fri, 25 Sep 2026 23:47:54 +0000"
+    },
     {
       "id": "fenland-news-562f796ded363fdb67da4290",
       "headline": "Cambridgeshire Constabulary launches AI crime reporting tool",
@@ -940,66 +1000,6 @@
       "published": "2026-09-21T05:00:00+00:00",
       "generated_at": "2026-09-21T17:48:21.748262+00:00",
       "rss_date": "Mon, 21 Sep 2026 17:48:21 +0000"
-    },
-    {
-      "id": "fenland-news-58cb74b972328186bf1963e6",
-      "headline": "Senior doctors warn of workforce crisis at Queen Elizabeth Hospital",
-      "brief": "Senior medics at the Queen Elizabeth Hospital in King’s Lynn have warned that potential plans to downgrade A&E, intensive care, and maternity services could trigger a severe workforce crisis. In a leaked letter, consultants expressed profound concern that ongoing uncertainty is already damaging staff recruitment and retention. \n\nThe Norfolk and Waveney University Hospitals Group, which is reviewing clinical services, maintains that no decisions have been made regarding the future of these units. However, clinicians argue that a lack of clear refutation is undermining public confidence. The hospital serves a wide rural area, including parts of North Cambridgeshire and South Lincolnshire, leading to fears that any reduction in services would pose a significant risk to patient safety.",
-      "original_url": "https://www.lynnnews.co.uk/news/hospital-doctors-warn-that-severe-workforce-crisis-could-h-9483760/",
-      "source": "Lynn News",
-      "published": "2026-09-21T16:42:31+00:00",
-      "generated_at": "2026-09-21T17:48:18.758891+00:00",
-      "rss_date": "Mon, 21 Sep 2026 17:48:18 +0000"
-    },
-    {
-      "id": "fenland-news-539c928641632d831e0aa2a5",
-      "headline": "Wisbech man jailed for shoplifting offences",
-      "brief": "A 44-year-old man from Wisbech has been sentenced to 13 months in prison for a series of shoplifting offences. Lee Thompson, of John F Kennedy Court, targeted the Tesco Express on Kirkgate Street three times between August 14 and 18. He also admitted to stealing from the Boots store in the Horsefair Shopping Centre back in May, alongside further offences committed in Norfolk.\n\nFollowing his arrest by neighbourhood officers, Thompson appeared at Huntingdon Magistrates’ Court last Tuesday. The sentence includes the activation of previous suspended terms. In addition to his jail time, Thompson has been ordered to pay £99.99 in compensation. Police have thanked members of the public for reporting retail crime, noting that such information is vital for identifying offenders.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/shoplifter-jailed-for-more-than-a-year-9483629/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-21T10:35:29+00:00",
-      "generated_at": "2026-09-21T11:51:02.533890+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:51:02 +0000"
-    },
-    {
-      "id": "fenland-news-a04bac5fea95a1ed102f866f",
-      "headline": "Norfolk County Council seeks feedback on recycling centres",
-      "brief": "Norfolk County Council is inviting residents to share their views on the county’s 19 recycling centres. An annual satisfaction survey is now open, covering sites including those in King’s Lynn, Wereham, Docking, Heacham, and Ashill. \n\nThe council says the feedback will help identify potential service improvements and understand any barriers to usage. Last year, the centres processed nearly 56,000 tonnes of household waste, with over 75 per cent diverted from general disposal. Residents can complete the short questionnaire online until October 18. Further details and the survey link are available on the Norfolk County Council website.",
-      "original_url": "https://www.lynnnews.co.uk/news/survey-on-county-s-recycling-centres-9483636/",
-      "source": "Lynn News",
-      "published": "2026-09-21T10:57:44+00:00",
-      "generated_at": "2026-09-21T11:50:57.725857+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:50:57 +0000"
-    },
-    {
-      "id": "fenland-news-7287b8eca07d8e64735fae6e",
-      "headline": "Cambridgeshire charity faces funding gap for LGBTQ+ youth services",
-      "brief": "A Cambridgeshire charity is warning that its services for LGBTQ+ young people are currently at risk. The organisation has reported a significant funding shortfall, which threatens the future of the support it provides across the region. Further details regarding the specific impact on local programmes have not yet been confirmed.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVFlMUUc0S3Fsem1WSlB3U1NrMUFJTTBxMVV2Q0lQSFlBNUZBREpYcWxRRE90ZUZnR0VxeHNtb25QTzh3bDA2Vy1aNkdJSnp1eXJUMENDREJHM2EwUDMzR1VpaDZHSWFTWmVvMTNxY3Zaa0FBZmQwQV9lbVpUWGZVMzloWnVqWkg5U19fT1BQRjJKd1F3c2Fza2taUUxqVnNjb3VMRGxrQQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-21T03:00:00+00:00",
-      "generated_at": "2026-09-21T11:50:51.904316+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:50:51 +0000"
-    },
-    {
-      "id": "fenland-news-86d44017199923f4bb1211c6",
-      "headline": "Long Sutton travel agents support Santa appeal",
-      "brief": "Staff at a travel agency in Long Sutton have been busy preparing for the festive season. The team at the local branch have been packing a suitcase for Santa Claus as part of a seasonal initiative. The project aims to support the community during the upcoming holidays.",
-      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFTk5FbUZUTVBlaFo5VXphZWFLYVNaMmlDaVFON0FwZWI1czdiMWNtUUZpN3VIbVMwalpvR3RxU1I2Q01xYThHNkM0eWtDNVNkc2x2ZzJlU0VvLU93elNUTmxrUjJsRlI1c3JKVmFHSmxRaDdOa1U4WXNMdw?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2019-12-18T08:00:00+00:00",
-      "generated_at": "2026-09-21T11:50:49.222604+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:50:49 +0000"
-    },
-    {
-      "id": "fenland-news-75feeb96767c890cb5352fab",
-      "headline": "Man charged following jewellery shop break-in",
-      "brief": "A man has been charged after a jewellery shop was broken into. This incident marks the second time the business has been targeted in less than a year. Police have confirmed the charge following the break-in.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUEM4TFlnYzBSaTJCRVZFYnltTmlXMDJsYnpYMXQwbURwV2FwMzNMeldCcjB5T250ZHV6ZXhYU1dZaUhRWWtfeGREcURoRmhJeURxR1VpWDlDa21MVnUxdnFUWkdsMEgzRXlZSFpkdVVFbVY1UFdxNnQwcWotR0ZnRzlkNE9OMVRiMFgwekcydXI?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-21T10:26:00+00:00",
-      "generated_at": "2026-09-21T11:50:43.854402+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:50:43 +0000"
     }
   ]
 }
