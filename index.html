@@ -81,20 +81,111 @@
 <script src="site-nav.js?v=1" defer></script>
 
 <style>
-.home-commercial{padding:0 3.5vw 70px}
-.premium-ad-slot{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:22px 26px;margin-bottom:24px;border:1px dashed #6a5427;border-radius:14px;background:#0b0d11}
-.premium-ad-slot span{color:#d4aa47;font-size:12px;font-weight:900;letter-spacing:1.5px}
-.premium-ad-slot strong{font-size:20px}
-.premium-ad-slot a{margin-left:auto;color:#ff4b50;text-decoration:none;font-weight:900}
-.home-preview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.home-preview-card{display:block;padding:22px;border:1px solid #2d3037;border-radius:14px;background:#0d0f13;text-decoration:none;color:#fff}
-.home-preview-card:hover{border-color:#d4aa47}
-.preview-icon{font-size:28px;display:block;margin-bottom:12px}
-.home-preview-card small{display:block;color:#d4aa47;font-weight:900;letter-spacing:1.2px;margin-bottom:7px}
-.home-preview-card strong{display:block;font-size:24px;margin-bottom:8px}
-.home-preview-card p{color:#b8bcc5;line-height:1.5;margin:0 0 12px}
-.home-preview-card em{color:#ff4b50;font-style:normal;font-weight:800}
-@media(max-width:800px){.home-preview-grid{grid-template-columns:1fr}.premium-ad-slot a{margin-left:0}.home-commercial{padding:0 18px 50px}}
+..home-commercial{
+  padding:20px 3.5vw 80px;
+}
+
+.premium-ad-slot{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  flex-wrap:wrap;
+  padding:30px 34px;
+  margin-bottom:30px;
+  min-height:105px;
+  border:1px dashed #6a5427;
+  border-radius:16px;
+  background:#0b0d11;
+}
+
+.premium-ad-slot span{
+  color:#d4aa47;
+  font-size:14px;
+  font-weight:900;
+  letter-spacing:1.6px;
+}
+
+.premium-ad-slot strong{
+  font-size:26px;
+}
+
+.premium-ad-slot a{
+  margin-left:auto;
+  color:#ff4b50;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:900;
+}
+
+.home-preview-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.home-preview-card{
+  display:block;
+  min-height:255px;
+  padding:30px;
+  border:1px solid #2d3037;
+  border-radius:16px;
+  background:#0d0f13;
+  text-decoration:none;
+  color:#fff;
+}
+
+.home-preview-card:hover{
+  border-color:#d4aa47;
+}
+
+.preview-icon{
+  font-size:36px;
+  display:block;
+  margin-bottom:16px;
+}
+
+.home-preview-card small{
+  display:block;
+  color:#d4aa47;
+  font-size:14px;
+  font-weight:900;
+  letter-spacing:1.3px;
+  margin-bottom:9px;
+}
+
+.home-preview-card strong{
+  display:block;
+  font-size:30px;
+  margin-bottom:12px;
+}
+
+.home-preview-card p{
+  color:#b8bcc5;
+  font-size:18px;
+  line-height:1.55;
+  margin:0 0 18px;
+}
+
+.home-preview-card em{
+  color:#ff4b50;
+  font-size:17px;
+  font-style:normal;
+  font-weight:800;
+}
+
+@media(max-width:800px){
+  .home-preview-grid{
+    grid-template-columns:1fr;
+  }
+
+  .premium-ad-slot a{
+    margin-left:0;
+  }
+
+  .home-commercial{
+    padding:0 18px 50px;
+  }
+}
 </style>
 
 </head>
