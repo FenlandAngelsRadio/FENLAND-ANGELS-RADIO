@@ -6,141 +6,381 @@
   <meta name="description" content="Fenland Angels Radio — Independent Music Radio Community. Live shows, independent music, hourly news and weather from The Fens.">
   <title>Fenland Angels Radio</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .home-quick-links{
+      padding:0 3.5vw 55px;
+    }
+
+    .home-quick-links-inner{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      align-items:center;
+      padding:16px 18px;
+      border:1px solid #2d3037;
+      border-radius:14px;
+      background:linear-gradient(145deg,#0d0f13,#090b0e);
+    }
+
+    .quick-link{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:12px 16px;
+      border-radius:9px;
+      text-decoration:none;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.3px;
+      border:1px solid #4b3c20;
+      background:#0a0b0e;
+    }
+
+    .quick-link:hover{
+      border-color:var(--gold);
+    }
+
+    .quick-link.primary-link{
+      background:linear-gradient(180deg,#ef2027,#b90f15);
+      border-color:#d71920;
+    }
+
+    .quick-link span{
+      font-size:18px;
+    }
+
+    .quick-note{
+      margin-left:auto;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media(max-width:760px){
+      .home-quick-links{
+        padding:0 18px 45px;
+      }
+
+      .home-quick-links-inner{
+        align-items:stretch;
+      }
+
+      .quick-link{
+        width:100%;
+        justify-content:center;
+      }
+
+      .quick-note{
+        width:100%;
+        margin-left:0;
+        text-align:center;
+      }
+    }
+  </style>
+<link rel="stylesheet" href="site-nav.css?v=1">
+<script src="site-nav.js?v=1" defer></script>
+
+<style>
+.home-commercial{padding:0 3.5vw 70px}
+.premium-ad-slot{display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:22px 26px;margin-bottom:24px;border:1px dashed #6a5427;border-radius:14px;background:#0b0d11}
+.premium-ad-slot span{color:#d4aa47;font-size:12px;font-weight:900;letter-spacing:1.5px}
+.premium-ad-slot strong{font-size:20px}
+.premium-ad-slot a{margin-left:auto;color:#ff4b50;text-decoration:none;font-weight:900}
+.home-preview-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.home-preview-card{display:block;padding:22px;border:1px solid #2d3037;border-radius:14px;background:#0d0f13;text-decoration:none;color:#fff}
+.home-preview-card:hover{border-color:#d4aa47}
+.preview-icon{font-size:28px;display:block;margin-bottom:12px}
+.home-preview-card small{display:block;color:#d4aa47;font-weight:900;letter-spacing:1.2px;margin-bottom:7px}
+.home-preview-card strong{display:block;font-size:24px;margin-bottom:8px}
+.home-preview-card p{color:#b8bcc5;line-height:1.5;margin:0 0 12px}
+.home-preview-card em{color:#ff4b50;font-style:normal;font-weight:800}
+@media(max-width:800px){.home-preview-grid{grid-template-columns:1fr}.premium-ad-slot a{margin-left:0}.home-commercial{padding:0 18px 50px}}
+</style>
+
 </head>
+
 <body>
+
   <header class="site-header">
+
     <a class="brand" href="#home" aria-label="Fenland Angels Radio home">
       <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio logo">
+
       <div>
-        <div class="brand-name"><span>FENLAND</span><strong>ANGELS</strong><em>RADIO</em></div>
-        <div class="tagline">INDEPENDENT MUSIC RADIO COMMUNITY</div>
+        <div class="brand-name">
+          <span>FENLAND</span>
+          <strong>ANGELS</strong>
+          <em>RADIO</em>
+        </div>
+
+        <div class="tagline">
+          INDEPENDENT MUSIC RADIO COMMUNITY
+        </div>
       </div>
     </a>
 
-<nav class="nav">
-  <a href="#home">Home</a>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="#news">News & Weather</a>
+      <a href="advertising.html">Advertise</a>
+      <a href="vouchers.html">Vouchers</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-  <div class="nav-dropdown">
-    <button class="nav-dropbtn" type="button">
-      On Air <span>⌄</span>
+    <button class="btn primary player-button" type="button" data-action="play">
+      🎧 Listen Live
     </button>
 
-    <div class="nav-dropdown-menu">
-      <a href="other-ways-to-listen.html">Other Ways to Listen</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="public-file.html">Public File</a>
-    </div>
-  </div>
-
-  <a href="#news">News & Weather</a>
-  <a href="advertising.html">Advertise</a>
-  <a href="vouchers.html">Vouchers</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-</nav>
   </header>
 
+
   <main>
+
     <section class="hero" id="home">
+
       <div class="hero-copy">
-        <p class="eyebrow">THE SOUND OF THE FENS</p>
-        <h1>INDEPENDENT MUSIC<br><span>RADIO COMMUNITY</span></h1>
-        <p class="lead">Independent music, live radio, local voices, community stories, hourly news and weather — broadcasting 24/7.</p>
+
+        <p class="eyebrow">
+          THE SOUND OF THE FENS
+        </p>
+
+        <h1>
+          INDEPENDENT MUSIC<br>
+          <span>RADIO COMMUNITY</span>
+        </h1>
+
+        <p class="lead">
+          Independent music, live radio, local voices, community stories, hourly news and weather — broadcasting 24/7.
+        </p>
+
         <div class="hero-actions">
-          <button class="btn primary player-button" type="button" data-action="play">▶ Listen Live</button>
-          <a class="btn outline" href="#shows">▣ Show Schedule</a>
+
+          <button class="btn primary player-button"
+                  type="button"
+                  data-action="play">
+            ▶ Listen Live
+          </button>
+
+          <a class="btn outline"
+             href="schedule.html">
+            ▣ Show Schedule
+          </a>
+
         </div>
+
       </div>
 
+
       <div class="live-card">
+
         <div class="live-header">
           <span class="live-pill">ON AIR</span>
           <span class="small">FENLAND ANGELS RADIO</span>
         </div>
+
         <div class="live-main">
+
           <div>
+
             <h2>Live 24/7</h2>
-            <p>Independent music, station shows, hourly news and weather.</p>
+
+            <p>
+              Independent music, station shows, hourly news and weather.
+            </p>
+
             <div class="wave" aria-hidden="true">
-              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              <i></i><i></i><i></i><i></i><i></i><i></i>
+              <i></i><i></i><i></i><i></i><i></i><i></i>
             </div>
+
             <div class="inline-player">
-              <button class="round-play" id="mainPlay" type="button" aria-label="Play Fenland Angels Radio">▶</button>
+
+              <button class="round-play"
+                      id="mainPlay"
+                      type="button"
+                      aria-label="Play Fenland Angels Radio">
+                ▶
+              </button>
+
               <div class="player-copy">
-                <strong id="playerStatus">Tap play to listen live</strong>
-                <span>Fenland Angels Radio · 320 kbps</span>
+                <strong id="playerStatus">
+                  Tap play to listen live
+                </strong>
+
+                <span>
+                  Fenland Angels Radio · 320 kbps
+                </span>
               </div>
-              <input id="volume" class="volume" type="range" min="0" max="1" step="0.01" value="0.9" aria-label="Volume">
+
+              <input id="volume"
+                     class="volume"
+                     type="range"
+                     min="0"
+                     max="1"
+                     step="0.01"
+                     value="0.9"
+                     aria-label="Volume">
+
             </div>
+
             <audio id="radioStream" preload="none">
-              <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg">
+              <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
+                      type="audio/mpeg">
             </audio>
+
           </div>
-          <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio">
+
+          <img src="fenland-angels-radio-logo.jpg"
+               alt="Fenland Angels Radio">
+
         </div>
+
       </div>
+
     </section>
-<section class="home-quick-links">
-  <div class="home-quick-links-inner">
-
-    <a class="quick-link primary-link" href="app/">
-      <span>📱</span>
-      Download FAR App
-    </a>
-
-    <a class="quick-link"
-       href="mailto:fenlandangelsradio@gmail.com?subject=Music%20Submission%20to%20Fenland%20Angels%20Radio">
-      <span>🎵</span>
-      Submit Your Music
-    </a>
-
-  </div>
-</section>
 
 
-    <section class="news-banner" id="news">
-      <div class="news-icon">📡</div>
-      <div>
-        <p class="eyebrow">ON THE HOUR, EVERY HOUR</p>
-        <h2>Hourly News & Weather</h2>
-        <p>Stay informed with the latest news headlines and UK weather updates throughout the day.</p>
+    
+    <section class="home-commercial">
+      <div class="premium-ad-slot">
+        <span>PREMIUM HOMEPAGE ADVERTISING</span>
+        <strong>Your business could be here</strong>
+        <a href="advertising.html">Advertise with FAR →</a>
       </div>
-      <div class="weather-icons">📰 ☁️</div>
+
+      <div class="home-preview-grid">
+        <a class="home-preview-card" href="events.html">
+          <span class="preview-icon">📅</span>
+          <small>COMMUNITY</small>
+          <strong>Events</strong>
+          <p>What’s happening across the Fens.</p>
+          <em>View events →</em>
+        </a>
+
+        <a class="home-preview-card" href="vouchers.html">
+          <span class="preview-icon">🎟️</span>
+          <small>LOCAL OFFERS</small>
+          <strong>Vouchers</strong>
+          <p>Local vouchers and offers from FAR.</p>
+          <em>Coming soon →</em>
+        </a>
+
+        <a class="home-preview-card" href="news.html">
+          <span class="preview-icon">📰</span>
+          <small>ACROSS THE FENS</small>
+          <strong>Latest News</strong>
+          <p>Read the latest stories from the FAR newsroom.</p>
+          <em>Read news →</em>
+        </a>
+      </div>
     </section>
 
     <section class="about-contact" id="about">
+
       <div class="info-card">
-        <p class="eyebrow">ABOUT US</p>
-        <h2>Independent Music Radio Community</h2>
-        <p>Fenland Angels Radio is an independent 24/7 internet radio station serving The Fens, giving music, local voices and community stories a place to be heard.</p>
+
+        <p class="eyebrow">
+          ABOUT US
+        </p>
+
+        <h2>
+          Independent Music Radio Community
+        </h2>
+
+        <p>
+          Fenland Angels Radio is an independent 24/7 internet radio station serving The Fens, giving music, local voices and community stories a place to be heard.
+        </p>
+
       </div>
+
 
       <div class="info-card" id="contact">
-        <p class="eyebrow">CONTACT</p>
-        <h2>Get in touch</h2>
-        <p><strong>Contact:</strong> Private Major of BASTONE MAJOR GROUP LTD</p>
-        <p><strong>Email:</strong> <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a></p>
-        <p><strong>Phone:</strong> <a href="tel:+447401152538">07401 152538</a></p>
-        <p><strong>Location:</strong> The Fens</p>
+
+        <p class="eyebrow">
+          CONTACT
+        </p>
+
+        <h2>
+          Get in touch
+        </h2>
+
+        <p>
+          <strong>Contact:</strong>
+          Private Major of BASTONE MAJOR GROUP LTD
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:fenlandangelsradio@gmail.com">
+            fenlandangelsradio@gmail.com
+          </a>
+        </p>
+
+        <p>
+          <strong>Phone:</strong>
+          <a href="tel:+447401152538">
+            07401 152538
+          </a>
+        </p>
+
+        <p>
+          <strong>Location:</strong>
+          The Fens
+        </p>
+
       </div>
+
     </section>
+
   </main>
 
+
   <footer>
+
     <div>
-      <strong>© 2026 BASTONE MAJOR GROUP LTD</strong>
-      <span>Independent Music Radio Community</span>
+      <strong>
+        © 2026 BASTONE MAJOR GROUP LTD
+      </strong>
+
+      <span>
+        Independent Music Radio Community
+      </span>
     </div>
+
+
     <div class="footer-live">
-      <span>🎧 LISTEN LIVE 24/7</span>
-      <button class="footer-play" type="button" data-action="play">Play Fenland Angels Radio</button>
+
+      <span>
+        🎧 LISTEN LIVE 24/7
+      </span>
+
+      <button class="footer-play"
+              type="button"
+              data-action="play">
+        Play Fenland Angels Radio
+      </button>
+
     </div>
+
+
     <div>
-      <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a>
-      <a href="tel:+447401152538">07401 152538</a>
+
+      <a href="mailto:fenlandangelsradio@gmail.com">
+        fenlandangelsradio@gmail.com
+      </a>
+
+      <a href="tel:+447401152538">
+        07401 152538
+      </a>
+
     </div>
+
   </footer>
 
+
   <script src="app.js"></script>
+
 </body>
 </html>
