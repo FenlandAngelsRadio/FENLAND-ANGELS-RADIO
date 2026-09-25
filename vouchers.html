@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fenland Angels Radio Voucher Shop. Browse FAR vouchers and purchase securely through our SumUp store.">
+  <title>FAR Voucher Shop | Fenland Angels Radio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .voucher-hero{
+      min-height:500px;
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:42px;
+      align-items:center;
+      padding:72px 3.5vw;
+      background:
+        radial-gradient(circle at 82% 28%,rgba(212,170,71,.16),transparent 28%),
+        radial-gradient(circle at 16% 44%,rgba(215,25,32,.18),transparent 34%);
+    }
+    .voucher-hero h1{
+      font-size:clamp(48px,6vw,78px);
+      line-height:.95;
+      margin:10px 0 20px;
+      letter-spacing:-2px;
+    }
+    .voucher-hero h1 span{color:var(--red2)}
+    .voucher-panel{
+      min-height:340px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+      text-align:center;
+      padding:34px;
+      border:1px solid #5b4520;
+      border-radius:22px;
+      background:linear-gradient(145deg,#0a0b0e,#101217);
+      box-shadow:0 22px 70px rgba(0,0,0,.45);
+    }
+    .voucher-panel img{
+      width:210px;
+      height:210px;
+      border-radius:50%;
+      object-fit:cover;
+      border:3px solid var(--gold);
+    }
+    .voucher-panel strong{
+      font-size:22px;
+      color:var(--gold);
+      letter-spacing:1px;
+    }
+    .voucher-panel span{
+      color:var(--muted);
+      font-size:16px;
+    }
+    .voucher-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:22px;
+      margin-top:34px;
+    }
+    .voucher-card{
+      display:flex;
+      flex-direction:column;
+      min-height:300px;
+      padding:28px;
+      border:1px solid #2d3037;
+      border-radius:18px;
+      background:linear-gradient(145deg,#11141a,#090b0e);
+      box-shadow:0 18px 42px rgba(0,0,0,.22);
+    }
+    .voucher-card h3{
+      font-size:28px;
+      margin:8px 0 12px;
+    }
+    .voucher-card p:last-of-type{
+      color:#d2d6df;
+      line-height:1.6;
+      flex:1;
+    }
+    .voucher-card.featured{
+      border-color:#7f621f;
+    }
+    .voucher-info{
+      margin:0 3.5vw 70px;
+      padding:30px;
+      border:1px solid #3a3328;
+      border-radius:18px;
+      background:#0d0f13;
+    }
+    .voucher-info h2{
+      font-size:34px;
+      margin:8px 0 10px;
+    }
+    .voucher-info p{
+      color:#d1d4dc;
+      line-height:1.65;
+      max-width:900px;
+    }
+    @media(max-width:900px){
+      .voucher-hero{grid-template-columns:1fr}
+      .voucher-grid{grid-template-columns:1fr}
+    }
+    @media(max-width:620px){
+      .voucher-hero{padding:45px 18px}
+      .voucher-hero h1{font-size:44px}
+      .voucher-info{margin:0 18px 50px}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Fenland Angels Radio home">
+      <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio logo">
+      <div>
+        <div class="brand-name"><span>FENLAND</span><strong>ANGELS</strong><em>RADIO</em></div>
+        <div class="tagline">INDEPENDENT MUSIC RADIO COMMUNITY</div>
+      </div>
+    </a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#shows">Shows</a>
+      <a href="news.html">News</a>
+      <a href="weather.html">Weather</a>
+      <a href="advertising.html">Advertise</a>
+      <a href="vouchers.html" aria-current="page">Vouchers</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <a class="btn primary" href="https://fenland-angels-radio.sumupstore.com/" target="_blank" rel="noopener">Shop Vouchers</a>
+  </header>
+
+  <main>
+    <section class="voucher-hero">
+      <div>
+        <p class="eyebrow">FENLAND ANGELS RADIO</p>
+        <h1>FAR <span>Voucher Shop</span></h1>
+        <p class="lead">Browse vouchers available from Fenland Angels Radio and purchase securely through our online SumUp store.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://fenland-angels-radio.sumupstore.com/" target="_blank" rel="noopener">Browse Vouchers</a>
+          <a class="btn outline" href="mailto:fenlandangelsradio@gmail.com?subject=FAR%20Voucher%20Enquiry">Voucher Enquiry</a>
+        </div>
+      </div>
+
+      <div class="voucher-panel">
+        <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio">
+        <strong>THE SOUND OF THE FENS</strong>
+        <span>Secure online purchases through SumUp.</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">FAR VOUCHERS</p>
+        <h2>Shop available vouchers</h2>
+        <p>Available voucher values, terms and redemption details are shown with each voucher in the FAR online shop.</p>
+      </div>
+
+      <div class="voucher-grid">
+        <article class="voucher-card featured">
+          <p class="eyebrow">SHOP ONLINE</p>
+          <h3>Browse FAR Vouchers</h3>
+          <p>See the current vouchers available from Fenland Angels Radio and choose the option that suits you.</p>
+          <a class="btn primary" href="https://fenland-angels-radio.sumupstore.com/" target="_blank" rel="noopener">Open Voucher Shop</a>
+        </article>
+
+        <article class="voucher-card">
+          <p class="eyebrow">SECURE PAYMENT</p>
+          <h3>Buy through SumUp</h3>
+          <p>Voucher purchases are completed securely through the Fenland Angels Radio SumUp online store.</p>
+          <a class="btn outline" href="https://fenland-angels-radio.sumupstore.com/" target="_blank" rel="noopener">Go to SumUp</a>
+        </article>
+
+        <article class="voucher-card">
+          <p class="eyebrow">NEED HELP?</p>
+          <h3>Contact FAR</h3>
+          <p>If you have a question about a voucher, its terms or how it can be used, contact Fenland Angels Radio before purchasing.</p>
+          <a class="btn outline" href="mailto:fenlandangelsradio@gmail.com?subject=FAR%20Voucher%20Enquiry">Email FAR</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="voucher-info">
+      <p class="eyebrow">IMPORTANT INFORMATION</p>
+      <h2>Check the individual voucher details</h2>
+      <p>Each voucher may have its own value, validity period, redemption conditions or other terms. Please read the product details shown in the FAR online shop before completing your purchase.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong>
+      <span>Independent Music Radio Community</span>
+    </div>
+    <div class="footer-live">
+      <span>🎧 LISTEN LIVE 24/7</span>
+      <a class="footer-play" href="index.html">Listen on Fenland Angels Radio</a>
+    </div>
+    <div>
+      <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a>
+      <a href="tel:+447401152538">07401 152538</a>
+    </div>
+  </footer>
+</body>
+</html>
