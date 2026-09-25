@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-09-25T11:50:59.350197+00:00",
+  "updated_at": "2026-09-25T17:50:50.936850+00:00",
   "stories": [
+    {
+      "id": "fenland-news-562f796ded363fdb67da4290",
+      "headline": "Cambridgeshire Constabulary launches AI crime reporting tool",
+      "brief": "Cambridgeshire Constabulary has become the first police force in the country to trial a new artificial intelligence tool for reporting crime. Known as Citizen Assist, the software is now available on the force’s website to help the public submit non-urgent reports. The system uses a guided text conversation to gather and organise information before submitting it directly to police records. \n\nChief Constable Simon Megicks says the pilot scheme aims to provide a more efficient digital service. He stressed that the technology will not replace existing reporting methods, and all final decisions regarding reports will continue to be made by police staff and officers. The force is participating in the trial ahead of a planned national launch later this year.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/force-first-in-the-country-to-use-ai-technology-for-crime-re-9484294/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-25T05:00:00+00:00",
+      "generated_at": "2026-09-25T17:50:50.936690+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:50 +0000"
+    },
+    {
+      "id": "fenland-news-40bddda3eedd82d57960afa6",
+      "headline": "Bus services to be cut in village despite shelter investment",
+      "brief": "A village that recently invested sixteen thousand pounds in new bus shelters is now facing a reduction in local transport services. The funding was spent on infrastructure to support commuters and residents, but those facilities will now see fewer buses calling at the stops. The decision comes despite the significant financial commitment made to improve the village's public transport amenities.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOTFfTHVhVFJ2VlhNR3lYd0w4MGNZRkRNOHUtTkVZbzJWR25PVzFOMnMxdEJPbVhhUkdyal9NalU3RTU5ZVFhZnEtOE9qUGc5R3hwOUo0UERMa2RKNTdkb3ctdVZvaGxmNG9ienhHMm0tNUthVUFhMnRhcUhUeW1oMEtFLTRjUHZBVjNabFFXVEwycUhySmgzRC1iR0RyVlM4Q3c?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "published": "2026-09-25T15:37:00+00:00",
+      "generated_at": "2026-09-25T17:50:45.862073+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:45 +0000"
+    },
+    {
+      "id": "fenland-news-4a56111f691d5aab0df09d04",
+      "headline": "Lincolnshire Police warned over public reporting habits",
+      "brief": "Lincolnshire Police have been issued a warning regarding the public's willingness to contact them for assistance. Reports suggest that residents are becoming increasingly frustrated, leading many to stop calling the force for help altogether. The warning highlights a growing concern that members of the community are losing faith in the service provided by the police. No further details regarding the specific causes of this trend or potential responses from the force have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb25JbnBhaklzV1NxcHZxUU1VUUIwRmgzUDU4XzlXUV9fbWw5ZHJXZkhON2E4RnBZQ3g4OFBfNTQ5amFHWXlMUDZiSHhUUTBacVZSSUVkai10bEVBOElNbW1PdFgzWVcwMVlRM0ZxdW4tUEwtU040YS0tQjdJcGxCMGxiUU1aYl9OLXpMcUU0M1ZmUlJkWFU0c0lnbGcwRVFmQTBPX0RvRllWWkJlU2R4RVl3?oc=5",
+      "source": "Spalding South Holland News",
+      "published": "2023-11-25T08:00:00+00:00",
+      "generated_at": "2026-09-25T17:50:41.885952+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:41 +0000"
+    },
+    {
+      "id": "fenland-news-4cf9dc9ab787aa6f486fed5c",
+      "headline": "Questions raised over director loan following March dealership collapse",
+      "brief": "A Ford dealership in March has entered administration, leaving uncertainty regarding a director loan worth £492,424. Reports indicate that the business has collapsed, prompting questions about the significant sum of money linked to the company's leadership. Further details regarding the financial situation of the firm remain unclear at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUDNXMVU3alB5dWtFbEloQkM5RVl0ZUdnd1Nxc0hwMVlBQXZvOUJqN3M4OE9pQ09EbDEzZWM2bmdrREQyZWJleVJsSXlMSTE0alRuQU9uVXNsVU41M1lsbmt6MXlnRGhWU3NzSy1HcGhDbTlCN28wSWMyMXZKZVV4M0RKWjlROUpaOGpJRC11dExYZkhoSFoyYXlXdzM5OU9hUUFhWGhSTXJNcnBHYTVPUG9Pc0hodmZBQWJTVzYtZjBVaEwwWE9XeUhiNDdWdEpmaHd3?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "published": "2026-09-25T11:39:00+00:00",
+      "generated_at": "2026-09-25T17:50:39.822191+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:39 +0000"
+    },
+    {
+      "id": "fenland-news-bbebce3c29eb91526033d5b2",
+      "headline": "Wisbech Road in March closed following accident",
+      "brief": "Drivers in March are being advised to find an alternative route this morning. Wisbech Road is currently closed to traffic following a road accident. The closure is in place between the junctions of Russell Avenue and Norwood Road. Motorists should plan their journeys accordingly and expect delays in the area while the route remains shut.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/road-closed-after-accident-9484367/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-25T09:19:35+00:00",
+      "generated_at": "2026-09-25T17:50:36.764860+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:36 +0000"
+    },
+    {
+      "id": "fenland-news-7313f3e6be94f69ec23dbc8c",
+      "headline": "New museum proposed for King’s Lynn historic building",
+      "brief": "Plans have been submitted to West Norfolk Council to convert office space within the historic Chequer House in King’s Lynn into a new museum. The application proposes transforming the rear of the building's second floor, which already houses an art gallery. \n\nThe submitted designs include the removal of existing modern partitions to create a contemporary gallery space with new display areas. A final decision on the change of use application is expected by Wednesday, November 18.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-museum-could-be-housed-in-town-s-historic-building-9484473/",
+      "source": "Lynn News",
+      "published": "2026-09-25T15:44:19+00:00",
+      "generated_at": "2026-09-25T17:50:32.794205+00:00",
+      "rss_date": "Fri, 25 Sep 2026 17:50:32 +0000"
+    },
     {
       "id": "fenland-news-f8b4b7117ccad6957e234888",
       "headline": "Police rescue abandoned dog in Newton-in-the-Isle",
@@ -940,66 +1000,6 @@
       "published": "2026-09-21T10:26:00+00:00",
       "generated_at": "2026-09-21T11:50:43.854402+00:00",
       "rss_date": "Mon, 21 Sep 2026 11:50:43 +0000"
-    },
-    {
-      "id": "fenland-news-1661a281dc9fb394e870a2dc",
-      "headline": "Inquest concludes into fatal Wisbech crash",
-      "brief": "An inquest has heard that 18-year-old Declan Berry was driving at 90mph before his car crashed into a river in Wisbech. The hearing at Cambridgeshire Coroners Court was told the vehicle, which was carrying five teenagers, hit a pothole on North Brink on March 18 before rolling into the water. \n\nThree passengers escaped the submerged car with help from a local resident, but Mr Berry and another passenger died in the incident. Coroner Elizabeth Grey concluded that excessive speed was the primary cause of the collision, while noting that the poor condition of the road was a contributing factor. The court heard that the local council had previously received over 100 complaints regarding the state of the road.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/18-year-old-killed-in-crash-was-driving-at-90mph-before-car-9483647/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-21T11:42:47+00:00",
-      "generated_at": "2026-09-21T11:50:42.362772+00:00",
-      "rss_date": "Mon, 21 Sep 2026 11:50:42 +0000"
-    },
-    {
-      "id": "fenland-news-d25636d17a9063a8c917e4cc",
-      "headline": "Residents raise concerns over road conditions in March",
-      "brief": "People living in March have described the state of a local road as being like a war zone due to the number of potholes. Residents have expressed their frustration regarding the poor condition of the surface. The reports were highlighted by the BBC.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NamRFQk9lUmR2OXRNTjVGUHBDbEZvU1F5LXdNRGdEWllaUGJnSmJKX1d5emg3TGhEMzZFM1FicjFtZm03VE9ORzZRaFVBRXcyZmloTlduQ3BmUQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-02-12T08:00:00+00:00",
-      "generated_at": "2026-09-21T05:50:15.556049+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:50:15 +0000"
-    },
-    {
-      "id": "fenland-news-1a7f284bcb9c6fed1ba6febe",
-      "headline": "News update: QEH rebuild delay, Swaffham car park transfer and local business news",
-      "brief": "The Queen Elizabeth Hospital in King’s Lynn faces a further delay to its rebuild project, with the completion date now pushed back to 2033. Hospital leadership has confirmed that while 24-hour emergency care will continue, the potential closure of the current A&E department has not been ruled out.\n\nIn other local news, Swaffham Town Council has taken ownership of the Theatre Street and Lynn Street car parks from Breckland Council. Meanwhile, in Middleton, the former Middletons Steak House has reopened as The Middleton Crown following a major refurbishment. Finally, a new mobile mechanics service has been launched to support residents across West Norfolk, including those in the Downham, Swaffham, and Wisbech areas.",
-      "original_url": "https://www.lynnnews.co.uk/news/top-headlines-son-attacks-elderly-mother-pub-to-reopen-an-9483522/",
-      "source": "Lynn News",
-      "published": "2026-09-21T05:00:00+00:00",
-      "generated_at": "2026-09-21T05:50:12.881089+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:50:12 +0000"
-    },
-    {
-      "id": "fenland-news-73e37381a842c9deb1324dfc",
-      "headline": "Hundreds of heritage assets identified in East Cambridgeshire",
-      "brief": "A total of 678 local heritage assets have been identified across East Cambridgeshire. The findings were reported by the Ely East Cambridgeshire News. These sites have now been officially recognised as part of the region's heritage.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQalp2a0RQZnJOY05hb09sbm5mZVBWYTdZd0NJU28tVGhtV2FmTXQ3T3BZdVlCTEtqV09MRkVOTmdXajRTV0hnUmlPcGFMTmhTdXpJNm56cGM3bFdxdGFWajJQV1VEUHJ4M1UxQmx1R0xCZ01rdGl4eWtmR1k2TUY0Nms1TFBlcV9yVHFBd29lLWp1cVRTaFhRcg?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-07-10T07:00:00+00:00",
-      "generated_at": "2026-09-21T05:50:06.686401+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:50:06 +0000"
-    },
-    {
-      "id": "fenland-news-234fbb525911a528d4a5252c",
-      "headline": "Police praise victim after predator conviction",
-      "brief": "Lincolnshire Police have commended the bravery of a victim who was targeted by an offender starting from the age of eleven. Officers described the perpetrator as an abhorrent predator following the conclusion of the case. The force highlighted the courage shown by the individual in coming forward to report the abuse.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUzR2Y2NEeTBpZDlMMFVlTXlsU01YRDg4M0twMmFjTWQ5M1RicldlblFfODQwSTc5djE3Yl9MeDdNN0pVMVVtMTM3dVhIMW1hQlY0cDJlU21ZdHBiZDRpTGo4VGJfMmVveXJsYzZlb0FBdlljdk5DY0FubkFoemhoMF8xbGlDODZScHFMVmJXXzFXZEw1a1FZSFFad1M2NlRGLURCeFBBZS1YOGd1UHBOMFN3?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2025-07-04T07:00:00+00:00",
-      "generated_at": "2026-09-21T05:50:04.129060+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:50:04 +0000"
-    },
-    {
-      "id": "fenland-news-bd9aca7be86d0137164da320",
-      "headline": "Council rejects new crossing for March school",
-      "brief": "Parents in March have expressed frustration after the local council turned down a request for a new pedestrian crossing near a school. The decision has sparked anger among families who were calling for improved safety measures in the area. The March Chatteris Whittlesey News reports that the proposal was formally rejected by the council. No further details regarding the specific location or the council's reasoning for the refusal have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CeUs1OG5yZkQ1N0djTVVxQWpxVVNEUDRQenhPTWRKLUxyTEIzYzJRTS12SHVzUjVoZUkzU0Z5Z1pmNnBNM29XSlJsUDJ6Mmk5ZkkwemN6bXZwdw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-03-04T08:00:00+00:00",
-      "generated_at": "2026-09-21T05:50:01.590985+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:50:01 +0000"
     }
   ]
 }
