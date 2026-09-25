@@ -195,77 +195,71 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 }
 .nav-dropdown{
   position:relative;
-  display:inline-flex;
-  align-items:center;
-}
-
-.nav-dropbtn{
-  background:none;
-  border:0;
-  color:inherit;
-  font:inherit;
-  font-weight:800;
-  text-transform:uppercase;
-  cursor:pointer;
-  padding:10px 0;
-}
-
-.nav-dropbtn span{
-  font-size:14px;
-  margin-left:4px;
-}
-
-.nav-dropdown{
-  position:relative;
   display:flex;
   align-items:center;
 }
 
 .nav-dropbtn{
-  background:transparent;
-  border:0;
-  color:#fff;
-  font:inherit;
+  appearance:none;
+  -webkit-appearance:none;
+  background:none;
+  border:none;
+  padding:0;
+  margin:0;
+  color:#ffffff;
+  font-family:inherit;
+  font-size:inherit;
   font-weight:800;
+  line-height:1;
   text-transform:uppercase;
   cursor:pointer;
-  padding:12px 0;
-  line-height:1;
-}
-
-.nav-dropbtn:hover{
-  color:#ffc52e;
 }
 
 .nav-dropbtn span{
-  margin-left:4px;
-  font-size:12px;
+  display:inline-block;
+  margin-left:5px;
+  font-size:11px;
+  transform:translateY(-1px);
 }
 
 .nav-dropdown-menu{
   position:absolute;
-  top:calc(100% + 10px);
+  top:100%;
+  left:-18px;
+  width:245px;
+  padding-top:14px;
+
+  display:none;
+  z-index:9999;
+}
+
+.nav-dropdown-menu::before{
+  content:"";
+  position:absolute;
+  top:14px;
   left:0;
-  min-width:240px;
-  display:none !important;
-  flex-direction:column;
+  right:0;
+  bottom:0;
   background:#0b0d11;
   border:1px solid #353942;
   border-radius:10px;
   box-shadow:0 16px 35px rgba(0,0,0,.55);
-  overflow:hidden;
-  z-index:9999;
+  z-index:-1;
 }
 
 .nav-dropdown-menu a{
   display:block;
-  width:100%;
-  box-sizing:border-box;
   padding:14px 18px;
-  color:#fff;
+  color:#ffffff;
   text-decoration:none;
   white-space:nowrap;
   font-size:14px;
+  font-weight:700;
+  text-transform:none;
+}
+
+.nav-dropdown-menu a:first-child{
+  margin-top:14px;
 }
 
 .nav-dropdown-menu a:hover{
@@ -275,5 +269,5 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 
 .nav-dropdown:hover .nav-dropdown-menu,
 .nav-dropdown:focus-within .nav-dropdown-menu{
-  display:flex !important;
+  display:block;
 }
