@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Fenland Angels Radio programme schedule.">
+<title>Schedule | Fenland Angels Radio</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.schedule-hero{padding:70px 3.5vw 38px;background:radial-gradient(circle at 15% 20%,rgba(215,25,32,.18),transparent 30%),radial-gradient(circle at 85% 10%,rgba(212,170,71,.12),transparent 26%)}
+.schedule-hero h1{font-size:clamp(46px,6vw,76px);line-height:.95;margin:10px 0 18px;letter-spacing:-2px}.schedule-hero h1 span{color:var(--red2)}
+.schedule-tabs{display:flex;flex-wrap:wrap;gap:10px;padding:0 3.5vw 28px}.schedule-tab{border:1px solid #4b3c20;background:#0c0e12;color:#fff;padding:12px 18px;border-radius:999px;font-weight:900;text-transform:uppercase;cursor:pointer}.schedule-tab.active{background:linear-gradient(180deg,#ef2027,#b90f15);border-color:#d71920}
+.schedule-wrap{padding:0 3.5vw 70px}.schedule-panel{display:none}.schedule-panel.active{display:block}.day-heading h2{font-size:clamp(34px,4vw,52px);margin:6px 0 8px}.day-heading p{color:var(--muted);font-size:17px;max-width:780px;line-height:1.6}
+.slot{display:grid;grid-template-columns:180px 1fr 260px;gap:26px;align-items:center;padding:24px;margin-bottom:18px;border:1px solid #2d3037;border-radius:18px;background:linear-gradient(145deg,#11141a,#090b0e);box-shadow:0 18px 42px rgba(0,0,0,.18)}.slot.featured{border-color:#7f621f}
+.slot-time{font-size:30px;font-weight:950;color:#ffc52e;line-height:1.1}.slot-time span{display:block;margin-top:8px;font-size:12px;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase}
+.slot-copy h3{margin:0 0 8px;font-size:30px}.slot-copy strong{display:block;color:#fff;font-size:16px;margin-bottom:10px}.slot-copy p{color:#d2d6df;line-height:1.6;margin:0}
+.presenter-photo{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px;border:1px solid #4c4232;background:#0a0a0a}.music-placeholder{min-height:180px;display:flex;align-items:center;justify-content:center;border-radius:14px;border:1px dashed #494d55;color:#b8bcc5;font-weight:800;background:#0a0c0f;text-align:center;padding:20px}
+.schedule-note{margin-top:30px;padding:24px 26px;border:1px solid #3a3328;border-radius:16px;background:#0d0f13;color:#d1d4dc;line-height:1.65}
+@media(max-width:760px){.schedule-hero{padding:45px 18px 28px}.schedule-tabs{padding:0 18px 24px}.schedule-wrap{padding:0 18px 50px}.slot{grid-template-columns:1fr}.presenter-photo{max-width:420px}}
+</style>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio logo"><div><div class="brand-name"><span>FENLAND</span><strong>ANGELS</strong><em>RADIO</em></div><div class="tagline">INDEPENDENT MUSIC RADIO COMMUNITY</div></div></a>
+<nav class="nav"><a href="index.html">Home</a><a href="schedule.html" aria-current="page">Schedule</a><a href="news.html">News</a><a href="weather.html">Weather</a><a href="advertising.html">Advertise</a><a href="vouchers.html">Vouchers</a><a href="index.html#contact">Contact</a></nav>
+<button class="btn primary player-button" type="button" data-action="play">🎧 Listen Live</button>
+</header>
+
+<main>
+<section class="schedule-hero"><p class="eyebrow">FENLAND ANGELS RADIO</p><h1>Programme <span>Schedule</span></h1><p class="lead">Live shows, specialist programming and non-stop music across the week on Fenland Angels Radio — The Sound of the Fens.</p></section>
+
+<div class="schedule-tabs">
+<button class="schedule-tab active" data-target="weekdays">Weekdays</button>
+<button class="schedule-tab" data-target="friday">Friday</button>
+<button class="schedule-tab" data-target="saturday">Saturday</button>
+<button class="schedule-tab" data-target="sunday">Sunday</button>
+</div>
+
+<div class="schedule-wrap">
+<section id="weekdays" class="schedule-panel active">
+<div class="day-heading"><p class="eyebrow">MONDAY–THURSDAY</p><h2>Weekday Schedule</h2><p>Breakfast and Drive Time anchor the weekday schedule, with FAR music and station programming around the live shows.</p></div>
+<article class="slot featured"><div class="slot-time">07:00–10:00<span>Breakfast</span></div><div class="slot-copy"><h3>Breakfast with Private Major</h3><strong>Presented by Private Major</strong><p>Music, local stories, features, community updates, news and more from across The Fens.</p></div><img class="presenter-photo" src="private-major.jpg" alt="Private Major"></article>
+<article class="slot"><div class="slot-time">10:00–16:00<span>Daytime</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music & station programming</strong><p>Independent music, station features and continuous FAR programming through the daytime.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Daytime</div></article>
+<article class="slot featured"><div class="slot-time">16:00–19:00<span>Drive Time</span></div><div class="slot-copy"><h3>Drive Time with Nick</h3><strong>Presented by Nick Sheehan</strong><p>Great music, local updates and company through the afternoon drive.</p></div><img class="presenter-photo" src="nick-sheehan.png" alt="Nick Sheehan"></article>
+<article class="slot"><div class="slot-time">19:00–07:00<span>Evening & Overnight</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music</strong><p>Continuous station music and programming through the evening and overnight.</p></div><div class="music-placeholder">Fenland Angels Radio<br>24/7</div></article>
+</section>
+
+<section id="friday" class="schedule-panel">
+<div class="day-heading"><p class="eyebrow">FRIDAY</p><h2>Friday Schedule</h2><p>Friday follows the weekday core schedule, leading into the weekend.</p></div>
+<article class="slot featured"><div class="slot-time">07:00–10:00<span>Breakfast</span></div><div class="slot-copy"><h3>Breakfast with Private Major</h3><strong>Presented by Private Major</strong><p>Friday morning on FAR with music, local stories, features and the build-up to the weekend.</p></div><img class="presenter-photo" src="private-major.jpg" alt="Private Major"></article>
+<article class="slot"><div class="slot-time">10:00–16:00<span>Daytime</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music & station programming</strong><p>Independent music and station programming through the day.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Friday Daytime</div></article>
+<article class="slot featured"><div class="slot-time">16:00–19:00<span>Drive Time</span></div><div class="slot-copy"><h3>Drive Time with Nick</h3><strong>Presented by Nick Sheehan</strong><p>Nick takes FAR into Friday evening with great music and local updates.</p></div><img class="presenter-photo" src="nick-sheehan.png" alt="Nick Sheehan"></article>
+<article class="slot"><div class="slot-time">19:00–00:00<span>Friday Night</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music</strong><p>Friday night music continues on FAR into the weekend.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Friday Night</div></article>
+</section>
+
+<section id="saturday" class="schedule-panel">
+<div class="day-heading"><p class="eyebrow">SATURDAY</p><h2>Saturday Schedule</h2><p>Music through the day, leading into the Fenland Angels Radio Soundsystem Party with DJ InfinitI.</p></div>
+<article class="slot"><div class="slot-time">00:00–18:00<span>Saturday</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music & station programming</strong><p>Independent music and FAR programming through Saturday daytime.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Saturday Daytime</div></article>
+<article class="slot featured"><div class="slot-time">18:00–20:00<span>Saturday Night</span></div><div class="slot-copy"><h3>Fenland Angels Radio Soundsystem Party</h3><strong>Presented by DJ InfinitI</strong><p>Two hours of high-energy dance music, requests, party anthems and specialist electronic sounds.</p></div><img class="presenter-photo" src="dj-infiniti.png" alt="DJ InfinitI"></article>
+<article class="slot"><div class="slot-time">20:00–00:00<span>Saturday Night</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music</strong><p>Music continues after the Soundsystem Party through Saturday night.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Saturday Night</div></article>
+</section>
+
+<section id="sunday" class="schedule-panel">
+<div class="day-heading"><p class="eyebrow">SUNDAY</p><h2>Sunday Schedule</h2><p>A full day of Fenland Angels Radio music and station programming.</p></div>
+<article class="slot"><div class="slot-time">00:00–24:00<span>Sunday</span></div><div class="slot-copy"><h3>Fenland Angels Radio</h3><strong>Non-stop music & station programming</strong><p>Independent music and continuous FAR programming throughout Sunday.</p></div><div class="music-placeholder">Fenland Angels Radio<br>Sunday</div></article>
+</section>
+
+<div class="schedule-note"><strong>Schedule note:</strong> Programme times may occasionally change for special broadcasts, live events or station updates.</div>
+</div>
+</main>
+
+<footer><div><strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong><span>Independent Music Radio Community</span></div><div class="footer-live"><span>🎧 LISTEN LIVE 24/7</span><button class="footer-play" type="button" data-action="play">Play Fenland Angels Radio</button></div><div><a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a><a href="tel:+447401152538">07401 152538</a></div></footer>
+
+<audio id="radioStream" preload="none"><source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg"></audio>
+<script src="app.js"></script>
+<script>
+document.querySelectorAll('.schedule-tab').forEach(tab=>tab.addEventListener('click',()=>{document.querySelectorAll('.schedule-tab').forEach(t=>t.classList.remove('active'));document.querySelectorAll('.schedule-panel').forEach(p=>p.classList.remove('active'));tab.classList.add('active');document.getElementById(tab.dataset.target).classList.add('active')}))
+</script>
+</body></html>
