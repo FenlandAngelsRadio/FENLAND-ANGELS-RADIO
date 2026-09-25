@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Listen Live | Fenland Angels Radio</title>
+<style>
+:root{--red:#d71920;--red2:#ff3138;--gold:#d4aa47;--muted:#b8bcc5}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;padding:28px;
+  display:flex;align-items:center;justify-content:center;
+  background:radial-gradient(circle at 20% 10%,#1a100d,#08090c 40%,#050608 80%);
+  color:#fff;font-family:Arial,Helvetica,sans-serif
+}
+.player{
+  width:100%;max-width:370px;padding:28px;text-align:center;
+  border:1px solid #5b4520;border-radius:22px;
+  background:linear-gradient(145deg,#0a0b0e,#101217);
+  box-shadow:0 22px 70px rgba(0,0,0,.55)
+}
+.logo{width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid var(--gold)}
+.live{display:inline-block;margin-top:20px;padding:7px 11px;border-radius:7px;background:var(--red);font-weight:900}
+h1{font-size:30px;margin:16px 0 6px}
+p{color:var(--muted);line-height:1.5}
+.play{
+  width:76px;height:76px;border:0;border-radius:50%;
+  background:linear-gradient(180deg,#ef2027,#b90f15);
+  color:#fff;font-size:30px;cursor:pointer;margin:18px 0
+}
+.status{font-weight:800;margin-bottom:18px}
+input{width:100%;accent-color:var(--red2)}
+.small{font-size:12px;color:var(--muted);margin-top:16px}
+</style>
+</head>
+<body>
+<div class="player">
+  <img class="logo" src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio">
+  <div class="live">ON AIR</div>
+  <h1>Fenland Angels Radio</h1>
+  <p>The Sound of the Fens</p>
+  <button id="play" class="play" type="button" aria-label="Play live radio">▶</button>
+  <div id="status" class="status">Tap play to listen live</div>
+  <input id="volume" type="range" min="0" max="1" step="0.01" value="0.85" aria-label="Volume">
+  <div class="small">Live stream · MP3 320 kbps</div>
+  <audio id="radio" preload="none">
+    <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg">
+  </audio>
+</div>
+<script>
+const audio=document.getElementById('radio');
+const play=document.getElementById('play');
+const status=document.getElementById('status');
+const volume=document.getElementById('volume');
+volume.addEventListener('input',()=>audio.volume=Number(volume.value));
+audio.volume=Number(volume.value);
+play.addEventListener('click',async()=>{
+  if(audio.paused){
+    try{
+      await audio.play();
+      play.textContent='❚❚';
+      status.textContent='Playing live';
+    }catch(e){
+      status.textContent='Unable to start stream — tap again';
+    }
+  }else{
+    audio.pause();
+    play.textContent='▶';
+    status.textContent='Paused';
+  }
+});
+audio.addEventListener('error',()=>status.textContent='Stream temporarily unavailable');
+</script>
+</body>
+</html>
