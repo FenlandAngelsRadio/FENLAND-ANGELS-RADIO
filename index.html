@@ -1,503 +1,1215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Fenland Angels Radio — Independent Music Radio Community. Live shows, independent music, hourly news and weather from The Fens.">
-  <title>Fenland Angels Radio</title>
-  <link rel="stylesheet" href="style.css">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Fenland Angels Radio — Independent Music Radio Community. Live shows, independent music, hourly news and weather from The Fens."
+  >
+
+  <title>
+    Fenland Angels Radio
+  </title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="site-nav.css?v=1"
+  >
+
+  <script
+    src="site-nav.js?v=1"
+    defer
+  ></script>
+
 
   <style>
-    .home-quick-links{
-      padding:0 3.5vw 55px;
+
+    /* =========================================
+       HOMEPAGE COMMERCIAL AREA
+       ========================================= */
+
+    .home-commercial{
+      padding:50px 3.5vw 95px;
     }
 
-    .home-quick-links-inner{
-      display:flex;
-      flex-wrap:wrap;
-      gap:14px;
+
+    /* =========================================
+       PREMIUM HOMEPAGE ADVERT
+       ========================================= */
+
+    .premium-ad-slot{
+      display:grid;
+
+      grid-template-columns:
+        auto
+        1fr
+        auto;
+
       align-items:center;
-      padding:16px 18px;
-      border:1px solid #2d3037;
-      border-radius:14px;
-      background:linear-gradient(145deg,#0d0f13,#090b0e);
+
+      gap:30px;
+
+      width:100%;
+
+      min-height:130px;
+
+      padding:35px 42px;
+
+      margin-bottom:40px;
+
+      border:
+        1px
+        dashed
+        #6a5427;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          145deg,
+          #0d0f13,
+          #08090c
+        );
     }
 
-    .quick-link{
-      display:inline-flex;
-      align-items:center;
-      gap:10px;
-      padding:12px 16px;
-      border-radius:9px;
-      text-decoration:none;
-      font-weight:900;
-      text-transform:uppercase;
-      letter-spacing:.3px;
-      border:1px solid #4b3c20;
-      background:#0a0b0e;
-    }
 
-    .quick-link:hover{
-      border-color:var(--gold);
-    }
+    .premium-ad-slot span{
+      color:#d4aa47;
 
-    .quick-link.primary-link{
-      background:linear-gradient(180deg,#ef2027,#b90f15);
-      border-color:#d71920;
-    }
-
-    .quick-link span{
-      font-size:18px;
-    }
-
-    .quick-note{
-      margin-left:auto;
-      color:var(--muted);
       font-size:14px;
+
+      font-weight:900;
+
+      letter-spacing:1.6px;
+
+      text-transform:uppercase;
     }
 
-    @media(max-width:760px){
-      .home-quick-links{
-        padding:0 18px 45px;
-      }
 
-      .home-quick-links-inner{
-        align-items:stretch;
-      }
+    .premium-ad-slot strong{
+      color:#ffffff;
 
-      .quick-link{
-        width:100%;
-        justify-content:center;
-      }
+      font-size:30px;
 
-      .quick-note{
-        width:100%;
-        margin-left:0;
-        text-align:center;
-      }
+      line-height:1.2;
     }
+
+
+    .premium-ad-slot a{
+      color:#ff4b50;
+
+      text-decoration:none;
+
+      font-size:19px;
+
+      font-weight:900;
+
+      white-space:nowrap;
+    }
+
+
+    .premium-ad-slot a:hover{
+      color:#ffffff;
+    }
+
+
+
+    /* =========================================
+       EVENTS / VOUCHERS / NEWS
+       STACKED FULL-WIDTH CARDS
+       ========================================= */
+
+    .home-preview-grid{
+      display:flex;
+
+      flex-direction:column;
+
+      gap:30px;
+    }
+
+
+    .home-preview-card{
+      display:grid;
+
+      grid-template-columns:
+        120px
+        1fr
+        auto;
+
+      grid-template-rows:
+        auto
+        auto
+        auto;
+
+      column-gap:38px;
+
+      align-items:center;
+
+      width:100%;
+
+      min-height:280px;
+
+      padding:42px 48px;
+
+      border:
+        1px
+        solid
+        #2d3037;
+
+      border-radius:20px;
+
+      background:
+        linear-gradient(
+          145deg,
+          #11141a,
+          #090b0e
+        );
+
+      text-decoration:none;
+
+      color:#ffffff;
+
+      box-shadow:
+        0
+        18px
+        42px
+        rgba(0,0,0,.18);
+
+      transition:
+        transform .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease;
+    }
+
+
+    .home-preview-card:hover{
+      border-color:#d4aa47;
+
+      transform:
+        translateY(-3px);
+
+      box-shadow:
+        0
+        22px
+        55px
+        rgba(0,0,0,.28);
+    }
+
+
+
+    /* ICON */
+
+    .preview-icon{
+      grid-column:1;
+
+      grid-row:
+        1 / 4;
+
+      display:flex;
+
+      align-items:center;
+
+      justify-content:center;
+
+      font-size:66px;
+
+      min-height:100px;
+    }
+
+
+
+    /* CATEGORY */
+
+    .home-preview-card small{
+      grid-column:2;
+
+      grid-row:1;
+
+      display:block;
+
+      color:#d4aa47;
+
+      font-size:15px;
+
+      font-weight:900;
+
+      letter-spacing:1.6px;
+
+      margin-bottom:10px;
+    }
+
+
+
+    /* TITLE */
+
+    .home-preview-card strong{
+      grid-column:2;
+
+      grid-row:2;
+
+      display:block;
+
+      color:#ffffff;
+
+      font-size:44px;
+
+      line-height:1.05;
+
+      margin-bottom:15px;
+    }
+
+
+
+    /* DESCRIPTION */
+
+    .home-preview-card p{
+      grid-column:2;
+
+      grid-row:3;
+
+      color:#b8bcc5;
+
+      font-size:21px;
+
+      line-height:1.6;
+
+      margin:0;
+    }
+
+
+
+    /* ACTION */
+
+    .home-preview-card em{
+      grid-column:3;
+
+      grid-row:
+        1 / 4;
+
+      align-self:center;
+
+      color:#ff4b50;
+
+      font-size:20px;
+
+      font-style:normal;
+
+      font-weight:900;
+
+      white-space:nowrap;
+    }
+
+
+
+    /* =========================================
+       TABLET
+       ========================================= */
+
+    @media(max-width:1000px){
+
+      .premium-ad-slot{
+        grid-template-columns:1fr;
+
+        gap:12px;
+      }
+
+
+      .premium-ad-slot a{
+        justify-self:start;
+      }
+
+
+      .home-preview-card{
+        grid-template-columns:
+          90px
+          1fr;
+
+        padding:36px 32px;
+
+        min-height:250px;
+      }
+
+
+      .preview-icon{
+        grid-column:1;
+
+        grid-row:
+          1 / 5;
+
+        font-size:50px;
+      }
+
+
+      .home-preview-card small{
+        grid-column:2;
+      }
+
+
+      .home-preview-card strong{
+        grid-column:2;
+
+        font-size:36px;
+      }
+
+
+      .home-preview-card p{
+        grid-column:2;
+
+        font-size:19px;
+      }
+
+
+      .home-preview-card em{
+        grid-column:2;
+
+        grid-row:4;
+
+        margin-top:20px;
+
+        justify-self:start;
+      }
+
+    }
+
+
+
+    /* =========================================
+       MOBILE
+       ========================================= */
+
+    @media(max-width:650px){
+
+      .home-commercial{
+        padding:
+          30px
+          18px
+          60px;
+      }
+
+
+      .premium-ad-slot{
+        padding:
+          28px
+          24px;
+
+        min-height:0;
+      }
+
+
+      .premium-ad-slot strong{
+        font-size:25px;
+      }
+
+
+      .home-preview-card{
+        display:block;
+
+        min-height:0;
+
+        padding:
+          32px
+          26px;
+      }
+
+
+      .preview-icon{
+        display:block;
+
+        min-height:0;
+
+        margin-bottom:22px;
+
+        font-size:48px;
+      }
+
+
+      .home-preview-card small{
+        margin-bottom:10px;
+      }
+
+
+      .home-preview-card strong{
+        font-size:34px;
+
+        margin-bottom:15px;
+      }
+
+
+      .home-preview-card p{
+        font-size:18px;
+      }
+
+
+      .home-preview-card em{
+        display:block;
+
+        margin-top:26px;
+
+        white-space:normal;
+      }
+
+    }
+
   </style>
-<link rel="stylesheet" href="site-nav.css?v=1">
-<script src="site-nav.js?v=1" defer></script>
-
-<style>
-.home-commercial{
-  padding:40px 3.5vw 95px;
-}
-
-.premium-ad-slot{
-  display:flex;
-  align-items:center;
-  gap:28px;
-  flex-wrap:wrap;
-  padding:34px 38px;
-  margin-bottom:34px;
-  min-height:120px;
-  border:1px dashed #6a5427;
-  border-radius:18px;
-  background:#0b0d11;
-}
-
-.premium-ad-slot span{
-  color:#d4aa47;
-  font-size:14px;
-  font-weight:900;
-  letter-spacing:1.6px;
-}
-
-.premium-ad-slot strong{
-  font-size:28px;
-}
-
-.premium-ad-slot a{
-  margin-left:auto;
-  color:#ff4b50;
-  text-decoration:none;
-  font-size:19px;
-  font-weight:900;
-}
-
-.home-preview-grid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:28px;
-}
-
-.home-preview-card{
-  display:flex;
-  flex-direction:column;
-  min-height:430px;
-  padding:48px 40px;
-  border:1px solid #2d3037;
-  border-radius:20px;
-  background:linear-gradient(145deg,#101318,#0b0d11);
-  text-decoration:none;
-  color:#fff;
-  box-shadow:0 18px 42px rgba(0,0,0,.18);
-  transition:transform .2s ease,border-color .2s ease;
-}
-
-.home-preview-card:hover{
-  border-color:#d4aa47;
-  transform:translateY(-2px);
-}
-
-.preview-icon{
-  font-size:52px;
-  display:block;
-  margin-bottom:30px;
-}
-
-.home-preview-card small{
-  display:block;
-  color:#d4aa47;
-  font-size:16px;
-  font-weight:900;
-  letter-spacing:1.5px;
-  margin-bottom:14px;
-}
-
-.home-preview-card strong{
-  display:block;
-  font-size:40px;
-  line-height:1.05;
-  margin-bottom:20px;
-}
-
-.home-preview-card p{
-  color:#b8bcc5;
-  font-size:22px;
-  line-height:1.6;
-  margin:0 0 28px;
-}
-
-.home-preview-card em{
-  margin-top:auto;
-  color:#ff4b50;
-  font-size:20px;
-  font-style:normal;
-  font-weight:900;
-}
-
-@media(max-width:1000px){
-  .home-preview-card{
-    min-height:360px;
-    padding:38px 30px;
-  }
-
-  .home-preview-card strong{
-    font-size:34px;
-  }
-
-  .home-preview-card p{
-    font-size:19px;
-  }
-}
-
-@media(max-width:800px){
-  .home-preview-grid{
-    grid-template-columns:1fr;
-  }
-
-  .home-preview-card{
-    min-height:300px;
-  }
-
-  .premium-ad-slot a{
-    margin-left:0;
-  }
-
-  .home-commercial{
-    padding:20px 18px 50px;
-  }
-}
-</style>
-</style>
 
 </head>
 
+
 <body>
+
+
+  <!-- Existing header is replaced by site-nav.js -->
 
   <header class="site-header">
 
-    <a class="brand" href="#home" aria-label="Fenland Angels Radio home">
-      <img src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio logo">
+    <a
+      class="brand"
+      href="#home"
+      aria-label="Fenland Angels Radio home"
+    >
+
+      <img
+        src="fenland-angels-radio-logo.jpg"
+        alt="Fenland Angels Radio logo"
+      >
 
       <div>
+
         <div class="brand-name">
-          <span>FENLAND</span>
-          <strong>ANGELS</strong>
-          <em>RADIO</em>
+
+          <span>
+            FENLAND
+          </span>
+
+          <strong>
+            ANGELS
+          </strong>
+
+          <em>
+            RADIO
+          </em>
+
         </div>
+
 
         <div class="tagline">
+
           INDEPENDENT MUSIC RADIO COMMUNITY
+
         </div>
+
       </div>
+
     </a>
 
+
     <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="#news">News & Weather</a>
-      <a href="advertising.html">Advertise</a>
-      <a href="vouchers.html">Vouchers</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+
+      <a href="#home">
+        Home
+      </a>
+
+      <a href="schedule.html">
+        Schedule
+      </a>
+
+      <a href="news.html">
+        News & Weather
+      </a>
+
+      <a href="advertising.html">
+        Advertise
+      </a>
+
+      <a href="vouchers.html">
+        Vouchers
+      </a>
+
+      <a href="#about">
+        About
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
     </nav>
 
-    <button class="btn primary player-button" type="button" data-action="play">
+
+    <button
+      class="btn primary player-button"
+      type="button"
+      data-action="play"
+    >
+
       🎧 Listen Live
+
     </button>
 
   </header>
 
 
+
   <main>
 
-    <section class="hero" id="home">
+
+    <!-- ======================================
+         HERO
+         ====================================== -->
+
+    <section
+      class="hero"
+      id="home"
+    >
+
 
       <div class="hero-copy">
 
         <p class="eyebrow">
+
           THE SOUND OF THE FENS
+
         </p>
+
 
         <h1>
-          INDEPENDENT MUSIC<br>
-          <span>RADIO COMMUNITY</span>
+
+          INDEPENDENT MUSIC
+
+          <br>
+
+          <span>
+            RADIO COMMUNITY
+          </span>
+
         </h1>
 
+
         <p class="lead">
-          Independent music, live radio, local voices, community stories, hourly news and weather — broadcasting 24/7.
+
+          Independent music, live radio,
+          local voices, community stories,
+          hourly news and weather —
+          broadcasting 24/7.
+
         </p>
+
 
         <div class="hero-actions">
 
-          <button class="btn primary player-button"
-                  type="button"
-                  data-action="play">
+
+          <button
+            class="btn primary player-button"
+            type="button"
+            data-action="play"
+          >
+
             ▶ Listen Live
+
           </button>
 
-          <a class="btn outline"
-             href="schedule.html">
+
+          <a
+            class="btn outline"
+            href="schedule.html"
+          >
+
             ▣ Show Schedule
+
           </a>
+
 
         </div>
 
       </div>
 
+
+
+      <!-- ====================================
+           LIVE PLAYER
+           ==================================== -->
 
       <div class="live-card">
 
+
         <div class="live-header">
-          <span class="live-pill">ON AIR</span>
-          <span class="small">FENLAND ANGELS RADIO</span>
+
+          <span class="live-pill">
+
+            ON AIR
+
+          </span>
+
+
+          <span class="small">
+
+            FENLAND ANGELS RADIO
+
+          </span>
+
         </div>
+
+
 
         <div class="live-main">
 
+
           <div>
 
-            <h2>Live 24/7</h2>
+
+            <h2>
+
+              Live 24/7
+
+            </h2>
+
 
             <p>
-              Independent music, station shows, hourly news and weather.
+
+              Independent music,
+              station shows,
+              hourly news and weather.
+
             </p>
 
-            <div class="wave" aria-hidden="true">
-              <i></i><i></i><i></i><i></i><i></i><i></i>
-              <i></i><i></i><i></i><i></i><i></i><i></i>
+
+
+            <div
+              class="wave"
+              aria-hidden="true"
+            >
+
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+
             </div>
+
+
 
             <div class="inline-player">
 
-              <button class="round-play"
-                      id="mainPlay"
-                      type="button"
-                      aria-label="Play Fenland Angels Radio">
+
+              <button
+                class="round-play"
+                id="mainPlay"
+                type="button"
+                aria-label="Play Fenland Angels Radio"
+              >
+
                 ▶
+
               </button>
 
+
+
               <div class="player-copy">
+
                 <strong id="playerStatus">
+
                   Tap play to listen live
+
                 </strong>
 
+
                 <span>
+
                   Fenland Angels Radio · 320 kbps
+
                 </span>
+
               </div>
 
-              <input id="volume"
-                     class="volume"
-                     type="range"
-                     min="0"
-                     max="1"
-                     step="0.01"
-                     value="0.9"
-                     aria-label="Volume">
+
+
+              <input
+                id="volume"
+                class="volume"
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.9"
+                aria-label="Volume"
+              >
+
 
             </div>
 
-            <audio id="radioStream" preload="none">
-              <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
-                      type="audio/mpeg">
+
+
+            <audio
+              id="radioStream"
+              preload="none"
+            >
+
+              <source
+                src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
+                type="audio/mpeg"
+              >
+
             </audio>
+
 
           </div>
 
-          <img src="fenland-angels-radio-logo.jpg"
-               alt="Fenland Angels Radio">
+
+
+          <img
+            src="fenland-angels-radio-logo.jpg"
+            alt="Fenland Angels Radio"
+          >
+
 
         </div>
 
       </div>
 
+
     </section>
 
 
-    
+
+    <!-- ======================================
+         PREMIUM ADVERTISEMENT + PREVIEWS
+         ====================================== -->
+
     <section class="home-commercial">
+
+
+      <!-- PREMIUM WEBSITE ADVERTISING -->
+
       <div class="premium-ad-slot">
-        <span>PREMIUM HOMEPAGE ADVERTISING</span>
-        <strong>Your business could be here</strong>
-        <a href="advertising.html">Advertise with FAR →</a>
+
+
+        <span>
+
+          PREMIUM HOMEPAGE ADVERTISING
+
+        </span>
+
+
+        <strong>
+
+          Your business could be here
+
+        </strong>
+
+
+        <a href="advertising.html">
+
+          Advertise with FAR →
+
+        </a>
+
+
       </div>
+
+
+
+      <!-- EVENTS / VOUCHERS / NEWS -->
 
       <div class="home-preview-grid">
-        <a class="home-preview-card" href="events.html">
-          <span class="preview-icon">📅</span>
-          <small>COMMUNITY</small>
-          <strong>Events</strong>
-          <p>What’s happening across the Fens.</p>
-          <em>View events →</em>
+
+
+        <!-- EVENTS -->
+
+        <a
+          class="home-preview-card"
+          href="events.html"
+        >
+
+
+          <span class="preview-icon">
+
+            📅
+
+          </span>
+
+
+          <small>
+
+            COMMUNITY
+
+          </small>
+
+
+          <strong>
+
+            Events
+
+          </strong>
+
+
+          <p>
+
+            What’s happening across the Fens.
+
+          </p>
+
+
+          <em>
+
+            View events →
+
+          </em>
+
+
         </a>
 
-        <a class="home-preview-card" href="vouchers.html">
-          <span class="preview-icon">🎟️</span>
-          <small>LOCAL OFFERS</small>
-          <strong>Vouchers</strong>
-          <p>Local vouchers and offers from FAR.</p>
-          <em>Coming soon →</em>
+
+
+        <!-- VOUCHERS -->
+
+        <a
+          class="home-preview-card"
+          href="vouchers.html"
+        >
+
+
+          <span class="preview-icon">
+
+            🎟️
+
+          </span>
+
+
+          <small>
+
+            LOCAL OFFERS
+
+          </small>
+
+
+          <strong>
+
+            Vouchers
+
+          </strong>
+
+
+          <p>
+
+            Local vouchers and offers from FAR.
+
+          </p>
+
+
+          <em>
+
+            Coming soon →
+
+          </em>
+
+
         </a>
 
-        <a class="home-preview-card" href="news.html">
-          <span class="preview-icon">📰</span>
-          <small>ACROSS THE FENS</small>
-          <strong>Latest News</strong>
-          <p>Read the latest stories from the FAR newsroom.</p>
-          <em>Read news →</em>
+
+
+        <!-- NEWS -->
+
+        <a
+          class="home-preview-card"
+          href="news.html"
+        >
+
+
+          <span class="preview-icon">
+
+            📰
+
+          </span>
+
+
+          <small>
+
+            ACROSS THE FENS
+
+          </small>
+
+
+          <strong>
+
+            Latest News
+
+          </strong>
+
+
+          <p>
+
+            Read the latest stories
+            from the FAR newsroom.
+
+          </p>
+
+
+          <em>
+
+            Read news →
+
+          </em>
+
+
         </a>
+
+
       </div>
+
+
     </section>
 
-    <section class="about-contact" id="about">
+
+
+    <!-- ======================================
+         ABOUT / CONTACT
+         ====================================== -->
+
+    <section
+      class="about-contact"
+      id="about"
+    >
+
+
+      <!-- ABOUT -->
 
       <div class="info-card">
 
+
         <p class="eyebrow">
+
           ABOUT US
+
         </p>
+
 
         <h2>
+
           Independent Music Radio Community
+
         </h2>
 
+
         <p>
-          Fenland Angels Radio is an independent 24/7 internet radio station serving The Fens, giving music, local voices and community stories a place to be heard.
+
+          Fenland Angels Radio is an independent
+          24/7 internet radio station serving
+          The Fens, giving music, local voices
+          and community stories a place to be heard.
+
         </p>
+
 
       </div>
 
 
-      <div class="info-card" id="contact">
+
+      <!-- CONTACT -->
+
+      <div
+        class="info-card"
+        id="contact"
+      >
+
 
         <p class="eyebrow">
+
           CONTACT
+
         </p>
+
 
         <h2>
+
           Get in touch
+
         </h2>
 
+
         <p>
-          <strong>Contact:</strong>
+
+          <strong>
+            Contact:
+          </strong>
+
           Private Major of BASTONE MAJOR GROUP LTD
+
         </p>
 
+
         <p>
-          <strong>Email:</strong>
-          <a href="mailto:fenlandangelsradio@gmail.com">
+
+          <strong>
+            Email:
+          </strong>
+
+          <a
+            href="mailto:fenlandangelsradio@gmail.com"
+          >
+
             fenlandangelsradio@gmail.com
+
           </a>
+
         </p>
 
+
         <p>
-          <strong>Phone:</strong>
-          <a href="tel:+447401152538">
+
+          <strong>
+            Phone:
+          </strong>
+
+          <a
+            href="tel:+447401152538"
+          >
+
             07401 152538
+
           </a>
+
         </p>
 
+
         <p>
-          <strong>Location:</strong>
+
+          <strong>
+            Location:
+          </strong>
+
           The Fens
+
         </p>
+
+
+        <p>
+
+          <a
+            class="btn outline compact"
+            href="mailto:fenlandangelsradio@gmail.com?subject=Music%20Submission%20to%20Fenland%20Angels%20Radio"
+          >
+
+            🎵 Submit Your Music
+
+          </a>
+
+        </p>
+
 
       </div>
+
 
     </section>
+
 
   </main>
 
 
+
+  <!-- ========================================
+       FOOTER
+       ======================================== -->
+
   <footer>
 
+
     <div>
+
+
       <strong>
+
         © 2026 BASTONE MAJOR GROUP LTD
+
       </strong>
 
+
       <span>
+
         Independent Music Radio Community
+
       </span>
+
+
     </div>
+
 
 
     <div class="footer-live">
 
+
       <span>
+
         🎧 LISTEN LIVE 24/7
+
       </span>
 
-      <button class="footer-play"
-              type="button"
-              data-action="play">
+
+      <button
+        class="footer-play"
+        type="button"
+        data-action="play"
+      >
+
         Play Fenland Angels Radio
+
       </button>
 
+
     </div>
+
 
 
     <div>
 
-      <a href="mailto:fenlandangelsradio@gmail.com">
+
+      <a
+        href="mailto:fenlandangelsradio@gmail.com"
+      >
+
         fenlandangelsradio@gmail.com
+
       </a>
 
-      <a href="tel:+447401152538">
+
+      <a
+        href="tel:+447401152538"
+      >
+
         07401 152538
+
       </a>
+
 
     </div>
+
 
   </footer>
 
 
+
   <script src="app.js"></script>
 
+
 </body>
+
 </html>
