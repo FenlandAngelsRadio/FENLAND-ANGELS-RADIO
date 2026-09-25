@@ -271,3 +271,15 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 .nav-dropdown:focus-within .nav-dropdown-menu{
   display:block;
 }
+.nav-dropdown{
+  align-self:center;
+}
+
+.nav-dropbtn{
+  display:flex;
+  align-items:center;
+  height:100%;
+  line-height:1;
+  padding:0;
+  margin:0;
+}
