@@ -81,8 +81,9 @@
 <script src="site-nav.js?v=1" defer></script>
 
 <style>
-..home-commercial{
-  padding:20px 3.5vw 80px;
+.home-commercial{
+  padding:40px 3.5vw 95px;
+}
 }
 
 .premium-ad-slot{
@@ -123,24 +124,63 @@
   margin-bottom:20px;
 }
 
+.home-preview-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+.home-preview-card{
+  display:flex;
+  flex-direction:column;
+  min-height:430px;
+  padding:48px 34px;
+  border:1px solid #2d3037;
+  border-radius:18px;
+  background:#0d0f13;
+  text-decoration:none;
+  color:#fff;
+}
+
+.home-preview-card:hover{
+  border-color:#d4aa47;
+}
+
+.preview-icon{
+  font-size:52px;
+  display:block;
+  margin-bottom:30px;
+}
+
+.home-preview-card small{
+  display:block;
+  color:#d4aa47;
+  font-size:16px;
+  font-weight:900;
+  letter-spacing:1.5px;
+  margin-bottom:14px;
+}
+
 .home-preview-card strong{
   display:block;
-  font-size:36px;
-  margin-bottom:14px;
+  font-size:40px;
+  margin-bottom:20px;
 }
 
 .home-preview-card p{
   color:#b8bcc5;
-  font-size:20px;
+  font-size:22px;
   line-height:1.6;
-  margin:0 0 22px;
+  margin:0 0 28px;
 }
 
 .home-preview-card em{
+  margin-top:auto;
   color:#ff4b50;
-  font-size:18px;
+  font-size:20px;
   font-style:normal;
-  font-weight:800;
+  font-weight:900;
+}
 }
 }
 
