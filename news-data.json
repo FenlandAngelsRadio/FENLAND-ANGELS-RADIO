@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-09-25T05:50:22.761305+00:00",
+  "updated_at": "2026-09-25T11:50:59.350197+00:00",
   "stories": [
+    {
+      "id": "fenland-news-f8b4b7117ccad6957e234888",
+      "headline": "Police rescue abandoned dog in Newton-in-the-Isle",
+      "brief": "The Rural Crime Action Team has rescued a large dog found abandoned in a small cage near a road in Newton-in-the-Isle. Officers attended the scene following a report from a member of the public. \n\nA police spokesperson thanked the individual who alerted them to the animal’s condition, allowing officers to remove the dog from the cage and the roadside. An investigation into the incident is currently underway.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/police-rescue-large-dog-abandoned-in-small-cage-9484384/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-25T10:35:30+00:00",
+      "generated_at": "2026-09-25T11:50:59.350061+00:00",
+      "rss_date": "Fri, 25 Sep 2026 11:50:59 +0000"
+    },
+    {
+      "id": "fenland-news-e804abdbcc033fc2a510142c",
+      "headline": "West Norfolk Council advances plans for new £22.9m aquatic centre",
+      "brief": "West Norfolk Council has voted to progress plans for a new £22.9 million aquatic centre at Lynnsport in King’s Lynn. The proposed facility would feature an eight-lane main pool, a learner pool with a moveable floor, and an interactive splash pad. \n\nOfficials say the current St James Swimming Pool has reached the end of its economic life. The council has approved over £845,000 to fund the next two stages of design and technical planning. While this move advances the project, the council noted that this does not commit them to final construction. Officers estimate a planning application could be submitted by March 2027, with the project aiming to improve accessibility for residents across the region.",
+      "original_url": "https://www.lynnnews.co.uk/news/council-moves-forward-with-plans-for-23m-swimming-facilitie-9484387/",
+      "source": "Lynn News",
+      "published": "2026-09-25T10:42:18+00:00",
+      "generated_at": "2026-09-25T11:50:57.099173+00:00",
+      "rss_date": "Fri, 25 Sep 2026 11:50:57 +0000"
+    },
+    {
+      "id": "fenland-news-674509bf8a0f60a04ac1e1ca",
+      "headline": "Pedestrian hospitalised following collision in March",
+      "brief": "A pedestrian has been taken to Peterborough City Hospital following a collision with a car in March this morning. Emergency services were called to Wisbech Road at 8:55 am. \n\nThe pedestrian sustained minor injuries and was taken to the hospital as a precaution. Wisbech Road was temporarily closed while emergency crews attended the scene.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/pedestrian-taken-to-hospital-after-collision-with-car-9484394/",
+      "source": "Fenland Citizen",
+      "published": "2026-09-25T11:22:01+00:00",
+      "generated_at": "2026-09-25T11:50:44.166459+00:00",
+      "rss_date": "Fri, 25 Sep 2026 11:50:44 +0000"
+    },
+    {
+      "id": "fenland-news-8cbc394e61d6460442c92522",
+      "headline": "West Norfolk students explore local manufacturing careers",
+      "brief": "One hundred and fifty students from across West Norfolk have taken part in behind-the-scenes tours of seven major local businesses. The visits, held yesterday to mark National Manufacturing Day, allowed pupils from schools, colleges and the Boost programme to meet industry professionals and learn about diverse career paths.\n\nParticipating firms included Mars, Ravago, and Williams Refrigeration. The event, supported by the borough council, highlighted the importance of the manufacturing sector, which contributes over 500 million pounds to the local economy. Students explored various roles ranging from engineering and logistics to food production, gaining insight into opportunities available through apprenticeships and degree-level study.",
+      "original_url": "https://www.lynnnews.co.uk/news/businesses-open-their-doors-for-an-insight-into-industry-9484390/",
+      "source": "Lynn News",
+      "published": "2026-09-25T11:12:36+00:00",
+      "generated_at": "2026-09-25T11:50:38.854278+00:00",
+      "rss_date": "Fri, 25 Sep 2026 11:50:38 +0000"
+    },
     {
       "id": "fenland-news-66ad42dfdc0dc470e8eabca5",
       "headline": "Cambridgeshire sex offender sentenced for 1990s crimes",
@@ -960,46 +1000,6 @@
       "published": "2026-03-04T08:00:00+00:00",
       "generated_at": "2026-09-21T05:50:01.590985+00:00",
       "rss_date": "Mon, 21 Sep 2026 05:50:01 +0000"
-    },
-    {
-      "id": "fenland-news-3c0113b3b2b1ccd81bf91a86",
-      "headline": "Arrest warrant issued for King’s Lynn woman",
-      "brief": "An arrest warrant has been issued for 39-year-old Vanessa Hunter after she failed to appear at King’s Lynn Magistrates’ Court. Ms Hunter, of Keene Road in Fairstead, was due to enter a plea on Thursday regarding a shoplifting charge. She is accused of stealing make-up valued at £12.99 from the Boots store on the High Street in King’s Lynn. The alleged incident took place on August 1. Following her absence from the hearing, the bench, led by Alan Hayes, authorised the warrant for her arrest.",
-      "original_url": "https://www.lynnnews.co.uk/news/arrest-warrant-issued-for-prolific-shoplifter-who-failed-to-9483415/",
-      "source": "Lynn News",
-      "published": "2026-09-21T05:00:00+00:00",
-      "generated_at": "2026-09-21T05:49:58.968258+00:00",
-      "rss_date": "Mon, 21 Sep 2026 05:49:58 +0000"
-    },
-    {
-      "id": "fenland-news-f65554aadbd716ebb469a3d6",
-      "headline": "Littleport shoplifter issued with Co-op ban",
-      "brief": "A shoplifter from Littleport has been banned from entering Co-op stores. Cambridgeshire Police confirmed the restriction following an investigation into retail theft in the area. The order prevents the individual from visiting any Co-op premises. Local residents are advised that the ban is now in effect as part of ongoing efforts to tackle shoplifting across the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYnVwdzhoaVVvSGFYdWY4QngwYkJUU1JHY25TdGtXY0tWcDZCMGJjaG15ck11SlRILWVYcDc2YnN0OW9yNzI3ek9jdUlFRWg3UGlIeDFHOGhaaVUzYkNBSnpmQmRDbXdxNnZWUkd6aXNLU0dwZ050VVhBdTVvc25sT1Vqbmc5RkYtdkwzNWRESVFKOXZjVFhhM1VSbHBDUGc2Z0M0VGxzNA?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-07-20T07:00:00+00:00",
-      "generated_at": "2026-09-20T23:47:11.881304+00:00",
-      "rss_date": "Sun, 20 Sep 2026 23:47:11 +0000"
-    },
-    {
-      "id": "fenland-news-0b535185a18713ed0b155885",
-      "headline": "Peterborough United Women defeated by Derby County",
-      "brief": "Peterborough United Women suffered a home defeat yesterday, losing three-nil to Derby County Women. The visitors secured the win in the fixture, leaving the Peterborough side without any goals in the match.",
-      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObG03cjg0MFZWa0JoQUE2SWNyai1FODB6SXp5QmVCQS1rUllYczJieHRITlNvTHdkRUZTY3Y5eDN2SWVFTG45UXAtTWxtSFF6VHRyTlNicDFXNDFxZ2lIQnVRcmY1c2Q4WjdoLV9rWl9LSEtRS0FYbzNSYWxhd1ZmQlRSN0M5ZzVKejhIdHo0OUc3ZjYt?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-20T18:41:10+00:00",
-      "generated_at": "2026-09-20T23:47:05.785483+00:00",
-      "rss_date": "Sun, 20 Sep 2026 23:47:05 +0000"
-    },
-    {
-      "id": "fenland-news-f57a809afa71548f36cc562b",
-      "headline": "Changes to waste collection in East Cambridgeshire",
-      "brief": "Residents in East Cambridgeshire are moving to a new system for household waste collection. The local council is replacing the traditional bag-based service with wheelie bins. The change marks a shift in how rubbish is managed across the district. Householders are advised to look out for information regarding the rollout of the new bins and details on when the switch will take place in their specific area.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yV0pRQ3Fhb2ZpYU00XzhwNjh5WUlzZDBQRlNOMnJnbHF6THRJSGE1cjh2NE5wbUxha0xaZ3F2RUxMTGZaUE5qcVVOcm1YUDZ4S3lLQkxtRUlXa3Rh?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-06-01T07:00:00+00:00",
-      "generated_at": "2026-09-20T23:47:03.861512+00:00",
-      "rss_date": "Sun, 20 Sep 2026 23:47:03 +0000"
     }
   ]
 }
