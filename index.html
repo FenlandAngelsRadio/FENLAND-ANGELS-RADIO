@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta
@@ -14,14 +15,18 @@
     content="Fenland Angels Radio — Independent Music Radio Community. Live shows, independent music, hourly news and weather from The Fens."
   >
 
-  <title>
-    Fenland Angels Radio
-  </title>
+  <title>Fenland Angels Radio</title>
+
+
+  <!-- MAIN FAR STYLES -->
 
   <link
     rel="stylesheet"
     href="style.css"
   >
+
+
+  <!-- SHARED FAR NAVIGATION -->
 
   <link
     rel="stylesheet"
@@ -36,20 +41,25 @@
 
   <style>
 
-    /* =========================================
-       HOMEPAGE COMMERCIAL AREA
-       ========================================= */
+    /* =====================================================
+       HOMEPAGE COMMERCIAL / COMMUNITY AREA
+       ===================================================== */
 
     .home-commercial{
-      padding:50px 3.5vw 95px;
+      padding:
+        55px
+        3.5vw
+        100px;
     }
 
 
-    /* =========================================
-       PREMIUM HOMEPAGE ADVERT
-       ========================================= */
+
+    /* =====================================================
+       PREMIUM HOMEPAGE ADVERTISING
+       ===================================================== */
 
     .premium-ad-slot{
+
       display:grid;
 
       grid-template-columns:
@@ -59,22 +69,24 @@
 
       align-items:center;
 
-      gap:30px;
+      gap:32px;
 
       width:100%;
 
-      min-height:130px;
+      min-height:145px;
 
-      padding:35px 42px;
+      padding:
+        38px
+        44px;
 
-      margin-bottom:40px;
+      margin-bottom:42px;
 
       border:
         1px
         dashed
         #6a5427;
 
-      border-radius:18px;
+      border-radius:20px;
 
       background:
         linear-gradient(
@@ -82,69 +94,87 @@
           #0d0f13,
           #08090c
         );
+
+      box-shadow:
+        0
+        18px
+        45px
+        rgba(0,0,0,.18);
+
     }
 
 
     .premium-ad-slot span{
+
       color:#d4aa47;
 
-      font-size:14px;
+      font-size:15px;
 
       font-weight:900;
 
-      letter-spacing:1.6px;
+      letter-spacing:1.7px;
 
       text-transform:uppercase;
+
     }
 
 
     .premium-ad-slot strong{
+
       color:#ffffff;
 
-      font-size:30px;
+      font-size:32px;
 
       line-height:1.2;
+
     }
 
 
     .premium-ad-slot a{
+
       color:#ff4b50;
 
       text-decoration:none;
 
-      font-size:19px;
+      font-size:20px;
 
       font-weight:900;
 
       white-space:nowrap;
+
     }
 
 
     .premium-ad-slot a:hover{
+
       color:#ffffff;
+
     }
 
 
 
-    /* =========================================
+    /* =====================================================
        EVENTS / VOUCHERS / NEWS
-       STACKED FULL-WIDTH CARDS
-       ========================================= */
+       ONE LARGE SECTION UNDER ANOTHER
+       ===================================================== */
 
     .home-preview-grid{
+
       display:flex;
 
       flex-direction:column;
 
-      gap:30px;
+      gap:36px;
+
     }
 
 
     .home-preview-card{
+
       display:grid;
 
       grid-template-columns:
-        120px
+        160px
         1fr
         auto;
 
@@ -153,22 +183,24 @@
         auto
         auto;
 
-      column-gap:38px;
+      column-gap:52px;
 
       align-items:center;
 
       width:100%;
 
-      min-height:280px;
+      min-height:420px;
 
-      padding:42px 48px;
+      padding:
+        68px
+        64px;
 
       border:
         1px
         solid
         #2d3037;
 
-      border-radius:20px;
+      border-radius:24px;
 
       background:
         linear-gradient(
@@ -183,18 +215,20 @@
 
       box-shadow:
         0
-        18px
-        42px
-        rgba(0,0,0,.18);
+        22px
+        54px
+        rgba(0,0,0,.24);
 
       transition:
         transform .2s ease,
         border-color .2s ease,
         box-shadow .2s ease;
+
     }
 
 
     .home-preview-card:hover{
+
       border-color:#d4aa47;
 
       transform:
@@ -202,16 +236,18 @@
 
       box-shadow:
         0
-        22px
-        55px
-        rgba(0,0,0,.28);
+        28px
+        65px
+        rgba(0,0,0,.32);
+
     }
 
 
 
-    /* ICON */
+    /* LARGE ICON */
 
     .preview-icon{
+
       grid-column:1;
 
       grid-row:
@@ -223,9 +259,10 @@
 
       justify-content:center;
 
-      font-size:66px;
+      font-size:82px;
 
-      min-height:100px;
+      min-height:150px;
+
     }
 
 
@@ -233,6 +270,7 @@
     /* CATEGORY */
 
     .home-preview-card small{
+
       grid-column:2;
 
       grid-row:1;
@@ -241,20 +279,22 @@
 
       color:#d4aa47;
 
-      font-size:15px;
+      font-size:18px;
 
       font-weight:900;
 
-      letter-spacing:1.6px;
+      letter-spacing:1.8px;
 
-      margin-bottom:10px;
+      margin-bottom:14px;
+
     }
 
 
 
-    /* TITLE */
+    /* MAIN TITLE */
 
     .home-preview-card strong{
+
       grid-column:2;
 
       grid-row:2;
@@ -263,11 +303,12 @@
 
       color:#ffffff;
 
-      font-size:44px;
+      font-size:52px;
 
       line-height:1.05;
 
-      margin-bottom:15px;
+      margin-bottom:20px;
+
     }
 
 
@@ -275,24 +316,29 @@
     /* DESCRIPTION */
 
     .home-preview-card p{
+
       grid-column:2;
 
       grid-row:3;
 
       color:#b8bcc5;
 
-      font-size:21px;
+      font-size:24px;
 
       line-height:1.6;
 
       margin:0;
+
+      max-width:800px;
+
     }
 
 
 
-    /* ACTION */
+    /* RIGHT HAND LINK */
 
     .home-preview-card em{
+
       grid-column:3;
 
       grid-row:
@@ -302,162 +348,212 @@
 
       color:#ff4b50;
 
-      font-size:20px;
+      font-size:22px;
 
       font-style:normal;
 
       font-weight:900;
 
       white-space:nowrap;
+
     }
 
 
 
-    /* =========================================
+    /* =====================================================
        TABLET
-       ========================================= */
+       ===================================================== */
 
     @media(max-width:1000px){
 
+
       .premium-ad-slot{
+
         grid-template-columns:1fr;
 
-        gap:12px;
+        gap:14px;
+
       }
 
 
       .premium-ad-slot a{
+
         justify-self:start;
+
       }
 
 
       .home-preview-card{
+
         grid-template-columns:
-          90px
+          110px
           1fr;
 
-        padding:36px 32px;
+        min-height:340px;
 
-        min-height:250px;
+        padding:
+          48px
+          40px;
+
       }
 
 
       .preview-icon{
+
         grid-column:1;
 
         grid-row:
           1 / 5;
 
-        font-size:50px;
+        font-size:62px;
+
       }
 
 
       .home-preview-card small{
+
         grid-column:2;
+
       }
 
 
       .home-preview-card strong{
+
         grid-column:2;
 
-        font-size:36px;
+        font-size:42px;
+
       }
 
 
       .home-preview-card p{
+
         grid-column:2;
 
-        font-size:19px;
+        font-size:21px;
+
       }
 
 
       .home-preview-card em{
+
         grid-column:2;
 
         grid-row:4;
 
-        margin-top:20px;
-
         justify-self:start;
+
+        margin-top:24px;
+
       }
 
     }
 
 
 
-    /* =========================================
+    /* =====================================================
        MOBILE
-       ========================================= */
+       ===================================================== */
 
     @media(max-width:650px){
 
+
       .home-commercial{
+
         padding:
           30px
           18px
-          60px;
+          65px;
+
       }
 
 
       .premium-ad-slot{
+
         padding:
           28px
           24px;
 
         min-height:0;
+
       }
 
 
       .premium-ad-slot strong{
-        font-size:25px;
+
+        font-size:26px;
+
+      }
+
+
+      .home-preview-grid{
+
+        gap:24px;
+
       }
 
 
       .home-preview-card{
+
         display:block;
 
         min-height:0;
 
         padding:
-          32px
-          26px;
+          36px
+          28px;
+
       }
 
 
       .preview-icon{
+
         display:block;
 
         min-height:0;
 
-        margin-bottom:22px;
+        margin-bottom:24px;
 
-        font-size:48px;
+        font-size:52px;
+
       }
 
 
       .home-preview-card small{
+
         margin-bottom:10px;
+
+        font-size:15px;
+
       }
 
 
       .home-preview-card strong{
-        font-size:34px;
 
-        margin-bottom:15px;
+        font-size:36px;
+
+        margin-bottom:16px;
+
       }
 
 
       .home-preview-card p{
-        font-size:18px;
+
+        font-size:19px;
+
       }
 
 
       .home-preview-card em{
+
         display:block;
 
-        margin-top:26px;
+        margin-top:28px;
+
+        font-size:19px;
 
         white-space:normal;
+
       }
 
     }
@@ -467,25 +563,33 @@
 </head>
 
 
+
 <body>
 
 
-  <!-- Existing header is replaced by site-nav.js -->
+  <!-- =====================================================
+       FALLBACK HEADER
+       site-nav.js replaces this with the shared FAR header.
+       ===================================================== -->
 
   <header class="site-header">
 
+
     <a
       class="brand"
-      href="#home"
+      href="index.html"
       aria-label="Fenland Angels Radio home"
     >
+
 
       <img
         src="fenland-angels-radio-logo.jpg"
         alt="Fenland Angels Radio logo"
       >
 
+
       <div>
+
 
         <div class="brand-name">
 
@@ -510,42 +614,44 @@
 
         </div>
 
+
       </div>
+
 
     </a>
 
 
+
     <nav class="nav">
 
-      <a href="#home">
-        Home
-      </a>
-
-      <a href="schedule.html">
-        Schedule
-      </a>
 
       <a href="news.html">
         News & Weather
       </a>
 
+
+      <a href="events.html">
+        Community
+      </a>
+
+
+      <a href="schedule.html">
+        On Air
+      </a>
+
+
       <a href="advertising.html">
         Advertise
       </a>
+
 
       <a href="vouchers.html">
         Vouchers
       </a>
 
-      <a href="#about">
-        About
-      </a>
-
-      <a href="#contact">
-        Contact
-      </a>
 
     </nav>
+
 
 
     <button
@@ -558,6 +664,7 @@
 
     </button>
 
+
   </header>
 
 
@@ -565,9 +672,9 @@
   <main>
 
 
-    <!-- ======================================
+    <!-- =====================================================
          HERO
-         ====================================== -->
+         ===================================================== -->
 
     <section
       class="hero"
@@ -576,6 +683,7 @@
 
 
       <div class="hero-copy">
+
 
         <p class="eyebrow">
 
@@ -607,6 +715,7 @@
         </p>
 
 
+
         <div class="hero-actions">
 
 
@@ -633,18 +742,20 @@
 
         </div>
 
+
       </div>
 
 
 
-      <!-- ====================================
-           LIVE PLAYER
-           ==================================== -->
+      <!-- =================================================
+           MAIN LIVE PLAYER
+           ================================================= -->
 
       <div class="live-card">
 
 
         <div class="live-header">
+
 
           <span class="live-pill">
 
@@ -658,6 +769,7 @@
             FENLAND ANGELS RADIO
 
           </span>
+
 
         </div>
 
@@ -726,6 +838,7 @@
 
               <div class="player-copy">
 
+
                 <strong id="playerStatus">
 
                   Tap play to listen live
@@ -738,6 +851,7 @@
                   Fenland Angels Radio · 320 kbps
 
                 </span>
+
 
               </div>
 
@@ -784,6 +898,7 @@
 
         </div>
 
+
       </div>
 
 
@@ -791,14 +906,14 @@
 
 
 
-    <!-- ======================================
-         PREMIUM ADVERTISEMENT + PREVIEWS
-         ====================================== -->
+    <!-- =====================================================
+         PREMIUM ADVERTISING + HOMEPAGE FEATURES
+         ===================================================== -->
 
     <section class="home-commercial">
 
 
-      <!-- PREMIUM WEBSITE ADVERTISING -->
+      <!-- PREMIUM AD SLOT -->
 
       <div class="premium-ad-slot">
 
@@ -828,9 +943,12 @@
 
 
 
-      <!-- EVENTS / VOUCHERS / NEWS -->
+      <!-- ===================================================
+           STACKED HOMEPAGE SECTIONS
+           =================================================== -->
 
       <div class="home-preview-grid">
+
 
 
         <!-- EVENTS -->
@@ -864,7 +982,9 @@
 
           <p>
 
-            What’s happening across the Fens.
+            What's happening across the Fens.
+            Discover local events, activities,
+            entertainment and community listings.
 
           </p>
 
@@ -911,7 +1031,9 @@
 
           <p>
 
-            Local vouchers and offers from FAR.
+            Discover local vouchers,
+            special offers and promotions
+            from businesses across the Fens.
 
           </p>
 
@@ -927,7 +1049,7 @@
 
 
 
-        <!-- NEWS -->
+        <!-- LATEST NEWS -->
 
         <a
           class="home-preview-card"
@@ -958,7 +1080,8 @@
 
           <p>
 
-            Read the latest stories
+            Read the latest local stories,
+            community updates and news
             from the FAR newsroom.
 
           </p>
@@ -981,14 +1104,15 @@
 
 
 
-    <!-- ======================================
-         ABOUT / CONTACT
-         ====================================== -->
+    <!-- =====================================================
+         ABOUT + CONTACT
+         ===================================================== -->
 
     <section
       class="about-contact"
       id="about"
     >
+
 
 
       <!-- ABOUT -->
@@ -1102,7 +1226,9 @@
         </p>
 
 
+
         <p>
+
 
           <a
             class="btn outline compact"
@@ -1112,6 +1238,7 @@
             🎵 Submit Your Music
 
           </a>
+
 
         </p>
 
@@ -1126,9 +1253,9 @@
 
 
 
-  <!-- ========================================
+  <!-- =====================================================
        FOOTER
-       ======================================== -->
+       ===================================================== -->
 
   <footer>
 
