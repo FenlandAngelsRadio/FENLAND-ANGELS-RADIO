@@ -310,7 +310,7 @@ def article_details(url):
             " ".join(parser.parts),
         ).strip()[:10000]
 
-        image_url = parser.image_url.strip()
+             image_url = parser.image_url.strip()
 
         if image_url:
             image_url = urljoin(
@@ -318,7 +318,24 @@ def article_details(url):
                 image_url,
             )
 
-        return article_text, image_url
+            image_lower = image_url.lower()
+
+            blocked_image_parts = [
+                "news.google.com",
+                "gstatic.com",
+                "googleusercontent.com",
+                "google.com/images",
+                "google-news",
+                "googlenews",
+            ]
+
+            if any(
+                blocked in image_lower
+                for blocked in blocked_image_parts
+            ):
+                image_url = ""
+
+        return article_text, image_url 
 
     except Exception:
         return "", ""
