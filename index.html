@@ -1157,12 +1157,20 @@ const stories =
         class="news-preview"
         href="news.html"
       >
-
-        <div class="news-image">
+<div class="news-image">
   ${
     imageUrl
       ? `<img src="${imageUrl}" alt="${headline}">`
-      : icon
+      : `
+        <div class="news-fallback">
+          <img
+            src="fenland-angels-radio-logo.jpg"
+            alt="Fenland Angels Radio"
+          >
+          <span>LOCAL NEWS</span>
+          <strong>THE SOUND OF THE FENS</strong>
+        </div>
+      `
   }
 </div>
 
