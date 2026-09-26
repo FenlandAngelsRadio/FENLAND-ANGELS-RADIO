@@ -1,13 +1,68 @@
 {
-  "updated_at": "2026-09-26T15:06:53.278125+00:00",
+  "updated_at": "2026-09-26T16:00:01.770779+00:00",
   "stories": [
+    {
+      "id": "fenland-news-2a19892b582c7434cc37596f",
+      "headline": "Cambridgeshire family tackle Holme Fen wildfire",
+      "brief": "A firefighting family from Cambridgeshire has worked together to tackle a major wildfire at Holme Fen. The crew members, who are related, were among those responding to the incident. No further details regarding the scale of the fire or the identities of those involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLVNMRVZwLUdpTHpwTXFZZWN5ZkxfVjFkNVlaa090b29pZEYtSS1NWG9YUVNLeTlPMWVVM2pzNHQ1ekt4YWhDdTBGamZFMlhLbDZFZE5GZm5zX2gwSEp6bzFKemd3dV9fclJCeTM1dTc0NUE2M090MVFGTEJwVkZMVHdnRDFGRXRzeHMtaXdPSlYzN2p6c1ZXMkxR?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-26T13:33:00+00:00",
+      "generated_at": "2026-09-26T15:59:53.180122+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:59:53 +0000"
+    },
+    {
+      "id": "fenland-news-fdd1025dc2dff61e8a0558ee",
+      "headline": "Police investigate suspected arson near Fenland railway line",
+      "brief": "Authorities are treating a fire near railway tracks in the Fenland area as a case of arson. Emergency services were called to the scene following the blaze, which occurred in close proximity to the line. Police are now investigating the circumstances surrounding the incident. Residents are advised that enquiries into the fire are ongoing.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRkI5M1dkSml6dzUzVVVVUkpKQ3V2ZTZ1MTdYaUVfT1Y4dno1MkRCNjhsSWF6ZkJRQUVqMmU3OEFmUmo1cGNKXzZaTU82dVBGZ0ZUazItNzdicXZ5UFNYaWJKVE9BMUlSc2U0c1MtZUJDMWI1aHktdjRSR3BSaUhoTXJqSEh4bHJYai0yMmN2eXVydw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-04-14T07:00:00+00:00",
+      "generated_at": "2026-09-26T15:59:49.748789+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:59:49 +0000"
+    },
+    {
+      "id": "fenland-news-c65ee6785fa7c17fd654e841",
+      "headline": "New children’s roleplay centre opens in King’s Lynn",
+      "brief": "A new roleplay centre and café has opened in King’s Lynn town centre today. Located on Purfleet Street in the former Rusty Krab premises, Roleplay King’s Lynn features three age-specific zones for children up to the age of 15. Facilities include a soft play area for toddlers, a miniature town for younger children, and a gaming den for older siblings.\n\nThe business, established by a local family, also includes a café serving speciality drinks and homemade snacks. The centre is open seven days a week, offering three 90-minute sessions daily. The team is also inviting schools and support groups to arrange exclusive bookings to provide a welcoming environment for children with special educational needs and disabilities.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-children-s-roleplay-centre-and-caf-opens-in-town-centre-9484376/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/KZI8UERKOYGYLKB81XEJ.jpg",
+      "published": "2026-09-25T15:55:48+00:00",
+      "generated_at": "2026-09-26T15:59:47.208678+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:59:47 +0000"
+    },
+    {
+      "id": "fenland-news-fb2f3fdfb9c98e9b7616151d",
+      "headline": "Seven-year-old boy dies following incident in Wimblington",
+      "brief": "A seven-year-old boy has died following reports of a child in the water at Wimblington. Emergency services were called to the scene, but the child could not be saved. No further details regarding the circumstances of the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nd24zYk9CSXRuck1Md2ZkajhVdnRMbnJtaEhJblZTTW1EMlQ2aHhtVGJpYlY3SVJFSWN5eGtQeGg4MFFpbklCRW1HekRpbERvOFpERzJBYkFrUQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-04-08T07:00:00+00:00",
+      "generated_at": "2026-09-26T15:59:38.816230+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:59:38 +0000"
+    },
+    {
+      "id": "fenland-news-fcd2cc2430305cb16fb8707f",
+      "headline": "Tributes paid to former Queen Elizabeth Hospital surgeon Graham Thompson",
+      "brief": "Tributes have been paid to Graham Thompson, a former surgeon at the Queen Elizabeth Hospital in King’s Lynn, who has died at the age of 96. Mr Thompson, who passed away on Wednesday, September 9, began his career in the Royal Navy before working in Wisbech and later moving to the QEH. He retired in 1994 but remained active in the medical community, establishing a walking group for retired consultants. His family described him as a remarkable man who transformed many lives during his career. A funeral service will be held at the West Suffolk Crematorium in Risby on Wednesday, October 7, at 12.30pm.",
+      "original_url": "https://www.lynnnews.co.uk/news/tributes-paid-to-remarkable-former-qeh-surgeon-who-died-a-9484436/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/YYUQW0LE4WJTST055WZE.jpg",
+      "published": "2026-09-26T05:00:00+00:00",
+      "generated_at": "2026-09-26T15:59:32.041559+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:59:32 +0000"
+    },
     {
       "id": "fenland-news-2fcae7b9b845e5db5d6d1bf7",
       "headline": "Death of Phoebe Bird from Long Sutton",
       "brief": "The death of Phoebe Bird has been announced. According to an obituary published in the Lincolnshire Free Press, the resident of Long Sutton passed away in 2022. No further details regarding the circumstances of her death or funeral arrangements have been provided.",
       "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWi1tVUZIVy1WUjBaSEJHSkVDdmFDWmRyM3FMc3VFb3R0Vk5ycFVWX1lzUmMwa2FBSWFGLURhX05KTVlZZ3JlOEZFd1JBSnZOczdHc3ZiVnh1ZU4wMk1jSW12OW1nb3dPcE5OalJaeGNBQnZiV0hRQXg4aUJNeTVYU19lN3BGN1lIWlZNZWxIbmpuaGQ4bjZKR2p0VGNRS1Q5?oc=5",
       "source": "Spalding South Holland News",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "published": "2022-01-25T08:00:00+00:00",
       "generated_at": "2026-09-26T15:06:50.654917+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:06:50 +0000"
@@ -18,7 +73,7 @@
       "brief": "A teacher is due to appear before a three-day misconduct hearing. The details of the case were reported by The Hunts Post. No further information regarding the identity of the individual or the nature of the allegations has been released at this time.",
       "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUlRV2lmMGFqUEdab1NocWprU3hlS2VldjdwQWRHTkJwMnVnd1NIREZZRmxNR21NTE1fM0xLSzR1S25ETVBVYi1qZzc5M3VLdDBYUDZ0UUY5aEZ3MlBPX0Myc081U1F4X09sVHFpdXhJdDEwMDAzRmREX29jaW5wZlhGS1BfVWp6T0lkaGFaQ05kMWpUQkZhSHRJaw?oc=5",
       "source": "March Chatteris Whittlesey News",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "published": "2026-02-19T08:00:00+00:00",
       "generated_at": "2026-09-26T15:06:43.457299+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:06:43 +0000"
@@ -40,7 +95,7 @@
       "brief": "A fire has broken out at a household recycling centre. Emergency services were called to the scene to deal with the blaze. No further details regarding the location or the impact on local services have been provided at this time. Residents are advised to monitor local updates for any potential disruption to waste disposal facilities in the area.",
       "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5STDhuSHp3ZUdyT0l4LWxDMFZWblZKR2JORGtOUzRwbUZVVG4yWm5ZSEh4bHF3WUszb19YUVNpYWhFNldlOUdVYl9ILWZkRzlpSTh2V2VjbnBQYWEzVXc?oc=5",
       "source": "Peterborough Fenland Edge News",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "published": "2026-09-26T13:55:15+00:00",
       "generated_at": "2026-09-26T15:06:24.337050+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:06:24 +0000"
@@ -51,7 +106,7 @@
       "brief": "Staff working at care homes in Long Sutton and Spalding have been formally recognised for their service. According to reports from the Spalding South Holland News, employees at the facilities were presented with awards for their ongoing work. No further details regarding the specific nature of the recognition or the individuals involved have been released at this time.",
       "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaVpad0IzMVhsWFgzLXdzVDRxM2l0azZ1RUtqOGUxbEFodmtGSFAxTmxJRUc4UTU4MXZJS1JhQkRJOWJ3c2VEOXF0NFRhcm5JTFVQQzQ2Q0Q3cEFjeVVubGN0MnlJOGZTS05BX1pzanJGUUdRN3hIUmV5bF84TFNJR09EN3hzZGtqbllQNzVpWUVrMDRJWVJ4OFBLYkp3eUxHVzJSMThvOA?oc=5",
       "source": "Spalding South Holland News",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "published": "2018-03-08T08:00:00+00:00",
       "generated_at": "2026-09-26T15:06:14.194306+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:06:14 +0000"
@@ -62,7 +117,7 @@
       "brief": "Police have arrested a man in the Fens following a stop related to illegal drugs. Authorities confirmed that the individual is currently subject to a ban preventing him from entering the United Kingdom. No further details regarding the location of the stop or the specific charges have been released at this time.",
       "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTN1cDJLclhfMnlVbDJ0TjVZcHF1Si1vaFdlOHcxU0NOOVQzRlpEN2NPR1dpQndwdXRwZFRfUkhFTE4zbnAwTG5KRmJRTUItOEhjWnNUV2xJWnRXby1Gd2tXZDZSVVk1WWRhNy11OHljR2JWbS11cF94RW5nNkhuWVZlNjd3THRhcE9qUlZZN0JFem9TSFg0?oc=5",
       "source": "March Chatteris Whittlesey News",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image_url": "",
       "published": "2026-09-26T10:02:00+00:00",
       "generated_at": "2026-09-26T15:06:07.756493+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:06:07 +0000"
@@ -87,7 +142,7 @@
       "published": "2023-08-08T07:00:00+00:00",
       "generated_at": "2026-09-26T05:48:45.331808+00:00",
       "rss_date": "Sat, 26 Sep 2026 05:48:45 +0000",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "image_url": ""
     },
     {
       "id": "fenland-news-2185de92a3f5fb9b09f0a331",
@@ -109,7 +164,7 @@
       "published": "2026-09-26T04:00:00+00:00",
       "generated_at": "2026-09-26T05:48:41.720248+00:00",
       "rss_date": "Sat, 26 Sep 2026 05:48:41 +0000",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "image_url": ""
     },
     {
       "id": "fenland-news-dcf753593c88ff0566d81e65",
@@ -120,7 +175,7 @@
       "published": "2026-09-25T12:17:00+00:00",
       "generated_at": "2026-09-26T05:48:40.817965+00:00",
       "rss_date": "Sat, 26 Sep 2026 05:48:40 +0000",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "image_url": ""
     },
     {
       "id": "fenland-news-fc155306d2b20b1bbeca19ae",
@@ -131,7 +186,7 @@
       "published": "2025-12-30T08:00:00+00:00",
       "generated_at": "2026-09-26T05:48:39.829886+00:00",
       "rss_date": "Sat, 26 Sep 2026 05:48:39 +0000",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "image_url": ""
     },
     {
       "id": "fenland-news-d32a43e6c6e6a7b59f403f89",
@@ -142,7 +197,7 @@
       "published": "2026-09-25T09:33:00+00:00",
       "generated_at": "2026-09-26T05:48:38.696624+00:00",
       "rss_date": "Sat, 26 Sep 2026 05:48:38 +0000",
-      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "image_url": ""
     },
     {
       "id": "fenland-news-28c15d802f3de1884776630d",
@@ -152,7 +207,8 @@
       "source": "Lynn News",
       "published": "2026-09-26T05:00:00+00:00",
       "generated_at": "2026-09-26T05:48:37.777022+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:37 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:37 +0000",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/80NSH4KQNU3FZQ0L0VZL.jpg"
     },
     {
       "id": "fenland-news-a6cb88815e999a44c3f98dbf",
@@ -182,7 +238,8 @@
       "source": "Lynn News",
       "published": "2026-09-25T14:01:02+00:00",
       "generated_at": "2026-09-25T23:48:02.841174+00:00",
-      "rss_date": "Fri, 25 Sep 2026 23:48:02 +0000"
+      "rss_date": "Fri, 25 Sep 2026 23:48:02 +0000",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/GXMTO8M256NSMIPVGR1Y.jpg"
     },
     {
       "id": "fenland-news-8fb95e799380a94dffa31382",
@@ -212,7 +269,8 @@
       "source": "Lynn News",
       "published": "2026-09-25T15:18:10+00:00",
       "generated_at": "2026-09-25T23:47:54.133205+00:00",
-      "rss_date": "Fri, 25 Sep 2026 23:47:54 +0000"
+      "rss_date": "Fri, 25 Sep 2026 23:47:54 +0000",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/4W3J55MW35HAFPIC76N4.jpg"
     },
     {
       "id": "fenland-news-562f796ded363fdb67da4290",
@@ -222,7 +280,8 @@
       "source": "Fenland Citizen",
       "published": "2026-09-25T05:00:00+00:00",
       "generated_at": "2026-09-25T17:50:50.936690+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:50 +0000"
+      "rss_date": "Fri, 25 Sep 2026 17:50:50 +0000",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/1U2C1R4I485G2LIY6L9L.jpg"
     },
     {
       "id": "fenland-news-40bddda3eedd82d57960afa6",
@@ -262,7 +321,8 @@
       "source": "Fenland Citizen",
       "published": "2026-09-25T09:19:35+00:00",
       "generated_at": "2026-09-25T17:50:36.764860+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:36 +0000"
+      "rss_date": "Fri, 25 Sep 2026 17:50:36 +0000",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/3NEAD4ZYYH8XQK5AFDU6.jpg"
     },
     {
       "id": "fenland-news-7313f3e6be94f69ec23dbc8c",
@@ -272,7 +332,8 @@
       "source": "Lynn News",
       "published": "2026-09-25T15:44:19+00:00",
       "generated_at": "2026-09-25T17:50:32.794205+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:32 +0000"
+      "rss_date": "Fri, 25 Sep 2026 17:50:32 +0000",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/TFIDJF664N073LFW4MEV.jpg"
     },
     {
       "id": "fenland-news-f8b4b7117ccad6957e234888",
@@ -963,56 +1024,6 @@
       "published": "2026-09-22T05:00:00+00:00",
       "generated_at": "2026-09-22T05:49:21.956972+00:00",
       "rss_date": "Tue, 22 Sep 2026 05:49:21 +0000"
-    },
-    {
-      "id": "fenland-news-f735fa252850266391454459",
-      "headline": "Peterborough City Council announces new SEND strategy",
-      "brief": "Peterborough City Council has unveiled a new strategy focused on special educational needs and disabilities, known as SEND. The local authority has committed two point one seven million pounds to support the initiative. The funding is intended to improve services for children and young people across the area who have additional educational requirements. Further details regarding the implementation of the plan are expected to follow as the council begins its work on the project.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xemlpQ2w3cGdoWU8xQVQ2WW5XMDFTT25lVmUwaGtfTzhVa3ZnQzRleVZXeUxhV3A5ZXNjbG52OXBPd09XeEtYSHo4YXk3YW9qNS11aGk0M0p6SG8?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-22T05:13:15+00:00",
-      "generated_at": "2026-09-22T05:49:17.311224+00:00",
-      "rss_date": "Tue, 22 Sep 2026 05:49:17 +0000"
-    },
-    {
-      "id": "fenland-news-a101112f1bf547596a1edbff",
-      "headline": "Man jailed for 22 years for rape offences",
-      "brief": "A man has been sentenced to 22 years in prison after being convicted of raping a teenager. The sentencing follows an investigation by Cambridgeshire Constabulary into the exploitation of the victim. The force confirmed the outcome of the case, which resulted in the lengthy custodial term for the offender.",
-      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMWVBa3pRSF9QUnhaS1A4SnllSjM4ajdRa213d3lRRkZ0bk1uWHJxaWNWMkU2TjhLS3NiZWNteW1rcWdaUGp2Y3hFalYtb1lENmxkTHR3bDNPUlpISjhZb1FPOGVmcGJDQXZoX3N3REZMSXk5MjdXS0xyM1l2dTlFaDEwNlAyRDlSOGotTjAwSHJ6T3FBb1prTXYtbTk4el9SMHpjNkQyQzB6OU9ybmVaVzNRWDY?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-08-24T07:00:00+00:00",
-      "generated_at": "2026-09-22T05:49:14.644787+00:00",
-      "rss_date": "Tue, 22 Sep 2026 05:49:14 +0000"
-    },
-    {
-      "id": "fenland-news-e02d79ba131542a63a84123d",
-      "headline": "Concerns raised over damp and mould at local school",
-      "brief": "Parents are calling for urgent action regarding the condition of a school building in the region. Reports indicate that concerns have been raised about damp and mould issues within the premises, with claims that the environment is negatively impacting the health of pupils. Those involved are now pressing for improvements to be made to the school facilities.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUV8td1RJeHBuYThhUEVUQVRfbXJtQlhMSm9XMFBCVWV0Qjl5blFFLUdsNV9qWElRSjdNbUQtVlZ4U0JaVW9XdnNaMkM5TFJ1Y0JLOHpWaTBwRXI4ZWJpMEZjNmE5ZEhwWGotNDZXMlJpdTZqNlF0MXF0UEEzVVIwMkU5ZWUxUnhKb1Fza1VKSkdaSUlZeDhXUjVRWTR3VUR0b0VwamEtbFEzNWg4LVdoZm5B?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2024-12-12T08:00:00+00:00",
-      "generated_at": "2026-09-22T05:49:12.345014+00:00",
-      "rss_date": "Tue, 22 Sep 2026 05:49:12 +0000"
-    },
-    {
-      "id": "fenland-news-1d269b421b7d3e1d7460047c",
-      "headline": "Sixteen road closures scheduled across Cambridgeshire this week",
-      "brief": "Motorists travelling across Cambridgeshire are being advised to plan their journeys carefully over the coming days. A total of sixteen road closures are currently in place throughout the county this week. Drivers are encouraged to check local travel updates before setting off to avoid potential delays caused by these works.",
-      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWpoWWpzRXhNVDZscldrc1JVeTljcVEwVWxqNjRiYlJldTE1MVJteGJRc2hPMmpNdzhsMklXeWVaSEwyaXhHU3ZSb1ZsMGxBMEhpV3kxN2IxT2dNdFJ5Y1ZFYU1SQUh5N2tkNm1CZE5GNDVwMWtLcXFjVGVwZTdIazFoMkFDOVJndl85TERtSQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-05-24T07:00:00+00:00",
-      "generated_at": "2026-09-22T05:49:10.356912+00:00",
-      "rss_date": "Tue, 22 Sep 2026 05:49:10 +0000"
-    },
-    {
-      "id": "fenland-news-df8c51840fb6eb5d82d73962",
-      "headline": "New planning applications submitted across West Norfolk",
-      "brief": "A range of new planning applications have been submitted to local councils across the region. Among the proposals is a plan to convert the former care home at Adrian Lodge on Gaywood Road in King’s Lynn into a 14-bedroom house of multiple occupation. In Hilgay, an application has been lodged for the installation of three additional holiday pods at the River Meadow Retreat on Hubbards Drove. \n\nOther notable submissions include a proposal to transform agricultural buildings at Black Drove into three two-bedroom homes, and plans for a new funeral director’s premises on Bexwell Road. Residents can view the full list of planning applications through their local council’s planning portal.",
-      "original_url": "https://www.lynnnews.co.uk/news/former-care-home-could-become-hmo-and-holiday-retreat-could-9483631/",
-      "source": "Lynn News",
-      "published": "2026-09-22T05:00:00+00:00",
-      "generated_at": "2026-09-22T05:49:08.373023+00:00",
-      "rss_date": "Tue, 22 Sep 2026 05:49:08 +0000"
     }
   ]
 }
