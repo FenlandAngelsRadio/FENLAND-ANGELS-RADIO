@@ -1096,10 +1096,15 @@ fetch('news-data.json', {
 
   if (!box) return;
 
-  const stories =
-    Array.isArray(data.stories)
-      ? data.stories.slice(0, 3)
-      : [];
+const stories =
+  Array.isArray(data.stories)
+    ? [...data.stories]
+        .sort((a, b) =>
+          new Date(b.published || 0) -
+          new Date(a.published || 0)
+        )
+        .slice(0, 3)
+    : [];
 
   if (!stories.length) {
     box.innerHTML = `
