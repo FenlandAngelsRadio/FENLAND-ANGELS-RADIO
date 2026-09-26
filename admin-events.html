@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FAR Event Approval</title>
+<title>FAR Event Management</title>
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="site-nav.css?v=1">
@@ -18,278 +18,828 @@
 <main class="admin-shell">
 
   <section id="loginPanel" class="admin-login">
-    <p class="eyebrow">FAR ADMIN</p>
-    <h1>Event Approval</h1>
-    <p>Sign in with your individual FAR admin account.</p>
+
+    <p class="eyebrow">
+      FAR ADMIN
+    </p>
+
+    <h1>
+      Event Management
+    </h1>
+
+    <p>
+      Sign in with your individual FAR admin account.
+    </p>
 
     <div class="event-field">
-      <label for="adminEmail">Email</label>
-      <input id="adminEmail" type="email" autocomplete="username">
+
+      <label for="adminEmail">
+        Email
+      </label>
+
+      <input
+        id="adminEmail"
+        type="email"
+        autocomplete="username"
+      >
+
     </div>
 
-    <div class="event-field" style="margin-top:14px">
-      <label for="adminPassword">Password</label>
-      <input id="adminPassword" type="password" autocomplete="current-password">
+    <div
+      class="event-field"
+      style="margin-top:14px"
+    >
+
+      <label for="adminPassword">
+        Password
+      </label>
+
+      <input
+        id="adminPassword"
+        type="password"
+        autocomplete="current-password"
+      >
+
     </div>
 
-    <button id="loginButton" class="far-action" type="button" style="margin-top:18px">
+    <button
+      id="loginButton"
+      class="far-action"
+      type="button"
+      style="margin-top:18px"
+    >
       Sign in
     </button>
 
-    <div id="loginStatus" class="event-form-status"></div>
+    <div
+      id="loginStatus"
+      class="event-form-status"
+    ></div>
+
   </section>
 
-  <section id="adminPanel" hidden>
+
+  <section
+    id="adminPanel"
+    hidden
+  >
 
     <div class="admin-topbar">
+
       <div>
-        <p class="eyebrow">FAR ADMIN</p>
-        <h1 style="margin:.2em 0">Pending Events</h1>
-        <p id="adminIdentity" style="color:#cfd2d9;margin:0"></p>
+
+        <p class="eyebrow">
+          FAR ADMIN
+        </p>
+
+        <h1 style="margin:.2em 0">
+          Event Management
+        </h1>
+
+        <p
+          id="adminIdentity"
+          style="color:#cfd2d9;margin:0"
+        ></p>
+
       </div>
 
-      <button id="logoutButton" class="far-action secondary" type="button">
+      <button
+        id="logoutButton"
+        class="far-action secondary"
+        type="button"
+      >
         Sign out
       </button>
+
     </div>
 
-    <div id="pendingList" class="admin-grid">
-      <div class="event-loading">Loading pending events…</div>
+
+    <div
+      id="eventList"
+      class="admin-grid"
+    >
+
+      <div class="event-loading">
+        Loading events…
+      </div>
+
     </div>
 
   </section>
 
 </main>
 
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="events-config.js"></script>
-<script>
-(function(){
-  const cfg = window.FAR_EVENTS_CONFIG || {};
-  const loginPanel = document.getElementById('loginPanel');
-  const adminPanel = document.getElementById('adminPanel');
-  const loginButton = document.getElementById('loginButton');
-  const logoutButton = document.getElementById('logoutButton');
-  const loginStatus = document.getElementById('loginStatus');
-  const pendingList = document.getElementById('pendingList');
-  const adminIdentity = document.getElementById('adminIdentity');
 
-  if(!cfg.SUPABASE_URL || cfg.SUPABASE_URL.includes('YOUR_PROJECT_REF')){
-    loginStatus.textContent = 'Supabase has not been connected yet.';
-    loginStatus.className = 'event-form-status error';
+
+<script>
+
+(function(){
+
+  const cfg =
+    window.FAR_EVENTS_CONFIG || {};
+
+  const loginPanel =
+    document.getElementById('loginPanel');
+
+  const adminPanel =
+    document.getElementById('adminPanel');
+
+  const loginButton =
+    document.getElementById('loginButton');
+
+  const logoutButton =
+    document.getElementById('logoutButton');
+
+  const loginStatus =
+    document.getElementById('loginStatus');
+
+  const eventList =
+    document.getElementById('eventList');
+
+  const adminIdentity =
+    document.getElementById('adminIdentity');
+
+
+  if(
+    !cfg.SUPABASE_URL ||
+    cfg.SUPABASE_URL.includes('YOUR_PROJECT_REF')
+  ){
+
+    loginStatus.textContent =
+      'Supabase has not been connected yet.';
+
+    loginStatus.className =
+      'event-form-status error';
+
     return;
   }
 
-  const client = supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);
+
+  const client =
+    supabase.createClient(
+      cfg.SUPABASE_URL,
+      cfg.SUPABASE_ANON_KEY
+    );
+
 
   function esc(value=''){
-    return String(value).replace(/[&<>"']/g, ch => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
-    })[ch]);
+
+    return String(value).replace(
+      /[&<>"']/g,
+      ch => ({
+        '&':'&amp;',
+        '<':'&lt;',
+        '>':'&gt;',
+        '"':'&quot;',
+        "'":'&#039;'
+      })[ch]
+    );
+
   }
 
-  function field(id,label,value,type='text'){
-    const safe = esc(value || '');
+
+  function field(
+    id,
+    label,
+    value,
+    type='text'
+  ){
+
+    const safe =
+      esc(value || '');
+
     if(type === 'textarea'){
-      return `<label>${label}</label><textarea data-field="${id}">${safe}</textarea>`;
+
+      return `
+        <label>${label}</label>
+
+        <textarea
+          data-field="${id}"
+        >${safe}</textarea>
+      `;
     }
-    return `<label>${label}</label><input data-field="${id}" type="${type}" value="${safe}">`;
+
+    return `
+      <label>${label}</label>
+
+      <input
+        data-field="${id}"
+        type="${type}"
+        value="${safe}"
+      >
+    `;
+
   }
+
+
+  function statusLabel(status){
+
+    if(status === 'approved'){
+      return 'Approved';
+    }
+
+    if(status === 'rejected'){
+      return 'Rejected';
+    }
+
+    return 'Pending';
+
+  }
+
 
   async function checkAdmin(user){
-    if(!user) return null;
 
-    const { data, error } = await client
+    if(!user){
+      return null;
+    }
+
+    const {
+      data,
+      error
+    } = await client
       .from('far_admins')
       .select('display_name')
       .eq('user_id',user.id)
       .maybeSingle();
 
-    if(error) throw error;
+    if(error){
+      throw error;
+    }
+
     return data;
+
   }
 
+
   async function refreshAuth(){
-    const { data:{ session } } = await client.auth.getSession();
+
+    const {
+      data:{ session }
+    } =
+      await client.auth.getSession();
+
 
     if(!session){
+
       loginPanel.hidden = false;
       adminPanel.hidden = true;
+
       return;
     }
 
-    const admin = await checkAdmin(session.user);
+
+    const admin =
+      await checkAdmin(session.user);
+
 
     if(!admin){
+
       await client.auth.signOut();
-      loginStatus.textContent = 'This account is not authorised for FAR event approval.';
-      loginStatus.className = 'event-form-status error';
+
+      loginStatus.textContent =
+        'This account is not authorised for FAR event management.';
+
+      loginStatus.className =
+        'event-form-status error';
+
       loginPanel.hidden = false;
       adminPanel.hidden = true;
+
       return;
     }
+
 
     loginPanel.hidden = true;
     adminPanel.hidden = false;
-    adminIdentity.textContent = `Signed in as ${admin.display_name}`;
-    await loadPending();
+
+    adminIdentity.textContent =
+      `Signed in as ${admin.display_name}`;
+
+    await loadEvents();
+
   }
 
-  loginButton.addEventListener('click', async () => {
-    loginStatus.className = 'event-form-status';
-    loginButton.disabled = true;
 
-    const email = document.getElementById('adminEmail').value.trim();
-    const password = document.getElementById('adminPassword').value;
+  loginButton.addEventListener(
+    'click',
+    async () => {
 
-    const { error } = await client.auth.signInWithPassword({email,password});
+      loginStatus.className =
+        'event-form-status';
 
-    loginButton.disabled = false;
+      loginButton.disabled = true;
 
-    if(error){
-      loginStatus.textContent = error.message;
-      loginStatus.className = 'event-form-status error';
-      return;
+
+      const email =
+        document
+          .getElementById('adminEmail')
+          .value
+          .trim();
+
+
+      const password =
+        document
+          .getElementById('adminPassword')
+          .value;
+
+
+      const { error } =
+        await client.auth.signInWithPassword({
+          email,
+          password
+        });
+
+
+      loginButton.disabled = false;
+
+
+      if(error){
+
+        loginStatus.textContent =
+          error.message;
+
+        loginStatus.className =
+          'event-form-status error';
+
+        return;
+      }
+
+
+      await refreshAuth();
+
     }
+  );
 
-    await refreshAuth();
-  });
 
-  logoutButton.addEventListener('click', async () => {
-    await client.auth.signOut();
-    await refreshAuth();
-  });
+  logoutButton.addEventListener(
+    'click',
+    async () => {
 
-  async function loadPending(){
-    pendingList.innerHTML = '<div class="event-loading">Loading pending events…</div>';
+      await client.auth.signOut();
 
-    const { data, error } = await client
+      await refreshAuth();
+
+    }
+  );
+
+
+  async function loadEvents(){
+
+    eventList.innerHTML =
+      '<div class="event-loading">Loading events…</div>';
+
+
+    const {
+      data,
+      error
+    } = await client
       .from('events')
       .select('*')
-      .eq('status','pending')
-      .order('created_at',{ascending:true});
+      .order(
+        'created_at',
+        { ascending:false }
+      );
+
 
     if(error){
-      pendingList.innerHTML = `<div class="event-empty">${esc(error.message)}</div>`;
+
+      eventList.innerHTML =
+        `<div class="event-empty">${esc(error.message)}</div>`;
+
       return;
     }
+
 
     if(!data || !data.length){
-      pendingList.innerHTML = '<div class="event-empty">No events are waiting for approval.</div>';
+
+      eventList.innerHTML =
+        '<div class="event-empty">No events have been submitted yet.</div>';
+
       return;
     }
 
-    pendingList.innerHTML = data.map(event => `
-      <article class="admin-event" data-id="${event.id}">
-        <span class="status-pill">Pending</span>
 
-        ${field('title','Event name',event.title)}
-        ${field('event_date','Date',event.event_date,'date')}
-        ${field('start_time','Start time',event.start_time || '','time')}
-        ${field('end_time','End time',event.end_time || '','time')}
-        ${field('venue','Venue',event.venue || '')}
-        ${field('town','Town / village',event.town || '')}
-        ${field('description','Description',event.description || '','textarea')}
-        ${field('price_text','Price / entry',event.price_text || '')}
-        ${field('booking_url','Website / ticket link',event.booking_url || '','url')}
+    eventList.innerHTML =
+      data.map(event => {
 
-        <hr style="border:0;border-top:1px solid #2d3037;margin:18px 0">
+        const status =
+          event.status || 'pending';
 
-        <p style="color:#cfd2d9">
-          <strong>Submitted by:</strong> ${esc(event.contact_name || '')}<br>
-          <strong>Email:</strong> ${esc(event.contact_email || '')}<br>
-          <strong>Phone:</strong> ${esc(event.contact_phone || '')}<br>
-          <strong>Organisation:</strong> ${esc(event.organiser || '')}
-        </p>
 
-        <div class="admin-actions">
-          <button class="far-action" type="button" data-action="approve">Approve & publish</button>
-          <button class="far-action secondary" type="button" data-action="save">Save changes</button>
-          <button class="far-action danger" type="button" data-action="reject">Reject</button>
-        </div>
-      </article>
-    `).join('');
+        return `
+
+          <article
+            class="admin-event"
+            data-id="${event.id}"
+          >
+
+            <span class="status-pill">
+              ${statusLabel(status)}
+            </span>
+
+
+            ${field(
+              'title',
+              'Event name',
+              event.title
+            )}
+
+
+            ${field(
+              'event_date',
+              'Date',
+              event.event_date,
+              'date'
+            )}
+
+
+            ${field(
+              'start_time',
+              'Start time',
+              event.start_time || '',
+              'time'
+            )}
+
+
+            ${field(
+              'end_time',
+              'End time',
+              event.end_time || '',
+              'time'
+            )}
+
+
+            ${field(
+              'venue',
+              'Venue',
+              event.venue || ''
+            )}
+
+
+            ${field(
+              'town',
+              'Town / village',
+              event.town || ''
+            )}
+
+
+            ${field(
+              'description',
+              'Description',
+              event.description || '',
+              'textarea'
+            )}
+
+
+            ${field(
+              'price_text',
+              'Price / entry',
+              event.price_text || ''
+            )}
+
+
+            ${field(
+              'booking_url',
+              'Website / ticket link',
+              event.booking_url || '',
+              'url'
+            )}
+
+
+            <hr
+              style="
+                border:0;
+                border-top:1px solid #2d3037;
+                margin:18px 0
+              "
+            >
+
+
+            <p style="color:#cfd2d9">
+
+              <strong>
+                Submitted by:
+              </strong>
+
+              ${esc(event.contact_name || '')}
+
+              <br>
+
+
+              <strong>
+                Email:
+              </strong>
+
+              ${esc(event.contact_email || '')}
+
+              <br>
+
+
+              <strong>
+                Phone:
+              </strong>
+
+              ${esc(event.contact_phone || '')}
+
+              <br>
+
+
+              <strong>
+                Organisation:
+              </strong>
+
+              ${esc(event.organiser || '')}
+
+            </p>
+
+
+            <div class="admin-actions">
+
+
+              ${
+                status !== 'approved'
+                ? `
+                  <button
+                    class="far-action"
+                    type="button"
+                    data-action="approve"
+                  >
+                    Approve & publish
+                  </button>
+                `
+                : ''
+              }
+
+
+              <button
+                class="far-action secondary"
+                type="button"
+                data-action="save"
+              >
+                Save changes
+              </button>
+
+
+              ${
+                status !== 'rejected'
+                ? `
+                  <button
+                    class="far-action danger"
+                    type="button"
+                    data-action="reject"
+                  >
+                    Reject
+                  </button>
+                `
+                : ''
+              }
+
+
+              <button
+                class="far-action danger"
+                type="button"
+                data-action="delete"
+              >
+                Delete permanently
+              </button>
+
+
+            </div>
+
+          </article>
+
+        `;
+
+      }).join('');
+
   }
+
 
   function collectCard(card){
+
     const update = {};
 
-    card.querySelectorAll('[data-field]').forEach(input => {
-      update[input.dataset.field] = input.value.trim() || null;
-    });
+
+    card
+      .querySelectorAll('[data-field]')
+      .forEach(input => {
+
+        update[input.dataset.field] =
+          input.value.trim() || null;
+
+      });
+
 
     return update;
+
   }
 
-  pendingList.addEventListener('click', async (e) => {
-    const button = e.target.closest('button[data-action]');
-    if(!button) return;
 
-    const card = button.closest('.admin-event');
-    const eventId = card.dataset.id;
-    const action = button.dataset.action;
+  eventList.addEventListener(
+    'click',
+    async (e) => {
 
-    button.disabled = true;
+      const button =
+        e.target.closest(
+          'button[data-action]'
+        );
 
-    try{
-      const { data:{ user } } = await client.auth.getUser();
-      const updates = collectCard(card);
 
-      if(action === 'save'){
-        const { error } = await client
-          .from('events')
-          .update(updates)
-          .eq('id',eventId);
-
-        if(error) throw error;
-        alert('Changes saved.');
+      if(!button){
+        return;
       }
 
-      if(action === 'approve'){
-        updates.status = 'approved';
-        updates.approved_at = new Date().toISOString();
-        updates.approved_by = user.id;
 
-        const { error } = await client
-          .from('events')
-          .update(updates)
-          .eq('id',eventId);
+      const card =
+        button.closest('.admin-event');
 
-        if(error) throw error;
-        await loadPending();
+
+      const eventId =
+        card.dataset.id;
+
+
+      const action =
+        button.dataset.action;
+
+
+      button.disabled = true;
+
+
+      try{
+
+        const {
+          data:{ user }
+        } =
+          await client.auth.getUser();
+
+
+        const updates =
+          collectCard(card);
+
+
+        if(action === 'save'){
+
+          const { error } =
+            await client
+              .from('events')
+              .update(updates)
+              .eq('id',eventId);
+
+
+          if(error){
+            throw error;
+          }
+
+
+          alert(
+            'Changes saved.'
+          );
+
+        }
+
+
+        if(action === 'approve'){
+
+          updates.status =
+            'approved';
+
+          updates.approved_at =
+            new Date().toISOString();
+
+          updates.approved_by =
+            user.id;
+
+
+          const { error } =
+            await client
+              .from('events')
+              .update(updates)
+              .eq('id',eventId);
+
+
+          if(error){
+            throw error;
+          }
+
+
+          await loadEvents();
+
+        }
+
+
+        if(action === 'reject'){
+
+          const confirmed =
+            confirm(
+              'Reject this event? It will not appear on the public Events page.'
+            );
+
+
+          if(!confirmed){
+            return;
+          }
+
+
+          const { error } =
+            await client
+              .from('events')
+              .update({
+                status:'rejected',
+                reviewed_at:
+                  new Date().toISOString(),
+                reviewed_by:
+                  user.id
+              })
+              .eq('id',eventId);
+
+
+          if(error){
+            throw error;
+          }
+
+
+          await loadEvents();
+
+        }
+
+
+        if(action === 'delete'){
+
+          const eventName =
+            card.querySelector(
+              '[data-field="title"]'
+            )?.value || 'this event';
+
+
+          const confirmed =
+            confirm(
+              `Permanently delete "${eventName}"?\n\nThis cannot be undone.`
+            );
+
+
+          if(!confirmed){
+            return;
+          }
+
+
+          const { error } =
+            await client
+              .from('events')
+              .delete()
+              .eq('id',eventId);
+
+
+          if(error){
+            throw error;
+          }
+
+
+          await loadEvents();
+
+        }
+
       }
 
-      if(action === 'reject'){
-        if(!confirm('Reject this event?')) return;
+      catch(error){
 
-        const { error } = await client
-          .from('events')
-          .update({
-            status:'rejected',
-            reviewed_at:new Date().toISOString(),
-            reviewed_by:user.id
-          })
-          .eq('id',eventId);
+        console.error(error);
 
-        if(error) throw error;
-        await loadPending();
+        alert(
+          error.message ||
+          'Something went wrong.'
+        );
+
       }
-    }
-    catch(error){
-      console.error(error);
-      alert(error.message || 'Something went wrong.');
-    }
-    finally{
-      button.disabled = false;
-    }
-  });
 
-  client.auth.onAuthStateChange(() => {
-    setTimeout(refreshAuth,0);
-  });
+      finally{
+
+        button.disabled = false;
+
+      }
+
+    }
+  );
+
+
+  client.auth.onAuthStateChange(
+    () => {
+
+      setTimeout(
+        refreshAuth,
+        0
+      );
+
+    }
+  );
+
 
   refreshAuth();
+
 })();
+
 </script>
 
 </body>
