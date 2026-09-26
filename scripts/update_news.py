@@ -187,6 +187,24 @@ def item_link(node):
     return ""
 
 
+def is_blocked_image_url(url):
+    image_lower = (url or "").lower()
+
+    blocked_image_parts = [
+        "news.google.com",
+        "gstatic.com",
+        "googleusercontent.com",
+        "google.com/images",
+        "google-news",
+        "googlenews",
+    ]
+
+    return any(
+        blocked in image_lower
+        for blocked in blocked_image_parts
+    )
+
+
 def item_image(node):
     for child in node.iter():
         tag = child.tag.split("}")[-1].lower()
@@ -212,6 +230,7 @@ def item_image(node):
                     or media_type.startswith("image/")
                     or tag in {"thumbnail", "image"}
                 )
+                and not is_blocked_image_url(candidate)
             ):
                 return candidate
 
@@ -310,7 +329,7 @@ def article_details(url):
             " ".join(parser.parts),
         ).strip()[:10000]
 
-             image_url = parser.image_url.strip()
+        image_url = parser.image_url.strip()
 
         if image_url:
             image_url = urljoin(
@@ -318,24 +337,10 @@ def article_details(url):
                 image_url,
             )
 
-            image_lower = image_url.lower()
-
-            blocked_image_parts = [
-                "news.google.com",
-                "gstatic.com",
-                "googleusercontent.com",
-                "google.com/images",
-                "google-news",
-                "googlenews",
-            ]
-
-            if any(
-                blocked in image_lower
-                for blocked in blocked_image_parts
-            ):
+            if is_blocked_image_url(image_url):
                 image_url = ""
 
-        return article_text, image_url 
+        return article_text, image_url
 
     except Exception:
         return "", ""
@@ -705,7 +710,13 @@ def main():
                     "source": item["source"],
                     "image_url": (
                         article_image
-                        or item.get("image_url", "")
+                        or (
+                            ""
+                            if is_blocked_image_url(
+                                item.get("image_url", "")
+                            )
+                            else item.get("image_url", "")
+                        )
                     ),
                     "published": item.get(
                         "published",
@@ -727,13 +738,28 @@ def main():
     image_backfills = 0
 
     for story in stories:
-        if image_backfills >= MAX_IMAGE_BACKFILL_PER_RUN:
-            break
+        existing_image = story.get(
+            "image_url",
+            "",
+        ).strip()
 
-        if story.get("image_url"):
+        if (
+            existing_image
+            and is_blocked_image_url(existing_image)
+        ):
+            story["image_url"] = ""
+            existing_image = ""
+
+        if image_backfills >= MAX_IMAGE_BACKFILL_PER_RUN:
             continue
 
-        original_url = story.get("original_url", "").strip()
+        if existing_image:
+            continue
+
+        original_url = story.get(
+            "original_url",
+            "",
+        ).strip()
 
         if not original_url:
             continue
@@ -744,6 +770,7 @@ def main():
             if image_url:
                 story["image_url"] = image_url
                 image_backfills += 1
+
                 print(
                     f"Added image for: "
                     f"{story.get('headline', 'story')}"
