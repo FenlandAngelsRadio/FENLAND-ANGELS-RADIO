@@ -28,16 +28,167 @@
   margin:0 auto 48px;
   transform:none;
 }
-.home-live{display:grid;grid-template-columns:1fr 1.2fr;overflow:hidden;border:1px solid #5b4520;border-radius:20px;background:#0d0f13;box-shadow:0 20px 55px rgba(0,0,0,.3)}
-.home-live-copy{padding:42px;background:radial-gradient(circle at 20% 20%,rgba(215,25,32,.16),transparent 45%)}
-.home-live-copy .eyebrow{margin-top:0}.home-live-copy h1{margin:10px 0 18px;font-size:clamp(42px,5vw,68px);line-height:.95;letter-spacing:-2px}.home-live-copy h1 span{color:#ff3138}.home-live-copy p{color:#d5d8df;font-size:18px;line-height:1.6}.home-live-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.home-player{padding:42px;display:flex;flex-direction:column;justify-content:center}.home-player-top{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:20px}.home-player-top strong{font-size:32px}.on-air{padding:8px 12px;border-radius:7px;background:#d71920;color:#fff;font-weight:900;font-size:13px}.player-row{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;margin-top:24px}.home-play{width:70px;height:70px;border:0;border-radius:50%;background:linear-gradient(180deg,#ef2027,#b90f15);color:#fff;font-size:27px;cursor:pointer}.player-info{display:flex;flex-direction:column;gap:5px}.player-info strong{font-size:17px}.player-info span{color:#b8bcc5;font-size:13px}.home-volume{width:100%;margin-top:24px;accent-color:#ff3138}
-.content-shell{
-  width:min(96vw,1480px);
-  margin:0 auto;
+.far-now-playing{
   display:grid;
-  grid-template-columns:minmax(0,1fr) 380px;
-  gap:60px;
-  align-items:start;
+  grid-template-columns:1fr 1fr;
+  overflow:hidden;
+  border:1px solid #5b4520;
+  border-radius:20px;
+  background:#0d0f13;
+  box-shadow:0 20px 55px rgba(0,0,0,.3);
+}
+
+/* CURRENT SHOW */
+
+.far-current-show{
+  padding:36px 42px 40px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  background:#11141a;
+  border-right:1px solid #2b2e35;
+}
+
+.far-current-label{
+  margin-bottom:12px;
+  color:#d4aa47;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:1.5px;
+}
+
+.far-current-show h2{
+  margin:0 0 24px;
+  color:#fff;
+  font-size:32px;
+  line-height:1.15;
+}
+
+.far-show-image-wrap{
+  width:min(100%,420px);
+  aspect-ratio:1/1;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:14px;
+  background:#090b0e;
+  border:1px solid #30343c;
+}
+
+.far-show-image-wrap img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
+.far-show-time{
+  margin-top:18px;
+  color:#d5d8df;
+  font-size:16px;
+  font-weight:800;
+}
+
+.far-schedule-link{
+  margin-top:12px;
+  color:#ff4b50;
+  text-decoration:none;
+  font-weight:900;
+}
+
+/* LIVE PLAYER */
+
+.far-live-player{
+  position:relative;
+  padding:42px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(215,25,32,.14),
+      transparent 60%
+    ),
+    #090b0f;
+}
+
+.far-on-air{
+  position:absolute;
+  top:24px;
+  right:24px;
+  padding:8px 13px;
+  border-radius:7px;
+  background:#d71920;
+  color:#fff;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.far-player-logo{
+  width:220px;
+  height:220px;
+  object-fit:contain;
+  margin-bottom:22px;
+}
+
+.far-live-player h2{
+  margin:0;
+  color:#fff;
+  font-size:34px;
+}
+
+.far-player-tagline{
+  margin:8px 0 24px;
+  color:#d4aa47;
+  font-size:17px;
+  font-weight:900;
+}
+
+.far-big-play{
+  width:92px;
+  height:92px;
+  border:0;
+  border-radius:50%;
+  background:linear-gradient(180deg,#ef2027,#b90f15);
+  color:#fff;
+  font-size:34px;
+  cursor:pointer;
+  box-shadow:0 10px 28px rgba(215,25,32,.25);
+}
+
+.far-player-status{
+  margin-top:16px;
+  color:#fff;
+  font-size:17px;
+  font-weight:900;
+}
+
+.far-player-quality{
+  margin-top:5px;
+  color:#9da2ad;
+  font-size:13px;
+}
+
+.far-player-volume{
+  width:min(100%,480px);
+  margin-top:28px;
+  accent-color:#ef2027;
+}
+
+.far-volume-row{
+  width:min(100%,480px);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:7px;
+  color:#9da2ad;
+  font-size:12px;
+}
 
 
 }
