@@ -28,10 +28,20 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_news.py
 
-      - name: Commit newsroom updates
+            - name: Commit newsroom updates
         run: |
           git config user.name "Fenland Angels News Bot"
           git config user.email "actions@users.noreply.github.com"
+
           git add news-data.json news.xml news-state.json
-          git diff --cached --quiet || git commit -m "Update Fenland Angels newsroom"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No newsroom changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update Fenland Angels newsroom"
+
+          git pull --rebase origin main
+
+          git push origin main
