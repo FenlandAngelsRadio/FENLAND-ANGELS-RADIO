@@ -40,35 +40,46 @@
 
 /* CURRENT SHOW */
 
+/* CURRENT SHOW */
+
 .far-current-show{
-  padding:28px 34px 30px;
-  display:flex;
-  flex-direction:column;
+  padding:26px 34px 22px;
+  display:grid;
+  grid-template-rows:
+    auto
+    auto
+    minmax(0,1fr)
+    auto
+    auto;
   align-items:center;
-  justify-content:center;
+  justify-items:center;
   text-align:center;
   background:#11141a;
   border-right:1px solid #2b2e35;
+  min-height:520px;
 }
 
 .far-current-label{
-  margin-bottom:10px;
+  margin:0 0 8px;
   color:#d4aa47;
   font-size:13px;
   font-weight:900;
   letter-spacing:1.5px;
+  align-self:start;
 }
 
 .far-current-show h2{
-  margin:0 0 14px;
+  margin:0;
   color:#fff;
   font-size:32px;
   line-height:1.15;
+  align-self:start;
 }
 
 .far-show-image-wrap{
-  width:min(100%,520px);
-  margin:14px auto 14px;
+  width:min(100%,540px);
+  height:100%;
+  min-height:250px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -83,24 +94,27 @@
   width:auto;
   max-width:100%;
   height:auto;
-  max-height:285px;
+  max-height:290px;
   object-fit:contain;
   border:0;
   border-radius:0;
 }
 
 .far-show-time{
-  margin-top:10px;
-  color:#d5d8df;
-  font-size:16px;
-  font-weight:800;
+  margin:0 0 6px;
+  color:#fff;
+  font-size:21px;
+  font-weight:900;
+  line-height:1.2;
 }
 
 .far-schedule-link{
-  margin-top:10px;
+  margin:0;
   color:#ff4b50;
   text-decoration:none;
+  font-size:17px;
   font-weight:900;
+  line-height:1.2;
 }
     
 /* LIVE PLAYER */
