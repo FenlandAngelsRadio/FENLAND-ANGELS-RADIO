@@ -67,14 +67,25 @@
 
 .far-show-image-wrap{
   width:min(100%,420px);
-  aspect-ratio:1/1;
-  overflow:hidden;
+  min-height:320px;
   display:flex;
   align-items:center;
   justify-content:center;
-  border-radius:14px;
-  background:#090b0e;
-  border:1px solid #30343c;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  overflow:visible;
+}
+
+.far-show-image-wrap img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:360px;
+  object-fit:contain;
+  border:0;
+  border-radius:0;
+}
 }
 
 .far-show-image-wrap img{
