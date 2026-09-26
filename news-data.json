@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-09-26T05:48:45.331954+00:00",
+  "updated_at": "2026-09-26T15:06:53.278125+00:00",
   "stories": [
+    {
+      "id": "fenland-news-2fcae7b9b845e5db5d6d1bf7",
+      "headline": "Death of Phoebe Bird from Long Sutton",
+      "brief": "The death of Phoebe Bird has been announced. According to an obituary published in the Lincolnshire Free Press, the resident of Long Sutton passed away in 2022. No further details regarding the circumstances of her death or funeral arrangements have been provided.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWi1tVUZIVy1WUjBaSEJHSkVDdmFDWmRyM3FMc3VFb3R0Vk5ycFVWX1lzUmMwa2FBSWFGLURhX05KTVlZZ3JlOEZFd1JBSnZOczdHc3ZiVnh1ZU4wMk1jSW12OW1nb3dPcE5OalJaeGNBQnZiV0hRQXg4aUJNeTVYU19lN3BGN1lIWlZNZWxIbmpuaGQ4bjZKR2p0VGNRS1Q5?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2022-01-25T08:00:00+00:00",
+      "generated_at": "2026-09-26T15:06:50.654917+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:50 +0000"
+    },
+    {
+      "id": "fenland-news-7cc164d2ec6e999718e2483a",
+      "headline": "Teacher to face three-day misconduct hearing",
+      "brief": "A teacher is due to appear before a three-day misconduct hearing. The details of the case were reported by The Hunts Post. No further information regarding the identity of the individual or the nature of the allegations has been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUlRV2lmMGFqUEdab1NocWprU3hlS2VldjdwQWRHTkJwMnVnd1NIREZZRmxNR21NTE1fM0xLSzR1S25ETVBVYi1qZzc5M3VLdDBYUDZ0UUY5aEZ3MlBPX0Myc081U1F4X09sVHFpdXhJdDEwMDAzRmREX29jaW5wZlhGS1BfVWp6T0lkaGFaQ05kMWpUQkZhSHRJaw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-02-19T08:00:00+00:00",
+      "generated_at": "2026-09-26T15:06:43.457299+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:43 +0000"
+    },
+    {
+      "id": "fenland-news-33aa2d57d18e93aa1c231e58",
+      "headline": "King’s Lynn to host annual steampunk celebration",
+      "brief": "King’s Lynn Steampunk Society is hosting a day of themed entertainment on Saturday, October 3. The event begins with a free bazaar at St Nicholas’ Chapel, running from 10am until 4pm. Visitors can browse stalls featuring crafts, clothing, and jewellery, while enjoying live music and a hat competition. Author Tracee Findlater will also launch her latest book during the day.\n\nThe celebrations conclude with a 6pm screening of the film Chitty Chitty Bang Bang at the Majestic Cinema. Organised alongside the Lynn Community Cinema Club, the screening encourages audience participation and fancy dress. Tickets for the film are available through the Majestic Cinema website or at the box office.",
+      "original_url": "https://www.lynnnews.co.uk/news/a-celebration-of-steampunk-culture-9484246/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/YM1YK1HV56827M2Y44T7.jpg",
+      "published": "2026-09-26T05:00:00+00:00",
+      "generated_at": "2026-09-26T15:06:37.961174+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:37 +0000"
+    },
+    {
+      "id": "fenland-news-504d5f3911fcdfabe09a8e13",
+      "headline": "Fire reported at household recycling centre",
+      "brief": "A fire has broken out at a household recycling centre. Emergency services were called to the scene to deal with the blaze. No further details regarding the location or the impact on local services have been provided at this time. Residents are advised to monitor local updates for any potential disruption to waste disposal facilities in the area.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5STDhuSHp3ZUdyT0l4LWxDMFZWblZKR2JORGtOUzRwbUZVVG4yWm5ZSEh4bHF3WUszb19YUVNpYWhFNldlOUdVYl9ILWZkRzlpSTh2V2VjbnBQYWEzVXc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-09-26T13:55:15+00:00",
+      "generated_at": "2026-09-26T15:06:24.337050+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:24 +0000"
+    },
+    {
+      "id": "fenland-news-49104ef25d4d239053f97a99",
+      "headline": "Care home staff in Long Sutton and Spalding receive awards",
+      "brief": "Staff working at care homes in Long Sutton and Spalding have been formally recognised for their service. According to reports from the Spalding South Holland News, employees at the facilities were presented with awards for their ongoing work. No further details regarding the specific nature of the recognition or the individuals involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaVpad0IzMVhsWFgzLXdzVDRxM2l0azZ1RUtqOGUxbEFodmtGSFAxTmxJRUc4UTU4MXZJS1JhQkRJOWJ3c2VEOXF0NFRhcm5JTFVQQzQ2Q0Q3cEFjeVVubGN0MnlJOGZTS05BX1pzanJGUUdRN3hIUmV5bF84TFNJR09EN3hzZGtqbllQNzVpWUVrMDRJWVJ4OFBLYkp3eUxHVzJSMThvOA?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2018-03-08T08:00:00+00:00",
+      "generated_at": "2026-09-26T15:06:14.194306+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:14 +0000"
+    },
+    {
+      "id": "fenland-news-4149810d0a7c869b866c2269",
+      "headline": "Man arrested following drugs stop in the Fens",
+      "brief": "Police have arrested a man in the Fens following a stop related to illegal drugs. Authorities confirmed that the individual is currently subject to a ban preventing him from entering the United Kingdom. No further details regarding the location of the stop or the specific charges have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTN1cDJLclhfMnlVbDJ0TjVZcHF1Si1vaFdlOHcxU0NOOVQzRlpEN2NPR1dpQndwdXRwZFRfUkhFTE4zbnAwTG5KRmJRTUItOEhjWnNUV2xJWnRXby1Gd2tXZDZSVVk1WWRhNy11OHljR2JWbS11cF94RW5nNkhuWVZlNjd3THRhcE9qUlZZN0JFem9TSFg0?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-09-26T10:02:00+00:00",
+      "generated_at": "2026-09-26T15:06:07.756493+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:07 +0000"
+    },
+    {
+      "id": "fenland-news-c7d461533092a994d6b4f3a6",
+      "headline": "King’s Lynn man fined following Tower Gardens incident",
+      "brief": "A 38-year-old man has been fined after refusing to leave Tower Gardens in King’s Lynn. On July 3, police encountered Aleksandr Los, of Guanock Place, surrounded by beer cans and unable to stand properly. Officers reported that Mr Los refused to engage with them and shouted and swore in Romanian. \n\nHe was subsequently arrested for being drunk and disorderly. During a hearing at Lynn Magistrates’ Court on Thursday, Mr Los pleaded guilty to the charge. He told the court that he has since stopped drinking. The bench ordered him to pay a total of £271, consisting of a £133 fine, a £53 victim surcharge, and £85 in court costs.",
+      "original_url": "https://www.lynnnews.co.uk/news/man-lying-around-beer-cans-in-town-park-refused-to-leave-are-9484414/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/T01E0PLBNNY5CO5POC2F.jpg",
+      "published": "2026-09-26T05:00:00+00:00",
+      "generated_at": "2026-09-26T15:06:02.053403+00:00",
+      "rss_date": "Sat, 26 Sep 2026 15:06:02 +0000"
+    },
     {
       "id": "fenland-news-96bcb2fdb861f4d820d5c7f6",
       "headline": "Firefighters attend shed blaze in Spalding",
@@ -9,7 +86,8 @@
       "source": "Spalding South Holland News",
       "published": "2023-08-08T07:00:00+00:00",
       "generated_at": "2026-09-26T05:48:45.331808+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:45 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:45 +0000",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "fenland-news-2185de92a3f5fb9b09f0a331",
@@ -19,7 +97,8 @@
       "source": "Lynn News",
       "published": "2026-09-26T05:00:00+00:00",
       "generated_at": "2026-09-26T05:48:43.838186+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:43 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:43 +0000",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/HOSP8K44WLS0PHS6ABB3.jpg"
     },
     {
       "id": "fenland-news-2b6ce66ae8a0323ec1bae14e",
@@ -29,7 +108,8 @@
       "source": "Peterborough Fenland Edge News",
       "published": "2026-09-26T04:00:00+00:00",
       "generated_at": "2026-09-26T05:48:41.720248+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:41 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:41 +0000",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "fenland-news-dcf753593c88ff0566d81e65",
@@ -39,7 +119,8 @@
       "source": "Ely East Cambridgeshire News",
       "published": "2026-09-25T12:17:00+00:00",
       "generated_at": "2026-09-26T05:48:40.817965+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:40 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:40 +0000",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "fenland-news-fc155306d2b20b1bbeca19ae",
@@ -49,7 +130,8 @@
       "source": "Spalding South Holland News",
       "published": "2025-12-30T08:00:00+00:00",
       "generated_at": "2026-09-26T05:48:39.829886+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:39 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:39 +0000",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "fenland-news-d32a43e6c6e6a7b59f403f89",
@@ -59,7 +141,8 @@
       "source": "March Chatteris Whittlesey News",
       "published": "2026-09-25T09:33:00+00:00",
       "generated_at": "2026-09-26T05:48:38.696624+00:00",
-      "rss_date": "Sat, 26 Sep 2026 05:48:38 +0000"
+      "rss_date": "Sat, 26 Sep 2026 05:48:38 +0000",
+      "image_url": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
     },
     {
       "id": "fenland-news-28c15d802f3de1884776630d",
@@ -930,76 +1013,6 @@
       "published": "2026-09-22T05:00:00+00:00",
       "generated_at": "2026-09-22T05:49:08.373023+00:00",
       "rss_date": "Tue, 22 Sep 2026 05:49:08 +0000"
-    },
-    {
-      "id": "fenland-news-22176f060998df70940e20da",
-      "headline": "Changes to opening hours at local leisure centre",
-      "brief": "Residents in the Spalding area are being advised of upcoming changes to the opening hours at their local leisure centre. While the facility will remain open for public use, the times available for visitors are set to be adjusted. Further details regarding the specific new schedule have not yet been confirmed. Those who use the centre regularly are encouraged to check for updates on the revised operating times before planning their next visit.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMkR1TTBlQy1hX3FtSWUzbkdxWmZRdXlkUVZ3WldrOXp6U21mby1rMHFVeHFXdEFYWEh4by1tOHpYMHdhS2xraWFSM0p2S29zcjVzVE1XUExlWmVaQVltNDA0RG4zLVI5c0Y2cHR5VFFTdElsQ1NlX0dqRmE2UHBNaFBsMnB5d1hMOFlzZXFDT1dlY2stYVNneTZKeDgzbmpBcFVjLS1VY0RxSjE0T2NjRA?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2024-10-24T07:00:00+00:00",
-      "generated_at": "2026-09-21T23:48:00.851656+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:48:00 +0000"
-    },
-    {
-      "id": "fenland-news-10c56f67b02c37bc6bb05ebf",
-      "headline": "Man jailed for grooming offence in Cambridgeshire",
-      "brief": "A man has been sentenced to prison following a grooming offence involving a teenage boy. Cambridgeshire Constabulary confirmed the conviction, which follows an investigation into the incident. No further details regarding the identity of the individual or the specific location of the crime have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUtwLTBrS0lIVW9rbFBrVzA1MEhKSkdaeWhHQkpZUUdmWHVYeDFyd1plSGxPUF9uS1hPeHZ3TmRsTDBTaHQxS0l2VmFHWTROTTdvb1hHb2dHZWtydGtUVDFXWmZLa203X0tTVHB5SHUxMFJJYWxQeUNDOUZxcHcyajJmYmw5aVo0MEVCYXIwdGpxVGJFbnZYTVdUQW54ekhtaWdBamZGTXVpZGc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-05-26T07:00:00+00:00",
-      "generated_at": "2026-09-21T23:47:58.222950+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:58 +0000"
-    },
-    {
-      "id": "fenland-news-c212e6092ffa4830e5e2418e",
-      "headline": "Police seize illegal motorbikes in King’s Lynn and West Winch",
-      "brief": "West Norfolk Police have seized two petrol-powered motocross bikes following reports of anti-social behaviour. On Wednesday evening, officers confiscated a small green bike in North Lynn after a five-year-old was seen riding it on public roads. A second bike was also recovered in West Winch. \n\nPolice confirmed that both vehicles had been illegally modified and were not permitted for road use. Officers have expressed concern regarding the dangerous use of these bikes on footpaths and shared spaces. Residents are being urged to report information about where these vehicles are stored and who is operating them to assist with ongoing investigations.",
-      "original_url": "https://www.lynnnews.co.uk/news/petrol-powered-motocross-bike-seized-after-five-year-old-see-9483648/",
-      "source": "Lynn News",
-      "published": "2026-09-21T11:43:31+00:00",
-      "generated_at": "2026-09-21T23:47:55.395774+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:55 +0000"
-    },
-    {
-      "id": "fenland-news-7584a16799c426952e05c84a",
-      "headline": "Peterborough United to face Colchester United",
-      "brief": "Peterborough United are set to play Colchester United in an upcoming football fixture. The match, titled On the Road with the U's, sees the Peterborough side travelling to compete against their opponents. Fans are advised to keep an eye on local sports schedules for further details regarding the kick-off time and venue arrangements for this encounter.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb0M4bHNMeXdVZHpTdm43cGI2R3o5T2F0a2tQZXdPSC03VXh5UWtYeWFJTC1QeTRiSzVpMHNWSFNKRlNpMnlJNVZMamUyOTJ3OGkwREQ1TjlLN3VVb3Y4UzRLaEJjZFdDN3RMZnN3RDBFY1QwWng5WnFicUNCX0tGZ3UwcV8tX0hFSDk2Z21ETXUwZ2s?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-21T18:40:09+00:00",
-      "generated_at": "2026-09-21T23:47:51.969244+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:51 +0000"
-    },
-    {
-      "id": "fenland-news-5dbb30d457c22a5e1c51088a",
-      "headline": "Ely school told to improve by Ofsted",
-      "brief": "An Ely school has been told it must urgently improve following a recent inspection by Ofsted. The school has expressed disappointment regarding the findings of the education watchdog. No further details have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXpGeDdpNGtyTkNKZDkwN2FPXzNGZktCMTd3U1BqTFAzOFQyMTN2OUQxajhUbVJqbG1Hb1VmUWxwaEVwQWZ3VzVseGVjUHJUS2VlQXZDeXJVaGlmd1NCN3lWN2c0dEpveGhXSjJUaXRtOGcyMmhGbTlLM2JvYk9pcTNOMGlpSXVaX0NTS3VQVi16d2dVa2hnNdIBngFBVV95cUxPakVDMHFxc19qbDZuMEEzOEdYV3NsNFFLeWN4WWU5US0temx6a0I3X1I5VVZPVlF5TkhibzJzVzNwVnZiS0ZzREFMbjloVmllUmpZNm1acWc4YmdPdHRGLWxUTTRSNlYyOWs3Z3lueERNa3RIbnNTelpZNm5WWHBldmFvbU1WVFpvNTlCcTVRQ1VzZ3J2Y1ZaemdWU0ZxQQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-21T17:00:00+00:00",
-      "generated_at": "2026-09-21T23:47:48.509154+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:48 +0000"
-    },
-    {
-      "id": "fenland-news-b25d79ef7d03008488818025",
-      "headline": "Long Sutton father and son sentenced for Christmas Day assault",
-      "brief": "A father and son from Long Sutton have avoided prison sentences following an assault that took place on Christmas Day. The pair appeared in court regarding the incident, which occurred during the festive period. Both men were spared immediate jail time for their roles in the attack.",
-      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRFJGQk44Vlg2M19wRGptc2JSWDM5VHN2WTFPVm55bndoTFNUNjV0czVqSWVZQlMtdzQ3X0dMWF9TVDVRSmFqbUhVVEMxYzBBM3JyQk1ZejNIR1I4Nm9pdENvempxNW1jTjVjT1p3ZXJTMkhNMlNDcDlZMVVyM1BZQkNKMVlydDFiV0FZVHUyOTZScDFFYXdraEszeXJlN2RGUEVIUUtaNnJyZG1RX2ZV?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2024-06-17T07:00:00+00:00",
-      "generated_at": "2026-09-21T23:47:45.487889+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:45 +0000"
-    },
-    {
-      "id": "fenland-news-1a78f8503f21d3a2cf02a4d8",
-      "headline": "Cambridgeshire jewellers close branch following break-ins",
-      "brief": "A Cambridgeshire jewellery business has announced the closure of one of its branches. The decision follows two separate break-ins at the premises within the current year. The store will no longer operate at the affected location.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUDJlVW81QXVlU2p1eGNjRGpQTHRVRk5uZW51VEJUMU9SdVdZUloxSWo0NXhqMm1JYmhrZ1h5RUFfOUtHRUJ1UklyRS0zNlNwWm9IMHBEdF9TVEdrZnprUVBTQWVSbUZSMVg1OEZiSzQwNlAyb0loTGhsMkFwSEstM3U0MDVVVWVHZGVpUWh5NXpzNVZQc2ZjNQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-18T08:55:00+00:00",
-      "generated_at": "2026-09-21T23:47:42.786174+00:00",
-      "rss_date": "Mon, 21 Sep 2026 23:47:42 +0000"
     }
   ]
 }
