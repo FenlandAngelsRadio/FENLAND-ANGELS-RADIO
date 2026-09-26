@@ -1032,6 +1032,141 @@ updateFAROnAir();
 
 setInterval(updateFAROnAir, 60000);
 </script>
+  <script>
+function farEscape(value = '') {
+  return String(value).replace(
+    /[&<>"']/g,
+    character => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#039;'
+    })[character]
+  );
+}
+
+function farNewsIcon(source = '') {
+  const name = source.toLowerCase();
+
+  if (
+    name.includes('police') ||
+    name.includes('constabulary')
+  ) {
+    return '🚓';
+  }
+
+  if (
+    name.includes('council') ||
+    name.includes('district')
+  ) {
+    return '🏛️';
+  }
+
+  if (
+    name.includes('hospital') ||
+    name.includes('health')
+  ) {
+    return '🏥';
+  }
+
+  if (
+    name.includes('fire')
+  ) {
+    return '🚒';
+  }
+
+  return '📰';
+}
+
+fetch('news-data.json', {
+  cache: 'no-store'
+})
+.then(response => {
+  if (!response.ok) {
+    throw new Error('News feed unavailable');
+  }
+
+  return response.json();
+})
+.then(data => {
+
+  const box =
+    document.getElementById('homepageNews');
+
+  if (!box) return;
+
+  const stories =
+    Array.isArray(data.stories)
+      ? data.stories.slice(0, 3)
+      : [];
+
+  if (!stories.length) {
+    box.innerHTML = `
+      <div class="news-home-loading">
+        Latest news is temporarily unavailable.
+      </div>
+    `;
+    return;
+  }
+
+  box.innerHTML = stories.map(story => {
+
+    const headline =
+      farEscape(story.headline || 'Latest local news');
+
+    const brief =
+      farEscape(story.brief || '');
+
+    const source =
+      farEscape(story.source || 'Fenland Angels Radio Newsroom');
+
+    const icon =
+      farNewsIcon(story.source || '');
+
+    return `
+      <a
+        class="news-preview"
+        href="news.html"
+      >
+
+        <div class="news-image">
+          ${icon}
+        </div>
+
+        <strong>
+          ${headline}
+        </strong>
+
+        <p>
+          ${brief}
+        </p>
+
+        <span class="news-source">
+          ${source}
+        </span>
+
+      </a>
+    `;
+
+  }).join('');
+
+})
+.catch(() => {
+
+  const box =
+    document.getElementById('homepageNews');
+
+  if (box) {
+    box.innerHTML = `
+      <div class="news-home-loading">
+        Latest news is temporarily unavailable.
+      </div>
+    `;
+  }
+
+});
+</script>
   <script src="app.js"></script>
 
 </body>
