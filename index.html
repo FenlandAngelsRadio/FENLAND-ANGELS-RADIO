@@ -78,125 +78,121 @@
 
 
   <main class="home-main">
+<div class="home-hero-wrap">
 
-    <div class="home-hero-wrap">
+  <section class="far-now-playing">
 
+    <!-- CURRENTLY ON AIR -->
 
-      <!-- ============================================
-           LIVE RADIO
-           ============================================ -->
+    <div class="far-current-show">
 
-      <section class="home-live">
+      <div class="far-current-label">
+        CURRENTLY ON AIR
+      </div>
 
-        <div class="home-live-copy">
+      <h2 id="currentShowName">
+        Fenland Angels Radio
+      </h2>
 
-          <p class="eyebrow">
-            THE SOUND OF THE FENS
-          </p>
+      <div class="far-show-image-wrap">
+        <img
+          id="currentShowImage"
+          src="fenland-angels-radio-logo.jpg"
+          alt="Current programme"
+        >
+      </div>
 
-          <h1>
-            INDEPENDENT MUSIC
-            <br>
-            <span>RADIO COMMUNITY</span>
-          </h1>
+      <div
+        class="far-show-time"
+        id="currentShowTime"
+      >
+        Live across the Fens
+      </div>
 
-          <p>
-            Independent music, live radio, local voices,
-            community stories, news and weather —
-            broadcasting 24/7.
-          </p>
-
-          <div class="home-live-actions">
-
-            <button
-              class="btn primary player-button"
-              type="button"
-              data-action="play"
-            >
-              ▶ Listen Live
-            </button>
-
-            <a
-              class="btn outline"
-              href="schedule.html"
-            >
-              Show Schedule
-            </a>
-
-          </div>
-
-        </div>
-
-
-        <div class="home-player">
-
-          <div class="home-player-top">
-
-            <span class="on-air">
-              ON AIR
-            </span>
-
-            <strong>
-              Fenland Angels Radio
-            </strong>
-
-          </div>
-
-          <p>
-            Live from across the Fens.
-          </p>
-
-          <div class="player-row">
-
-            <button
-              class="home-play"
-              id="mainPlay"
-              type="button"
-              aria-label="Play Fenland Angels Radio"
-            >
-              ▶
-            </button>
-
-            <div class="player-info">
-
-              <strong id="playerStatus">
-                Tap play to listen live
-              </strong>
-
-              <span>
-                Fenland Angels Radio · 320 kbps
-              </span>
-
-            </div>
-
-          </div>
-
-          <input
-            id="volume"
-            class="home-volume"
-            type="range"
-            min="0"
-            max="1"
-            step="0.01"
-            value="0.9"
-            aria-label="Volume"
-          >
-
-          <audio
-            id="radioStream"
-            preload="none"
-          >
-            <source
-              src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
-              type="audio/mpeg"
-            >
-          </audio>
-
-        </div>
-
-      </section>
+      <a
+        class="far-schedule-link"
+        href="schedule.html"
+      >
+        View full schedule →
+      </a>
 
     </div>
+
+
+    <!-- LIVE PLAYER -->
+
+    <div class="far-live-player">
+
+      <span class="far-on-air">
+        LIVE
+      </span>
+
+      <img
+        class="far-player-logo"
+        src="fenland-angels-radio-logo.jpg"
+        alt="Fenland Angels Radio"
+      >
+
+      <h2>
+        Fenland Angels Radio
+      </h2>
+
+      <p class="far-player-tagline">
+        The Sound of the Fens
+      </p>
+
+      <button
+        class="far-big-play"
+        id="mainPlay"
+        type="button"
+        aria-label="Play Fenland Angels Radio"
+      >
+        ▶
+      </button>
+
+      <div
+        class="far-player-status"
+        id="playerStatus"
+      >
+        Tap play to listen live
+      </div>
+
+      <div class="far-player-quality">
+        Fenland Angels Radio · 320 kbps
+      </div>
+
+      <input
+        id="volume"
+        class="far-player-volume"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.9"
+        aria-label="Volume"
+      >
+
+      <div class="far-volume-row">
+        <span>🔈</span>
+        <span>Volume</span>
+        <span>🔊</span>
+      </div>
+
+      <audio
+        id="radioStream"
+        preload="none"
+      >
+        <source
+          src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
+          type="audio/mpeg"
+        >
+      </audio>
+
+    </div>
+
+  </section>
+
+</div>
 
     <div class="content-shell">
 
