@@ -1,4 +1,28 @@
 /* Fenland Angels Radio - unified navigation */
+
+body{
+  padding-top:125px;
+}
+
+.far-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1000;
+
+  display:flex;
+  align-items:center;
+  gap:28px;
+
+  padding:14px 3.5vw;
+
+  background:rgba(4,5,7,.97);
+
+  border-bottom:1px solid #211d18;
+
+  backdrop-filter:blur(12px);
+}/* Fenland Angels Radio - unified navigation */
 .far-header{
   position:fixed;
   top:0;
