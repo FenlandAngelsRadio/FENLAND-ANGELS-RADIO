@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Submit an Event | Fenland Angels Radio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site-nav.css?v=1">
+<link rel="stylesheet" href="events-system.css?v=1">
+<script src="site-nav.js?v=1" defer></script>
+</head>
+
+<body>
+
+<header></header>
+
+<main>
+
+<section class="simple-hero" style="padding:70px 3.5vw 40px;min-height:260px;background:radial-gradient(circle at 15% 25%,rgba(215,25,32,.18),transparent 35%)">
+  <p class="eyebrow">COMMUNITY</p>
+  <h1 style="font-size:clamp(44px,6vw,70px);margin:10px 0 16px;line-height:.95">Submit <span style="color:#ff3138">Your Event</span></h1>
+  <p class="lead">Send your event to Fenland Angels Radio. Nathaniel or Nick will check it before it goes live.</p>
+</section>
+
+<form id="eventForm" class="event-form-card" novalidate>
+
+  <div class="event-form-grid">
+
+    <div class="event-field full">
+      <label for="title">Event name *</label>
+      <input id="title" name="title" maxlength="140" required>
+    </div>
+
+    <div class="event-field">
+      <label for="event_date">Event date *</label>
+      <input id="event_date" name="event_date" type="date" required>
+    </div>
+
+    <div class="event-field">
+      <label for="town">Town / village *</label>
+      <input id="town" name="town" maxlength="100" required>
+    </div>
+
+    <div class="event-field">
+      <label for="start_time">Start time</label>
+      <input id="start_time" name="start_time" type="time">
+    </div>
+
+    <div class="event-field">
+      <label for="end_time">End time</label>
+      <input id="end_time" name="end_time" type="time">
+    </div>
+
+    <div class="event-field full">
+      <label for="venue">Venue</label>
+      <input id="venue" name="venue" maxlength="160">
+    </div>
+
+    <div class="event-field full">
+      <label for="description">Event details *</label>
+      <textarea id="description" name="description" maxlength="1500" required></textarea>
+      <small>Maximum 1,500 characters.</small>
+    </div>
+
+    <div class="event-field">
+      <label for="price_text">Price / entry</label>
+      <input id="price_text" name="price_text" maxlength="100" placeholder="e.g. Free, £5, £10 adults">
+    </div>
+
+    <div class="event-field">
+      <label for="booking_url">Website / ticket link</label>
+      <input id="booking_url" name="booking_url" type="url" maxlength="500" placeholder="https://">
+    </div>
+
+    <div class="event-field">
+      <label for="contact_name">Your name *</label>
+      <input id="contact_name" name="contact_name" maxlength="120" required>
+    </div>
+
+    <div class="event-field">
+      <label for="contact_email">Your email *</label>
+      <input id="contact_email" name="contact_email" type="email" maxlength="200" required>
+    </div>
+
+    <div class="event-field">
+      <label for="contact_phone">Contact phone</label>
+      <input id="contact_phone" name="contact_phone" maxlength="50">
+    </div>
+
+    <div class="event-field">
+      <label for="organiser">Organisation / group</label>
+      <input id="organiser" name="organiser" maxlength="160">
+    </div>
+
+    <div class="event-field full">
+      <label>
+        <input id="confirm" type="checkbox" required>
+        I confirm the event information is accurate and FAR may publish these event details.
+      </label>
+    </div>
+
+    <div class="event-honeypot" aria-hidden="true">
+      <label for="website">Leave this field empty</label>
+      <input id="website" name="website" tabindex="-1" autocomplete="off">
+    </div>
+
+  </div>
+
+  <div style="margin-top:22px">
+    <button id="submitButton" class="far-action" type="submit">
+      Send event to FAR
+    </button>
+  </div>
+
+  <div id="formStatus" class="event-form-status" role="status" aria-live="polite"></div>
+
+</form>
+
+</main>
+
+<footer>
+  <div>
+    <strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong>
+    <span>Independent Music Radio Community</span>
+  </div>
+  <div class="footer-live"><span>THE SOUND OF THE FENS</span></div>
+  <div>
+    <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a>
+    <a href="tel:+447401152538">07401 152538</a>
+  </div>
+</footer>
+
+<script src="events-config.js"></script>
+<script>
+(function(){
+  const form = document.getElementById('eventForm');
+  const statusBox = document.getElementById('formStatus');
+  const button = document.getElementById('submitButton');
+  const cfg = window.FAR_EVENTS_CONFIG || {};
+
+  function showStatus(message,type){
+    statusBox.textContent = message;
+    statusBox.className = 'event-form-status ' + type;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    if(!form.reportValidity()) return;
+
+    if(!cfg.SUPABASE_URL || cfg.SUPABASE_URL.includes('YOUR_PROJECT_REF')){
+      showStatus('The event system has not been connected yet. Please try again later.','error');
+      return;
+    }
+
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    button.disabled = true;
+    button.textContent = 'Sending…';
+
+    try{
+      const response = await fetch(
+        `${cfg.SUPABASE_URL}/functions/v1/submit-event`,
+        {
+          method:'POST',
+          headers:{
+            'Content-Type':'application/json',
+            'apikey':cfg.SUPABASE_ANON_KEY,
+            'Authorization':`Bearer ${cfg.SUPABASE_ANON_KEY}`
+          },
+          body:JSON.stringify(data)
+        }
+      );
+
+      const result = await response.json().catch(() => ({}));
+
+      if(!response.ok){
+        throw new Error(result.error || 'Could not submit event');
+      }
+
+      form.reset();
+      showStatus(
+        'Thanks — your event has been sent to Fenland Angels Radio. Nathaniel and Nick have been alerted and it will appear after approval.',
+        'ok'
+      );
+    }
+    catch(error){
+      console.error(error);
+      showStatus('Sorry, the event could not be sent. Please try again.','error');
+    }
+    finally{
+      button.disabled = false;
+      button.textContent = 'Send event to FAR';
+    }
+  });
+})();
+</script>
+
+</body>
+</html>

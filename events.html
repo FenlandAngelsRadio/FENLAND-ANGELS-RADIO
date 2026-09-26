@@ -7,40 +7,148 @@
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="site-nav.css?v=1">
+<link rel="stylesheet" href="events-system.css?v=1">
 <script src="site-nav.js?v=1" defer></script>
-<style>
-.simple-hero{padding:70px 3.5vw 40px;min-height:310px;background:radial-gradient(circle at 15% 25%,rgba(215,25,32,.18),transparent 35%)}
-.simple-hero h1{font-size:clamp(46px,6vw,76px);margin:10px 0 16px;line-height:.95}
-.simple-hero h1 span{color:#ff3138}
-.simple-wrap{padding:0 3.5vw 70px}
-.simple-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-.simple-card{padding:26px;border:1px solid #2d3037;border-radius:16px;background:#0d0f13}
-.simple-card h2,.simple-card h3{margin-top:0}
-.simple-card p{color:#cfd2d9;line-height:1.65}
-.simple-card a{color:#ff4b50;text-decoration:none;font-weight:800}
-@media(max-width:760px){.simple-hero,.simple-wrap{padding-left:18px;padding-right:18px}.simple-grid{grid-template-columns:1fr}}
-</style>
-
 </head>
+
 <body>
+
 <header></header>
+
 <main>
-<section class="simple-hero">
+
+<section class="simple-hero" style="padding:70px 3.5vw 40px;min-height:310px;background:radial-gradient(circle at 15% 25%,rgba(215,25,32,.18),transparent 35%)">
   <p class="eyebrow">COMMUNITY</p>
-  <h1>Events <span>Across the Fens</span></h1>
+  <h1 style="font-size:clamp(46px,6vw,76px);margin:10px 0 16px;line-height:.95">Events <span style="color:#ff3138">Across the Fens</span></h1>
   <p class="lead">Local events, community activities and things to do from across the wider Fens.</p>
 </section>
-<section class="simple-wrap">
-  <div class="simple-grid">
-    <article class="simple-card"><h2>What’s On</h2><p>The FAR events guide will bring together current events from communities across the Fens.</p></article>
-<article class="simple-card"><h2>Tell FAR About Your Event</h2><p>Organising a local event? Send the details to Fenland Angels Radio.</p><a href="mailto:fenlandangelsradio@gmail.com?subject=Local%20Event%20Submission">Submit an event →</a></article>
+
+<section class="events-shell">
+
+  <div class="events-toolbar">
+    <p>
+      <strong>Tell FAR about your event.</strong><br>
+      Submit the details online. Nathaniel or Nick will review it before it appears here.
+    </p>
+
+    <a class="far-action" href="submit-event.html">
+      Submit an event →
+    </a>
   </div>
+
+  <div id="eventsList" class="events-list">
+    <div class="event-loading">Loading upcoming events…</div>
+  </div>
+
 </section>
+
 </main>
+
 <footer>
-  <div><strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong><span>Independent Music Radio Community</span></div>
+  <div>
+    <strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong>
+    <span>Independent Music Radio Community</span>
+  </div>
   <div class="footer-live"><span>THE SOUND OF THE FENS</span></div>
-  <div><a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a><a href="tel:+447401152538">07401 152538</a></div>
+  <div>
+    <a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a>
+    <a href="tel:+447401152538">07401 152538</a>
+  </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="events-config.js"></script>
+<script>
+(function(){
+  const list = document.getElementById('eventsList');
+  const cfg = window.FAR_EVENTS_CONFIG || {};
+
+  if (!cfg.SUPABASE_URL || cfg.SUPABASE_URL.includes('YOUR_PROJECT_REF')) {
+    list.innerHTML = '<div class="event-empty">Events system is being connected. Please check back soon.</div>';
+    return;
+  }
+
+  const client = supabase.createClient(cfg.SUPABASE_URL, cfg.SUPABASE_ANON_KEY);
+
+  function escapeHtml(value=''){
+    return String(value).replace(/[&<>"']/g, ch => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
+    })[ch]);
+  }
+
+  function prettyDate(dateValue){
+    if(!dateValue) return '';
+    const d = new Date(dateValue + 'T12:00:00');
+    return new Intl.DateTimeFormat('en-GB',{
+      weekday:'short',
+      day:'numeric',
+      month:'short',
+      year:'numeric'
+    }).format(d);
+  }
+
+  function prettyTime(value){
+    if(!value) return '';
+    return value.slice(0,5);
+  }
+
+  async function loadEvents(){
+    const today = new Date().toISOString().slice(0,10);
+
+    const { data, error } = await client
+      .from('events')
+      .select('id,title,event_date,start_time,end_time,venue,town,description,price_text,booking_url')
+      .eq('status','approved')
+      .gte('event_date', today)
+      .order('event_date',{ascending:true})
+      .order('start_time',{ascending:true});
+
+    if(error){
+      console.error(error);
+      list.innerHTML = '<div class="event-empty">Events are temporarily unavailable.</div>';
+      return;
+    }
+
+    if(!data || !data.length){
+      list.innerHTML = '<div class="event-empty">No upcoming events are listed yet. Organising something locally? Submit it to FAR.</div>';
+      return;
+    }
+
+    list.innerHTML = data.map(event => {
+      const when = [
+        prettyDate(event.event_date),
+        event.start_time ? prettyTime(event.start_time) : '',
+        event.end_time ? '– ' + prettyTime(event.end_time) : ''
+      ].filter(Boolean).join(' ');
+
+      const place = [event.venue,event.town].filter(Boolean).join(', ');
+
+      return `
+        <article class="event-card">
+          <div class="event-meta">
+            <span>${escapeHtml(when)}</span>
+            ${place ? `<span>${escapeHtml(place)}</span>` : ''}
+          </div>
+
+          <h2>${escapeHtml(event.title)}</h2>
+
+          ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ''}
+
+          ${event.price_text ? `<p><strong>${escapeHtml(event.price_text)}</strong></p>` : ''}
+
+          ${event.booking_url ? `
+            <a class="event-link" href="${escapeHtml(event.booking_url)}" target="_blank" rel="noopener">
+              More information / tickets →
+            </a>
+          ` : ''}
+        </article>
+      `;
+    }).join('');
+  }
+
+  loadEvents();
+})();
+</script>
+
 </body>
 </html>
