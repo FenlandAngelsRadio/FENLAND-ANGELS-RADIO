@@ -9,7 +9,7 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -60,6 +60,90 @@ class ArticleTextParser(HTMLParser):
         self.skip = 0
         self.parts = []
         self.image_url = ""
+        self.canonical_url = ""
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        tag = tag.lower()
+        attrs = dict(attrs)
+
+        if tag == "meta":
+            meta_name = (
+                attrs.get("property", "")
+                or attrs.get("name", "")
+            ).lower()
+
+            content = attrs.get("content", "").strip()
+
+            if (
+                meta_name in {
+                    "og:image",
+                    "og:image:url",
+                    "twitter:image",
+                    "twitter:image:src",
+                }
+                and content
+                and not self.image_url
+            ):
+                self.image_url = content
+
+            if (
+                meta_name == "og:url"
+                and content
+                and not self.canonical_url
+            ):
+                self.canonical_url = content
+
+        if tag == "link":
+            rel = attrs.get("rel", "").lower()
+            href = attrs.get("href", "").strip()
+
+            if (
+                "canonical" in rel
+                and href
+                and not self.canonical_url
+            ):
+                self.canonical_url = href
+
+        if tag == "a":
+            href = attrs.get("href", "").strip()
+
+            if href:
+                self.links.append(href)
+
+        if tag in {
+            "script",
+            "style",
+            "nav",
+            "footer",
+            "header",
+            "form",
+            "svg",
+        }:
+            self.skip += 1
+
+    def handle_endtag(self, tag):
+        if (
+            tag.lower()
+            in {
+                "script",
+                "style",
+                "nav",
+                "footer",
+                "header",
+                "form",
+                "svg",
+            }
+            and self.skip
+        ):
+            self.skip -= 1
+
+    def handle_data(self, data):
+        if not self.skip:
+            text = re.sub(r"\s+", " ", data).strip()
+
+            if len(text) > 35:
+                self.parts.append(text)
 
     def handle_starttag(self, tag, attrs):
         tag = tag.lower()
@@ -315,13 +399,101 @@ def parse_feed(source):
 
     return items
 
+def is_google_news_url(url):
+    try:
+        host = urlparse(url).netloc.lower()
 
+        return (
+            host == "news.google.com"
+            or host.endswith(".news.google.com")
+        )
+    except Exception:
+        return False
+
+
+def is_external_publisher_url(url):
+    try:
+        parsed = urlparse(url)
+
+        if parsed.scheme not in {"http", "https"}:
+            return False
+
+        host = parsed.netloc.lower()
+
+        blocked_hosts = (
+            "google.com",
+            "google.co.uk",
+            "news.google.com",
+            "gstatic.com",
+            "googleusercontent.com",
+            "youtube.com",
+            "facebook.com",
+            "twitter.com",
+            "x.com",
+        )
+
+        return not any(
+            host == blocked
+            or host.endswith("." + blocked)
+            for blocked in blocked_hosts
+        )
+
+    except Exception:
+        return False
+
+
+def find_publisher_url(parser, base_url):
+    candidates = []
+
+    if parser.canonical_url:
+        candidates.append(
+            urljoin(
+                base_url,
+                parser.canonical_url,
+            )
+        )
+
+    for link in parser.links:
+        candidates.append(
+            urljoin(
+                base_url,
+                link,
+            )
+        )
+
+    for candidate in candidates:
+        if is_external_publisher_url(candidate):
+            return candidate
+
+    return ""
+    
 def article_details(url):
     try:
         page_html, final_url = fetch_text_with_final_url(url)
 
         parser = ArticleTextParser()
         parser.feed(page_html)
+
+        if is_google_news_url(final_url):
+            publisher_url = find_publisher_url(
+                parser,
+                final_url,
+            )
+
+            if publisher_url:
+                try:
+                    page_html, final_url = fetch_text_with_final_url(
+                        publisher_url
+                    )
+
+                    parser = ArticleTextParser()
+                    parser.feed(page_html)
+
+                except Exception as error:
+                    print(
+                        f"Publisher page lookup failed: "
+                        f"{error}"
+                    )
 
         article_text = re.sub(
             r"\s+",
@@ -344,8 +516,7 @@ def article_details(url):
 
     except Exception:
         return "", ""
-
-
+        
 def story_key(item):
     raw = item["source"] + "|" + item["guid"]
 
