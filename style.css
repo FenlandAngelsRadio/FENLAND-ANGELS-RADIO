@@ -298,8 +298,8 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 }
 
 .news-fallback img{
-  width:72px !important;
-  height:72px !important;
+  width:86px !important;
+  height:86px !important;
   object-fit:cover;
   border-radius:50% !important;
   border:2px solid #d4aa47;
@@ -307,9 +307,14 @@ button.btn{border:0;color:#fff;cursor:pointer;font:inherit}
 
 .news-fallback span{
   color:#d4aa47;
-  font-size:13px;
+  font-size:15px;
   font-weight:900;
   letter-spacing:1.4px;
+}
+
+.news-fallback{
+  padding:18px;
+  box-sizing:border-box;
 }
 
 .news-fallback strong{
