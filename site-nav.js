@@ -80,3 +80,15 @@
     init();
   }
 })();
+
+window.addEventListener('scroll', function () {
+  const header = document.querySelector('.far-header');
+
+  if (!header) return;
+
+  if (window.scrollY > 60) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
