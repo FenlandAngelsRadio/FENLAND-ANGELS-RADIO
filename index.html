@@ -190,7 +190,13 @@
   font-size:12px;
 }
 
-
+.content-shell{
+  width:min(96vw,1480px);
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 380px;
+  gap:60px;
+  align-items:start;
 }
 
 .content-main{
@@ -213,8 +219,8 @@
 .community-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.community-column h2{margin:0 0 22px;font-size:28px}.community-list{display:flex;flex-direction:column;gap:18px}.event-row{display:grid;grid-template-columns:65px 1fr;gap:14px;align-items:start}.event-date{padding:8px 5px;border-radius:8px;background:#d71920;text-align:center;font-size:11px;font-weight:900}.event-date strong{display:block;font-size:22px}.community-item strong{display:block;margin-bottom:5px;font-size:16px}.community-item p{margin:0;color:#b8bcc5;line-height:1.5;font-size:14px}.podcast-row{padding-bottom:16px;border-bottom:1px solid #24272e}.podcast-row:last-child{border-bottom:0}
 .home-bottom{display:grid;grid-template-columns:1fr 1fr;gap:24px}.bottom-card{padding:28px;border:1px solid #292d34;border-radius:18px;background:#0d0f13}.bottom-card h2{margin:6px 0 15px;font-size:32px}.bottom-card p{color:#d1d4dc;line-height:1.65}.bottom-card a{color:#ff4b50;text-decoration:none}
 @media(max-width:1180px){.content-shell{grid-template-columns:1fr;width:min(100%,860px)}.content-ads{position:static;display:grid;grid-template-columns:repeat(2,1fr)}.side-ad,.side-ad.tall{min-height:260px}.home-hero-wrap{transform:none}}
-@media(max-width:850px){.home-live{grid-template-columns:1fr}.news-preview-grid,.voucher-grid{grid-template-columns:1fr}.community-grid,.home-bottom{grid-template-columns:1fr}.homepage-ad{grid-template-columns:1fr}.content-ads{grid-template-columns:1fr}}
-@media(max-width:600px){.home-main{padding:30px 16px 60px}.home-live-copy,.home-player{padding:28px 24px}.home-panel{padding:22px}.panel-heading{align-items:flex-start;flex-direction:column}}
+@media(max-width:850px){.far-now-playing{grid-template-columns:1fr}.far-current-show{border-right:0;border-bottom:1px solid #2b2e35}.news-preview-grid,.voucher-grid{grid-template-columns:1fr}.community-grid,.home-bottom{grid-template-columns:1fr}.homepage-ad{grid-template-columns:1fr}.content-ads{grid-template-columns:1fr}}
+@media(max-width:600px){.home-main{padding:30px 16px 60px}.far-current-show,.far-live-player{padding:28px 22px}.far-player-logo{width:170px;height:170px}.home-panel{padding:22px}.panel-heading{align-items:flex-start;flex-direction:column}}
 </style>
 
 </head>
