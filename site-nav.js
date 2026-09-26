@@ -25,7 +25,18 @@
       </a>
 
       <nav class="far-nav" aria-label="Main navigation">
-        <a href="news.html">News &amp; Weather</a>
+       <div class="far-dropdown">
+  <button class="far-dropbtn" type="button">
+    News &amp; Weather <span class="far-arrow">⌄</span>
+  </button>
+
+  <div class="far-menu">
+    <div class="far-menu-inner">
+      <a href="news.html">News</a>
+      <a href="weather.html">Weather</a>
+    </div>
+  </div>
+</div>
 
         <div class="far-dropdown">
           <button class="far-dropbtn" type="button">
