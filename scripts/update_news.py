@@ -9,6 +9,8 @@ import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
 
+from urllib.parse import urljoin
+
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from email.utils import parsedate_to_datetime
@@ -17,6 +19,7 @@ from email.utils import parsedate_to_datetime
 BASE_URL = "https://fenlandangelsradio.github.io/FENLAND-ANGELS-RADIO"
 MODEL = "gemini-3.1-flash-lite"
 MAX_NEW_STORIES_PER_RUN = 8
+MAX_IMAGE_BACKFILL_PER_RUN = 6
 
 SOURCES = [
     {
@@ -56,9 +59,33 @@ class ArticleTextParser(HTMLParser):
         super().__init__()
         self.skip = 0
         self.parts = []
+        self.image_url = ""
 
     def handle_starttag(self, tag, attrs):
-        if tag.lower() in {
+        tag = tag.lower()
+        attrs = dict(attrs)
+
+        if tag == "meta":
+            meta_name = (
+                attrs.get("property", "")
+                or attrs.get("name", "")
+            ).lower()
+
+            content = attrs.get("content", "").strip()
+
+            if (
+                meta_name in {
+                    "og:image",
+                    "og:image:url",
+                    "twitter:image",
+                    "twitter:image:src",
+                }
+                and content
+                and not self.image_url
+            ):
+                self.image_url = content
+
+        if tag in {
             "script",
             "style",
             "nav",
@@ -110,6 +137,22 @@ def fetch_text(url, timeout=25):
     )
 
 
+def fetch_text_with_final_url(url, timeout=25):
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT},
+    )
+
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return (
+            response.read().decode(
+                "utf-8",
+                errors="replace",
+            ),
+            response.geturl(),
+        )
+
+
 def clean_html(value):
     return re.sub(
         r"\s+",
@@ -140,6 +183,37 @@ def item_link(node):
 
             if child.attrib.get("href"):
                 return child.attrib["href"].strip()
+
+    return ""
+
+
+def item_image(node):
+    for child in node.iter():
+        tag = child.tag.split("}")[-1].lower()
+
+        if tag in {
+            "thumbnail",
+            "content",
+            "enclosure",
+            "image",
+        }:
+            candidate = (
+                child.attrib.get("url", "")
+                or child.attrib.get("href", "")
+                or (child.text or "")
+            ).strip()
+
+            media_type = child.attrib.get("type", "").lower()
+
+            if (
+                candidate.startswith(("http://", "https://"))
+                and (
+                    not media_type
+                    or media_type.startswith("image/")
+                    or tag in {"thumbnail", "image"}
+                )
+            ):
+                return candidate
 
     return ""
 
@@ -216,25 +290,38 @@ def parse_feed(source):
                     "description": description,
                     "guid": guid,
                     "published": published,
+                    "image_url": item_image(node),
                 }
             )
 
     return items
 
 
-def article_context(url):
+def article_details(url):
     try:
-        parser = ArticleTextParser()
-        parser.feed(fetch_text(url))
+        page_html, final_url = fetch_text_with_final_url(url)
 
-        return re.sub(
+        parser = ArticleTextParser()
+        parser.feed(page_html)
+
+        article_text = re.sub(
             r"\s+",
             " ",
             " ".join(parser.parts),
         ).strip()[:10000]
 
+        image_url = parser.image_url.strip()
+
+        if image_url:
+            image_url = urljoin(
+                final_url,
+                image_url,
+            )
+
+        return article_text, image_url
+
     except Exception:
-        return ""
+        return "", ""
 
 
 def story_key(item):
@@ -562,9 +649,13 @@ def main():
         )
 
         try:
+            article_text, article_image = article_details(
+                item["link"]
+            )
+
             rewritten = gemini_rewrite(
                 item,
-                article_context(item["link"]),
+                article_text,
                 api_key,
             )
 
@@ -595,6 +686,10 @@ def main():
                     "brief": brief,
                     "original_url": item["link"],
                     "source": item["source"],
+                    "image_url": (
+                        article_image
+                        or item.get("image_url", "")
+                    ),
                     "published": item.get(
                         "published",
                         "",
@@ -609,6 +704,38 @@ def main():
         except Exception as error:
             print(
                 f"Error processing story: "
+                f"{error}"
+            )
+
+    image_backfills = 0
+
+    for story in stories:
+        if image_backfills >= MAX_IMAGE_BACKFILL_PER_RUN:
+            break
+
+        if story.get("image_url"):
+            continue
+
+        original_url = story.get("original_url", "").strip()
+
+        if not original_url:
+            continue
+
+        try:
+            _, image_url = article_details(original_url)
+
+            if image_url:
+                story["image_url"] = image_url
+                image_backfills += 1
+                print(
+                    f"Added image for: "
+                    f"{story.get('headline', 'story')}"
+                )
+
+        except Exception as error:
+            print(
+                f"Image lookup failed for "
+                f"{story.get('headline', 'story')}: "
                 f"{error}"
             )
 
