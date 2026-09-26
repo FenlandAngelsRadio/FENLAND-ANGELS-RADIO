@@ -24,10 +24,7 @@ body{
   backdrop-filter:blur(12px);
 }/* Fenland Angels Radio - unified navigation */
 .far-header{
-  position:fixed;
-  top:0;
-  left:0;
-  right:0;
+ 
   body{
   padding-top:108px;
 }
