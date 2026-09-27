@@ -1,4 +1,263 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact FAR</title><link rel="stylesheet" href="site-nav.css?v=3"><link rel="stylesheet" href="site-nav.css?v=2"><link rel="stylesheet" href="far-forms.css?v=1"><script src="site-nav.js?v=3" defer></script>defer></script></head><body><header></header><main><section class="far-form-hero"><p class="eyebrow">GET IN TOUCH</p><h1>Contact <span>Fenland Angels Radio</span></h1><p class="lead">Send a message to the FAR team. Nathaniel or Nick can pick it up from the station admin.</p></section><section class="far-form-shell"><form id="farIntakeForm" class="far-form-card"><input type="hidden" name="kind" value="contact"><div class="far-grid"><div class="far-field"><label>Name *</label><input name="name" required maxlength="120"></div><div class="far-field"><label>Email *</label><input name="email" type="email" required maxlength="200"></div><div class="far-field"><label>Phone</label><input name="phone"></div><div class="far-field"><label>Subject *</label><select name="subject" required><option value="">Choose</option><option>General enquiry</option><option>Community</option><option>Programming</option><option>Technical / website</option><option>Music</option><option>Other</option></select></div><div class="far-field full"><label>Message *</label><textarea name="message" required maxlength="3000"></textarea></div><div class="honeypot"><input name="website" tabindex="-1" autocomplete="off"></div></div><div style="margin-top:22px"><button id="submitButton" class="far-submit" type="submit">Send to FAR</button></div><div id="formStatus" class="far-status"></div></form></section></main><footer><div><strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong><span>Independent Music Radio Community</span></div><div class="footer-live"><span>THE SOUND OF THE FENS</span></div><div><a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a><a href="tel:+447401152538">07401 152538</a></div></footer><script src="events-config.js"></script><script>
-const f=document.getElementById("farIntakeForm"),s=document.getElementById("formStatus"),b=document.getElementById("submitButton"),c=window.FAR_EVENTS_CONFIG||{};
-f.onsubmit=async e=>{e.preventDefault();if(!f.reportValidity())return;const p=Object.fromEntries(new FormData(f).entries());b.disabled=true;b.textContent="Sending…";try{const r=await fetch(`${c.SUPABASE_URL}/functions/v1/submit-inbox`,{method:"POST",headers:{"Content-Type":"application/json","apikey":c.SUPABASE_ANON_KEY,"Authorization":`Bearer ${c.SUPABASE_ANON_KEY}`},body:JSON.stringify(p)}),j=await r.json().catch(()=>({}));if(!r.ok)throw Error(j.error||"Could not send");f.reset();s.textContent="Thanks — your message has been sent to Fenland Angels Radio.";s.className="far-status ok"}catch(x){s.textContent=x.message;s.className="far-status error"}finally{b.disabled=false;b.textContent="Send to FAR"}}
-</script></body></html>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Contact FAR</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site-nav.css?v=3">
+<link rel="stylesheet" href="far-forms.css?v=1">
+
+<script src="site-nav.js?v=3" defer></script>
+</head>
+
+<body>
+
+<header></header>
+
+<main>
+
+<section class="far-form-hero">
+  <p class="eyebrow">GET IN TOUCH</p>
+
+  <h1>
+    Contact <span>Fenland Angels Radio</span>
+  </h1>
+
+  <p class="lead">
+    Send a message to the FAR team. Nathaniel or Nick can pick it up from the station admin.
+  </p>
+</section>
+
+<section class="far-form-shell">
+
+  <form id="farIntakeForm" class="far-form-card">
+
+    <input type="hidden" name="kind" value="contact">
+
+    <div class="far-grid">
+
+      <div class="far-field">
+        <label>Name *</label>
+        <input
+          name="name"
+          required
+          maxlength="120"
+        >
+      </div>
+
+      <div class="far-field">
+        <label>Email *</label>
+        <input
+          name="email"
+          type="email"
+          required
+          maxlength="200"
+        >
+      </div>
+
+      <div class="far-field">
+        <label>Phone</label>
+        <input
+          name="phone"
+        >
+      </div>
+
+      <div class="far-field">
+        <label>Subject *</label>
+
+        <select
+          name="subject"
+          required
+        >
+          <option value="">Choose</option>
+          <option>General enquiry</option>
+          <option>Community</option>
+          <option>Programming</option>
+          <option>Technical / website</option>
+          <option>Music</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="far-field full">
+        <label>Message *</label>
+
+        <textarea
+          name="message"
+          required
+          maxlength="3000"
+        ></textarea>
+      </div>
+
+      <div class="honeypot">
+        <input
+          name="website"
+          tabindex="-1"
+          autocomplete="off"
+        >
+      </div>
+
+    </div>
+
+    <div style="margin-top:22px">
+
+      <button
+        id="submitButton"
+        class="far-submit"
+        type="submit"
+      >
+        Send to FAR
+      </button>
+
+    </div>
+
+    <div
+      id="formStatus"
+      class="far-status"
+    ></div>
+
+  </form>
+
+</section>
+
+</main>
+
+<footer>
+
+  <div>
+    <strong>
+      © 2026 Fenland Angels Radio – Bastone Major Group Ltd.
+    </strong>
+
+    <span>
+      Independent Music Radio Community
+    </span>
+  </div>
+
+  <div class="footer-live">
+    <span>
+      THE SOUND OF THE FENS
+    </span>
+  </div>
+
+  <div>
+    <a href="mailto:fenlandangelsradio@gmail.com">
+      fenlandangelsradio@gmail.com
+    </a>
+
+    <a href="tel:+447401152538">
+      07401 152538
+    </a>
+  </div>
+
+</footer>
+
+<script src="events-config.js"></script>
+
+<script>
+const f =
+  document.getElementById("farIntakeForm");
+
+const s =
+  document.getElementById("formStatus");
+
+const b =
+  document.getElementById("submitButton");
+
+const c =
+  window.FAR_EVENTS_CONFIG || {};
+
+
+f.onsubmit = async e => {
+
+  e.preventDefault();
+
+  if(!f.reportValidity()){
+    return;
+  }
+
+  const p =
+    Object.fromEntries(
+      new FormData(f).entries()
+    );
+
+  b.disabled = true;
+  b.textContent = "Sending…";
+
+
+  try{
+
+    const r =
+      await fetch(
+        `${c.SUPABASE_URL}/functions/v1/submit-inbox`,
+        {
+          method:"POST",
+
+          headers:{
+            "Content-Type":"application/json",
+            "apikey":c.SUPABASE_ANON_KEY,
+            "Authorization":
+              `Bearer ${c.SUPABASE_ANON_KEY}`
+          },
+
+          body:
+            JSON.stringify(p)
+        }
+      );
+
+
+    const j =
+      await r
+        .json()
+        .catch(
+          () => ({})
+        );
+
+
+    if(!r.ok){
+
+      throw Error(
+        j.error ||
+        "Could not send"
+      );
+
+    }
+
+
+    f.reset();
+
+    s.textContent =
+      "Thanks — your message has been sent to Fenland Angels Radio.";
+
+    s.className =
+      "far-status ok";
+
+  }
+
+  catch(x){
+
+    s.textContent =
+      x.message;
+
+    s.className =
+      "far-status error";
+
+  }
+
+  finally{
+
+    b.disabled = false;
+
+    b.textContent =
+      "Send to FAR";
+
+  }
+
+};
+</script>
+
+</body>
+</html>
