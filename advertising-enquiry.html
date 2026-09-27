@@ -1,4 +1,450 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Advertising Enquiry</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-nav.css?v=2"><link rel="stylesheet" href="far-forms.css?v=1"><script src="site-nav.js?v=2" defer></script></head><body><header></header><main><section class="far-form-hero"><p class="eyebrow">ADVERTISING & SPONSORSHIP</p><h1>Talk to <span>FAR</span></h1><p class="lead">Ask about advertising, sponsorship or a campaign that does not fit a standard package.</p></section><section class="far-form-shell"><form id="farIntakeForm" class="far-form-card"><input type="hidden" name="kind" value="advertising"><div class="far-grid"><div class="far-field"><label>Business / organisation *</label><input name="business_name" required></div><div class="far-field"><label>Contact name *</label><input name="name" required></div><div class="far-field"><label>Email *</label><input name="email" type="email" required></div><div class="far-field"><label>Phone</label><input name="phone"></div><div class="far-field"><label>Interested in</label><select name="package_interest"><option value="">Not sure yet</option><option>FAR Starter</option><option>FAR Local</option><option>FAR Plus</option><option>FAR Prime</option><option>FAR Premium</option><option>Programme sponsorship</option><option>Station sponsorship</option><option>Website advertising</option><option>Something different</option></select></div><div class="far-field"><label>Artwork / audio ready?</label><select name="artwork_ready"><option value="">Choose</option><option>Yes</option><option>No</option><option>Not sure</option></select></div><div class="far-field"><label>Website</label><input name="website_url" type="url" placeholder="https://"></div><div class="far-field"><label>Preferred campaign dates</label><input name="campaign_dates"></div><div class="far-field full"><label>Tell us what you need *</label><textarea name="message" required></textarea></div><div class="honeypot"><input name="website" tabindex="-1" autocomplete="off"></div></div><div style="margin-top:22px"><button id="submitButton" class="far-submit" type="submit">Send to FAR</button></div><div id="formStatus" class="far-status"></div></form></section></main><footer><div><strong>© 2026 Fenland Angels Radio – Bastone Major Group Ltd.</strong><span>Independent Music Radio Community</span></div><div class="footer-live"><span>THE SOUND OF THE FENS</span></div><div><a href="mailto:fenlandangelsradio@gmail.com">fenlandangelsradio@gmail.com</a><a href="tel:+447401152538">07401 152538</a></div></footer><script src="events-config.js"></script><script>
-const f=document.getElementById("farIntakeForm"),s=document.getElementById("formStatus"),b=document.getElementById("submitButton"),c=window.FAR_EVENTS_CONFIG||{};
-f.onsubmit=async e=>{e.preventDefault();if(!f.reportValidity())return;const p=Object.fromEntries(new FormData(f).entries());b.disabled=true;b.textContent="Sending…";try{const r=await fetch(`${c.SUPABASE_URL}/functions/v1/submit-inbox`,{method:"POST",headers:{"Content-Type":"application/json","apikey":c.SUPABASE_ANON_KEY,"Authorization":`Bearer ${c.SUPABASE_ANON_KEY}`},body:JSON.stringify(p)}),j=await r.json().catch(()=>({}));if(!r.ok)throw Error(j.error||"Could not send");f.reset();s.textContent="Thanks — your message has been sent to Fenland Angels Radio.";s.className="far-status ok"}catch(x){s.textContent=x.message;s.className="far-status error"}finally{b.disabled=false;b.textContent="Send to FAR"}}
-</script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  >
+
+  <title>Advertising Enquiry</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="site-nav.css?v=3">
+  <link rel="stylesheet" href="far-forms.css?v=1">
+
+  <script src="site-nav.js?v=3" defer></script>
+</head>
+
+
+<body>
+
+<header></header>
+
+
+<main>
+
+  <section class="far-form-hero">
+
+    <p class="eyebrow">
+      ADVERTISING &amp; SPONSORSHIP
+    </p>
+
+    <h1>
+      Talk to <span>FAR</span>
+    </h1>
+
+    <p class="lead">
+      Ask about advertising, sponsorship or a campaign that does not fit a standard package.
+    </p>
+
+  </section>
+
+
+  <section class="far-form-shell">
+
+    <form
+      id="farIntakeForm"
+      class="far-form-card"
+    >
+
+      <input
+        type="hidden"
+        name="kind"
+        value="advertising"
+      >
+
+
+      <div class="far-grid">
+
+
+        <div class="far-field">
+
+          <label>
+            Business / organisation *
+          </label>
+
+          <input
+            name="business_name"
+            required
+          >
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Contact name *
+          </label>
+
+          <input
+            name="name"
+            required
+          >
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Email *
+          </label>
+
+          <input
+            name="email"
+            type="email"
+            required
+          >
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Phone
+          </label>
+
+          <input
+            name="phone"
+          >
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Interested in
+          </label>
+
+          <select name="package_interest">
+
+            <option value="">
+              Not sure yet
+            </option>
+
+            <option>
+              FAR Starter
+            </option>
+
+            <option>
+              FAR Local
+            </option>
+
+            <option>
+              FAR Plus
+            </option>
+
+            <option>
+              FAR Prime
+            </option>
+
+            <option>
+              FAR Premium
+            </option>
+
+            <option>
+              Programme sponsorship
+            </option>
+
+            <option>
+              Station sponsorship
+            </option>
+
+            <option>
+              Website advertising
+            </option>
+
+            <option>
+              Something different
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Artwork / audio ready?
+          </label>
+
+          <select name="artwork_ready">
+
+            <option value="">
+              Choose
+            </option>
+
+            <option>
+              Yes
+            </option>
+
+            <option>
+              No
+            </option>
+
+            <option>
+              Not sure
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Website
+          </label>
+
+          <input
+            name="website_url"
+            type="url"
+            placeholder="https://"
+          >
+
+        </div>
+
+
+        <div class="far-field">
+
+          <label>
+            Preferred campaign dates
+          </label>
+
+          <input
+            name="campaign_dates"
+          >
+
+        </div>
+
+
+        <div class="far-field full">
+
+          <label>
+            Tell us what you need *
+          </label>
+
+          <textarea
+            name="message"
+            required
+          ></textarea>
+
+        </div>
+
+
+        <div class="honeypot">
+
+          <input
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+          >
+
+        </div>
+
+
+      </div>
+
+
+      <div style="margin-top:22px">
+
+        <button
+          id="submitButton"
+          class="far-submit"
+          type="submit"
+        >
+          Send to FAR
+        </button>
+
+      </div>
+
+
+      <div
+        id="formStatus"
+        class="far-status"
+      ></div>
+
+
+    </form>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div>
+
+    <strong>
+      © 2026 Bastone Major Group Ltd
+    </strong>
+
+    <span>
+      Fenland Angels Radio — The Sound of the Fens
+    </span>
+
+    <a
+      class="far-admin-link"
+      href="admin-dashboard.html"
+      aria-label="FAR Admin"
+      title="FAR Admin"
+    >
+      ⚙
+    </a>
+
+  </div>
+
+
+  <div class="far-footer-links">
+
+    <strong>
+      GET IN TOUCH
+    </strong>
+
+    <a href="contact.html">
+      Contact Us
+    </a>
+
+    <a href="apply.html">
+      Presenter / DJ / Staff Applications
+    </a>
+
+    <a href="advertising.html">
+      Advertising &amp; Sponsorship
+    </a>
+
+  </div>
+
+
+  <div>
+
+    <a href="mailto:fenlandangelsradio@gmail.com">
+      fenlandangelsradio@gmail.com
+    </a>
+
+    <a href="tel:+447401152538">
+      07401 152538
+    </a>
+
+  </div>
+
+</footer>
+
+
+<script src="events-config.js"></script>
+
+
+<script>
+
+const f =
+  document.getElementById("farIntakeForm");
+
+const s =
+  document.getElementById("formStatus");
+
+const b =
+  document.getElementById("submitButton");
+
+const c =
+  window.FAR_EVENTS_CONFIG || {};
+
+
+f.onsubmit = async e => {
+
+  e.preventDefault();
+
+  if(!f.reportValidity()){
+    return;
+  }
+
+
+  const p =
+    Object.fromEntries(
+      new FormData(f).entries()
+    );
+
+
+  b.disabled = true;
+  b.textContent = "Sending…";
+
+
+  try{
+
+    const r =
+      await fetch(
+        `${c.SUPABASE_URL}/functions/v1/submit-inbox`,
+        {
+          method:"POST",
+
+          headers:{
+            "Content-Type":"application/json",
+            "apikey":c.SUPABASE_ANON_KEY,
+            "Authorization":`Bearer ${c.SUPABASE_ANON_KEY}`
+          },
+
+          body:JSON.stringify(p)
+        }
+      );
+
+
+    const j =
+      await r.json().catch(
+        () => ({})
+      );
+
+
+    if(!r.ok){
+
+      throw Error(
+        j.error || "Could not send"
+      );
+
+    }
+
+
+    f.reset();
+
+    s.textContent =
+      "Thanks — your message has been sent to Fenland Angels Radio.";
+
+    s.className =
+      "far-status ok";
+
+  }
+
+  catch(x){
+
+    s.textContent =
+      x.message;
+
+    s.className =
+      "far-status error";
+
+  }
+
+  finally{
+
+    b.disabled = false;
+
+    b.textContent =
+      "Send to FAR";
+
+  }
+
+};
+
+</script>
+
+
+</body>
+
+</html>
