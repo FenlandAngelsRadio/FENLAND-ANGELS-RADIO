@@ -1,1 +1,715 @@
-<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAR Admin</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-nav.css?v=2"><link rel="stylesheet" href="events-system.css"><link rel="stylesheet" href="far-forms.css"><script src="site-nav.js?v=2" defer></script></head><body><header></header><main class="admin-hub"><div class="admin-box"><p class="eyebrow">FAR ADMIN</p><h1>Website Admin</h1><div class="admin-grid"><a class="admin-card" href="admin-events.html"><strong>Events</strong><span>Review and manage events</span></a><a class="admin-card" href="admin-inbox.html?kind=contact"><strong>Contact Enquiries</strong><span>General website messages</span></a><a class="admin-card" href="admin-inbox.html?kind=application"><strong>Applications</strong><span>Presenters, DJs and station team</span></a><a class="admin-card" href="admin-inbox.html?kind=advertising"><strong>Advertising Leads</strong><span>Advertising and sponsorship enquiries</span></a></div></div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1"
+>
+
+<title>FAR Admin | Fenland Angels Radio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site-nav.css?v=3">
+<link rel="stylesheet" href="events-system.css">
+<link rel="stylesheet" href="far-forms.css">
+
+<script src="site-nav.js?v=3" defer></script>
+
+<style>
+
+.admin-shell{
+  width:min(92vw,1050px);
+  margin:0 auto;
+  padding:150px 0 80px;
+}
+
+.admin-login{
+  width:min(100%,520px);
+  margin:0 auto;
+  padding:34px;
+  border:1px solid #2d3037;
+  border-radius:18px;
+  background:#0d0f13;
+}
+
+.admin-login h1{
+  margin:6px 0 12px;
+  color:#fff;
+  font-size:38px;
+}
+
+.admin-login p{
+  color:#cfd2d9;
+  line-height:1.6;
+}
+
+.admin-field{
+  margin-top:18px;
+}
+
+.admin-field label{
+  display:block;
+  margin-bottom:7px;
+  color:#fff;
+  font-weight:800;
+}
+
+.admin-field input{
+  width:100%;
+  box-sizing:border-box;
+  padding:13px 14px;
+  border:1px solid #363a43;
+  border-radius:9px;
+  background:#11141a;
+  color:#fff;
+  font:inherit;
+}
+
+.admin-field input:focus{
+  outline:none;
+  border-color:#d4aa47;
+}
+
+.admin-signin{
+  width:100%;
+  margin-top:22px;
+  padding:14px 18px;
+  border:0;
+  border-radius:9px;
+  background:#d71920;
+  color:#fff;
+  font-weight:900;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.admin-signin:hover{
+  background:#ef2027;
+}
+
+.admin-status{
+  min-height:22px;
+  margin-top:14px;
+  color:#cfd2d9;
+}
+
+.admin-status.error{
+  color:#ff6b70;
+}
+
+.admin-panel{
+  width:100%;
+}
+
+.admin-topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  margin-bottom:30px;
+}
+
+.admin-topbar h1{
+  margin:5px 0;
+  font-size:42px;
+  color:#fff;
+}
+
+.admin-identity{
+  margin:0;
+  color:#cfd2d9;
+}
+
+.admin-signout{
+  padding:11px 18px;
+  border:1px solid #444954;
+  border-radius:9px;
+  background:#11141a;
+  color:#fff;
+  font-weight:800;
+  cursor:pointer;
+}
+
+.admin-signout:hover{
+  border-color:#d4aa47;
+}
+
+.admin-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+
+.admin-card{
+  min-height:150px;
+  padding:26px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  border:1px solid #2d3037;
+  border-radius:16px;
+  background:#0d0f13;
+  color:#fff;
+  text-decoration:none;
+  transition:.2s ease;
+}
+
+.admin-card:hover{
+  transform:translateY(-2px);
+  border-color:#d4aa47;
+  background:#11141a;
+}
+
+.admin-card strong{
+  margin-bottom:8px;
+  font-size:23px;
+}
+
+.admin-card span{
+  color:#b9bdc6;
+  line-height:1.5;
+}
+
+.admin-card.events strong{
+  color:#d4aa47;
+}
+
+.admin-card.contact strong{
+  color:#ff6267;
+}
+
+.admin-card.applications strong{
+  color:#fff;
+}
+
+.admin-card.advertising strong{
+  color:#d4aa47;
+}
+
+@media(max-width:700px){
+
+  .admin-shell{
+    padding:120px 18px 55px;
+  }
+
+  .admin-login{
+    padding:26px 22px;
+  }
+
+  .admin-grid{
+    grid-template-columns:1fr;
+  }
+
+  .admin-topbar{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<header></header>
+
+
+<main class="admin-shell">
+
+
+<section
+  id="loginPanel"
+  class="admin-login"
+>
+
+  <p class="eyebrow">
+    FAR ADMIN
+  </p>
+
+  <h1>
+    Website Admin
+  </h1>
+
+  <p>
+    Sign in with your individual Fenland Angels Radio admin account.
+  </p>
+
+
+  <div class="admin-field">
+
+    <label for="adminEmail">
+      Email
+    </label>
+
+    <input
+      id="adminEmail"
+      type="email"
+      autocomplete="username"
+    >
+
+  </div>
+
+
+  <div class="admin-field">
+
+    <label for="adminPassword">
+      Password
+    </label>
+
+    <input
+      id="adminPassword"
+      type="password"
+      autocomplete="current-password"
+    >
+
+  </div>
+
+
+  <button
+    id="loginButton"
+    class="admin-signin"
+    type="button"
+  >
+    Sign in
+  </button>
+
+
+  <div
+    id="loginStatus"
+    class="admin-status"
+  ></div>
+
+</section>
+
+
+
+<section
+  id="adminPanel"
+  class="admin-panel"
+  hidden
+>
+
+  <div class="admin-topbar">
+
+    <div>
+
+      <p class="eyebrow">
+        FAR ADMIN
+      </p>
+
+      <h1>
+        Website Admin
+      </h1>
+
+      <p
+        id="adminIdentity"
+        class="admin-identity"
+      ></p>
+
+    </div>
+
+
+    <button
+      id="logoutButton"
+      class="admin-signout"
+      type="button"
+    >
+      Sign out
+    </button>
+
+  </div>
+
+
+  <div class="admin-grid">
+
+
+    <a
+      class="admin-card events"
+      href="admin-events.html"
+    >
+
+      <strong>
+        Events
+      </strong>
+
+      <span>
+        Review, edit, approve, reject and manage submitted events.
+      </span>
+
+    </a>
+
+
+    <a
+      class="admin-card contact"
+      href="admin-inbox.html?kind=contact"
+    >
+
+      <strong>
+        Contact Enquiries
+      </strong>
+
+      <span>
+        View and manage general website messages.
+      </span>
+
+    </a>
+
+
+    <a
+      class="admin-card applications"
+      href="admin-inbox.html?kind=application"
+    >
+
+      <strong>
+        Applications
+      </strong>
+
+      <span>
+        Review presenter, DJ, volunteer and station-team applications.
+      </span>
+
+    </a>
+
+
+    <a
+      class="admin-card advertising"
+      href="admin-inbox.html?kind=advertising"
+    >
+
+      <strong>
+        Advertising Leads
+      </strong>
+
+      <span>
+        Manage advertising and sponsorship enquiries.
+      </span>
+
+    </a>
+
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="events-config.js"></script>
+
+
+<script>
+
+(function(){
+
+  const cfg =
+    window.FAR_EVENTS_CONFIG || {};
+
+
+  const loginPanel =
+    document.getElementById("loginPanel");
+
+  const adminPanel =
+    document.getElementById("adminPanel");
+
+  const loginButton =
+    document.getElementById("loginButton");
+
+  const logoutButton =
+    document.getElementById("logoutButton");
+
+  const adminEmail =
+    document.getElementById("adminEmail");
+
+  const adminPassword =
+    document.getElementById("adminPassword");
+
+  const loginStatus =
+    document.getElementById("loginStatus");
+
+  const adminIdentity =
+    document.getElementById("adminIdentity");
+
+
+  if(
+    !cfg.SUPABASE_URL ||
+    !cfg.SUPABASE_ANON_KEY
+  ){
+
+    loginStatus.textContent =
+      "FAR Admin is not configured.";
+
+    loginStatus.className =
+      "admin-status error";
+
+    return;
+
+  }
+
+
+  const client =
+    supabase.createClient(
+      cfg.SUPABASE_URL,
+      cfg.SUPABASE_ANON_KEY
+    );
+
+
+  async function checkAdmin(user){
+
+    if(!user){
+      return null;
+    }
+
+
+    const {
+      data,
+      error
+    } =
+      await client
+        .from("far_admins")
+        .select("display_name")
+        .eq("user_id",user.id)
+        .maybeSingle();
+
+
+    if(error){
+      throw error;
+    }
+
+
+    return data;
+
+  }
+
+
+
+  async function showDashboard(session){
+
+    const admin =
+      await checkAdmin(session.user);
+
+
+    if(!admin){
+
+      await client.auth.signOut();
+
+      loginPanel.hidden = false;
+      adminPanel.hidden = true;
+
+      loginStatus.textContent =
+        "This account is not authorised for FAR Admin.";
+
+      loginStatus.className =
+        "admin-status error";
+
+      return;
+
+    }
+
+
+    loginPanel.hidden = true;
+    adminPanel.hidden = false;
+
+    adminIdentity.textContent =
+      `Signed in as ${admin.display_name}`;
+
+  }
+
+
+
+  async function refreshAuth(){
+
+    try{
+
+      const {
+        data:{ session }
+      } =
+        await client.auth.getSession();
+
+
+      if(!session){
+
+        loginPanel.hidden = false;
+        adminPanel.hidden = true;
+
+        return;
+
+      }
+
+
+      await showDashboard(session);
+
+    }
+
+    catch(error){
+
+      loginPanel.hidden = false;
+      adminPanel.hidden = true;
+
+      loginStatus.textContent =
+        "Unable to verify FAR Admin access.";
+
+      loginStatus.className =
+        "admin-status error";
+
+    }
+
+  }
+
+
+
+  loginButton.addEventListener(
+    "click",
+    async () => {
+
+      const email =
+        adminEmail.value.trim();
+
+      const password =
+        adminPassword.value;
+
+
+      if(!email || !password){
+
+        loginStatus.textContent =
+          "Enter your email and password.";
+
+        loginStatus.className =
+          "admin-status error";
+
+        return;
+
+      }
+
+
+      loginButton.disabled = true;
+
+      loginStatus.textContent =
+        "Signing in…";
+
+      loginStatus.className =
+        "admin-status";
+
+
+      try{
+
+        const {
+          data,
+          error
+        } =
+          await client.auth.signInWithPassword({
+            email,
+            password
+          });
+
+
+        if(error){
+          throw error;
+        }
+
+
+        const admin =
+          await checkAdmin(data.user);
+
+
+        if(!admin){
+
+          await client.auth.signOut();
+
+          throw new Error(
+            "This account is not authorised for FAR Admin."
+          );
+
+        }
+
+
+        loginPanel.hidden = true;
+        adminPanel.hidden = false;
+
+        adminIdentity.textContent =
+          `Signed in as ${admin.display_name}`;
+
+        adminPassword.value = "";
+
+        loginStatus.textContent = "";
+
+      }
+
+      catch(error){
+
+        loginStatus.textContent =
+          error.message || "Sign in failed.";
+
+        loginStatus.className =
+          "admin-status error";
+
+      }
+
+      finally{
+
+        loginButton.disabled = false;
+
+      }
+
+    }
+  );
+
+
+
+  adminPassword.addEventListener(
+    "keydown",
+    event => {
+
+      if(event.key === "Enter"){
+        loginButton.click();
+      }
+
+    }
+  );
+
+
+
+  logoutButton.addEventListener(
+    "click",
+    async () => {
+
+      await client.auth.signOut();
+
+      adminPanel.hidden = true;
+      loginPanel.hidden = false;
+
+      adminIdentity.textContent = "";
+
+      adminEmail.value = "";
+      adminPassword.value = "";
+
+      loginStatus.textContent =
+        "Signed out.";
+
+      loginStatus.className =
+        "admin-status";
+
+    }
+  );
+
+
+
+  refreshAuth();
+
+})();
+
+</script>
+
+
+</body>
+
+</html>
