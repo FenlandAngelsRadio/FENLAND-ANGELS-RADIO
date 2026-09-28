@@ -4,6 +4,7 @@ import android.content.ComponentName
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
@@ -18,6 +19,9 @@ class MainActivity : AppCompatActivity() {
     private val listener = object : Player.Listener {
         override fun onIsPlayingChanged(isPlaying: Boolean) = render()
         override fun onPlaybackStateChanged(playbackState: Int) = render()
+        override fun onPlayerError(error: PlaybackException) {
+            binding.status.text = "Reconnecting…"
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,27 +32,38 @@ class MainActivity : AppCompatActivity() {
         val token = SessionToken(this, ComponentName(this, PlaybackService::class.java))
         controllerFuture = MediaController.Builder(this, token).buildAsync()
         controllerFuture.addListener({
-            controller = controllerFuture.get().also { it.addListener(listener) }
-            render()
+            runCatching { controllerFuture.get() }
+                .onSuccess {
+                    controller = it
+                    it.addListener(listener)
+                    render()
+                }
+                .onFailure {
+                    binding.status.text = "Player unavailable"
+                }
         }, ContextCompat.getMainExecutor(this))
 
         binding.playButton.setOnClickListener {
-            controller?.let {
-                if (it.isPlaying) it.pause()
-                else {
-                    if (it.playbackState == Player.STATE_IDLE) it.prepare()
-                    it.play()
+            controller?.let { player ->
+                if (player.isPlaying || player.playWhenReady) {
+                    player.pause()
+                } else {
+                    if (player.playbackState == Player.STATE_IDLE) player.prepare()
+                    player.play()
                 }
             }
         }
     }
 
     private fun render() {
-        val c = controller ?: return
-        binding.playButton.text = if (c.isPlaying) "PAUSE" else "LISTEN LIVE"
+        val player = controller ?: return
+        binding.playButton.text =
+            if (player.isPlaying || player.playWhenReady) "PAUSE" else "LISTEN LIVE"
+
         binding.status.text = when {
-            c.isPlaying -> "LIVE • Playing"
-            c.playbackState == Player.STATE_BUFFERING -> "Connecting…"
+            player.isPlaying -> "LIVE • Playing"
+            player.playbackState == Player.STATE_BUFFERING -> "Connecting…"
+            player.playWhenReady -> "Reconnecting…"
             else -> "Ready to listen"
         }
     }
