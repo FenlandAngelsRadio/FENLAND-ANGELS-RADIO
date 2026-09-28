@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-09-28T12:01:58.723736+00:00",
+  "updated_at": "2026-09-28T22:39:38.766974+00:00",
   "stories": [
+    {
+      "id": "fenland-news-c35a296b454e88f64a1505e0",
+      "headline": "Wisbech fish and chip shop earns national recognition",
+      "brief": "A Wisbech takeaway has been named among the best in the country. The Jolly Fryer, located on North End, has secured a place in the top 100 of a new national ranking. The list is compiled by the Fish & Chips app, which evaluates over 3,000 businesses across the UK. \n\nThe rankings are updated monthly and are based on weighted scores from Google and Tripadvisor reviews. According to the app developers, shops cannot pay for inclusion, and the scoring system prioritises establishments with a higher volume of customer feedback.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/accolade-for-town-chippie-9484646/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PLWURRUPXIV3GZ4LUKRV.jpg",
+      "published": "2026-09-28T14:24:14+00:00",
+      "generated_at": "2026-09-28T22:39:29.394681+00:00",
+      "rss_date": "Mon, 28 Sep 2026 22:39:29 +0000"
+    },
+    {
+      "id": "fenland-news-b5aa368fc180d68e5226b185",
+      "headline": "New quantum eye imaging technology developed for children",
+      "brief": "Researchers at University College London and the company Siloton have collaborated to adapt quantum-enabled imaging technology specifically for use with children. The project aims to refine eye scanning techniques to better suit younger patients. Further details regarding the implementation or availability of this new diagnostic tool have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWQ4QlBRempvbExlWW9aMXB6OXBma0tGQWtBY2g2VjgtYnIwVUQwU2dHbGdITHY1UkREbHB1d3kxMVhTTUQ3ZjVvRDJLODlFQVJCV3QzeGlhUHMtRnlyQTR3ZmtVMkZPYk5ERjRBa2FKelh1T0o5SlNER0lsYXpMbTRBTzY2VUNXdWc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-09-28T12:27:51+00:00",
+      "generated_at": "2026-09-28T22:39:19.335703+00:00",
+      "rss_date": "Mon, 28 Sep 2026 22:39:19 +0000"
+    },
+    {
+      "id": "fenland-news-5f86f6098b28cb96d58c5c93",
+      "headline": "Health study results due for Whittlesey pit site",
+      "brief": "Findings from a health study concerning the controversial pit site in Whittlesey are set to be released. The report, which has been highlighted by the Cambs Times, examines the site that has previously been a subject of local debate. Further details regarding the study's conclusions are expected to be made public soon.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRU9PbTBHLVBxMnZkaW9mVm94RHBvZnE4ZVNmTnAzZnN1cFhFR1JjV2lGZzR6eENzUmlqWDgwQTJWLWNQMGlJbUJyOFlTajNMajBWM2hnM3l0ZDlmbEJrd3BjUlpFdndvY3dUeFc0blZoakdDVEVhdkZfZ0d3SjFoLVBmUzAtNVJqemtkV2R5dmpkbEJmbkZvckxB?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-28T12:47:00+00:00",
+      "generated_at": "2026-09-28T22:39:01.076566+00:00",
+      "rss_date": "Mon, 28 Sep 2026 22:39:01 +0000"
+    },
     {
       "id": "fenland-news-00d208eceb346a8762572138",
       "headline": "Developer reduces funding pledge for Fenland services",
@@ -1056,38 +1089,6 @@
       "published": "2026-07-28T07:00:00+00:00",
       "generated_at": "2026-09-25T05:50:09.974548+00:00",
       "rss_date": "Fri, 25 Sep 2026 05:50:09 +0000"
-    },
-    {
-      "id": "fenland-news-fc9af909a1e85eacf92f6ca3",
-      "headline": "Forget-Me-Not Luncheon Club marks 60th anniversary",
-      "brief": "The Forget-Me-Not Luncheon Club in Gaywood is celebrating six decades of community service. To mark the milestone, a special two-course lunch is being held at the Gaywood Church Rooms on October 14 at noon. The event will include tea and coffee, with tickets priced at £10.\n\nOrganisers are inviting members of the community to attend the celebration. Anyone wishing to join must book their place by October 7 by calling 07715 400199 and leaving a message. The club, which provides companionship for senior residents, typically meets on Wednesdays during term time.",
-      "original_url": "https://www.lynnnews.co.uk/news/celebratory-lunch-will-mark-club-s-special-anniversary-9484204/",
-      "source": "Lynn News",
-      "published": "2026-09-25T05:00:00+00:00",
-      "generated_at": "2026-09-25T05:50:07.236841+00:00",
-      "rss_date": "Fri, 25 Sep 2026 05:50:07 +0000",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/MI71EYVOO2UU3S2XVCLV.jpg"
-    },
-    {
-      "id": "fenland-news-e0a28ee14daa0f21f11be960",
-      "headline": "Arrest made following police call-out in Cambridgeshire",
-      "brief": "Police have made an arrest on suspicion of actual bodily harm following a report concerning a person's welfare. Officers were called to the scene to investigate the situation. The individual remains in custody while enquiries continue. No further details regarding the location or the identity of those involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0NONDFlRm5SU2MwLUZzT0pGRWJFWkR5UUxiTGNZa0xvQUJrdl9vM0prSWVFU3llWW8wMldRMGdCQnFWaWhBaXdTUE5UVEsxekpZY1lpUnAtZkRyYi0tUXFsaFV3bVBMTlE4U0ZXdGRqbnlCblJPWkNKcDFSZEhmNVlERVNZbkV1elhBNkVvclpCbm5Kenc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-03T07:00:00+00:00",
-      "generated_at": "2026-09-24T23:48:07.642460+00:00",
-      "rss_date": "Thu, 24 Sep 2026 23:48:07 +0000"
-    },
-    {
-      "id": "fenland-news-76e40ca1c218f4b18e4760c9",
-      "headline": "Looking back at West Norfolk headlines from the archives",
-      "brief": "This week we look back at local news from late September 1961. Among the stories reported at the time, a 17-year-old farmworker from Sedgeford was fined one pound by Docking magistrates for cycling without due care and attention following a collision in Heacham. \n\nElsewhere in the region, Lynn Town Council discussed plans for a new cattle market and potential town expansion. Meanwhile, in 1986, comedian Norman Collier brought the cast of Hunstanton’s summer show to the King’s Lynn town hall for a reception with the Mayor. The theatre production had enjoyed a successful nine-week run at the Princess Theatre, prompting organisers to arrange free return coach travel for local theatre-goers.",
-      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-teenage-cyclist-fined-1-after-crash-in-1961-a-9483602/",
-      "source": "Lynn News",
-      "published": "2026-09-24T05:00:00+00:00",
-      "generated_at": "2026-09-24T23:48:04.796316+00:00",
-      "rss_date": "Thu, 24 Sep 2026 23:48:04 +0000",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/WXVGTUMFC4HL8XPKB1Z8.jpg"
     }
   ]
 }
