@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="far_black">#111111</color>
+    <color name="far_black">#101010</color>
     <color name="far_white">#FFFFFF</color>
+    <color name="far_red">#D7262E</color>
+    <color name="far_gold">#D7B15A</color>
+    <color name="far_muted">#B8B8B8</color>
 </resources>
