@@ -1,4 +1,4 @@
-const CACHE = 'fenland-angels-phone-app-v6';
+const CACHE = 'fenland-angels-phone-app-v7';
 
 const ASSETS = [
   './',
