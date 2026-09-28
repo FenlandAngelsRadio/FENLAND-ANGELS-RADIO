@@ -4,7 +4,7 @@ const ASSETS = [
   './',
   './index.html',
   './style.css?v=3',
-  './app.js?v=6',
+'./app.js?v=7',
   './manifest.webmanifest',
   './fenland-angels-radio-logo.jpg',
   './icon-192.png',
