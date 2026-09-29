@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audience Analytics | FAR Admin</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site-nav.css?v=3">
+<script src="site-nav.js?v=4" defer></script>
+<style>
+:root{color-scheme:dark}.aud-shell{width:min(94vw,1200px);margin:auto;padding:130px 0 70px;color:#fff}
+.aud-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:24px}.aud-head h1{font-size:42px;margin:5px 0}.muted{color:#aeb4bf}.back{color:#fff;text-decoration:none;border:1px solid #3a3f49;border-radius:9px;padding:10px 14px}
+.live-card{border:1px solid #303640;background:#0d0f13;border-radius:20px;padding:26px;margin-bottom:22px}.live-top{display:flex;justify-content:space-between;align-items:center}.live-num{font-size:58px;font-weight:950}.live-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#59d98e;margin-right:8px}.split{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.split div,.metric{background:#11141a;border:1px solid #292e37;border-radius:14px;padding:17px}.split b,.metric b{display:block;font-size:25px;margin-top:5px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tabs button{border:1px solid #343a44;background:#11141a;color:#fff;border-radius:999px;padding:9px 15px;font-weight:800;cursor:pointer}.tabs button.active{border-color:#d4aa47;color:#d4aa47}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric span{color:#aeb4bf}.metric b{font-size:29px}.section{margin-top:25px}.section h2{margin-bottom:12px}.source-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.status{padding:15px;border-radius:12px;background:#11141a;color:#c9ced7;margin:15px 0}.warn{color:#ffcc66}
+@media(max-width:850px){.metrics,.split{grid-template-columns:repeat(2,1fr)}.source-grid{grid-template-columns:1fr}}@media(max-width:520px){.metrics,.split{grid-template-columns:1fr}.aud-head{align-items:flex-start;flex-direction:column}.live-num{font-size:46px}}
+</style>
+</head>
+<body><header></header>
+<main class="aud-shell">
+<div class="aud-head"><div><p class="eyebrow">FAR ADMIN</p><h1>Audience Analytics</h1><p class="muted">Fenland Angels Radio first-party audience measurement.</p></div><a class="back" href="admin-dashboard.html">← Admin Dashboard</a></div>
+<div id="status" class="status">Checking FAR Admin access…</div>
+<section id="dashboard" hidden>
+<div class="live-card">
+<div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">FAR first-party live</span></div>
+<div id="liveTotal" class="live-num">0</div>
+<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Other / Direct</span><b id="liveOther">—</b></div><div><span>Total Icecast</span><b id="liveIce">—</b></div></div>
+<p class="muted">Other / Direct and Total Icecast will appear once the stream-server connection feed is attached. FAR Website and App are live now.</p>
+</div>
+<div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
+<div class="metrics">
+<div class="metric"><span>Unique FAR devices</span><b id="uniqueDevices">0</b></div>
+<div class="metric"><span>Listening sessions</span><b id="listenSessions">0</b></div>
+<div class="metric"><span>Listener-hours</span><b id="listenerHours">0h</b></div>
+<div class="metric"><span>Average listening</span><b id="avgListen">0m</b></div>
+<div class="metric"><span>Website visits</span><b id="webVisits">0</b></div>
+<div class="metric"><span>Website visitors</span><b id="webVisitors">0</b></div>
+<div class="metric"><span>App opens</span><b id="appOpens">0</b></div>
+<div class="metric"><span>New app installs</span><b id="appInstalls">0</b></div>
+</div>
+<div class="section"><h2>Listening by source</h2><div class="source-grid"><div class="metric"><span>Website listener-hours</span><b id="webHours">0h</b></div><div class="metric"><span>App listener-hours</span><b id="appHours">0h</b></div></div></div>
+<p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
+</section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script>
+<script>
+(async function(){
+ const status=document.getElementById('status'), dash=document.getElementById('dashboard'), cfg=window.FAR_EVENTS_CONFIG||{};
+ if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY){status.textContent='FAR Admin is not configured.';return}
+ const client=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);
+ const {data:{session}}=await client.auth.getSession();
+ if(!session){location.href='admin-dashboard.html';return}
+ const {data:admin,error:adminErr}=await client.from('far_admins').select('display_name').eq('user_id',session.user.id).maybeSingle();
+ if(adminErr||!admin){location.href='admin-dashboard.html';return}
+ status.textContent='Loading audience data…'; dash.hidden=false;
+ let currentRange='today';
+ function startFor(range){const d=new Date(); if(range==='all')return new Date('2026-09-29T00:00:00+01:00'); if(range==='today'){d.setHours(0,0,0,0);return d} d.setDate(d.getDate()-Number(range));return d}
+ function fmtDuration(sec){sec=Math.max(0,Math.round(sec||0));const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60);return h? h+'h '+m+'m':m+'m'}
+ function latestByListen(rows){const m=new Map(); for(const r of rows){if(!r.listen_session_id)continue;const old=m.get(r.listen_session_id);if(!old||new Date(r.created_at)>new Date(old.created_at))m.set(r.listen_session_id,r)}return m}
+ function sessionDurations(rows){const latest=latestByListen(rows), out=[];for(const [id,r] of latest){let seconds=Number(r.duration_seconds||0);if(r.event_type==='listen_start')seconds=0;out.push({id,seconds,source:r.source,event:r.event_type,at:r.created_at})}return out}
+ async function load(){
+   status.textContent='Refreshing audience data…';
+   const from=startFor(currentRange).toISOString();
+   const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
+   if(error){status.textContent='Could not load audience data: '+error.message;return}
+   const now=Date.now(), liveCut=90000;
+   const liveLatest=latestByListen(rows.filter(r=>r.event_type.startsWith('listen_')));
+   const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
+   document.getElementById('liveTotal').textContent=live.length;
+   document.getElementById('liveWeb').textContent=live.filter(r=>r.source==='website').length;
+   document.getElementById('liveApp').textContent=live.filter(r=>r.source==='pwa').length;
+   const durations=sessionDurations(rows.filter(r=>r.event_type.startsWith('listen_')));
+   const totalSec=durations.reduce((a,r)=>a+r.seconds,0), webSec=durations.filter(r=>r.source==='website').reduce((a,r)=>a+r.seconds,0), appSec=durations.filter(r=>r.source==='pwa').reduce((a,r)=>a+r.seconds,0);
+   const starts=rows.filter(r=>r.event_type==='listen_start');
+   document.getElementById('uniqueDevices').textContent=new Set(rows.map(r=>r.device_id).filter(Boolean)).size;
+   document.getElementById('listenSessions').textContent=starts.length;
+   document.getElementById('listenerHours').textContent=(totalSec/3600).toFixed(1)+'h';
+   document.getElementById('avgListen').textContent=fmtDuration(starts.length?totalSec/starts.length:0);
+   document.getElementById('webVisits').textContent=rows.filter(r=>r.event_type==='website_visit').length;
+   document.getElementById('webVisitors').textContent=new Set(rows.filter(r=>r.event_type==='website_visit').map(r=>r.device_id)).size;
+   document.getElementById('appOpens').textContent=rows.filter(r=>r.event_type==='app_open').length;
+   document.getElementById('appInstalls').textContent=rows.filter(r=>r.event_type==='app_install').length;
+   document.getElementById('webHours').textContent=(webSec/3600).toFixed(1)+'h';
+   document.getElementById('appHours').textContent=(appSec/3600).toFixed(1)+'h';
+   status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+ }
+ document.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentRange=b.dataset.range;load()});
+ await load();setInterval(load,30000);
+})();
+</script></body></html>
