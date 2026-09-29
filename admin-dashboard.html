@@ -507,8 +507,8 @@
   function applyAccess(admin){
     const role=(admin.role||'staff').toLowerCase();
     const perms=Array.isArray(admin.permissions)?admin.permissions:[];
-    const owner=role==='owner'||role==='admin';
-    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission;el.hidden=!(owner||perms.includes(p));});
+    const owner=role==='owner', manager=role==='deputy_manager'||role==='admin';
+    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission;el.hidden=!(owner||manager||perms.includes(p));});
   }
 
   async function showDashboard(session){
