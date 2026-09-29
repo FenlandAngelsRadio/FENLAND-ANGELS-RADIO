@@ -64,7 +64,7 @@
         listen_session_id: listenId,
         duration_seconds: (Date.now() - listenStarted) / 1000
       });
-    }, 60000);
+    }, 30000);
   }
   function stopListening(source) {
     if (!listenId) return;
