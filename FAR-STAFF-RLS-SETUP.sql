@@ -21,7 +21,7 @@ using (
   exists (
     select 1 from public.far_admins me
     where me.user_id = auth.uid()
-      and me.role in ('owner','admin')
+      and me.role in ('owner','deputy_manager','admin')
   )
 );
 
@@ -32,7 +32,7 @@ with check (
   exists (
     select 1 from public.far_admins me
     where me.user_id = auth.uid()
-      and me.role in ('owner','admin')
+      and me.role in ('owner','deputy_manager','admin')
   )
   and role <> 'owner'
 );
@@ -44,7 +44,7 @@ using (
   exists (
     select 1 from public.far_admins me
     where me.user_id = auth.uid()
-      and me.role in ('owner','admin')
+      and me.role in ('owner','deputy_manager','admin')
   )
   and role <> 'owner'
 )
@@ -57,7 +57,7 @@ using (
   exists (
     select 1 from public.far_admins me
     where me.user_id = auth.uid()
-      and me.role in ('owner','admin')
+      and me.role in ('owner','deputy_manager','admin')
   )
   and role <> 'owner'
 );
