@@ -31,6 +31,7 @@ p{color:var(--muted);line-height:1.5}
 .status{font-weight:800;margin-bottom:18px}
 input{width:100%;accent-color:var(--red2)}
 .small{font-size:12px;color:var(--muted);margin-top:16px}
+.hours{margin-top:13px;padding:7px 10px;border:1px solid #5b4520;border-radius:9px;background:#11141a;color:var(--gold);font-size:11px;font-weight:900}.hours b{color:#fff;font-size:14px}
 </style>
 </head>
 <body>
@@ -43,16 +44,20 @@ input{width:100%;accent-color:var(--red2)}
   <div id="status" class="status">Tap play to listen live</div>
   <input id="volume" type="range" min="0" max="1" step="0.01" value="0.85" aria-label="Volume">
   <div class="small">Live stream · MP3 320 kbps</div>
+  <div class="hours">HOURS LISTENED TO FAR · <b id="farLifetimeHours">150.3</b></div>
   <audio id="radio" preload="none">
     <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg">
   </audio>
 </div>
+<script src="events-config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="far-analytics.js?v=2"></script>
 <script>
 const audio=document.getElementById('radio');
 const play=document.getElementById('play');
 const status=document.getElementById('status');
 const volume=document.getElementById('volume');
+const FAR_HOURS_BASE=150.31,FAR_HOURS_SINCE='2026-09-29T22:18:59.24036Z';async function updateFarHours(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!window.supabase||!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const db=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);const {data,error}=await db.from('far_icecast_snapshots').select('created_at,stationhq_listeners').gte('created_at',FAR_HOURS_SINCE).not('stationhq_listeners','is',null).order('created_at',{ascending:true}).limit(10000);if(error||!data)return;let h=0;for(let i=0;i<data.length;i++){const st=new Date(data[i].created_at).getTime(),nx=i+1<data.length?new Date(data[i+1].created_at).getTime():Math.min(Date.now(),st+300000);h+=Number(data[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}document.getElementById('farLifetimeHours').textContent=(FAR_HOURS_BASE+h).toLocaleString('en-GB',{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarHours();setInterval(updateFarHours,30000);
 volume.addEventListener('input',()=>audio.volume=Number(volume.value));
 audio.volume=Number(volume.value);
 audio.addEventListener('playing',()=>{if(window.FARAnalytics) window.FARAnalytics.startListening('website')});
