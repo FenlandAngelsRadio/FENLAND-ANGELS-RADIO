@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-09-29T02:47:25.061722+00:00",
+  "updated_at": "2026-09-29T11:36:13.131335+00:00",
   "stories": [
+    {
+      "id": "fenland-news-396abb9ad377c53dd08237dc",
+      "headline": "Government minister apologises for Whittlesey correspondence delay",
+      "brief": "A government minister has issued an apology after failing to respond to correspondence regarding the discovery of dead fish in Whittlesey. The issue, which was reported by the BBC, centres on a lack of communication from the minister’s office concerning the environmental incident. No further details regarding the cause of the fish deaths or the specific timeline of the correspondence have been provided at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBua2ZzQXJMQWloRmhEaVJjTnFwSnhjWXhYZm00RDljUk1XOEdYaWFNczFhbU9hRXJRQV9IZ3pHVVNUb19QUW12YVV2YjlfbnYxUU1hTUpmcC1Ra1NG?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-06-04T07:00:00+00:00",
+      "generated_at": "2026-09-29T11:36:03.005836+00:00",
+      "rss_date": "Tue, 29 Sep 2026 11:36:03 +0000"
+    },
+    {
+      "id": "fenland-news-b3a5cc1ee9ed0c6646218919",
+      "headline": "Fleetwood Town player looks ahead to Peterborough match",
+      "brief": "Fleetwood Town footballer Costelloe is preparing for the upcoming trip to Peterborough. Following his recent first-team debut, the player has expressed his desire to build on that performance as the squad heads into the fixture.",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFp2MEU4RmJTNlNxVlJNblB0RXlLZG82Ukg3Ykw2NlFTY1h6dzlFaGo5NVRZeEg0LXRzMW8xcWJBeHlfX0RDSzBrTzBXTXVWRzdjWVZvTDN5WUhtb2lnQ004anlwS3ZMdEJvMFRQeTdSMUdQMGRVRFlxZm1oZ1F0SGFTMjJ1Z0RZS3poV2xNeUk5YkRMQnNBbzlWTFhpVHVoWk85Z2Z0dw?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-09-29T09:04:20+00:00",
+      "generated_at": "2026-09-29T11:35:58.208116+00:00",
+      "rss_date": "Tue, 29 Sep 2026 11:35:58 +0000"
+    },
+    {
+      "id": "fenland-news-bb4ba12b5a6ee97c8bdadca1",
+      "headline": "Plans proposed for two new wind farms in the Fens",
+      "brief": "Proposals have been submitted for the construction of two new wind farms in the region. The sites earmarked for the potential developments are located near Chatteris and Shippea Hill. No further details regarding the scale or timeline of these projects have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX2xvdXgwNUJBWmVQN0NsRUh6SjZjRV9RVlVNR1hzM3NOX08ySUQ0Zmk0aXd6NnNOTldvZlVWNGxiUXdSUkhDbFE2NUFnRlVPR1VaREwxZ25WY2JJczZ6VjdWV2FQQl90Qkc2ZElxbnBXU0kzNXBSb2g1QlE3ZE85ZGdjWTljdlNnNm9saGpJUzJRSGhJOWpTNmY0OF9EcFFkWmNDZzROTHRNODB0YzBpbHdnbkFmbDRQdE13ZE1VWlVmdw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-29T08:04:35+00:00",
+      "generated_at": "2026-09-29T11:35:55.439240+00:00",
+      "rss_date": "Tue, 29 Sep 2026 11:35:55 +0000"
+    },
+    {
+      "id": "fenland-news-709b14a9ee2d56cbb6c5f5e8",
+      "headline": "Norfolk health officials consider future of A&E services",
+      "brief": "Health officials in Norfolk are considering plans that could see A&E units at the Queen Elizabeth Hospital in King’s Lynn and the James Paget Hospital in Gorleston closed. Confidential documents reveal three potential options for future emergency care, with only one retaining full A&E services at all three of the county’s hospitals. Other proposals include downgrading the units to urgent treatment centres or removing major trauma services.\n\nThe Norfolk and Waveney University Hospitals Group states that no final decisions have been made and that the documents are part of preliminary work. However, local MPs have expressed strong opposition to any potential downgrades, citing concerns over rural travel times and the impact on patient care.",
+      "original_url": "https://www.lynnnews.co.uk/news/norfolk-could-be-left-with-just-one-a-e-unit-amid-possible-c-9484716/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/8GZ8A2FZT4MTUX551N6P.jpg",
+      "published": "2026-09-29T08:50:50+00:00",
+      "generated_at": "2026-09-29T11:35:50.849733+00:00",
+      "rss_date": "Tue, 29 Sep 2026 11:35:50 +0000"
+    },
     {
       "id": "fenland-news-399d348be5ed8b5eed61236f",
       "headline": "Wisbech newsagent TG Jones to close in January",
@@ -1051,48 +1095,6 @@
       "published": "2026-09-25T15:37:00+00:00",
       "generated_at": "2026-09-25T17:50:45.862073+00:00",
       "rss_date": "Fri, 25 Sep 2026 17:50:45 +0000"
-    },
-    {
-      "id": "fenland-news-4a56111f691d5aab0df09d04",
-      "headline": "Lincolnshire Police warned over public reporting habits",
-      "brief": "Lincolnshire Police have been issued a warning regarding the public's willingness to contact them for assistance. Reports suggest that residents are becoming increasingly frustrated, leading many to stop calling the force for help altogether. The warning highlights a growing concern that members of the community are losing faith in the service provided by the police. No further details regarding the specific causes of this trend or potential responses from the force have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb25JbnBhaklzV1NxcHZxUU1VUUIwRmgzUDU4XzlXUV9fbWw5ZHJXZkhON2E4RnBZQ3g4OFBfNTQ5amFHWXlMUDZiSHhUUTBacVZSSUVkai10bEVBOElNbW1PdFgzWVcwMVlRM0ZxdW4tUEwtU040YS0tQjdJcGxCMGxiUU1aYl9OLXpMcUU0M1ZmUlJkWFU0c0lnbGcwRVFmQTBPX0RvRllWWkJlU2R4RVl3?oc=5",
-      "source": "Spalding South Holland News",
-      "published": "2023-11-25T08:00:00+00:00",
-      "generated_at": "2026-09-25T17:50:41.885952+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:41 +0000"
-    },
-    {
-      "id": "fenland-news-4cf9dc9ab787aa6f486fed5c",
-      "headline": "Questions raised over director loan following March dealership collapse",
-      "brief": "A Ford dealership in March has entered administration, leaving uncertainty regarding a director loan worth £492,424. Reports indicate that the business has collapsed, prompting questions about the significant sum of money linked to the company's leadership. Further details regarding the financial situation of the firm remain unclear at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUDNXMVU3alB5dWtFbEloQkM5RVl0ZUdnd1Nxc0hwMVlBQXZvOUJqN3M4OE9pQ09EbDEzZWM2bmdrREQyZWJleVJsSXlMSTE0alRuQU9uVXNsVU41M1lsbmt6MXlnRGhWU3NzSy1HcGhDbTlCN28wSWMyMXZKZVV4M0RKWjlROUpaOGpJRC11dExYZkhoSFoyYXlXdzM5OU9hUUFhWGhSTXJNcnBHYTVPUG9Pc0hodmZBQWJTVzYtZjBVaEwwWE9XeUhiNDdWdEpmaHd3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-09-25T11:39:00+00:00",
-      "generated_at": "2026-09-25T17:50:39.822191+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:39 +0000"
-    },
-    {
-      "id": "fenland-news-bbebce3c29eb91526033d5b2",
-      "headline": "Wisbech Road in March closed following accident",
-      "brief": "Drivers in March are being advised to find an alternative route this morning. Wisbech Road is currently closed to traffic following a road accident. The closure is in place between the junctions of Russell Avenue and Norwood Road. Motorists should plan their journeys accordingly and expect delays in the area while the route remains shut.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/road-closed-after-accident-9484367/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-25T09:19:35+00:00",
-      "generated_at": "2026-09-25T17:50:36.764860+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:36 +0000",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/3NEAD4ZYYH8XQK5AFDU6.jpg"
-    },
-    {
-      "id": "fenland-news-7313f3e6be94f69ec23dbc8c",
-      "headline": "New museum proposed for King’s Lynn historic building",
-      "brief": "Plans have been submitted to West Norfolk Council to convert office space within the historic Chequer House in King’s Lynn into a new museum. The application proposes transforming the rear of the building's second floor, which already houses an art gallery. \n\nThe submitted designs include the removal of existing modern partitions to create a contemporary gallery space with new display areas. A final decision on the change of use application is expected by Wednesday, November 18.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-museum-could-be-housed-in-town-s-historic-building-9484473/",
-      "source": "Lynn News",
-      "published": "2026-09-25T15:44:19+00:00",
-      "generated_at": "2026-09-25T17:50:32.794205+00:00",
-      "rss_date": "Fri, 25 Sep 2026 17:50:32 +0000",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/TFIDJF664N073LFW4MEV.jpg"
     }
   ]
 }
