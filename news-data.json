@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-09-28T22:39:38.766974+00:00",
+  "updated_at": "2026-09-29T02:47:25.061722+00:00",
   "stories": [
+    {
+      "id": "fenland-news-399d348be5ed8b5eed61236f",
+      "headline": "Wisbech newsagent TG Jones to close in January",
+      "brief": "The newsagent and stationer TG Jones has confirmed it will shut its Wisbech branch early next year. The shop, located on the Market Place, is scheduled to close its doors on Saturday, January 9, 2027. The closure is part of a wider, court-approved restructuring plan affecting several of the company's stores across the UK. \n\nA spokesperson for the retailer expressed regret over the impact on the local community and staff. A closing down sale will be held at the premises before the final closure date. The company stated that its current priority is supporting affected employees while continuing to serve customers during the final weeks of operation.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/retailer-announces-closure-of-town-store-9484642/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/104KQ8F8R42ABLKWED4U.jpg",
+      "published": "2026-09-28T13:59:27+00:00",
+      "generated_at": "2026-09-29T02:47:00.258573+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:47:00 +0000"
+    },
+    {
+      "id": "fenland-news-2c866e54aff3d6d6037f549d",
+      "headline": "Three-year driving ban for holidaymaker caught in King’s Lynn",
+      "brief": "A holidaymaker has been disqualified from driving for three years after being caught over the limit in King’s Lynn. Forty-two-year-old David Canatch, from Gainsborough, was stopped by police on Gayton Road after officers noticed his fog lights were on during clear weather. A breath test revealed he had 45 micrograms of alcohol per 100 millilitres of breath, exceeding the legal limit of 35.\n\nAppearing at Lynn Magistrates’ Court on Thursday, Mr Canatch pleaded guilty to drink-driving. In addition to the driving ban, he was ordered to pay a £120 fine, a £48 victim surcharge, and £50 in court costs.",
+      "original_url": "https://www.lynnnews.co.uk/news/holiday-maker-caught-drink-driving-banned-for-three-years-9484392/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/OULDC0KBSAIFM7R1S2EF.jpg",
+      "published": "2026-09-28T05:00:00+00:00",
+      "generated_at": "2026-09-29T02:46:58.037667+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:58 +0000"
+    },
+    {
+      "id": "fenland-news-6812ed0b3f436f98d4e6782f",
+      "headline": "Free AI training pilot launched for Cambridge and Peterborough organisations",
+      "brief": "Organisations across the Cambridge and Peterborough area are being offered the chance to take part in a new artificial intelligence training pilot. The scheme, coordinated by the Cambridge Network, provides training sessions at no cost to participants. The initiative aims to support local groups and businesses looking to develop their understanding of AI technology. Further details regarding the programme and how to register for the pilot are available through the Cambridge Network.",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0ZTb3hFa0ZGZHZfSkpoMEZ5V3d5enRvU08yQkhMZ1YwUndESjRzbEJHNWItWEMwLXppYm9Fa3pTZEpnNDQ0VUJ4ZExDeG9pbnlTSURKNHBaX0hWdlM5VVZrOUJJUDdwMDFnNi1DSmM0VGE0TlhCbDJFbGhMVFlCTG0zR1Awdm1UYm1ETWRKM3dkSld4ZWU5czE2UVpXd2NYa2Y2T3FGdnZkTExj?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-09-29T02:03:45+00:00",
+      "generated_at": "2026-09-29T02:46:56.327869+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:56 +0000"
+    },
+    {
+      "id": "fenland-news-546eb544eab012286aede72e",
+      "headline": "Bus routes cut in Cambridgeshire village despite new shelters",
+      "brief": "A Cambridgeshire village has seen its bus services withdrawn, despite the recent installation of new bus shelters. The infrastructure project, which cost 16,000 pounds, was completed before the decision to cut the local routes was made. Residents in the area are now facing a loss of public transport links despite the significant investment in the facilities.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lTnVYamFuUzRJZHJzWmdlbzU2Y0hvRTVJdU1mVFFCUWZmSUVQVWIyX2pNRkdIV18za3A0NGNtNTJ5Mmh3SmdHSG5XYW94dmZDYXVlcGNFeTFCZ3B3OVE?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-27T05:11:25+00:00",
+      "generated_at": "2026-09-29T02:46:55.104721+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:55 +0000"
+    },
+    {
+      "id": "fenland-news-d0a94551e8eebf3e2046ef53",
+      "headline": "Candidates confirmed for Long Sutton by-election",
+      "brief": "The list of candidates standing in the upcoming by-election for Long Sutton has been officially announced. Residents in the area will head to the polls to select a new representative following the vacancy. Further details regarding the candidates and the polling process are expected to be made available to the public ahead of the vote.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZVpVVEhZTmFvOEFuRVlFa0R0TUhSWkY1TnpZUVU0OGU0bGgxVXlnRXpTVjRoZzhIVFBjd1piV21sd3ZjeXAyNjJVQm4tU0tYeHlwQnFmeW1uSWRzQUdPU0pQbS0wbUNFbkxpS3hNeV9UT1NGY2xFTGRuSzJLVFhGc21wTm1qYmlRZGlLX1M1N004VEk?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-07-06T07:00:00+00:00",
+      "generated_at": "2026-09-29T02:46:54.087667+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:54 +0000"
+    },
+    {
+      "id": "fenland-news-a8053751d9f007ee1c5b2fa8",
+      "headline": "Emergency lock closures leave boaters stranded in March",
+      "brief": "Boaters are currently unable to move through March following the announcement of emergency lock closures. The restrictions have left vessels marooned in the area. No further details regarding the cause of the closures or a timeline for the reopening of the waterway have been provided at this stage. Those planning to travel through the town by boat are advised to be aware of the disruption.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WSW1EdjgxYmNjcmZCd3BPZ2dKTkZyV1dVLVN1algtNS1ySmUzZ25DQ1MtVHhfLXNaNFNCNjk0S2JmN2Y0NFF2ZXpiY1BmMDZPNU9JOXVDa0JTVlQy?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-25T07:00:00+00:00",
+      "generated_at": "2026-09-29T02:46:52.883158+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:52 +0000"
+    },
+    {
+      "id": "fenland-news-b73f201d9060a9f1f5409560",
+      "headline": "Opposition grows to Leverington asylum accommodation plans",
+      "brief": "Fenland District Council and North East Cambridgeshire MP Steve Barclay have voiced strong opposition to government plans for a 26-bed asylum seeker facility in Leverington. The Home Office proposal for Roman Court is intended to house mothers and babies as part of a wider move toward long-term dispersal accommodation. \n\nHowever, local leaders have raised concerns regarding the suitability of the site and the potential for future changes to the facility's use. Mr Barclay has expressed fears that this is the first stage of a broader government policy to bring 205 asylum seekers into the district. No specific timeline for the project has been provided by the Home Office, which says it will continue to engage with local partners.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/council-opposes-government-plan-for-26-bed-asylum-seeker-acc-9484653/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/BQPEWKXLREV5SSDO0HDX.jpg",
+      "published": "2026-09-28T16:07:18+00:00",
+      "generated_at": "2026-09-29T02:46:51.431193+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:51 +0000"
+    },
+    {
+      "id": "fenland-news-82bd4509ce87cfdab497e0f1",
+      "headline": "Improvement work begins at North Lynn ponds",
+      "brief": "Maintenance work is starting today at the Loke Road ponds in North Lynn. West Norfolk Council staff are clearing overhanging and diseased trees to improve the habitat for local fish and invertebrates. The project involves cutting back willow trees and removing two ash trees identified as diseased. \n\nOfficials say the work is necessary to prevent rotting leaves from depleting oxygen levels in the water and to reduce excessive shade. The clearance also aims to protect pond liners and dams from damage caused by aggressive willow roots. This initiative is part of a wider pond regeneration programme that began in 2023.",
+      "original_url": "https://www.lynnnews.co.uk/news/work-to-clean-up-loke-road-ponds-9484670/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/3LWD3J2HF5ZYFOZ8E7N6.jpg",
+      "published": "2026-09-28T15:15:44+00:00",
+      "generated_at": "2026-09-29T02:46:49.228712+00:00",
+      "rss_date": "Tue, 29 Sep 2026 02:46:49 +0000"
+    },
     {
       "id": "fenland-news-c35a296b454e88f64a1505e0",
       "headline": "Wisbech fish and chip shop earns national recognition",
@@ -1005,90 +1093,6 @@
       "generated_at": "2026-09-25T17:50:32.794205+00:00",
       "rss_date": "Fri, 25 Sep 2026 17:50:32 +0000",
       "image_url": "https://www.lynnnews.co.uk/_media/img/TFIDJF664N073LFW4MEV.jpg"
-    },
-    {
-      "id": "fenland-news-f8b4b7117ccad6957e234888",
-      "headline": "Police rescue abandoned dog in Newton-in-the-Isle",
-      "brief": "The Rural Crime Action Team has rescued a large dog found abandoned in a small cage near a road in Newton-in-the-Isle. Officers attended the scene following a report from a member of the public. \n\nA police spokesperson thanked the individual who alerted them to the animal’s condition, allowing officers to remove the dog from the cage and the roadside. An investigation into the incident is currently underway.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/police-rescue-large-dog-abandoned-in-small-cage-9484384/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-25T10:35:30+00:00",
-      "generated_at": "2026-09-25T11:50:59.350061+00:00",
-      "rss_date": "Fri, 25 Sep 2026 11:50:59 +0000",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/F78O3QM3QGG226FWRRDH.jpg"
-    },
-    {
-      "id": "fenland-news-e804abdbcc033fc2a510142c",
-      "headline": "West Norfolk Council advances plans for new £22.9m aquatic centre",
-      "brief": "West Norfolk Council has voted to progress plans for a new £22.9 million aquatic centre at Lynnsport in King’s Lynn. The proposed facility would feature an eight-lane main pool, a learner pool with a moveable floor, and an interactive splash pad. \n\nOfficials say the current St James Swimming Pool has reached the end of its economic life. The council has approved over £845,000 to fund the next two stages of design and technical planning. While this move advances the project, the council noted that this does not commit them to final construction. Officers estimate a planning application could be submitted by March 2027, with the project aiming to improve accessibility for residents across the region.",
-      "original_url": "https://www.lynnnews.co.uk/news/council-moves-forward-with-plans-for-23m-swimming-facilitie-9484387/",
-      "source": "Lynn News",
-      "published": "2026-09-25T10:42:18+00:00",
-      "generated_at": "2026-09-25T11:50:57.099173+00:00",
-      "rss_date": "Fri, 25 Sep 2026 11:50:57 +0000",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/UON0SSV2FQBGK660GR53.jpg"
-    },
-    {
-      "id": "fenland-news-674509bf8a0f60a04ac1e1ca",
-      "headline": "Pedestrian hospitalised following collision in March",
-      "brief": "A pedestrian has been taken to Peterborough City Hospital following a collision with a car in March this morning. Emergency services were called to Wisbech Road at 8:55 am. \n\nThe pedestrian sustained minor injuries and was taken to the hospital as a precaution. Wisbech Road was temporarily closed while emergency crews attended the scene.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/pedestrian-taken-to-hospital-after-collision-with-car-9484394/",
-      "source": "Fenland Citizen",
-      "published": "2026-09-25T11:22:01+00:00",
-      "generated_at": "2026-09-25T11:50:44.166459+00:00",
-      "rss_date": "Fri, 25 Sep 2026 11:50:44 +0000",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/LTS2FCI9HPB298Z48CC9.jpg"
-    },
-    {
-      "id": "fenland-news-8cbc394e61d6460442c92522",
-      "headline": "West Norfolk students explore local manufacturing careers",
-      "brief": "One hundred and fifty students from across West Norfolk have taken part in behind-the-scenes tours of seven major local businesses. The visits, held yesterday to mark National Manufacturing Day, allowed pupils from schools, colleges and the Boost programme to meet industry professionals and learn about diverse career paths.\n\nParticipating firms included Mars, Ravago, and Williams Refrigeration. The event, supported by the borough council, highlighted the importance of the manufacturing sector, which contributes over 500 million pounds to the local economy. Students explored various roles ranging from engineering and logistics to food production, gaining insight into opportunities available through apprenticeships and degree-level study.",
-      "original_url": "https://www.lynnnews.co.uk/news/businesses-open-their-doors-for-an-insight-into-industry-9484390/",
-      "source": "Lynn News",
-      "published": "2026-09-25T11:12:36+00:00",
-      "generated_at": "2026-09-25T11:50:38.854278+00:00",
-      "rss_date": "Fri, 25 Sep 2026 11:50:38 +0000",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/IIWH37HMAVR3JNVEKJJA.jpg"
-    },
-    {
-      "id": "fenland-news-66ad42dfdc0dc470e8eabca5",
-      "headline": "Cambridgeshire sex offender sentenced for 1990s crimes",
-      "brief": "A Cambridgeshire man has been jailed following a cold case investigation into sexual assaults dating back to the 1990s. The offender was identified after modern DNA analysis linked him to the historical crimes. The case was reported by The Hunts Post.",
-      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcndfdFdxZV9mYzc0QkJCcE1vSTNOTUpTOG5tUEJDakV0YXpMUzQtUk9WcmN3LTh0VHN5WGZMa1ZGRDlIQkUwYUxraDQ0U3lmZHMxWVBROVlfRlhBOEVXWm1leWcwNk52Y1cwUFdYOUFQcGtDMDBodk1wVVhBMFhJVlZza19XVGtOQVlLUWE4bjQ4V2ViVF92QVJGaHI?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-03T07:00:00+00:00",
-      "generated_at": "2026-09-25T05:50:22.011359+00:00",
-      "rss_date": "Fri, 25 Sep 2026 05:50:22 +0000"
-    },
-    {
-      "id": "fenland-news-152adba692e08074da19a97f",
-      "headline": "Peterborough City Council considers opening a new children's home",
-      "brief": "Peterborough City Council is exploring plans to establish its own children's home. The local authority is currently looking into the possibility of opening the facility to support its social care services. No further details regarding the location or timeline for the project have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VeVNoLXNMbFhDYzZoY19kUlpQVzVsWVNrS3lDa3B5eFpITW42S2RrNnJ4NWYzRzg3NXlnNEJWODFBa0lzZHdpUHJkYTdTb1FnYjdQbC15UmJuNmxRX3c?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "published": "2026-09-25T05:36:03+00:00",
-      "generated_at": "2026-09-25T05:50:14.055221+00:00",
-      "rss_date": "Fri, 25 Sep 2026 05:50:14 +0000"
-    },
-    {
-      "id": "fenland-news-e7cf1e2a9a7370abbff1a3d6",
-      "headline": "East Cambridgeshire homeowners reduce property prices to secure sales",
-      "brief": "Homeowners across East Cambridgeshire are lowering their asking prices by thousands of pounds in an effort to finalise property sales. According to reports from the Ely Standard, sellers are adjusting their expectations to help secure deals in the current market. Residents looking to move or purchase a home in the region may find these price reductions impacting local listings.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOHJaZXRBRXBVbVZER2JyZHlWNHVsRnZLX3RfZ1hVWkVrcWd0eGE2Nkd1clJnd0NrekY3VHh2Snpyd2RBTlZXLTNUYzNONjBlTjc0akRfUzdfODloQ0JXbDdBMDl3SGJMQUpwdDM2TmdWWnlSZkhqMTJYU21CMWFxbnRWVENvQk9vVFR0akstdUhKQXJlVUc4SERvWGRIZw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "published": "2026-09-25T05:00:00+00:00",
-      "generated_at": "2026-09-25T05:50:11.314738+00:00",
-      "rss_date": "Fri, 25 Sep 2026 05:50:11 +0000"
-    },
-    {
-      "id": "fenland-news-f75c219a6824d0d1a917bebf",
-      "headline": "Police attend supermarket roof collapse in Cambridgeshire",
-      "brief": "Emergency services have been called to a supermarket in Cambridgeshire following the collapse of its roof. Police are currently on the scene at the site. No further details regarding the location of the store or any potential injuries have been released at this time. Residents are advised to avoid the immediate area while authorities manage the situation.",
-      "original_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVVVQenUwNjJEWTJoRnI2NXh4Z2xlMElnMXhKZW94R29SZ3ZsaWxhOWhjdnR5cHlVUVBBbkNlRl9jcWRDa2hnLTVSX1BoLXNfMlNxYXlta1ktcWdLVFpBa3MwSGNmT1BXZGdxbGlqZEVXaGZTZ0VaMFAyT09EME16M2JvRzZTRTVtNjVJcXdaaWJCWHo2dURDTENYRWxSNDlsUFBPUWtzVE1Qelh1ZTdjRVVsRkdCckRjdE9tOVp0bUlRdk5CZG01WXVDRzhJTTNG?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "published": "2026-07-28T07:00:00+00:00",
-      "generated_at": "2026-09-25T05:50:09.974548+00:00",
-      "rss_date": "Fri, 25 Sep 2026 05:50:09 +0000"
     }
   ]
 }
