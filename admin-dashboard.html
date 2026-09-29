@@ -333,7 +333,7 @@
 
 
     <a
-      class="admin-card events"
+      class="admin-card events" data-permission="events"
       href="admin-events.html"
     >
 
@@ -349,7 +349,7 @@
 
 
     <a
-      class="admin-card contact"
+      class="admin-card contact" data-permission="inbox"
       href="admin-inbox.html?kind=contact"
     >
 
@@ -365,7 +365,7 @@
 
 
     <a
-      class="admin-card applications"
+      class="admin-card applications" data-permission="applications"
       href="admin-inbox.html?kind=application"
     >
 
@@ -381,7 +381,7 @@
 
 
     <a
-      class="admin-card advertising"
+      class="admin-card advertising" data-permission="advertising"
       href="admin-inbox.html?kind=advertising"
     >
 
@@ -396,10 +396,10 @@
     </a>
 
 
-    <a class="admin-card live" href="far-live-gateway.html"><strong>FAR Cloud Live</strong><span>Secure station gateway, live monitoring and DJ connection testing.</span></a>
+    <a class="admin-card live" data-permission="cloud_live" href="far-live-gateway.html"><strong>FAR Cloud Live</strong><span>Secure station gateway, live monitoring and DJ connection testing.</span></a>
 
     <a
-      class="admin-card audience"
+      class="admin-card audience" data-permission="audience"
       href="admin-audience.html"
     >
       <strong>Audience Analytics</strong>
@@ -488,7 +488,7 @@
     } =
       await client
         .from("far_admins")
-        .select("display_name")
+        .select("display_name,role,permissions")
         .eq("user_id",user.id)
         .maybeSingle();
 
@@ -503,6 +503,13 @@
   }
 
 
+
+  function applyAccess(admin){
+    const role=(admin.role||'staff').toLowerCase();
+    const perms=Array.isArray(admin.permissions)?admin.permissions:[];
+    const owner=role==='owner'||role==='admin';
+    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission;el.hidden=!(owner||perms.includes(p));});
+  }
 
   async function showDashboard(session){
 
@@ -531,8 +538,8 @@
     loginPanel.hidden = true;
     adminPanel.hidden = false;
 
-    adminIdentity.textContent =
-      `Signed in as ${admin.display_name}`;
+    adminIdentity.textContent = `Signed in as ${admin.display_name} • ${admin.role || 'staff'}`;
+    applyAccess(admin);
 
   }
 
@@ -647,8 +654,8 @@
         loginPanel.hidden = true;
         adminPanel.hidden = false;
 
-        adminIdentity.textContent =
-          `Signed in as ${admin.display_name}`;
+        adminIdentity.textContent = `Signed in as ${admin.display_name} • ${admin.role || 'staff'}`;
+        applyAccess(admin);
 
         adminPassword.value = "";
 
