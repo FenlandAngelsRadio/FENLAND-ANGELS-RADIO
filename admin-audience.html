@@ -13,6 +13,7 @@
 .live-card{border:1px solid #303640;background:#0d0f13;border-radius:20px;padding:26px;margin-bottom:22px}.live-top{display:flex;justify-content:space-between;align-items:center}.live-num{font-size:58px;font-weight:950}.live-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#59d98e;margin-right:8px}.split{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.split div,.metric{background:#11141a;border:1px solid #292e37;border-radius:14px;padding:17px}.split b,.metric b{display:block;font-size:25px;margin-top:5px}
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tabs button{border:1px solid #343a44;background:#11141a;color:#fff;border-radius:999px;padding:9px 15px;font-weight:800;cursor:pointer}.tabs button.active{border-color:#d4aa47;color:#d4aa47}
 .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric span{color:#aeb4bf}.metric b{font-size:29px}.section{margin-top:25px}.section h2{margin-bottom:12px}.source-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.status{padding:15px;border-radius:12px;background:#11141a;color:#c9ced7;margin:15px 0}.warn{color:#ffcc66}
+.milestone-card{border:1px solid #5b4520;background:linear-gradient(145deg,#15120c,#0d0f13);border-radius:18px;padding:22px}.milestone-top{display:flex;justify-content:space-between;gap:16px;align-items:end}.milestone-total{font-size:36px;font-weight:950;color:#fff}.milestone-target{color:#d4aa47;font-weight:900}.milestone-bar{height:14px;margin:16px 0 9px;border-radius:999px;background:#242832;overflow:hidden}.milestone-fill{height:100%;width:0;background:linear-gradient(90deg,#b68c31,#d4aa47);border-radius:inherit;transition:width .4s ease}.milestone-row{display:flex;justify-content:space-between;gap:15px;color:#aeb4bf;font-size:13px}.milestone-marks{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}.milestone-mark{padding:6px 9px;border:1px solid #343a44;border-radius:999px;color:#8f96a3;font-size:12px;font-weight:800}.milestone-mark.reached{border-color:#d4aa47;color:#d4aa47}
 .show-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.show-card{background:#11141a;border:1px solid #292e37;border-radius:14px;padding:18px}.show-card h3{margin:0 0 4px}.show-time{color:#d4aa47;font-weight:800}.show-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}.show-stat{background:#0d0f13;border-radius:10px;padding:11px}.show-stat span{display:block;color:#aeb4bf;font-size:13px}.show-stat b{display:block;font-size:21px;margin-top:3px}
 @media(max-width:850px){.show-grid{grid-template-columns:1fr}}
 @media(max-width:850px){.metrics,.split{grid-template-columns:repeat(2,1fr)}.source-grid{grid-template-columns:1fr}}@media(max-width:520px){.metrics,.split{grid-template-columns:1fr}.aud-head{align-items:flex-start;flex-direction:column}.live-num{font-size:46px}}
@@ -29,6 +30,7 @@
 <div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>StationHQ Listeners</span><b id="liveShq">—</b></div><div><span>Raw Icecast Connections</span><b id="liveIce">—</b></div></div>
 <p class="muted">StationHQ Listeners is the provider-filtered count. Raw Icecast Connections includes every connection seen by the stream server and is retained for diagnostics; it is not treated as a human-listener count. StationHQ data is sampled every 5 minutes, so this display can lag by a few minutes.</p>
 </div>
+<div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">150.3</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Uses the same StationHQ-based cumulative listener-hours figure as the public website and PWA counter.</p></div>
 <div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
 <div class="metrics">
 <div class="metric"><span>Unique FAR devices</span><b id="uniqueDevices">0</b></div>
@@ -71,6 +73,7 @@
  const status=document.getElementById('status'), dash=document.getElementById('dashboard'), cfg=window.FAR_EVENTS_CONFIG||{};
  if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY){status.textContent='FAR Admin is not configured.';return}
  const client=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);
+ const MILESTONE_BASE=150.31,MILESTONE_SINCE=new Date('2026-09-29T22:18:59.24036Z').getTime(),MILESTONES=[250,500,1000,2500,5000];
  const {data:{session}}=await client.auth.getSession();
  if(!session){location.href='admin-dashboard.html';return}
  const {data:admin,error:adminErr}=await client.from('far_admins').select('display_name').eq('user_id',session.user.id).maybeSingle();
@@ -157,6 +160,19 @@
      document.getElementById('shqPeak').textContent=shqVals.length?Math.max(...shqVals):0;
      document.getElementById('shqAverage').textContent=shqVals.length?(shqVals.reduce((a,b)=>a+b,0)/shqVals.length).toFixed(1):'0.0';
      document.getElementById('shqSamples').textContent=shqRows.length;
+     let lifetimeAdded=0;
+     const lifetimeRows=iceRows.filter(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined&&new Date(r.created_at).getTime()>=MILESTONE_SINCE);
+     for(let i=0;i<lifetimeRows.length;i++){const st=new Date(lifetimeRows[i].created_at).getTime(),nx=i+1<lifetimeRows.length?new Date(lifetimeRows[i+1].created_at).getTime():Math.min(Date.now(),st+300000);lifetimeAdded+=Number(lifetimeRows[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}
+     const lifetimeHours=MILESTONE_BASE+lifetimeAdded;
+     const next=MILESTONES.find(x=>x>lifetimeHours)||Math.ceil(lifetimeHours/5000+1)*5000;
+     const previous=[0,...MILESTONES].filter(x=>x<=lifetimeHours).pop()||0;
+     const progress=Math.max(0,Math.min(100,(lifetimeHours-previous)/(next-previous)*100));
+     document.getElementById('milestoneHours').textContent=lifetimeHours.toLocaleString('en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
+     document.getElementById('milestoneNext').textContent=next.toLocaleString('en-GB');
+     document.getElementById('milestoneFill').style.width=progress.toFixed(1)+'%';
+     document.getElementById('milestoneProgress').textContent=progress.toFixed(0)+'% towards '+next.toLocaleString('en-GB')+' hours';
+     document.getElementById('milestoneRemaining').textContent=(next-lifetimeHours).toLocaleString('en-GB',{minimumFractionDigits:1,maximumFractionDigits:1})+'h to go';
+     document.getElementById('milestoneMarks').innerHTML=MILESTONES.map(x=>'<span class="milestone-mark '+(lifetimeHours>=x?'reached':'')+'">'+x.toLocaleString('en-GB')+'h'+(lifetimeHours>=x?' ✓':'')+'</span>').join('');
      function localParts(ts){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',hourCycle:'h23'}).formatToParts(new Date(ts));return {day:p.find(x=>x.type==='weekday').value,hour:Number(p.find(x=>x.type==='hour').value)}}
      function showMetrics(filter,prefix){const sr=shqRows.filter(r=>filter(localParts(r.created_at))), vs=sr.map(r=>Number(r.stationhq_listeners||0));let hrs=0;for(let i=0;i<sr.length;i++){const st=new Date(sr[i].created_at).getTime(), nx=i+1<sr.length?new Date(sr[i+1].created_at).getTime():Math.min(Date.now(),st+300000);hrs+=Number(sr[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}document.getElementById(prefix+'Hours').textContent=(hrs<10?hrs.toFixed(2):hrs.toFixed(1))+'h';document.getElementById(prefix+'Avg').textContent=vs.length?(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1):'0.0';document.getElementById(prefix+'Peak').textContent=vs.length?Math.max(...vs):0;document.getElementById(prefix+'Samples').textContent=sr.length}
      const weekdays=new Set(['Mon','Tue','Wed','Thu','Fri']);
