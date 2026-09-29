@@ -1,0 +1,30 @@
+name: FAR Icecast Audience History
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read Icecast and store listener snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          HTML="$(curl -fsS --max-time 15 'https://hq3.yesstreaming.net:7085/status.xsl')"
+          LISTENERS="$(printf '%s' "$HTML" | sed -nE 's/.*Current Listeners:<\/td><td[^>]*>([0-9]+).*/\1/p' | head -n1)"
+          if [ -z "$LISTENERS" ]; then
+            LISTENERS="$(printf '%s' "$HTML" | grep -oE 'Current Listeners[^0-9]*[0-9]+' | grep -oE '[0-9]+' | head -n1 || true)"
+          fi
+          test -n "$LISTENERS"
+          curl -fsS --max-time 15 \
+            -X POST 'https://nkdjnrycpdiwburtkzen.supabase.co/rest/v1/far_icecast_snapshots' \
+            -H 'apikey: sb_publishable_jswOUS7A8Uw3RqQXj3kxQw_dZaJYC_2' \
+            -H 'Content-Type: application/json' \
+            -H 'Prefer: return=minimal' \
+            --data "{\"listeners\":$LISTENERS,\"mount\":\"/stream\",\"stream_online\":true}"
