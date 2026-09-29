@@ -121,7 +121,7 @@
        const span=Math.max(0,Math.min(300000,next-start));
        iceHours+=Number(iceRows[i].listeners||0)*span/3600000;
      }
-     document.getElementById('iceHours').textContent=iceHours.toFixed(1)+'h';
+     document.getElementById('iceHours').textContent=(iceHours<10?iceHours.toFixed(2):iceHours.toFixed(1))+'h';
      document.getElementById('icePeak').textContent=icePeak;
      document.getElementById('iceAverage').textContent=iceAvg.toFixed(1);
      document.getElementById('iceSamples').textContent=iceRows.length;
