@@ -22,10 +22,10 @@
 <div id="status" class="status">Checking FAR Admin access…</div>
 <section id="dashboard" hidden>
 <div class="live-card">
-<div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">FAR first-party live</span></div>
-<div id="liveTotal" class="live-num">0</div><div class="muted" style="margin-top:-8px">Total listeners across all sources</div>
-<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Other / Direct</span><b id="liveOther">—</b></div><div><span>Total Icecast</span><b id="liveIce">—</b></div></div>
-<p class="muted">Total Icecast is the live stream-server connection count. Other / Direct is the remainder after known FAR Website and App listeners are removed.</p>
+<div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">StationHQ filtered audience</span></div>
+<div id="liveTotal" class="live-num">0</div><div class="muted" style="margin-top:-8px">Filtered listener count from StationHQ</div>
+<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>StationHQ Listeners</span><b id="liveShq">—</b></div><div><span>Raw Icecast Connections</span><b id="liveIce">—</b></div></div>
+<p class="muted">StationHQ Listeners is the provider-filtered count. Raw Icecast Connections includes every connection seen by the stream server and is retained for diagnostics; it is not treated as a human-listener count. StationHQ data is sampled every 5 minutes, so this display can lag by a few minutes.</p>
 </div>
 <div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
 <div class="metrics">
@@ -38,12 +38,18 @@
 <div class="metric"><span>App opens</span><b id="appOpens">0</b></div>
 <div class="metric"><span>New app installs</span><b id="appInstalls">0</b></div>
 </div>
-<div class="section"><h2>Total stream audience history</h2><div class="metrics">
-<div class="metric"><span>Total listener-hours</span><b id="iceHours">0h</b></div>
-<div class="metric"><span>Peak listeners</span><b id="icePeak">0</b></div>
-<div class="metric"><span>Average listeners</span><b id="iceAverage">0</b></div>
+<div class="section"><h2>StationHQ filtered audience history</h2><div class="metrics">
+<div class="metric"><span>Filtered listener-hours</span><b id="shqHours">0h</b></div>
+<div class="metric"><span>Peak filtered listeners</span><b id="shqPeak">0</b></div>
+<div class="metric"><span>Average filtered listeners</span><b id="shqAverage">0</b></div>
+<div class="metric"><span>Snapshots recorded</span><b id="shqSamples">0</b></div>
+</div><p class="muted">Calculated from StationHQ's filtered listener count sampled every 5 minutes. This history begins when the StationHQ integration is enabled.</p></div>
+<div class="section"><h2>Raw stream connection history</h2><div class="metrics">
+<div class="metric"><span>Raw connection-hours</span><b id="iceHours">0h</b></div>
+<div class="metric"><span>Peak raw connections</span><b id="icePeak">0</b></div>
+<div class="metric"><span>Average raw connections</span><b id="iceAverage">0</b></div>
 <div class="metric"><span>Snapshots recorded</span><b id="iceSamples">0</b></div>
-</div><p class="muted">Calculated from the 5-minute Icecast snapshots. Recording began 29 September 2026.</p></div>
+</div><p class="muted">Raw Icecast connections are diagnostic server connections, not guaranteed people. Recording began 29 September 2026.</p></div>
 <div class="section"><h2>Listening by source</h2><div class="source-grid"><div class="metric"><span>Website listener-hours</span><b id="webHours">0h</b></div><div class="metric"><span>App listener-hours</span><b id="appHours">0h</b></div></div></div>
 <p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
 </section>
@@ -69,7 +75,7 @@
    const from=startFor(currentRange).toISOString();
    const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    if(error){status.textContent='Could not load audience data: '+error.message;return}
-   const {data:iceRows,error:iceErr}=await client.from('far_icecast_snapshots').select('created_at,listeners,stream_online').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
+   const {data:iceRows,error:iceErr}=await client.from('far_icecast_snapshots').select('created_at,listeners,stream_online,stationhq_listeners,stationhq_status').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    const now=Date.now(), liveCut=90000;
    try{
      const iceRes=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store'});
@@ -91,12 +97,15 @@
    }
    const liveLatest=latestByListen(rows.filter(r=>r.event_type.startsWith('listen_')));
    const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
-   document.getElementById('liveTotal').textContent=window.__farIceTotal===null||window.__farIceTotal===undefined?live.length:window.__farIceTotal;
+   const latestShq=iceRows&&iceRows.length?[...iceRows].reverse().find(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined):null;
+   const shqLive=latestShq?Number(latestShq.stationhq_listeners):null;
+   document.getElementById('liveTotal').textContent=shqLive===null?live.length:shqLive;
+   document.getElementById('liveShq').textContent=shqLive===null?'—':shqLive;
    document.getElementById('liveWeb').textContent=live.filter(r=>r.source==='website').length;
    const webLive=live.filter(r=>r.source==='website').length;
    const appLive=live.filter(r=>r.source==='pwa').length;
    document.getElementById('liveApp').textContent=appLive;
-   document.getElementById('liveOther').textContent=window.__farIceTotal===null||window.__farIceTotal===undefined?'—':Math.max(0,window.__farIceTotal-webLive-appLive);
+   
    const durations=sessionDurations(rows.filter(r=>r.event_type.startsWith('listen_')));
    const totalSec=durations.reduce((a,r)=>a+r.seconds,0), webSec=durations.filter(r=>r.source==='website').reduce((a,r)=>a+r.seconds,0), appSec=durations.filter(r=>r.source==='pwa').reduce((a,r)=>a+r.seconds,0);
    const starts=rows.filter(r=>r.event_type==='listen_start');
@@ -125,6 +134,18 @@
      document.getElementById('icePeak').textContent=icePeak;
      document.getElementById('iceAverage').textContent=iceAvg.toFixed(1);
      document.getElementById('iceSamples').textContent=iceRows.length;
+     const shqRows=iceRows.filter(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined);
+     const shqVals=shqRows.map(r=>Number(r.stationhq_listeners||0));
+     let shqHours=0;
+     for(let i=0;i<shqRows.length;i++){
+       const start=new Date(shqRows[i].created_at).getTime();
+       const next=i+1<shqRows.length?new Date(shqRows[i+1].created_at).getTime():Math.min(Date.now(),start+300000);
+       shqHours+=Number(shqRows[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,next-start))/3600000;
+     }
+     document.getElementById('shqHours').textContent=(shqHours<10?shqHours.toFixed(2):shqHours.toFixed(1))+'h';
+     document.getElementById('shqPeak').textContent=shqVals.length?Math.max(...shqVals):0;
+     document.getElementById('shqAverage').textContent=shqVals.length?(shqVals.reduce((a,b)=>a+b,0)/shqVals.length).toFixed(1):'0.0';
+     document.getElementById('shqSamples').textContent=shqRows.length;
    }
    status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
  }
