@@ -47,6 +47,7 @@ input{width:100%;accent-color:var(--red2)}
     <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg">
   </audio>
 </div>
+<script src="far-analytics.js?v=2"></script>
 <script>
 const audio=document.getElementById('radio');
 const play=document.getElementById('play');
@@ -54,6 +55,9 @@ const status=document.getElementById('status');
 const volume=document.getElementById('volume');
 volume.addEventListener('input',()=>audio.volume=Number(volume.value));
 audio.volume=Number(volume.value);
+audio.addEventListener('playing',()=>{if(window.FARAnalytics) window.FARAnalytics.startListening('website')});
+audio.addEventListener('pause',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website')});
+audio.addEventListener('ended',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website')});
 play.addEventListener('click',async()=>{
   if(audio.paused){
     try{
@@ -69,7 +73,7 @@ play.addEventListener('click',async()=>{
     status.textContent='Paused';
   }
 });
-audio.addEventListener('error',()=>status.textContent='Stream temporarily unavailable');
+audio.addEventListener('error',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website');status.textContent='Stream temporarily unavailable'});
 </script>
 </body>
 </html>
