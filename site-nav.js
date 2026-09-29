@@ -12,3 +12,14 @@ function init(){const o=document.querySelector("header"),n=header();o?o.replaceW
 document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()
 })();
 window.addEventListener("scroll",()=>{const h=document.querySelector(".far-header");if(h)h.classList.toggle("scrolled",window.scrollY>60)});
+
+
+// Load FAR first-party anonymous audience analytics on every site page.
+(() => {
+  if (document.querySelector('script[data-far-analytics]')) return;
+  const s=document.createElement('script');
+  s.src='far-analytics.js?v=1';
+  s.defer=true;
+  s.dataset.farAnalytics='1';
+  document.head.appendChild(s);
+})();
