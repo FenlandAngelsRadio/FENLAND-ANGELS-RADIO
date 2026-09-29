@@ -38,6 +38,12 @@
 <div class="metric"><span>App opens</span><b id="appOpens">0</b></div>
 <div class="metric"><span>New app installs</span><b id="appInstalls">0</b></div>
 </div>
+<div class="section"><h2>Total stream audience history</h2><div class="metrics">
+<div class="metric"><span>Total listener-hours</span><b id="iceHours">0h</b></div>
+<div class="metric"><span>Peak listeners</span><b id="icePeak">0</b></div>
+<div class="metric"><span>Average listeners</span><b id="iceAverage">0</b></div>
+<div class="metric"><span>Snapshots recorded</span><b id="iceSamples">0</b></div>
+</div><p class="muted">Calculated from the 5-minute Icecast snapshots. Recording began 29 September 2026.</p></div>
 <div class="section"><h2>Listening by source</h2><div class="source-grid"><div class="metric"><span>Website listener-hours</span><b id="webHours">0h</b></div><div class="metric"><span>App listener-hours</span><b id="appHours">0h</b></div></div></div>
 <p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
 </section>
@@ -63,6 +69,7 @@
    const from=startFor(currentRange).toISOString();
    const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    if(error){status.textContent='Could not load audience data: '+error.message;return}
+   const {data:iceRows,error:iceErr}=await client.from('far_icecast_snapshots').select('created_at,listeners,stream_online').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    const now=Date.now(), liveCut=90000;
    try{
      const iceRes=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store'});
@@ -103,6 +110,22 @@
    document.getElementById('appInstalls').textContent=rows.filter(r=>r.event_type==='app_install').length;
    document.getElementById('webHours').textContent=(webSec/3600).toFixed(1)+'h';
    document.getElementById('appHours').textContent=(appSec/3600).toFixed(1)+'h';
+   if(!iceErr && iceRows){
+     const vals=iceRows.map(r=>Number(r.listeners||0));
+     const icePeak=vals.length?Math.max(...vals):0;
+     const iceAvg=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0;
+     let iceHours=0;
+     for(let i=0;i<iceRows.length;i++){
+       const start=new Date(iceRows[i].created_at).getTime();
+       const next=i+1<iceRows.length?new Date(iceRows[i+1].created_at).getTime():Math.min(Date.now(),start+300000);
+       const span=Math.max(0,Math.min(300000,next-start));
+       iceHours+=Number(iceRows[i].listeners||0)*span/3600000;
+     }
+     document.getElementById('iceHours').textContent=iceHours.toFixed(1)+'h';
+     document.getElementById('icePeak').textContent=icePeak;
+     document.getElementById('iceAverage').textContent=iceAvg.toFixed(1);
+     document.getElementById('iceSamples').textContent=iceRows.length;
+   }
    status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
  }
  document.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentRange=b.dataset.range;load()});
