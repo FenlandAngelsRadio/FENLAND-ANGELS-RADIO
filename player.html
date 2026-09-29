@@ -31,7 +31,6 @@ p{color:var(--muted);line-height:1.5}
 .status{font-weight:800;margin-bottom:18px}
 input{width:100%;accent-color:var(--red2)}
 .small{font-size:12px;color:var(--muted);margin-top:16px}
-.audience{display:inline-flex;align-items:center;gap:6px;margin-top:13px;padding:6px 10px;border:1px solid #30343d;border-radius:999px;background:#0d0f13;color:#d8dbe1;font-size:12px;font-weight:800}
 </style>
 </head>
 <body>
@@ -44,21 +43,16 @@ input{width:100%;accent-color:var(--red2)}
   <div id="status" class="status">Tap play to listen live</div>
   <input id="volume" type="range" min="0" max="1" step="0.01" value="0.85" aria-label="Volume">
   <div class="small">Live stream · MP3 320 kbps</div>
-  <div class="audience" id="farAudience" aria-live="polite">● <span id="farAudienceCount">—</span> listening now</div>
   <audio id="radio" preload="none">
     <source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg">
   </audio>
 </div>
-<script src="events-config.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="far-analytics.js?v=2"></script>
 <script>
 const audio=document.getElementById('radio');
 const play=document.getElementById('play');
 const status=document.getElementById('status');
 const volume=document.getElementById('volume');
-async function refreshAudience(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY||!window.supabase)return;const c=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);const {data,error}=await c.from('far_icecast_snapshots').select('stationhq_listeners,created_at').not('stationhq_listeners','is',null).order('created_at',{ascending:false}).limit(1);if(error||!data||!data.length)return;document.getElementById('farAudienceCount').textContent=Number(data[0].stationhq_listeners||0)}catch(e){}}
-refreshAudience();setInterval(refreshAudience,30000);
 volume.addEventListener('input',()=>audio.volume=Number(volume.value));
 audio.volume=Number(volume.value);
 audio.addEventListener('playing',()=>{if(window.FARAnalytics) window.FARAnalytics.startListening('website')});
