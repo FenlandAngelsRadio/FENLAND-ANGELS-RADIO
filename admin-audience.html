@@ -64,11 +64,32 @@
    const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    if(error){status.textContent='Could not load audience data: '+error.message;return}
    const now=Date.now(), liveCut=90000;
+   try{
+     const iceRes=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store'});
+     const iceText=await iceRes.text();
+     const doc=new DOMParser().parseFromString(iceText,'text/html');
+     const text=doc.body ? doc.body.innerText : iceText;
+     const lm=text.match(/Current Listeners:\s*(\d+)/i);
+     const totalIce=lm ? Number(lm[1]) : null;
+     if(totalIce!==null){
+       document.getElementById('liveIce').textContent=totalIce;
+       window.__farIceTotal=totalIce;
+     } else {
+       document.getElementById('liveIce').textContent='—';
+       window.__farIceTotal=null;
+     }
+   }catch(e){
+     document.getElementById('liveIce').textContent='OFFLINE';
+     window.__farIceTotal=null;
+   }
    const liveLatest=latestByListen(rows.filter(r=>r.event_type.startsWith('listen_')));
    const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
    document.getElementById('liveTotal').textContent=live.length;
    document.getElementById('liveWeb').textContent=live.filter(r=>r.source==='website').length;
-   document.getElementById('liveApp').textContent=live.filter(r=>r.source==='pwa').length;
+   const webLive=live.filter(r=>r.source==='website').length;
+   const appLive=live.filter(r=>r.source==='pwa').length;
+   document.getElementById('liveApp').textContent=appLive;
+   document.getElementById('liveOther').textContent=window.__farIceTotal===null||window.__farIceTotal===undefined?'—':Math.max(0,window.__farIceTotal-webLive-appLive);
    const durations=sessionDurations(rows.filter(r=>r.event_type.startsWith('listen_')));
    const totalSec=durations.reduce((a,r)=>a+r.seconds,0), webSec=durations.filter(r=>r.source==='website').reduce((a,r)=>a+r.seconds,0), appSec=durations.filter(r=>r.source==='pwa').reduce((a,r)=>a+r.seconds,0);
    const starts=rows.filter(r=>r.event_type==='listen_start');
