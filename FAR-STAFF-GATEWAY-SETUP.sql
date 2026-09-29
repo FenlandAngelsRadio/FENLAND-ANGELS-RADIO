@@ -11,13 +11,12 @@ alter table public.far_admins
 
 alter table public.far_admins
   add constraint far_admins_role_check
-  check (role in ('owner','admin','presenter','news','events','sales','staff'));
+  check (role in ('owner','deputy_manager','admin','presenter','news','events','sales','staff'));
 
--- Existing authorised FAR admins become owners so Nathaniel/Nick keep full control.
+-- Existing accounts must be assigned deliberately: Nathaniel = owner; Nick = deputy_manager.
 -- If far_admins currently contains anyone else, change their role after running this.
-update public.far_admins
-set role='owner'
-where role='staff';
+update public.far_admins set role='owner' where display_name='Nathaniel';
+update public.far_admins set role='deputy_manager' where display_name='Nick';
 
 -- Helper examples for future staff (replace USER_UUID only after their Auth account exists):
 -- Presenter/DJ:
