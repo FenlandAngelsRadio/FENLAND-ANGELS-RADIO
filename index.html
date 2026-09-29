@@ -173,8 +173,6 @@
   font-weight:900;
 }
 
-.far-live-audience{margin-top:10px;padding:7px 12px;border:1px solid #30343d;border-radius:999px;background:#0d0f13;color:#d8dbe1;font-size:13px;font-weight:900}
-
 .far-player-quality{
   margin-top:5px;
   color:#9da2ad;
@@ -331,8 +329,6 @@
       >
         Tap play to listen live
       </div>
-
-      <div class="far-live-audience" aria-live="polite">● <span id="farHomeAudienceCount">—</span> listening now</div>
 
       <div class="far-player-quality">
         Fenland Angels Radio · 320 kbps
@@ -1223,11 +1219,6 @@ const stories =
 </script>
   <script src="app.js"></script>
 
-<script src="events-config.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script>
-(async function(){async function refreshFarAudience(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY||!window.supabase)return;const c=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY);const {data,error}=await c.from('far_icecast_snapshots').select('stationhq_listeners,created_at').not('stationhq_listeners','is',null).order('created_at',{ascending:false}).limit(1);if(error||!data||!data.length)return;const el=document.getElementById('farHomeAudienceCount');if(el)el.textContent=Number(data[0].stationhq_listeners||0)}catch(e){}}await refreshFarAudience();setInterval(refreshFarAudience,30000)})();
-</script>
 </body>
 
 </html>
