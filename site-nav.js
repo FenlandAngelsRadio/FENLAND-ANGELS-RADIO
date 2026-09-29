@@ -18,7 +18,7 @@ window.addEventListener("scroll",()=>{const h=document.querySelector(".far-heade
 (() => {
   if (document.querySelector('script[data-far-analytics]')) return;
   const s=document.createElement('script');
-  s.src='far-analytics.js?v=1';
+  s.src='far-analytics.js?v=2';
   s.defer=true;
   s.dataset.farAnalytics='1';
   document.head.appendChild(s);
