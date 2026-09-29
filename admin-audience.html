@@ -13,6 +13,8 @@
 .live-card{border:1px solid #303640;background:#0d0f13;border-radius:20px;padding:26px;margin-bottom:22px}.live-top{display:flex;justify-content:space-between;align-items:center}.live-num{font-size:58px;font-weight:950}.live-dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#59d98e;margin-right:8px}.split{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.split div,.metric{background:#11141a;border:1px solid #292e37;border-radius:14px;padding:17px}.split b,.metric b{display:block;font-size:25px;margin-top:5px}
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.tabs button{border:1px solid #343a44;background:#11141a;color:#fff;border-radius:999px;padding:9px 15px;font-weight:800;cursor:pointer}.tabs button.active{border-color:#d4aa47;color:#d4aa47}
 .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric span{color:#aeb4bf}.metric b{font-size:29px}.section{margin-top:25px}.section h2{margin-bottom:12px}.source-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.status{padding:15px;border-radius:12px;background:#11141a;color:#c9ced7;margin:15px 0}.warn{color:#ffcc66}
+.show-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.show-card{background:#11141a;border:1px solid #292e37;border-radius:14px;padding:18px}.show-card h3{margin:0 0 4px}.show-time{color:#d4aa47;font-weight:800}.show-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}.show-stat{background:#0d0f13;border-radius:10px;padding:11px}.show-stat span{display:block;color:#aeb4bf;font-size:13px}.show-stat b{display:block;font-size:21px;margin-top:3px}
+@media(max-width:850px){.show-grid{grid-template-columns:1fr}}
 @media(max-width:850px){.metrics,.split{grid-template-columns:repeat(2,1fr)}.source-grid{grid-template-columns:1fr}}@media(max-width:520px){.metrics,.split{grid-template-columns:1fr}.aud-head{align-items:flex-start;flex-direction:column}.live-num{font-size:46px}}
 </style>
 </head>
@@ -50,6 +52,15 @@
 <div class="metric"><span>Average raw connections</span><b id="iceAverage">0</b></div>
 <div class="metric"><span>Snapshots recorded</span><b id="iceSamples">0</b></div>
 </div><p class="muted">Raw Icecast connections are diagnostic server connections, not guaranteed people. Recording began 29 September 2026.</p></div>
+<div class="section"><h2>Programme performance</h2>
+<p class="muted">StationHQ filtered audience, calculated from the 5-minute samples. Programme cards use the selected date range above.</p>
+<div class="show-grid">
+<div class="show-card"><h3>Breakfast with Private Major</h3><div class="show-time">Weekdays • 07:00–10:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showBreakfastHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showBreakfastAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showBreakfastPeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showBreakfastSamples">0</b></div></div></div>
+<div class="show-card"><h3>Drive Time</h3><div class="show-time">Weekdays • 16:00–19:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showDriveHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showDriveAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showDrivePeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showDriveSamples">0</b></div></div></div>
+<div class="show-card"><h3>Soundsystem Party</h3><div class="show-time">Saturday • 20:00–22:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showPartyHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showPartyAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showPartyPeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showPartySamples">0</b></div></div></div>
+</div>
+<div class="section"><h2>Hourly filtered audience</h2><div id="hourlyGrid" class="metrics"></div><p class="muted">Hours shown are UK local time. Each card is calculated only from StationHQ-filtered samples in the selected range.</p></div>
+</div>
 <div class="section"><h2>Listening by source</h2><div class="source-grid"><div class="metric"><span>Website listener-hours</span><b id="webHours">0h</b></div><div class="metric"><span>App listener-hours</span><b id="appHours">0h</b></div></div></div>
 <p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
 </section>
@@ -146,6 +157,13 @@
      document.getElementById('shqPeak').textContent=shqVals.length?Math.max(...shqVals):0;
      document.getElementById('shqAverage').textContent=shqVals.length?(shqVals.reduce((a,b)=>a+b,0)/shqVals.length).toFixed(1):'0.0';
      document.getElementById('shqSamples').textContent=shqRows.length;
+     function localParts(ts){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',hourCycle:'h23'}).formatToParts(new Date(ts));return {day:p.find(x=>x.type==='weekday').value,hour:Number(p.find(x=>x.type==='hour').value)}}
+     function showMetrics(filter,prefix){const sr=shqRows.filter(r=>filter(localParts(r.created_at))), vs=sr.map(r=>Number(r.stationhq_listeners||0));let hrs=0;for(let i=0;i<sr.length;i++){const st=new Date(sr[i].created_at).getTime(), nx=i+1<sr.length?new Date(sr[i+1].created_at).getTime():Math.min(Date.now(),st+300000);hrs+=Number(sr[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}document.getElementById(prefix+'Hours').textContent=(hrs<10?hrs.toFixed(2):hrs.toFixed(1))+'h';document.getElementById(prefix+'Avg').textContent=vs.length?(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1):'0.0';document.getElementById(prefix+'Peak').textContent=vs.length?Math.max(...vs):0;document.getElementById(prefix+'Samples').textContent=sr.length}
+     const weekdays=new Set(['Mon','Tue','Wed','Thu','Fri']);
+     showMetrics(x=>weekdays.has(x.day)&&x.hour>=7&&x.hour<10,'showBreakfast');
+     showMetrics(x=>weekdays.has(x.day)&&x.hour>=16&&x.hour<19,'showDrive');
+     showMetrics(x=>x.day==='Sat'&&x.hour>=20&&x.hour<22,'showParty');
+     const hg=document.getElementById('hourlyGrid');hg.innerHTML='';for(let hour=0;hour<24;hour++){const hr=shqRows.filter(r=>localParts(r.created_at).hour===hour),vs=hr.map(r=>Number(r.stationhq_listeners||0));if(!vs.length)continue;let hrs=0;for(let i=0;i<hr.length;i++){const st=new Date(hr[i].created_at).getTime(),nx=i+1<hr.length?new Date(hr[i+1].created_at).getTime():Math.min(Date.now(),st+300000);hrs+=Number(hr[i].stationhq_listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}const card=document.createElement('div');card.className='metric';card.innerHTML='<span>'+String(hour).padStart(2,'0')+':00–'+String((hour+1)%24).padStart(2,'0')+':00</span><b>'+((hrs<10?hrs.toFixed(2):hrs.toFixed(1)))+'h</b><span>Avg '+(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1)+' • Peak '+Math.max(...vs)+'</span>';hg.appendChild(card)}
    }
    status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
  }
