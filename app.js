@@ -41,12 +41,22 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (audio) {
-    audio.addEventListener('playing', () => setState(true));
-    audio.addEventListener('pause', () => setState(false));
+    audio.addEventListener('playing', () => {
+      setState(true);
+      if (window.FARAnalytics) window.FARAnalytics.startListening('website');
+    });
+    audio.addEventListener('pause', () => {
+      setState(false);
+      if (window.FARAnalytics) window.FARAnalytics.stopListening('website');
+    });
     audio.addEventListener('waiting', () => {
       if (status) status.textContent = 'Connecting to live stream…';
     });
+    audio.addEventListener('ended', () => {
+      if (window.FARAnalytics) window.FARAnalytics.stopListening('website');
+    });
     audio.addEventListener('error', () => {
+      if (window.FARAnalytics) window.FARAnalytics.stopListening('website');
       if (status) status.textContent = 'Stream unavailable right now';
       setState(false);
     });
