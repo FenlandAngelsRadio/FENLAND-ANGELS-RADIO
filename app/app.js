@@ -19,11 +19,13 @@ play.addEventListener('click',async()=>{
 });
 
 radio.addEventListener('playing',()=>{
+  if(window.FARAnalytics) window.FARAnalytics.startListening('pwa');
   play.textContent='❚❚';
   state.textContent='Playing live';
 });
 
 radio.addEventListener('pause',()=>{
+  if(window.FARAnalytics) window.FARAnalytics.stopListening('pwa');
   play.textContent='▶';
   if(radio.currentTime!==0)
     state.textContent='Paused';
@@ -34,6 +36,7 @@ radio.addEventListener('waiting',()=>{
 });
 
 radio.addEventListener('error',()=>{
+  if(window.FARAnalytics) window.FARAnalytics.stopListening('pwa');
   state.textContent='Stream unavailable';
 });
 
@@ -92,6 +95,7 @@ installButton.addEventListener('click', async () => {
 });
 
 window.addEventListener('appinstalled', () => {
+  if(window.FARAnalytics) window.FARAnalytics.send('app_install',{source:'pwa'});
   installHint.textContent =
     'Fenland Angels Radio is installed.';
 
