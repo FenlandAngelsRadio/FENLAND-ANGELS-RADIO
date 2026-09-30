@@ -80,7 +80,6 @@
    programmeGrid.innerHTML=featured.map(r=>'<div class="show-card" id="'+programmeId(r.id)+'"><h3>'+esc(r.show_name)+'</h3><div class="show-time">'+esc(r.day_group==='weekday'?'Weekdays':r.day_group[0].toUpperCase()+r.day_group.slice(1))+' • '+esc(r.start_time.slice(0,5))+'–'+esc(r.end_time.slice(0,5))+'</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b data-metric="hours">0h</b></div><div class="show-stat"><span>Average listeners</span><b data-metric="avg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b data-metric="peak">0</b></div><div class="show-stat"><span>Samples</span><b data-metric="samples">0</b></div></div></div>').join('')||'<div class="show-card">No featured programmes are enabled in Schedule Manager.</div>';
  }
  renderProgrammeCards();
- let currentRange='today';
  function startFor(range){const d=new Date(); if(range==='all')return new Date('2026-09-29T00:00:00+01:00'); if(range==='today'){d.setHours(0,0,0,0);return d} d.setDate(d.getDate()-Number(range));return d}
  function fmtDuration(sec){sec=Math.max(0,Math.round(sec||0));const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60);return h? h+'h '+m+'m':m+'m'}
  function latestByListen(rows){const m=new Map(); for(const r of rows){if(!r.listen_session_id)continue;const old=m.get(r.listen_session_id);if(!old||new Date(r.created_at)>new Date(old.created_at))m.set(r.listen_session_id,r)}return m}
