@@ -300,21 +300,9 @@
 
 
     if(!admin){
-
-      await client.auth.signOut();
-
-      loginStatus.textContent =
-        'This account is not authorised for FAR event management.';
-
-      loginStatus.className =
-        'event-form-status error';
-
-      loginPanel.hidden = false;
-      adminPanel.hidden = true;
-
+      location.replace('admin-dashboard.html');
       return;
     }
-
 
     loginPanel.hidden = true;
     adminPanel.hidden = false;
