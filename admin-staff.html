@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Staff & Permissions | FAR Admin</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-nav.css?v=3"><script src="site-nav.js?v=4" defer></script><style>
+main{width:min(94vw,1150px);margin:auto;padding:145px 0 80px}.top{display:flex;justify-content:space-between;gap:18px;align-items:center}.panel{background:#0d0f13;border:1px solid #2d3037;border-radius:15px;padding:20px;margin-top:18px}.back,.btn{border:0;border-radius:8px;padding:11px 15px;background:#252a33;color:#fff;font-weight:900;text-decoration:none;cursor:pointer}.save{background:#d71920}.staff{padding:18px 0;border-bottom:1px solid #292e37}.staff:last-child{border:0}.staff-head{display:flex;justify-content:space-between;gap:14px;align-items:center}.staff h3{margin:0 0 4px}.muted{color:#aeb4bf}.perms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:14px}.perm{display:flex;gap:8px;align-items:flex-start;padding:10px;border:1px solid #303540;border-radius:9px;background:#101319}.perm input{margin-top:3px}.management{color:#d4aa47;font-weight:900}.status{color:#cfd2d9}@media(max-width:760px){.perms{grid-template-columns:1fr}.top,.staff-head{align-items:flex-start;flex-direction:column}}</style></head><body><header></header><main><div class="top"><div><p class="eyebrow">FAR ADMIN</p><h1>Staff & Permissions</h1><p>Management controls which FAR Admin tools each staff member can use.</p></div><a class="back" href="admin-dashboard.html">← Admin Dashboard</a></div><div id="status" class="panel status">Checking management access…</div><section id="app" class="panel" hidden><div id="staff"></div></section></main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script>
+(async()=>{const cfg=FAR_EVENTS_CONFIG||{},db=supabase.createClient(cfg.SUPABASE_URL,cfg.SUPABASE_ANON_KEY),status=document.getElementById('status'),app=document.getElementById('app'),staff=document.getElementById('staff');
+const permissions=[
+['schedule','Schedule','Manage programmes and show times'],
+['pages','Website Pages','Create, edit, publish and remove CMS pages'],
+['website_content','Website Content','Edit homepage, station information and routine website copy'],
+['navigation','Navigation','Choose where pages appear in website menus'],
+['news','News','Create and manage news content'],
+['events','Events','Review and manage community events'],
+['podcasts','Podcasts','Create and manage podcasts'],
+['presenters','Presenters / Team','Manage presenter and team profiles'],
+['listen_platforms','Listen Platforms','Manage Other Ways to Listen'],
+['public_file','Public File','Update the station public file'],
+['advertising','Advertising','Manage advertising content, packages and leads'],
+['sponsors','Sponsors','Manage station sponsors'],
+['vouchers','Vouchers','Manage voucher content'],
+['inbox','Contact Inbox','View and manage contact enquiries'],
+['applications','Applications','View and manage applications'],
+['audience','Audience Analytics','View audience analytics'],
+['cloud_live','FAR Cloud Live','Access live-services administration']
+];
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const {data:{session}}=await db.auth.getSession();if(!session){location.href='admin-dashboard.html';return}
+const {data:me,error:meErr}=await db.from('far_admins').select('role').eq('user_id',session.user.id).maybeSingle();if(meErr||!me||!['owner','deputy_manager'].includes((me.role||'').toLowerCase())){status.textContent='Management access required.';return}
+status.textContent='Management access confirmed. Only management can change staff permissions.';app.hidden=false;
+async function load(){const {data,error}=await db.from('far_admins').select('user_id,display_name,role,permissions').order('display_name');if(error){staff.innerHTML='<p>'+esc(error.message)+'</p>';return}
+staff.innerHTML=(data||[]).map(a=>{const role=(a.role||'staff').toLowerCase(),management=['owner','deputy_manager'].includes(role),p=Array.isArray(a.permissions)?a.permissions:[];return '<div class="staff" data-user="'+esc(a.user_id)+'"><div class="staff-head"><div><h3>'+esc(a.display_name||'FAR Staff')+'</h3><div class="'+(management?'management':'muted')+'">'+esc(role.replaceAll('_',' '))+(management?' • Full management access':'')+'</div></div>'+(management?'':'<button class="btn save" data-save="'+esc(a.user_id)+'">Save permissions</button>')+'</div>'+(management?'<p class="muted">Management accounts automatically have access to all FAR Admin areas.</p>':'<div class="perms">'+permissions.map(x=>'<label class="perm"><input type="checkbox" value="'+x[0]+'" '+(p.includes(x[0])?'checked':'')+'><span><strong>'+x[1]+'</strong><br><small class="muted">'+x[2]+'</small></span></label>').join('')+'</div>')+'</div>'}).join('')||'<p>No staff accounts found.</p>';
+staff.querySelectorAll('[data-save]').forEach(btn=>btn.onclick=async()=>{const box=btn.closest('.staff'),vals=[...box.querySelectorAll('input[type=checkbox]:checked')].map(x=>x.value);btn.disabled=true;status.textContent='Saving permissions…';const {error}=await db.from('far_admins').update({permissions:vals}).eq('user_id',btn.dataset.save);status.textContent=error?error.message:'Staff permissions saved.';btn.disabled=false})}
+load()})();
+</script></body></html>
