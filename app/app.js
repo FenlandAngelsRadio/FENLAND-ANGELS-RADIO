@@ -45,10 +45,18 @@ volume.addEventListener('input',()=>{
 });
 
 if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>{
-    navigator.serviceWorker
-      .register('./service-worker.js?v=10')
-      .catch(()=>{});
+  let reloadingForWorker=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(reloadingForWorker) return;
+    reloadingForWorker=true;
+    location.reload();
+  });
+  window.addEventListener('load',async()=>{
+    try{
+      const reg=await navigator.serviceWorker.register('./service-worker.js?v=11',{updateViaCache:'none'});
+      await reg.update();
+      setInterval(()=>reg.update().catch(()=>{}),60000);
+    }catch(e){}
   });
 }
 
