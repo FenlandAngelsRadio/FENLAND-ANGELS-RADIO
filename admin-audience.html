@@ -50,10 +50,7 @@
 </div><p class="muted">Calculated from the working Icecast stream listener count sampled every 5 minutes. Listener-hours use each snapshot as a 5-minute measured interval.</p></div>
 <div class="section"><h2>Programme performance</h2>
 <p class="muted">Stream audience calculated from the working 5-minute Icecast samples. Programme listener-hours sum listeners across the 5-minute sample intervals in each show.</p>
-<div class="show-grid">
-<div class="show-card"><h3>Breakfast with Private Major</h3><div class="show-time">Weekdays • 07:00–10:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showBreakfastHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showBreakfastAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showBreakfastPeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showBreakfastSamples">0</b></div></div></div>
-<div class="show-card"><h3>Drive Time</h3><div class="show-time">Weekdays • 16:00–18:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showDriveHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showDriveAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showDrivePeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showDriveSamples">0</b></div></div></div>
-<div class="show-card"><h3>Soundsystem Party</h3><div class="show-time">Saturday • 20:00–22:00</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b id="showPartyHours">0h</b></div><div class="show-stat"><span>Average listeners</span><b id="showPartyAvg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b id="showPartyPeak">0</b></div><div class="show-stat"><span>Samples</span><b id="showPartySamples">0</b></div></div></div>
+<div id="programmeGrid" class="show-grid"><div class="show-card">Loading programme schedule…</div></div>
 </div>
 <div class="section"><h2>Hourly stream audience</h2><div id="hourlyGrid" class="metrics"></div><p class="muted">Hours shown are UK local time. Each card is calculated from the working Icecast stream samples in the selected range.</p></div>
 </div>
@@ -61,7 +58,7 @@
 <p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
 </section>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=1"></script>
 <script>
 (async function(){
  const status=document.getElementById('status'), dash=document.getElementById('dashboard'), cfg=window.FAR_EVENTS_CONFIG||{};
@@ -73,6 +70,16 @@
  const {data:admin,error:adminErr}=await client.from('far_admins').select('display_name').eq('user_id',session.user.id).maybeSingle();
  if(adminErr||!admin){location.href='admin-dashboard.html';return}
  status.textContent='Loading audience data…'; dash.hidden=false;
+ let currentRange='today', cmsSchedule=[];
+ try{ cmsSchedule=await FARCMS.schedule(); }catch(e){ console.error('CMS schedule unavailable',e); }
+ const programmeGrid=document.getElementById('programmeGrid');
+ function esc(v=''){return String(v).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]))}
+ function programmeId(id){return 'programme-'+String(id).replace(/[^a-z0-9_-]/gi,'')}
+ function renderProgrammeCards(){
+   const featured=cmsSchedule.filter(r=>r.featured&&r.active!==false);
+   programmeGrid.innerHTML=featured.map(r=>'<div class="show-card" id="'+programmeId(r.id)+'"><h3>'+esc(r.show_name)+'</h3><div class="show-time">'+esc(r.day_group==='weekday'?'Weekdays':r.day_group[0].toUpperCase()+r.day_group.slice(1))+' • '+esc(r.start_time.slice(0,5))+'–'+esc(r.end_time.slice(0,5))+'</div><div class="show-stats"><div class="show-stat"><span>Listener-hours</span><b data-metric="hours">0h</b></div><div class="show-stat"><span>Average listeners</span><b data-metric="avg">0.0</b></div><div class="show-stat"><span>Peak listeners</span><b data-metric="peak">0</b></div><div class="show-stat"><span>Samples</span><b data-metric="samples">0</b></div></div></div>').join('')||'<div class="show-card">No featured programmes are enabled in Schedule Manager.</div>';
+ }
+ renderProgrammeCards();
  let currentRange='today';
  function startFor(range){const d=new Date(); if(range==='all')return new Date('2026-09-29T00:00:00+01:00'); if(range==='today'){d.setHours(0,0,0,0);return d} d.setDate(d.getDate()-Number(range));return d}
  function fmtDuration(sec){sec=Math.max(0,Math.round(sec||0));const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60);return h? h+'h '+m+'m':m+'m'}
@@ -169,11 +176,9 @@
      document.getElementById('milestoneMarks').innerHTML=MILESTONES.map(x=>'<span class="milestone-mark '+(lifetimeHours>=x?'reached':'')+'">'+x.toLocaleString('en-GB')+'h'+(lifetimeHours>=x?' ✓':'')+'</span>').join('');
      function localParts(ts){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',hourCycle:'h23'}).formatToParts(new Date(ts));return {day:p.find(x=>x.type==='weekday').value,hour:Number(p.find(x=>x.type==='hour').value)}}
      function sampleHours(sr){return sr.reduce((sum,r)=>sum+Number(r.listeners||0)*(5/60),0)}
-     function showMetrics(filter,prefix){const sr=shqRows.filter(r=>filter(localParts(r.created_at))),vs=sr.map(r=>Number(r.listeners||0)),hrs=sampleHours(sr);document.getElementById(prefix+'Hours').textContent=(hrs<10?hrs.toFixed(2):hrs.toFixed(1))+'h';document.getElementById(prefix+'Avg').textContent=vs.length?(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1):'0.0';document.getElementById(prefix+'Peak').textContent=vs.length?Math.max(...vs):0;document.getElementById(prefix+'Samples').textContent=sr.length}
-     const weekdays=new Set(['Mon','Tue','Wed','Thu','Fri']);
-     showMetrics(x=>weekdays.has(x.day)&&x.hour>=7&&x.hour<10,'showBreakfast');
-     showMetrics(x=>weekdays.has(x.day)&&x.hour>=16&&x.hour<18,'showDrive');
-     showMetrics(x=>x.day==='Sat'&&x.hour>=20&&x.hour<22,'showParty');
+     function clockMinutes(v){const p=String(v).slice(0,5).split(':').map(Number);return p[0]*60+p[1]}
+     function rowMatchesProgramme(r,show){const p=localParts(r.created_at),dayOk=show.day_group==='weekday'?['Mon','Tue','Wed','Thu','Fri'].includes(p.day):show.day_group==='saturday'?p.day==='Sat':p.day==='Sun';if(!dayOk)return false;const d=new Date(r.created_at),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(d),m=Number(parts.find(x=>x.type==='hour').value)*60+Number(parts.find(x=>x.type==='minute').value),a=clockMinutes(show.start_time),z=clockMinutes(show.end_time);return z>a?(m>=a&&m<z):(m>=a||m<z)}
+     for(const show of cmsSchedule.filter(r=>r.featured&&r.active!==false)){const sr=shqRows.filter(r=>rowMatchesProgramme(r,show)),vs=sr.map(r=>Number(r.listeners||0)),hrs=sampleHours(sr),card=document.getElementById(programmeId(show.id));if(!card)continue;card.querySelector('[data-metric="hours"]').textContent=(hrs<10?hrs.toFixed(2):hrs.toFixed(1))+'h';card.querySelector('[data-metric="avg"]').textContent=vs.length?(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1):'0.0';card.querySelector('[data-metric="peak"]').textContent=vs.length?Math.max(...vs):0;card.querySelector('[data-metric="samples"]').textContent=sr.length}
      const hg=document.getElementById('hourlyGrid');hg.innerHTML='';for(let hour=0;hour<24;hour++){const hr=shqRows.filter(r=>localParts(r.created_at).hour===hour),vs=hr.map(r=>Number(r.listeners||0));if(!vs.length)continue;const hrs=sampleHours(hr);const card=document.createElement('div');card.className='metric';card.innerHTML='<span>'+String(hour).padStart(2,'0')+':00–'+String((hour+1)%24).padStart(2,'0')+':00</span><b>'+((hrs<10?hrs.toFixed(2):hrs.toFixed(1)))+'h</b><span>Avg '+(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1)+' • Peak '+Math.max(...vs)+'</span>';hg.appendChild(card)}
    }
    status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
