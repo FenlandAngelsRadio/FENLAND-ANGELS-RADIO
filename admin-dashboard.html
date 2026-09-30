@@ -282,6 +282,14 @@
     Sign in
   </button>
 
+  <button
+    id="forgotPasswordButton"
+    type="button"
+    style="width:100%;margin-top:10px;padding:11px;background:transparent;color:#d4aa47;border:1px solid #444954;border-radius:9px;cursor:pointer;font-weight:800"
+  >
+    Forgot password?
+  </button>
+
 
   <div
     id="loginStatus"
@@ -438,6 +446,9 @@
 
   const logoutButton =
     document.getElementById("logoutButton");
+
+  const forgotPasswordButton =
+    document.getElementById("forgotPasswordButton");
 
   const adminEmail =
     document.getElementById("adminEmail");
@@ -679,6 +690,35 @@
 
       }
 
+    }
+  );
+
+
+
+  forgotPasswordButton.addEventListener(
+    "click",
+    async () => {
+      const email=adminEmail.value.trim();
+      if(!email){
+        loginStatus.textContent="Enter your email address first.";
+        loginStatus.className="admin-status error";
+        return;
+      }
+      forgotPasswordButton.disabled=true;
+      loginStatus.textContent="Sending password reset email…";
+      loginStatus.className="admin-status";
+      try{
+        const {error}=await client.auth.resetPasswordForEmail(email,{
+          redirectTo:"https://fenlandangelsradio.co.uk/admin-dashboard.html"
+        });
+        if(error)throw error;
+        loginStatus.textContent="Password reset email sent. Check your inbox.";
+      }catch(error){
+        loginStatus.textContent=error.message||"Unable to send password reset email.";
+        loginStatus.className="admin-status error";
+      }finally{
+        forgotPasswordButton.disabled=false;
+      }
     }
   );
 
