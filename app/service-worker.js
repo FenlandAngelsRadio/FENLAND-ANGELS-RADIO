@@ -1,10 +1,10 @@
-const CACHE='fenland-angels-phone-app-v6';
+const CACHE='fenland-angels-phone-app-v7';
 
 const ASSETS=[
   './',
   './index.html',
-  './style.css?v=4',
-  './app.js?v=6',
+  './style.css?v=7',
+  './app.js?v=7',
   './manifest.webmanifest',
   './fenland-angels-radio-logo.jpg',
   './icon-192.png',
