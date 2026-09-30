@@ -37,22 +37,45 @@ Deno.serve(async (req) => {
     if (permissions.some((p: string) => !allowedPermissions.includes(p))) throw new Error("Invalid permission");
     if (role === "deputy_manager" && me.role !== "owner") throw new Error("Only the Owner can appoint a Deputy Station Manager");
 
-    const { data: invite, error: inviteError } = await admin.auth.admin.inviteUserByEmail(email, {
-      data: { display_name: displayName },
-      redirectTo: "https://fenlandangelsradio.co.uk/admin-dashboard.html"
-    });
-    if (inviteError) throw inviteError;
-    if (!invite.user) throw new Error("No user returned by Supabase Auth");
+    // Resolve an existing Auth account first so changing staff access never
+    // burns another invitation email. Supabase Admin currently has no
+    // get-user-by-email call, so page through users server-side.
+    let authUser: any = null;
+    for (let page = 1; page <= 20 && !authUser; page++) {
+      const { data: listed, error: listError } = await admin.auth.admin.listUsers({ page, perPage: 1000 });
+      if (listError) throw listError;
+      authUser = listed.users.find((u: any) => String(u.email || "").toLowerCase() === email) || null;
+      if (listed.users.length < 1000) break;
+    }
 
+    let invited = false;
+    if (!authUser) {
+      const { data: invite, error: inviteError } = await admin.auth.admin.inviteUserByEmail(email, {
+        data: { display_name: displayName },
+        redirectTo: "https://fenlandangelsradio.co.uk/admin-dashboard.html"
+      });
+      if (inviteError) throw inviteError;
+      if (!invite.user) throw new Error("No user returned by Supabase Auth");
+      authUser = invite.user;
+      invited = true;
+    }
+
+    // Audience Analytics is compulsory for every FAR staff account.
+    const effectivePermissions = Array.from(new Set(["audience", ...permissions]));
     const { error: accessError } = await admin.from("far_admins").upsert({
-      user_id: invite.user.id,
+      user_id: authUser.id,
       display_name: displayName,
       role,
-      permissions
+      permissions: effectivePermissions
     }, { onConflict: "user_id" });
     if (accessError) throw accessError;
 
-    return new Response(JSON.stringify({ ok: true }), { status: 200, headers: { ...cors, "Content-Type": "application/json" } });
+    return new Response(JSON.stringify({
+      ok: true,
+      invited,
+      existing_user: !invited,
+      message: invited ? "Staff invitation sent and access saved." : "Existing account found — FAR access updated."
+    }), { status: 200, headers: { ...cors, "Content-Type": "application/json" } });
   } catch (e) {
     return new Response(JSON.stringify({ error: e instanceof Error ? e.message : "Request failed" }), { status: 400, headers: { ...cors, "Content-Type": "application/json" } });
   }
