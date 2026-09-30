@@ -313,7 +313,7 @@
       </h2>
 
       <p class="far-player-tagline">
-        The Sound of the Fens
+        <span data-cms="station_tagline">The Sound of the Fens</span>
       </p>
 
       <button
@@ -695,13 +695,11 @@
           </p>
 
           <h2>
-            Independent Music Radio Community
+            <span data-cms="homepage_about_title">Independent Music Radio Community</span>
           </h2>
 
           <p>
-            Fenland Angels Radio is an independent
-            24/7 internet radio station serving
-            communities across the Fens.
+            <span data-cms="homepage_about_text">Fenland Angels Radio is an independent 24/7 internet radio station serving communities across the Fens.</span>
           </p>
 
         </div>
@@ -723,16 +721,12 @@
 
           <p>
             <strong>Email:</strong>
-            <a href="mailto:fenlandangelsradio@gmail.com">
-              fenlandangelsradio@gmail.com
-            </a>
+            <a id="cmsContactEmail" href="mailto:fenlandangelsradio@gmail.com" data-cms="contact_email">fenlandangelsradio@gmail.com</a>
           </p>
 
           <p>
             <strong>Phone:</strong>
-            <a href="tel:+447401152538">
-              07401 152538
-            </a>
+            <a id="cmsContactPhone" href="tel:+447401152538" data-cms="contact_phone">07401 152538</a>
           </p>
 
           <p>
@@ -1018,6 +1012,6 @@ const stories =
   <script src="far-analytics.js?v=13"></script>
   <script src="app.js?v=12"></script>
 
-</body>
+<script src="far-content.js?v=1"></script><script>(async()=>{try{const m=await FARContent.all();FARContent.apply(m);const e=document.getElementById('cmsContactEmail'),p=document.getElementById('cmsContactPhone');if(e)e.href='mailto:'+m.contact_email;if(p)p.href='tel:'+String(m.contact_phone||'').replace(/[^+\d]/g,'')}catch(e){console.error('FAR CMS',e)}})();</script></body>
 
 </html>
