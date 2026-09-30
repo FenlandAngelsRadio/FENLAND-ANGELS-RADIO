@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-09-30T02:26:51.290666+00:00",
+  "updated_at": "2026-09-30T11:23:54.101486+00:00",
   "stories": [
+    {
+      "id": "fenland-news-da8f77e33d2888c22cff7baa",
+      "headline": "Ely café supports volunteer in job search",
+      "brief": "A café in Ely is providing support to a local volunteer as they work to build confidence for future employment. The initiative aims to help the individual, named Rayo, develop the necessary skills and self-assurance required to secure a new job. By volunteering at the café, Rayo is gaining practical experience within the local community.",
+      "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWZPX2k1WW1WdENQM3VQTUhkcy0wX0lKbk40dGJjZE9nbUd1TERWcWNWUXR6bTROeDZaa0xUVkhhR0w0RzQ0X1g3OWptQU9yVG1MaVlIRHB6eFBSVm5EOExQOVpQc1RNWURtcmxJcEZZWmtBRW5FR28ySkdnNDFraXd4dWtvZ3oxZko0bDlKcHVpalRpeDZPWEhXdnp5Q3ZvM25rQjhFMHp5cTE1c1Rqel82TjVESUxPejlyRg?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-30T04:06:28+00:00",
+      "generated_at": "2026-09-30T11:23:41.231003+00:00",
+      "rss_date": "Wed, 30 Sep 2026 11:23:41 +0000"
+    },
+    {
+      "id": "fenland-news-fd4e131ad6b9c90a62d09aee",
+      "headline": "Former Springwood High student secures place at Imperial College London",
+      "brief": "A former student from Springwood High School in King’s Lynn has begun his studies at Imperial College London. Kevin Monk is pursuing a career in electrical engineering after achieving four A* grades in his A-Levels. He secured top marks in Maths, Further Maths, Chemistry, and Physics at the school, which is part of the West Norfolk Academies Trust. Mr. Monk credited his teachers for their guidance during his time at the school. Looking ahead, he hopes to eventually work within the semiconductor industry in London.",
+      "original_url": "https://www.lynnnews.co.uk/news/bright-future-for-aspiring-engineer-9484843/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/EN8MSUH0TI2OPDQLCU26.jpg",
+      "published": "2026-09-30T05:00:00+00:00",
+      "generated_at": "2026-09-30T11:23:36.915479+00:00",
+      "rss_date": "Wed, 30 Sep 2026 11:23:36 +0000"
+    },
+    {
+      "id": "fenland-news-74e57cebbb4aaff1cd27345d",
+      "headline": "Peterborough United fans discuss potential new manager",
+      "brief": "Supporters of Peterborough United are sharing their views regarding reports that Robbie Savage could be considered for the club's managerial position. The speculation follows recent media coverage surrounding the potential appointment. Fans have been reacting to the prospect of the former player taking charge at the club.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0akZWX1I4bGlzMnNiTThBc0FjZ04xbnBkV3lna1NCbDh2RFVUb2Q2bDlVWWdRa1ZUOHZSd2VTclZCN3luSDFKQ3IxcU40VTlsWDRpUm51emt1aTg?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-09-30T10:49:51+00:00",
+      "generated_at": "2026-09-30T11:23:33.784300+00:00",
+      "rss_date": "Wed, 30 Sep 2026 11:23:33 +0000"
+    },
+    {
+      "id": "fenland-news-297a39c1f875b42c97d88c67",
+      "headline": "Investigation launched following alleged assault at Cambridgeshire school",
+      "brief": "An investigation is underway following reports of an alleged assault involving a boy at a school in Cambridgeshire. Details regarding the specific location of the school or the circumstances surrounding the incident have not yet been released. Authorities are currently looking into the matter.",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0t5RmVuSUgtRk9iLVR3d1l3TEVpdHVLRnk5aFJKNUtxbXFwS255ekRrU1hQT3E5N2d6YWJfMWhZbTFVR3pKQ2ZGME0tSTY1Q0ktZlY5bF9rSXB5VWJXbnVwUDFKNFFlYjJwc2NWV2doQVRoMkxqZVVjNi1nRVp4clF6a0xTTzBBTEx0UDFDbkt3UDBVdzl4TQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-24T08:58:00+00:00",
+      "generated_at": "2026-09-30T11:23:27.926433+00:00",
+      "rss_date": "Wed, 30 Sep 2026 11:23:27 +0000"
+    },
+    {
+      "id": "fenland-news-27dea7d5038fdf1c3a7009d3",
+      "headline": "Eight-year-old to cycle 70 miles for East Winch Wildlife Centre",
+      "brief": "An eight-year-old girl from the region is preparing for a three-day cycling challenge to raise money for the RSPCA East Winch Wildlife Centre. Sophia Sawyer and her father, Ben, will cycle over 70 miles from Lynn to Cromer Pier, starting on Friday, October 2. \n\nSophia, who hopes to become a vet, was inspired to fundraise after the family rescued a nest of baby jackdaws last year. She has already exceeded her initial £100 target, with all proceeds going towards food and medicine for injured animals, including seals and hedgehogs. Her mother, Alexandra, and sister, Florence, will provide support throughout the journey. Donations can be made via the family’s JustGiving page.",
+      "original_url": "https://www.lynnnews.co.uk/news/animal-loving-eight-year-old-to-cycle-70-miles-for-rescue-ce-9484734/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/2U38CNK4LVR6LTFBWVPP.jpg",
+      "published": "2026-09-30T05:00:00+00:00",
+      "generated_at": "2026-09-30T11:23:24.227561+00:00",
+      "rss_date": "Wed, 30 Sep 2026 11:23:24 +0000"
+    },
     {
       "id": "fenland-news-be3390914f3eb04258fc8150",
       "headline": "Plans proposed for large wind turbines on farmland",
@@ -1045,61 +1100,6 @@
       "published": "2026-04-14T07:00:00+00:00",
       "generated_at": "2026-09-26T15:59:49.748789+00:00",
       "rss_date": "Sat, 26 Sep 2026 15:59:49 +0000"
-    },
-    {
-      "id": "fenland-news-c65ee6785fa7c17fd654e841",
-      "headline": "New children’s roleplay centre opens in King’s Lynn",
-      "brief": "A new roleplay centre and café has opened in King’s Lynn town centre today. Located on Purfleet Street in the former Rusty Krab premises, Roleplay King’s Lynn features three age-specific zones for children up to the age of 15. Facilities include a soft play area for toddlers, a miniature town for younger children, and a gaming den for older siblings.\n\nThe business, established by a local family, also includes a café serving speciality drinks and homemade snacks. The centre is open seven days a week, offering three 90-minute sessions daily. The team is also inviting schools and support groups to arrange exclusive bookings to provide a welcoming environment for children with special educational needs and disabilities.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-children-s-roleplay-centre-and-caf-opens-in-town-centre-9484376/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/KZI8UERKOYGYLKB81XEJ.jpg",
-      "published": "2026-09-25T15:55:48+00:00",
-      "generated_at": "2026-09-26T15:59:47.208678+00:00",
-      "rss_date": "Sat, 26 Sep 2026 15:59:47 +0000"
-    },
-    {
-      "id": "fenland-news-fb2f3fdfb9c98e9b7616151d",
-      "headline": "Seven-year-old boy dies following incident in Wimblington",
-      "brief": "A seven-year-old boy has died following reports of a child in the water at Wimblington. Emergency services were called to the scene, but the child could not be saved. No further details regarding the circumstances of the incident have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nd24zYk9CSXRuck1Md2ZkajhVdnRMbnJtaEhJblZTTW1EMlQ2aHhtVGJpYlY3SVJFSWN5eGtQeGg4MFFpbklCRW1HekRpbERvOFpERzJBYkFrUQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-04-08T07:00:00+00:00",
-      "generated_at": "2026-09-26T15:59:38.816230+00:00",
-      "rss_date": "Sat, 26 Sep 2026 15:59:38 +0000"
-    },
-    {
-      "id": "fenland-news-fcd2cc2430305cb16fb8707f",
-      "headline": "Tributes paid to former Queen Elizabeth Hospital surgeon Graham Thompson",
-      "brief": "Tributes have been paid to Graham Thompson, a former surgeon at the Queen Elizabeth Hospital in King’s Lynn, who has died at the age of 96. Mr Thompson, who passed away on Wednesday, September 9, began his career in the Royal Navy before working in Wisbech and later moving to the QEH. He retired in 1994 but remained active in the medical community, establishing a walking group for retired consultants. His family described him as a remarkable man who transformed many lives during his career. A funeral service will be held at the West Suffolk Crematorium in Risby on Wednesday, October 7, at 12.30pm.",
-      "original_url": "https://www.lynnnews.co.uk/news/tributes-paid-to-remarkable-former-qeh-surgeon-who-died-a-9484436/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/YYUQW0LE4WJTST055WZE.jpg",
-      "published": "2026-09-26T05:00:00+00:00",
-      "generated_at": "2026-09-26T15:59:32.041559+00:00",
-      "rss_date": "Sat, 26 Sep 2026 15:59:32 +0000"
-    },
-    {
-      "id": "fenland-news-2fcae7b9b845e5db5d6d1bf7",
-      "headline": "Death of Phoebe Bird from Long Sutton",
-      "brief": "The death of Phoebe Bird has been announced. According to an obituary published in the Lincolnshire Free Press, the resident of Long Sutton passed away in 2022. No further details regarding the circumstances of her death or funeral arrangements have been provided.",
-      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWi1tVUZIVy1WUjBaSEJHSkVDdmFDWmRyM3FMc3VFb3R0Vk5ycFVWX1lzUmMwa2FBSWFGLURhX05KTVlZZ3JlOEZFd1JBSnZOczdHc3ZiVnh1ZU4wMk1jSW12OW1nb3dPcE5OalJaeGNBQnZiV0hRQXg4aUJNeTVYU19lN3BGN1lIWlZNZWxIbmpuaGQ4bjZKR2p0VGNRS1Q5?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2022-01-25T08:00:00+00:00",
-      "generated_at": "2026-09-26T15:06:50.654917+00:00",
-      "rss_date": "Sat, 26 Sep 2026 15:06:50 +0000"
-    },
-    {
-      "id": "fenland-news-7cc164d2ec6e999718e2483a",
-      "headline": "Teacher to face three-day misconduct hearing",
-      "brief": "A teacher is due to appear before a three-day misconduct hearing. The details of the case were reported by The Hunts Post. No further information regarding the identity of the individual or the nature of the allegations has been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUlRV2lmMGFqUEdab1NocWprU3hlS2VldjdwQWRHTkJwMnVnd1NIREZZRmxNR21NTE1fM0xLSzR1S25ETVBVYi1qZzc5M3VLdDBYUDZ0UUY5aEZ3MlBPX0Myc081U1F4X09sVHFpdXhJdDEwMDAzRmREX29jaW5wZlhGS1BfVWp6T0lkaGFaQ05kMWpUQkZhSHRJaw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-02-19T08:00:00+00:00",
-      "generated_at": "2026-09-26T15:06:43.457299+00:00",
-      "rss_date": "Sat, 26 Sep 2026 15:06:43 +0000"
     }
   ]
 }
