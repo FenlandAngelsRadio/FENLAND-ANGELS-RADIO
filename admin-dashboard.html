@@ -337,6 +337,17 @@
   </div>
 
 
+  <section id="passwordPanel" style="margin:0 0 22px;padding:18px;border:1px solid #2d3037;border-radius:12px;background:#101216">
+    <strong style="font-size:18px">Your password</strong>
+    <p style="margin:6px 0 14px;color:#cfd2d9">Change the password for your own FAR staff account.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr auto;gap:10px">
+      <input id="newPassword" type="password" autocomplete="new-password" placeholder="New password (10+ characters)" style="padding:12px;border-radius:9px;border:1px solid #444954;background:#11141a;color:#fff">
+      <input id="confirmPassword" type="password" autocomplete="new-password" placeholder="Confirm new password" style="padding:12px;border-radius:9px;border:1px solid #444954;background:#11141a;color:#fff">
+      <button id="changePasswordButton" type="button" class="admin-signin" style="margin:0;width:auto;padding:0 18px">Change password</button>
+    </div>
+    <div id="passwordStatus" class="admin-status"></div>
+  </section>
+
   <div class="admin-grid">
 
 
@@ -692,6 +703,18 @@
 
     }
   );
+
+
+
+  document.getElementById("changePasswordButton").addEventListener("click",async()=>{
+    const a=document.getElementById("newPassword"),b=document.getElementById("confirmPassword"),s=document.getElementById("passwordStatus"),btn=document.getElementById("changePasswordButton");
+    if(a.value.length<10){s.textContent="New password must be at least 10 characters.";s.className="admin-status error";return}
+    if(a.value!==b.value){s.textContent="Passwords do not match.";s.className="admin-status error";return}
+    btn.disabled=true;s.textContent="Changing password…";s.className="admin-status";
+    try{const {error}=await client.auth.updateUser({password:a.value});if(error)throw error;a.value="";b.value="";s.textContent="Password changed successfully."}
+    catch(error){s.textContent=error.message||"Unable to change password.";s.className="admin-status error"}
+    finally{btn.disabled=false}
+  });
 
 
 
