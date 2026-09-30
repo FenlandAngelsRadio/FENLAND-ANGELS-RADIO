@@ -1,40 +1,74 @@
 name: FAR Audience History
 
 on:
+  # GitHub scheduled workflows are best-effort and can be delayed. Instead of
+  # relying on GitHub to wake us every 5 minutes, start one recorder job each
+  # hour and take 12 samples inside that job, five minutes apart.
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "2 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: far-audience-history
+  cancel-in-progress: false
+
 jobs:
   snapshot:
     runs-on: ubuntu-latest
+    timeout-minutes: 65
     steps:
-      - name: Read StationHQ and Icecast and store audience snapshot
+      - name: Record audience every five minutes for one hour
         shell: bash
         env:
           STATIONHQ_API_KEY: ${{ secrets.STATIONHQ_API_KEY }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
 
-          # StationHQ filtered listener count (read-only API key kept in GitHub Secrets).
-          SHQ_JSON="$(curl -fsS --max-time 15             -H "Authorization: Bearer $STATIONHQ_API_KEY"             'https://hq3.yesstreaming.net/api/v1/station/40/stats')"
-          SHQ_LISTENERS="$(printf '%s' "$SHQ_JSON" | python3 -c 'import json,sys; print(int(json.load(sys.stdin).get("listenerCount",0)))')"
-          SHQ_STATUS="$(printf '%s' "$SHQ_JSON" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status","unknown"))')"
+          record_snapshot() {
+            echo "Recording FAR audience snapshot at $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
-          # Raw Icecast connections. Failure is recorded as offline instead of losing the sample.
-          ICE_ONLINE=true
-          ICE_LISTENERS=0
-          if HTML="$(curl -fsS --max-time 15 'https://hq3.yesstreaming.net:7085/status.xsl')"; then
-            ICE_LISTENERS="$(printf '%s' "$HTML" | sed -nE 's/.*Current Listeners:<\/td><td[^>]*>([0-9]+).*/\1/p' | head -n1 || true)"
-            if [ -z "$ICE_LISTENERS" ]; then
-              ICE_LISTENERS="$(printf '%s' "$HTML" | grep -oE 'Current Listeners[^0-9]*[0-9]+' | grep -oE '[0-9]+' | head -n1 || true)"
+            # StationHQ filtered listener count.
+            SHQ_LISTENERS=0
+            SHQ_STATUS="unavailable"
+            if SHQ_JSON="$(curl -fsS --max-time 15 \
+              -H "Authorization: Bearer $STATIONHQ_API_KEY" \
+              'https://hq3.yesstreaming.net/api/v1/station/40/stats')"; then
+              SHQ_LISTENERS="$(printf '%s' "$SHQ_JSON" | python3 -c 'import json,sys; print(int(json.load(sys.stdin).get("listenerCount",0)))' 2>/dev/null || echo 0)"
+              SHQ_STATUS="$(printf '%s' "$SHQ_JSON" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("status","unknown"))' 2>/dev/null || echo unknown)"
             fi
-            if [ -z "$ICE_LISTENERS" ]; then ICE_LISTENERS=0; ICE_ONLINE=false; fi
-          else
-            ICE_ONLINE=false
-          fi
 
-          curl -fsS --max-time 15             -X POST 'https://nkdjnrycpdiwburtkzen.supabase.co/rest/v1/far_icecast_snapshots'             -H 'apikey: sb_publishable_jswOUS7A8Uw3RqQXj3kxQw_dZaJYC_2'             -H 'Content-Type: application/json'             -H 'Prefer: return=minimal'             --data "{\"listeners\":$ICE_LISTENERS,\"mount\":\"/stream\",\"stream_online\":$ICE_ONLINE,\"stationhq_listeners\":$SHQ_LISTENERS,\"stationhq_status\":\"$SHQ_STATUS\"}"
+            # Raw Icecast connections. A failed read is stored as offline rather
+            # than throwing away the whole five-minute sample.
+            ICE_ONLINE=true
+            ICE_LISTENERS=0
+            if HTML="$(curl -fsS --max-time 15 'https://hq3.yesstreaming.net:7085/status.xsl')"; then
+              ICE_LISTENERS="$(printf '%s' "$HTML" | sed -nE 's/.*Current Listeners:<\/td><td[^>]*>([0-9]+).*/\1/p' | head -n1 || true)"
+              if [ -z "$ICE_LISTENERS" ]; then
+                ICE_LISTENERS="$(printf '%s' "$HTML" | grep -oE 'Current Listeners[^0-9]*[0-9]+' | grep -oE '[0-9]+' | head -n1 || true)"
+              fi
+              if [ -z "$ICE_LISTENERS" ]; then
+                ICE_LISTENERS=0
+                ICE_ONLINE=false
+              fi
+            else
+              ICE_ONLINE=false
+            fi
+
+            curl -fsS --max-time 15 \
+              -X POST 'https://nkdjnrycpdiwburtkzen.supabase.co/rest/v1/far_icecast_snapshots' \
+              -H 'apikey: sb_publishable_jswOUS7A8Uw3RqQXj3kxQw_dZaJYC_2' \
+              -H 'Content-Type: application/json' \
+              -H 'Prefer: return=minimal' \
+              --data "{\"listeners\":$ICE_LISTENERS,\"mount\":\"/stream\",\"stream_online\":$ICE_ONLINE,\"stationhq_listeners\":$SHQ_LISTENERS,\"stationhq_status\":\"$SHQ_STATUS\"}"
+          }
+
+          for sample in $(seq 1 12); do
+            echo "Sample $sample of 12"
+            record_snapshot || echo "Snapshot $sample failed; continuing so the recorder recovers at the next interval."
+            if [ "$sample" -lt 12 ]; then
+              sleep 300
+            fi
+          done
