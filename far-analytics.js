@@ -26,26 +26,10 @@
       window.navigator.standalone === true;
   }
   function send(eventType, extra={}) {
-    const body = {
-      event_type: eventType,
-      device_id: deviceId,
-      session_id: sessionId,
-      source: extra.source || (installedMode() ? "pwa" : "website"),
-      page: location.pathname,
-      listen_session_id: extra.listen_session_id || null,
-      duration_seconds: Number.isFinite(extra.duration_seconds) ? Math.max(0, Math.round(extra.duration_seconds)) : null
-    };
-    return fetch(ENDPOINT, {
-      method: "POST",
-      keepalive: true,
-      headers: {
-        "apikey": SUPABASE_KEY,
-        "Authorization": "Bearer " + SUPABASE_KEY,
-        "Content-Type": "application/json",
-        "Prefer": "return=minimal"
-      },
-      body: JSON.stringify(body)
-    }).catch(() => {});
+    const cfg=window.FAR_EVENTS_CONFIG||{};
+    if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return Promise.resolve(false);
+    const body={event_type:eventType,device_id:deviceId,session_id:sessionId,source:extra.source||(installedMode()?"pwa":"website"),page:location.pathname,listen_session_id:extra.listen_session_id||null,duration_seconds:Number.isFinite(extra.duration_seconds)?Math.max(0,Math.round(extra.duration_seconds)):null};
+    return fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{method:"POST",mode:"cors",cache:"no-store",credentials:"omit",keepalive:true,headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY,"Content-Type":"application/json"},body:JSON.stringify(body)}).then(r=>r.ok).catch(()=>false);
   }
 
   let listenId = null;
