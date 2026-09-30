@@ -97,5 +97,5 @@
   </div>
 
 </footer>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script>(async()=>{try{const db=supabase.createClient(FAR_EVENTS_CONFIG.SUPABASE_URL,FAR_EVENTS_CONFIG.SUPABASE_ANON_KEY),{data}=await db.from('far_podcasts').select('*').eq('enabled',true).order('sort_order').order('published_at',{ascending:false}),g=document.querySelector('.simple-grid'),e=v=>String(v||'').replace(/[&<>"]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]));if(data&&data.length)g.innerHTML=data.map(p=>'<article class="simple-card">'+(p.artwork_url?'<img src="'+e(p.artwork_url)+'" alt="" style="width:100%;max-height:280px;object-fit:cover;border-radius:10px;margin-bottom:15px">':'')+'<h2>'+e(p.title)+'</h2>'+(p.presenter?'<p><strong>'+e(p.presenter)+'</strong></p>':'')+'<p>'+e(p.description)+'</p>'+((p.audio_url||p.link_url)?'<a href="'+e(p.audio_url||p.link_url)+'" target="_blank" rel="noopener">Listen →</a>':'')+'</article>').join('')}catch(e){console.error(e)}})();</script></body>
 </html>
