@@ -519,7 +519,7 @@
     const role=(admin.role||'staff').toLowerCase();
     const perms=Array.isArray(admin.permissions)?admin.permissions:[];
     const owner=role==='owner', manager=role==='deputy_manager';
-    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission;el.hidden=!(owner||manager||perms.includes(p));});
+    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission,allowed=owner||manager||perms.includes(p);el.hidden=!allowed;el.style.display=allowed?'':'none';});
   }
 
   async function showDashboard(session){
