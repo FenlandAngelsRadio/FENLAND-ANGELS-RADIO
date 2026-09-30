@@ -25,10 +25,10 @@
 <div id="status" class="status">Checking FAR Admin access…</div>
 <section id="dashboard" hidden>
 <div class="live-card">
-<div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">StationHQ filtered audience</span></div>
-<div id="liveTotal" class="live-num">0</div><div class="muted" style="margin-top:-8px">Filtered listener count from StationHQ</div>
-<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>StationHQ Listeners</span><b id="liveShq">—</b></div><div><span>Raw Icecast Connections</span><b id="liveIce">—</b></div></div>
-<p class="muted">StationHQ Listeners is the provider-filtered count. Raw Icecast Connections includes every connection seen by the stream server and is retained for diagnostics; it is not treated as a human-listener count. StationHQ data is sampled every 5 minutes, so this display can lag by a few minutes.</p>
+<div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">Live stream audience</span></div>
+<div id="liveTotal" class="live-num">0</div><div class="muted" style="margin-top:-8px">Current listeners connected to Fenland Angels Radio</div>
+<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Other Players / Direct Stream</span><b id="liveOther">0</b></div><div><span>Total Stream Listeners</span><b id="liveIce">—</b></div></div>
+<p class="muted">The headline uses the live stream-server count so presenters see the audience actually connected to FAR. Website and app figures identify listeners using FAR-owned players; other players/direct stream covers the remainder.</p>
 </div>
 <div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">150.3</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Uses the same StationHQ-based cumulative listener-hours figure as the public website and PWA counter.</p></div>
 <div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
@@ -113,12 +113,14 @@
    const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
    const latestShq=iceRows&&iceRows.length?[...iceRows].reverse().find(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined):null;
    const shqLive=latestShq?Number(latestShq.stationhq_listeners):null;
-   document.getElementById('liveTotal').textContent=shqLive===null?live.length:shqLive;
-   document.getElementById('liveShq').textContent=shqLive===null?'—':shqLive;
-   document.getElementById('liveWeb').textContent=live.filter(r=>r.source==='website').length;
    const webLive=live.filter(r=>r.source==='website').length;
    const appLive=live.filter(r=>r.source==='pwa').length;
+   const streamLive=window.__farIceTotal;
+   const bestLive=streamLive!==null&&streamLive!==undefined?streamLive:(shqLive!==null?shqLive:live.length);
+   document.getElementById('liveTotal').textContent=bestLive;
+   document.getElementById('liveWeb').textContent=webLive;
    document.getElementById('liveApp').textContent=appLive;
+   document.getElementById('liveOther').textContent=Math.max(0,bestLive-webLive-appLive);
    
    const durations=sessionDurations(rows.filter(r=>r.event_type.startsWith('listen_')));
    const totalSec=durations.reduce((a,r)=>a+r.seconds,0), webSec=durations.filter(r=>r.source==='website').reduce((a,r)=>a+r.seconds,0), appSec=durations.filter(r=>r.source==='pwa').reduce((a,r)=>a+r.seconds,0);
