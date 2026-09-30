@@ -338,5 +338,5 @@
 
 </footer>
 
-</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script>(async()=>{try{const db=supabase.createClient(FAR_EVENTS_CONFIG.SUPABASE_URL,FAR_EVENTS_CONFIG.SUPABASE_ANON_KEY),{data}=await db.from('far_public_file_sections').select('*').eq('enabled',true).order('sort_order').order('id'),box=document.querySelector('.public-file'),e=v=>String(v||'').replace(/[&<>"]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]));if(data&&data.length)box.innerHTML='<h2>Fenland Angels Radio – The Sound of the Fens</h2>'+data.map(s=>'<section><h3>'+e(s.heading)+'</h3><p>'+e(s.content).replace(/\n/g,'<br>')+'</p></section>').join('')}catch(e){console.error(e)}})();</script></body>
 </html>
