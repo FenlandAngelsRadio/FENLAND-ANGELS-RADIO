@@ -84,5 +84,5 @@
   </div>
 
 </footer>
-</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script>(async()=>{try{const db=supabase.createClient(FAR_EVENTS_CONFIG.SUPABASE_URL,FAR_EVENTS_CONFIG.SUPABASE_ANON_KEY),{data}=await db.from('far_listen_platforms').select('*').eq('enabled',true).order('sort_order').order('id'),g=document.querySelector('.simple-grid'),e=v=>String(v||'').replace(/[&<>"]/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[x]));if(data&&data.length)g.innerHTML=data.map(p=>'<article class="simple-card"><h2>'+(p.icon?e(p.icon)+' ':'')+e(p.title)+'</h2><p>'+e(p.description)+'</p>'+(p.button_url?'<a href="'+e(p.button_url)+'">'+e(p.button_text||'Open')+' →</a>':'')+'</article>').join('')}catch(e){console.error(e)}})();</script></body>
 </html>
