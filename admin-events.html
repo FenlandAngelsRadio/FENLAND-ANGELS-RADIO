@@ -261,7 +261,7 @@
       error
     } = await client
       .from('far_admins')
-      .select('display_name')
+      .select('display_name,role,permissions')
       .eq('user_id',user.id)
       .maybeSingle();
 
@@ -269,6 +269,10 @@
       throw error;
     }
 
+    if(!data)return null;
+    const role=(data.role||'staff').toLowerCase();
+    const perms=Array.isArray(data.permissions)?data.permissions:[];
+    if(!(role==='owner'||role==='deputy_manager'||perms.includes('events')))return null;
     return data;
 
   }
