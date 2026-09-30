@@ -350,11 +350,11 @@
 
   <div class="admin-grid">
 
-    <a class="admin-card" data-permission="schedule" href="admin-schedule.html"><strong style="color:#d4aa47">Schedule Manager</strong><span>Add, edit and delete shows. Controls the website schedule, on-air display and programme analytics.</span></a>
+    <a class="admin-card" data-management-only="true" href="admin-staff.html"><strong style="color:#d4aa47">Staff & Permissions</strong><span>Management only. Grant or remove access to FAR Admin tools for individual staff accounts.</span></a>\n\n    <a class="admin-card" data-permission="schedule" href="admin-schedule.html"><strong style="color:#d4aa47">Schedule Manager</strong><span>Add, edit and delete shows. Controls the website schedule, on-air display and programme analytics.</span></a>
 
-    <a class="admin-card" href="admin-content.html"><strong style="color:#d4aa47">Website Content</strong><span>Manage station information, homepage copy, vouchers, advertising text and advertising packages.</span></a>
+    <a class="admin-card" data-permission="website_content" href="admin-content.html"><strong style="color:#d4aa47">Website Content</strong><span>Manage station information, homepage copy, vouchers, advertising text and advertising packages.</span></a>
 
-    <a class="admin-card" href="admin-pages.html"><strong style="color:#d4aa47">Pages Manager</strong><span>Create, edit, disable or delete campaign and temporary website pages such as appeals and special projects.</span></a>
+    <a class="admin-card" data-permission="pages" href="admin-pages.html"><strong style="color:#d4aa47">Pages Manager</strong><span>Create, edit, disable or delete campaign and temporary website pages such as appeals and special projects.</span></a>
 
 
     <a
@@ -536,7 +536,7 @@
     const role=(admin.role||'staff').toLowerCase();
     const perms=Array.isArray(admin.permissions)?admin.permissions:[];
     const owner=role==='owner', manager=role==='deputy_manager';
-    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission,allowed=owner||manager||perms.includes(p);el.hidden=!allowed;el.style.display=allowed?'':'none';});
+    document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission,allowed=owner||manager||perms.includes(p);el.hidden=!allowed;el.style.display=allowed?'':'none';});document.querySelectorAll('[data-management-only]').forEach(el=>{const allowed=owner||manager;el.hidden=!allowed;el.style.display=allowed?'':'none';});
   }
 
   async function showDashboard(session){
