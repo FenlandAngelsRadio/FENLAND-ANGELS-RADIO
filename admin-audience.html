@@ -90,6 +90,8 @@
    const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
    if(error){status.textContent='Could not load audience data: '+error.message;return}
    const {data:iceRows,error:iceErr}=await client.from('far_icecast_snapshots').select('created_at,listeners,stream_online,stationhq_listeners,stationhq_status').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
+   const liveFrom=new Date(Date.now()-5*60*1000).toISOString();
+   const {data:liveRows,error:liveErr}=await client.from('far_audience_events').select('event_type,source,listen_session_id,created_at').gte('created_at',liveFrom).not('listen_session_id','is',null).order('created_at',{ascending:false}).limit(2000);
    const now=Date.now(), liveCut=90000;
    try{
      const iceRes=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store'});
@@ -109,7 +111,7 @@
      document.getElementById('liveIce').textContent='OFFLINE';
      window.__farIceTotal=null;
    }
-   const liveLatest=latestByListen(rows.filter(r=>r.event_type.startsWith('listen_')));
+   const liveLatest=latestByListen((liveErr?rows:liveRows).filter(r=>r.event_type.startsWith('listen_')));
    const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
    const latestShq=iceRows&&iceRows.length?[...iceRows].reverse().find(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined):null;
    const shqLive=latestShq?Number(latestShq.stationhq_listeners):null;
