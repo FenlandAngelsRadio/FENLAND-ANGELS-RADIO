@@ -177,13 +177,13 @@
       </h1>
 
       <p class="lead">
-        The FAR Voucher Shop is coming soon. Check back here for voucher launches, availability and special offers from Fenland Angels Radio.
+        <span data-cms="voucher_intro">The FAR Voucher Shop is coming soon. Check back here for voucher launches, availability and special offers from Fenland Angels Radio.</span>
       </p>
 
       <div class="hero-actions">
 
         <span class="btn primary coming-soon">
-          Coming Soon
+          <span data-cms="voucher_status">Coming Soon</span>
         </span>
 
         <a
@@ -210,7 +210,7 @@
       </strong>
 
       <span>
-        FAR Vouchers — Coming Soon
+        FAR Vouchers — <span data-cms="voucher_status">Coming Soon</span>
       </span>
 
     </div>
@@ -227,7 +227,7 @@
       </p>
 
       <h2>
-        Voucher Shop Coming Soon
+        Voucher Shop <span data-cms="voucher_status">Coming Soon</span>
       </h2>
 
       <p>
@@ -254,7 +254,7 @@
         </p>
 
         <span class="btn outline coming-soon">
-          Coming Soon
+          <span data-cms="voucher_status">Coming Soon</span>
         </span>
 
       </article>
@@ -352,5 +352,5 @@
 
 </footer>
 
-</body>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-content.js?v=1"></script><script>(async()=>{try{const m=await FARContent.all();FARContent.apply(m)}catch(e){console.error('FAR CMS',e)}})();</script></body>
 </html>
