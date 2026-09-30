@@ -47,7 +47,7 @@ volume.addEventListener('input',()=>{
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>{
     navigator.serviceWorker
-      .register('./service-worker.js?v=3')
+      .register('./service-worker.js?v=4')
       .catch(()=>{});
   });
 }
