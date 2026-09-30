@@ -1,4 +1,4 @@
-const CACHE='fenland-angels-phone-app-v8';
+const CACHE='fenland-angels-phone-app-v9';
 
 const ASSETS=[
   './',
@@ -33,6 +33,11 @@ self.addEventListener('activate',e=>{
 
 self.addEventListener('fetch',e=>{
   const u=new URL(e.request.url);
+
+  if(u.pathname.endsWith('/app/') || u.pathname.endsWith('/app/index.html')){
+    e.respondWith(fetch(e.request,{cache:'no-store'}).catch(()=>caches.match('./index.html')));
+    return;
+  }
 
   if(
     u.hostname.includes('yesstreaming.net') ||
