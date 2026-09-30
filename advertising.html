@@ -230,7 +230,7 @@
       </h1>
 
       <p class="lead">
-        Affordable radio advertising for local businesses, organisations and community groups, with packages starting from £25 per month.
+        <span data-cms="advert_intro">Affordable radio advertising for local businesses, organisations and community groups.</span>
       </p>
 
       <div class="hero-actions">
@@ -296,179 +296,7 @@
     </div>
 
 
-    <div class="ad-package-grid">
-
-      <article class="ad-package-card">
-
-        <p class="eyebrow">
-          STARTER
-        </p>
-
-        <h3>
-          FAR Starter
-        </h3>
-
-        <div class="ad-price">
-          £25<span>/month</span>
-        </div>
-
-        <strong>
-          4 plays per day
-        </strong>
-
-        <p>
-          7 days a week for one month. A simple way to get your business heard on Fenland Angels Radio.
-        </p>
-
-        <a
-          class="btn primary"
-          href="https://fenland-angels-radio.sumupstore.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Buy Starter
-        </a>
-
-      </article>
-
-
-      <article class="ad-package-card">
-
-        <p class="eyebrow">
-          LOCAL
-        </p>
-
-        <h3>
-          FAR Local
-        </h3>
-
-        <div class="ad-price">
-          £40<span>/month</span>
-        </div>
-
-        <strong>
-          6 plays per day
-        </strong>
-
-        <p>
-          7 days a week for one month, giving your campaign more regular exposure throughout the schedule.
-        </p>
-
-        <a
-          class="btn primary"
-          href="https://fenland-angels-radio.sumupstore.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Buy Local
-        </a>
-
-      </article>
-
-
-      <article class="ad-package-card">
-
-        <p class="eyebrow">
-          PLUS
-        </p>
-
-        <h3>
-          FAR Plus
-        </h3>
-
-        <div class="ad-price">
-          £55<span>/month</span>
-        </div>
-
-        <strong>
-          8 plays per day
-        </strong>
-
-        <p>
-          7 days a week for one month, with increased frequency across Fenland Angels Radio.
-        </p>
-
-        <a
-          class="btn primary"
-          href="https://fenland-angels-radio.sumupstore.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Buy Plus
-        </a>
-
-      </article>
-
-
-      <article class="ad-package-card prime">
-
-        <p class="eyebrow">
-          PRIME
-        </p>
-
-        <h3>
-          FAR Prime
-        </h3>
-
-        <div class="ad-price">
-          £75<span>/month</span>
-        </div>
-
-        <strong>
-          10 plays per day
-        </strong>
-
-        <p>
-          Includes rotation during Breakfast and Drive Time as part of your one-month campaign.
-        </p>
-
-        <a
-          class="btn primary"
-          href="https://fenland-angels-radio.sumupstore.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Buy Prime
-        </a>
-
-      </article>
-
-
-      <article class="ad-package-card premium">
-
-        <p class="eyebrow">
-          PREMIUM
-        </p>
-
-        <h3>
-          FAR Premium
-        </h3>
-
-        <div class="ad-price">
-          £100<span>/month</span>
-        </div>
-
-        <strong>
-          12 plays per day
-        </strong>
-
-        <p>
-          Plus additional presenter mentions during selected live shows. Presenter mentions are promotional mentions, not programme sponsorship or endorsement.
-        </p>
-
-        <a
-          class="btn primary"
-          href="https://fenland-angels-radio.sumupstore.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Buy Premium
-        </a>
-
-      </article>
-
-    </div>
-
+    <div class="ad-package-grid" id="cmsAdPackages"><p>Loading advertising packages…</p></div>
   </section>
 
 
@@ -530,7 +358,7 @@
       </h2>
 
       <p>
-        Programme and station sponsorship is arranged directly with Fenland Angels Radio and is not sold as an instant online purchase.
+        <span data-cms="sponsor_notice">Programme and station sponsorship is arranged directly with Fenland Angels Radio.</span>
       </p>
 
     </div>
@@ -606,5 +434,6 @@
 
 </footer>
 
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-content.js?v=1"></script><script>
+(async()=>{try{const m=await FARContent.all();FARContent.apply(m);const ps=await FARContent.packages(),box=document.getElementById('cmsAdPackages'),esc=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[x]));box.innerHTML=ps.map((p,i)=>'<article class="ad-package-card '+(i===3?'prime':i===4?'premium':'')+'"><p class="eyebrow">'+esc(p.name.replace(/^FAR\s+/i,''))+'</p><h3>'+esc(p.name)+'</h3><div class="ad-price">£'+Number(p.price).toFixed(Number(p.price)%1?2:0)+'<span>/month</span></div><strong>'+esc(p.includes||p.plays_per_day+' plays per day')+'</strong><p>'+esc(p.description)+'</p><a class="btn primary" href="'+esc(p.buy_url||m.advert_store_url||'#')+'" target="_blank" rel="noopener">Buy '+esc(p.name.replace(/^FAR\s+/i,''))+'</a></article>').join('')}catch(e){console.error('FAR CMS',e)}})();</script></body>
 </html>
