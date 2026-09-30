@@ -25,7 +25,22 @@ Deno.serve(async (req) => {
     if (meError || !me || !["owner","deputy_manager"].includes(me.role)) throw new Error("Management access required");
 
     const body = await req.json();
-    if (body.action !== "invite") throw new Error("Unsupported action");
+    if (!["invite","set_password"].includes(body.action)) throw new Error("Unsupported action");
+
+    if (body.action === "set_password") {
+      if (me.role !== "owner") throw new Error("Only the Owner can set a temporary staff password");
+      const targetId = String(body.user_id || "").trim();
+      const password = String(body.password || "");
+      if (!targetId || password.length < 10) throw new Error("Temporary password must be at least 10 characters");
+      if (targetId === user.id) throw new Error("Use the normal password recovery process for the Owner account");
+      const { data: targetAccess, error: targetError } = await admin.from("far_admins").select("role").eq("user_id", targetId).single();
+      if (targetError || !targetAccess) throw new Error("Staff account not found");
+      if (targetAccess.role === "owner") throw new Error("Owner password cannot be changed here");
+      const { error: passwordError } = await admin.auth.admin.updateUserById(targetId, { password });
+      if (passwordError) throw passwordError;
+      return new Response(JSON.stringify({ ok: true, message: "Temporary password set. Give it to the staff member securely." }), { status: 200, headers: { ...cors, "Content-Type": "application/json" } });
+    }
+
     const email = String(body.email || "").trim().toLowerCase();
     const displayName = String(body.display_name || "").trim();
     const role = String(body.role || "staff");
