@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Audience Analytics | FAR Admin</title>
+<title>Analytics | FAR Admin</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="site-nav.css?v=3">
-<script src="site-nav.js?v=4" defer></script>
+<script src="site-nav.js?v=5" defer></script>
 <style>
 :root{color-scheme:dark}.aud-shell{width:min(94vw,1200px);margin:auto;padding:130px 0 70px;color:#fff}
 .aud-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:24px}.aud-head h1{font-size:42px;margin:5px 0}.muted{color:#aeb4bf}.back{color:#fff;text-decoration:none;border:1px solid #3a3f49;border-radius:9px;padding:10px 14px}
@@ -21,7 +21,7 @@
 </head>
 <body><header></header>
 <main class="aud-shell">
-<div class="aud-head"><div><p class="eyebrow">FAR ADMIN</p><h1>Audience Analytics</h1><p class="muted">Fenland Angels Radio first-party audience measurement.</p></div><a class="back" href="admin-dashboard.html">← Admin Dashboard</a></div>
+<div class="aud-head"><div><p class="eyebrow">FAR ADMIN</p><h1>Analytics</h1><p class="muted">See listener numbers, listening time and programme performance.</p></div><a class="back" href="admin-dashboard.html">← FAR Admin</a></div>
 <div id="status" class="status">Checking FAR Admin access…</div>
 <section id="dashboard" hidden>
 <div class="live-card">
@@ -67,8 +67,8 @@
  const MILESTONE_BASE=300.62,MILESTONE_SINCE=new Date('2026-09-29T22:18:59.24036Z').getTime(),MILESTONES=[250,500,1000,2500,5000];
  const {data:{session}}=await client.auth.getSession();
  if(!session){location.href='admin-dashboard.html';return}
- const {data:admin,error:adminErr}=await client.from('far_admins').select('display_name').eq('user_id',session.user.id).maybeSingle();
- if(adminErr||!admin){location.href='admin-dashboard.html';return}
+ const {data:admin,error:adminErr}=await client.from('far_admins').select('display_name,role,permissions').eq('user_id',session.user.id).maybeSingle();
+ if(adminErr||!admin||(!['owner','deputy_manager'].includes((admin.role||'').toLowerCase())&&!(admin.permissions||[]).includes('audience'))){location.href='admin-dashboard.html';return}
  status.textContent='Loading audience data…'; dash.hidden=false;
  let currentRange='today', cmsSchedule=[];
  try{ cmsSchedule=await FARCMS.schedule(); }catch(e){ console.error('CMS schedule unavailable',e); }

@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="events-system.css">
 <link rel="stylesheet" href="far-forms.css">
 
-<script src="site-nav.js?v=3" defer></script>
+<script src="site-nav.js?v=5" defer></script>
 
 <style>
 
@@ -138,7 +138,7 @@
   border-color:#d4aa47;
 }
 
-.admin-grid{
+.admin-group{margin:28px 0}.admin-group h2{color:#d4aa47}.admin-grid{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
   gap:20px;
@@ -202,7 +202,7 @@
     padding:26px 22px;
   }
 
-  .admin-grid{
+  .admin-group{margin:28px 0}.admin-group h2{color:#d4aa47}.admin-grid{
     grid-template-columns:1fr;
   }
 
@@ -236,7 +236,7 @@
   </p>
 
   <h1>
-    Website Admin
+    FAR Admin
   </h1>
 
   <p>
@@ -315,7 +315,7 @@
       </p>
 
       <h1>
-        Website Admin
+        FAR Admin
       </h1>
 
       <p
@@ -337,8 +337,8 @@
   </div>
 
 
-  <section id="passwordPanel" style="margin:0 0 22px;padding:18px;border:1px solid #2d3037;border-radius:12px;background:#101216">
-    <strong style="font-size:18px">Your password</strong>
+  <details id="passwordPanel" style="margin:0 0 22px;padding:18px;border:1px solid #2d3037;border-radius:12px;background:#101216">
+    <summary style="font-size:18px;cursor:pointer">Your password</summary>
     <p style="margin:6px 0 14px;color:#cfd2d9">Change the password for your own FAR staff account.</p>
     <div style="display:grid;grid-template-columns:1fr 1fr auto;gap:10px">
       <input id="newPassword" type="password" autocomplete="new-password" placeholder="New password (10+ characters)" style="padding:12px;border-radius:9px;border:1px solid #444954;background:#11141a;color:#fff">
@@ -346,97 +346,15 @@
       <button id="changePasswordButton" type="button" class="admin-signin" style="margin:0;width:auto;padding:0 18px">Change password</button>
     </div>
     <div id="passwordStatus" class="admin-status"></div>
-  </section>
+  </details>
 
-  <div class="admin-grid">
-
-    <a class="admin-card" data-management-only="true" href="admin-staff.html"><strong style="color:#d4aa47">Staff & Permissions</strong><span>Management only. Grant or remove access to FAR Admin tools for individual staff accounts.</span></a>\n\n    <a class="admin-card" data-permission="schedule" href="admin-schedule.html"><strong style="color:#d4aa47">Schedule Manager</strong><span>Add, edit and delete shows. Controls the website schedule, on-air display and programme analytics.</span></a>
-
-    <a class="admin-card" data-permission="website_content" href="admin-content.html"><strong style="color:#d4aa47">Website Content</strong><span>Manage station information, homepage copy, vouchers, advertising text and advertising packages.</span></a>
-
-    <a class="admin-card" data-permission="pages" href="admin-pages.html"><strong style="color:#d4aa47">Pages Manager</strong><span>Create, edit, disable or delete campaign and temporary website pages such as appeals and special projects.</span></a>
-
-    <a class="admin-card" data-permission="podcasts" href="admin-website-manager.html?module=podcasts"><strong style="color:#d4aa47">Podcasts</strong><span>Add, edit, publish and remove FAR podcast episodes.</span></a>
-    <a class="admin-card" data-permission="listen_platforms" href="admin-website-manager.html?module=listen"><strong style="color:#d4aa47">Listen Platforms</strong><span>Manage Other Ways to Listen cards and links.</span></a>
-    <a class="admin-card" data-permission="public_file" href="admin-website-manager.html?module=public"><strong style="color:#d4aa47">Public File</strong><span>Manage official public-file sections without editing website code.</span></a>
-    <a class="admin-card" data-permission="presenters" href="admin-website-manager.html?module=team"><strong style="color:#d4aa47">Presenters / Team</strong><span>Manage presenter, DJ and station-team profiles.</span></a>
-
-
-    <a
-      class="admin-card events" data-permission="events"
-      href="admin-events.html"
-    >
-
-      <strong>
-        Events
-      </strong>
-
-      <span>
-        Review, edit, approve, reject and manage submitted events.
-      </span>
-
-    </a>
-
-
-    <a
-      class="admin-card contact" data-permission="inbox"
-      href="admin-inbox.html?kind=contact"
-    >
-
-      <strong>
-        Contact Enquiries
-      </strong>
-
-      <span>
-        View and manage general website messages.
-      </span>
-
-    </a>
-
-
-    <a
-      class="admin-card applications" data-permission="applications"
-      href="admin-inbox.html?kind=application"
-    >
-
-      <strong>
-        Applications
-      </strong>
-
-      <span>
-        Review presenter, DJ, volunteer and station-team applications.
-      </span>
-
-    </a>
-
-
-    <a
-      class="admin-card advertising" data-permission="advertising"
-      href="admin-inbox.html?kind=advertising"
-    >
-
-      <strong>
-        Advertising Leads
-      </strong>
-
-      <span>
-        Manage advertising and sponsorship enquiries.
-      </span>
-
-    </a>
-
-
-    <a class="admin-card live" data-permission="cloud_live" href="far-live-gateway.html"><strong>FAR Cloud Live</strong><span>Secure station gateway, live monitoring and DJ connection testing.</span></a>
-
-    <a
-      class="admin-card audience" data-permission="audience"
-      href="admin-audience.html"
-    >
-      <strong>Audience Analytics</strong>
-      <span>Live listeners, website and app audience, listening sessions, peaks and listener-hours.</span>
-    </a>
-
-  </div>
+<p>Choose the job you need to do. You only see tools your account can use.</p>
+<section class="admin-group"><h2>Station</h2><div class="admin-grid"><a class="admin-card" data-permission="schedule" href="admin-schedule.html"><strong>Schedule</strong><span>Manage shows, presenters and broadcast times.</span></a><a class="admin-card" data-permission="website_content" href="admin-content.html"><strong>Website Home</strong><span>Change homepage information and station contact details.</span></a><a class="admin-card" data-permission="news" href="admin-news.html"><strong>News</strong><span>Check the automatically updated local news service.</span></a><a class="admin-card" data-permission="events" href="admin-events.html"><strong>Events</strong><span>Review and manage community events.</span></a><a class="admin-card" data-permission="presenters" href="admin-website-manager.html?module=team"><strong>Presenters & Team</strong><span>Manage presenter and station team profiles.</span></a></div></section>
+<section class="admin-group"><h2>Website</h2><div class="admin-grid"><a class="admin-card" data-permission="pages" href="admin-pages.html"><strong>Pages</strong><span>Create additional pages with reusable sections, then publish them.</span></a><a class="admin-card" data-permission="navigation" href="admin-navigation.html"><strong>Navigation</strong><span>Add, edit, move, show or hide website menu links.</span></a><a class="admin-card" data-permission="podcasts" href="admin-website-manager.html?module=podcasts"><strong>Podcasts</strong><span>Publish and manage podcast episodes.</span></a><a class="admin-card" data-permission="listen_platforms" href="admin-website-manager.html?module=listen"><strong>Listen Platforms</strong><span>Change the options shown in Other Ways to Listen.</span></a><a class="admin-card" data-permission="public_file" href="admin-website-manager.html?module=public"><strong>Public File</strong><span>Update the station’s official public information.</span></a></div></section>
+<section class="admin-group"><h2>Commercial</h2><div class="admin-grid"><a class="admin-card" data-permission="advertising" href="admin-content.html?module=advertising"><strong>Advertising</strong><span>Manage advertising text, packages and enquiries.</span></a><a class="admin-card" data-permission="sponsors" href="admin-content.html?module=sponsors"><strong>Sponsors</strong><span>Change the station sponsorship message.</span></a><a class="admin-card" data-permission="vouchers" href="admin-content.html?module=vouchers"><strong>Vouchers</strong><span>Change voucher information and the shop link.</span></a></div></section>
+<section class="admin-group"><h2>Messages</h2><div class="admin-grid"><a class="admin-card" data-permission="inbox" href="admin-inbox.html?kind=contact"><strong>Inbox</strong><span>Read and follow up website contact messages.</span></a><a class="admin-card" data-permission="applications" href="admin-inbox.html?kind=application"><strong>Applications</strong><span>Review presenter, DJ and volunteer applications.</span></a></div></section>
+<section class="admin-group"><h2>Station Management</h2><div class="admin-grid"><a class="admin-card" data-permission="audience" href="admin-audience.html"><strong>Analytics</strong><span>See listener numbers and programme performance.</span></a><a class="admin-card" data-permission="cloud_live" href="far-live-gateway.html"><strong>FAR Cloud Live</strong><span>Monitor the live broadcast and manage DJ connections.</span></a></div></section>
+<section class="admin-group"><h2>Management Only</h2><div class="admin-grid"><a class="admin-card" data-management-only="true" href="admin-staff.html"><strong>Staff & Permissions</strong><span>Choose which tools each staff member can use.</span></a></div></section>
 
 </section>
 
@@ -542,6 +460,7 @@
     const perms=Array.isArray(admin.permissions)?admin.permissions:[];
     const owner=role==='owner', manager=role==='deputy_manager';
     document.querySelectorAll('[data-permission]').forEach(el=>{const p=el.dataset.permission,allowed=owner||manager||perms.includes(p);el.hidden=!allowed;el.style.display=allowed?'':'none';});document.querySelectorAll('[data-management-only]').forEach(el=>{const allowed=owner||manager;el.hidden=!allowed;el.style.display=allowed?'':'none';});
+    document.querySelectorAll('.admin-group').forEach(group=>{group.hidden=![...group.querySelectorAll('.admin-card')].some(card=>!card.hidden);});
   }
 
   async function showDashboard(session){
