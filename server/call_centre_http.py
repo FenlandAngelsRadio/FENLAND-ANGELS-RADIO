@@ -15,6 +15,10 @@ def handler(queue, staff_token, provider_token):
         raise ValueError("Two different tokens of at least 32 characters are required.")
 
     class Handler(BaseHTTPRequestHandler):
+        def setup(self):
+            super().setup()
+            self.connection.settimeout(10)
+
         def log_message(self, *args):
             pass  # Never put caller names or authentication into logs.
 

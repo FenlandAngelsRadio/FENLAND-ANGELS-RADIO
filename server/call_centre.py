@@ -41,9 +41,12 @@ class CallQueue:
 
     @classmethod
     def authorised(cls, actor):
-        return bool(actor.get("id")) and (
+        if not isinstance(actor, dict) or not isinstance(actor.get('id'), str) or not actor['id'] or not isinstance(actor.get('role'), str):
+            return False
+        permissions = actor.get('permissions', [])
+        return (
             actor.get("role") in cls.management
-            or "cloud_live" in actor.get("permissions", [])
+            or isinstance(permissions, list) and "cloud_live" in permissions
         )
 
     def _save(self, data):
@@ -70,9 +73,9 @@ class CallQueue:
 
     def arrive(self, category, source, name, provider_id):
         """Trusted provider adapter only. Never exposed to staff/public clients."""
-        if category not in self.categories or source not in {"phone", "guest"}:
+        if not isinstance(category, str) or not isinstance(source, str) or category not in self.categories or source not in {"phone", "guest"}:
             raise QueueError("Choose a valid call destination.")
-        if not provider_id or len(provider_id) > 200:
+        if not isinstance(provider_id, str) or not provider_id or len(provider_id) > 200:
             raise QueueError("A provider call reference is required.")
         with self.lock:
             for call in self.data["calls"]:
@@ -100,10 +103,11 @@ class CallQueue:
             calls = [{k: v for k, v in call.items() if k != "provider_id"}
                      for call in self.data["calls"]
                      if call["state"] not in self.terminal
-                     and (call["category"] != "business" or actor["role"] in self.management)]
+                     and (call["category"] != "business" or actor.get("role") in self.management)]
             return {"version": self.data["version"], "calls": calls,
                     "audio_ready": self.audio.ready,
-                    "private_access": actor["role"] in self.management}
+                    "capabilities": {"voicemail": bool(getattr(self.audio, 'supports_voicemail', False))},
+                    "private_access": actor.get("role") in self.management}
 
     def act(self, actor, call_id, action, version):
         if not self.authorised(actor):
@@ -116,7 +120,7 @@ class CallQueue:
             if not call or call["state"] in self.terminal:
                 raise QueueError("This call has already ended.")
             private = call["category"] == "business"
-            if private and actor["role"] not in self.management:
+            if private and actor.get("role") not in self.management:
                 raise QueueError("Owner or Deputy Manager access is required for private calls.")
             if private and action in self.programme_actions:
                 raise QueueError("Private business calls cannot enter the broadcast.")

@@ -14,7 +14,7 @@
   const labels = {screen:'Screen',ready:'Ready',put_on_air:'Put on air',hold:'Hold',mute:'Mute',end:'End call',answer_private:'Answer privately',voicemail:'Send to voicemail'};
   const descriptions = {put_on_air:'Listeners will hear this caller. Put them on air now?',end:'Disconnect this caller? They will need to call again to return.',voicemail:'Send this business caller to private voicemail?'};
   function resetExamples() {
-    snapshot = {version:1,audio_ready:true,private_access:management(),calls:[
+    snapshot = {version:1,audio_ready:true,capabilities:{voicemail:true},private_access:management(),calls:[
       {id:'game',name:'Example game caller',category:'games',source:'phone',state:'waiting'},
       {id:'guest',name:'Example interview guest',category:'show',source:'guest',state:'waiting'},
       ...(management()?[{id:'private',name:'Example business caller',category:'business',source:'phone',state:'waiting'}]:[])
@@ -50,7 +50,8 @@
         for(const action of available){
           const button=document.createElement('button');button.type='button';button.textContent=labels[action];
           button.className=action==='end'?'danger':action==='put_on_air'?'primary':'';
-          button.disabled=busy||!snapshot.audio_ready||Boolean(call.claimed_by&&call.claimed_by!==me.id);
+          button.disabled=busy||!snapshot.audio_ready||Boolean(call.claimed_by&&call.claimed_by!==me.id)||(action==='voicemail'&&!snapshot.capabilities?.voicemail);
+          if(action==='voicemail'&&!snapshot.capabilities?.voicemail)button.title='Private voicemail is not connected yet.';
           button.onclick=()=>requestAction(call,action);buttons.append(button);
         }
         card.append(heading,source,buttons);target.append(card);
@@ -78,18 +79,18 @@
     }catch(error){status(error.message||'The action could not be confirmed. Refresh before trying again.',true);if(!demo)snapshot.audio_ready=false;}
     finally{busy=false;render();}
   }
-  async function refresh(){
-    if(busy)return;busy=true;
-    if(snapshot&&!demo){snapshot.audio_ready=false;render();}
+  async function refresh(background=false){
+    if(busy||background&&(pending||document.hidden||!snapshot?.audio_ready))return;busy=true;
+    if(snapshot&&!demo&&!background){snapshot.audio_ready=false;render();}
     try{
       if(!demo)snapshot=await api('list');
-      status(demo?'Example call centre — no live connections.':snapshot.audio_ready?'Call centre connected. Callers stay off air until you choose Put on air.':'Call queues connected; audio controls are not set up yet.');
+      if(!background)status(demo?'Example call centre — no live connections.':snapshot.audio_ready?'Call centre connected. Queues update automatically. Callers stay off air until you choose Put on air.':'Call queues connected; audio controls are not set up yet.');
     }catch(error){status(error.message||'Call service unavailable. Refresh to try again.',true);snapshot={calls:[],version:0,audio_ready:false,private_access:management()};}
     finally{busy=false;render();}
   }
   el('confirmAction').onclick=()=>{if(pending)perform(pending.id,pending.action,pending.version);};
   el('cancelAction').onclick=()=>{pending=null;el('callConfirm').hidden=true;};
-  el('refreshCalls').onclick=refresh;
+  el('refreshCalls').onclick=()=>refresh();
   el('resetExamples').onclick=()=>{pending=null;el('callConfirm').hidden=true;resetExamples();render();status('Example calls reset. No live connections.');};
   try{
     if(demo){const role=new URLSearchParams(location.search).get('example_role')||'owner';me={id:'example',role,permissions:['cloud_live']};el('exampleTools').hidden=false;resetExamples();}
@@ -105,5 +106,6 @@
       if(!management()&&!me.permissions.includes('cloud_live'))throw new Error('Your account does not have Cloud Live access.');
     }
     el('callApp').hidden=false;await refresh();
+    if(!demo)setInterval(()=>refresh(true),5000);
   }catch(error){status(error.message,true);}
 })();

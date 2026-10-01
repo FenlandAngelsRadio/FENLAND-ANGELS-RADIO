@@ -74,6 +74,13 @@ class CallQueueTests(unittest.TestCase):
         with self.assertRaises(QueueError): q.act(OWNER, call, "screen", 1)
         self.assertFalse(q.snapshot(OWNER)["audio_ready"])
 
+    def test_malformed_identity_and_permissions_fail_closed(self):
+        for actor in [None, [], {'id': []}, {'id': 'x', 'role': [], 'permissions': ['cloud_live']}, {'id': 'x', 'role': 'staff', 'permissions': 'cloud_live'},
+                      {'id': 'x', 'permissions': None}]:
+            self.assertFalse(self.q.authorised(actor))
+        with self.assertRaises(QueueError):
+            self.q.arrive('show', 'phone', 'Caller', {'id': 'bad'})
+
     def test_retries_and_restart_preserve_queue(self):
         call = self.q.arrive("show", "phone", "Caller", "5")
         self.assertEqual(self.q.arrive("show", "phone", "Caller", "5"), call)

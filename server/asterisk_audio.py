@@ -79,6 +79,10 @@ class AsteriskAudio:
                 raise QueueError('Operator connection is already assigned.')
             self.operators[actor_id] = {'channel': channel, 'bridge': bridge}
 
+    def forget(self, provider_id):
+        with self.lock:
+            return self.sessions.pop(provider_id, None)
+
     def apply(self, action, call, actor):
         with self.lock:
             if not self.ready:
@@ -97,6 +101,8 @@ class AsteriskAudio:
             if action == 'voicemail':
                 raise QueueError('Voicemail is not connected yet.')
             if action == 'mute':
+                if session['bridge'] != self.programme_bridge:
+                    raise QueueError('Caller is not connected to programme audio.')
                 self.ari.request('POST', '/channels/' + cid + '/mute', direction='in')
                 return True
             if action in {'screen', 'answer_private'}:

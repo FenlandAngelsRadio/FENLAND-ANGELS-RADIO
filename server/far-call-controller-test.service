@@ -1,0 +1,20 @@
+[Unit]
+Description=FAR isolated call queue and phone events
+After=far-call-test.service
+Requires=far-call-test.service
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/far-call-test/code
+ExecStart=/usr/bin/python3 /opt/far-call-test/code/run_call_service.py --settings /opt/far-call-test/settings.json
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/far-call-test
+ProtectHome=true
+IPAddressDeny=any
+IPAddressAllow=localhost
+UMask=0077
