@@ -27,15 +27,15 @@
 <div class="live-card">
 <div class="live-top"><div><span class="live-dot"></span><strong>LISTENING NOW</strong></div><span class="muted">Live stream audience</span></div>
 <div id="liveTotal" class="live-num">0</div><div class="muted" style="margin-top:-8px">Current listeners connected to Fenland Angels Radio</div>
-<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Other Players / Direct Stream</span><b id="liveOther">0</b></div><div><span>Total Stream Listeners</span><b id="liveIce">—</b></div></div>
-<p class="muted">A simple live view of who is listening right now, wherever they are listening from.</p>
+<div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Unmatched stream connections</span><b id="liveOther">0</b></div><div><span>Total Stream Listeners</span><b id="liveIce">—</b></div></div>
+<p class="muted">Stream connections include your own listening. Website/app figures use recent player reports; unmatched connections are not a confirmed player type.</p>
 </div>
-<div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">150.3</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Uses a 300.62-hour carried-forward launch-period baseline, then adds listener-hours recorded by the FAR stream history.</p></div>
+<div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">—</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Includes a 300.62-hour imported launch-period baseline whose source has not been verified here, plus recorded stream estimates. Your own listening is included. The total is independent of the date buttons.</p></div>
 <div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
 <div class="metrics">
-<div class="metric"><span>Unique FAR devices</span><b id="uniqueDevices">0</b></div>
+<div class="metric"><span>Website/app listening devices</span><b id="uniqueDevices">0</b></div>
 <div class="metric"><span>Listening sessions</span><b id="listenSessions">0</b></div>
-<div class="metric"><span>Listener-hours</span><b id="listenerHours">0h</b></div>
+<div class="metric"><span>Website/app listener-hours</span><b id="listenerHours">0h</b></div>
 <div class="metric"><span>Average listening</span><b id="avgListen">0m</b></div>
 <div class="metric"><span>Website visits</span><b id="webVisits">0</b></div>
 <div class="metric"><span>Website visitors</span><b id="webVisitors">0</b></div>
@@ -47,18 +47,18 @@
 <div class="metric"><span>Peak stream listeners</span><b id="shqPeak">0</b></div>
 <div class="metric"><span>Average stream listeners</span><b id="shqAverage">0</b></div>
 <div class="metric"><span>Snapshots recorded</span><b id="shqSamples">0</b></div>
-</div><p class="muted">Calculated from the working Icecast stream listener count sampled every 5 minutes. Listener-hours use each snapshot as a 5-minute measured interval.</p></div>
+</div><p class="muted">Estimates from available stream samples, capped at five minutes per reading. Missing readings are excluded. This is not a count of unique people.</p><p id="historyCoverage" class="muted">Checking recorded coverage…</p></div>
 <div class="section"><h2>Programme performance</h2>
-<p class="muted">Stream audience calculated from the working 5-minute Icecast samples. Programme listener-hours sum listeners across the 5-minute sample intervals in each show.</p>
+<p class="muted">Estimates for the recorded portions of each programme. A dash means no usable readings, rather than proof of no listeners.</p>
 <div id="programmeGrid" class="show-grid"><div class="show-card">Loading programme schedule…</div></div>
 </div>
 <div class="section"><h2>Hourly stream audience</h2><div id="hourlyGrid" class="metrics"></div><p class="muted">Hours shown are UK local time. Each card is calculated from the working Icecast stream samples in the selected range.</p></div>
 </div>
 <div class="section"><h2>Listening by source</h2><div class="source-grid"><div class="metric"><span>Website listener-hours</span><b id="webHours">0h</b></div><div class="metric"><span>App listener-hours</span><b id="appHours">0h</b></div></div></div>
-<p class="muted section">Tracking began 29 September 2026. A “device” is an anonymous browser/app device identifier, not a guaranteed individual person.</p>
+<p class="muted section">Tracking began 29 September 2026. Listening devices exclude visits with no playback, but can include you, staff and tests. A device is not a guaranteed individual person. Website visits and app opens count distinct browser/app sessions in this date range.</p>
 </section>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=1"></script><script src="far-audience-math.js?v=1"></script>
 <script>
 (async function(){
  const status=document.getElementById('status'), dash=document.getElementById('dashboard'), cfg=window.FAR_EVENTS_CONFIG||{};
@@ -85,103 +85,81 @@
  function latestByListen(rows){const m=new Map(); for(const r of rows){if(!r.listen_session_id)continue;const old=m.get(r.listen_session_id);if(!old||new Date(r.created_at)>new Date(old.created_at))m.set(r.listen_session_id,r)}return m}
  function sessionDurations(rows){const latest=latestByListen(rows), out=[];for(const [id,r] of latest){let seconds=Number(r.duration_seconds||0);if(r.event_type==='listen_start')seconds=0;out.push({id,seconds,source:r.source,event:r.event_type,at:r.created_at})}return out}
  async function load(){
+   if(load.running)return;load.running=true;
+   const now=Date.now(),range=currentRange,from=FARAudienceMath.rangeStart(range,now);
+   const historyFrom=new Date('2026-09-29T00:00:00+01:00').toISOString(),until=new Date(now).toISOString();
    status.textContent='Refreshing audience data…';
-   const from=startFor(currentRange).toISOString();
-   const {data:rows,error}=await client.from('far_audience_events').select('event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
-   if(error){status.textContent='Could not load audience data: '+error.message;return}
-   const {data:iceRows,error:iceErr}=await client.from('far_icecast_snapshots').select('created_at,listeners,stream_online,stationhq_listeners,stationhq_status').gte('created_at',from).order('created_at',{ascending:true}).limit(10000);
-   const liveFrom=new Date(Date.now()-5*60*1000).toISOString();
-   const {data:liveRows,error:liveErr}=await client.from('far_audience_events').select('event_type,source,listen_session_id,created_at').gte('created_at',liveFrom).not('listen_session_id','is',null).order('created_at',{ascending:false}).limit(2000);
-   const now=Date.now(), liveCut=90000;
    try{
-     const iceRes=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store'});
-     const iceText=await iceRes.text();
-     const doc=new DOMParser().parseFromString(iceText,'text/html');
-     const text=doc.body ? doc.body.innerText : iceText;
-     const lm=text.match(/Current Listeners:\s*(\d+)/i);
-     const totalIce=lm ? Number(lm[1]) : null;
-     if(totalIce!==null){
-       document.getElementById('liveIce').textContent=totalIce;
-       window.__farIceTotal=totalIce;
-     } else {
-       document.getElementById('liveIce').textContent='—';
-       window.__farIceTotal=null;
-     }
-   }catch(e){
-     document.getElementById('liveIce').textContent='OFFLINE';
-     window.__farIceTotal=null;
-   }
-   const liveLatest=latestByListen((liveErr?rows:liveRows).filter(r=>r.event_type.startsWith('listen_')));
-   const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop' && now-new Date(r.created_at).getTime()<=liveCut);
-   const latestShq=iceRows&&iceRows.length?[...iceRows].reverse().find(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined):null;
-   const shqLive=latestShq?Number(latestShq.stationhq_listeners):null;
-   const webLive=live.filter(r=>r.source==='website').length;
-   const appLive=live.filter(r=>r.source==='pwa').length;
-   const streamLive=window.__farIceTotal;
-   const bestLive=streamLive!==null&&streamLive!==undefined?streamLive:(shqLive!==null?shqLive:live.length);
-   document.getElementById('liveTotal').textContent=bestLive;
-   document.getElementById('liveWeb').textContent=webLive;
-   document.getElementById('liveApp').textContent=appLive;
-   document.getElementById('liveOther').textContent=Math.max(0,bestLive-webLive-appLive);
-   
-   const durations=sessionDurations(rows.filter(r=>r.event_type.startsWith('listen_')));
-   const totalSec=durations.reduce((a,r)=>a+r.seconds,0), webSec=durations.filter(r=>r.source==='website').reduce((a,r)=>a+r.seconds,0), appSec=durations.filter(r=>r.source==='pwa').reduce((a,r)=>a+r.seconds,0);
-   const starts=rows.filter(r=>r.event_type==='listen_start');
-   document.getElementById('uniqueDevices').textContent=new Set(rows.map(r=>r.device_id).filter(Boolean)).size;
-   document.getElementById('listenSessions').textContent=starts.length;
-   document.getElementById('listenerHours').textContent=(totalSec/3600).toFixed(1)+'h';
-   document.getElementById('avgListen').textContent=fmtDuration(starts.length?totalSec/starts.length:0);
-   document.getElementById('webVisits').textContent=rows.filter(r=>r.event_type==='website_visit').length;
-   document.getElementById('webVisitors').textContent=new Set(rows.filter(r=>r.event_type==='website_visit').map(r=>r.device_id)).size;
-   document.getElementById('appOpens').textContent=rows.filter(r=>r.event_type==='app_open').length;
-   document.getElementById('appInstalls').textContent=rows.filter(r=>r.event_type==='app_install').length;
-   document.getElementById('webHours').textContent=(webSec/3600).toFixed(1)+'h';
-   document.getElementById('appHours').textContent=(appSec/3600).toFixed(1)+'h';
-   if(!iceErr && iceRows){
-     const vals=iceRows.map(r=>Number(r.listeners||0));
-     const icePeak=vals.length?Math.max(...vals):0;
-     const iceAvg=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0;
-     let iceHours=0;
-     for(let i=0;i<iceRows.length;i++){
-       const start=new Date(iceRows[i].created_at).getTime();
-       const next=i+1<iceRows.length?new Date(iceRows[i+1].created_at).getTime():Math.min(Date.now(),start+300000);
-       const span=Math.max(0,Math.min(300000,next-start));
-       iceHours+=Number(iceRows[i].listeners||0)*span/3600000;
-     }
-     const shqRows=iceRows.filter(r=>r.stationhq_listeners!==null&&r.stationhq_listeners!==undefined);
-     const shqVals=shqRows.map(r=>Number(r.listeners||0));
-     let shqHours=0;
-     for(let i=0;i<shqRows.length;i++){
-       const start=new Date(shqRows[i].created_at).getTime();
-       const next=i+1<shqRows.length?new Date(shqRows[i+1].created_at).getTime():Math.min(Date.now(),start+300000);
-       shqHours+=Number(shqRows[i].listeners||0)*Math.max(0,Math.min(300000,next-start))/3600000;
-     }
-     document.getElementById('shqHours').textContent=(shqHours<10?shqHours.toFixed(2):shqHours.toFixed(1))+'h';
-     document.getElementById('shqPeak').textContent=shqVals.length?Math.max(...shqVals):0;
-     document.getElementById('shqAverage').textContent=shqVals.length?(shqVals.reduce((a,b)=>a+b,0)/shqVals.length).toFixed(1):'0.0';
-     document.getElementById('shqSamples').textContent=shqRows.length;
-     let lifetimeAdded=0;
-     const lifetimeRows=iceRows.filter(r=>new Date(r.created_at).getTime()>=MILESTONE_SINCE);
-     for(let i=0;i<lifetimeRows.length;i++){const st=new Date(lifetimeRows[i].created_at).getTime(),nx=i+1<lifetimeRows.length?new Date(lifetimeRows[i+1].created_at).getTime():Math.min(Date.now(),st+300000);lifetimeAdded+=Number(lifetimeRows[i].listeners||0)*Math.max(0,Math.min(300000,nx-st))/3600000}
-     const lifetimeHours=MILESTONE_BASE+lifetimeAdded;
-     const next=MILESTONES.find(x=>x>lifetimeHours)||Math.ceil(lifetimeHours/5000+1)*5000;
-     const previous=[0,...MILESTONES].filter(x=>x<=lifetimeHours).pop()||0;
-     const progress=Math.max(0,Math.min(100,(lifetimeHours-previous)/(next-previous)*100));
+     const [allRows,allIce]=await Promise.all([
+       FARAudienceMath.readAll(()=>client.from('far_audience_events').select('id,event_type,device_id,session_id,source,listen_session_id,duration_seconds,created_at').gte('created_at',historyFrom).lte('created_at',until).order('created_at',{ascending:true}).order('id',{ascending:true})),
+       FARAudienceMath.readAll(()=>client.from('far_icecast_snapshots').select('id,created_at,listeners,stream_online,stationhq_listeners,stationhq_status').gte('created_at',historyFrom).lte('created_at',until).order('created_at',{ascending:true}).order('id',{ascending:true}))
+     ]);
+     if(range!==currentRange)return;
+     const rows=allRows.filter(r=>new Date(r.created_at).getTime()>=from);
+     let totalIce=null;
+     try{
+       const response=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store',signal:AbortSignal.timeout(10000)});
+       if(!response.ok)throw new Error('Stream count unavailable');
+       const doc=new DOMParser().parseFromString(await response.text(),'text/html');
+       const match=doc.body.textContent.match(/Current Listeners:\\s*(\\d+)/i);
+       if(match)totalIce=Number(match[1]);
+     }catch{}
+     const liveLatest=latestByListen(allRows.filter(r=>String(r.event_type).startsWith('listen_')));
+     const live=[...liveLatest.values()].filter(r=>r.event_type!=='listen_stop'&&now-new Date(r.created_at).getTime()<=90000);
+     const webLive=live.filter(r=>r.source==='website').length,appLive=live.filter(r=>r.source==='pwa').length;
+     document.getElementById('liveTotal').textContent=totalIce??'—';
+     document.getElementById('liveIce').textContent=totalIce??'Unavailable';
+     document.getElementById('liveWeb').textContent=webLive;
+     document.getElementById('liveApp').textContent=appLive;
+     document.getElementById('liveOther').textContent=totalIce===null?'—':Math.max(0,totalIce-webLive-appLive);
+     const durations=FARAudienceMath.sessions(allRows,from,now);
+     const totalSec=durations.reduce((n,r)=>n+r.seconds,0);
+     const webSec=durations.filter(r=>r.source==='website').reduce((n,r)=>n+r.seconds,0),appSec=durations.filter(r=>r.source==='pwa').reduce((n,r)=>n+r.seconds,0);
+     document.getElementById('uniqueDevices').textContent=new Set(durations.map(r=>r.device).filter(Boolean)).size;
+     document.getElementById('listenSessions').textContent=durations.length;
+     document.getElementById('listenerHours').textContent=(totalSec/3600).toFixed(1)+'h';
+     document.getElementById('avgListen').textContent=fmtDuration(durations.length?totalSec/durations.length:0);
+     const visits=rows.filter(r=>r.event_type==='website_visit'),opens=rows.filter(r=>r.event_type==='app_open');
+     document.getElementById('webVisits').textContent=new Set(visits.map(r=>r.session_id).filter(Boolean)).size;
+     document.getElementById('webVisitors').textContent=new Set(visits.map(r=>r.device_id).filter(Boolean)).size;
+     document.getElementById('appOpens').textContent=new Set(opens.map(r=>r.session_id).filter(Boolean)).size;
+     document.getElementById('appInstalls').textContent=new Set(rows.filter(r=>r.event_type==='app_install').map(r=>r.device_id).filter(Boolean)).size;
+     document.getElementById('webHours').textContent=(webSec/3600).toFixed(1)+'h';
+     document.getElementById('appHours').textContent=(appSec/3600).toFixed(1)+'h';
+     const measured=FARAudienceMath.intervals(allIce,from,now),summary=FARAudienceMath.summary(measured);
+     document.getElementById('shqHours').textContent=summary.samples?summary.hours.toFixed(2)+'h':'—';
+     document.getElementById('shqPeak').textContent=summary.peak??'—';
+     document.getElementById('shqAverage').textContent=summary.average===null?'—':summary.average.toFixed(1);
+     document.getElementById('shqSamples').textContent=summary.samples;
+     const last=allIce.length?new Date(allIce[allIce.length-1].created_at).getTime():null;
+     document.getElementById('historyCoverage').textContent='Recorded coverage: '+fmtDuration(summary.coverageHours*3600)+' of '+fmtDuration(Math.max(0,now-Math.max(from,new Date(historyFrom).getTime()))/1000)+'. Gaps are not counted as zero listeners. Last sample: '+(last?new Date(last).toLocaleString('en-GB',{timeZone:'Europe/London'}):'none')+'.'+(last&&now-last>10*60000?' History collection is delayed; these figures are incomplete.':'');
+     const lifetime=FARAudienceMath.summary(FARAudienceMath.intervals(allIce,MILESTONE_SINCE,now));
+     const lifetimeHours=MILESTONE_BASE+lifetime.hours,next=MILESTONES.find(x=>x>lifetimeHours)||Math.ceil(lifetimeHours/5000+1)*5000;
+     const previous=[0,...MILESTONES].filter(x=>x<=lifetimeHours).pop()||0,progress=Math.max(0,Math.min(100,(lifetimeHours-previous)/(next-previous)*100));
      document.getElementById('milestoneHours').textContent=lifetimeHours.toLocaleString('en-GB',{minimumFractionDigits:1,maximumFractionDigits:1});
      document.getElementById('milestoneNext').textContent=next.toLocaleString('en-GB');
      document.getElementById('milestoneFill').style.width=progress.toFixed(1)+'%';
      document.getElementById('milestoneProgress').textContent=progress.toFixed(0)+'% towards '+next.toLocaleString('en-GB')+' hours';
-     document.getElementById('milestoneRemaining').textContent=(next-lifetimeHours).toLocaleString('en-GB',{minimumFractionDigits:1,maximumFractionDigits:1})+'h to go';
+     document.getElementById('milestoneRemaining').textContent=(next-lifetimeHours).toFixed(1)+'h to go';
      document.getElementById('milestoneMarks').innerHTML=MILESTONES.map(x=>'<span class="milestone-mark '+(lifetimeHours>=x?'reached':'')+'">'+x.toLocaleString('en-GB')+'h'+(lifetimeHours>=x?' ✓':'')+'</span>').join('');
-     function localParts(ts){const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',hourCycle:'h23'}).formatToParts(new Date(ts));return {day:p.find(x=>x.type==='weekday').value,hour:Number(p.find(x=>x.type==='hour').value)}}
-     function sampleHours(sr){return sr.reduce((sum,r)=>sum+Number(r.listeners||0)*(5/60),0)}
-     function clockMinutes(v){const p=String(v).slice(0,5).split(':').map(Number);return p[0]*60+p[1]}
-     function rowMatchesProgramme(r,show){const p=localParts(r.created_at),dayOk=show.day_group==='weekday'?['Mon','Tue','Wed','Thu','Fri'].includes(p.day):show.day_group==='saturday'?p.day==='Sat':p.day==='Sun';if(!dayOk)return false;const d=new Date(r.created_at),parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(d),m=Number(parts.find(x=>x.type==='hour').value)*60+Number(parts.find(x=>x.type==='minute').value),a=clockMinutes(show.start_time),z=clockMinutes(show.end_time);return z>a?(m>=a&&m<z):(m>=a||m<z)}
-     for(const show of cmsSchedule.filter(r=>r.featured&&r.active!==false)){const sr=shqRows.filter(r=>rowMatchesProgramme(r,show)),vs=sr.map(r=>Number(r.listeners||0)),hrs=sampleHours(sr),card=document.getElementById(programmeId(show.id));if(!card)continue;card.querySelector('[data-metric="hours"]').textContent=(hrs<10?hrs.toFixed(2):hrs.toFixed(1))+'h';card.querySelector('[data-metric="avg"]').textContent=vs.length?(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1):'0.0';card.querySelector('[data-metric="peak"]').textContent=vs.length?Math.max(...vs):0;card.querySelector('[data-metric="samples"]').textContent=sr.length}
-     const hg=document.getElementById('hourlyGrid');hg.innerHTML='';for(let hour=0;hour<24;hour++){const hr=shqRows.filter(r=>localParts(r.created_at).hour===hour),vs=hr.map(r=>Number(r.listeners||0));if(!vs.length)continue;const hrs=sampleHours(hr);const card=document.createElement('div');card.className='metric';card.innerHTML='<span>'+String(hour).padStart(2,'0')+':00–'+String((hour+1)%24).padStart(2,'0')+':00</span><b>'+((hrs<10?hrs.toFixed(2):hrs.toFixed(1)))+'h</b><span>Avg '+(vs.reduce((a,b)=>a+b,0)/vs.length).toFixed(1)+' • Peak '+Math.max(...vs)+'</span>';hg.appendChild(card)}
-   }
-   status.textContent='Live data • updated '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit',second:'2-digit'});
+     const pieces=FARAudienceMath.parts(measured);
+     for(const show of cmsSchedule.filter(r=>r.featured&&r.active!==false)){
+       const group=FARAudienceMath.programme(pieces,show),stats=FARAudienceMath.summary(group),card=document.getElementById(programmeId(show.id));if(!card)continue;
+       card.querySelector('[data-metric="hours"]').textContent=group.length?stats.hours.toFixed(2)+'h':'—';
+       card.querySelector('[data-metric="avg"]').textContent=stats.average===null?'—':stats.average.toFixed(1);
+       card.querySelector('[data-metric="peak"]').textContent=stats.peak??'—';
+       card.querySelector('[data-metric="samples"]').textContent=new Set(group.map(r=>r.row.id)).size;
+     }
+     const hg=document.getElementById('hourlyGrid');hg.replaceChildren();
+     for(let hour=0;hour<24;hour++){
+       const group=pieces.filter(r=>Number(r.local.hour)===hour),stats=FARAudienceMath.summary(group);if(!group.length)continue;
+       const card=document.createElement('div');card.className='metric';card.innerHTML='<span>'+String(hour).padStart(2,'0')+':00–'+String((hour+1)%24).padStart(2,'0')+':00</span><b>'+stats.hours.toFixed(2)+'h</b><span>Avg '+stats.average.toFixed(1)+' • Peak '+stats.peak+' • '+fmtDuration(stats.coverageHours*3600)+' recorded</span>';hg.appendChild(card);
+     }
+     status.textContent='Updated '+new Date(now).toLocaleTimeString('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',second:'2-digit'})+' • '+(totalIce===null?'Live stream count unavailable.':'Self-listening is included.');
+   }catch(error){status.textContent='Audience update failed. Previously displayed figures may be stale: '+error.message;}
+   finally{load.running=false;if(range!==currentRange)load();}
  }
+
  document.querySelectorAll('[data-range]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentRange=b.dataset.range;load()});
  await load();setInterval(load,30000);
 })();

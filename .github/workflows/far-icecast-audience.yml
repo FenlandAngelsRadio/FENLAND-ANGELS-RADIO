@@ -1,11 +1,8 @@
 name: FAR Audience History
 
 on:
-  # GitHub scheduled workflows are best-effort and can be delayed. Instead of
-  # relying on GitHub to wake us every 5 minutes, start one recorder job each
-  # hour and take 12 samples inside that job, five minutes apart.
-  schedule:
-    - cron: "2 * * * *"
+  # Manual diagnostic fallback only. The five-minute systemd monitor on
+  # Cloud Live now records counts continuously; it does not host the stream.
   workflow_dispatch:
 
 permissions:
