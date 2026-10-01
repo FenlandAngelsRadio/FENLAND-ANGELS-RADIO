@@ -40,6 +40,22 @@ class DJTests(unittest.TestCase):
         self.assertEqual(json.loads(D.DB.read_text()),self.dj)
         self.assertEqual(D.GATEWAY.read_text(),'old gateway')
 
+    def test_restart_waits_for_ready_control_before_success(self):
+        with patch.object(D,"connected",return_value=False),patch.object(D.subprocess,"run"),patch.object(D,"wait_ready") as ready:
+            D.rebuild({},self.dj)
+            ready.assert_called_once_with({})
+
+    def test_readiness_failure_rolls_back_credentials(self):
+        with patch.object(D,"connected",return_value=False),patch.object(D.subprocess,"run"),patch.object(D,"wait_ready",side_effect=RuntimeError("not ready")):
+            with self.assertRaises(RuntimeError):D.rebuild({},self.dj)
+        self.assertEqual(json.loads(D.DB.read_text()),self.dj)
+        self.assertEqual(D.GATEWAY.read_text(),"old gateway")
+
+    def test_control_readiness_retries_startup(self):
+        with patch.object(D,"liquidsoap",side_effect=[ConnectionRefusedError(),["SELECTED:"]]),patch.object(D.time,"sleep") as pause:
+            D.wait_ready({})
+            pause.assert_called_once_with(.25)
+
     def test_unknown_connection_and_control_injection_rejected(self):
         with self.assertRaises(ValueError):D.execute('POST','/djs',{'id':'x\nfar.return_auto'})
         with self.assertRaises(ValueError):D.liquidsoap('help\nfar.return_auto')

@@ -2,13 +2,13 @@
 
 ## Verified
 
-39 Python tests and all five grouped JavaScript checks passed: Admin links and permissions, service responses, call-centre authentication and private access, audience calculations, and uploads. Service API tests are mocked.
+42 Python tests and all five grouped JavaScript checks passed: Admin links and permissions, service responses, call-centre authentication and private access, audience calculations, and uploads. Service API tests are mocked.
 
 Separate real Asterisk audio checks passed for screening, programme separation, selection, mute, hold, ending, private access, operator loss and restart recovery. Separate real Liquidsoap checks passed for DJ connect, individual DJ MP3 URLs, the selected Cloud Live MP3 feed, clearing selection while keeping individual feeds available, and disconnect. Generated test audio is not listener activity.
 
 The DJ compatibility repair is installed. The unused Cloud Live programme output was subsequently updated and restarted after confirming zero DJs and zero downstream listeners. Icecast and the separate public streaming provider were not restarted. All four station/DJ services were active in the final read-only host check. The obsolete duplicate DJ control service is disabled.
 
-Both Supabase functions are deployed with their own direct sign-in checks. Their restricted website-to-server bridge is installed and configured. Deno successfully read the real DJ endpoint and rejected an incorrect server identity. The restricted server key also rejected an arbitrary shell command. An authenticated Owner call-queue check remains pending; the available FAR browser session is the restricted audience-only test account.
+Both Supabase functions are deployed with their own direct sign-in checks. Their restricted website-to-server bridge is installed and configured. Deno successfully read the real DJ endpoint and rejected an incorrect server identity. The restricted server key also rejected an arbitrary shell command. The authenticated Owner browser checks passed for Cloud Live, the real DJ list and the call queue including private station business. Creating a temporary DJ exposed a startup race; the manager now waits for confirmed gateway readiness before reporting success and rolls back failed restarts.
 
 Production phone configuration and four spoken prompts are prepared. The configuration separates private owner/Nick ringing and voicemail from programme audio, disallows outbound calls, and requires trusted studio audio before callers can be put on air. The public provider connection is not installed or verified.
 
@@ -63,7 +63,7 @@ Host reference copies and generated caches are not deliverable source files. Ear
 
 ## Remaining gaps
 
-1. Complete the signed-in Owner check of both website functions. The restricted SSH connection avoids needing a new public HTTPS control endpoint, DNS record or firewall opening.
+1. Verify an actual remote DJ encoder and PlayIt Live reception. Owner sign-in and both website-to-server function checks are complete.
 2. A&A must release the account stop on ordered number 01945 383909. Real incoming calls cannot be verified before activation; the reason for the stop is not established.
 3. Configure actual SIP credentials, test menu choices and private first-answer-wins routing with the provider, and verify voicemail notification delivery.
 4. Connect and test live programme return audio/mix-minus. On-air controls must remain unavailable until programme audio is confirmed.
