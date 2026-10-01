@@ -29,6 +29,7 @@ async function run(name,body,options={}) {
   let r=await run('far-dj-admin',{action:'return_automation'});
   assert.equal(r.status,200);assert.equal(r.calls.some(x=>x==='single:far_djs'),false);assert.ok(r.calls.some(x=>Array.isArray(x)&&x[0]==='bridge'&&x[2]==='DELETE'));
   r=await run('far-dj-admin',{action:'return_automation'},{noBridge:true});assert.equal(r.status,400);assert.match(r.body.error,/not configured/);assert.equal(r.calls.some(x=>Array.isArray(x)&&x[0]==='update'),false);
+  r=await run('far-dj-admin',{action:'create',display_name:'Test DJ'},{noBridge:true});assert.equal(r.status,400);assert.match(r.body.error,/bridge is not configured/);assert.equal(r.calls.some(x=>Array.isArray(x)&&x[0]==='bridge'),false);
   r=await run('far-dj-admin',{action:'return_automation'},{bridgeError:true});assert.equal(r.status,400);assert.equal(r.calls.some(x=>Array.isArray(x)&&x[0]==='update'),false);
   r=await run('far-dj-admin',{action:'return_automation'},{updateError:true});assert.equal(r.status,400);
   r=await run('far-dj-admin',{action:'list'},{role:'staff'});assert.equal(r.status,400);assert.match(r.body.error,/Management/);

@@ -483,3 +483,38 @@ footer a:hover{
 
 #farCmsNavMain{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
 @media(max-width:650px){#farCmsNavMain{gap:14px}}
+
+/* A compact, keyboard-accessible menu on phones and tablets. */
+.far-menu-toggle{display:none}
+.far-dropdown.open .far-menu{display:block}
+.far-header :is(button,a):focus-visible{outline:3px solid #f3c360;outline-offset:4px}
+@media(max-width:1100px){
+  body{padding-top:100px}
+  .far-header{flex-wrap:wrap;gap:10px;padding:10px 16px}
+  .far-tagline{display:none}
+  .far-menu-toggle{display:block;margin-left:auto;min-height:44px;padding:10px 13px;border:1px solid #454b56;border-radius:9px;background:#11141a;color:#fff;font:700 14px Arial;cursor:pointer}
+  .far-listen{margin-left:0;min-height:44px}
+  .far-nav{display:none;order:4;width:100%;max-height:calc(100dvh - 100px);overflow-y:auto;align-items:stretch;gap:0;padding:8px 0}
+  .far-header.menu-open .far-nav{display:flex;flex-direction:column}
+  .far-dropdown{display:block;width:100%;border-bottom:1px solid #292e37}
+  .far-dropbtn{display:flex;justify-content:space-between;align-items:center;width:100%;min-height:48px;padding:14px 8px;text-align:left;font-size:14px}
+  .far-menu{position:static;min-width:0;width:100%;padding:0 0 8px}
+  .far-menu-inner{box-shadow:none;border:0;border-left:2px solid #d4aa47;border-radius:0;margin-left:8px}
+  .far-dropdown:hover .far-menu,.far-dropdown:focus-within .far-menu{display:none}
+  .far-dropdown.open .far-menu{display:block}
+  .far-menu a{min-height:44px;white-space:normal;line-height:1.4}
+  #farCmsNavMain{flex-direction:column;align-items:stretch;gap:0}
+  #farCmsNavMain>a{min-height:48px;padding:16px 8px;font-size:14px;line-height:1.4}
+}
+@media(max-width:420px){
+  .far-header{padding:8px 12px;gap:8px}
+  .far-brand{gap:8px}
+  .far-brand img{width:46px;height:46px}
+  .far-brand-name{font-size:17px}
+  .far-brand-name em{font-size:11px;letter-spacing:5px}
+  .far-listen{font-size:11px;padding:10px}
+  .far-menu-toggle{font-size:12px;padding:10px}
+  .far-header.scrolled .far-brand img{width:46px;height:46px}
+  .far-header.scrolled .far-brand-name{font-size:17px}
+  .far-header.scrolled .far-brand-name em{font-size:11px;letter-spacing:5px}
+}

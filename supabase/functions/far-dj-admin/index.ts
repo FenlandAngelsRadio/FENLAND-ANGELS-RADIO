@@ -14,10 +14,11 @@ Deno.serve(async(req)=>{
   const b=await req.json(),action=String(b.action||"");
   if(action==="list"){const {data,error}=await admin.from("far_djs").select("id,display_name,show_name,stream_username,mount_name,enabled,connection_allowed,on_air,connected,last_seen_at,notes,created_at").order("display_name");if(error)throw error;return json({djs:data})}
   if(action==="create"){
+   const liveUrl=Deno.env.get("FAR_LIVE_ADMIN_URL"),liveToken=Deno.env.get("FAR_LIVE_ADMIN_TOKEN");
+   if(!liveUrl||!liveToken)throw new Error("FAR Live server bridge is not configured");
    const name=String(b.display_name||"").trim(),show=String(b.show_name||"").trim()||null;if(!name)throw new Error("DJ name required");
    const base=slug(name)||"dj",username="dj_"+userSlug(name),mount="/dj-"+base,password=secret();
    const {data,error}=await admin.from("far_djs").insert({display_name:name,show_name:show,stream_username:username,mount_name:mount,enabled:true,connection_allowed:true,created_by:user.id}).select("id,display_name,show_name,stream_username,mount_name").single();if(error)throw error;
-   const liveUrl=Deno.env.get("FAR_LIVE_ADMIN_URL"),liveToken=Deno.env.get("FAR_LIVE_ADMIN_TOKEN");
    if(liveUrl&&liveToken){const r=await fetch(liveUrl+"/djs",{method:"POST",headers:{"Authorization":"Bearer "+liveToken,"Content-Type":"application/json"},body:JSON.stringify({...data,password})});if(!r.ok){await admin.from("far_djs").delete().eq("id",data.id);throw new Error("FAR Live server rejected DJ creation")}}
    return json({dj:data,password,server:"141.147.76.212",port:8000,format:"MP3",bitrate:320,samplerate:48000,warning:"Password is shown once. Give it to the DJ securely."});
   }
