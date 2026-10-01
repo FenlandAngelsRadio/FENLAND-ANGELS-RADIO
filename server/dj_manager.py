@@ -13,6 +13,7 @@ import socket
 import subprocess
 import tempfile
 import threading
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 DB=Path('/var/lib/far-live/dj-manager/djs.json')
@@ -61,6 +62,19 @@ def connected(ident):
     return values[0]=='true'
 
 
+def wait_ready(djs, timeout=15):
+    deadline=time.monotonic()+timeout
+    while True:
+        try:
+            selection=[line for line in liquidsoap("far.selected") if line.startswith("SELECTED:")]
+            if len(selection)!=1:raise RuntimeError("Selection unavailable")
+            for ident in djs:connected(ident)
+            return
+        except (OSError, RuntimeError):
+            if time.monotonic()>=deadline:raise RuntimeError("DJ gateway did not become ready.") from None
+            time.sleep(.25)
+
+
 def rebuild(djs, previous):
     for ident in previous:
         if connected(ident):raise ValueError('A DJ is connected. Change inputs when all DJs have disconnected.')
@@ -70,6 +84,7 @@ def rebuild(djs, previous):
         subprocess.run(['/usr/bin/python3','/opt/far-live/dj_gateway.py'],check=True,capture_output=True,timeout=15)
         subprocess.run(['/usr/bin/liquidsoap','--check',str(GATEWAY)],check=True,capture_output=True,timeout=25)
         subprocess.run(['systemctl','restart','far-dj-gateway.service'],check=True,capture_output=True,timeout=20)
+        wait_ready(djs)
     except Exception:
         save(DB,previous);GATEWAY.write_bytes(old_script)
         subprocess.run(['systemctl','restart','far-dj-gateway.service'],capture_output=True,timeout=20)
