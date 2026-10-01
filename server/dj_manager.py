@@ -86,10 +86,12 @@ def execute(method,path,body):
         return {'djs':[{'id':ident,'display_name':dj['display_name'],
                        'show_name':dj.get('show_name'),'stream_username':dj['username'],
                        'mount_name':dj['mount'],'enabled':bool(dj.get('enabled')),
+                       'stream_url':'http://141.147.76.212:8000'+dj['mount'],
                        'connection_allowed':bool(dj.get('enabled')),
                        'connected':connected(ident), 'on_air':selected==ident}
                       for ident,dj in djs.items()],
-                'server':'141.147.76.212','port':8085}
+                'server':'141.147.76.212','port':8085,
+                'programme_url':'http://141.147.76.212:8000/far-live-output'}
     if method=='POST' and path=='/djs':
         ident=body.get('id');username=body.get('stream_username');mount=body.get('mount_name')
         if not isinstance(ident,str) or not re.fullmatch(r'[A-Za-z0-9_-]{1,64}',ident):raise ValueError('Invalid DJ ID.')
@@ -104,7 +106,8 @@ def execute(method,path,body):
                                'username':username,'mount':mount,'password':password,'enabled':True}}
         rebuild(updated,djs)
         return {'password':password,'server':'141.147.76.212','port':8085,
-                'dj':{'id':ident,'stream_username':username,'mount_name':mount,'display_name':name}}
+                'dj':{'id':ident,'stream_username':username,'mount_name':mount,'display_name':name,
+                      'stream_url':'http://141.147.76.212:8000'+mount}}
     if path=='/return-automation' and method=='POST':
         if 'OK' not in liquidsoap('far.return_auto'):raise RuntimeError('Automation change was not confirmed.')
         save(STATE,{'on_air':None});return {'ok':True}
