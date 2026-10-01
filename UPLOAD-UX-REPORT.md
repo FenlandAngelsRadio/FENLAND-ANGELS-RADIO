@@ -15,3 +15,20 @@ Exact files changed:
 - admin-website-manager.html
 - scripts/check-media.cjs
 - UPLOAD-UX-REPORT.md
+
+## Consistent Admin controls
+
+Added admin-ui.css to all 13 Admin/Cloud Live screens. Shared 44px minimum button height, typography, borders, focus indicators, neutral/primary/destructive actions and disabled styling. Text inputs, dropdowns and checkboxes now share styling; Schedule checkbox labels align beside their controls. Public navigation retains its own styling. Browser checks confirmed matching computed button sizes/colours on Schedule and Presenters & Team, and existing link/script checks passed.
+
+Additional exact files changed:
+- admin-ui.css
+- admin-audience.html
+- admin-content.html
+- admin-dashboard.html
+- admin-events.html
+- admin-inbox.html
+- admin-navigation.html
+- admin-news.html
+- admin-staff.html
+- far-live-gateway.html
+- far-dj-management.html

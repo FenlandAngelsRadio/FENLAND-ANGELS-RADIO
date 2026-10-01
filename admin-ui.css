@@ -1,0 +1,101 @@
+/* Shared controls for FAR Admin. Public navigation keeps its own styling. */
+main {
+  --admin-accent: #df1823;
+  --admin-border: #3b414b;
+  --admin-control: #11151b;
+  --admin-muted: #b8bec8;
+}
+main button,
+main a:is(.back,.btn,.btnx,.admin-btn,.far-action),
+main a[href="admin-dashboard.html"] {
+  box-sizing: border-box;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px !important;
+  padding: 11px 16px !important;
+  border: 1px solid var(--admin-border) !important;
+  border-radius: 9px !important;
+  background: #252b35 !important;
+  color: #fff !important;
+  font: 700 14px/1.35 Arial, sans-serif !important;
+  text-align: center;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  white-space: normal;
+}
+main button:is(.primary,.save,.admin-signin),
+main button:is(#save,#loginButton,#signin,#saveStaff,#addBlock,[data-save],[data-bsave]),
+main button.far-action:not(.secondary):not(.danger),
+main form button[type="submit"] {
+  background: var(--admin-accent) !important;
+  border-color: var(--admin-accent) !important;
+}
+main button:is(.danger,[data-delete],[data-del],[data-bdel],[data-remove]),
+main a.danger {
+  background: #421c22 !important;
+  border-color: #91505a !important;
+  color: #ffd8dc !important;
+}
+main :is(.tabs,.filterbar) button.active {
+  border-color: #e8b942 !important;
+  color: #ffe39b !important;
+}
+main button:hover:not(:disabled),main a:is(.back,.btn,.btnx,.admin-btn,.far-action):hover {
+  filter: brightness(1.15);
+}
+main button:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+main :is(button,a,input,select,textarea,summary):focus-visible {
+  outline: 3px solid #f4c752 !important;
+  outline-offset: 3px;
+}
+main input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]):not([type="file"]),
+main select, main textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: 11px 12px !important;
+  border: 1px solid var(--admin-border) !important;
+  border-radius: 9px !important;
+  background: var(--admin-control) !important;
+  color: #fff !important;
+  font: 400 15px/1.4 Arial, sans-serif !important;
+  color-scheme: dark;
+}
+main label {
+  color: #e7bd58;
+  font-weight: 700;
+  line-height: 1.4;
+}
+main input:is([type="checkbox"],[type="radio"]) {
+  width: 18px !important;
+  height: 18px !important;
+  min-height: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 0 0 18px;
+  vertical-align: middle;
+  accent-color: var(--admin-accent);
+}
+main label:has(> input:is([type="checkbox"],[type="radio"])) {
+  display: flex !important;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+}
+main :is(.actions,.admin-actions,.filterbar,.image-tools,.tabs) {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+main .muted { color: var(--admin-muted); }
+main .far-image-control button { margin: 0 8px 8px 0; }
+main .far-image-control p { line-height: 1.5; }
+main .far-image-control summary { cursor: pointer; color: #d8dde5; padding: 8px 0; }
+main [hidden] { display: none !important; }
