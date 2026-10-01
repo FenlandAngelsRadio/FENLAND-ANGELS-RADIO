@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-01T11:51:56.532938+00:00",
+  "updated_at": "2026-10-01T22:01:38.531991+00:00",
   "stories": [
+    {
+      "id": "fenland-news-fb9aa29c21068e738865c31d",
+      "headline": "Ely man jailed for arson at his own home",
+      "brief": "A man from Ely has been sentenced to time in prison after starting a fire at his own property. The case, reported by the Ely East Cambridgeshire News, confirms that the individual was convicted of arson. No further details regarding the date of the incident or the length of the custodial sentence have been provided.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdUtoWjJ4cGR6bFh1SDl3bTlZclJsdTIzdmNnRU9rSW9QZ0I4bE1WYnl3R2VvSnEzZXhGQUNSdm4zeVdSTk5idTE4Mkx2Mk8xeV9UUGxoN3BhTzJTSjRmeEhhYjBmVVBZVWJmN2JyV1BrVHpQR0UyQW1BSzhrU1RZclZxc2dYeTBNbDhBQmY2Vzk?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-01T11:00:00+00:00",
+      "generated_at": "2026-10-01T22:01:26.541194+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:26 +0000"
+    },
+    {
+      "id": "fenland-news-794845107fa14f91cba710ab",
+      "headline": "Investigation launched following alleged assault at Cambridgeshire school",
+      "brief": "An investigation is underway following reports of an assault involving a boy at a school in Cambridgeshire. Details regarding the incident remain limited at this stage, but authorities have confirmed that inquiries are currently being carried out. No further information has been released regarding the condition of the student or the specific location of the school involved. We will bring you more updates as they become available.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYVdaaXpFQ3Vpd2VTTFdHR2c5bUM1OGZqemhSb2QyWHEzUlVIaGlGcFNEN1NzVm82SjUyYVFWcXB2bVg3MkxXU1dkSU54TEV2eFFYTWpXcW1YZTBqbkMxLWRWWHg3TDZIVi1CR2ZZOXZnOXUyU2J2UDRBemFiRGJwa3BzQnl3TWdJQXAzNVkxTmR5X2dHbDBMSWR1a0xmU3NC?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-24T08:58:00+00:00",
+      "generated_at": "2026-10-01T22:01:24.780532+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:24 +0000"
+    },
+    {
+      "id": "fenland-news-bda2c798b47632f759538ede",
+      "headline": "Record attendance at King’s Lynn and West Norfolk Law Society ball",
+      "brief": "The King’s Lynn and West Norfolk Law Society held its annual celebration ball at the town’s historic town hall on Friday, September 11. The event, which serves as a key date in the society’s calendar, saw one of its highest attendances in recent years. Legal professionals and members of the local business community gathered for an evening that included a formal dinner, live music from the Soul Sisters, and a speech by Judge Simon Spence. Society president Joshua Shuardson-Hipkin thanked those who attended and the committee for their work in organising the event. The evening was supported by several sponsors, including headline sponsor Cynergy Bank.",
+      "original_url": "https://www.lynnnews.co.uk/news/annual-celebration-ball-is-highlight-of-society-s-calendar-9485202/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/73XRIDKJSZTSZG152LXH.jpg",
+      "published": "2026-10-01T13:09:20+00:00",
+      "generated_at": "2026-10-01T22:01:21.269994+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:21 +0000"
+    },
+    {
+      "id": "fenland-news-81c64ad7675075684e0c4aa5",
+      "headline": "Peterborough United managerial appointment delayed",
+      "brief": "The appointment of Robbie Savage as the new manager of Peterborough United is currently on hold. Reports indicate that the delay is due to an ongoing dispute regarding compensation. No further details have been released regarding when the situation might be resolved or when a final decision is expected.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOLUFKZ3QydC1BdkpBNlB5NmRLUVU1VHI5MXo5ejdNMnFSSG9MR2Z6WWoxZVBxQ0JLeEdmMjgzOEc5dUJERkhFTVU3WEtGaUJnZVkzelM3Y3M2cGdkYmNUa19CcV8wN2phdm9QT2tkMmdwV2NXYUkyM1FFQUc0d3puM3VoMEl0Y2V0VnptMmZ4SlJZeTNLbTdIWEU3ZjhJM0ozTWdFS2s2eFhwRER2RHVBX3hrOVRGODVjVnNWd1V6UWdFYXVTelNZb1QtUDlCeHctT2dkVGVUNF94V1I1TUxmMWUtV0VMQjNaUFFmWW9DMEFYLUtxWkYxQk94c2hkY1BPaUdTeEpkbEg?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-01T17:01:00+00:00",
+      "generated_at": "2026-10-01T22:01:16.583618+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:16 +0000"
+    },
+    {
+      "id": "fenland-news-c4630fa2ff81051ccc44abe2",
+      "headline": "Campaign launched against East Cambridgeshire wind farm proposals",
+      "brief": "A new campaign has been established to oppose plans for two wind farms in East Cambridgeshire. The proposed developments are located on Grade 1 agricultural land. No further details regarding the specific locations or the groups involved in the opposition have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFA0cWxfcjdqeGJtOGRsVzA3VWtuR0EtOVBPZ1g4TUYzUWlEQ2ZFWWZXejJSM3hDbUs1eE15clpWRmMza1p6ZlBoN0VnVGFKQmUxdlNCTmVCR1JPNm9qS1QtWVVXRUpaT0dyWFZ6ZHJoaGpWVWMzWlZXRGFyY0k2V0JSWFhWdU9HU0kzdnZjenJLMlAxSGc0?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-01T14:14:00+00:00",
+      "generated_at": "2026-10-01T22:01:11.532966+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:11 +0000"
+    },
+    {
+      "id": "fenland-news-a9e483a26fbf667562719307",
+      "headline": "Campaign launched against East Cambridgeshire wind farm plans",
+      "brief": "A new campaign has been established to oppose proposals for two wind farms in East Cambridgeshire. The development plans have drawn criticism due to their proposed location on Grade 1 agricultural land. Further details regarding the specific sites or the groups involved in the opposition have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFA0cWxfcjdqeGJtOGRsVzA3VWtuR0EtOVBPZ1g4TUYzUWlEQ2ZFWWZXejJSM3hDbUs1eE15clpWRmMza1p6ZlBoN0VnVGFKQmUxdlNCTmVCR1JPNm9qS1QtWVVXRUpaT0dyWFZ6ZHJoaGpWVWMzWlZXRGFyY0k2V0JSWFhWdU9HU0kzdnZjenJLMlAxSGc0?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-01T14:14:00+00:00",
+      "generated_at": "2026-10-01T22:01:08.775175+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:01:08 +0000"
+    },
+    {
+      "id": "fenland-news-5ee3330bd60c8582ebfc6743",
+      "headline": "New craft hub to open on King’s Lynn High Street this weekend",
+      "brief": "A new craft hub, Pia’s Place, is set to open on King’s Lynn High Street this weekend. Owned by Gaywood resident Pia Cawston, the shop will offer a variety of creative workshops, including basket weaving, watercolour painting, and children’s activities. The venue also features a selection of vintage items alongside coffee and homemade cake.\n\nThe doors open to the public this Saturday from 9am until 3pm, and Sunday from 10am until 4pm. Following the launch, the shop will operate from Wednesday to Sunday, between 9am and 4pm. The owner describes the new venture as a space for all ages to enjoy.",
+      "original_url": "https://www.lynnnews.co.uk/news/craft-hub-opening-on-town-s-high-street-this-weekend-with-so-9485224/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/D2ZHDKVAD448MBP8PUUW.jpg",
+      "published": "2026-10-01T14:18:52+00:00",
+      "generated_at": "2026-10-01T22:00:57.142984+00:00",
+      "rss_date": "Thu, 01 Oct 2026 22:00:57 +0000"
+    },
     {
       "id": "fenland-news-f6fd9288c5b9ee0f59c60560",
       "headline": "Plans submitted for new East Cambridgeshire wind farm",
@@ -1023,83 +1100,6 @@
       "published": "2026-06-19T07:00:00+00:00",
       "generated_at": "2026-09-27T10:48:29.393138+00:00",
       "rss_date": "Sun, 27 Sep 2026 10:48:29 +0000"
-    },
-    {
-      "id": "fenland-news-13d9b1635cbf052e457c7707",
-      "headline": "King’s Lynn man fined after breaching town centre ban",
-      "brief": "A prolific offender from King’s Lynn has been fined after failing to comply with a community protection notice. Twenty-nine-year-old Levi Coburn, of Anthony Nolan Road, appeared at Lynn Magistrates’ Court on Thursday. He admitted to breaching an order that bans him from entering the town centre.\n\nThe court heard that on September 2, Coburn refused to leave the town’s bus station when instructed by police. He shouted at officers while they were speaking with another individual. In mitigation, the court was told that Coburn was intoxicated at the time. He has been ordered to pay a total of £190, consisting of a £100 fine, a £40 victim surcharge, and £50 in court costs.",
-      "original_url": "https://www.lynnnews.co.uk/news/prolific-offender-banned-from-town-shouted-at-police-while-r-9484389/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/L5U51CNHHDNNGFCXNTM1.jpg",
-      "published": "2026-09-27T05:00:00+00:00",
-      "generated_at": "2026-09-27T10:48:28.358334+00:00",
-      "rss_date": "Sun, 27 Sep 2026 10:48:28 +0000"
-    },
-    {
-      "id": "fenland-news-107caabde65995a26b488c8b",
-      "headline": "Peterborough teenager to join Kerry Ellis on tour",
-      "brief": "A 14-year-old from Peterborough is set to perform as part of Kerry Ellis’s upcoming Rock Anthems tour. The young musician will be joining the West End star on stage during the production. Further details regarding the specific dates or venues for the teenager's appearances have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVlLZkpnTmZjdG5SQWQzby1KTXVYZ3lyLXE4aVptaGlXTWxKWWQzME5mZ1NPdjVrYXlsdnZsTXFjUnNSRE94NloyR2hkTHdjT01CdW5yMDZHWThHdWhubE1rM240Z00tNEI5S0ZzTE95RXBlZjVsRkpfWEVMLVZXbGR1V1VWLWdiSElTQU1rTmpzMlE?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-26T13:37:00+00:00",
-      "generated_at": "2026-09-27T01:51:33.564771+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:33 +0000"
-    },
-    {
-      "id": "fenland-news-01dd0d2b726e93544a323fb8",
-      "headline": "Urgent search for missing man with Cambridgeshire links",
-      "brief": "Police have launched an urgent search for a man described as vulnerable who has known links to Cambridgeshire. Authorities are appealing for information to help locate him. Anyone who may have seen him or has information regarding his current whereabouts is urged to contact the police immediately.",
-      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWnZIVGVXMnNIaUowTTRmX0xGdHFlcGNwMktxNDIwaTgxNm9RU3laTzlUTEZ1YXl4YlZDQUczLXJfWnhWbXl5WWdfVkU0VkNod2FaekdKcTlJV1Z0UWpQSF9ocHhaRGoySGY0bXF0M2JxT1FiV1oxMXN3dWlQN0lLNG5GdXYtc1d2?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-24T09:59:00+00:00",
-      "generated_at": "2026-09-27T01:51:31.796442+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:31 +0000"
-    },
-    {
-      "id": "fenland-news-77a98abf519c56cc7eb84c53",
-      "headline": "Family pays tribute following fatal crash near Whittlesey",
-      "brief": "The family of a 21-year-old who died in a collision near Whittlesey have released a tribute. The individual was killed in a crash in the local area. No further details regarding the circumstances of the incident or the identity of the person involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Oc2drZFhSN0hHX3lObWVkZ3plNG1yaThIeE1pM2RQUkhJcEpaYUdqM2JEYlJoQzhlaDZpbzRtQ2JHVDFsLS1rand5aTJzbGVkNUlyc0dKajBIYWRu?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2025-12-16T08:00:00+00:00",
-      "generated_at": "2026-09-27T01:51:30.480644+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:30 +0000"
-    },
-    {
-      "id": "fenland-news-c6030fede27e7c21b291a9ad",
-      "headline": "Veterinary survey launched over potential dry eye food link",
-      "brief": "A new case survey has been launched following concerns regarding a potential link between certain pet foods and dry eye conditions. The investigation, reported by Vet Times, aims to gather data to better understand if specific dietary products are contributing to the health issue in animals. Pet owners are being encouraged to participate in the study to help clarify these concerns. Further information regarding the survey and its findings is expected to be released as the research progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZXlWZnVTUUdFWVQwMGZaeUhfYnVqZlJDMFRSdUN1OTU3UTBGMHJXbk9DZzNCdW1pTTVCaTRBQWRUV3pHVWtIUHl0ZDVyLXg2V1lWVVFPYnBwRllhaDFiUEtWc3NVd3dkczNGY1o5SHVKN1pKM184M1JSeUJnVG1fcVNGUWdsSUE5ZkxPREYtUHl1azZHSjZQY3JUQ2pjZDdjdHFJ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-26T19:24:04+00:00",
-      "generated_at": "2026-09-27T01:51:29.478876+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:29 +0000"
-    },
-    {
-      "id": "fenland-news-1a362d7ae3d15760e230900a",
-      "headline": "National award for Cambridgeshire Fire and Rescue",
-      "brief": "Cambridgeshire Fire and Rescue Service has been recognised with a national award. The organisation has been named a Menopause Friendly Employer. The accolade highlights the service's commitment to supporting staff members experiencing the menopause.",
-      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1dTeWNsOGNGaEZYbkhmbjBRcFJYcHdLUTZrWEUxTjJDTXlkOHNXSXZnRkQ0MkdWV25mWmJtQURXa1lfWDJsM0JXdlpKTHFKSE5iOUphcGFXeWZ4NzRDT1MtX0pYV0hfMjd3MC1QQ3RiY0wxelBqOEUwWnRxRHhZaURoTzE0ZkFsbWlWVTl6LUhfelBweDdFcWl5U0Q2dk9MU3A5QQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-26T03:00:00+00:00",
-      "generated_at": "2026-09-27T01:51:28.429335+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:28 +0000"
-    },
-    {
-      "id": "fenland-news-2551a1962cdc624125718a95",
-      "headline": "Police investigate violent assault in Spalding",
-      "brief": "Lincolnshire Police are investigating a violent incident in Spalding after a man was slashed during an altercation on a busy street. Reports indicate that the attack took place in a public area, with approximately twenty children witnessing the event. Authorities are currently looking into the circumstances surrounding the encounter. Anyone with information regarding the incident is encouraged to contact the local police force.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZjN6dkFsN0paN1M2TXFhZkFKTm5kRm9VTjZQTzFtdmI3bnVtM1RiVlJNRU84YlZVVm4xZVQ2bzJSZ2xERXdPckEtT1VXMW1nY1RwRlhsOHJGWkxyLWk3dTNkY3BHeklSaTBMMmtabmtTY3ItMlVRN1ZGbkYzb2g3NFhTWjNTQUJ1T28xanpkay14S0VLd3lRRDF30gGfAUFVX3lxTE1HajZXTW5XS3VTZ2lROTZlYnhjQkVsQmhBdFg3b296MlFOXzhzRlFYczZkX1IwdjhNZnVYbE02aDdiWk51M29HNXczc3lyVXVoZl9wVnJ1M0FNN1BXTzRua2ZGY1BUR0dkVjRZU2VVbU04Z0NveVpoT01idkRJU05abXR3cFB1QTJkZ2EyOW1adlBoTF92dGRhejJSSjY2Yw?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2020-08-10T07:00:00+00:00",
-      "generated_at": "2026-09-27T01:51:27.427006+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:27 +0000"
     }
   ]
 }
