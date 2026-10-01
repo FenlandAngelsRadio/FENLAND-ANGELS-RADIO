@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Call Centre | FAR Cloud Live</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="admin-ui.css?v=1"><link rel="stylesheet" href="far-call-centre.css">
+<link rel="manifest" href="far-staff.webmanifest"><meta name="theme-color" content="#080a0d"></head><body><main class="call-shell">
+<div class="call-top"><div><p class="muted">FAR CLOUD LIVE</p><h1>Call Centre</h1><p>Screen callers and interview guests before putting them on air.</p></div><a class="back" href="far-live-gateway.html">← Return to Cloud Live</a></div>
+<p><a class="back" href="admin-dashboard.html">← Return to Admin Dashboard</a></p>
+<div id="callStatus" class="call-notice" role="status" aria-live="polite">Checking your access…</div>
+<section id="callApp" hidden>
+<div class="call-notice"><strong>Station number: 01945 383909</strong><p>Ordered — awaiting A&amp;A activation and connection. This screen does not prove the number is ready to receive calls.</p><p id="connectionHelp">Checking your audio connection…</p><button id="enableAlerts" type="button">Enable call alerts while this screen is open</button><p class="muted">On Android, use your browser menu to add FAR Cloud Live to your home screen for quick access. These alerts need this screen to stay open. Android ringing with the screen locked needs a separately configured calling app and a real phone test.</p></div>
+<div class="call-top"><p class="muted">Connecting a caller does not put them on air. Use headphones while screening.</p><button id="refreshCalls" type="button">Refresh calls</button></div>
+<div id="exampleTools" class="call-notice" hidden><strong>Example calls only</strong><p>Try the controls here. No phone, guest microphone or live broadcast is connected.</p><button id="resetExamples" type="button">Reset example calls</button></div>
+<div id="callConfirm" class="call-notice" hidden><p id="confirmText"></p><button id="confirmAction" class="primary" type="button">Confirm</button> <button id="cancelAction" type="button">Cancel</button></div>
+<div class="call-columns">
+<section class="call-panel"><h2>Games &amp; competitions</h2><p class="muted">Phone menu: press 1. Keep game callers separate from interviews.</p><div id="gamesCalls"></div></section>
+<section class="call-panel"><h2>Live show &amp; interviews</h2><p class="muted">Phone menu: press 2. Interview callers wait here. Browser interview links are not connected.</p><div id="showCalls"></div></section>
+<section class="call-panel" id="privatePanel" hidden><h2>Private station business</h2><p class="muted">Phone menu: press 3. For you or Nick. These calls cannot be put on air.</p><p class="muted">When one person answers, the other phone should stop ringing. Unanswered calls will go to private voicemail once the phone service is connected.</p><div id="businessCalls"></div></section>
+</div>
+<details class="call-panel"><summary>What do the controls do?</summary><dl>
+<dt>Screen</dt><dd>Talk privately with a show caller to check what they want to discuss.</dd>
+<dt>Ready</dt><dd>Mark a screened caller as ready. They still cannot be heard by listeners.</dd>
+<dt>Put on air</dt><dd>Connect a ready caller to the programme. You must confirm first.</dd>
+<dt>Hold</dt><dd>Take the caller off air or out of screening and let them wait.</dd>
+<dt>Mute</dt><dd>Stop listeners hearing the caller without ending their connection.</dd>
+<dt>End call</dt><dd>Disconnect the caller. They must call again to return.</dd>
+</dl></details>
+</section></main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-call-centre.js"></script>
+</body></html>

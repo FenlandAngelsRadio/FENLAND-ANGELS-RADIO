@@ -1,0 +1,21 @@
+[Unit]
+Description=FAR station phone system (separate from broadcast)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=asterisk
+Group=asterisk
+ExecStart=/usr/sbin/asterisk -f -C /opt/far-phone/etc/asterisk.conf
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/far-phone
+ProtectHome=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target
