@@ -1,0 +1,28 @@
+; Staging dialplan only. No public trunk or broadcast route is configured.
+; Install the recorded far/menu prompt before using this context.
+; It must say: 1 games/competitions, 2 show/interviews, 3 private business, 0 repeat.
+; FAR Stasis event consumer is required for programme queues (not installed yet).
+[far-incoming]
+exten => s,1,Answer()
+ same => n,Set(FAR_MENU_ATTEMPTS=0)
+ same => n(menu),Set(FAR_MENU_ATTEMPTS=$[${FAR_MENU_ATTEMPTS}+1])
+ same => n,GotoIf($[${FAR_MENU_ATTEMPTS}>3]?finish)
+ same => n,Background(far/menu)
+ same => n,WaitExten(8)
+ same => n(finish),Hangup()
+exten => 0,1,Goto(s,menu)
+exten => 1,1,Stasis(far-calls,games)
+ same => n,Hangup()
+exten => 2,1,Stasis(far-calls,show)
+ same => n,Hangup()
+exten => 3,1,Goto(far-business,s,1)
+exten => i,1,Goto(s,menu)
+exten => t,1,Goto(s,menu)
+
+; Business goes directly to a separate private ringing group.
+; owner/nick are PBX endpoints, not phone numbers. No mobile forwarding charge.
+; Voicemail mailbox 300 requires configuration and delivery alerts to both people.
+[far-business]
+exten => s,1,Dial(PJSIP/owner&PJSIP/nick,25)
+ same => n,VoiceMail(300@far-private,u)
+ same => n,Hangup()
