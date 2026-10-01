@@ -1,0 +1,14 @@
+{
+  "name": "FAR Cloud Live",
+  "short_name": "FAR Live",
+  "description": "FAR staff broadcast and call controls",
+  "start_url": "/far-live-gateway.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080a0d",
+  "theme_color": "#080a0d",
+  "icons": [
+    {"src": "/app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

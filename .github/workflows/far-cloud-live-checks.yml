@@ -1,0 +1,29 @@
+name: FAR Cloud Live checks
+on:
+  pull_request:
+    paths: ['far-*.html', 'far-*.js', 'far-*.css', 'far-*.webmanifest', 'server/**', 'scripts/**', 'supabase/functions/**', '.github/workflows/far-cloud-live-checks.yml']
+  push:
+    branches: [main]
+    paths: ['far-*.html', 'far-*.js', 'far-*.css', 'far-*.webmanifest', 'server/**', 'scripts/**', 'supabase/functions/**', '.github/workflows/far-cloud-live-checks.yml']
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Phone and DJ safety checks
+        run: python -m unittest discover -s server -p 'test_*.py'
+      - name: Website, permissions, uploads and audience checks
+        run: |
+          node scripts/check-admin.cjs
+          node scripts/check-services.cjs
+          node scripts/check-call-centre.cjs
+          node scripts/check-audience.cjs
+          node scripts/check-media.cjs
