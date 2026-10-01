@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-01T02:29:16.178053+00:00",
+  "updated_at": "2026-10-01T11:51:56.532938+00:00",
   "stories": [
+    {
+      "id": "fenland-news-f6fd9288c5b9ee0f59c60560",
+      "headline": "Plans submitted for new East Cambridgeshire wind farm",
+      "brief": "A new wind farm project has been proposed for East Cambridgeshire. According to reports, the development has the potential to generate enough electricity to power more than 200,000 homes. Further details regarding the specific location and timeline for the construction have not yet been confirmed.",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVUt4ZC1yQnBDaHVrUGFHLWZ6WFJxQnNWSkR3RWxHV2xJc1g4WHBURWJhU3l0blZWOGVoejBfLUwwSXlMY1EtV0dHMU9ybzJMdGpfNDNUUU5TYkRJOHJ6Q0hrRFVzbl9FdVpWLUNLTDNDWjJpVU9oclVlZFhNOXRUcUsybG9MY0NGZlJETGRPNzNFY0M0YkdnLQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-28T09:42:00+00:00",
+      "generated_at": "2026-10-01T11:51:46.770374+00:00",
+      "rss_date": "Thu, 01 Oct 2026 11:51:46 +0000"
+    },
+    {
+      "id": "fenland-news-0d2a17dfe90d87b1e3b674fc",
+      "headline": "Former Springwood student begins studies at Cambridge",
+      "brief": "A former student from Springwood High School in King’s Lynn has begun her university career at Cambridge. Eva Kalabina, who achieved three A* grades and one A in her A-Levels, is now studying Economics, Law, and Environment. \n\nThe 18-year-old credited the support of her teachers at the West Norfolk Academies Trust school for helping her secure her place. Looking ahead, Ms. Kalabina hopes to pursue a career within the technology industry or consultancy. She described her time at the Lynn school as a positive experience that helped her grow both academically and personally.",
+      "original_url": "https://www.lynnnews.co.uk/news/former-springwood-sixth-former-settles-into-university-life-9485115/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/9ZP42OSSKRLPYCZ6VXPT.jpg",
+      "published": "2026-10-01T10:29:14+00:00",
+      "generated_at": "2026-10-01T11:51:24.702081+00:00",
+      "rss_date": "Thu, 01 Oct 2026 11:51:24 +0000"
+    },
+    {
+      "id": "fenland-news-9cbf69cbd37931b559f619dc",
+      "headline": "Emergency lock closures leave boaters stranded in March",
+      "brief": "Boaters are currently unable to move through March following the introduction of emergency lock closures. The restrictions have left vessels marooned in the area. No further details regarding the cause of the closures or when the locks might reopen have been provided. Those planning to travel through the town by water are advised to be aware of the ongoing disruption.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MZnQtRDRSSXJzUFMxZlZ2bXIwYkh4OHhaUDJ2U3ZlZUpVS3Z1QmVtdGJBaGVhYjc3ZlJjVjdfc29hdllfRjl1eFMzODB2bTBLTlRDY2o0OXJQdw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-25T07:00:00+00:00",
+      "generated_at": "2026-10-01T11:51:03.405252+00:00",
+      "rss_date": "Thu, 01 Oct 2026 11:51:03 +0000"
+    },
+    {
+      "id": "fenland-news-efcb4c341b354e7cd335e8e3",
+      "headline": "Top ratings for West Norfolk leisure centres",
+      "brief": "Four council-run leisure centres in West Norfolk have been awarded a ‘very good’ rating following a national quality assessment. The sites, managed by Alive West Norfolk, include Lynnsport and St James’ Pool in King’s Lynn, Downham Leisure, and The Oasis in Hunstanton. \n\nThe Quest for Facilities scheme evaluated the centres through mystery visits and independent inspections, focusing on areas such as customer service, safety, and community engagement. In addition to this rating, the service has also received The Active Standard certification from the trade body ukactive. Council officials have praised the staff for their ongoing commitment to maintaining high standards across all four facilities.",
+      "original_url": "https://www.lynnnews.co.uk/news/four-leisure-centres-receive-top-ratings-9485165/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/OBT30WGMW8MYE8GBWYBI.jpg",
+      "published": "2026-10-01T11:27:43+00:00",
+      "generated_at": "2026-10-01T11:50:29.848220+00:00",
+      "rss_date": "Thu, 01 Oct 2026 11:50:29 +0000"
+    },
     {
       "id": "fenland-news-c689e41e6719da49e65eb7ca",
       "headline": "Red Arrows to fly over Cambridgeshire this week",
@@ -1056,50 +1100,6 @@
       "published": "2020-08-10T07:00:00+00:00",
       "generated_at": "2026-09-27T01:51:27.427006+00:00",
       "rss_date": "Sun, 27 Sep 2026 01:51:27 +0000"
-    },
-    {
-      "id": "fenland-news-8bade7da20802689aa55accf",
-      "headline": "Emergency services called to new crematorium",
-      "brief": "A newly opened crematorium has been evacuated following an emergency response. Firefighters were called to the site just weeks after the facility first began operations. No further details regarding the cause of the incident or the current status of the building have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTFBCS0lFZlFCaU9zNGFjX2k5WE1ld1JtUUZPVWdBN1NVdms3WWtXOHpFM0FKYjFaSUdHOEhjWjlTNThsOVJNWVFjXzNTd0gzUl93c05Ta2cwNUVOcXlIMGJOUmxlOFpweXU1MzFZMVNjSEl5a01pcHE4bHRKY3p2bVVTQmZUX0NHS0drMTVnOEM5NzY3c2Q2STR30gGfAUFVX3lxTE0yVU9SNjlVOUFweDlNLV9lQXp3bWpSVXM2ZHpfbUNrWFJTek5ud1VXUkVkUm1NNENJeTlyYmRiU002ZE5rZjdsZ0ZobXlYRDB6SG1DMGNHYkVPaE83YWlTOWRtck4zYUpBdVhKdGd2bEJMd2RPb0hlUmxicnc1SlJjalp2eWtOcUlUREdyWDhON3hJeG4zS05WQnVXSVdPcw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-25T13:32:00+00:00",
-      "generated_at": "2026-09-27T01:51:26.167538+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:26 +0000"
-    },
-    {
-      "id": "fenland-news-7b2ac866e493b27a60b496fc",
-      "headline": "King’s Lynn Town FC hosts mental health talk with 8:56 Foundation",
-      "brief": "King’s Lynn Town Football Club has hosted a mental health presentation for players and staff, delivered by the West Norfolk charity, the 8:56 Foundation. The session aimed to challenge the stigma surrounding mental health and encourage men to seek support rather than suffer in isolation.\n\nClub media manager Conor Blake shared his personal experience of seeking help through the foundation, which provides free, funded talking therapy and peer support. The charity was established in memory of Lee Calton to promote open conversations about mental wellbeing. Linnets manager Paul Caddis described the presentation as a vital reminder that players and staff face the same human struggles as everyone else, emphasising the importance of looking out for one another.",
-      "original_url": "https://www.lynnnews.co.uk/news/we-hurt-the-same-as-everybody-else-linnets-and-8-56-found-9484299/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/Z8JBUOS2292ICQ69YPQL.jpg",
-      "published": "2026-09-25T05:00:00+00:00",
-      "generated_at": "2026-09-27T01:51:25.125560+00:00",
-      "rss_date": "Sun, 27 Sep 2026 01:51:25 +0000"
-    },
-    {
-      "id": "fenland-news-0e39028b88907ac7cc9b2c68",
-      "headline": "Autumn events programme announced for King’s Lynn and West Norfolk",
-      "brief": "A variety of cultural events are scheduled across King’s Lynn and West Norfolk this autumn. The King’s Lynn Festival has announced its new season, featuring coffee concerts and talks, while the West Norfolk Wyrdfest runs from October 8 to November 6 at various venues. \n\nLocal museums are also hosting activities, with weekly lunchtime talks at True’s Yard and coffee mornings at Lynn Museum. Music fans can look forward to organ recitals at Lynn Minster, performances at the Hunstanton Bandstand, and a tribute to Whitney Houston. Additionally, the KLODS production of The Addams Family Musical takes place from October 29 to 31 at the Peter Hopkins Hall. Residents are encouraged to check venue websites for ticket availability and further information.",
-      "original_url": "https://www.lynnnews.co.uk/whats-on/festivals-talks-and-candlelight-concerts-among-upcoming-eve-9483876/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/MQFMKE4XE7GPSMDPTK62.jpg",
-      "published": "2026-09-25T05:00:00+00:00",
-      "generated_at": "2026-09-26T20:11:06.862067+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:11:06 +0000"
-    },
-    {
-      "id": "fenland-news-59f6dd4f6baa6163e48bf505",
-      "headline": "More human remains discovered at Peterborough roundabout",
-      "brief": "Archaeological work at a roundabout in Peterborough has revealed further human remains. The total number of skeletons recovered from the site has now reached 61. The discovery was reported by the BBC following ongoing investigations at the location.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JZGhoYUVWRGMwcnNPSGZFbE1uclNiVDdyLXFnTFJwZ3Y1UGNsMmJsZW5nMUtQTmdpQTFvelFLZU5XTUVxTHdkUlhxRzRLN05rb1VoSW9NTi1zRzQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-24T18:37:43+00:00",
-      "generated_at": "2026-09-26T20:11:04.750890+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:11:04 +0000"
     }
   ]
 }
