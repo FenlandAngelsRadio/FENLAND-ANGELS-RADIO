@@ -11,3 +11,9 @@ The server owns DJ accounts and generates connection passwords. Input changes re
 Keep the API private. The installed website connection uses a dedicated restricted SSH account, a forced `far-api` command and an exact server host-key pin. `web_bridge.py` accepts only fixed DJ and call-queue routes and runs without root privileges. Supabase stores `FAR_SERVER_SSH_HOST`, `FAR_SERVER_SSH_USER`, `FAR_SERVER_SSH_KEY_B64` and `FAR_SERVER_SSH_SHA256` as encrypted secrets. An authenticated HTTPS bridge remains an optional alternative. Tokens belong in protected server settings and Supabase secrets, never website files.
 
 Verification: `test_dj_manager.py` covers validation and control failures. `check_dj_test.py` runs an isolated Liquidsoap input with generated audio and checks connect, select, return and disconnect. These checks do not switch the public station or prove a remote DJ's internet connection.
+
+## PlayIt Live URLs
+
+Every connected DJ has an independent MP3 URL on port 8000 using their assigned mount. Clearing the Cloud selection leaves those individual feeds available. The shared programme URL is http://141.147.76.212:8000/far-live-output. Its input prefers the selected Cloud DJ feed, then the existing private-major input, then silence. Staff may choose individual DJ URLs or the programme URL in PlayIt Live. Cloud selection alone does not prove the separate public broadcast has switched.
+
+install_playit_route.py checks for zero DJs and zero Cloud listeners before updating the known programme fallback. It validates configuration, retains a private backup, restarts only the unused Cloud programme service and checks MP3 bytes, with rollback on failure. The separate public provider is not changed. Real isolated checks verify both individual and selected MP3 feeds.

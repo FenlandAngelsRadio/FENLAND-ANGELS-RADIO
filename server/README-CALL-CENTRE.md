@@ -29,7 +29,7 @@ Server-generated settings.json is mode 0600 inside a 0700 directory and contains
 
 ## Verification
 
-Local: python -m unittest discover -s server -p 'test_*.py' -v (37 tests). Node scripts/check-call-centre.cjs checks the mocked Edge Function; scripts/check-admin.cjs checks links/permissions/scripts.
+Local: python -m unittest discover -s server -p 'test_*.py' -v (39 tests). Node scripts/check-call-centre.cjs checks the mocked Edge Function; scripts/check-admin.cjs checks links/permissions/scripts.
 
 Real isolated host: python3 /opt/far-call-test/code/check_call_test.py --settings /opt/far-call-test/settings.json. Only Local test channels are originated. Generated tone recordings are analysed and deleted. Passed: two-way screening, no screening leakage to programme, caller audio after selection, mute/hold separation, end cleanup, private filtering/separation, operator-loss cleanup. A restart of only the test controller while a caller was on air cleared stale calls/rooms and reconnected. Final state: zero active channels, rooms or queue entries; existing radio services active.
 

@@ -21,6 +21,7 @@ class DJTests(unittest.TestCase):
         self.assertTrue(result['djs'][0]['connected'])
         self.assertNotIn('password',json.dumps(result))
         self.assertEqual(result['port'],8085)
+        self.assertEqual(result['djs'][0]['stream_url'],'http://141.147.76.212:8000/dj-one')
 
     def test_no_false_success_on_missing_audio_confirmation(self):
         with patch.object(D,'connected',return_value=True),patch.object(D,'liquidsoap',return_value=['END']):
@@ -48,6 +49,8 @@ class DJTests(unittest.TestCase):
         self.assertIn('port=8085',script);self.assertIn('far-dj-feed',script)
         self.assertIn('if connected(id) == "true"',script)
         self.assertIn('settings.server.telnet.port := 1237',script)
+        self.assertIn('fallible=true',script)
+        self.assertIn('mount="/dj-one"',script)
 
 
 if __name__=='__main__':unittest.main()

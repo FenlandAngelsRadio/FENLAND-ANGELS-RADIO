@@ -8,6 +8,7 @@ import socket
 import subprocess
 import tempfile
 import time
+from urllib.request import urlopen
 from dj_gateway import render
 
 
@@ -35,11 +36,18 @@ def main():
     with tempfile.TemporaryDirectory(prefix='far-dj-test-') as directory:
         root=Path(directory);password=secrets.token_urlsafe(24)
         script=render({'isolated':{'username':'isolated','password':password,'mount':'/dj-isolated','enabled':True}},
-                      {'host':'127.0.0.1','port':18000,'user':'source','password':'test-only'})
-        script=script.split('output.icecast(')[0]+'output.dummy(programme)\n'
+                      {'host':'127.0.0.1','port':18000,'user':'source','password':password})
         script=script.replace('port := 1237','port := 1238').replace('port=8085','port=18085')
         script='settings.harbor.bind_addrs := ["127.0.0.1"]\n'+script
         gateway_file=root/'gateway.liq';gateway_file.write_text(script)
+        icecast_file=root/'icecast.xml'
+        icecast_file.write_text(f'''<icecast><location>Isolated FAR check</location><admin>test@example.invalid</admin>
+<limits><clients>10</clients><sources>5</sources><queue-size>524288</queue-size><source-timeout>10</source-timeout></limits>
+<authentication><source-password>{password}</source-password><relay-password>{password}</relay-password><admin-user>test</admin-user><admin-password>{password}</admin-password></authentication>
+<hostname>127.0.0.1</hostname><listen-socket><port>18000</port><bind-address>127.0.0.1</bind-address></listen-socket>
+<paths><basedir>{root}</basedir><logdir>{root}</logdir><webroot>/usr/share/icecast2/web</webroot><adminroot>/usr/share/icecast2/admin</adminroot></paths>
+<logging><accesslog>access.log</accesslog><errorlog>error.log</errorlog><loglevel>1</loglevel></logging>
+<security><chroot>0</chroot></security></icecast>''')
         encoder_file=root/'encoder.liq'
         encoder_file.write_text('output.icecast(%mp3(bitrate=320,samplerate=48000,stereo=true),host="127.0.0.1",port=18085,user="isolated",password='+json.dumps(password)+',mount="/dj-isolated",sine())\n')
         for path in [gateway_file,encoder_file]:
@@ -47,17 +55,25 @@ def main():
         children=[]
         with open(root/'log','wb') as log:
             try:
+                children.append(subprocess.Popen(['icecast2','-c',str(icecast_file)],stdout=log,stderr=log))
+                wait(lambda:urlopen('http://127.0.0.1:18000/status-json.xsl',timeout=2).close() is None)
                 children.append(subprocess.Popen(['liquidsoap',str(gateway_file)],stdout=log,stderr=log))
                 wait(lambda:'false' in control('far.connected isolated').splitlines())
                 assert 'ERROR: DJ is not connected' in control('far.select_dj isolated')
                 children.append(subprocess.Popen(['liquidsoap',str(encoder_file)],stdout=log,stderr=log))
                 wait(lambda:'true' in control('far.connected isolated').splitlines())
+                def audio_url(path):
+                    with urlopen('http://127.0.0.1:18000'+path,timeout=3) as response:
+                        return response.headers.get('Content-Type')=='audio/mpeg' and len(response.read(2048))==2048
+                wait(lambda:audio_url('/dj-isolated'))
                 assert 'OK' in control('far.select_dj isolated').splitlines()
+                wait(lambda:audio_url('/far-dj-feed'))
                 assert 'OK' in control('far.return_auto').splitlines()
+                assert audio_url('/dj-isolated'), 'Clearing selection interrupted the independent PlayIt Live URL'
                 children[-1].terminate();children[-1].wait(timeout=10)
                 wait(lambda:'false' in control('far.connected isolated').splitlines())
                 assert 'false' in control('far.connected unknown').splitlines()
-                print('Passed real isolated DJ connect, selection confirmation, automation return and disconnect. No public audio route used.')
+                print('Passed real isolated DJ connect, independent PlayIt Live MP3 URL, shared Cloud Live MP3 URL, selection, independent feed after clearing selection, and disconnect. No public audio route used.')
             finally:
                 for child in children:
                     if child.poll() is None:

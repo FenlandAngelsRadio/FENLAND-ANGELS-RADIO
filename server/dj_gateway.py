@@ -36,11 +36,17 @@ def render(djs, ice):
     if enabled:
         lines+=['programme = switch(track_sensitive=false, [']
         lines += [f'  ({{selected() == {q(ident)}}}, {var}),' for ident,var in enabled]
-        lines+=['  ({true}, blank())', '])']
-    else:lines+=['programme = blank()']
-    lines += ['output.icecast(%mp3(bitrate=320, samplerate=48000, stereo=true),',
+        lines+=['])']
+    else:lines+=['programme = switch(track_sensitive=false, [({false}, blank())])']
+    lines += ['output.icecast(%mp3(bitrate=320, samplerate=48000, stereo=true), fallible=true,',
               f'host={q(ice["host"])}, port={int(ice["port"])}, user={q(ice["user"])},',
               f'password={q(ice["password"])}, mount="/far-dj-feed", name="Fenland Angels Radio DJ Feed", programme)']
+    # Each DJ also has an independent MP3 URL for PlayIt Live. Selection affects
+    # only the shared Cloud Live output, never these dedicated feeds.
+    for ident,var in enabled:
+        lines += ['output.icecast(%mp3(bitrate=320, samplerate=48000, stereo=true), fallible=true,',
+                  f'host={q(ice["host"])}, port={int(ice["port"])}, user={q(ice["user"])},',
+                  f'password={q(ice["password"])}, mount={q(djs[ident]["mount"])}, name={q("FAR DJ input")}, {var})']
     return '\n'.join(lines)+'\n'
 
 

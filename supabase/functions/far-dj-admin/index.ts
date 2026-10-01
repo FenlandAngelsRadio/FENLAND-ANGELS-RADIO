@@ -28,7 +28,7 @@ Deno.serve(async(req:Request)=>{
   }
   if(action==="list"){
    const result=await live("/djs","GET");if(!Array.isArray(result.djs))throw new Error("DJ service returned an incomplete list.");
-   return reply({djs:result.djs.map((dj:any)=>({id:dj.id,display_name:dj.display_name,show_name:dj.show_name,stream_username:dj.stream_username,mount_name:dj.mount_name,enabled:dj.enabled,connection_allowed:dj.connection_allowed,connected:dj.connected,on_air:dj.on_air})),server:result.server,port:result.port});
+   return reply({djs:result.djs.map((dj:any)=>({id:dj.id,display_name:dj.display_name,show_name:dj.show_name,stream_username:dj.stream_username,mount_name:dj.mount_name,stream_url:dj.stream_url,enabled:dj.enabled,connection_allowed:dj.connection_allowed,connected:dj.connected,on_air:dj.on_air})),server:result.server,port:result.port,programme_url:result.programme_url});
   }
   if(action==="create"){
    const name=String(body.display_name||"").trim().slice(0,80);if(!name)return reply({error:"Enter the DJ name."},400);
