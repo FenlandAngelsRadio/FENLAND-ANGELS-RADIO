@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!audio) return;
     try {
       if (audio.paused) {
-        if (audio.error) audio.load();
+        // A live station must reconnect rather than resume audio held during a pause.
+        audio.load();
         status.textContent = 'Connecting to live stream…';
         await audio.play();
       } else {

@@ -9,6 +9,8 @@ play.addEventListener('click',async()=>{
   if(radio.paused){
     state.textContent='Connecting…';
     try{
+      // Discard the previous connection so Play returns to the live programme.
+      radio.load();
       await radio.play();
     }catch(e){
       state.textContent='Could not connect';
@@ -53,7 +55,7 @@ if('serviceWorker' in navigator){
   });
   window.addEventListener('load',async()=>{
     try{
-      const reg=await navigator.serviceWorker.register('./service-worker.js?v=11',{updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./service-worker.js?v=13',{updateViaCache:'none'});
       await reg.update();
       setInterval(()=>reg.update().catch(()=>{}),60000);
     }catch(e){}
