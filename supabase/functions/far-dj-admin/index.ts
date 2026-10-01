@@ -21,13 +21,19 @@ Deno.serve(async(req)=>{
    if(liveUrl&&liveToken){const r=await fetch(liveUrl+"/djs",{method:"POST",headers:{"Authorization":"Bearer "+liveToken,"Content-Type":"application/json"},body:JSON.stringify({...data,password})});if(!r.ok){await admin.from("far_djs").delete().eq("id",data.id);throw new Error("FAR Live server rejected DJ creation")}}
    return json({dj:data,password,server:"141.147.76.212",port:8000,format:"MP3",bitrate:320,samplerate:48000,warning:"Password is shown once. Give it to the DJ securely."});
   }
-  const id=String(b.id||"");if(!id)throw new Error("DJ id required");const {data:dj}=await admin.from("far_djs").select("*").eq("id",id).single();if(!dj)throw new Error("DJ not found");
+  // Returning to automation is station-wide and does not select a DJ.
+  const id=String(b.id||"");
+  if(action!=="return_automation"){
+   if(!id)throw new Error("DJ id required");
+   const {data:dj,error:djError}=await admin.from("far_djs").select("*").eq("id",id).single();
+   if(djError||!dj)throw new Error("DJ not found");
+  }
   const liveUrl=Deno.env.get("FAR_LIVE_ADMIN_URL"),liveToken=Deno.env.get("FAR_LIVE_ADMIN_TOKEN");
   async function live(path:string,method="POST",body?:any){if(!liveUrl||!liveToken)throw new Error("FAR Live server bridge is not configured");const r=await fetch(liveUrl+path,{method,headers:{"Authorization":"Bearer "+liveToken,"Content-Type":"application/json"},body:body?JSON.stringify(body):undefined});if(!r.ok)throw new Error("FAR Live server rejected the request");return await r.json().catch(()=>({ok:true}))}
   if(action==="lock"||action==="enable"){const enabled=action==="enable";await live("/djs/"+id+"/enabled","POST",{enabled});const {error}=await admin.from("far_djs").update({enabled,connection_allowed:enabled,updated_at:new Date().toISOString()}).eq("id",id);if(error)throw error;return json({ok:true})}
   if(action==="reset_password"){const password=secret();await live("/djs/"+id+"/password","POST",{password});return json({password,warning:"New password shown once."})}
   if(action==="take_live"){await live("/on-air","POST",{dj_id:id});await admin.from("far_djs").update({on_air:false});await admin.from("far_djs").update({on_air:true,updated_at:new Date().toISOString()}).eq("id",id);return json({ok:true})}
-  if(action==="return_automation"){await live("/on-air","DELETE");await admin.from("far_djs").update({on_air:false});return json({ok:true})}
+  if(action==="return_automation"){await live("/on-air","DELETE");const {error}=await admin.from("far_djs").update({on_air:false});if(error)throw error;return json({ok:true})}
   if(action==="delete"){await live("/djs/"+id,"DELETE");const {error}=await admin.from("far_djs").delete().eq("id",id);if(error)throw error;return json({ok:true})}
   throw new Error("Unsupported action");
  }catch(e){return json({error:e instanceof Error?e.message:"Request failed"},400)}
