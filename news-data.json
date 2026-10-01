@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-09-30T21:33:44.027520+00:00",
+  "updated_at": "2026-10-01T02:29:16.178053+00:00",
   "stories": [
+    {
+      "id": "fenland-news-c689e41e6719da49e65eb7ca",
+      "headline": "Red Arrows to fly over Cambridgeshire this week",
+      "brief": "Residents across Cambridgeshire are being advised that the Red Arrows are scheduled to fly over the county this week. The display team will be visible from various locations, though specific flight paths and timings have not been confirmed in this report. Those hoping to catch a glimpse of the aircraft are encouraged to keep an eye on the skies throughout the coming days. Further details regarding the exact route and viewing opportunities are expected to be available through local news sources as the week progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzlsX1k0b3VacGFMeEhTT3NET25sRy1mNTlrNGpNSGNXRWZTYjJZUklMU19LWkR6S3B0OWhjNVBBY2Q2NUVhR3VSVGd5VWNLQlNQNDBrR0w2M0xVMWFXZzg2Ym9xZElyWjV2MW1IODNESDVqVWtWUFRlQU83WV9tQ2lacWthN1hSUVpIbGxB?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-30T09:59:54+00:00",
+      "generated_at": "2026-10-01T02:28:52.409678+00:00",
+      "rss_date": "Thu, 01 Oct 2026 02:28:52 +0000"
+    },
+    {
+      "id": "fenland-news-bf276080c40a11c4c61b5ad5",
+      "headline": "Women's football team to face Peterborough United in League Cup",
+      "brief": "The women's football team is set to host Peterborough United in the opening round of the League Cup. The fixture was confirmed following the latest draw. Fans are now looking ahead to the upcoming match as the side prepares for this first-round encounter.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmFBUmxaLVhVMU5fTDNBaG41R19RY0pZUmNwTXlkTEdaQkhwU21tc2dvWllNeFZFcTlXOXJlVGtMa3kzN0lkSVA2U0tMcXcwaW5SNWlJNkUtc29pY3RMbVcwRVdOS1M4cUs4YnR5YlNrWTYyT0hwOUlVejBiYWJJMXMxd3RtZEU5Vzc0VXFmRGcxX3JoT0E?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-09-30T13:57:52+00:00",
+      "generated_at": "2026-10-01T02:28:51.344667+00:00",
+      "rss_date": "Thu, 01 Oct 2026 02:28:51 +0000"
+    },
+    {
+      "id": "fenland-news-4773c7e6b3dc037f5d4c6b56",
+      "headline": "Long-term lease secured for Ely Museum",
+      "brief": "Ely Museum has confirmed it will remain at the Old Gaol site for the next century. The institution has successfully secured a new lease agreement that runs until the year 2125. The museum, which is housed in the historic building, will continue to operate from the premises for the foreseeable future.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPR3RqZ0pkVG0yY3FMakExWTRZbFhpeHRfVFNOMC14NkdkbW52Ri1Dby1WTUxnT1BpakE5QmFOdmJhTFB1eElkNjdwakwtRFNkWXRHZG12XzNfZTRfQ0Fia1ZUV3R0cWdZYV95SWxlaHRGVnQxcU9TVGdBMUl0SFl6VTVDUWlaaHhveEFfdjRCY2dfN3M?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-09-30T13:30:00+00:00",
+      "generated_at": "2026-10-01T02:28:44.716353+00:00",
+      "rss_date": "Thu, 01 Oct 2026 02:28:44 +0000"
+    },
+    {
+      "id": "fenland-news-454d02cb86d9281460de11ef",
+      "headline": "Courts across West Norfolk deal with a series of recent criminal cases",
+      "brief": "Courts in King’s Lynn and Norwich have dealt with a variety of cases over the past week. Three animal rights activists were found guilty of stealing lambs from the King’s Sandringham estate in 2023. Meanwhile, a local man avoided jail after being convicted of stalking and making death threats.\n\nOther hearings included a North Lynn man charged with multiple building site burglaries, and several drink-driving offences across the region. Magistrates also sentenced a man for assaulting emergency workers, while a shoplifter was jailed for repeatedly targeting a King’s Lynn store. Legal proceedings continue for a woman accused of pushing a police officer during an incident in Fakenham.",
+      "original_url": "https://www.lynnnews.co.uk/news/stalker-who-made-death-threats-and-woman-who-pushed-police-o-9484684/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/OB30BFTNYFFEJ5RN3GT8.jpg",
+      "published": "2026-09-29T05:00:00+00:00",
+      "generated_at": "2026-10-01T02:28:42.826452+00:00",
+      "rss_date": "Thu, 01 Oct 2026 02:28:42 +0000"
+    },
     {
       "id": "fenland-news-7271a4966003d2b2c31f6621",
       "headline": "Vehicle fire reported in Cambridgeshire town centre",
@@ -1056,50 +1100,6 @@
       "published": "2026-09-24T18:37:43+00:00",
       "generated_at": "2026-09-26T20:11:04.750890+00:00",
       "rss_date": "Sat, 26 Sep 2026 20:11:04 +0000"
-    },
-    {
-      "id": "fenland-news-264c9779aa963068986a2037",
-      "headline": "Campaign group seeks to protect Cambridgeshire hospital services",
-      "brief": "A campaign group has pledged to ensure the voices of Cambridgeshire patients are heard regarding potential hospital service reductions. The group is responding to reports of possible cuts to local healthcare facilities. Further details on the specific hospitals affected or the nature of the proposed changes have not yet been confirmed. Residents are being encouraged to stay informed as the situation develops.",
-      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcjRDOUxsT1NGYUUxU01LTERSdk5CR2U3ZVJpY3ZNY0dzdlJvNnlVa280TzdDQURqWnRHY3pUcVpFQ3VHVGpNNXpwUzZISHJJdWl1emdQQVBidFBMV25kMnR1MmtObmkzM0JBRGF6eE9rMzNLa3ZfckUxem5iMk15Wl91VjZ2Tm1HaTNReGxOLTlORGhiZDZRWXFpdllXSS02RFRUWHJqODhickJPc2Y2dkFHeWhZSTFWQVRnOUdn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-24T04:20:30+00:00",
-      "generated_at": "2026-09-26T20:11:03.925479+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:11:03 +0000"
-    },
-    {
-      "id": "fenland-news-179677aa457ac6a27abf467a",
-      "headline": "Nominations open for 2027 King’s Lynn and West Norfolk Mayor’s Business Awards",
-      "brief": "Nominations are now open for the 38th annual Mayor’s Business Awards, which celebrate excellence across West Norfolk. Businesses are invited to put forward candidates for 11 categories, including the Apprentice and Trainee of the Year award, sponsored by Whitings Group. This specific category is open to individuals aged 35 or under who have demonstrated exceptional workplace contributions.\n\nThe awards ceremony will take place on Friday, March 5, 2027, at the Alive Corn Exchange in King’s Lynn. Organised by the Lynn News and Your Local Paper, the event highlights the achievements of the local business community. Interested parties have until 5pm on Friday, November 27, to submit their nominations. Further details are available through the event organisers.",
-      "original_url": "https://www.lynnnews.co.uk/news/do-you-know-an-apprentice-or-trainee-who-deserves-recognitio-9484095/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/M6UPRQAIDNPJAM01DWYJ.jpg",
-      "published": "2026-09-25T05:00:00+00:00",
-      "generated_at": "2026-09-26T20:11:02.532921+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:11:02 +0000"
-    },
-    {
-      "id": "fenland-news-a49a9c84601a28b3d1320443",
-      "headline": "Robbie Savage addresses Peterborough United manager speculation",
-      "brief": "Robbie Savage has commented on recent media reports suggesting he is a candidate for the vacant manager position at Peterborough United. The former footballer responded to claims linking him to the role at the club, following coverage published by the Peterborough Telegraph. No further details regarding the appointment process have been confirmed at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeDZiWGt1eEpIaDRJZGp5dFBoQkppaWdIeE5MZmQ2SHU4cmtacTE0akhTQ1pmRE9LRlZ4cDlzNng3SkdDeklwaXBKT0xaZXBKQldBaWJaRlFXRzVJTXRNallyWHRTOGFKZnMtandGX2JkY1lnVFBpR1ZERmVyeEZNYUZ3V1lHem5od3dxVk5QOERqSTNid0xZWkM1MnM2NFFkVWFFd3ZCc2JjNjlhcnFmWURzSUV5Nlk4WVJLLXlBcGVHRmFFZy1DS0h6aW1YYW1mamo0QmRzLV9MWlUxWDdiaEc5ZEtiUjU1ZnhNNjZ2cnFYcDg?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-26T16:15:00+00:00",
-      "generated_at": "2026-09-26T20:10:47.565131+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:10:47 +0000"
-    },
-    {
-      "id": "fenland-news-83e80d658069a6ebabc09946",
-      "headline": "Search continues for missing man with Cambridgeshire links",
-      "brief": "An urgent search is currently underway for a man who has reported links to the Cambridgeshire area. Authorities are continuing their efforts to locate him, though no further details regarding his identity or the circumstances of his disappearance have been released at this time. Residents are advised to keep an eye out for any official updates as the investigation proceeds.",
-      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNFh1TjZHMklfMDZaLWFBMGo4QmQxVHJmNVU3UVhlTFdpMXk0UjRrYnVfbnBnMzc1eEMwOHBpOUdtZXNUTURyRWRiVmpYNFVUYlNFOWVCYmctZmRuNW9wS3JNUGE3bWZSYmJjSktXQ0dwWGVFY3ZPSzQzNjNBTENTMmFaNzdrSmgwR1pxbEhqZjltSndVYTFOZ0ktNmc?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-26T09:30:00+00:00",
-      "generated_at": "2026-09-26T20:10:41.645973+00:00",
-      "rss_date": "Sat, 26 Sep 2026 20:10:41 +0000"
     }
   ]
 }
