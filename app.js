@@ -19,14 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!audio) return;
     try {
       if (audio.paused) {
+        if (audio.error) audio.load();
         status.textContent = 'Connecting to live stream…';
         await audio.play();
       } else {
         audio.pause();
       }
     } catch (err) {
-      status.textContent = 'Unable to start stream — tap again in a moment';
       setState(false);
+      status.textContent = 'Unable to start stream — tap Play to try again';
     }
   }
 
@@ -54,11 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     audio.addEventListener('ended', () => {
       if (window.FARAnalytics) window.FARAnalytics.stopListening('website');
+      setState(false);
+      if (status) status.textContent = 'Stream disconnected — tap Play to reconnect';
     });
     audio.addEventListener('error', () => {
       if (window.FARAnalytics) window.FARAnalytics.stopListening('website');
-      if (status) status.textContent = 'Stream unavailable right now';
       setState(false);
+      if (status) status.textContent = 'Stream unavailable — tap Play to reconnect';
     });
   }
 

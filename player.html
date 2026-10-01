@@ -66,6 +66,7 @@ audio.addEventListener('ended',()=>{if(window.FARAnalytics) window.FARAnalytics.
 play.addEventListener('click',async()=>{
   if(audio.paused){
     try{
+      if(audio.error) audio.load();
       await audio.play();
       play.textContent='❚❚';
       status.textContent='Playing live';
@@ -78,7 +79,7 @@ play.addEventListener('click',async()=>{
     status.textContent='Paused';
   }
 });
-audio.addEventListener('error',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website');status.textContent='Stream temporarily unavailable'});
+audio.addEventListener('error',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website');play.textContent='▶';status.textContent='Stream temporarily unavailable — tap Play to reconnect'});
 </script>
 </body>
 </html>
