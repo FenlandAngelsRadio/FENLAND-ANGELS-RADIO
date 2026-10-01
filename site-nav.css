@@ -127,6 +127,7 @@ body{
 }
 
 .far-nav>a,
+#farCmsNavMain>a,
 .far-dropbtn{
   margin:0;
   padding:10px 0;
@@ -148,6 +149,7 @@ body{
 }
 
 .far-nav>a:hover,
+#farCmsNavMain>a:hover,
 .far-dropbtn:hover{
   color:#ff3138;
 }
@@ -458,6 +460,7 @@ footer a:hover{
   }
 
   .far-nav>a,
+#farCmsNavMain>a,
   .far-dropbtn{
     font-size:12px;
   }
@@ -477,3 +480,6 @@ footer a:hover{
   }
 
 }
+
+#farCmsNavMain{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+@media(max-width:650px){#farCmsNavMain{gap:14px}}

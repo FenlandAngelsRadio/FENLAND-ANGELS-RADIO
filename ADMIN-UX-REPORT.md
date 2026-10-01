@@ -18,6 +18,10 @@ Built against the current GitHub main branch; proposed changes are separate from
 
 Browser checks used an isolated localhost preview with sample data, replacing service access. Verified Owner dashboard, restricted staff dashboard, draft creation/save, immediate section addition, existing page disabling, navigation link save, team module routing, unauthorized module access, shared commercial-text read-only state, account control visibility, and Inbox filter visibility. No production write tests were performed. Dashboard screenshot is available in the task workspace.
 
+## Follow-up review and safe preview
+
+Fixed main-menu link styling and added actionable save-failure messages for page and specialist visibility/deletion controls. Page list menu names now use the human-readable names. Checks also cover failed mutation feedback. A persistent localhost preview supports example roles and optional real sign-in/read access. Preview edits stay in per-account, per-tab local copies; network guards block live content, storage, function and credential writes. Real uploads and account actions are disabled. End-to-end browser checks confirmed draft creation, section content, publication, menu placement and public rendering across page visits. The local preview helper is outside the website source and is not deployed with the PR. Preview safety tests passed. Real sign-in awaits the user; no real-account write policies have been verified.
+
 ## Remaining gaps and constraints
 
 1. News is an existing automated feed. There is no staff story editor or editable news storage in this repository. The new News screen explains this clearly.
@@ -57,6 +61,7 @@ Browser checks used an isolated localhost preview with sample data, replacing se
 - `public-file.html`
 - `schedule.html`
 - `scripts/check-admin.cjs`
+- `site-nav.css`
 - `site-nav.js`
 - `submit-event.html`
 - `team.html`

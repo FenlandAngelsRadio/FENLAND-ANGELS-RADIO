@@ -45,3 +45,15 @@ for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.html'))){
 }
 for(const file of ['site-nav.js','far-navigation.js','admin-navigation.js'])new vm.Script(source(file),{filename:file});
 console.log('Passed: navigation safety/publication, dashboard permissions, unique modules, local links/assets, single navigation include, '+parsed+' inline scripts.');
+(async()=>{
+ for(const file of ['admin-pages.html','admin-website-manager.html']){
+  const body=source(file).match(/async function change\(query,message\)\{([\s\S]*?)return true\}/)[1];
+  const status={textContent:''};
+  const change=vm.runInNewContext('(async function(query,message){'+body+'return true})',{status});
+  assert.equal(await change(Promise.resolve({error:{message:'permission denied'}}),'Saved'),false);
+  assert.match(status.textContent,/could not be saved/);
+  assert.equal(await change(Promise.resolve({error:null}),'Visibility saved.'),true);
+  assert.equal(status.textContent,'Visibility saved.');
+ }
+ console.log('Passed: failed mutations show help; successful mutations report success.');
+})().catch(error=>{console.error(error);process.exitCode=1;});
