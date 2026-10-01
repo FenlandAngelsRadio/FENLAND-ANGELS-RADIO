@@ -64,6 +64,11 @@ Deno.serve(async (req) => {
     }
 
     let invited = false;
+    if (authUser) {
+      const { data: existingAccess, error: existingError } = await admin.from("far_admins").select("role").eq("user_id", authUser.id).maybeSingle();
+      if (existingError) throw existingError;
+      if (existingAccess?.role?.toLowerCase() === "owner") throw new Error("Owner access cannot be replaced by a staff invitation");
+    }
     if (!authUser) {
       const { data: invite, error: inviteError } = await admin.auth.admin.inviteUserByEmail(email, {
         data: { display_name: displayName },
