@@ -30,7 +30,7 @@
 <div class="split"><div><span>FAR Website</span><b id="liveWeb">0</b></div><div><span>FAR App</span><b id="liveApp">0</b></div><div><span>Unmatched stream connections</span><b id="liveOther">0</b></div><div><span>Total Stream Listeners</span><b id="liveIce">—</b></div></div>
 <p class="muted">Stream connections include your own listening. Website/app figures use recent player reports; unmatched connections are not a confirmed player type.</p>
 </div>
-<div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">—</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Includes a 300.62-hour imported launch-period baseline whose source has not been verified here, plus recorded stream estimates. Your own listening is included. The total is independent of the date buttons.</p></div>
+<div class="section"><h2>Listener-hours milestone</h2><div class="milestone-card"><div class="milestone-top"><div><div class="muted">Cumulative hours listened to FAR</div><div class="milestone-total"><span id="milestoneHours">—</span>h</div></div><div class="milestone-target">Next: <span id="milestoneNext">250</span>h</div></div><div class="milestone-bar"><div id="milestoneFill" class="milestone-fill"></div></div><div class="milestone-row"><span id="milestoneProgress">0% towards next milestone</span><span id="milestoneRemaining">—</span></div><div id="milestoneMarks" class="milestone-marks"></div></div><p class="muted">Includes 300.62 hours carried forward from the previous calculations to preserve listening history lost by StationHQ, plus subsequent recorded stream estimates. Your own listening is included. The total is independent of the date buttons.</p></div>
 <div class="tabs"><button data-range="today" class="active">Today</button><button data-range="7">7 Days</button><button data-range="30">30 Days</button><button data-range="all">Lifetime</button></div>
 <div class="metrics">
 <div class="metric"><span>Website/app listening devices</span><b id="uniqueDevices">0</b></div>
@@ -101,7 +101,7 @@
        const response=await fetch('https://hq3.yesstreaming.net:7085/status.xsl',{cache:'no-store',signal:AbortSignal.timeout(10000)});
        if(!response.ok)throw new Error('Stream count unavailable');
        const doc=new DOMParser().parseFromString(await response.text(),'text/html');
-       const match=doc.body.textContent.match(/Current Listeners:\\s*(\\d+)/i);
+       const match=doc.body.textContent.match(/Current Listeners:\s*(\d+)/i);
        if(match)totalIce=Number(match[1]);
      }catch{}
      const liveLatest=latestByListen(allRows.filter(r=>String(r.event_type).startsWith('listen_')));
