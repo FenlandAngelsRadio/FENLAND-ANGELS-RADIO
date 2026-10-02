@@ -55,7 +55,7 @@ if('serviceWorker' in navigator){
   });
   window.addEventListener('load',async()=>{
     try{
-      const reg=await navigator.serviceWorker.register('./service-worker.js?v=13',{updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./service-worker.js?v=14',{updateViaCache:'none'});
       await reg.update();
       setInterval(()=>reg.update().catch(()=>{}),60000);
     }catch(e){}
