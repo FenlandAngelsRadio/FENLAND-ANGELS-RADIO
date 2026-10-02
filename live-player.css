@@ -1,0 +1,13 @@
+/* Shared FAR player presentation: readable station artwork and simple controls. */
+.far-live-player,.player{background:#101217;color:#fff}
+.far-player-logo,.player>.logo{width:160px;height:160px;border-radius:18px;object-fit:contain;border:1px solid #343841;background:#080a0e;box-shadow:0 12px 32px #0005}
+.player>.player-artwork{display:block;width:160px;height:160px;margin:20px auto;border-radius:18px;object-fit:contain;background:#080a0e;border:1px solid #343841}
+.far-big-play,.player>.play{width:80px;height:80px;border:0;padding:0;display:inline-grid;place-items:center;background:#e51e2b;box-shadow:0 8px 24px #e51e2b30;color:#fff;font-size:30px;cursor:pointer;transition:background .15s,transform .15s}
+.far-big-play:hover,.player>.play:hover{background:#f32b38;transform:translateY(-1px)}
+.far-big-play:focus-visible,.player>.play:focus-visible,input[type=range]:focus-visible{outline:3px solid #f3ce6f;outline-offset:5px}
+.far-player-status,.player>.status,.player>.state{line-height:1.5}
+.far-player-quality,.player>.small{color:#b8bcc5}
+.player input[type=range],.far-player-volume{min-height:32px;cursor:pointer}
+.player .now{border-color:#343841;background:#171b22}
+@media(max-width:600px){.far-live-player h2{font-size:25px}.far-player-logo,.player>.logo,.player>.player-artwork{width:140px;height:140px}.player{padding:22px}.far-player-status{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.far-big-play,.player>.play{transition:none}}

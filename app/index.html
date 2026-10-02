@@ -11,6 +11,7 @@
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="stylesheet" href="./style.css?v=11">
+<link rel="stylesheet" href="../live-player.css?v=1">
 </head>
 <body>
 <main class="app">
@@ -24,19 +25,20 @@
 
   <section class="player">
     <div class="status"><i></i> ON AIR</div>
-    <h1>Listen Live</h1>
+    <img class="player-artwork" src="./fenland-angels-radio-logo.jpg" alt="">
+    <h1>Fenland Angels Radio</h1>
     <p>Independent Music Radio Community</p>
 
     <button id="play" class="play" type="button" aria-label="Play live radio">▶</button>
 
     <div class="state">
-      <span id="state">Tap play to listen live</span>
+      <span id="state" role="status" aria-live="polite">Tap play to listen live</span>
       <b>320 kbps</b>
     </div>
 
     <div class="volume">
       <span>🔊</span>
-      <input id="volume" type="range" min="0" max="1" step="0.01" value="0.8">
+      <input id="volume" aria-label="Volume" type="range" min="0" max="1" step="0.01" value="0.8">
     </div>
 
     <div class="listener-hours">HOURS LISTENED TO FAR <strong id="farLifetimeHours">300.6</strong></div>
@@ -48,7 +50,7 @@
     </div>
   </section>
 
-  <a class="website" href="https://fenlandangelsradio.github.io/FENLAND-ANGELS-RADIO/" target="_blank" rel="noopener">Visit full website</a>
+  <a class="website" href="https://fenlandangelsradio.co.uk/" target="_blank" rel="noopener">Visit full website</a>
   <button id="installApp" class="website" type="button">📱 Install App</button>
 <p id="installHint" class="hint">Install Fenland Angels Radio on your device.</p>
 
@@ -62,6 +64,6 @@
 <script>
 (function(){async function updateFarLifetime(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const r=await fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{cache:"no-store",headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY}});if(!r.ok)return;const j=await r.json();const el=document.getElementById("farLifetimeHours");if(el&&Number.isFinite(Number(j.lifetime_hours)))el.textContent=Number(j.lifetime_hours).toLocaleString("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarLifetime();setInterval(updateFarLifetime,30000)})();
 </script>
-<script src="./app.js?v=13"></script>
+<script src="./app.js?v=14"></script>
 </body>
 </html>
