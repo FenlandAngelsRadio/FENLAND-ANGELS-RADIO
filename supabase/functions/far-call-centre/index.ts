@@ -29,7 +29,9 @@ Deno.serve(async (req: Request) => {
       return reply({ error: "Your account does not have Cloud Live access." }, 403);
     }
     const body = await req.json();
-    if (!["list", "act"].includes(body.action)) return reply({ error: "Choose a valid call control." }, 400);
+    const phoneActions = ['phone_settings','phone_save','phone_upload_start','phone_upload_chunk','phone_upload_finish'];
+    if (!["list", "act", ...phoneActions].includes(body.action)) return reply({ error: "Choose a valid call control." }, 400);
+    if (phoneActions.includes(body.action) && !['owner','deputy_manager'].includes(role)) return reply({error:'Station management access is required.'},403);
     if (body.action === "act" && (typeof body.id !== "string" || !Number.isInteger(body.version)
         || !["screen", "ready", "hold", "put_on_air", "mute", "end", "answer_private", "voicemail"].includes(body.operation))) {
       return reply({ error: "Refresh the queue and choose a call." }, 400);
@@ -37,7 +39,9 @@ Deno.serve(async (req: Request) => {
     const bridge = Deno.env.get("FAR_CALL_CENTRE_URL"), token = Deno.env.get("FAR_CALL_STAFF_TOKEN");
     if ((!bridge || !token) && !sshConfigured()) return reply({ error: "The phone service is not connected yet." }, 503);
     const payload = { action: body.action, id: body.id, operation: body.operation,
-      version: body.version, actor: { id: user.id, role, permissions } };
+      version: body.version, options:body.options,slot:body.slot,size:body.size,
+      upload:body.upload,offset:body.offset,data:body.data,
+      actor: { id: user.id, role, permissions } };
     let result, status;
     if (sshConfigured()) {
       const response = await serverBridge('calls', 'POST', '/queue', payload);

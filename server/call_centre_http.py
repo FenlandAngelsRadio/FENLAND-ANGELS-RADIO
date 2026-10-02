@@ -10,7 +10,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from call_centre import CallQueue, QueueError
 
 
-def handler(queue, staff_token, provider_token):
+def handler(queue, staff_token, provider_token, phone_management=None):
     if min(len(staff_token), len(provider_token)) < 32 or staff_token == provider_token:
         raise ValueError("Two different tokens of at least 32 characters are required.")
 
@@ -58,6 +58,12 @@ def handler(queue, staff_token, provider_token):
                 actor = body.get("actor", {})
                 if not isinstance(actor, dict) or not queue.authorised(actor):
                     return self.out(403, {"error": "Cloud Live access is required."})
+                if isinstance(action, str) and action.startswith('phone_'):
+                    if actor.get('role') not in {'owner', 'deputy_manager'}:
+                        return self.out(403, {'error': 'Station management access is required.'})
+                    if phone_management is None:
+                        return self.out(503, {'error': 'Phone menu management is not connected yet.'})
+                    return self.out(200, phone_management.handle(body, actor))
                 if action == "list":
                     return self.out(200, queue.snapshot(actor))
                 if action == "act":

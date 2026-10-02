@@ -30,7 +30,7 @@ def validate(request):
         if not allowed:
             raise ValueError('Invalid DJ route.')
     elif service == 'calls':
-        if method != 'POST' or path != '/queue' or not isinstance(body, dict) or body.get('action') not in {'list', 'act'}:
+        if method != 'POST' or path != '/queue' or not isinstance(body, dict) or body.get('action') not in {'list', 'act', 'phone_settings', 'phone_save', 'phone_upload_start', 'phone_upload_chunk', 'phone_upload_finish'}:
             raise ValueError('Invalid call route.')
     else:
         raise ValueError('Invalid service.')

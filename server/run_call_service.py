@@ -9,6 +9,7 @@ from asterisk_audio import ARI, AsteriskAudio
 from asterisk_events import CallEvents
 from call_centre import CallQueue
 from call_centre_http import handler
+from phone_management import PhoneManagement
 
 
 def main():
@@ -24,7 +25,8 @@ def main():
     events = CallEvents(queue, audio, settings.get('operators', {}), settings.get('test_mode', False),
                         studio_endpoint=settings.get('studio_endpoint'))
     server = ThreadingHTTPServer(('127.0.0.1', 8768), handler(
-        queue, settings['staff_token'], settings['provider_token']))
+        queue, settings['staff_token'], settings['provider_token'],
+        PhoneManagement(settings['phone_runtime']) if settings.get('phone_runtime') else None))
     server.daemon_threads = True
     thread = threading.Thread(target=events.run, daemon=True)
     thread.start()
