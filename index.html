@@ -241,6 +241,7 @@
 @media(max-width:600px){.home-main{padding:30px 16px 60px}.home-hero-wrap{width:100%;min-width:0}.far-now-playing{grid-template-columns:minmax(0,1fr)}.far-current-show,.far-live-player{padding:28px 22px;min-width:0;overflow-wrap:anywhere}.far-live-player{order:-1}.far-current-show{border-top:1px solid #2b2e35;border-bottom:0}.far-show-image-wrap img{max-height:170px}.far-player-logo{width:170px;height:170px}.home-panel{padding:22px}.panel-heading{align-items:flex-start;flex-direction:column}}
 </style>
 
+<link rel="stylesheet" href="live-player.css?v=1">
 </head>
 
 
@@ -327,7 +328,7 @@
 
       <div
         class="far-player-status"
-        id="playerStatus"
+        id="playerStatus" role="status" aria-live="polite"
       >
         Tap play to listen live
       </div>
