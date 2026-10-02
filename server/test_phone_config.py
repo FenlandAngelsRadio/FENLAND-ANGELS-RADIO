@@ -32,5 +32,18 @@ class PhoneConfigTests(unittest.TestCase):
         self.assertNotIn('bmgl1@a', config['pjsip.conf'])
         self.assertIn('Press three for private station business', config['PROMPTS.json'])
 
+    def test_cloud_nat_and_provider_identity_survive_regeneration(self):
+        settings = self.settings()
+        settings.update(public_address='141.147.76.212',
+                        local_networks=['10.0.0.0/24', '10.77.0.0/24'],
+                        provider_networks=['81.187.30.110/31', '90.155.3.0/24'])
+        config = build(settings)
+        provider = config['pjsip.conf'].split('[provider-udp]')[1].split('[aa-auth]')[0]
+        self.assertIn('external_media_address=141.147.76.212', provider)
+        self.assertIn('local_net=10.77.0.0/24', provider)
+        self.assertIn('match=81.187.30.110/31,90.155.3.0/24', config['pjsip.conf'])
+        self.assertIn('noload=app_voicemail_imap.so', config['modules.conf'])
+        self.assertIn('noload=app_voicemail_odbc.so', config['modules.conf'])
+
 
 if __name__ == '__main__':unittest.main()

@@ -128,6 +128,7 @@
       if(!management()&&!me.permissions.includes('cloud_live'))throw new Error('Your account does not have Cloud Live access.');
     }
     el('callApp').hidden=false;await refresh();
+    if(!demo && management() && window.FARPhoneMenu)window.FARPhoneMenu.init(me,db);
     if(!demo)setInterval(()=>refresh(true),5000);
   }catch(error){status(error.message,true);}
 })();

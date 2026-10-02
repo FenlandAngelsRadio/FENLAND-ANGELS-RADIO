@@ -52,6 +52,20 @@ def build(settings):
                   'disallow=all', 'allow=alaw', 'dtmf_mode=rfc4733',
                   'direct_media=no', 'rtp_symmetric=yes', 'force_rport=yes',
                   '[aa-identify]', 'type=identify', 'endpoint=aa', 'match=voiceless.aa.net.uk']
+    # Cloud hosts sit behind NAT. Preserve the public address and trusted
+    # provider networks when regenerating a working deployment.
+    if settings.get('public_address'):
+        public = str(ipaddress.IPv4Address(settings['public_address']))
+        networks = settings.get('local_networks', [])
+        if not networks:
+            raise ValueError('Public address requires local networks.')
+        nat = [f'local_net={ipaddress.IPv4Network(net, strict=True)}' for net in networks]
+        nat += [f'external_signaling_address={public}', f'external_media_address={public}']
+        pos = peer_lines.index('[aa-auth]')
+        peer_lines[pos:pos] = nat
+    if settings.get('provider_networks'):
+        matches = [str(ipaddress.IPv4Network(net, strict=True)) for net in settings['provider_networks']]
+        peer_lines[-1] = 'match=' + ','.join(matches)
     for endpoint in ['owner', 'nick', 'studio']:
         password = field(settings, endpoint + '_password', r'[A-Za-z0-9_-]{24,128}')
         peer_lines += [f'[{endpoint}-auth]', 'type=auth', 'auth_type=userpass',
@@ -113,7 +127,7 @@ exten => _X.,1,Hangup(21)
             'ari.conf':f'[general]\nenabled=yes\n[far-controller]\ntype=user\nread_only=no\npassword={ari_password}\n',
             'manager.conf':'[general]\nenabled=no\n',
             'logger.conf':'[general]\n[logfiles]\nconsole=error\n',
-            'modules.conf':'[modules]\nautoload=yes\n'+''.join(f'noload={name}.so\n' for name in ['chan_iax2','chan_skinny','chan_mgcp','chan_ooh323','chan_dahdi','res_snmp','res_hep','res_hep_rtcp','res_hep_pjsip']),
+            'modules.conf':'[modules]\nautoload=yes\n'+''.join(f'noload={name}.so\n' for name in ['chan_iax2','chan_skinny','chan_mgcp','chan_ooh323','chan_dahdi','res_snmp','res_hep','res_hep_rtcp','res_hep_pjsip','app_voicemail_imap','app_voicemail_odbc']),
             'voicemail.conf': '[general]\nformat=wav\nattach=no\ndelete=no\nmaxsecs=120\nmaxmsg=50\n'
             f'[far-private]\n300 => {voicemail_pin},FAR private business,{email}\n',
             'rtp.conf': '[general]\nrtpstart=12000\nrtpend=12100\n',

@@ -7,7 +7,15 @@
 <p><a class="back" href="admin-dashboard.html">← Return to Admin Dashboard</a></p>
 <div id="callStatus" class="call-notice" role="status" aria-live="polite">Checking your access…</div>
 <section id="callApp" hidden>
-<div class="call-notice"><strong>Station number: 01945 383909</strong><p>Ordered — awaiting A&amp;A activation and connection. This screen does not prove the number is ready to receive calls.</p><p id="connectionHelp">Checking your audio connection…</p><button id="enableAlerts" type="button">Enable call alerts while this screen is open</button><p class="muted">On Android, use your browser menu to add FAR Cloud Live to your home screen for quick access. These alerts need this screen to stay open. Android ringing with the screen locked needs a separately configured calling app and a real phone test.</p></div>
+<section class="call-panel"><h2>Browser interviews</h2><p>For longer interviews, use VDO.Ninja over the internet instead of asking your guest to telephone. Its hosted service is free; normal internet or mobile data charges may apply.</p><a class="back" href="https://vdo.ninja/" target="_blank" rel="noopener noreferrer">Open free interview studio</a><p class="muted">Choose Create a Room, then copy the guest invitation from the studio. Ask your guest to use headphones and join with audio only. Joining does not put them on air. The interview audio must be connected to your broadcast mix and checked first; this browser studio is separate from the telephone queue.</p></section>
+<div class="call-notice"><strong>Station number: 01945 383909</strong><p>Incoming calls reach the phone menu. Your staff calling app and studio audio connection must be ready before you can answer or put a caller on air.</p><p id="connectionHelp">Checking your audio connection…</p><button id="enableAlerts" type="button">Enable call alerts while this screen is open</button><p class="muted">On Android, use your browser menu to add FAR Cloud Live to your home screen for quick access. These alerts need this screen to stay open. Android ringing with the screen locked needs a separately configured calling app and a real phone test.</p></div>
+<details id="phoneMenuManager" class="call-panel" hidden><summary>Phone menu &amp; greetings</summary>
+<p>Choose what happens when a caller presses a number, and upload your own voice recordings. Only Owner and Deputy Manager can change these settings.</p>
+<p id="phoneMenuStatus" role="status" aria-live="polite">Loading phone settings…</p>
+<div id="phoneOptionRows"></div><button id="phoneAddOption" type="button">Add phone option</button> <button id="phoneSaveOptions" class="primary" type="button">Save phone menu</button>
+<p class="muted">Zero always repeats the welcome message. New options can lead to the games queue, live show queue or private business phones. Private calls cannot go on air. Record a new welcome message whenever you change the choices so callers hear the correct numbers.</p>
+<h3>Voice recordings</h3><p>Choose WAV, MP3 or M4A, up to 8 MB and three minutes. Listen to the preview before replacing a recording. Changes are applied only when no call is in progress.</p><div id="phoneRecordingRows"></div>
+</details>
 <div class="call-top"><p class="muted">Connecting a caller does not put them on air. Use headphones while screening.</p><button id="refreshCalls" type="button">Refresh calls</button></div>
 <div id="exampleTools" class="call-notice" hidden><strong>Example calls only</strong><p>Try the controls here. No phone, guest microphone or live broadcast is connected.</p><button id="resetExamples" type="button">Reset example calls</button></div>
 <div id="callConfirm" class="call-notice" hidden><p id="confirmText"></p><button id="confirmAction" class="primary" type="button">Confirm</button> <button id="cancelAction" type="button">Cancel</button></div>
@@ -25,5 +33,5 @@
 <dt>End call</dt><dd>Disconnect the caller. They must call again to return.</dd>
 </dl></details>
 </section></main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-call-centre.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-phone-menu.js"></script><script src="far-call-centre.js"></script>
 </body></html>
