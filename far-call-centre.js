@@ -1,13 +1,20 @@
 /* Phone/audio adapters are required; localhost examples never contact them. */
 (async function () {
   const el = id => document.getElementById(id);
+  if(new URLSearchParams(location.search).get('workspace')==='1'){
+    document.body.classList.add('workspace-mode');
+    const columns=document.querySelector('.call-columns');
+    el('callApp').insertBefore(columns,el('callApp').children[1]);
+    const help=document.createElement('a');help.href='far-call-centre.html';help.target='_blank';help.rel='noopener noreferrer';help.className='back';help.textContent='Full call help & phone settings';
+    el('callApp').append(help);
+  }
   const status = (message, error = false) => {
     el('callStatus').textContent = message;
     el('callStatus').classList.toggle('error', error);
   };
   const demo = ['localhost','127.0.0.1'].includes(location.hostname)
     && new URLSearchParams(location.search).get('preview') === 'example';
-  let db, me, snapshot, busy = false, pending;
+  let db, me, snapshot, busy = false, pending, mixerEditing=false;
   let alertsEnabled=false, seenCalls=new Set(), alertsInitialised=false;
   const management = () => ['owner','deputy_manager'].includes(me?.role);
   const names = {waiting:'Waiting',screening:'Being screened',ready:'Ready — off air',held:'On hold',on_air:'On air',muted:'Muted',private_answered:'Answered privately'};
@@ -15,7 +22,7 @@
   const labels = {screen:'Screen privately',ready:'Screened — ready',put_on_air:'Put on air',hold:'Hold',mute:'Mute caller now',end:'End call',answer_private:'Answer privately',voicemail:'Send to voicemail'};
   const descriptions = {ready:'Have you checked their name, topic and suitability, and explained the on-air rules? They will remain off air.',put_on_air:'Listeners will hear this caller. Put them on air now?',end:'Disconnect this caller? They will need to call again to return.',voicemail:'Send this business caller to private voicemail?'};
   function resetExamples() {
-    snapshot = {version:1,audio_ready:true,capabilities:{voicemail:true,operator_connected:true,programme_connected:true},private_access:management(),calls:[
+    snapshot = {version:1,audio_ready:true,capabilities:{caller_level:true,voicemail:true,operator_connected:true,programme_connected:true},private_access:management(),calls:[
       {id:'game',name:'Example game caller',category:'games',source:'phone',state:'waiting'},
       {id:'guest',name:'Example interview caller',category:'show',source:'phone',state:'waiting'},
       ...(management()?[{id:'private',name:'Example business caller',category:'business',source:'phone',state:'waiting'}]:[])
@@ -63,7 +70,20 @@
           if(action==='voicemail'&&!snapshot.capabilities?.voicemail)button.title='Private voicemail is not connected yet.';
           button.onclick=()=>requestAction(call,action);buttons.append(button);
         }
-        card.append(heading,source,buttons);target.append(card);
+        card.append(heading,source,buttons);
+        if(category!=='business'&&call.claimed_by===me.id&&['screening','ready','on_air','muted'].includes(call.state)){
+          const mixer=document.createElement('div');mixer.className='caller-mixer';
+          const label=document.createElement('label');label.htmlFor='level-'+call.id;label.textContent='Caller level';
+          const slider=document.createElement('input');slider.type='range';slider.id=label.htmlFor;slider.min='-3';slider.max='3';slider.step='1';slider.value=String(call.level||0);
+          const value=document.createElement('output');const describe=n=>n===0?'Normal':n<0?'Quieter '+Math.abs(n):'Louder '+n;value.textContent=describe(Number(slider.value));
+          slider.oninput=()=>{value.textContent=describe(Number(slider.value));};
+          slider.onfocus=()=>{mixerEditing=true;};slider.onblur=()=>{mixerEditing=false;};
+          const apply=document.createElement('button');apply.type='button';apply.textContent='Apply caller level';apply.disabled=slider.disabled=busy||!snapshot.audio_ready||!capabilities.caller_level;
+          apply.onclick=()=>changeCallerLevel(call.id,Number(slider.value),snapshot.version);
+          const help=document.createElement('p');help.className='muted';help.textContent='Changes this caller’s audio in the phone service. Mic and headphone levels stay in Remote Studio. Listen at a comfortable level before increasing it.';
+          mixer.append(label,slider,value,apply,help);card.append(mixer);
+        }
+        target.append(card);
       }
     }
     el('refreshCalls').disabled=busy;
@@ -112,8 +132,16 @@
     }catch(error){status(error.message||'The action could not be confirmed. Refresh before trying again.',true);if(!demo)snapshot.audio_ready=false;}
     finally{busy=false;render();}
   }
+  async function changeCallerLevel(id,level,version){
+    if(busy)return;busy=true;render();
+    try{
+      if(demo){snapshot.calls.find(c=>c.id===id).level=level;snapshot.version++;status('Example caller level changed. No live audio.');}
+      else{snapshot=await api('caller_level',{id,level,version});status('Caller level confirmed by the phone service.');}
+    }catch(error){status(error.message||'Caller level could not be confirmed. Refresh before trying again.',true);}
+    finally{busy=false;render();}
+  }
   async function refresh(background=false){
-    if(busy||background&&(pending||!snapshot?.audio_ready))return;busy=true;
+    if(busy||background&&(pending||mixerEditing||!snapshot?.audio_ready))return;busy=true;
     if(snapshot&&!demo&&!background){snapshot.audio_ready=false;render();}
     try{
       if(!demo)snapshot=await api('list');
