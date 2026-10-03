@@ -5,14 +5,15 @@
 <meta name="referrer" content="no-referrer"></head>
 <body>
 <header><div><span class="brand">FAR CLOUD LIVE</span><h1>Presenter workspace</h1></div><a href="far-live-gateway.html">Back to Cloud Live</a></header>
-<p id="accessStatus" role="status">Checking your staff access…</p>
+<p id="accessStatus" class="access-status" role="status">Checking your staff access…</p>
 <main id="workspace" hidden>
-<div class="workspace-tools"><label for="studioLocation">Presenting from</label><select id="studioLocation"><option value="remote">Another computer — Nath, Nick or a DJ</option><option value="station">The station PC</option></select><button id="connectStudio" type="button">Open studio here</button><a id="openStudio" target="_blank" rel="noopener noreferrer">Open studio in its own window</a><button id="focusCalls" type="button">Call controls only</button></div>
-<p class="help">Mic level, mic mute and headphone listening level are in Remote Studio’s Live Audio panel. Caller level and screening are beside it. Keep the public radio player closed while handling a call.</p>
+<details id="setupBanner"><summary>Studio setup &amp; help</summary><div class="workspace-tools"><label for="studioLocation">Presenting from</label><select id="studioLocation"><option value="remote">Another computer — Nath, Nick or a DJ</option><option value="station">The station PC</option></select><button id="connectStudio" type="button">Open studio here</button><a id="openStudio" target="_blank" rel="noopener noreferrer">Open studio in its own window</a><button id="focusCalls" type="button">Call controls only</button></div>
+<p class="help">Mic level, mic mute and headphone listening level are in Remote Studio’s Live Audio panel. Caller level and screening are beside it. Keep the public radio player closed while handling a call.</p></details>
 <div id="studioLayout" class="studio-layout">
-<section class="studio-panel"><h2>PlayIt Remote Studio</h2><p id="studioHelp">Choose where you are presenting from, then open the studio. Sign in with your PlayIt presenter account. Start Live Audio only when you are ready.</p><iframe id="studioFrame" title="PlayIt Live Remote Studio" allow="microphone; autoplay" referrerpolicy="no-referrer" hidden></iframe><p class="help">If sign-in or microphone access is blocked inside this panel, use “Open studio in its own window” and place it beside the call controls on this screen. This workspace cannot confirm PlayIt’s microphone connection.</p></section>
-<section class="calls-panel"><h2>Calls &amp; caller mixer</h2><iframe id="callsFrame" title="FAR call queue and caller level controls" src="far-call-centre.html?workspace=1" allow="autoplay" referrerpolicy="same-origin"></iframe></section>
+<section class="studio-panel"><div class="panel-heading"><h2>PlayIt Remote Studio</h2><button id="detachStudio" type="button" aria-label="Open studio in a separate window">Separate window</button></div><p id="studioHelp">Choose where you are presenting from, then open the studio. Sign in with your PlayIt presenter account. Start Live Audio only when you are ready.</p><iframe id="studioFrame" title="PlayIt Live Remote Studio" allow="microphone; autoplay" referrerpolicy="no-referrer" hidden></iframe></section>
+<section class="calls-panel"><div class="panel-heading"><h2>Calls &amp; caller mixer</h2><button id="detachCalls" type="button" aria-label="Open call controls in a separate window">Separate window</button></div><iframe id="callsFrame" title="FAR call queue and caller level controls" src="far-call-centre.html?workspace=1" allow="autoplay" referrerpolicy="same-origin"></iframe></section>
 </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-studio.js"></script>
 </body></html>
+
