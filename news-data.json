@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-02T21:27:19.529560+00:00",
+  "updated_at": "2026-10-03T02:21:52.103225+00:00",
   "stories": [
+    {
+      "id": "fenland-news-1a7d51999e3d97992e9653e0",
+      "headline": "Investigation launched following alleged assault at Cambridgeshire school",
+      "brief": "An investigation is underway following reports that a boy was assaulted at a school in Cambridgeshire. Authorities are currently looking into the incident, which was reported by the Ely Standard. No further details regarding the location of the school or the condition of the student have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdE13YUQ0M0ZHczhQWl8wNUlkdFpSWXF1OGdadDc1SGR3ZVJ0cnoyUFdDRzBvNDgteWxNaHZJaG9CTDdINl9IbWF6MjZ5NFZSUGNhNzRzUm9JcFo5cS1wTmNsdEVmODNrM3dfZnRGNVpyMjlHNU9ISmFiZ3V4cnFaUXhBcnZEY1I3OWFYYkNsV0hYaTBMQWpfRkR1VQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-24T08:58:00+00:00",
+      "generated_at": "2026-10-03T02:21:42.819417+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:42 +0000"
+    },
+    {
+      "id": "fenland-news-9050e93347bb3d414358d988",
+      "headline": "Appeal for volunteers and donations to support Feed Fenland",
+      "brief": "The Wisbech-based charity Feed Fenland is calling for community support to maintain its meal service for vulnerable residents. The organisation provides hot evening meals six nights a week at The Olive Academy on Coalwharf Road, often serving up to 200 portions per night. \n\nOperating without government or large-scale charity funding, the service relies entirely on donations and volunteers to cover costs, which average £80 per night. The charity is currently seeking more people to assist with cooking, serving, and general operations. Those interested in volunteering or providing financial support can contact the team via email at correspondence@feedfenland.com.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/vital-service-looking-for-more-volunteers-and-donations-to-c-9485253/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/UHKUQN60DVK0WW3C0V0S.jpg",
+      "published": "2026-10-02T05:00:00+00:00",
+      "generated_at": "2026-10-03T02:21:42.043913+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:42 +0000"
+    },
+    {
+      "id": "fenland-news-e40bb345e1d13f099a40688c",
+      "headline": "King’s Lynn Dragon Festival returns next month",
+      "brief": "The King’s Lynn Dragon Festival is set to return on Saturday, November 7, offering a variety of free family activities across the town. Cultural and heritage venues will host performances, trails, and medieval-themed entertainment between 10am and 3pm. \n\nEvents include a dragon hunt, archery, and live shows at the Minster, alongside craft sessions at the local library. Several venues are participating, including the Lynn Museum, St George’s Guildhall, and True’s Yard. Free cinema screenings are also available at the Majestic and Corn Exchange, though tickets for these must be booked in advance. Residents are encouraged to check with individual venues, as some activities have limited capacity.",
+      "original_url": "https://www.lynnnews.co.uk/news/dragons-are-set-to-take-over-town-9485102/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/FXHZC0IUK5DQB66H6FMZ.jpg",
+      "published": "2026-10-01T10:02:20+00:00",
+      "generated_at": "2026-10-03T02:21:40.390399+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:40 +0000"
+    },
+    {
+      "id": "fenland-news-d081463f75afb7108b44de22",
+      "headline": "Robbie Savage named as new Peterborough United manager",
+      "brief": "Peterborough United have confirmed the appointment of Robbie Savage as their new manager. The news was reported earlier today by Sky Sports. No further details regarding the terms of the appointment or the club's upcoming fixtures have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSi1CMEwwaDNWRUFKRlJTclZWSFZSNXpPM2FMckhIOEV1Z25lbWVucVNpdFN0aHRhbDJocXVoTGdfLWViYjJGdzU5dVJEZmVJSHV5Rm13STg0Z1F1a181YkVXTFEwSDJ3ZDhqZVgzSnFXY0Y0RHZLaHFxMmEwYTVsdmcwUGpnSUltRnV2QkdDTktacTlPTGpPM1Q0TFpZT3pVcXZ3c0lOdGM?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-02T12:27:21+00:00",
+      "generated_at": "2026-10-03T02:21:38.592504+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:38 +0000"
+    },
+    {
+      "id": "fenland-news-080fb1aa972e7b0c2fce4f10",
+      "headline": "Campaign launched against East Cambridgeshire wind farm plans",
+      "brief": "A new campaign has been established to oppose proposals for two wind farms in East Cambridgeshire. The development plans are currently facing resistance due to their proposed location on Grade 1 agricultural land. No further details regarding the specific sites or the groups involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMV8zZ1lMYndNWkNrV2xNaWhpZ0QxdHl5TWlhYVBCZVdfTzFyRjV1MWhzWlJvaE9LZmgzV3JmOWdHS2Z1a3VocXlONFJOQ3VVTXdnQlozSVZ1WW5TNk5uQ3AyM0ZYTzBlMWtHWnZPUkJTQU1KYXNoSzdqNGNnMTMtYUQxcEhXc3RlR2NoQ25VeUExaHZQSHc?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-01T14:14:00+00:00",
+      "generated_at": "2026-10-03T02:21:37.524197+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:37 +0000"
+    },
+    {
+      "id": "fenland-news-0afa63ab473a4bf7b1d3ca54",
+      "headline": "Campaign launched against East Cambridgeshire wind farm plans",
+      "brief": "A new campaign has been launched to oppose the development of two proposed wind farms in East Cambridgeshire. The project has drawn criticism due to its planned location on Grade 1 agricultural land. Further details regarding the specific sites or the groups involved in the opposition have not yet been released. Residents are advised to monitor local planning updates as the situation develops.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMV8zZ1lMYndNWkNrV2xNaWhpZ0QxdHl5TWlhYVBCZVdfTzFyRjV1MWhzWlJvaE9LZmgzV3JmOWdHS2Z1a3VocXlONFJOQ3VVTXdnQlozSVZ1WW5TNk5uQ3AyM0ZYTzBlMWtHWnZPUkJTQU1KYXNoSzdqNGNnMTMtYUQxcEhXc3RlR2NoQ25VeUExaHZQSHc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-01T14:14:00+00:00",
+      "generated_at": "2026-10-03T02:21:36.633350+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:36 +0000"
+    },
+    {
+      "id": "fenland-news-3f42c434cf99d190b055c23a",
+      "headline": "Wisbech Furniture Warehouse to close and relocate",
+      "brief": "Wisbech’s Furniture Warehouse is set to close its premises at the former Beales site on Church Terrace this weekend. The business, which moved into the building in 2023, says it is relocating to a nearby town to pursue better opportunities after the store space was significantly reduced. \n\nThe owners have confirmed that no jobs will be lost as a result of the move. A final sale is currently underway, with the shop open from 10am until 8pm today and tomorrow. The location of the new premises has not yet been announced.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/furniture-warehouse-closing-premises-and-relocating-for-bet-9485263/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/NPP6TD37G8A3HW6K7XNY.jpg",
+      "published": "2026-10-02T05:00:00+00:00",
+      "generated_at": "2026-10-03T02:21:35.583952+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:35 +0000"
+    },
+    {
+      "id": "fenland-news-089420e1c67b354e80c381a5",
+      "headline": "King’s Lynn mother urges residents to trust their instincts on health",
+      "brief": "A King’s Lynn mother is encouraging people to seek medical advice if they notice unusual changes in their health, even after receiving clear screening results. Emma Lambert, 49, was diagnosed with secondary breast cancer in 2024 after noticing discomfort, despite a recent clear mammogram. Following her diagnosis, she is supporting the ‘My Life, My Way’ campaign by the charity Make 2nds Count. The initiative aims to raise awareness of secondary breast cancer and highlight the importance of listening to your body. Ms. Lambert, who now focuses on local wellbeing activities, is sharing her story to ensure others understand the signs and know that support is available for those living with the condition.",
+      "original_url": "https://www.lynnnews.co.uk/news/trust-your-instincts-says-mother-diagnosed-with-breast-can-9485107/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/FZWXRJX1LCFDMC2L22V4.jpg",
+      "published": "2026-10-01T10:23:51+00:00",
+      "generated_at": "2026-10-03T02:21:33.880009+00:00",
+      "rss_date": "Sat, 03 Oct 2026 02:21:33 +0000"
+    },
     {
       "id": "fenland-news-eda1d207726c97e185d4a093",
       "headline": "Wisbech NHS Retirement Fellowship hosts harvest celebration",
@@ -1012,94 +1100,6 @@
       "published": "2026-09-28T14:24:14+00:00",
       "generated_at": "2026-09-28T22:39:29.394681+00:00",
       "rss_date": "Mon, 28 Sep 2026 22:39:29 +0000"
-    },
-    {
-      "id": "fenland-news-b5aa368fc180d68e5226b185",
-      "headline": "New quantum eye imaging technology developed for children",
-      "brief": "Researchers at University College London and the company Siloton have collaborated to adapt quantum-enabled imaging technology specifically for use with children. The project aims to refine eye scanning techniques to better suit younger patients. Further details regarding the implementation or availability of this new diagnostic tool have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWQ4QlBRempvbExlWW9aMXB6OXBma0tGQWtBY2g2VjgtYnIwVUQwU2dHbGdITHY1UkREbHB1d3kxMVhTTUQ3ZjVvRDJLODlFQVJCV3QzeGlhUHMtRnlyQTR3ZmtVMkZPYk5ERjRBa2FKelh1T0o5SlNER0lsYXpMbTRBTzY2VUNXdWc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-28T12:27:51+00:00",
-      "generated_at": "2026-09-28T22:39:19.335703+00:00",
-      "rss_date": "Mon, 28 Sep 2026 22:39:19 +0000"
-    },
-    {
-      "id": "fenland-news-5f86f6098b28cb96d58c5c93",
-      "headline": "Health study results due for Whittlesey pit site",
-      "brief": "Findings from a health study concerning the controversial pit site in Whittlesey are set to be released. The report, which has been highlighted by the Cambs Times, examines the site that has previously been a subject of local debate. Further details regarding the study's conclusions are expected to be made public soon.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRU9PbTBHLVBxMnZkaW9mVm94RHBvZnE4ZVNmTnAzZnN1cFhFR1JjV2lGZzR6eENzUmlqWDgwQTJWLWNQMGlJbUJyOFlTajNMajBWM2hnM3l0ZDlmbEJrd3BjUlpFdndvY3dUeFc0blZoakdDVEVhdkZfZ0d3SjFoLVBmUzAtNVJqemtkV2R5dmpkbEJmbkZvckxB?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-28T12:47:00+00:00",
-      "generated_at": "2026-09-28T22:39:01.076566+00:00",
-      "rss_date": "Mon, 28 Sep 2026 22:39:01 +0000"
-    },
-    {
-      "id": "fenland-news-00d208eceb346a8762572138",
-      "headline": "Developer reduces funding pledge for Fenland services",
-      "brief": "A property developer has withdrawn a fifty-thousand-pound commitment intended to support local services. The pledge was originally made to Fenland District Council. Reports suggest the move has drawn criticism regarding the council's oversight of such agreements. No further details have been provided regarding which specific services will be affected by the loss of this funding or how the council intends to respond to the developer's decision.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX1ZELUUwVkJjdEFXUk93cG8xeDMwOWNaRVFWWHdJNWUtV3B4NjZlUWVIMnlSUzUwUVJzTHdQY2J1aExsa1NiT3BjNzFmRGpQUFRRZURmSS13aXVlWXNWcHdrNE1qeUsxaVZGVnI5SmpVTndQenJFT2c2Vk1UdThxWlVKY1Nxc0JMbWVxTnlOYUhvdnk0MDZRZ1p3OEpzV3c?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-05-18T07:00:00+00:00",
-      "generated_at": "2026-09-28T12:01:48.056006+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:48 +0000"
-    },
-    {
-      "id": "fenland-news-b604d4b0b93f186393c344c9",
-      "headline": "Wisbech High Street redevelopment plans approved",
-      "brief": "Fenland District Council has approved plans to redevelop a vacant site on Wisbech High Street. The project will see the construction of commercial premises and six one-bedroom flats at numbers 11 and 12, with access provided via Castle Mews. The site has remained empty since the original Grade II listed buildings were demolished in 2020.\n\nDuring a meeting on Wednesday, September 23, councillors described the two-decade delay in bringing the site back into use as embarrassing. Council leader Chris Boden has called for an explanation regarding previous administrative issues that stalled the development. Local representatives have welcomed the decision, noting that the project is a positive step for the town.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/plans-for-flats-to-replace-eyesore-gap-on-high-street-approv-9484579/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/Z3UFMMAY33CIHGEUZRIU.jpg",
-      "published": "2026-09-28T10:25:45+00:00",
-      "generated_at": "2026-09-28T12:01:45.045024+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:45 +0000"
-    },
-    {
-      "id": "fenland-news-30cb49eb724d4e6e88715a31",
-      "headline": "King’s Lynn sleep out raises over £7,000 for local night shelter",
-      "brief": "A charity sleep out in King’s Lynn has raised more than £7,000 to support the town’s night shelter. Around 30 people spent Friday night in the grounds of the Minster to experience the challenges of sleeping rough. The funds will help the shelter, which relies entirely on community support and grants, as it prepares to reopen its doors on October 8.\n\nThe shelter is now appealing for food donations, including tinned goods, breakfast items, and long-life milk, to stock its cupboards for the winter season. Anyone interested in volunteering or donating can find further information on the King’s Lynn Night Shelter website or by calling 01553 776109.",
-      "original_url": "https://www.lynnnews.co.uk/news/sleep-out-raises-7k-for-night-shelter-s-vital-work-9484559/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/8JTPWJT93OGCJWGTS8XF.jpg",
-      "published": "2026-09-28T09:16:01+00:00",
-      "generated_at": "2026-09-28T12:01:35.730315+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:35 +0000"
-    },
-    {
-      "id": "fenland-news-3121e767593aeeba161cdca6",
-      "headline": "Peterborough walkway project costs rise following skeleton discovery",
-      "brief": "The budget for a new walkway in Peterborough has increased by 1.6 million pounds. This additional expenditure follows the discovery of a skeleton at the construction site. The project, which aims to improve pedestrian access in the area, now faces higher costs due to the archaeological find. Further details regarding the impact on the construction timeline have not been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JZHRzbmhIbVhQX1RCUlpRVmVGaUNNOEs0Nml0Y3BYOEZJeDQyRmZzTUhyQ1NGM2p6LTREQlp4NHR0UEtrTW8zdV9oZHpjQ2dURHdUSzZscnl2OXc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-28T04:44:03+00:00",
-      "generated_at": "2026-09-28T12:01:31.762185+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:31 +0000"
-    },
-    {
-      "id": "fenland-news-6b00bdff895f826abea2870d",
-      "headline": "Conservative Party begins candidate selection for two Cambridgeshire seats",
-      "brief": "The Conservative Party has officially opened the process to select candidates for two parliamentary seats in Cambridgeshire. According to reports from the Ely East Cambridgeshire News, the party is now accepting applications for these constituencies. Further details regarding the specific locations or the timeline for these selections have not yet been released. Residents interested in local political developments are advised to monitor official party announcements for updates as the selection process moves forward.",
-      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFo4cWxZbEVXd1FOUGpuVUZnTWhtTFFFaEduX2dCQkpHNms1ellSTjFoUXhRZXcxZ2tqQTZPRV9CUXptVmNfeFlSYW14UGVkNjV5OF83ZjlOUnVQcWVBTmdLaTQwQmx6a083X0J2U29HOTMyRUpGeTEzZFpWM2ZDX1BUblFlR19HTm4tZTBLV2JuV0IyRDRlNTRHcW1seTVLUEJkQ0dRWlJKWjZY?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-28T07:20:00+00:00",
-      "generated_at": "2026-09-28T12:01:27.525416+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:27 +0000"
-    },
-    {
-      "id": "fenland-news-b90c55986a4072db1caedbc4",
-      "headline": "Financial loss expected for March bank site project",
-      "brief": "Fenland District Council is facing a projected loss of eight hundred thousand pounds regarding the regeneration of a bank site in March. Reports indicate the local authority expects the shortfall as work progresses on the development. No further details regarding the specific site or the reasons for the deficit have been provided at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sb3F0WF9JZGwtaGZqZ3dKOUVpNTJXWUhvTm9MN29aaFNuZUF5RE8xNzdMRl9tTE56S210Z0hqMmo5UXcwTFZadlM1VWoybUJsREVRZ3FCOXNsQQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-02-20T08:00:00+00:00",
-      "generated_at": "2026-09-28T12:01:25.266861+00:00",
-      "rss_date": "Mon, 28 Sep 2026 12:01:25 +0000"
     }
   ]
 }
