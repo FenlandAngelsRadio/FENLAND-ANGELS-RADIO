@@ -3,6 +3,13 @@
   const el=id=>document.getElementById(id);
   const preview=['localhost','127.0.0.1'].includes(location.hostname)&&new URLSearchParams(location.search).get('preview')==='example';
   const urls={station:'https://localhost:25433/',remote:'https://trj5kt.playitradio.com:25433/'};
+  let guestPanel='calls';
+  function showGuestPanel(interviews){
+    guestPanel=interviews?'interviews':'calls';el('callsFrame').hidden=interviews;el('interviewFrame').hidden=!interviews;
+    el('phoneTab').setAttribute('aria-selected',String(!interviews));el('interviewTab').setAttribute('aria-selected',String(interviews));
+    if(interviews&&!el('interviewFrame').getAttribute('src'))el('interviewFrame').src='far-browser-interviews.html'+(preview?'?preview=example':'');
+  }
+  el('phoneTab').onclick=()=>showGuestPanel(false);el('interviewTab').onclick=()=>showGuestPanel(true);
   function updateDestination(){el('openStudio').href=urls[el('studioLocation').value];}
   el('studioLocation').onchange=()=>{updateDestination();el('studioHelp').textContent='Location changed. Press Open studio here to connect to this location.';};
   el('connectStudio').onclick=()=>{
@@ -13,7 +20,7 @@
   el('focusCalls').onclick=()=>{const only=el('studioLayout').classList.toggle('calls-only');el('focusCalls').textContent=only?'Show studio and calls':'Call controls only';};
   function separatePanel(kind){
     if(preview){el('studioHelp').textContent='Preview only. No live window or audio connection is opened.';return;}
-    const url=kind==='studio'?urls[el('studioLocation').value]:'far-call-centre.html?workspace=1';
+    const url=kind==='studio'?urls[el('studioLocation').value]:guestPanel==='interviews'?'far-browser-interviews.html':'far-call-centre.html?workspace=1';
     const opened=window.open(url,kind==='studio'?'FARRemoteStudio':'FARCallControls','popup,width='+ (kind==='studio'?1200:650)+',height=850');
     if(opened)el('studioHelp').textContent='Separate window opened. Move it to another screen if needed. Closing this workspace does not close that window.';
     else el('studioHelp').textContent='The browser blocked the separate window. Use the studio link in Setup, or open Call Centre from Cloud Live in a new window.';

@@ -30,7 +30,7 @@ def validate(request):
         if not allowed:
             raise ValueError('Invalid DJ route.')
     elif service == 'calls':
-        if method != 'POST' or path != '/queue' or not isinstance(body, dict) or body.get('action') not in {'list', 'act', 'phone_settings', 'phone_save', 'phone_upload_start', 'phone_upload_chunk', 'phone_upload_finish'}:
+        if method != 'POST' or path != '/queue' or not isinstance(body, dict) or body.get('action') not in {'list', 'act', 'caller_level', 'delay_dump', 'phone_settings', 'phone_save', 'phone_upload_start', 'phone_upload_chunk', 'phone_upload_finish', 'interview_state', 'interview_start', 'interview_end'}:
             raise ValueError('Invalid call route.')
     else:
         raise ValueError('Invalid service.')
@@ -41,6 +41,9 @@ def validate(request):
 
 def forward(request, settings):
     service, method, path, body = validate(request)
+    if service == 'calls' and body.get('action', '').startswith('interview_'):
+        from browser_interviews import InterviewRooms
+        return InterviewRooms('/opt/far-web-bridge/interviews').handle(body)
     port = 8765 if service == 'djs' else 8768
     token = settings['dj_token' if service == 'djs' else 'call_token']
     if not isinstance(token, str) or len(token) < 32:
