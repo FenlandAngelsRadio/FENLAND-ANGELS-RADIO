@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-03T10:41:01.487191+00:00",
+  "updated_at": "2026-10-03T15:15:19.322193+00:00",
   "stories": [
+    {
+      "id": "fenland-news-1ca195651debef164d214697",
+      "headline": "Campaign group considers cash rewards for information on child abusers",
+      "brief": "A campaign group led by a father is exploring the possibility of offering financial rewards for information regarding child abusers. The initiative is being developed as part of the organisation's latest project. Further details on how the scheme might operate have not yet been confirmed.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWHh1ZjY1Qjh4N25yM0gyQ3dfSTdlSXZaOEk3Z0FmakFDRHJFSEFLM0J4UEZlb1JTb0VYeUtSX3liNUpjcFJkT04wQmREMHlOWW1EdVh2dEc4MHhZUEl6VXhPeEVDcXFzVGlVYzMzemhEQTZGUWtNZXk0bkR4T1JENXlEcWdCSTVfQnJmMU5kNzlLSTM0T1NRQi1PTjFPb2F4cjE4TE9MUkYwSFFBYTk1MkJR?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2025-08-09T07:00:00+00:00",
+      "generated_at": "2026-10-03T15:15:11.904950+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:11 +0000"
+    },
+    {
+      "id": "fenland-news-fc14e896f3e6d8bf08c09db1",
+      "headline": "Crop fire reported in Whittlesey",
+      "brief": "Emergency services have responded to a large fire involving crops in the Whittlesey area. Reports indicate that the blaze was ignited following the explosion of a canister. No further details regarding the extent of the damage or any potential injuries have been released at this time. Residents are advised to remain aware of the situation as crews work at the scene.",
+      "original_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUFZtSnJyQ0tYb0lheHBQRDF5X3hTamdUMG1xdkxTWWFCNmdhRTlBdk1Qbm1MOWVIRFExM2hfay04MU9OQmphb2lDelVpZERCejYwNk9uMWZzQlJQVGlhTG1wcHA3ZlBmMGdCbFFxcE0tdkNCM2RzazJnNkVyMGRmWFZ6NS16Z2s3SVA4Y0dBQnhoUk5rcHc0dVUzRmphbk5Yb0ZZZ1drRzR1cmZ0aEppeExoZXlyOW1xMk5F?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-07-30T07:00:00+00:00",
+      "generated_at": "2026-10-03T15:15:09.270020+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:09 +0000"
+    },
+    {
+      "id": "fenland-news-0dda21225075caba766ddf62",
+      "headline": "Employment tribunal rejects unfair dismissal claim from former King’s Lynn head teacher",
+      "brief": "An employment tribunal has dismissed a claim of unfair dismissal brought by Greg Hill, the former head teacher of Howard Junior School in Gaywood. Mr Hill, who served at the school from 2007 until his arrest in 2023, was dismissed by the Eastern Multi-Academy Trust in April 2024 following a conviction for harassment.\n\nJudge KJ Palmer ruled there was no evidence to support Mr Hill’s claims of a conspiracy against him, describing his assertions as groundless. During the proceedings, the tribunal noted that Mr Hill failed to engage with the dismissal process and did not provide medical evidence to support his absence from the hearing. The judge also refused his request to reveal the identities of witnesses involved in the case.",
+      "original_url": "https://www.lynnnews.co.uk/news/not-a-shred-of-evidence-to-support-stalker-head-greg-hill-9485079/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/8LRBRIS81HSLDGTTJ4F0.jpg",
+      "published": "2026-10-01T08:55:44+00:00",
+      "generated_at": "2026-10-03T15:15:07.885257+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:07 +0000"
+    },
+    {
+      "id": "fenland-news-d4d8f5accd4d94f171fced4a",
+      "headline": "Peterborough United appoint Robbie Savage as new manager",
+      "brief": "Peterborough United have confirmed the appointment of Robbie Savage as their new manager. The former professional player joins the club from his previous role as boss of Forest Green Rovers. The announcement follows reports from the BBC regarding the change in leadership at the club.",
+      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IZG5hd0dhQWgzQzE1RTg1cWJuQk93ZzE1SS1ZNjk2d1l5cnhSblFwZ1lwX0FrQnU1SEdZTXNFS2FDdXVIV0xPS1NQT0xCdXJlXzBqWExQRFdpZHJaMWlIU0wtREN5YWJ5?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-02T12:00:37+00:00",
+      "generated_at": "2026-10-03T15:15:05.028625+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:05 +0000"
+    },
+    {
+      "id": "fenland-news-ca8380340b9caeb85944342f",
+      "headline": "Major road closed following HGV collision",
+      "brief": "A major road in the region is currently closed to traffic following a collision involving a heavy goods vehicle. Emergency services are dealing with the incident, which has led to the route being shut. Motorists are advised to avoid the area and seek alternative routes while the closure remains in place. Further updates will be provided as more information becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcGEwaXc2dFJzM0ExQ2VYNG8zZkNKTmpaVExiZEh6bEViZ2lrSV9vcjVxMkhTTzZFX3N4YXFrRVdVVFR1UFBWa21udjV5RjdUZXRlaHo1SXFGVmdtek42R1ROQ0lsUWFLamhfVF9HNklfcGFTVVJMLVlPWlRxVF9hV2p6SFVkckdycDdRcjJCZWFNMXB6OVc5LXVn?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-06-01T07:00:00+00:00",
+      "generated_at": "2026-10-03T15:15:01.111346+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:01 +0000"
+    },
+    {
+      "id": "fenland-news-078551ec0932927626cbab16",
+      "headline": "National consultation begins for Mepal wind farm project",
+      "brief": "Plans for a proposed wind farm near Mepal have moved to the next stage. A national consultation process is now underway regarding the development. Residents and interested parties can now engage with the formal consultation phase as the project progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjVJRkRxclFhVWVuNm8yRnE3R3oycFJVNkRFaXFQY1UtMjRnR3EzYkEtS3FEOXhGSzFBMXpmMU43MTBvc1pqRUdLSmdDMUEybjVaY0RheV84NUlfZmxrMURtV2VCZkZZSmpralQxU3R6dzY3X2RLQU5tc0FVaUtFQUJCY1FUVnRoOEZ5TklyeUhFWUhKczNyc05lbnJwWlN5?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-02T16:15:00+00:00",
+      "generated_at": "2026-10-03T15:15:00.062648+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:15:00 +0000"
+    },
+    {
+      "id": "fenland-news-326eae3ee34b6d8d2b2908f4",
+      "headline": "Kent man fined after being found over alcohol limit in North Lynn",
+      "brief": "A 23-year-old scaffolder from Kent has been fined after being found in charge of a vehicle while over the legal alcohol limit. Joshua Kurszewski, of Stangate Drive in Sittingbourne, was discovered by police on Crossbank Road in North Lynn on September 9 after a recovery worker raised concerns. A breath test revealed he was more than double the legal limit. \n\nAppearing at Lynn Magistrates’ Court, Kurszewski admitted the offence. He was issued ten penalty points on his licence and ordered to pay a total of £645 in fines, surcharges, and costs. The court heard there was no evidence that he had been driving the vehicle at the time.",
+      "original_url": "https://www.lynnnews.co.uk/news/scaffolder-waiting-for-recovery-in-charge-of-car-while-doubl-9485260/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/24SQH2CG3YVF79PHOMC9.jpg",
+      "published": "2026-10-03T05:00:00+00:00",
+      "generated_at": "2026-10-03T15:14:58.328684+00:00",
+      "rss_date": "Sat, 03 Oct 2026 15:14:58 +0000"
+    },
     {
       "id": "fenland-news-5594e0f5be372ca59aecbb17",
       "headline": "College of West Anglia students visit Houghton Hall exhibition",
@@ -1023,83 +1100,6 @@
       "published": "2026-06-04T07:00:00+00:00",
       "generated_at": "2026-09-29T11:36:03.005836+00:00",
       "rss_date": "Tue, 29 Sep 2026 11:36:03 +0000"
-    },
-    {
-      "id": "fenland-news-b3a5cc1ee9ed0c6646218919",
-      "headline": "Fleetwood Town player looks ahead to Peterborough match",
-      "brief": "Fleetwood Town footballer Costelloe is preparing for the upcoming trip to Peterborough. Following his recent first-team debut, the player has expressed his desire to build on that performance as the squad heads into the fixture.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFp2MEU4RmJTNlNxVlJNblB0RXlLZG82Ukg3Ykw2NlFTY1h6dzlFaGo5NVRZeEg0LXRzMW8xcWJBeHlfX0RDSzBrTzBXTXVWRzdjWVZvTDN5WUhtb2lnQ004anlwS3ZMdEJvMFRQeTdSMUdQMGRVRFlxZm1oZ1F0SGFTMjJ1Z0RZS3poV2xNeUk5YkRMQnNBbzlWTFhpVHVoWk85Z2Z0dw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-29T09:04:20+00:00",
-      "generated_at": "2026-09-29T11:35:58.208116+00:00",
-      "rss_date": "Tue, 29 Sep 2026 11:35:58 +0000"
-    },
-    {
-      "id": "fenland-news-bb4ba12b5a6ee97c8bdadca1",
-      "headline": "Plans proposed for two new wind farms in the Fens",
-      "brief": "Proposals have been submitted for the construction of two new wind farms in the region. The sites earmarked for the potential developments are located near Chatteris and Shippea Hill. No further details regarding the scale or timeline of these projects have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX2xvdXgwNUJBWmVQN0NsRUh6SjZjRV9RVlVNR1hzM3NOX08ySUQ0Zmk0aXd6NnNOTldvZlVWNGxiUXdSUkhDbFE2NUFnRlVPR1VaREwxZ25WY2JJczZ6VjdWV2FQQl90Qkc2ZElxbnBXU0kzNXBSb2g1QlE3ZE85ZGdjWTljdlNnNm9saGpJUzJRSGhJOWpTNmY0OF9EcFFkWmNDZzROTHRNODB0YzBpbHdnbkFmbDRQdE13ZE1VWlVmdw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-29T08:04:35+00:00",
-      "generated_at": "2026-09-29T11:35:55.439240+00:00",
-      "rss_date": "Tue, 29 Sep 2026 11:35:55 +0000"
-    },
-    {
-      "id": "fenland-news-709b14a9ee2d56cbb6c5f5e8",
-      "headline": "Norfolk health officials consider future of A&E services",
-      "brief": "Health officials in Norfolk are considering plans that could see A&E units at the Queen Elizabeth Hospital in King’s Lynn and the James Paget Hospital in Gorleston closed. Confidential documents reveal three potential options for future emergency care, with only one retaining full A&E services at all three of the county’s hospitals. Other proposals include downgrading the units to urgent treatment centres or removing major trauma services.\n\nThe Norfolk and Waveney University Hospitals Group states that no final decisions have been made and that the documents are part of preliminary work. However, local MPs have expressed strong opposition to any potential downgrades, citing concerns over rural travel times and the impact on patient care.",
-      "original_url": "https://www.lynnnews.co.uk/news/norfolk-could-be-left-with-just-one-a-e-unit-amid-possible-c-9484716/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/8GZ8A2FZT4MTUX551N6P.jpg",
-      "published": "2026-09-29T08:50:50+00:00",
-      "generated_at": "2026-09-29T11:35:50.849733+00:00",
-      "rss_date": "Tue, 29 Sep 2026 11:35:50 +0000"
-    },
-    {
-      "id": "fenland-news-399d348be5ed8b5eed61236f",
-      "headline": "Wisbech newsagent TG Jones to close in January",
-      "brief": "The newsagent and stationer TG Jones has confirmed it will shut its Wisbech branch early next year. The shop, located on the Market Place, is scheduled to close its doors on Saturday, January 9, 2027. The closure is part of a wider, court-approved restructuring plan affecting several of the company's stores across the UK. \n\nA spokesperson for the retailer expressed regret over the impact on the local community and staff. A closing down sale will be held at the premises before the final closure date. The company stated that its current priority is supporting affected employees while continuing to serve customers during the final weeks of operation.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/retailer-announces-closure-of-town-store-9484642/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/104KQ8F8R42ABLKWED4U.jpg",
-      "published": "2026-09-28T13:59:27+00:00",
-      "generated_at": "2026-09-29T02:47:00.258573+00:00",
-      "rss_date": "Tue, 29 Sep 2026 02:47:00 +0000"
-    },
-    {
-      "id": "fenland-news-2c866e54aff3d6d6037f549d",
-      "headline": "Three-year driving ban for holidaymaker caught in King’s Lynn",
-      "brief": "A holidaymaker has been disqualified from driving for three years after being caught over the limit in King’s Lynn. Forty-two-year-old David Canatch, from Gainsborough, was stopped by police on Gayton Road after officers noticed his fog lights were on during clear weather. A breath test revealed he had 45 micrograms of alcohol per 100 millilitres of breath, exceeding the legal limit of 35.\n\nAppearing at Lynn Magistrates’ Court on Thursday, Mr Canatch pleaded guilty to drink-driving. In addition to the driving ban, he was ordered to pay a £120 fine, a £48 victim surcharge, and £50 in court costs.",
-      "original_url": "https://www.lynnnews.co.uk/news/holiday-maker-caught-drink-driving-banned-for-three-years-9484392/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/OULDC0KBSAIFM7R1S2EF.jpg",
-      "published": "2026-09-28T05:00:00+00:00",
-      "generated_at": "2026-09-29T02:46:58.037667+00:00",
-      "rss_date": "Tue, 29 Sep 2026 02:46:58 +0000"
-    },
-    {
-      "id": "fenland-news-6812ed0b3f436f98d4e6782f",
-      "headline": "Free AI training pilot launched for Cambridge and Peterborough organisations",
-      "brief": "Organisations across the Cambridge and Peterborough area are being offered the chance to take part in a new artificial intelligence training pilot. The scheme, coordinated by the Cambridge Network, provides training sessions at no cost to participants. The initiative aims to support local groups and businesses looking to develop their understanding of AI technology. Further details regarding the programme and how to register for the pilot are available through the Cambridge Network.",
-      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0ZTb3hFa0ZGZHZfSkpoMEZ5V3d5enRvU08yQkhMZ1YwUndESjRzbEJHNWItWEMwLXppYm9Fa3pTZEpnNDQ0VUJ4ZExDeG9pbnlTSURKNHBaX0hWdlM5VVZrOUJJUDdwMDFnNi1DSmM0VGE0TlhCbDJFbGhMVFlCTG0zR1Awdm1UYm1ETWRKM3dkSld4ZWU5czE2UVpXd2NYa2Y2T3FGdnZkTExj?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-29T02:03:45+00:00",
-      "generated_at": "2026-09-29T02:46:56.327869+00:00",
-      "rss_date": "Tue, 29 Sep 2026 02:46:56 +0000"
-    },
-    {
-      "id": "fenland-news-546eb544eab012286aede72e",
-      "headline": "Bus routes cut in Cambridgeshire village despite new shelters",
-      "brief": "A Cambridgeshire village has seen its bus services withdrawn, despite the recent installation of new bus shelters. The infrastructure project, which cost 16,000 pounds, was completed before the decision to cut the local routes was made. Residents in the area are now facing a loss of public transport links despite the significant investment in the facilities.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lTnVYamFuUzRJZHJzWmdlbzU2Y0hvRTVJdU1mVFFCUWZmSUVQVWIyX2pNRkdIV18za3A0NGNtNTJ5Mmh3SmdHSG5XYW94dmZDYXVlcGNFeTFCZ3B3OVE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-27T05:11:25+00:00",
-      "generated_at": "2026-09-29T02:46:55.104721+00:00",
-      "rss_date": "Tue, 29 Sep 2026 02:46:55 +0000"
     }
   ]
 }
