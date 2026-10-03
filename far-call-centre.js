@@ -12,8 +12,8 @@
   const management = () => ['owner','deputy_manager'].includes(me?.role);
   const names = {waiting:'Waiting',screening:'Being screened',ready:'Ready — off air',held:'On hold',on_air:'On air',muted:'Muted',private_answered:'Answered privately'};
   const actions = {waiting:['screen','end'],screening:['ready','hold','end'],ready:['put_on_air','hold','end'],held:['screen','end'],on_air:['mute','hold','end'],muted:['put_on_air','hold','end'],private_answered:['end']};
-  const labels = {screen:'Screen',ready:'Ready',put_on_air:'Put on air',hold:'Hold',mute:'Mute',end:'End call',answer_private:'Answer privately',voicemail:'Send to voicemail'};
-  const descriptions = {put_on_air:'Listeners will hear this caller. Put them on air now?',end:'Disconnect this caller? They will need to call again to return.',voicemail:'Send this business caller to private voicemail?'};
+  const labels = {screen:'Screen privately',ready:'Screened — ready',put_on_air:'Put on air',hold:'Hold',mute:'Mute caller now',end:'End call',answer_private:'Answer privately',voicemail:'Send to voicemail'};
+  const descriptions = {ready:'Have you checked their name, topic and suitability, and explained the on-air rules? They will remain off air.',put_on_air:'Listeners will hear this caller. Put them on air now?',end:'Disconnect this caller? They will need to call again to return.',voicemail:'Send this business caller to private voicemail?'};
   function resetExamples() {
     snapshot = {version:1,audio_ready:true,capabilities:{voicemail:true,operator_connected:true,programme_connected:true},private_access:management(),calls:[
       {id:'game',name:'Example game caller',category:'games',source:'phone',state:'waiting'},
@@ -30,11 +30,14 @@
       body:JSON.stringify({action,...extra}),signal:AbortSignal.timeout(12000)
     });
     let result;try{result=await response.json();}catch{throw new Error('The call service could not be reached. Refresh to try again.');}
-    if(!response.ok) throw new Error(response.status===404||response.status===503?'The phone and guest-call service is not connected yet. No calls can be answered from this screen.':result.error||'The call service could not complete this request.');
+    if(!response.ok) {const error=new Error(response.status===404||response.status===503?'The phone and guest-call service is not connected yet. No calls can be answered from this screen.':result.error||'The call service could not complete this request.');error.status=response.status;throw error;}
     if(!Array.isArray(result.calls)||!Number.isInteger(result.version)) throw new Error('The call service returned an incomplete update. Refresh before trying again.');
     return result;
   }
   function render() {
+    const delay=snapshot.broadcast_delay;
+    el('dumpAudio').disabled=busy||!delay?.protected||delay.scope!=='caller';
+    el('delayStatus').textContent=demo?'Example screen: no caller delay is connected.':delay?.protected&&delay.scope==='caller'?`${delay.seconds}-second caller delay ready. Dump replaces pending caller audio with silence. Your microphone stays separate.`:delay?.connected?'Delay worker is running, but the caller URL route is not verified. Do not rely on Dump.':'Live caller delay is not connected. Dump is unavailable.';
     const capabilities=snapshot.capabilities||{};
     el('connectionHelp').textContent=demo?'Example connections only — no live phone or programme audio.':!snapshot.audio_ready?'Phone audio is not connected.':!capabilities.operator_connected?'Connect your staff calling app before screening or answering privately.':!capabilities.programme_connected?'Your private audio connection is ready. Programme audio is not connected; callers cannot go on air.':'Your staff audio and programme connection are ready.';
     el('privatePanel').hidden=!management()||!snapshot.private_access;
@@ -52,7 +55,8 @@
         const available=category==='business'?(call.state==='waiting'?['answer_private','voicemail','end']:['end']):actions[call.state]||[];
         for(const action of available){
           const button=document.createElement('button');button.type='button';button.textContent=labels[action];
-          button.className=action==='end'?'danger':action==='put_on_air'?'primary':'';
+          button.className=['end','mute'].includes(action)?'danger':action==='put_on_air'?'primary':'';
+          if(action==='end'&&['on_air','muted'].includes(call.state))button.textContent='End caller now';
           button.disabled=busy||!snapshot.audio_ready||Boolean(call.claimed_by&&call.claimed_by!==me.id)||(action==='voicemail'&&!snapshot.capabilities?.voicemail);
           if(['screen','answer_private'].includes(action)&&!capabilities.operator_connected)button.disabled=true;
           if(action==='put_on_air'&&!capabilities.programme_connected)button.disabled=true;
@@ -76,7 +80,7 @@
     document.title=waiting.length?'('+waiting.length+') Call Centre | FAR Cloud Live':'Call Centre | FAR Cloud Live';
   }
   function requestAction(call,action){
-    if(descriptions[action]){
+    if(descriptions[action]&&!(action==='end'&&['on_air','muted'].includes(call.state))){
       pending={id:call.id,action,version:snapshot.version};
       el('confirmText').textContent=call.name+': '+descriptions[action];el('callConfirm').hidden=false;
       el('confirmAction').focus();
@@ -91,7 +95,20 @@
         if(['end','voicemail'].includes(action))snapshot.calls=snapshot.calls.filter(c=>c.id!==id);
         else{call.state={screen:'screening',ready:'ready',put_on_air:'on_air',hold:'held',mute:'muted',answer_private:'private_answered'}[action];call.claimed_by=action==='hold'?null:me.id;}
         snapshot.version++;status('Example updated. No live audio or phone call was changed.');
-      }else{snapshot=await api('act',{id,operation:action,version});status('Call updated.');}
+      }else{
+        try{snapshot=await api('act',{id,operation:action,version});}
+        catch(error){
+          // An automatic queue refresh must not force a second emergency click.
+          if(error.status!==409||!['mute','end'].includes(action))throw error;
+          snapshot=await api('list');
+          const current=snapshot.calls.find(c=>c.id===id);
+          if(!current){status('Caller has already disconnected.');return;}
+          if(!['on_air','muted'].includes(current.state)||current.claimed_by!==me.id)throw error;
+          if(action==='mute'&&current.state==='muted'){status('Caller is already muted.');return;}
+          snapshot=await api('act',{id,operation:action,version:snapshot.version});
+        }
+        status(action==='mute'?'Caller muted. Audio already transmitted cannot be recalled.':action==='end'?'Caller disconnected.':'Call updated.');
+      }
     }catch(error){status(error.message||'The action could not be confirmed. Refresh before trying again.',true);if(!demo)snapshot.audio_ready=false;}
     finally{busy=false;render();}
   }
@@ -108,6 +125,14 @@
   el('confirmAction').onclick=()=>{if(pending)perform(pending.id,pending.action,pending.version);};
   el('cancelAction').onclick=()=>{pending=null;el('callConfirm').hidden=true;};
   el('refreshCalls').onclick=()=>refresh();
+  el('dumpAudio').onclick=async()=>{
+    if(busy||!snapshot?.broadcast_delay?.protected||snapshot.broadcast_delay.scope!=='caller')return;
+    busy=true;render();const started=performance.now();
+    status('Dump requested — waiting for the audio service to confirm.');
+    try{snapshot=await api('delay_dump');status(`Buffered caller audio replaced. Confirmation took ${((performance.now()-started)/1000).toFixed(1)} seconds. Your microphone remains separate.`);}
+    catch(error){if(snapshot.broadcast_delay)snapshot.broadcast_delay.protected=false;status(error.message||'Dump could not be confirmed. Mute or end the caller and check the studio.',true);}
+    finally{busy=false;render();}
+  };
   el('enableAlerts').onclick=async()=>{
     if(!('Notification' in window)){status('This browser does not support call notifications. Keep the queue visible.');return;}
     const permission=await Notification.requestPermission();alertsEnabled=permission==='granted';
