@@ -31,7 +31,7 @@ class InterviewRooms:
                 if state and state['owner'] != actor['id']:
                     return {'status': 409, 'data': {'error': 'Another presenter has an interview room open. Ask them to finish it first.'}}
                 if not state:
-                    state = {'id': secrets.token_urlsafe(24), 'room': 'FAR' + secrets.token_hex(16),
+                    state = {'id': secrets.token_urlsafe(24), 'room': 'FAR' + secrets.token_hex(12),
                              'password': secrets.token_hex(24), 'director_password': secrets.token_hex(24), 'owner': actor['id'],
                              'expires_at': int(self.clock()) + 4 * 60 * 60}
                     temp = self.directory / 'room.tmp'

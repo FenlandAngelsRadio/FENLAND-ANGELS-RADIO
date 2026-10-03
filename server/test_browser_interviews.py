@@ -40,6 +40,7 @@ class InterviewTests(unittest.TestCase):
     def test_director_secret_is_separate_and_hidden_from_other_staff(self):
         first = self.call('interview_start')['data']['interview']
         self.assertRegex(first['password'], r'^[a-f0-9]{48}$')
+        self.assertLess(len(first['room']), 31)
         self.assertNotEqual(first['password'], first['director_password'])
         other = self.call('interview_state', self.presenter)['data']['interview']
         self.assertNotIn('director_password', other)
