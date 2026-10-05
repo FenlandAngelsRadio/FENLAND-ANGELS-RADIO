@@ -1011,7 +1011,8 @@ const stories =
   (function(){async function updateFarLifetime(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const r=await fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{cache:"no-store",headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY}});if(!r.ok)return;const j=await r.json();const el=document.getElementById("farLifetimeHours");if(el&&Number.isFinite(Number(j.lifetime_hours)))el.textContent=Number(j.lifetime_hours).toLocaleString("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarLifetime();setInterval(updateFarLifetime,30000)})();
   </script>
   <script src="far-analytics.js?v=13"></script>
-  <script src="app.js?v=14"></script>
+  <script src="app.js?v=15"></script>
+  <script src="player-audio.js?v=1"></script>
 
 <script src="far-content.js?v=1"></script><script>(async()=>{try{const m=await FARContent.all();FARContent.apply(m);const e=document.getElementById('cmsContactEmail'),p=document.getElementById('cmsContactPhone');if(e)e.href='mailto:'+m.contact_email;if(p)p.href='tel:'+String(m.contact_phone||'').replace(/[^+\d]/g,'')}catch(e){console.error('FAR CMS',e)}})();</script></body>
 
