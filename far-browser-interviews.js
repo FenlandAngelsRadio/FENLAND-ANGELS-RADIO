@@ -4,22 +4,25 @@
   const preview=['localhost','127.0.0.1'].includes(location.hostname)&&new URLSearchParams(location.search).get('preview')==='example';
   let db, room=null, busy=false, currentId=null, poll, detached=null;
   function send(id,message){const frame=el(id);if(frame.getAttribute('src'))frame.contentWindow.postMessage(message,origin);}
-  function closeFrames(){if(detached&&!detached.closed)detached.close();detached=null;for(const id of ['directorFrame','receiverFrame']){send(id,{close:'estop'});el(id).removeAttribute('src');el(id).hidden=true;}}
+  function receiverButtons(enabled){for(const id of ['receiverResume','receiverStop'])if(el(id))el(id).disabled=!enabled;}
+  function closeFrames(){if(detached&&!detached.closed)detached.close();detached=null;for(const id of ['directorFrame','receiverFrame']){send(id,{close:'estop'});el(id).removeAttribute('src');el(id).hidden=true;}receiverButtons(false);}
   function url(kind){
     const params=new URLSearchParams({password:room.password,videodevice:'0'});
-    // Speech processing is applied at the source; keep gain neutral.
+    // Apply speech processing at the source, before guest audio reaches PlayIt.
+    // Keep gain neutral: AGC handles quiet voices without an unchecked boost.
     if(kind!=='receiver'){
       params.set('compressor','1');params.set('lowcut','80');params.set('equalizer','1');
       params.set('autogain','1');params.set('denoise','1');params.set('echocancellation','1');
       params.set('oab','96');
     }
     if(kind==='director'){params.set('director',room.room);params.set('codirector',room.director_password);params.set('label','FAR Presenter');}
-    else{params.set('room',room.room);if(kind==='receiver'){params.set('scene','1');params.set('nodirectoraudio','1');params.set('audiooutput','CABLE_Input');params.set('audiodevice','0');}}
+    else{params.set('room',room.room);if(kind==='receiver'){params.set('scene','1');params.set('optimize','0');params.set('mutespeaker','0');params.set('nodirectoraudio','1');params.set('audiooutput','CABLE_Input');params.set('audiodevice','0');}}
     return origin+'/?'+params;
   }
   function render(result){
     room=result.interview;
     if(currentId!==room?.id){closeFrames();currentId=room?.id||null;}
+    if(!result.can_control)closeFrames();
     el('roomControls').hidden=!room;el('end').disabled=!room||!result.can_control;
     el('director').disabled=!result.can_control;el('separate').disabled=!result.can_control;
     el('copy').disabled=!room;el('receiver').disabled=!room||!result.can_control;el('start').disabled=!!room;el('guestLink').value=room?url('guest'):'';
@@ -41,7 +44,10 @@
   el('copy').onclick=async()=>{try{await navigator.clipboard.writeText(el('guestLink').value);el('copyStatus').textContent='Guest link copied. Send it privately.';}catch{el('guestLink').select();el('copyStatus').textContent='Select and copy the link above.';}};
   el('director').onclick=()=>{if(!room||preview)return;el('directorFrame').src=url('director');el('directorFrame').hidden=false;};
   el('separate').onclick=()=>{if(!room||preview)return;send('directorFrame',{close:true});el('directorFrame').removeAttribute('src');el('directorFrame').hidden=true;const w=detached=window.open(url('director'),'FARInterviewDirector','popup,width=1000,height=850');el('status').textContent=w?'Guest controls opened separately. Keep that window open for the interview.':'The separate window was blocked. Use Open guest controls here.';};
-  el('receiver').onclick=()=>{if(!room||preview)return;el('receiverFrame').src=url('receiver');el('receiverFrame').hidden=false;el('receiverStatus').textContent='Receiver opened. Confirm its output is CABLE Input before playing the interview Aux Input. Audio has not yet been verified.';};
+  function receiverOpen(){if(!room||preview)return;el('receiverFrame').src=url('receiver');el('receiverFrame').hidden=false;receiverButtons(true);el('receiverStatus').textContent='Receiver opened for this room. Add screened guests to S1, then click inside the receiver if the browser asks to enable audio. Confirm CABLE Input and check PlayIt before airing.';}
+  el('receiver').onclick=receiverOpen;
+  if(el('receiverResume'))el('receiverResume').onclick=()=>{if(!room||preview||!el('receiverFrame').getAttribute('src'))return;send('receiverFrame',{mute:false});el('receiverStatus').textContent='Receiver unmute requested. If audio is still paused, click inside the receiver to enable it. A connection alone does not confirm sound or broadcast.';};
+  if(el('receiverStop'))el('receiverStop').onclick=()=>{send('receiverFrame',{close:'estop'});el('receiverFrame').removeAttribute('src');el('receiverFrame').hidden=true;receiverButtons(false);el('receiverStatus').textContent='Guest receiver stopped. Stop the interview Aux Input in PlayIt and return to programme audio.';};
   window.addEventListener('message',event=>{
     if(event.origin!==origin||!event.data||typeof event.data!=='object')return;
     if(event.source===el('directorFrame').contentWindow&&event.data.action==='guest-connected')el('status').textContent='A guest joined. Screen them in the guest controls before adding them to S1.';
@@ -58,4 +64,5 @@
     window.addEventListener('pagehide',()=>{clearInterval(poll);closeFrames();});
   }catch(error){el('status').textContent=error.message;}
 })();
+
 
