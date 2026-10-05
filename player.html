@@ -53,20 +53,23 @@ input{width:100%;accent-color:var(--red2)}
 <script src="events-config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="far-analytics.js?v=13"></script>
+<script src="player-audio.js?v=1"></script>
 <script>
 const audio=document.getElementById('radio');
 const play=document.getElementById('play');
 const status=document.getElementById('status');
 const volume=document.getElementById('volume');
 (function(){async function updateFarLifetime(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const r=await fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{cache:"no-store",headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY}});if(!r.ok)return;const j=await r.json();const el=document.getElementById("farLifetimeHours");if(el&&Number.isFinite(Number(j.lifetime_hours)))el.textContent=Number(j.lifetime_hours).toLocaleString("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarLifetime();setInterval(updateFarLifetime,30000)})();
-volume.addEventListener('input',()=>audio.volume=Number(volume.value));
-audio.volume=Number(volume.value);
+// Match the website and app's perceived-volume curve.
+volume.addEventListener('input',()=>audio.volume=Number(volume.value) ** 2);
+audio.volume=Number(volume.value) ** 2;
 audio.addEventListener('playing',()=>{if(window.FARAnalytics) window.FARAnalytics.startListening('website')});
 audio.addEventListener('pause',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website')});
 audio.addEventListener('ended',()=>{if(window.FARAnalytics) window.FARAnalytics.stopListening('website')});
 play.addEventListener('click',async()=>{
   if(audio.paused){
     try{
+      if(window.FARPlayerAudio) await window.FARPlayerAudio.prepare(audio);
       audio.load();
       await audio.play();
       play.textContent='❚❚';
