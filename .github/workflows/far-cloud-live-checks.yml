@@ -26,5 +26,6 @@ jobs:
           node scripts/check-services.cjs
           node scripts/check-call-centre.cjs
           node scripts/check-audience.cjs
+          node scripts/check-audience-endpoint.cjs
           node scripts/check-media.cjs
           node scripts/check-player.cjs
