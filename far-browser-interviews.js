@@ -7,6 +7,12 @@
   function closeFrames(){if(detached&&!detached.closed)detached.close();detached=null;for(const id of ['directorFrame','receiverFrame']){send(id,{close:'estop'});el(id).removeAttribute('src');el(id).hidden=true;}}
   function url(kind){
     const params=new URLSearchParams({password:room.password,videodevice:'0'});
+    // Speech processing is applied at the source; keep gain neutral.
+    if(kind!=='receiver'){
+      params.set('compressor','1');params.set('lowcut','80');params.set('equalizer','1');
+      params.set('autogain','1');params.set('denoise','1');params.set('echocancellation','1');
+      params.set('oab','96');
+    }
     if(kind==='director'){params.set('director',room.room);params.set('codirector',room.director_password);params.set('label','FAR Presenter');}
     else{params.set('room',room.room);if(kind==='receiver'){params.set('scene','1');params.set('nodirectoraudio','1');params.set('audiooutput','CABLE_Input');params.set('audiodevice','0');}}
     return origin+'/?'+params;
