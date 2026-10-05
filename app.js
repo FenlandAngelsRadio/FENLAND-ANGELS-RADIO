@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!audio) return;
     try {
       if (audio.paused) {
+        if (window.FARPlayerAudio) await window.FARPlayerAudio.prepare(audio);
         // A live station must reconnect rather than resume audio held during a pause.
         audio.load();
         status.textContent = 'Connecting to live stream…';
@@ -36,9 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
   playButtons.forEach(btn => btn.addEventListener('click', toggleRadio));
 
   if (volume && audio) {
-    audio.volume = Number(volume.value);
+    // A squared curve makes the slider track perceived loudness more naturally.
+    audio.volume = Number(volume.value) ** 2;
     volume.addEventListener('input', () => {
-      audio.volume = Number(volume.value);
+      audio.volume = Number(volume.value) ** 2;
     });
   }
 
