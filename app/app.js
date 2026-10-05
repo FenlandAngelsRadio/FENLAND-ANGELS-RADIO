@@ -3,12 +3,14 @@ const play=document.getElementById('play');
 const state=document.getElementById('state');
 const volume=document.getElementById('volume');
 
-radio.volume=.8;
+// Keep the same perceived-volume curve as the website player.
+radio.volume=Number(volume.value) ** 2;
 
 play.addEventListener('click',async()=>{
   if(radio.paused){
     state.textContent='Connecting…';
     try{
+      if(window.FARPlayerAudio) await window.FARPlayerAudio.prepare(radio);
       // Discard the previous connection so Play returns to the live programme.
       radio.load();
       await radio.play();
@@ -43,7 +45,7 @@ radio.addEventListener('error',()=>{
 });
 
 volume.addEventListener('input',()=>{
-  radio.volume=Number(volume.value);
+  radio.volume=Number(volume.value) ** 2;
 });
 
 if('serviceWorker' in navigator){
@@ -55,7 +57,7 @@ if('serviceWorker' in navigator){
   });
   window.addEventListener('load',async()=>{
     try{
-      const reg=await navigator.serviceWorker.register('./service-worker.js?v=14',{updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./service-worker.js?v=15',{updateViaCache:'none'});
       await reg.update();
       setInterval(()=>reg.update().catch(()=>{}),60000);
     }catch(e){}
