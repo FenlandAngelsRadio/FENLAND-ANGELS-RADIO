@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-05T02:26:12.081476+00:00",
+  "updated_at": "2026-10-05T12:42:51.813000+00:00",
   "stories": [
+    {
+      "id": "fenland-news-bb69a356d29d7f90128454bf",
+      "headline": "Police investigation underway in Peterborough",
+      "brief": "Police have launched an investigation following the discovery of a body in Peterborough. Officers are currently looking into the circumstances surrounding the death. No further details have been released by authorities at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOelYyMTRDYUp4NUtPaG1aaTl4R1FhX1Brb2RvNnN4bjBld3prc2FXT1FSUE8zRTFfMjJJMkpFbXJmZFlTSXpIRWRfVnYwZGtpVHdPZkg2cUhycHpFSk51dW9Eb1F3SUJxSmJjU252eklVcEpaU0ZpSWRTblV5NjdpZE90VEktU1pFWWgyeXFnZnhfaVllMFJoSU9jNTFfVWZyUXl0THV5TmdEY3dUNGFnc2ZHWWJ2enB4Si03WVd1VVdoaUtnVjFpOTNBSTVLU3hBS3hUNGFBbUVTRTN3RWZpbDBLVQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-05T11:42:15+00:00",
+      "generated_at": "2026-10-05T12:42:29.149248+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:29 +0000"
+    },
+    {
+      "id": "fenland-news-dc50feaf74ca2d287de740f3",
+      "headline": "Government delays Cambridgeshire council reform plans",
+      "brief": "Plans to reform local government structures in Cambridgeshire have been put on hold. The government has confirmed a delay to the proposed changes, which were originally reported by the Ely East Cambridgeshire News. No new timeline for the reforms has been announced at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBydzdZZ19QSHBzZzVUUmVrbkxocnMtTEJOQXJBcWg3ZDNTN3JZaDhiU3pEekMyLWd3X3h6SnBnOVJ1d2FMWkNkMUdrNEpoR2hqaWpubkhaV09zY051?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-07-16T07:00:00+00:00",
+      "generated_at": "2026-10-05T12:42:24.849713+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:24 +0000"
+    },
+    {
+      "id": "fenland-news-dc02520ee5fb32c0e4e1e7fb",
+      "headline": "Brad Pitt stars in new film Heart of the Beast at The Light, Wisbech",
+      "brief": "Film fans in Wisbech can now catch the new release Heart of the Beast at The Light cinema. The film features Brad Pitt as James Belmont, a retired special forces veteran who travels to the Alaskan wilderness with his combat dog, Odin. After a mid-air medical emergency during a storm, the pair must navigate fifty miles of dangerous terrain to reach safety. The 12A-rated movie also stars JK Simmons and Anna Lambe. Critics have described the production as a mix of action and sentimentality, highlighting the performance of the lead actor. Check local listings at The Light for screening times.",
+      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/pitt-on-top-form-in-heart-of-the-beast-9485523/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/07NTOZ7TYE7U8I1PY1YC.jpg",
+      "published": "2026-10-05T09:09:29+00:00",
+      "generated_at": "2026-10-05T12:42:20.875430+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:20 +0000"
+    },
+    {
+      "id": "fenland-news-08548af7644051c041eca733",
+      "headline": "King’s Lynn hospital specialist wins national mentoring award",
+      "brief": "A health play specialist at the Queen Elizabeth Hospital in King’s Lynn has been named Mentor of the Year 2026. Nicola Wright received the national honour from the charity Starlight for her work supporting apprentice Claire Burrell. The award recognises professionals who improve children’s experiences of healthcare through play. \n\nMs Wright, who has worked in the field since 2005, was nominated by her apprentice for providing guidance and professional development over the past two years. The presentation took place at the hospital on Tuesday, September 29. The Starlight Health Play Awards are held in conjunction with National Play in Healthcare Week, which runs from October 5 to 9.",
+      "original_url": "https://www.lynnnews.co.uk/news/national-mentor-award-for-health-play-specialist-9485026/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/V4CUGP7CSI0SM3RG6ZCM.jpg",
+      "published": "2026-10-05T05:00:00+00:00",
+      "generated_at": "2026-10-05T12:42:15.671100+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:15 +0000"
+    },
+    {
+      "id": "fenland-news-3b1c91f5ced36c57dfc60df5",
+      "headline": "Police investigation underway in Peterborough",
+      "brief": "Police have launched an investigation following the discovery of a body in Peterborough. Officers are currently looking into the circumstances surrounding the death. No further details have been released by authorities at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pdldmUHgtOC04WjkxMzl6d2xkbHhUZm1kYWdIZXFad1JWU1F6RHVXX2FMcDNhWEE4bE5UZzJreGJOOVpiT1NkeE94LUpJUXBYVlhtaE1HUDRKMnRDOUE?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-05T11:42:15+00:00",
+      "generated_at": "2026-10-05T12:42:09.842796+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:09 +0000"
+    },
+    {
+      "id": "fenland-news-357789ea86b50edaaf0141fa",
+      "headline": "Ely public toilets closed following vandalism",
+      "brief": "Public toilets in Ely have been forced to close after being targeted by vandals. The damage, which involved the facility's pipework, resulted in significant flooding at the site. Local authorities have not yet indicated when the toilets will be reopened to the public.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNamVsMXhxR1U0dm9qMHFNZFVZeXdEM19MTzJtOGpGemJCNHI1dGF6VUdTYURMaVdINEpnVjVRUlNBd256aUV5a1ZOZUpDOVNBTHBPdFY1SmE5S3FiRDM5X3hMTkNQcUlocm9qQndJM3doRTJBa3lNeDJBWTk3dzliZUxKRlVrS3lXakJpWk8wc3loTjQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-05T11:05:00+00:00",
+      "generated_at": "2026-10-05T12:42:06.828446+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:06 +0000"
+    },
+    {
+      "id": "fenland-news-b0b87879a3da3a751b7cc704",
+      "headline": "Protests held against Leverington asylum hostel plans",
+      "brief": "Residents gathered at Roman Court in Leverington on Sunday to protest government plans to convert the building into a hostel for asylum seekers. Organised by Councillor Chris Tirrell, the demonstration aimed to voice community opposition to the proposal, which could eventually house 205 people in the area. \n\nFenland District Council and MP Steve Barclay have formally objected to the scheme, citing concerns over public safety and the building's condition following a previous prohibition notice regarding asbestos. A further protest is scheduled for this Sunday, October 11, at 11am at the Roman Court site. The government is expected to reach a final decision on the proposal by Friday, October 16.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/protest-held-to-oppose-totally-bonkers-plans-for-asylum-se-9485574/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PPCTZRFFOK8L7IPMUYLH.jpg",
+      "published": "2026-10-05T11:50:53+00:00",
+      "generated_at": "2026-10-05T12:42:03.941082+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:03 +0000"
+    },
+    {
+      "id": "fenland-news-1207e8f986490adfcc3acf41",
+      "headline": "Pizza Hut closes at King’s Lynn retail park",
+      "brief": "A long-standing Pizza Hut restaurant at the Hardwick Retail Park in King’s Lynn has closed its doors for good. The site, which served customers for decades, officially ceased operations on September 26. Signage has been removed and the premises are currently vacant. A spokesperson for the company thanked staff and customers for their support, noting that the nearest alternative branch is located in Peterborough.\n\nMeanwhile, the fried chicken chain Popeyes has begun advertising for a general manager for a new store in King’s Lynn. While the company has not yet confirmed the location or opening date for the new restaurant, the job listing offers a salary of up to £44,000.",
+      "original_url": "https://www.lynnnews.co.uk/news/pizza-restaurant-closes-after-decades-as-fried-chicken-chain-9485519/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/L257LWCURWCCBXM2NT2A.jpg",
+      "published": "2026-10-05T11:00:15+00:00",
+      "generated_at": "2026-10-05T12:42:00.130704+00:00",
+      "rss_date": "Mon, 05 Oct 2026 12:42:00 +0000"
+    },
     {
       "id": "fenland-news-814e8ada68ba42ab6f419f8b",
       "headline": "Knife Angel sculpture goes on display",
@@ -1012,94 +1100,6 @@
       "published": "2026-10-01T14:14:00+00:00",
       "generated_at": "2026-10-01T22:01:08.775175+00:00",
       "rss_date": "Thu, 01 Oct 2026 22:01:08 +0000"
-    },
-    {
-      "id": "fenland-news-5ee3330bd60c8582ebfc6743",
-      "headline": "New craft hub to open on King’s Lynn High Street this weekend",
-      "brief": "A new craft hub, Pia’s Place, is set to open on King’s Lynn High Street this weekend. Owned by Gaywood resident Pia Cawston, the shop will offer a variety of creative workshops, including basket weaving, watercolour painting, and children’s activities. The venue also features a selection of vintage items alongside coffee and homemade cake.\n\nThe doors open to the public this Saturday from 9am until 3pm, and Sunday from 10am until 4pm. Following the launch, the shop will operate from Wednesday to Sunday, between 9am and 4pm. The owner describes the new venture as a space for all ages to enjoy.",
-      "original_url": "https://www.lynnnews.co.uk/news/craft-hub-opening-on-town-s-high-street-this-weekend-with-so-9485224/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/D2ZHDKVAD448MBP8PUUW.jpg",
-      "published": "2026-10-01T14:18:52+00:00",
-      "generated_at": "2026-10-01T22:00:57.142984+00:00",
-      "rss_date": "Thu, 01 Oct 2026 22:00:57 +0000"
-    },
-    {
-      "id": "fenland-news-f6fd9288c5b9ee0f59c60560",
-      "headline": "Plans submitted for new East Cambridgeshire wind farm",
-      "brief": "A new wind farm project has been proposed for East Cambridgeshire. According to reports, the development has the potential to generate enough electricity to power more than 200,000 homes. Further details regarding the specific location and timeline for the construction have not yet been confirmed.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVUt4ZC1yQnBDaHVrUGFHLWZ6WFJxQnNWSkR3RWxHV2xJc1g4WHBURWJhU3l0blZWOGVoejBfLUwwSXlMY1EtV0dHMU9ybzJMdGpfNDNUUU5TYkRJOHJ6Q0hrRFVzbl9FdVpWLUNLTDNDWjJpVU9oclVlZFhNOXRUcUsybG9MY0NGZlJETGRPNzNFY0M0YkdnLQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-28T09:42:00+00:00",
-      "generated_at": "2026-10-01T11:51:46.770374+00:00",
-      "rss_date": "Thu, 01 Oct 2026 11:51:46 +0000"
-    },
-    {
-      "id": "fenland-news-0d2a17dfe90d87b1e3b674fc",
-      "headline": "Former Springwood student begins studies at Cambridge",
-      "brief": "A former student from Springwood High School in King’s Lynn has begun her university career at Cambridge. Eva Kalabina, who achieved three A* grades and one A in her A-Levels, is now studying Economics, Law, and Environment. \n\nThe 18-year-old credited the support of her teachers at the West Norfolk Academies Trust school for helping her secure her place. Looking ahead, Ms. Kalabina hopes to pursue a career within the technology industry or consultancy. She described her time at the Lynn school as a positive experience that helped her grow both academically and personally.",
-      "original_url": "https://www.lynnnews.co.uk/news/former-springwood-sixth-former-settles-into-university-life-9485115/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/9ZP42OSSKRLPYCZ6VXPT.jpg",
-      "published": "2026-10-01T10:29:14+00:00",
-      "generated_at": "2026-10-01T11:51:24.702081+00:00",
-      "rss_date": "Thu, 01 Oct 2026 11:51:24 +0000"
-    },
-    {
-      "id": "fenland-news-9cbf69cbd37931b559f619dc",
-      "headline": "Emergency lock closures leave boaters stranded in March",
-      "brief": "Boaters are currently unable to move through March following the introduction of emergency lock closures. The restrictions have left vessels marooned in the area. No further details regarding the cause of the closures or when the locks might reopen have been provided. Those planning to travel through the town by water are advised to be aware of the ongoing disruption.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MZnQtRDRSSXJzUFMxZlZ2bXIwYkh4OHhaUDJ2U3ZlZUpVS3Z1QmVtdGJBaGVhYjc3ZlJjVjdfc29hdllfRjl1eFMzODB2bTBLTlRDY2o0OXJQdw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-08-25T07:00:00+00:00",
-      "generated_at": "2026-10-01T11:51:03.405252+00:00",
-      "rss_date": "Thu, 01 Oct 2026 11:51:03 +0000"
-    },
-    {
-      "id": "fenland-news-efcb4c341b354e7cd335e8e3",
-      "headline": "Top ratings for West Norfolk leisure centres",
-      "brief": "Four council-run leisure centres in West Norfolk have been awarded a ‘very good’ rating following a national quality assessment. The sites, managed by Alive West Norfolk, include Lynnsport and St James’ Pool in King’s Lynn, Downham Leisure, and The Oasis in Hunstanton. \n\nThe Quest for Facilities scheme evaluated the centres through mystery visits and independent inspections, focusing on areas such as customer service, safety, and community engagement. In addition to this rating, the service has also received The Active Standard certification from the trade body ukactive. Council officials have praised the staff for their ongoing commitment to maintaining high standards across all four facilities.",
-      "original_url": "https://www.lynnnews.co.uk/news/four-leisure-centres-receive-top-ratings-9485165/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/OBT30WGMW8MYE8GBWYBI.jpg",
-      "published": "2026-10-01T11:27:43+00:00",
-      "generated_at": "2026-10-01T11:50:29.848220+00:00",
-      "rss_date": "Thu, 01 Oct 2026 11:50:29 +0000"
-    },
-    {
-      "id": "fenland-news-c689e41e6719da49e65eb7ca",
-      "headline": "Red Arrows to fly over Cambridgeshire this week",
-      "brief": "Residents across Cambridgeshire are being advised that the Red Arrows are scheduled to fly over the county this week. The display team will be visible from various locations, though specific flight paths and timings have not been confirmed in this report. Those hoping to catch a glimpse of the aircraft are encouraged to keep an eye on the skies throughout the coming days. Further details regarding the exact route and viewing opportunities are expected to be available through local news sources as the week progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzlsX1k0b3VacGFMeEhTT3NET25sRy1mNTlrNGpNSGNXRWZTYjJZUklMU19LWkR6S3B0OWhjNVBBY2Q2NUVhR3VSVGd5VWNLQlNQNDBrR0w2M0xVMWFXZzg2Ym9xZElyWjV2MW1IODNESDVqVWtWUFRlQU83WV9tQ2lacWthN1hSUVpIbGxB?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-30T09:59:54+00:00",
-      "generated_at": "2026-10-01T02:28:52.409678+00:00",
-      "rss_date": "Thu, 01 Oct 2026 02:28:52 +0000"
-    },
-    {
-      "id": "fenland-news-bf276080c40a11c4c61b5ad5",
-      "headline": "Women's football team to face Peterborough United in League Cup",
-      "brief": "The women's football team is set to host Peterborough United in the opening round of the League Cup. The fixture was confirmed following the latest draw. Fans are now looking ahead to the upcoming match as the side prepares for this first-round encounter.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQmFBUmxaLVhVMU5fTDNBaG41R19RY0pZUmNwTXlkTEdaQkhwU21tc2dvWllNeFZFcTlXOXJlVGtMa3kzN0lkSVA2U0tMcXcwaW5SNWlJNkUtc29pY3RMbVcwRVdOS1M4cUs4YnR5YlNrWTYyT0hwOUlVejBiYWJJMXMxd3RtZEU5Vzc0VXFmRGcxX3JoT0E?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-09-30T13:57:52+00:00",
-      "generated_at": "2026-10-01T02:28:51.344667+00:00",
-      "rss_date": "Thu, 01 Oct 2026 02:28:51 +0000"
-    },
-    {
-      "id": "fenland-news-4773c7e6b3dc037f5d4c6b56",
-      "headline": "Long-term lease secured for Ely Museum",
-      "brief": "Ely Museum has confirmed it will remain at the Old Gaol site for the next century. The institution has successfully secured a new lease agreement that runs until the year 2125. The museum, which is housed in the historic building, will continue to operate from the premises for the foreseeable future.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPR3RqZ0pkVG0yY3FMakExWTRZbFhpeHRfVFNOMC14NkdkbW52Ri1Dby1WTUxnT1BpakE5QmFOdmJhTFB1eElkNjdwakwtRFNkWXRHZG12XzNfZTRfQ0Fia1ZUV3R0cWdZYV95SWxlaHRGVnQxcU9TVGdBMUl0SFl6VTVDUWlaaHhveEFfdjRCY2dfN3M?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-30T13:30:00+00:00",
-      "generated_at": "2026-10-01T02:28:44.716353+00:00",
-      "rss_date": "Thu, 01 Oct 2026 02:28:44 +0000"
     }
   ]
 }
