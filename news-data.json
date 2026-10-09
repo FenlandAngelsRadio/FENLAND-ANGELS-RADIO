@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-09T12:07:30.636069+00:00",
+  "updated_at": "2026-10-09T21:54:36.636300+00:00",
   "stories": [
+    {
+      "id": "fenland-news-f75cbacd0774e1b717fa70da",
+      "headline": "East Cambridgeshire cottage to be replaced by flats",
+      "brief": "A cottage in East Cambridgeshire is set to be demolished. Planning permission has been granted for the site to be redeveloped, with the existing property being replaced by a block of flats.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNG55NUU0OW9fUFhVeHVfYVByWFRaczhhcnpZOF95X0RTcWVJYlI0OEZNakg4ck1PWGF2UGp2ekplSjlpZmkxTW9aOElWdV9jV0l6eWp1eFZ3TnRHZTdrUW1DMjRYaldLNEZDV1VCN0l6OXlOT3JtMFV5ZFlJcnR5Wk1DVkdwX3N6ZFg5U25tYWZWWWM?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-09T14:15:00+00:00",
+      "generated_at": "2026-10-09T21:54:05.587603+00:00",
+      "rss_date": "Fri, 09 Oct 2026 21:54:05 +0000"
+    },
+    {
+      "id": "fenland-news-8466cddf64c5397ad4246bf0",
+      "headline": "Long-term future secured for Long Sutton Market House",
+      "brief": "Lincolnshire County Council has announced that the long-term future of the Market House in Long Sutton has been secured. The local authority confirmed the news regarding the historic site, though further details on the specific plans for the building have not yet been released. Residents and those interested in the future of the town’s landmarks are advised to keep an eye on official council updates for more information as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWWl5ZE9YeFM2T3BzMGpSMEF4WXctSU91QnBMbTZlSFpVbzB0d3I5VzRQeTBha18tN0gxOHhRNUpqQ2w5MzdjRTY1OHlwNldfSjNoNGRTbXJGWXVTTWJienZCZFlzV050OTJvVWFSZ2l5bEJER1JSclpTNE5lbl8xVy1KQlRjWjdvQWYxT1NaOHJJV3g3RHRiWUhzM3U3dw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-03-24T07:00:00+00:00",
+      "generated_at": "2026-10-09T21:53:53.963755+00:00",
+      "rss_date": "Fri, 09 Oct 2026 21:53:53 +0000"
+    },
+    {
+      "id": "fenland-news-d06c344426fba8cb0d93c446",
+      "headline": "Police appeal for missing woman",
+      "brief": "Cambridgeshire police have expressed growing concern for a woman who has been reported missing. Officers say she failed to return home as expected, prompting an appeal for information. Authorities are urging anyone who may have seen her or who has knowledge of her current whereabouts to come forward to assist with their enquiries.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNREZ0d0dGUHVlZFladTJESk9sR1NWLXNuMmFfazZTclYzTWg2T19iOER2NmtlMl9xc18wbHRGZ1dIeW4wMkRCc3ZqS3pqQ0xzUjFLR3JNUkJuLVhWN0phb0c0ZWpRWklNaTM1QlhDRkZHNDhfWnQydXNOeFFEejhSc1g3THloQ0ctcm9uY21qbGZDVzJi?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-09T10:22:00+00:00",
+      "generated_at": "2026-10-09T21:53:44.876084+00:00",
+      "rss_date": "Fri, 09 Oct 2026 21:53:44 +0000"
+    },
+    {
+      "id": "fenland-news-a38ce5b36af92311a25f1aad",
+      "headline": "Wisbech cinema to screen capybara documentary this Sunday",
+      "brief": "A new documentary exploring the global popularity of the capybara is coming to The Light cinema in Wisbech this Sunday. Titled \"The Route to Cappyness,\" the 99-minute film examines how the rodent became an internet icon and a symbol of calm. Directed by Sharon Walia, the production features footage filmed across Brazil, Japan, the United States, and the UK. The documentary is rated U and is scheduled to begin at 5.35pm.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/documentary-film-about-the-capybara-showing-at-the-cinema-on-9485388/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/WV4Z56VQ564OEYP122NY.jpg",
+      "published": "2026-10-02T13:47:50+00:00",
+      "generated_at": "2026-10-09T21:53:34.023139+00:00",
+      "rss_date": "Fri, 09 Oct 2026 21:53:34 +0000"
+    },
+    {
+      "id": "fenland-news-583113eeba2d4cdb131d0b83",
+      "headline": "King’s Lynn man charged with public order offences",
+      "brief": "A 48-year-old man from South Lynn is due to appear in court next month following his arrest on Saddlebow Road. James Evans, of Saddlebow Road, has been charged with two counts of public order offences. The charges relate to an alleged incident on September 21 at a public building on Chapel Street, as well as a further incident during his arrest yesterday.\n\nMr Evans was taken to the King’s Lynn Police Investigation Centre for questioning before being released on bail. He is scheduled to appear at Lynn Magistrates’ Court on November 5.",
+      "original_url": "https://www.lynnnews.co.uk/news/man-to-appear-in-court-accused-of-public-order-offences-9486399/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/RH9Z78DWCQDZ17CXPQBH.jpg",
+      "published": "2026-10-09T14:53:15+00:00",
+      "generated_at": "2026-10-09T21:53:21.447272+00:00",
+      "rss_date": "Fri, 09 Oct 2026 21:53:21 +0000"
+    },
     {
       "id": "fenland-news-6876234cae4861108cc9513a",
       "headline": "Cambridgeshire resident targeted in attempted phone scam",
@@ -1045,61 +1100,6 @@
       "published": "2026-10-04T05:22:20+00:00",
       "generated_at": "2026-10-04T16:00:03.321830+00:00",
       "rss_date": "Sun, 04 Oct 2026 16:00:03 +0000"
-    },
-    {
-      "id": "fenland-news-f8f0b1a51d01359cc4fc3673",
-      "headline": "Local diners name top Cambridgeshire pizza spots",
-      "brief": "A recent report from the Ely Standard has highlighted the best-rated pizza restaurants across Cambridgeshire. The rankings were compiled based on feedback and reviews provided by local diners in the area. Residents looking for recommendations on where to eat out can find the full list of popular venues on the Ely Standard website.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMWxHbG4tM1VPeVhpRjdqVDg4THN3ZmtRRGQzZms2RzVhLTlZb3Y5RS1LY0tPNEhBZWh5b3FiREdRWTc4T2ZaanhFSnVWMm9LazV0Tnl2RHBjemtOUGZJTEVMZHVXd3JLRTNlT25Sck9SU0dRbzAwaGdVcGZKZHByRUxrZ25uWkc1OHp2Ympkd0U?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-04T14:16:11+00:00",
-      "generated_at": "2026-10-04T16:00:01.219506+00:00",
-      "rss_date": "Sun, 04 Oct 2026 16:00:01 +0000"
-    },
-    {
-      "id": "fenland-news-3d9ed4d9fbc5dc6340dd2ab7",
-      "headline": "Charity badge to feature infamous March goose",
-      "brief": "A pin badge depicting a well-known goose from March is set to go on sale to raise money for charity. The bird, which gained a local reputation for its antisocial behaviour, will be immortalised on the new accessory. Details regarding which charity will benefit from the proceeds or when the pins will be available for purchase have not yet been confirmed.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOYTJkNTRtc3lMT3N1Z2N1X1pPcEQwV1Z5UlREd2t5SkN5V1FSNWZvcVhQM3pST2ZYc3FvZ1BUeEt0by1UYngwaVZRZHZ4djRYV21WNEJpdFE3Q3pf?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-01-14T08:00:00+00:00",
-      "generated_at": "2026-10-04T15:59:54.252065+00:00",
-      "rss_date": "Sun, 04 Oct 2026 15:59:54 +0000"
-    },
-    {
-      "id": "fenland-news-9c176874e426e6c776544250",
-      "headline": "Long Sutton care village staff receive award recognition",
-      "brief": "Staff at a care village in Long Sutton have been honoured at a recent awards ceremony. The team was recognised for their work in turning around the facility. Further details regarding the specific awards or the individuals involved have not been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONzdwVGU5RnZwQlhZZ2FJOXQyaW16OEVRZ3ktQnE1eDVjWmtRWFB3VHhZd2tCalJjdlgxVUVLZTN2Wm56cjkzc0Y2ZUs3ZGFBN1lRQmFaSE1DX05hcWt5ek11YUlEdm83RndlcVpWN0x0eC1qV1FqMkxmQ0txZThBUDhPZ0h2TUZiMTN5UjdDRUxxQnc?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2018-03-01T08:00:00+00:00",
-      "generated_at": "2026-10-04T11:19:47.361511+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:47 +0000"
-    },
-    {
-      "id": "fenland-news-8143b785e1884d2e356b50b6",
-      "headline": "Protest held against Cambridgeshire puppy breeding site",
-      "brief": "Hundreds of people have taken part in a demonstration against a puppy breeding facility in Cambridgeshire. The march was held to voice opposition to the site’s operations. No further details regarding the location or the specific organisers of the protest have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT3dTbWo5Q3BjblpzV2E2VllzSExzbUJIWHRYLTZCbDB4a3lITF9yeXpnVTFfb01sUWR5NFVtdU1paWpReHZTSDVsT1IxbkdZOFY1eHE5Q09lcjZ0MGpodHdBcmpiYTVsSzUyOE9jSUI5ajc1VEs4WVlzVkQ3MVBVSGxKcGlCeExRcmVCVGdDVQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-03T03:30:00+00:00",
-      "generated_at": "2026-10-04T11:19:46.407584+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:46 +0000"
-    },
-    {
-      "id": "fenland-news-44a6fccf280d33d4ccd7c020",
-      "headline": "Peterborough school expansion plans approved",
-      "brief": "Peterborough’s cabinet has given the green light to a five point three eight million pound project to expand school facilities in the area. The investment aims to increase capacity within the local education system. Further details regarding which specific schools will benefit from the funding have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmWldsVjBDVFFMakZuaXlMbDZGX21mSHFYRmFFNFY0R2J1NnF1OWdRNnczNGFmbTJ4UDc1Qm5mdk9ZdUV2R3dJelBtc3RTckpEMjlFR1djZHdCanI0Z0E?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-04T05:48:44+00:00",
-      "generated_at": "2026-10-04T11:19:45.393405+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:45 +0000"
     }
   ]
 }
