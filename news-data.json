@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-09T03:07:30.092499+00:00",
+  "updated_at": "2026-10-09T12:07:30.636069+00:00",
   "stories": [
+    {
+      "id": "fenland-news-6876234cae4861108cc9513a",
+      "headline": "Cambridgeshire resident targeted in attempted phone scam",
+      "brief": "A woman from Cambridgeshire has reported an attempted scam after receiving a phone call from someone claiming to be the Pope. The caller requested a payment of £500. The incident, reported by the Ely Standard, highlights a recent attempt to defraud a local resident. Authorities continue to advise the public to remain vigilant against unexpected requests for money over the telephone.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRmx1ZjZSVGlIMWo4WVhxSmFkc00wS25DN2N3amlSNUJxVUVmdjhYdWpqRU5YMEdqQi1nemFYNHc3dlJOdnJuM3pkeTQtUjRkS0twOWJxcTNVaWM2VmM2ZXhtZXB0SDJlcVB6ZlpSVjI4a01BV2ZBVmVoSHJRdVNNRVB0d1NNQmJBRS1QSkNSS2w?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-07T03:00:00+00:00",
+      "generated_at": "2026-10-09T12:07:06.250433+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:07:06 +0000"
+    },
+    {
+      "id": "fenland-news-7557ce7081f8ee6948348aa9",
+      "headline": "Two men convicted of hare coursing in Cambridgeshire",
+      "brief": "Two men have been found guilty of attending a hare coursing event. The conviction was confirmed by Cambridgeshire Constabulary. No further details regarding the location or the sentencing of the individuals have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbDhjRWgzUE9Xd25HT1Fic0tuMjFTUDZ4WW9kWW9nM0VWNm5zQ2w4Q3liZm9xNmZQRkxWYUtIUExGRWxMa3ZwQTVZZV8zQmJOU2VYTThfbWNIV3lTSTF6TlRicWFHNmQtZlp5OVRmVTlYYkctM3ZRaXpZdlZjNkVnbEgwYlZHSnlpRnNVYkJ6WGxKTWZpRHdUNTNVRTNkS055T21tZ2FjUjVuVlJEOFpsdTZCektnY05xTjZWbQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-03-03T08:00:00+00:00",
+      "generated_at": "2026-10-09T12:07:05.157753+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:07:05 +0000"
+    },
+    {
+      "id": "fenland-news-7f92f8870299c5bce4e0e361",
+      "headline": "Admissions remain suspended at King’s Lynn mental health ward",
+      "brief": "Admissions to the Samphire Ward at Chatterton House in King’s Lynn remain temporarily paused. The Norfolk and Suffolk NHS Foundation Trust says the suspension is based on quality and safety grounds and will continue for the coming months. No date has been set for the ward to reopen to new patients.\n\nThe trust confirms that Chatterton House remains open, and anyone requiring inpatient care will be offered a bed elsewhere within the organisation. The pause is part of a wider transformation programme for mental health services across the region, which includes plans for a new neighbourhood mental health centre in King’s Lynn. Officials state that patient and staff safety remains their highest priority while this work is completed.",
+      "original_url": "https://www.lynnnews.co.uk/news/admissions-to-mental-health-ward-remain-paused-with-no-dat-9486208/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/6ICSPLKKGG65TKTP229F.jpg",
+      "published": "2026-10-09T05:00:00+00:00",
+      "generated_at": "2026-10-09T12:07:04.068975+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:07:04 +0000"
+    },
+    {
+      "id": "fenland-news-dd2e7c8bc50ca79943098a04",
+      "headline": "Changes to Peterborough coaching staff",
+      "brief": "Peterborough United have confirmed that coaching staff members Ryan Harley and Connell Rawlinson have left the club. The departures were announced following reports from the BBC. No further details regarding the reasons for their exit or potential replacements have been provided by the club at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45VXFERlptc0tHbnZkTEFIZHJwSUp5N2NEYTF1bmFzVUNTMkRUN0NCZE93QUlTbjRkNTRPajE1NzBQMFZRRXYzdUQzN29fV0pySzJwOWg3eGVXdlVLUUZYcU9HUjJMaWN5SnZR?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-09T11:48:41+00:00",
+      "generated_at": "2026-10-09T12:07:02.172150+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:07:02 +0000"
+    },
+    {
+      "id": "fenland-news-4c9958c0a0529a497f56b60d",
+      "headline": "Concerns raised over road maintenance funding in East Cambridgeshire",
+      "brief": "A report from the Ely Standard suggests that East Cambridgeshire is receiving an unfair share of the budget allocated for road maintenance across the county. The publication claims the district is getting a raw deal regarding how these funds are distributed. Local officials and residents have expressed concerns about the current system used to determine how money is split between different areas. There has been no official response yet regarding a potential review of the allocation process.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHBSRDRwbzJDZWRrLU5pRnJqakdVSFhxOUFRaGpNZko0WEI2d1JtVnBISzVhY3ZJX3BndW5feXRhSVk2eDAxOGZUWW5pdktkTTE1NVd2MVpobThRd0ttak9admNTSS1nR0FWNkdxODNQQXV0NkNkVEc3Z1hjTmswbjBZbUNuV0RxTHlJWTRMNzhkUnpaUTdOV1dZMXBNTEFSVm9j?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-09T11:43:00+00:00",
+      "generated_at": "2026-10-09T12:07:01.300061+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:07:01 +0000"
+    },
+    {
+      "id": "fenland-news-f6cd8451fc0f8b0081db0fff",
+      "headline": "Police appeal for missing woman",
+      "brief": "Cambridgeshire Police have issued an appeal for a woman who has been reported missing. Officers say they are becoming increasingly concerned for her welfare after she failed to return home. \n\nAuthorities are urging anyone with information regarding her whereabouts to come forward. Further details are expected to be released as the search continues.",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRU01X1pqYlNma0lEMXNKTkZvS3hpVEpwcmZhUFlENUE4THVYWDlRd2E1cWNKeTBRVDdob3RoTzk0eFNjYTJTNDcyajlNUlEzNDJUdElDRjlIa3RaUExrSV83dG50MGNINFU1bm5ZNjhPWC1ERlB0ZzN4TmpXejlsd3FJUm1xN3F5S1FPclNhSG1GdTlRa21QNzFLY0dWQVU?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-09T10:22:00+00:00",
+      "generated_at": "2026-10-09T12:06:59.353015+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:06:59 +0000"
+    },
+    {
+      "id": "fenland-news-331ee779df799ddbce72904d",
+      "headline": "Overnight roadworks planned for Hardwick Roundabout",
+      "brief": "Motorists in King’s Lynn are being warned of upcoming disruption as survey work begins at the Hardwick Roundabout. Starting Monday, October 12, Norfolk County Council will implement overnight lane closures and traffic light controls on sections of the A47 and A10. These measures are scheduled between 8pm and 6am to minimise impact on daytime traffic.\n\nThe surveys are part of the West Winch Housing Access Road project and are expected to last until the end of November, though some work may extend into early December. Contractors will be assessing road surfaces and drainage. While the majority of the project is scheduled for overnight, officials have confirmed that any particularly noisy tasks will be completed before 11pm.",
+      "original_url": "https://www.lynnnews.co.uk/news/disruption-for-motorists-as-work-starts-on-busy-roundabout-9486305/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/NQ7GVOEONQ4XC04SZ0YC.jpg",
+      "published": "2026-10-09T09:28:08+00:00",
+      "generated_at": "2026-10-09T12:06:58.131096+00:00",
+      "rss_date": "Fri, 09 Oct 2026 12:06:58 +0000"
+    },
     {
       "id": "fenland-news-ae10160490c343ad9e990ed1",
       "headline": "Family pays tribute to man found dead in Peterborough",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-04T05:48:44+00:00",
       "generated_at": "2026-10-04T11:19:45.393405+00:00",
       "rss_date": "Sun, 04 Oct 2026 11:19:45 +0000"
-    },
-    {
-      "id": "fenland-news-689aa39669194fa8001faebb",
-      "headline": "Five Cambridgeshire criminals convicted in September",
-      "brief": "A report from the Ely Standard confirms that five individuals were convicted of criminal offences across Cambridgeshire during the month of September. No further details regarding the specific identities of those involved or the nature of the crimes have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWUxteXZhTDJZelowNDhHajdtRU9nZkM2R0NKYkRBY08zaDBwY2RYU0hzdXJLMG5aZ2NfX1dRMHNUREh3LU1jQ2daVzBrTEVobmpNSHlCczZEUEhvemRVcXlxTjRhR3pZakJ5X05vR0pXZ1FoWU9ORjZ5bmdfaDlNS2pJWlJBNzlhY2ZMQWI2T0dMUQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-04T09:52:26+00:00",
-      "generated_at": "2026-10-04T11:19:44.243272+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:44 +0000"
-    },
-    {
-      "id": "fenland-news-9b62c7b61f0def69e98a2177",
-      "headline": "New play equipment installed at Westmead Avenue in Wisbech",
-      "brief": "Children in Wisbech have a new place to play following a series of updates at the Westmead Avenue site. Fenland District Council has completed the renovations, which feature colourful equipment designed for youngsters aged between two and eight. \n\nCouncillors Sidney Imafidon and Samantha Hoy visited the location this week to view the improvements. Work is now set to conclude with a final tidy-up of the area where the previous equipment was situated. The project is part of a wider programme of play area updates taking place across the district.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/play-area-in-wisbech-updated-with-new-equipment-9485427/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/39QGCK701P8U0MD5BFSQ.jpg",
-      "published": "2026-10-04T05:00:00+00:00",
-      "generated_at": "2026-10-04T11:19:41.707763+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:41 +0000"
-    },
-    {
-      "id": "fenland-news-499c254d84d1f049bc04ee30",
-      "headline": "King’s Lynn man banned from driving for third time",
-      "brief": "A 33-year-old man from King’s Lynn has been disqualified from driving for 40 months following a drink-driving incident. Anthony Purdy, of Gaskell Way, crashed his Ford Transit van into railings on Dairy Way in Gaywood on the evening of September 15. \n\nPolice later attended his home address, where a breath test revealed he was more than double the legal alcohol limit. At Lynn Magistrates’ Court on Thursday, Purdy pleaded guilty to drink-driving and failing to stop after a collision. In addition to the driving ban, he was fined £700 and ordered to pay further costs and surcharges. Magistrates declined to offer a rehabilitation course, noting this was the defendant's third disqualification for alcohol-related driving offences.",
-      "original_url": "https://www.lynnnews.co.uk/news/drink-driver-handed-third-disqualification-after-crashing-va-9485276/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/JVPS6L7QK21LGMU1ZZ8U.jpg",
-      "published": "2026-10-04T05:00:00+00:00",
-      "generated_at": "2026-10-04T11:19:40.088599+00:00",
-      "rss_date": "Sun, 04 Oct 2026 11:19:40 +0000"
-    },
-    {
-      "id": "fenland-news-f78d2ba5b78908ed2df6255e",
-      "headline": "Cambridgeshire launches pilot for AI crime reporting tool",
-      "brief": "Cambridgeshire has become the first area in the United Kingdom to trial a new artificial intelligence-powered tool for reporting crime. The technology is currently being piloted within the county to assist with the submission of reports. This initiative marks the first time such a system has been implemented in the UK.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ1RWWkxvTjk1U2JEY3l1UkZ4QTNKeGd3Q2dOWTUyWWpRZU1fbTVzNThVOXZqMTg0RGE5SnVWVnJUSzRXUVZpWHp2blFNa1FBOVVBUnpPNFJ1TlNVM0pRekdZdmdEeGRyeF9nSHZYMlVYc1dPbEVpZUFMRWg0c2R1V2JSWGk5blRKajhRMU5wWDloRjZLNmhUaGFZX3htWjYzd3pv?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-29T14:34:43+00:00",
-      "generated_at": "2026-10-04T02:53:09.119574+00:00",
-      "rss_date": "Sun, 04 Oct 2026 02:53:09 +0000"
-    },
-    {
-      "id": "fenland-news-7409fd8acfae8778b89d4953",
-      "headline": "Charity tea party held at Cambridgeshire care home",
-      "brief": "A care home in Cambridgeshire has hosted a tea party to raise money for charity. The event, reported by the Ely East Cambridgeshire News, brought the local community together to support the fundraising effort. Further details regarding the specific charity supported or the total amount of money raised have not been disclosed.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0JmM2RZZXRWTU9ITkR4T3Q3bjc0OEhfdUFHTklpalVhNHo4U3ZuYU9ma1ViYmZGaG1NX3pNNk1rQmJfMlltWWIteFA3cTFXS2ZnUmxROXpnNXNueU9YQkZEY29UVXd5RWNmVUtIZ0kzS1JHVWl5R2hRN3d4cFA5M2xUVVBWOEJUaFFCZ2NXZDdUMEVTRWhPSEZGUXFDbWs?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-03T11:00:00+00:00",
-      "generated_at": "2026-10-04T02:52:53.146810+00:00",
-      "rss_date": "Sun, 04 Oct 2026 02:52:53 +0000"
-    },
-    {
-      "id": "fenland-news-7e3c1449581f5899865922c8",
-      "headline": "Investigation follows death of young boy in water",
-      "brief": "A young boy has died following an emergency incident involving a child in water. Ambulance crews were called to the scene to provide urgent assistance, but the child could not be saved. No further details regarding the location or the circumstances of the incident have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVVBkdktReEJqM2lfd3ZQdDZ0WVV4djZIWmxNQ0o5ekJQdHYyaTBjcmItTzl1YjRTd1Y3WGFLTF9MbUVvYl83ZDJseGVPM09NS3NhVEI1TU82cklJZzlmZGZQelB5bjZGQ25MVmNZN3Byd2JVMXc2czA3cUMzamJPY1FMekZDdTZBbnZEVzhuWnNTZ9IBlwFBVV95cUxQeXJWTVJib1MteE43cU8wVVd1dFRrVFg4UW9LWEFnWlpvanVwSl9QR25ScVpuUngwcWNYbXFOWGZra3ZKcGdsNC1UMnZ0NzZIWUVmcjlSblJHZnhpckJTQlR5WDhsTHExWC1MY2syOFBIYW9RM1FjYXJISkhPc1g1c1ZxQ1A4YnFhTGQ5V2xlT1JEVDZ4TTkw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-04-07T07:00:00+00:00",
-      "generated_at": "2026-10-04T02:52:48.948756+00:00",
-      "rss_date": "Sun, 04 Oct 2026 02:52:48 +0000"
-    },
-    {
-      "id": "fenland-news-d55c4cb4ab52426d3767cc0c",
-      "headline": "Local football round-up: FA Cup progress and league updates",
-      "brief": "Spalding United have secured their place in the final qualifying round of the FA Cup. In other local football news, Deeping Rangers recorded a victory following a goal from Gash, while FC Peterborough delivered an impressive performance against the league leaders. Meanwhile, Peterborough Sports have provided an update regarding their new manager, following a continued strong run of form for the club.",
-      "original_url": "https://news.google.com/rss/articles/CBMihANBVV95cUxOVWNWdWZ2ZjRfSk93MHpmcVVyT3VzYTE2RW1qazUzUU9kYXdSSXRqQjhCTTNOSm5BcEQ4MFctZENud3I0TDEzLXpHNWdKQm54MzJHYkktUW92REd1MFhpV2lwZzQ4d2tSUHRRdU5YZW95N3BHUldsaEtENjBxUEtseFA2NzVQZThXZTZWbm8tTFBfYi0tNjRqMTlpb2FzaHNkUkZMc2RfcTAteUV2anJWckRia3BYWWs2ak90X2dxa1U4dGVObnBmaXlKZUZhRHBUbnl6T2ZzQUZMLVprU0ZzS1M2UEVneGpTajFTS3ljbzY5QVpQTlpaVWhTcVlCZmVnSWs3b3hrTTBzeXVibFdrRXgxYnpZbFJicFFtdEVzYTQ4bEpLN2tneExETEV3UF9ibndBdmszckh3dmt4ekRwYzk3eVhkVm52a0tCcHZLTTJpeHVhbGluamQtVjBlSnJQemxsd091bDl4aUVVYnA5Q0JKYUU1OG9YX3hyZW1EQlM4WnVi?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-03T20:34:00+00:00",
-      "generated_at": "2026-10-04T02:52:33.179415+00:00",
-      "rss_date": "Sun, 04 Oct 2026 02:52:33 +0000"
     }
   ]
 }
