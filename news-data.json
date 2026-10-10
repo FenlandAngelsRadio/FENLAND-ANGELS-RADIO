@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-10T02:48:44.552561+00:00",
+  "updated_at": "2026-10-10T11:25:01.576161+00:00",
   "stories": [
+    {
+      "id": "fenland-news-e6e98385f6a9ec3a306e050c",
+      "headline": "Historic sketch captures Wells-next-the-Sea harbour transition",
+      "brief": "A new feature from the Lynn Museum highlights an ink sketch of Wells-next-the-Sea harbour, created by Gordon H. Lowerison at the turn of the 20th Century. The artwork depicts the port during a period of significant change, as the arrival of the Wells-Fakenham railway in 1857 led to a decline in traditional coastal freight. The drawing features a mix of sailing vessels alongside industrial cranes and railway tracks, illustrating the town’s shift away from its seven-century history as a major maritime hub. While the harbour is now a popular tourist destination, the museum notes that the quayside remains a central part of the town’s identity.",
+      "original_url": "https://www.lynnnews.co.uk/news/sketch-of-harbour-from-its-days-as-an-important-port-9485625/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/T31LYZ88P6ULDRBMEN6V.jpg",
+      "published": "2026-10-10T05:00:00+00:00",
+      "generated_at": "2026-10-10T11:24:40.544133+00:00",
+      "rss_date": "Sat, 10 Oct 2026 11:24:40 +0000"
+    },
+    {
+      "id": "fenland-news-dc4a43b18790b0a83320794f",
+      "headline": "Peterborough City Council seeks views on taxi safety proposals",
+      "brief": "People living in and around Peterborough are being invited to share their opinions on proposed changes to local taxi safety regulations. The city council is currently consulting the public on the new rules, which aim to update standards for the trade. Residents and those who use taxi services in the area can now provide feedback on the draft proposals. Further details regarding the consultation process and how to submit comments are available through the local authority.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLazRGZ2xjN28tRFQwVVRLaDFxV2dTc3UxYUdEVHRQNmlBTFVGZGVtWjVqNk1YdWNMeEJwQkJCcUhJbS1hcVNDYno5bmtMeHd1RjZ1UXpBbUphcjQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-10T05:36:38+00:00",
+      "generated_at": "2026-10-10T11:24:33.597761+00:00",
+      "rss_date": "Sat, 10 Oct 2026 11:24:33 +0000"
+    },
+    {
+      "id": "fenland-news-e4c2dc600cc675e42b9ea5d6",
+      "headline": "Anglian Water faces charges following fish deaths in Cambridgeshire",
+      "brief": "Anglian Water has been formally charged following an incident involving the death of fish in a Cambridgeshire dyke. The legal action follows reports regarding the environmental impact on the waterway. No further details regarding the specific location or the circumstances surrounding the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BOWtuSkFqVEtSNGEtWFlhSVhrd3E1QjlCdFpIWGxUUlVSenlwZHk0SU5McTRKbGpzV1FQQzZqdjFkRTBTb2hTeDNSQkI4MUV2d3ZpT09hQWZQWE0?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-10T05:39:36+00:00",
+      "generated_at": "2026-10-10T11:24:22.499861+00:00",
+      "rss_date": "Sat, 10 Oct 2026 11:24:22 +0000"
+    },
+    {
+      "id": "fenland-news-8ee8536a6509fce9057dc313",
+      "headline": "Campaign launched to improve child road safety in the Fens",
+      "brief": "A new initiative is aiming to keep children visible as the nights draw in. The Be Bright Be Seen campaign, sponsored by Ashwood Homes, is distributing thousands of free reflective keyrings to schools, sports clubs, and youth groups across the region. Organisers are encouraging parents and teachers to ensure children are easily seen by motorists as the clocks go back on October 25.\n\nLocal youth leaders and educators can apply for an allocation of the reflective discs online at the Fenland Citizen website. Applications close on October 25. Residents are also reminded to use bright or reflective clothing when walking or cycling during the darker, winter months to improve safety on local roads.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/our-be-bright-be-seen-campaign-to-make-children-visible-on-d-9486181/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PQJABP1DTRKST7NVO34L.jpg",
+      "published": "2026-10-10T05:00:00+00:00",
+      "generated_at": "2026-10-10T11:24:05.540320+00:00",
+      "rss_date": "Sat, 10 Oct 2026 11:24:05 +0000"
+    },
+    {
+      "id": "fenland-news-df7c8b26e939ae39cdbf15d6",
+      "headline": "A149 drainage works to begin near King’s Lynn",
+      "brief": "Drivers using the A149 Queen Elizabeth Way should prepare for disruption starting Monday, October 19. Essential drainage maintenance is scheduled for the Jubilee roundabout on the outskirts of King’s Lynn. The project is expected to last for six weeks and will involve alternating lane closures throughout the site. \n\nTo ensure safety for both the public and the workforce, a temporary 30mph speed limit will be in place for the duration of the works. Norfolk County Council has commissioned the £132,000 scheme to improve the local infrastructure. Motorists are advised to allow extra time for their journeys while these improvements are carried out.",
+      "original_url": "https://www.lynnnews.co.uk/news/lane-closures-and-reduced-speed-limit-during-a149-work-9486321/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/8O5042WDZVKC2YBIE48W.jpg",
+      "published": "2026-10-10T05:00:00+00:00",
+      "generated_at": "2026-10-10T11:23:58.241899+00:00",
+      "rss_date": "Sat, 10 Oct 2026 11:23:58 +0000"
+    },
     {
       "id": "fenland-news-39abb801d20e44d36bd2edc2",
       "headline": "E-scooter battery sparks house fire in Spalding",
@@ -1045,61 +1100,6 @@
       "published": "2026-10-04T23:58:53+00:00",
       "generated_at": "2026-10-05T02:25:40.407431+00:00",
       "rss_date": "Mon, 05 Oct 2026 02:25:40 +0000"
-    },
-    {
-      "id": "fenland-news-b9f506f8c205bc613ecfaf7a",
-      "headline": "Cambridgeshire roadwork delays drop following fines",
-      "brief": "New figures show a reduction in roadwork overruns across Cambridgeshire. The number of projects exceeding their planned duration has fallen by 42. This decrease follows the implementation of £424,000 in fines and charges issued to contractors. The data, reported by the Ely East Cambridgeshire News, suggests that the financial penalties have been effective in encouraging works to be completed on schedule.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQVllNFRGbXBvMVVtS095VW5pX2JIVzd3cEZxRVl2ZUtfanJlZDg0N3lFb1ZxdFczalJid0h3VXRwd1M0LWpfWU5UQlBabUR0M0dwNmhLbERhRUlMMDhKc0xwNC1EQ1ZteDk5eUd0Z0ZfenBkVGNlTTFlRkRpQ2RKMHJwN0JCZGJLZVdlMktIeTZxZjJ0YVE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-04T16:32:00+00:00",
-      "generated_at": "2026-10-05T02:25:37.470456+00:00",
-      "rss_date": "Mon, 05 Oct 2026 02:25:37 +0000"
-    },
-    {
-      "id": "fenland-news-7d8498d30d600aca31f45598",
-      "headline": "Long Sutton Neighbourhood Plan receives support",
-      "brief": "Long Sutton Parish Council has received backing for its neighbourhood plan. The move, reported by the Spalding South Holland News, marks a step forward in the local planning process for the area. No further details regarding the specific contents or the next stages of the plan have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNWRLbU1Ic25pTUJUdl9FSlY0QnR3eXRNRE1uYmpKb1AxZ25UWldqZHVhLTZ0dTlaNXotUnZaN1lpUDI0Q0VDS1ZDSjQyY0sxU1pQNV93RmYyNmtXa29rWmstRGF4VVNjQkxRLVpGcFhDUG1XUVQ3THNPbXcwT2Z6WXVoTnI0YVFLbDJNQU5oV3hSUUF2YWlGLXUtNmZxLXRjRVRTZzdhaV84ejRpTWd6XzJrX0QwRWho?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2018-06-29T07:00:00+00:00",
-      "generated_at": "2026-10-05T02:25:34.218403+00:00",
-      "rss_date": "Mon, 05 Oct 2026 02:25:34 +0000"
-    },
-    {
-      "id": "fenland-news-dd57b0dfc28404746df9663a",
-      "headline": "Serious collision on the A142",
-      "brief": "A driver has been taken to hospital with serious injuries following a crash on the A142. Emergency services attended the scene of the incident. No further details regarding the circumstances of the collision or the current condition of the individual involved have been released at this time. Motorists are advised to remain aware of potential disruption in the area.",
-      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFJfZEJsclRaTXdyMk9mY3lQN29QUlhNWTBhN3VlNDlPMUVvQVNFblFBU2M3ZEt6dm1rR3FaUkQ3Z0E5OU1fOW1fbFM4a2hPSnpCcUF1WlRURWVUV3lqanpxZzZtUkxCd1ZTaU1LTTlfV0t0WGZDbGs3dHFpajRrTmEtdVZ3WWpsMHdj?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-28T09:35:00+00:00",
-      "generated_at": "2026-10-04T20:29:41.790551+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:41 +0000"
-    },
-    {
-      "id": "fenland-news-fed9274c36b19cd3fe2edc3c",
-      "headline": "Robbie Savage comments on Peterborough United role",
-      "brief": "Robbie Savage has spoken about his position at Peterborough United. The former footballer has stated that he is prepared to prove his critics wrong in his new role at the club. No further details regarding his specific responsibilities or the nature of his appointment have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS1lkd0pMTXFzZmdxV2s2RGxHbW1TVE9BcVNXOEg4Vm1iQWIzVk1DVEJZSFZxQUx4eTFmalR3MFAzajRRdHBhQl9WSUxpbTA3azhqTXF2TkVOSUUyYkd3aHZZbWxjZ2lFYnB5eXpzWHNoQkxkZklsT1JSekl4bDJFeGNpcFF5bGlKcGdDRUVpdlNjUlduTnAyWjJNaUlSQWhFVW9ucHEyNG5HZlpIY0ZxSWF6TndIMEtOR0s2UUZvcWUwU2Q0akRjaTF3?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-04T19:45:57+00:00",
-      "generated_at": "2026-10-04T20:29:40.840595+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:40 +0000"
-    },
-    {
-      "id": "fenland-news-74a6bdce35ce0b746a21ef80",
-      "headline": "Plans submitted for final phase of East Cambridgeshire housing development",
-      "brief": "The Church Commissioners for England have submitted a planning application for the final stage of a major housing project in East Cambridgeshire. The proposal outlines the construction of 1,600 new homes as part of the community development.",
-      "original_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTDZudktGQzlIZjl6QUF0Njl0aWJHSmhKMDg0bVM4dWN1YjV6WHNacTVoMlJham11NFo4RHBVV2ZOV2tSV1RYLThtaVp5eFFUcFRoRFU5QzJOaWc2UzFNRGtOYWF1VXY5S2dIN1U1NWc2VWJQcWhmTE1jSW82QXgzaUZjdDQtRDZxMmdmX254LVNhZU03Qjd2aU56MGlpcFZlMVhyNGpDVDAydWpmeEtENVZrbG85X0hCSk1oN1h5Zy1lV182WjVzRmZXTW9ud2dfcE5FeXJR?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-07-24T07:00:00+00:00",
-      "generated_at": "2026-10-04T20:29:36.260493+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:36 +0000"
     }
   ]
 }
