@@ -213,14 +213,22 @@
 </section>
 
 <div class="schedule-tabs">
-  <button class="schedule-tab active" data-target="weekday">Weekdays</button>
+  <button class="schedule-tab active" data-target="monday">Monday</button>
+<button class="schedule-tab" data-target="tuesday">Tuesday</button>
+<button class="schedule-tab" data-target="wednesday">Wednesday</button>
+<button class="schedule-tab" data-target="thursday">Thursday</button>
+
   <button class="schedule-tab" data-target="friday">Friday</button>
   <button class="schedule-tab" data-target="saturday">Saturday</button>
   <button class="schedule-tab" data-target="sunday">Sunday</button>
 </div>
 
 <div class="schedule-wrap">
-<section id="weekday" class="schedule-panel active"><div class="day-heading"><p class="eyebrow">MONDAY – THURSDAY</p><h2>Weekday Schedule</h2></div><div data-schedule="weekday">Loading schedule…</div></section>
+<section id="monday" class="schedule-panel active"><div class="day-heading"><p class="eyebrow">MONDAY</p><h2>Monday Schedule</h2></div><div data-schedule="monday">Loading schedule…</div></section>
+<section id="tuesday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">TUESDAY</p><h2>Tuesday Schedule</h2></div><div data-schedule="tuesday">Loading schedule…</div></section>
+<section id="wednesday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">WEDNESDAY</p><h2>Wednesday Schedule</h2></div><div data-schedule="wednesday">Loading schedule…</div></section>
+<section id="thursday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">THURSDAY</p><h2>Thursday Schedule</h2></div><div data-schedule="thursday">Loading schedule…</div></section>
+
 <section id="friday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">FRIDAY</p><h2>Friday Schedule</h2></div><div data-schedule="friday">Loading schedule…</div></section><section id="saturday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">SATURDAY</p><h2>Saturday Schedule</h2></div><div data-schedule="saturday">Loading schedule…</div></section>
 <section id="sunday" class="schedule-panel"><div class="day-heading"><p class="eyebrow">SUNDAY</p><h2>Sunday Schedule</h2></div><div data-schedule="sunday">Loading schedule…</div></section>
 <div class="schedule-note"><strong>Schedule note:</strong> Programme times may occasionally change for special broadcasts, live events or station updates.</div>
@@ -279,7 +287,7 @@
 <script src="app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=2"></script>
 <script>
-(async()=>{function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}try{const rows=await FARCMS.schedule();for(const group of ['weekday','friday','saturday','sunday']){const box=document.querySelector('[data-schedule="'+group+'"]');box.innerHTML=FARCMS.forDay(rows,group).map(r=>'<article class="slot '+(r.featured?'featured':'')+'"><div class="slot-time">'+esc(r.start_time.slice(0,5))+'–'+esc(r.end_time.slice(0,5))+'<span>'+esc(r.strapline||'Programme')+'</span></div><div class="slot-copy"><h3>'+esc(r.show_name)+'</h3>'+(r.presenter?'<strong>Presented by '+esc(r.presenter)+'</strong>':'')+(r.description?'<p>'+esc(r.description)+'</p>':'')+'</div>'+(r.image?'<img class="presenter-photo" src="'+esc(r.image)+'" alt="'+esc(r.show_name)+'">':'<div class="music-placeholder">'+esc(r.show_name)+'</div>')+'</article>').join('')||'<p>No programmes listed.</p>'}}catch(e){document.querySelectorAll('[data-schedule]').forEach(x=>x.textContent='Schedule temporarily unavailable.')}})();
+(async()=>{function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}try{const rows=await FARCMS.schedule();for(const group of ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']){const box=document.querySelector('[data-schedule="'+group+'"]');box.innerHTML=FARCMS.forDay(rows,group).map(r=>'<article class="slot '+(r.featured?'featured':'')+'"><div class="slot-time">'+esc(r.start_time.slice(0,5))+'–'+esc(r.end_time.slice(0,5))+'<span>'+esc(r.strapline||'Programme')+'</span></div><div class="slot-copy"><h3>'+esc(r.show_name)+'</h3>'+(r.presenter?'<strong>Presented by '+esc(r.presenter)+'</strong>':'')+(r.description?'<p>'+esc(r.description)+'</p>':'')+'</div>'+(r.image?'<img class="presenter-photo" src="'+esc(r.image)+'" alt="'+esc(r.show_name)+'">':'<div class="music-placeholder">'+esc(r.show_name)+'</div>')+'</article>').join('')||'<p>No programmes listed.</p>'}}catch(e){document.querySelectorAll('[data-schedule]').forEach(x=>x.textContent='Schedule temporarily unavailable.')}})();
 </script>
 
 <script>

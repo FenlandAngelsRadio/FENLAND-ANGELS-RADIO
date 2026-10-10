@@ -49,7 +49,7 @@
   function summary(items){const ms=items.reduce((n,r)=>n+r.end-r.start,0),hours=items.reduce((n,r)=>n+r.listeners*(r.end-r.start)/3600000,0);return{hours,coverageHours:ms/3600000,average:ms?hours*3600000/ms:null,peak:items.length?Math.max(...items.map(r=>r.listeners)):null,samples:items.length};}
   function parts(items){const result=[];for(const r of items){for(let start=r.start;start<r.end;){const end=Math.min(r.end,(Math.floor(start/60000)+1)*60000);result.push({...r,start,end,local:london(start)});start=end;}}return result;}
   function programme(items,show){const minutes=v=>{const p=String(v).split(':');return +p[0]*60+ +p[1];},a=minutes(show.start_time),z=minutes(show.end_time);
-    const dayOK=d=>show.day_group==='weekday'?['Mon','Tue','Wed','Thu','Fri'].includes(d):show.day_group==='saturday'?d==='Sat':show.day_group==='sunday'?d==='Sun':false;
+    const dayOK=d=>show.day_group==='weekday'?['Mon','Tue','Wed','Thu','Fri'].includes(d):({monday:'Mon',tuesday:'Tue',wednesday:'Wed',thursday:'Thu',friday:'Fri',saturday:'Sat',sunday:'Sun'})[show.day_group]===d;
     return items.filter(r=>{const m=+r.local.hour*60+ +r.local.minute;if(z>a)return dayOK(r.local.weekday)&&m>=a&&m<z;
       if(m>=a)return dayOK(r.local.weekday);const previous=london(r.start-86400000).weekday;return m<z&&dayOK(previous);});
   }
