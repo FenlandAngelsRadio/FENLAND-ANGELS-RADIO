@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-09T21:54:36.636300+00:00",
+  "updated_at": "2026-10-10T02:48:44.552561+00:00",
   "stories": [
+    {
+      "id": "fenland-news-39abb801d20e44d36bd2edc2",
+      "headline": "E-scooter battery sparks house fire in Spalding",
+      "brief": "Fire crews have confirmed that a blaze at a home in Spalding was started by an e-scooter battery. Emergency services attended the scene following the incident, which has prompted reminders about the potential risks associated with charging these devices. No further details regarding the extent of the damage or any injuries have been released at this time. Residents are being urged to ensure they follow safety guidelines when charging lithium-ion batteries for e-scooters and e-bikes.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWhpS204UHBLSHlKRFpjVlVIMC14cXEzUndIajIxOVBodndqblJKZ0tnMVFxdndVY1hLdHB5dnZkZHlqM0RjekhzZTljUEVnYVBfd0NZQzlUWUpWdU1TblZlZWUwQ2FabXo0UGF5dV9rUWVCRUdtTVFEMUJkYlROYTJNQnp2Z1RQcnBodUNNTlhydFnSAZgBQVVfeXFMTzJFcUZkZ3JNcXBVcF9vWWNSYm5uMmFFWjNoVmROZ3hZMHRJa0F6R3VFYmtPMDVjQ2VEcjc2bDRITF85ck9tcVpwM01ZOVVVdHZ4ajNqMTlCX0RlT2ZmeFd5Vkl5YllsbjJBbHJhbmhtQXJDazRjS0tlWlRiSjYyU3U3c0xiYjdtR3FrQ2syWU1VeERId0JmejM?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-03-06T08:00:00+00:00",
+      "generated_at": "2026-10-10T02:48:19.847506+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:48:19 +0000"
+    },
+    {
+      "id": "fenland-news-3d3b63895caffce0b34bcf84",
+      "headline": "Dispersal order issued in Sutton Bridge following anti-social behaviour",
+      "brief": "A dispersal order is now in effect for Sutton Bridge following reports of anti-social behaviour and criminal offences. Inspector Paul Smith has authorised the measure for Bridge Road and all adjoining streets, including the Sutton Bridge Memorial Park. The order began at 8am this morning, Friday, October 10, and will remain in place until 8am on Monday, October 12.\n\nPolice have received reports of property damage, including doors being kicked and items being thrown at residents. Officers have been granted powers to remove individuals from the area if they are suspected of causing harassment or distress. Additional police resources have been deployed to the village, and authorities are urging parents to speak with their children regarding these incidents.",
+      "original_url": "https://www.lynnnews.co.uk/news/dispersal-order-issued-in-village-as-residents-fear-for-safe-9486361/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/LOLZSBI3JKMVBCUZBRSJ.jpg",
+      "published": "2026-10-09T13:08:59+00:00",
+      "generated_at": "2026-10-10T02:48:06.548827+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:48:06 +0000"
+    },
+    {
+      "id": "fenland-news-23d6987ad080ba2df4adf9c9",
+      "headline": "Peterborough Christmas tree selection confirmed",
+      "brief": "The official Christmas tree for Peterborough city centre has now been chosen. According to reports from the Peterborough Fenland Edge News, the selection process for this year's festive centrepiece is complete. Further details regarding the tree's arrival or the official lighting ceremony have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmZUYUx5c1FZcEhRX0kwN0ZOdWNaRGw4aS1saXlma1RZRjBTMEJUaTl1ajA4S0tfUU51aTlqQ2hDTmJfbS1CWDIyeXNUeXktTlg4MkhDck5DSURHYWFCWHhwOHVEamsyYTJwSmtfOGJoQkEzVmNEaUQzWFpDdFhnQmZRdTE3LVVfRlpubUVlU19obm5hVkxfeVVZNzAtamJHbzMyS2FDY3dkQ3JsN1lhSUdKUjAtXzBGTnBwWmJwSlZRUQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-10T00:01:00+00:00",
+      "generated_at": "2026-10-10T02:47:56.994665+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:47:56 +0000"
+    },
+    {
+      "id": "fenland-news-ceaae9e47980551665f5d03e",
+      "headline": "Cambridgeshire County Council approves £14 million for active travel",
+      "brief": "Cambridgeshire County Council has given the green light to a new funding package worth £14 million. The investment is earmarked for a series of active travel schemes across the county. These projects aim to improve infrastructure for walking and cycling, supporting residents who choose to travel without a car. Further details on the specific locations and timelines for these improvements are expected to follow as the council begins the implementation phase.",
+      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOXzBpbHFQWnZpWTJkZDFzTHhJd3dKVTNmdjUxaE5YUWY0ZE5ra3BmejJRLURXUmw0eGZyOTdOQU16VG5RZzFlQUFfVzc1UkhvQ1Fhamk3YzBIQ3BIUU9JclhtYWRDVlotaGNzQ2hjWkpTUGR1LS1CWXRIOExnVVFQZnF3MWJmWFBSZElkSTVtWUdjVkFsaVhGYWF5OUs5UHhISlNtMmhaWXY0NDZD?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-09T14:41:01+00:00",
+      "generated_at": "2026-10-10T02:47:55.746778+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:47:55 +0000"
+    },
+    {
+      "id": "fenland-news-fa79e8912b0a6de4c733bfc3",
+      "headline": "School and parents exchange letters following protest",
+      "brief": "School leaders and parents have been exchanging letters following a recent protest. The correspondence comes as officials work to minimise any potential disruption to the upcoming exam season. No further details regarding the nature of the protest or the specific school involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTG1DSFQ2RG9tQjhLSjNFc3U0XzBQVm9YbTdVU0VIcl9CTGJqSTBiZmNSS0tFeTRZVzlNdmY2bFBfTUFuWVVwZVlyd1RJTjh3NWQtcUUtT2ZEa2hFdERqSlN2R3V0SFdDMEtsQ1R4WEtSbUhsRXlRcmVZeTg2ZEdBVC01Y3VRX3ZOQXVBa2ZnZHZLeEhyeHEyNjVRbzRyZ0NxdEdzU0hSOXdOTlRieVBRWmJR?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-05-06T07:00:00+00:00",
+      "generated_at": "2026-10-10T02:47:54.658659+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:47:54 +0000"
+    },
+    {
+      "id": "fenland-news-accef85073ead003e94cc1ba",
+      "headline": "Saxon Pit residents raise concerns over local site",
+      "brief": "People living near the Saxon Pit have reported issues with dust, noise, and unpleasant smells. Residents say these factors are currently impacting their daily lives. The concerns were highlighted in a recent report by the March Chatteris Whittlesey News.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS1hrT05wRC1kOHBMcW9SeDZwOE8tT1c4dzQwUlNuM0VibVNfQTJ4YzdYRXBEb3dmMEViZHhzNFVxT0pNQV9Fem4yRGpWTjMyQ3R3cERTS1VJOHBsUEVWVFVfSlhCWS00REYzQmszTjh1bUpBRVlYTWFIbGNjYmZNYmJuRC1WM1VsaG43cmJYU0FnWldFaElBalRHcGVoWU45Y09z?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-09T16:42:00+00:00",
+      "generated_at": "2026-10-10T02:47:53.506092+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:47:53 +0000"
+    },
+    {
+      "id": "fenland-news-330727246a5308e0afb9fdb6",
+      "headline": "South Wootton pub closes just five months after reopening",
+      "brief": "The Swan in South Wootton, near King’s Lynn, has closed its doors once again. Publicans Jay Hudson and Maggie Hodgkiss, who took over the venue in May, announced the decision on social media yesterday. The pair cited the current economic climate and unforeseen circumstances as the reasons for the closure, describing the situation as incredibly challenging. \n\nThe pub, located on Nursery Lane, had undergone a refresh of its interior and beer garden prior to the couple's arrival. The operator, Stonegate Group, has now listed the historic venue for rent. The publicans have thanked their staff and customers for their support during their time at the pub.",
+      "original_url": "https://www.lynnnews.co.uk/news/village-pub-closes-amid-incredibly-challenging-times-9486389/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/V22TLX1MWVJAB27C543W.jpg",
+      "published": "2026-10-09T14:31:17+00:00",
+      "generated_at": "2026-10-10T02:47:52.525748+00:00",
+      "rss_date": "Sat, 10 Oct 2026 02:47:52 +0000"
+    },
     {
       "id": "fenland-news-f75cbacd0774e1b717fa70da",
       "headline": "East Cambridgeshire cottage to be replaced by flats",
@@ -1023,83 +1100,6 @@
       "published": "2026-07-24T07:00:00+00:00",
       "generated_at": "2026-10-04T20:29:36.260493+00:00",
       "rss_date": "Sun, 04 Oct 2026 20:29:36 +0000"
-    },
-    {
-      "id": "fenland-news-364576e874120c8adb62cd51",
-      "headline": "East Cambridgeshire families encouraged to review household finances",
-      "brief": "Families living in East Cambridgeshire are being advised to review their current benefit entitlements and household bills. The recommendation comes as residents face ongoing increases in the cost of living. Local households are encouraged to check their financial circumstances to ensure they are receiving all the support available to them.",
-      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNS2ZWa1BPWVJoOWducXB6dlpkQnJ5S0o5MHdDSlBoMWRhVG0xbkZUQy1sa1lrS1A5NEowOXR5LXpIR0ZMYXN2bUx5V0JVWVZaOW1RQzVuTjdQUUktaDZrdENleEExOGlhTkI2Z1RKNkZ6cFYzN044WHl3Y0tEYjZESDV6WllYQ29jSExvWm9neDZwUnE3ZDhN?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-04T04:00:00+00:00",
-      "generated_at": "2026-10-04T20:29:32.525829+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:32 +0000"
-    },
-    {
-      "id": "fenland-news-aac989775c237f997d6c14ea",
-      "headline": "Peterborough parents patrol school crossing after safety concerns",
-      "brief": "Parents in Peterborough have begun patrolling a local school crossing themselves. The move follows a series of incidents at the site, prompting families to take action to ensure student safety. No further details regarding the specific nature of the incidents or the location of the crossing have been provided.",
-      "original_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcGxBaWZGQkV6d3EwcjYtdHZBdmdQSVRYQnZMM2x4blpuYWFsU2RwTkw0c3haY205UGloaU9ZWWRXTVl2YThiQ3ZteGdCeXZsVkdjZUs5Z21YYXBoV2pUcURRNk9vRk50WkFFLTRzWWdoNEdINm5EbUhwUVV1WkIyMmdwMnpPWGxWc1VEVXpveEJPNVQyajNra181R3VsR0xsclp1YXNGb0IwcXE4RUhqSWNkNXN3amN0SVZnR2VseURUMkNGOXdFR3k5LWktaFd5VDJqRTBnVFE4VGlpbzhXNVVibVQwbU1YMl9oYU5ncEYwQ3ZFRmlV?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-04T17:47:00+00:00",
-      "generated_at": "2026-10-04T20:29:31.392604+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:31 +0000"
-    },
-    {
-      "id": "fenland-news-4f281ec375b1597b52cc296a",
-      "headline": "New bereavement centre opens in East Cambridgeshire",
-      "brief": "A new facility for those experiencing bereavement has opened in East Cambridgeshire. The centre is situated by a lakeside, providing a dedicated space for support within the local community. Further details regarding the services offered at the site have not been provided.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tMWt1NUlwMFNVMUpvcDAwN1JMQl9QeGJfM3RDc2dXQzdhcVJKejhNWTFUb0tPeG00Sm9UNGVhcnE2OUhKR3FyaGVJRzVmRjVkZlNRNjdITmdsQWU3?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-09-11T07:00:00+00:00",
-      "generated_at": "2026-10-04T20:29:29.166127+00:00",
-      "rss_date": "Sun, 04 Oct 2026 20:29:29 +0000"
-    },
-    {
-      "id": "fenland-news-ffe741f486de76e4dd8ef52d",
-      "headline": "Sponsorship deal provides boost for local football club",
-      "brief": "A football club in the region is reporting a renewed sense of pride following a new sponsorship agreement. The deal is expected to provide a significant boost to the club, according to reports from the Spalding South Holland News. Players have expressed positive sentiments regarding the partnership, which aims to support the team's ongoing development. Further details on the specific nature of the sponsorship have not been disclosed, but the club remains optimistic about the impact this investment will have on their future performance and local standing.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQXRBVWpqb1VLNEtNQjBKV2F0Vkg5U2tlZzVwak5ROEMyRXRLRnR0RXJSdzhvdUVKb185Tk1sZmZNMXRMQ0FRZ3J2TU9RNkNlNUlQcDd1a19PaEduV3BGajF2U09OOEthbTlfQkRPRDhiRU4wUF9TR3diaGZobVRUdFBMTGtqaHVNQWYxeTBhaExNTHRoTE1Qa3A0UHBJOEh3d3lGYVpXSUVBZUlVM2lVcQ?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-02-19T08:00:00+00:00",
-      "generated_at": "2026-10-04T16:00:13.275621+00:00",
-      "rss_date": "Sun, 04 Oct 2026 16:00:13 +0000"
-    },
-    {
-      "id": "fenland-news-bf103d618f1c2a8bb7237515",
-      "headline": "Historic steam train to visit Cambridgeshire",
-      "brief": "A steam locomotive described as having a remarkable history is set to visit Cambridgeshire. Details regarding the specific train, the dates of its arrival, and its planned route through the county have not yet been confirmed. Residents and rail enthusiasts are advised to keep an eye on local updates for further information regarding the visit.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeVM1R1hPelp2aGJrNFlJY1lTVkxFcGZnc29sanJDQWFWT2JFWUlhT2d0amVkbEJyVTR1Tm9HOTFnenEtVGJaYmhQamJLSWNkX2dzUkpVem5qU3NzNjlSMjNxYmUydVV4NVJYSUtiVmRualhISG1XZUJBbWFad2NoaHd5c3lfa0FhcXZSdTM1dnRTZ0FiaUhwaDdR?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-04T08:29:10+00:00",
-      "generated_at": "2026-10-04T16:00:09.494410+00:00",
-      "rss_date": "Sun, 04 Oct 2026 16:00:09 +0000"
-    },
-    {
-      "id": "fenland-news-9a251e9f7d73cfe8b3f51d83",
-      "headline": "Arrangements underway to fill vacant councillor seats",
-      "brief": "Following the death of a local councillor, official procedures are now in place to fill the resulting vacancies. The South Holland News reports that arrangements are being made to appoint representatives to the seats left empty by the late official. Further details regarding the process or the specific wards affected have not yet been released. Residents are advised to monitor local council updates for information on how these positions will be filled.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX0dfOW9SOE9lU3YxeEYyUW1nVnF3eVQ0VG1uQUk0OFpVdEQ5WU1ONXFDTWI4QTgweFljRFpRbmd6TWUzcEJHSWc0U21SdjVOaWFBWmpWbndYM3JnUnYtTHlOWERZeW9zaV9tUkxsVldBbGxPU3lSVm9fUFB0VkE2aVhzeWUyc09EZHFkbEk0N0tBZWtNbFFzdy1VZlg4dnd5eFlBSzUxOGY0dnJxY0dINGJtOA?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-06-22T07:00:00+00:00",
-      "generated_at": "2026-10-04T16:00:08.145422+00:00",
-      "rss_date": "Sun, 04 Oct 2026 16:00:08 +0000"
-    },
-    {
-      "id": "fenland-news-654f34c5164ee5910e10e5d1",
-      "headline": "BBC highlights historical significance of the Fens",
-      "brief": "The BBC has described the Fens as a location where the entirety of British prehistory is represented. The broadcaster highlighted the area's unique historical importance, suggesting that the landscape serves as a significant record of the nation's past.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uaGhORXBnTXNGLUpHcXp1YXN4ZUx0dVRIMEZXM0czRnEyNDNxMFV3akFNOXRBSEw1M0E0cldYV2xEVWN3ZFJ6VTdoSldfVC1MaDhmMWVrM0RzLWNBU2c?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-04T05:22:20+00:00",
-      "generated_at": "2026-10-04T16:00:03.321830+00:00",
-      "rss_date": "Sun, 04 Oct 2026 16:00:03 +0000"
     }
   ]
 }
