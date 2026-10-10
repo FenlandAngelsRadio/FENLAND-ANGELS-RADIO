@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-10T16:24:43.393648+00:00",
+  "updated_at": "2026-10-10T20:43:34.292311+00:00",
   "stories": [
+    {
+      "id": "fenland-news-accef85073ead003e94cc1ba",
+      "headline": "Saxon Pit residents raise concerns over local site",
+      "brief": "People living near the Saxon Pit have reported issues with dust, noise, and unpleasant odours. Residents state that these factors are currently impacting their daily lives. The concerns were highlighted in a recent report by the March Chatteris Whittlesey News.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS1hrT05wRC1kOHBMcW9SeDZwOE8tT1c4dzQwUlNuM0VibVNfQTJ4YzdYRXBEb3dmMEViZHhzNFVxT0pNQV9Fem4yRGpWTjMyQ3R3cERTS1VJOHBsUEVWVFVfSlhCWS00REYzQmszTjh1bUpBRVlYTWFIbGNjYmZNYmJuRC1WM1VsaG43cmJYU0FnWldFaElBalRHcGVoWU45Y09z?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-09T16:42:00+00:00",
+      "generated_at": "2026-10-10T20:43:23.610266+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:43:23 +0000"
+    },
+    {
+      "id": "fenland-news-e09bb0a069337da4ecc2b31d",
+      "headline": "Hazardous waste disposal days announced for King’s Lynn",
+      "brief": "Residents in the Fens can dispose of hazardous household items at the Saddlebow recycling centre later this month. Norfolk County Council is hosting two collection events at The Willows Business Park on Friday, October 23, and Saturday, October 24. \n\nItems such as paint, bleach, fertilisers, and aerosols will be accepted free of charge between 9am and 4pm. Please note that these events are for household waste only and are not open to businesses. You must book a time slot in advance, with bookings opening at 9am on Thursday, October 15. To secure a slot or check the full list of accepted items, visit norfolk.gov.uk/hazardouswaste or call 0344 800 8020.",
+      "original_url": "https://www.lynnnews.co.uk/news/two-dates-to-take-household-hazardous-waste-to-the-tip-9485990/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/36NHR1QHEF4K46A45S8S.jpg",
+      "published": "2026-10-08T05:00:00+00:00",
+      "generated_at": "2026-10-10T20:43:20.106543+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:43:20 +0000"
+    },
+    {
+      "id": "fenland-news-4dd7a7aadc2d3283b7d6af80",
+      "headline": "Liberal Democrats report high water leakage in Cambridgeshire",
+      "brief": "The Liberal Democrats have claimed that water leaks across Cambridgeshire are losing enough supply to fill 86 Olympic-sized swimming pools every single day. The figures were highlighted in a recent report by the party regarding local infrastructure. Residents are advised that these findings relate to ongoing concerns about water wastage within the county.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbU5TZzM1UXNXaEltM200LWx4cUdVVXVzVUNaMTR3SGFIZlRKTUtDS29Ub2hlSUFDUjFfX252bVJ2Q1NjZENiTTV4enhEdHFqZ1NERzRnbmV3OExJb3B6bU5peXpQZ2VYTk1hTWRQSFY2em5oRzVKbEJuaVdoUVJKOHR0c2MydEZISjlDdVJuM1NCYUtkVmJzQXByQQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-09T10:12:24+00:00",
+      "generated_at": "2026-10-10T20:43:10.735240+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:43:10 +0000"
+    },
+    {
+      "id": "fenland-news-72f5b1d754c32c4a8f580276",
+      "headline": "Lincolnshire town regeneration plans approved",
+      "brief": "A major regeneration project aimed at improving towns across Lincolnshire has been officially approved. The initiative, described as an ambitious vision for the region, has now been given the green light to proceed. Further details regarding the specific locations involved or the timeline for these developments have not yet been released. Residents are advised to stay tuned for updates as more information becomes available regarding how these plans will impact local communities across the Fens.",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjIxU1dpME9fSmU2cUNaVU5vdGVJY05NeDgyZzZYalJQNFYzeUtpbklqaDJOc1ZHTklhQ2dRcGpGdUhjZk10MEJ3V09Cc3BDMXNkei1MV2N5MDdvSFZobHFTWmd3bmFRanpXRmpDc2dKbHdZUlFfTFpVejlpOGIzeXA4TEVQSnJWc1JpZ0JzVC14S0FEYV82aUt6My0?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-07-02T07:00:00+00:00",
+      "generated_at": "2026-10-10T20:43:05.885279+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:43:05 +0000"
+    },
+    {
+      "id": "fenland-news-16947efbd0e93e5b43800021",
+      "headline": "Anglian Water faces charges following fish deaths in Cambridgeshire",
+      "brief": "Anglian Water has been charged following an incident involving the death of fish in a Cambridgeshire dyke. The legal action follows reports regarding the environmental impact on the waterway. No further details regarding the specific location or the cause of the incident have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81Q2tNdUZjcHZPTE1LcmRUcmF5NU5BTzItaGJBUFdCYWxnT25lcDRNYjlaSEdmZEszdGl4Mm42NjFqX1d0djVoc3YzV2FpSjRZZ0VkbWxwbjJ1Q1NHNUE?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-10T05:39:36+00:00",
+      "generated_at": "2026-10-10T20:43:02.895164+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:43:02 +0000"
+    },
+    {
+      "id": "fenland-news-8ee8536a6509fce9057dc313",
+      "headline": "Campaign launched to improve child road safety in the Fens",
+      "brief": "A new initiative is aiming to keep children visible on the roads as the nights draw in. The \"Be Bright Be Seen\" campaign, sponsored by Ashwood Homes, is distributing thousands of free reflective keyrings to schools, sports clubs, and youth groups across the region. Organisers are encouraging parents and teachers to apply for the items online before the October 25 deadline.\n\nWith the clocks set to go back, residents are being reminded to wear bright or reflective clothing when walking or cycling in low light. The campaign follows recent national data highlighting a rise in road traffic injuries. Applications for the free keyrings can be made via the Fenland Citizen website.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/our-be-bright-be-seen-campaign-to-make-children-visible-on-d-9486181/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PQJABP1DTRKST7NVO34L.jpg",
+      "published": "2026-10-10T05:00:00+00:00",
+      "generated_at": "2026-10-10T20:42:58.136698+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:42:58 +0000"
+    },
+    {
+      "id": "fenland-news-e71d76244b47cd4cd4de297d",
+      "headline": "Hairdressing students at College of West Anglia meet industry experts",
+      "brief": "Hairdressing students at the College of West Anglia in King’s Lynn have received a visit from the Concept Hair Education Roadshow. The event connected learners with industry professionals and businesses, including L’Oréal Professionnel Paris and Zen Luxury Extensions.\n\nStudents were given the opportunity to observe professional techniques, learn about new products, and discuss career paths within the industry. Representatives from the roadshow also encouraged the students to enter the Concept Hair Learner of the Year competition to help showcase their skills. Organisers praised the enthusiasm shown by the learners throughout the day, noting the importance of providing early exposure to specialist skills to help prepare the next generation of hair professionals.",
+      "original_url": "https://www.lynnnews.co.uk/news/roadshow-brings-industry-expertise-to-college-9486003/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/R8GVLGX7ECZGVGKX225U.jpg",
+      "published": "2026-10-08T05:00:00+00:00",
+      "generated_at": "2026-10-10T20:42:52.459636+00:00",
+      "rss_date": "Sat, 10 Oct 2026 20:42:52 +0000"
+    },
     {
       "id": "fenland-news-670e3ab81b17b6bc7b390da4",
       "headline": "Sutton extend lead in local derby",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-05T13:58:57+00:00",
       "generated_at": "2026-10-05T23:22:36.183121+00:00",
       "rss_date": "Mon, 05 Oct 2026 23:22:36 +0000"
-    },
-    {
-      "id": "fenland-news-bb69a356d29d7f90128454bf",
-      "headline": "Police investigation underway in Peterborough",
-      "brief": "Police have launched an investigation following the discovery of a body in Peterborough. Officers are currently looking into the circumstances surrounding the death. No further details have been released by authorities at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOelYyMTRDYUp4NUtPaG1aaTl4R1FhX1Brb2RvNnN4bjBld3prc2FXT1FSUE8zRTFfMjJJMkpFbXJmZFlTSXpIRWRfVnYwZGtpVHdPZkg2cUhycHpFSk51dW9Eb1F3SUJxSmJjU252eklVcEpaU0ZpSWRTblV5NjdpZE90VEktU1pFWWgyeXFnZnhfaVllMFJoSU9jNTFfVWZyUXl0THV5TmdEY3dUNGFnc2ZHWWJ2enB4Si03WVd1VVdoaUtnVjFpOTNBSTVLU3hBS3hUNGFBbUVTRTN3RWZpbDBLVQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-05T11:42:15+00:00",
-      "generated_at": "2026-10-05T12:42:29.149248+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:29 +0000"
-    },
-    {
-      "id": "fenland-news-dc50feaf74ca2d287de740f3",
-      "headline": "Government delays Cambridgeshire council reform plans",
-      "brief": "Plans to reform local government structures in Cambridgeshire have been put on hold. The government has confirmed a delay to the proposed changes, which were originally reported by the Ely East Cambridgeshire News. No new timeline for the reforms has been announced at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBydzdZZ19QSHBzZzVUUmVrbkxocnMtTEJOQXJBcWg3ZDNTN3JZaDhiU3pEekMyLWd3X3h6SnBnOVJ1d2FMWkNkMUdrNEpoR2hqaWpubkhaV09zY051?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-07-16T07:00:00+00:00",
-      "generated_at": "2026-10-05T12:42:24.849713+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:24 +0000"
-    },
-    {
-      "id": "fenland-news-dc02520ee5fb32c0e4e1e7fb",
-      "headline": "Brad Pitt stars in new film Heart of the Beast at The Light, Wisbech",
-      "brief": "Film fans in Wisbech can now catch the new release Heart of the Beast at The Light cinema. The film features Brad Pitt as James Belmont, a retired special forces veteran who travels to the Alaskan wilderness with his combat dog, Odin. After a mid-air medical emergency during a storm, the pair must navigate fifty miles of dangerous terrain to reach safety. The 12A-rated movie also stars JK Simmons and Anna Lambe. Critics have described the production as a mix of action and sentimentality, highlighting the performance of the lead actor. Check local listings at The Light for screening times.",
-      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/pitt-on-top-form-in-heart-of-the-beast-9485523/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/07NTOZ7TYE7U8I1PY1YC.jpg",
-      "published": "2026-10-05T09:09:29+00:00",
-      "generated_at": "2026-10-05T12:42:20.875430+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:20 +0000"
-    },
-    {
-      "id": "fenland-news-08548af7644051c041eca733",
-      "headline": "King’s Lynn hospital specialist wins national mentoring award",
-      "brief": "A health play specialist at the Queen Elizabeth Hospital in King’s Lynn has been named Mentor of the Year 2026. Nicola Wright received the national honour from the charity Starlight for her work supporting apprentice Claire Burrell. The award recognises professionals who improve children’s experiences of healthcare through play. \n\nMs Wright, who has worked in the field since 2005, was nominated by her apprentice for providing guidance and professional development over the past two years. The presentation took place at the hospital on Tuesday, September 29. The Starlight Health Play Awards are held in conjunction with National Play in Healthcare Week, which runs from October 5 to 9.",
-      "original_url": "https://www.lynnnews.co.uk/news/national-mentor-award-for-health-play-specialist-9485026/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/V4CUGP7CSI0SM3RG6ZCM.jpg",
-      "published": "2026-10-05T05:00:00+00:00",
-      "generated_at": "2026-10-05T12:42:15.671100+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:15 +0000"
-    },
-    {
-      "id": "fenland-news-3b1c91f5ced36c57dfc60df5",
-      "headline": "Police investigation underway in Peterborough",
-      "brief": "Police have launched an investigation following the discovery of a body in Peterborough. Officers are currently looking into the circumstances surrounding the death. No further details have been released by authorities at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pdldmUHgtOC04WjkxMzl6d2xkbHhUZm1kYWdIZXFad1JWU1F6RHVXX2FMcDNhWEE4bE5UZzJreGJOOVpiT1NkeE94LUpJUXBYVlhtaE1HUDRKMnRDOUE?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-05T11:42:15+00:00",
-      "generated_at": "2026-10-05T12:42:09.842796+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:09 +0000"
-    },
-    {
-      "id": "fenland-news-357789ea86b50edaaf0141fa",
-      "headline": "Ely public toilets closed following vandalism",
-      "brief": "Public toilets in Ely have been forced to close after being targeted by vandals. The damage, which involved the facility's pipework, resulted in significant flooding at the site. Local authorities have not yet indicated when the toilets will be reopened to the public.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNamVsMXhxR1U0dm9qMHFNZFVZeXdEM19MTzJtOGpGemJCNHI1dGF6VUdTYURMaVdINEpnVjVRUlNBd256aUV5a1ZOZUpDOVNBTHBPdFY1SmE5S3FiRDM5X3hMTkNQcUlocm9qQndJM3doRTJBa3lNeDJBWTk3dzliZUxKRlVrS3lXakJpWk8wc3loTjQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-05T11:05:00+00:00",
-      "generated_at": "2026-10-05T12:42:06.828446+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:06 +0000"
-    },
-    {
-      "id": "fenland-news-b0b87879a3da3a751b7cc704",
-      "headline": "Protests held against Leverington asylum hostel plans",
-      "brief": "Residents gathered at Roman Court in Leverington on Sunday to protest government plans to convert the building into a hostel for asylum seekers. Organised by Councillor Chris Tirrell, the demonstration aimed to voice community opposition to the proposal, which could eventually house 205 people in the area. \n\nFenland District Council and MP Steve Barclay have formally objected to the scheme, citing concerns over public safety and the building's condition following a previous prohibition notice regarding asbestos. A further protest is scheduled for this Sunday, October 11, at 11am at the Roman Court site. The government is expected to reach a final decision on the proposal by Friday, October 16.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/protest-held-to-oppose-totally-bonkers-plans-for-asylum-se-9485574/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PPCTZRFFOK8L7IPMUYLH.jpg",
-      "published": "2026-10-05T11:50:53+00:00",
-      "generated_at": "2026-10-05T12:42:03.941082+00:00",
-      "rss_date": "Mon, 05 Oct 2026 12:42:03 +0000"
     }
   ]
 }
