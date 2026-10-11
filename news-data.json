@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-10-10T20:43:34.292311+00:00",
+  "updated_at": "2026-10-11T02:14:52.208731+00:00",
   "stories": [
+    {
+      "id": "fenland-news-ef40587fb2fd87b7fefd1bb4",
+      "headline": "Luxury sports car manufacturer to open new site at former stud farm",
+      "brief": "A luxury sports car manufacturer has been granted planning permission to establish a new base at a former stud farm. The approval follows a report from the Ely East Cambridgeshire News regarding the development. The site, which previously functioned as a stud farm, will now be repurposed for the car maker's operations. No further details regarding the timeline for the move or the specific location of the former farm have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUEctZHJuR255WHR5Wm9FeE55Ui0xT0xJUDBpamxSNnV2MURpR0p2UExXQUpYOG50aFY3SGlQaVJLTXJld09KdFNGQTVMRUpRMi0zZGtJcHBrRTdoN1lCd2Fyci1CRlJoWVRNdlVvbk8xMUxidUdjNll3dEc5YzRJU3dqZmI5eDd6Zk1ja2xFOWV0dXA3ZEJGQ01tVW8?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-09T12:06:00+00:00",
+      "generated_at": "2026-10-11T02:14:29.010077+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:29 +0000"
+    },
+    {
+      "id": "fenland-news-1c640afca46b2d2a39d9c0a8",
+      "headline": "Two men released following imitation firearm arrest",
+      "brief": "Lincolnshire Police have released two men without charge following an investigation into an imitation firearm. Officers had previously arrested the pair in connection with the incident. No further action will be taken against them.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRFlJREE3TmkwNFVLM3Zuc1BORXVsVktTeE1VV2dGLVBTN21ScDYtb2I4d21IMzZVd21HNzhsTERHejVRdjgzNW5IalYxM3pGWHRzX2tneHJYRWpYYWV4ZDY1QVZUN3ZJZlJPM3pRTGxoZktwMWpBcUROTF9od3ZtZUFuLTJNdVBkMk40UTdrOWVKZmc3?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2024-01-17T08:00:00+00:00",
+      "generated_at": "2026-10-11T02:14:27.819322+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:27 +0000"
+    },
+    {
+      "id": "fenland-news-d944ee268234cff475368eab",
+      "headline": "Eight-week road closure near Chatteris",
+      "brief": "Drivers in the Fens are being advised of an upcoming road closure near Chatteris. A stretch of road in the area is set to be shut for eight weeks to allow for essential repair work to be carried out. Motorists are encouraged to plan their journeys in advance and allow extra time for travel while these works are underway.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-02-02T08:00:00+00:00",
+      "generated_at": "2026-10-11T02:14:26.746333+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:26 +0000"
+    },
+    {
+      "id": "fenland-news-c7e1402c2d761424ccf82559",
+      "headline": "Peterborough United secure victory over Leicester City",
+      "brief": "Peterborough United have defeated Leicester City in a League One fixture. The match concluded with a final score of three goals to one in favour of Peterborough. Highlights of the game have been made available via Sky Sports.",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRDVHOVQ1dVFXNWRSOE9WTmtBbHcxaF91QmN1dm9OMEh0SXhSUG1CSXVUb0ZaWHNHR1NqUDEzSjYtM2RWczFmR25NU04tSl9DNmZFNzBnMjRWZ2Q2amZVeG1wNmNIajM3UjFwOGltR1lrUDRWc2d4M1BQU0F6U19aQWRURkxWNjVSeWJOS2hNYUZjaENjWV91aGdIM3dXZ1BtQmxPajBjOF9rQU80b2Zv?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-10T16:46:11+00:00",
+      "generated_at": "2026-10-11T02:14:23.743111+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:23 +0000"
+    },
+    {
+      "id": "fenland-news-d330022182fe642a0e57b460",
+      "headline": "Fundraising appeal launched for new school equipment",
+      "brief": "A school is seeking to raise 80,000 pounds to pay for equipment in a new building. The project aims to secure the necessary funds to fully furnish the facility. Further details regarding the fundraising campaign and the specific equipment required have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzE1S2ZBdF9xeld5bnNINWdMMDBucVp6cmRBU0gwSDlNSWNndVhLeEVqT2JoMDNhMmJKblhlNGNiTms3SjA2cW9CYldTTnFTTkFSTnNVUk15T1BqTVJNTGdHZVNOSEtkMW81SlJyUGZPMkdabUg5ajcwTEtsVGZhWDNIMGgtcWl3eEhyVVhEQU9mVlZBQXlpNTVkazAtd3lKQ2pyYTg4aGg5Q1ZDYWZacHBn?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2025-11-03T08:00:00+00:00",
+      "generated_at": "2026-10-11T02:14:21.837663+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:21 +0000"
+    },
+    {
+      "id": "fenland-news-e1e00fb7896b00d25cd9f879",
+      "headline": "King’s Lynn teenager completes Rotary youth leadership programme",
+      "brief": "An 18-year-old Scout leader from King’s Lynn has praised a recent training scheme after completing the Rotary Youth Leadership Awards. Emma Peers was sponsored by the Rotary Club of King’s Lynn to attend the week-long programme at Grafham Water this August. \n\nThe course is designed to help young people aged 18 to 25 develop skills for their careers and community life. During the week, participants took part in team-building exercises, including raft racing and an overnight expedition involving sailing and hiking. Ms Peers, who led her team during the expedition, told local Rotarians that the experience significantly boosted her self-confidence and described the programme as the best thing she has ever done.",
+      "original_url": "https://www.lynnnews.co.uk/news/youth-leadership-award-was-the-best-experience-for-teenage-9486038/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/F4YCOV7X4IW1YMN7SK8E.jpg",
+      "published": "2026-10-08T05:00:00+00:00",
+      "generated_at": "2026-10-11T02:14:00.652431+00:00",
+      "rss_date": "Sun, 11 Oct 2026 02:14:00 +0000"
+    },
     {
       "id": "fenland-news-accef85073ead003e94cc1ba",
       "headline": "Saxon Pit residents raise concerns over local site",
@@ -1034,72 +1100,6 @@
       "published": "2026-10-05T16:53:00+00:00",
       "generated_at": "2026-10-06T03:21:37.350064+00:00",
       "rss_date": "Tue, 06 Oct 2026 03:21:37 +0000"
-    },
-    {
-      "id": "fenland-news-ec7b3f97e9211b25d2812f30",
-      "headline": "Cambridgeshire child sex offender jailed following DNA match",
-      "brief": "A child sex offender from Cambridgeshire has been sentenced to time in prison. The conviction was secured after a DNA match linked the individual to the crimes. No further details regarding the identity of the offender or the specific location of the offences have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2RDWW10VXlGMHFoaFJLMG00V0EtUzE1LURPN3AtbHl2TkdtMy0yeHJ6UC1TVjZZbFBnMlY3SzJESUNiOWJJYndQVkdzcXhNMTBGblg1ZlFWajJZN3VRcEYzekFTRjdGRk15VXFQWVNzNVpETzdESTNXVlA0ZjFjUEhNNmNpUVI4SUJ5SWdwajNrN1hxaVRyMkcwSQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-07-03T07:00:00+00:00",
-      "generated_at": "2026-10-06T03:21:15.173050+00:00",
-      "rss_date": "Tue, 06 Oct 2026 03:21:15 +0000"
-    },
-    {
-      "id": "fenland-news-78a36bef081c8dbd9a8370fc",
-      "headline": "New eye screening service launched by Moorfields Private",
-      "brief": "Moorfields Private has introduced a new eye screening service. The announcement was reported by LaingBuisson News. No further details regarding the location or availability of this service have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVW9wTnRXa3ZWd1pkVmo4WTVaN2h2cGlqTk5zeEVIXy10cHJ1Xy03TTI5ci14YTh5eFdMVHFvYUVYUW1XdUlqV3p0aUl0ZHJxU1V1eTYxOGFjZVJLc1V2aHNfN0w5Sml4bWwxYmo2REJscjYwblNrdFlnZmZDamdqNDh6RGp6c3ZJWTM2bGxjZG1ycmZnczZMd1pzclhTa2dRSmpIekowZHdtRW1KRV9B?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-05T12:53:52+00:00",
-      "generated_at": "2026-10-05T23:23:09.823626+00:00",
-      "rss_date": "Mon, 05 Oct 2026 23:23:09 +0000"
-    },
-    {
-      "id": "fenland-news-46f5b6c11ddcffc1d62c0de9",
-      "headline": "Red Arrows spotted over Cambridgeshire",
-      "brief": "The Red Arrows have been seen flying over Cambridgeshire. According to reports from the Ely Standard, photographs and video footage have captured the Royal Air Force aerobatic team soaring across the local skies.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM3FJZUVIMzZYWkp3dEI3akt3dkRsalc1UVlYX1JkbHRQNVR2bEszLTRmbENrZHpTQlE4VzQ3Z29tSWs3OWhwQlczN2UtZWwtZGlSLXlOZzZ6MV93S1BtYTVHQ1Y5SlVVS0FhVHJMSlplNnZ6elpNZVlyVlBSNkpPeUhvMnUxWnFVNlo4a3NjSzRjdw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-05T13:05:00+00:00",
-      "generated_at": "2026-10-05T23:22:58.563172+00:00",
-      "rss_date": "Mon, 05 Oct 2026 23:22:58 +0000"
-    },
-    {
-      "id": "fenland-news-48c600b5e9c55d5abca26a20",
-      "headline": "Optometrists identify signs of atrial fibrillation in the eye",
-      "brief": "The Association of Optometrists has reported that indicators of atrial fibrillation can be detected through eye examinations. The professional body highlights that these findings may assist in identifying the heart condition during routine sight tests. Residents across the Fens are advised that this development links ocular health assessments to the early detection of heart rhythm irregularities. Further information regarding these clinical findings is available through the Association of Optometrists.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVVWaHJMYU40Yy1faXdXN29jRVhpSXlNY2h5YkRXNC1UaTctSjIzR3ZqOFQ3cUQ5QnNNeFR4VTBJdTlZTVFZWlhBSWhpWTFyVExlU29fTUk0UmxhTXFPdmF0YzdxMHdFTl9DUXlRWVh1NWlSeWhnQUVQdlJnM2NGNUZCbTQzVUFSU0g5ZnNwQmVzOVBQcjNlRlBR?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-05T17:34:07+00:00",
-      "generated_at": "2026-10-05T23:22:53.975863+00:00",
-      "rss_date": "Mon, 05 Oct 2026 23:22:53 +0000"
-    },
-    {
-      "id": "fenland-news-44382d641987242f3e497ee5",
-      "headline": "East Cambridgeshire pensioners encouraged to check benefit eligibility",
-      "brief": "Residents in East Cambridgeshire are being urged to check if they are eligible for Pension Credit. Officials suggest that those who qualify could receive financial support worth up to £4,300 per year. Local households are being encouraged to review their circumstances to ensure they are not missing out on this potential assistance. Further details regarding the support and how to apply can be found through official government channels.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmRzamFyTnc2VWdYTUtpY1duVTZKWW5GSWI0dkFoVE82Z20ydE5pRGdDMnhPdmRNdllXcHBOWWdQVE1adkkxTHJ4SkItcmxTeWVwN21TZWFLZTlnaE43T3B2OEYwRDFGNEstcExqXzZKRklXeW9zU2cweFpkZ2JGUmR6MHVHTmVrMEU2RXA5eGQ2VWFqX2dSdFlEbHdGaGxRNVRn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-05T13:40:00+00:00",
-      "generated_at": "2026-10-05T23:22:47.779119+00:00",
-      "rss_date": "Mon, 05 Oct 2026 23:22:47 +0000"
-    },
-    {
-      "id": "fenland-news-6440699a506c44d5fefa6177",
-      "headline": "Chatteris woman jailed for attempted arson",
-      "brief": "A woman from Chatteris has been sentenced to time in prison following an incident involving a deodorant can. The individual was convicted of attempted arson. No further details regarding the circumstances of the case or the length of the sentence have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZFV0a1pONGEzM2xITlE4cXdQcUhteGdrOGFFb3VhYzhWazRLTkNGaXRKblgtWkxHQmtDS2d1RmpXWnN1ZmQzOEN0cnl0Q2cxRjVwTllhX1hSYnVrYWVHZWhXY3lHOF93TW5TTm0wNTBJM19zMXFjb3pqS2RSUnJtRW5wNmdwdnBNRURzcDR1elFMemI5QWs3NVBjZGxoZw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-05T13:58:57+00:00",
-      "generated_at": "2026-10-05T23:22:36.183121+00:00",
-      "rss_date": "Mon, 05 Oct 2026 23:22:36 +0000"
     }
   ]
 }
