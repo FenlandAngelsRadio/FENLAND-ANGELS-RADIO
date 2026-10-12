@@ -81,6 +81,12 @@
       margin-top:34px;
     }
 
+    .ad-production-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .ad-package-card ul{padding-left:20px;line-height:1.7;color:#d2d6df;flex:1}
+    .ad-package-card .btn{margin-top:auto}
+    .ad-terms{padding:24px;margin-top:24px;border:1px solid #3a3328;border-radius:16px;background:#0d0f13;line-height:1.7}
+    .ad-terms h3{margin-top:0;color:var(--gold)}
+
     .ad-package-card{
       display:flex;
       flex-direction:column;
@@ -286,17 +292,61 @@
       </p>
 
       <h2>
-        Choose your package
+        Already have an advert? Choose airtime only
       </h2>
 
       <p>
-        All standard packages cover one month of airtime for commercials up to 30 seconds.
+        These affordable packages cover one month of airtime for your existing commercial of up to 30 seconds. Production is not included. Frequencies below are plays per day.
       </p>
 
     </div>
 
 
     <div class="ad-package-grid" id="cmsAdPackages"><p>Loading advertising packages…</p></div>
+  </section>
+
+  <section class="section" id="production-packages" aria-labelledby="production-title">
+    <div class="section-heading">
+      <p class="eyebrow">ADVERT PRODUCTION + AIRTIME</p>
+      <h2 id="production-title">Need an advert made? Start here</h2>
+      <p>A produced commercial and a month of promotion on FAR, an independent online station serving the Fens. Prices below are monthly guide prices; spots are per week. Ask for a written quote before booking.</p>
+    </div>
+    <div class="ad-package-grid ad-production-grid">
+      <article class="ad-package-card">
+        <p class="eyebrow">BRONZE</p><h3>FAR Basic</h3>
+        <div class="ad-price">£150<span>/month guide</span></div>
+        <strong>15 spots per week</strong>
+        <ul><li>One 30-second advert produced from your supplied script</li><li>Rotation in early morning and late-night slots</li><li>Basic business listing on the station website</li></ul>
+        <a class="btn primary" href="advertising-enquiry.html?package=Bronze">Enquire about Bronze</a>
+      </article>
+      <article class="ad-package-card">
+        <p class="eyebrow">SILVER</p><h3>FAR Standard</h3>
+        <div class="ad-price">£350<span>/month guide</span></div>
+        <strong>30 spots per week</strong>
+        <ul><li>One professionally produced 30-second advert</li><li>One voice with an approved music bed or sound effects</li><li>A mix of daytime and off-peak slots</li><li>One station social media post per campaign week</li></ul>
+        <a class="btn primary" href="advertising-enquiry.html?package=Silver">Enquire about Silver</a>
+      </article>
+      <article class="ad-package-card prime">
+        <p class="eyebrow">GOLD</p><h3>FAR Growth</h3>
+        <div class="ad-price">£600<span>/month guide</span></div>
+        <strong>45 spots per week</strong>
+        <ul><li>One premium 30-second advert with script support, voice and sound design</li><li>Includes 10 spots per week in Breakfast or Drive Time</li><li>Business logo and link on the website during the campaign</li><li>One station social media post per campaign week</li></ul>
+        <a class="btn primary" href="advertising-enquiry.html?package=Gold">Enquire about Gold</a>
+      </article>
+      <article class="ad-package-card premium">
+        <p class="eyebrow">PLATINUM</p><h3>FAR Premium</h3>
+        <div class="ad-price">£975<span>/month guide</span></div>
+        <strong>60 spots per week</strong>
+        <ul><li>One premium 30-second advert and a short promotional jingle</li><li>At least 20 spots per week in Breakfast or Drive Time</li><li>Homepage banner placement during the campaign, subject to availability</li><li>Business logo and link on the website</li><li>One station social media post per campaign week</li></ul>
+        <a class="btn primary" href="advertising-enquiry.html?package=Platinum">Enquire about Platinum</a>
+      </article>
+    </div>
+    <div class="ad-terms">
+      <h3>Clear terms before you book</h3>
+      <p>Each production bundle covers one initial advert and one month of airtime. Weekly spots are scheduled across the agreed time bands; we confirm dates and the total number of spots in your written quote. A spot is one broadcast of your advert, not one listener.</p>
+      <p>The production brief, script support, voice, music, revisions, delivery date, usage rights and any applicable tax are confirmed before payment. Your campaign starts after you approve the finished advert. Renewal airtime and any new production are quoted separately, so you do not automatically pay for a new advert every month.</p>
+      <p>Website and social placements run during the campaign. We provide a summary of scheduled/broadcast spots and digital placements; listener figures are supplied only where measured and available. Advertising does not guarantee listener numbers, enquiries or sales. Independent editorial interviews are arranged separately from paid advertising.</p>
+    </div>
   </section>
 
 
@@ -313,7 +363,7 @@
       </h2>
 
       <p>
-        Published package prices cover broadcast airtime for a commercial of up to 30 seconds. Advert production, voicing or editing is not included and can be quoted separately before work begins.
+        Airtime-only packages use your existing commercial. The separate production bundles include making an advert for your first campaign. We agree the creative brief and quote before work begins.
       </p>
 
     </div>
@@ -435,5 +485,5 @@
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-content.js?v=1"></script><script>
-(async()=>{try{const m=await FARContent.all();FARContent.apply(m);const ps=await FARContent.packages(),box=document.getElementById('cmsAdPackages'),esc=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[x]));box.innerHTML=ps.map((p,i)=>'<article class="ad-package-card '+(i===3?'prime':i===4?'premium':'')+'"><p class="eyebrow">'+esc(p.name.replace(/^FAR\s+/i,''))+'</p><h3>'+esc(p.name)+'</h3><div class="ad-price">£'+Number(p.price).toFixed(Number(p.price)%1?2:0)+'<span>/month</span></div><strong>'+esc(p.includes||p.plays_per_day+' plays per day')+'</strong><p>'+esc(p.description)+'</p><a class="btn primary" href="'+esc(p.buy_url||m.advert_store_url||'#')+'" target="_blank" rel="noopener">Buy '+esc(p.name.replace(/^FAR\s+/i,''))+'</a></article>').join('')}catch(e){console.error('FAR CMS',e)}})();</script></body>
+(async()=>{const box=document.getElementById('cmsAdPackages');try{const m=await FARContent.all();FARContent.apply(m);const ps=await FARContent.packages(),esc=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[x]));box.innerHTML=ps.map((p,i)=>'<article class="ad-package-card '+(i===3?'prime':i===4?'premium':'')+'"><p class="eyebrow">AIRTIME ONLY</p><h3>'+esc(p.name)+'</h3><div class="ad-price">£'+Number(p.price).toFixed(Number(p.price)%1?2:0)+'<span>/month</span></div><strong>'+esc(p.includes||p.plays_per_day+' plays per day')+'</strong><p>'+esc(p.description)+'</p><a class="btn primary" href="advertising-enquiry.html?package='+encodeURIComponent(p.name)+'">Enquire about '+esc(p.name.replace(/^FAR\s+/i,''))+'</a></article>').join('')||'<p>Please contact FAR for current airtime packages.</p>'}catch(e){box.innerHTML='<p>Packages could not be loaded. <a href="advertising-enquiry.html">Contact FAR for current prices.</a></p>';console.error('FAR CMS',e)}})();</script></body>
 </html>
