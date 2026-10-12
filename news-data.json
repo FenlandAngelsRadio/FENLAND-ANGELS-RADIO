@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-12T02:42:06.048940+00:00",
+  "updated_at": "2026-10-12T13:35:59.484149+00:00",
   "stories": [
+    {
+      "id": "fenland-news-607ecd1713a7711a6f0d3c52",
+      "headline": "Police investigate altercation between two women in Fenland",
+      "brief": "Cambridgeshire Police have launched an investigation following a fight involving two women in a Fenland town. Officers are currently looking into the circumstances surrounding the incident. No further details regarding the exact location or the condition of those involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdi1sNHBnVkowN0piQzljb3IyNnhOQ3VWVlpteWRoWThMSGlVbUFQbFphNndfcGgxdTgzUW45cE9wWTRqV1k1MEtNUWt0Q01PZkNBeXFaZE5wbXZfdVIzV2NEZDVGX3l2SlA5d1lDQWJkT1oxbUJ0QVVPai1iNE1ORjF0N1lVZw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-07-20T07:00:00+00:00",
+      "generated_at": "2026-10-12T13:34:50.791537+00:00",
+      "rss_date": "Mon, 12 Oct 2026 13:34:50 +0000"
+    },
+    {
+      "id": "fenland-news-570c1f89c1d8cdb4c2035f2b",
+      "headline": "March business identifies barriers for black entrepreneurs",
+      "brief": "A company based in March has highlighted significant challenges facing black business owners. According to the firm, known as Rayo, a lack of belief is currently acting as a primary barrier holding back black entrepreneurs. The business shared these insights regarding the obstacles encountered by black-owned enterprises in the current economic climate.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeDhXMzBqQTdidzJhWjVneVdGMmtEZks2U2JjU1FXalhTZTR1bXF1UzdjZXQydzAyYndLZmh2S1kwRGJFSFVRcUdSNmxDeWxrYTBCTk9qNjktN3dRTUNpdWpfOGE0MktpZ1pvSEFzWTQxQklKci0wb2VCUUlQVzMtZUwzYlpNM0tfVEQ1ZkExalpHdnlrc3ZjR1dURjBoNDVpVFRjZzlVeVJfRGc0ZUVrTUtwZw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-12T04:34:43+00:00",
+      "generated_at": "2026-10-12T13:34:14.099247+00:00",
+      "rss_date": "Mon, 12 Oct 2026 13:34:14 +0000"
+    },
     {
       "id": "fenland-news-b55c9e192ce237baaceac879",
       "headline": "GCSE results day in East Cambridgeshire",
@@ -1078,28 +1100,6 @@
       "published": "2026-10-07T14:09:00+00:00",
       "generated_at": "2026-10-07T22:17:35.446606+00:00",
       "rss_date": "Wed, 07 Oct 2026 22:17:35 +0000"
-    },
-    {
-      "id": "fenland-news-c428f744af8f9bf1a2c52b65",
-      "headline": "Report identifies village as one of the country's most deprived areas",
-      "brief": "A report from the Lynn News has highlighted a local village as one of the most deprived areas in the country. The publication describes the location as the \"most forgotten\" village, drawing attention to its current socio-economic status. No further details regarding the specific identity of the village or the criteria used for the assessment were provided in the report. Residents are encouraged to stay tuned to Fenland Angels Radio for any further updates on this story as they become available.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNjhLSTljdDRqWjYtZm9teW1OaWNLUHE0ZWluVElfaUVCck5ZTTZIYjN3ZjRlUkpwNU95WGt1UkhuU1BORU50ZFo2Q05ZalgwTFRHS3VDZGhrNEU5ZGVJRlExM19XY0xKZ2FPX0pPVGpBbEJjZ3R1UWVxR2NKanF6SGdRQ28zZ2pNaktqckxidDBncW5oQVMyVWZ0Rk9UYkU?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-08-26T07:00:00+00:00",
-      "generated_at": "2026-10-07T22:17:34.352997+00:00",
-      "rss_date": "Wed, 07 Oct 2026 22:17:34 +0000"
-    },
-    {
-      "id": "fenland-news-da4e7a0b4e73d574f71bb406",
-      "headline": "Three arrested following reports of youths with a knife in Fen town",
-      "brief": "Police have made three arrests after reports of a group of youths carrying a knife in a Fenland town. Among those taken into custody is a boy. Officers were called to the scene following the reports, leading to the arrests of the three individuals. Investigations into the incident are currently ongoing.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX09tcFMyS05QN28zV0U5amgtN2JqbzdCV2NNY0I2bElHVEZ2Q2tiNkEtUnBCUGNIczlmMHpSWVlwN1VnR3FXbllKVXdjcExITXNVWU02MkN6SXJrVXVFOFQzeDFlTDFSakhBTE4wSUVhd1RQcEl1d2x6X0lWWXBPaXpQeWlLbmc1N2EwVUF3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-07-06T07:00:00+00:00",
-      "generated_at": "2026-10-07T22:17:14.683137+00:00",
-      "rss_date": "Wed, 07 Oct 2026 22:17:14 +0000"
     }
   ]
 }
