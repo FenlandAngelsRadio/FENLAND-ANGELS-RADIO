@@ -122,49 +122,19 @@
             Interested in
           </label>
 
-          <select name="package_interest">
-
-            <option value="">
-              Not sure yet
-            </option>
-
-            <option>
-              FAR Starter
-            </option>
-
-            <option>
-              FAR Local
-            </option>
-
-            <option>
-              FAR Plus
-            </option>
-
-            <option>
-              FAR Prime
-            </option>
-
-            <option>
-              FAR Premium
-            </option>
-
-            <option>
-              Programme sponsorship
-            </option>
-
-            <option>
-              Station sponsorship
-            </option>
-
-            <option>
-              Website advertising
-            </option>
-
-            <option>
-              Something different
-            </option>
-
-          </select>
+          <select name="package_interest" aria-label="Interested in"><option value="">Not sure yet</option><option value="FAR Starter">FAR Starter — airtime only</option>
+<option value="FAR Local">FAR Local — airtime only</option>
+<option value="FAR Plus">FAR Plus — airtime only</option>
+<option value="FAR Prime">FAR Prime — airtime only</option>
+<option value="FAR Sponsor">FAR Sponsor — airtime only</option>
+<option value="Bronze">Bronze — production + airtime</option>
+<option value="Silver">Silver — production + airtime</option>
+<option value="Gold">Gold — production + airtime</option>
+<option value="Platinum">Platinum — production + airtime</option>
+<option value="Programme sponsorship">Programme sponsorship</option>
+<option value="Station sponsorship">Station sponsorship</option>
+<option value="Website advertising">Website advertising</option>
+<option value="Something different">Something different</option></select>
 
         </div>
 
@@ -357,6 +327,12 @@ const b =
 const c =
   window.FAR_EVENTS_CONFIG || {};
 
+
+const requestedPackage = new URLSearchParams(location.search).get("package");
+const packageSelect = f.elements.namedItem("package_interest");
+if (requestedPackage && Array.from(packageSelect.options).some(o => o.value === requestedPackage)) {
+  packageSelect.value = requestedPackage;
+}
 
 f.onsubmit = async e => {
 
