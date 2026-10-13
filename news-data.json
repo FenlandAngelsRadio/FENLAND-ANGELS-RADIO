@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-13T12:59:17.811237+00:00",
+  "updated_at": "2026-10-13T21:59:22.079146+00:00",
   "stories": [
+    {
+      "id": "fenland-news-dd633c09b04dcfe8d855ac2d",
+      "headline": "New youth hub to open in Wisbech",
+      "brief": "A new youth hub is opening at the Annabelle Davis Centre on Love Lane in Wisbech to support young people aged 16 to 25. Run by the charity Centre 33 and backed by the Cambridgeshire and Peterborough Combined Authority, the facility aims to help those not currently in education, employment, or training.\n\nThe hub will provide a single location for guidance on careers, skills, housing, and wellbeing. It is designed to address local unemployment, with recent figures suggesting over 14% of young people in the county are currently without work or training. While based in Wisbech, the project will also conduct outreach work to support young people living in rural Fenland communities.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/new-youth-hub-to-tackle-unemployment-and-provide-vital-suppo-9486592/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/7CKKGX1EWPIL8HOEI281.jpg",
+      "published": "2026-10-13T05:00:00+00:00",
+      "generated_at": "2026-10-13T21:59:04.271187+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:59:04 +0000"
+    },
+    {
+      "id": "fenland-news-e18d9780ce1133419eb31e2c",
+      "headline": "Protest planned over potential Queen Elizabeth Hospital service closures",
+      "brief": "Campaigners are organising a \"human A&E queue\" in King’s Lynn this Saturday, October 17, to protest against potential service closures at the Queen Elizabeth Hospital. The demonstration, taking place at Tuesday Market Place from 11.30am until 12pm, aims to highlight concerns over reports that emergency, maternity, and intensive care departments could be shut. \n\nParticipants are encouraged to bring placards displaying their home town and travel time to the hospital. The Norfolk and Waveney University Hospitals Group has stated that the documents regarding these potential changes are preliminary and that no final decisions have been made. Residents, local politicians, and MPs are expected to attend the event to voice their opposition to the proposals.",
+      "original_url": "https://www.lynnnews.co.uk/news/residents-urged-to-form-human-a-e-queue-amid-potential-hos-9486580/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/86YTTBSX7B90QP2L81PP.jpg",
+      "published": "2026-10-13T09:17:08+00:00",
+      "generated_at": "2026-10-13T21:59:02.458343+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:59:02 +0000"
+    },
+    {
+      "id": "fenland-news-85d8ab0651525c232648fce8",
+      "headline": "AI technology improves diabetes eye screening access",
+      "brief": "New research from the London School of Hygiene and Tropical Medicine suggests that artificial intelligence is helping more people living with diabetes to access essential eye care. The study indicates that implementing AI-based screening tools can successfully increase the number of patients receiving sight-saving examinations. Health experts believe this development could play a significant role in managing diabetes-related complications across the region.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYk1ESHcyUGEzQ2NJdWNjczcwVnhqSTJraVJXUllNQnE5bkVic19XTFZVUW5KejU3N2wzWkRTeXQtcDJUMk1zSGhQVXFIU3pURnZ4Nk9CTVRGWkJCcTF4U2ZvRkU4UnA4NFlJNXVSbTNjQjdPOFBTV19MY1RCYzZLNGgzbURHR2p5MG1fN0g3eGVoWk5VN3F3OVZILUJGcFlWWXBoRG5YMEgzYTM1cVhheS1ETQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-13T08:01:08+00:00",
+      "generated_at": "2026-10-13T21:58:57.155338+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:57 +0000"
+    },
+    {
+      "id": "fenland-news-f7853ca84b1d4e66415f5a6c",
+      "headline": "Traveller pitch approved on agricultural land near Ely",
+      "brief": "Planning permission has been granted for a single traveller pitch on agricultural land in the Ely area. The decision was reached despite formal concerns raised by the local council regarding the site. The approval allows for the development of the pitch on the designated plot, notwithstanding the objections previously put forward by planning officials.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1piNHRVTHBXX3VPUEY5a3pwU0RyaDdsX09PZWxDbzNYNnQtcHNUN3VxSWNqYkFwYlpCWDM3STI5NTJhN2FWcmEzZmxPSWpYZzdCMm04YkVENnNvNENyamdxS0pza3NoOEJsM21QQl9ZbzdqQ18wNlh5R3BaeS1FaGdRNEpIZGFIRVZNS1N4bGkwTUVlQzF4MVRVZVZmYU94NEphRTR0Wkg?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-13T16:00:00+00:00",
+      "generated_at": "2026-10-13T21:58:56.298703+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:56 +0000"
+    },
+    {
+      "id": "fenland-news-fa79e8912b0a6de4c733bfc3",
+      "headline": "School and parents exchange letters following protest",
+      "brief": "School leaders and parents have been exchanging letters following a recent protest. The correspondence comes as officials work to minimise any disruption to the upcoming exam season. No further details regarding the nature of the protest or the specific school involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTG1DSFQ2RG9tQjhLSjNFc3U0XzBQVm9YbTdVU0VIcl9CTGJqSTBiZmNSS0tFeTRZVzlNdmY2bFBfTUFuWVVwZVlyd1RJTjh3NWQtcUUtT2ZEa2hFdERqSlN2R3V0SFdDMEtsQ1R4WEtSbUhsRXlRcmVZeTg2ZEdBVC01Y3VRX3ZOQXVBa2ZnZHZLeEhyeHEyNjVRbzRyZ0NxdEdzU0hSOXdOTlRieVBRWmJR?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-05-06T07:00:00+00:00",
+      "generated_at": "2026-10-13T21:58:55.113693+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:55 +0000"
+    },
+    {
+      "id": "fenland-news-a9e483a26fbf667562719307",
+      "headline": "Campaign launched against East Cambridgeshire wind farm proposals",
+      "brief": "A new campaign has been established to oppose plans for two wind farms in East Cambridgeshire. The proposed developments are located on Grade 1 agricultural land. Further details regarding the specific locations or the groups involved in the opposition have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFA0cWxfcjdqeGJtOGRsVzA3VWtuR0EtOVBPZ1g4TUYzUWlEQ2ZFWWZXejJSM3hDbUs1eE15clpWRmMza1p6ZlBoN0VnVGFKQmUxdlNCTmVCR1JPNm9qS1QtWVVXRUpaT0dyWFZ6ZHJoaGpWVWMzWlZXRGFyY0k2V0JSWFhWdU9HU0kzdnZjenJLMlAxSGc0?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-01T07:00:00+00:00",
+      "generated_at": "2026-10-13T21:58:54.292832+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:54 +0000"
+    },
+    {
+      "id": "fenland-news-0b8a01a029337e6ede4ec39f",
+      "headline": "New Police Community Support Officer joins Wisbech team",
+      "brief": "A new Police Community Support Officer has joined the neighbourhood policing team in Wisbech. Jamie Gray-Esson has begun his role following the completion of his training. Since starting, he has been involved in several arrests following foot chases and has assisted colleagues with various crime enquiries.\n\nOfficer Gray-Esson has also been conducting patrols across local towns and villages, where he has engaged with shop staff, stallholders, and homeless individuals. In Wisbech town centre, he has been issuing parking tickets, with activity focused on Hill Street, Union Street, High Street, and East Place. The local policing team is encouraging residents to say hello if they see him out on patrol.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/new-police-community-support-officer-straight-to-work-after-9486664/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/E5CVZ32L7WWYMLKLLY55.jpg",
+      "published": "2026-10-13T08:43:48+00:00",
+      "generated_at": "2026-10-13T21:58:53.080212+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:53 +0000"
+    },
+    {
+      "id": "fenland-news-90ea2211e307db07afbf3c60",
+      "headline": "Recent cases heard at King’s Lynn Magistrates’ Court",
+      "brief": "Several individuals appeared before King’s Lynn Magistrates’ Court last week to face a variety of charges. Among those appearing were Natasha Faulkner of Downham, who will be sentenced on December 1 for failing to provide a breath test, and Geoffrey Ruskin of West Winch, who pleaded guilty to drink-driving after recording a breath alcohol reading three times the legal limit.\n\nIn other cases, Morgan Dowd of King’s Lynn pleaded guilty to harassment and using threatening behaviour, while Martin Gardner received a suspended prison sentence for breaching a non-molestation order. Additionally, an arrest warrant has been issued for Danny Clark of King’s Lynn, who is accused of shoplifting from a local store.",
+      "original_url": "https://www.lynnnews.co.uk/news/drink-driving-pensioners-and-man-who-made-threats-to-stab-a-9486639/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/BCVL3MJMF716AGYDG867.jpg",
+      "published": "2026-10-13T05:00:00+00:00",
+      "generated_at": "2026-10-13T21:58:51.335008+00:00",
+      "rss_date": "Tue, 13 Oct 2026 21:58:51 +0000"
+    },
     {
       "id": "fenland-news-8a002dff4119c5925399f622",
       "headline": "Wisbech man jailed following fuel station incident",
@@ -1012,94 +1100,6 @@
       "published": "2025-04-04T07:00:00+00:00",
       "generated_at": "2026-10-08T22:30:21.805011+00:00",
       "rss_date": "Thu, 08 Oct 2026 22:30:21 +0000"
-    },
-    {
-      "id": "fenland-news-46ee66e34016edbfe2234a56",
-      "headline": "Planning decision for Brewin Avenue to go to committee",
-      "brief": "A planning application for Brewin Avenue in March is set to be decided by a committee. This follows objections from both local planning officers and the town of March, who have both advised against the proposal. Despite these recommendations, the application will now be reviewed by the Fenland District Council planning committee for a final decision.",
-      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdXczTFR1MTVZbV9wd0puQWRDbHVwbTFiN3ExOTQwZno5Vk9WTmhXUHozZzNWLWZvR2lpcjhTU2pOTlppSDV0aU9kZEFFZWtRVWh0R1Z4N29KVkdfdklVMVpYREZicktEankyYkZrM2xhLTFFTFVXUXJ0VkxjMHpvdjY1ZGZaNFpNNmctMmxsdTN4bU1VTlNaOTdYUm1WTjlyeVduWUZXRjhrSG4xNDFQOXRNS2xRLVdmdXN1RENtclBLdlV3MGVKMw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-08T11:32:00+00:00",
-      "generated_at": "2026-10-08T22:30:20.529254+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:20 +0000"
-    },
-    {
-      "id": "fenland-news-3f65d87139eff6a12f5b709e",
-      "headline": "Woman hospitalised following Wisbech collision",
-      "brief": "Emergency services were called to Clarkson Avenue in Wisbech yesterday afternoon following a two-vehicle crash. Police and paramedics arrived at the scene at 2:23pm to assist those involved. \n\nOne woman was taken to hospital to be treated for minor injuries. The vehicles have since been recovered from the site, and the road has been reopened to traffic.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/woman-hospitalised-with-injuries-after-two-vehicle-crash-9486216/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/TZQSG6BPKCKWDQ541F2J.jpg",
-      "published": "2026-10-08T15:23:00+00:00",
-      "generated_at": "2026-10-08T22:30:14.789891+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:14 +0000"
-    },
-    {
-      "id": "fenland-news-223ac405f56a4d8d37a96d01",
-      "headline": "Plans submitted to replace former King’s Lynn clinic with new homes",
-      "brief": "Developers Alan Homes have submitted a planning application to demolish the former King’s Lynn Chiropractic Centre on John Kennedy Road. The Downham Market-based firm is seeking permission to build seven two-bedroom houses on the site. \n\nThe proposal follows an earlier, larger plan for nine homes which was scaled back following concerns regarding noise and the impact on neighbouring properties. If approved, the new two-storey dwellings will include private garden space and features designed to mitigate flood risk. The application was submitted to West Norfolk Council this week, with a final decision expected by the first of December.",
-      "original_url": "https://www.lynnnews.co.uk/news/former-chiropractic-centre-could-be-knocked-down-to-make-way-9486191/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/BOYHZOX169GU4HXW8EY1.jpg",
-      "published": "2026-10-08T14:30:00+00:00",
-      "generated_at": "2026-10-08T22:30:12.906275+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:12 +0000"
-    },
-    {
-      "id": "fenland-news-966699c825e38aa24d484ef7",
-      "headline": "Police investigate assault in Fenland town",
-      "brief": "A man has been taken to hospital following an assault in a Fenland town. Details regarding the exact location and the time of the incident have not been released by authorities. Police are currently investigating the circumstances surrounding the attack. Anyone with information that could assist officers with their enquiries is encouraged to come forward.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWWxqR3NZd0xJR2VQRW83SklGcUFWbTRpVlhyTS1iYUFQREV0a3U1NExrNDRCaEFObUVvT3kyeEYxSHd1bTZCTGo3NldZZUMtcC1FMGYzb2FEYTIzNEhGZy1pWGIwNWlUOTlRUXYyb1gydVJZR25VWmQyb0VmOWdwQWp5YTVBX25ZLVFiLXBqSmZTZw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-01-21T08:00:00+00:00",
-      "generated_at": "2026-10-08T12:17:53.477939+00:00",
-      "rss_date": "Thu, 08 Oct 2026 12:17:53 +0000"
-    },
-    {
-      "id": "fenland-news-a22efd5b0e4577e1774866dd",
-      "headline": "Fenland District Council submits formal objection to Leverington housing plans",
-      "brief": "Fenland District Council has submitted a detailed formal objection to the Home Office regarding plans to house 26 women and babies at Roman Court in Leverington. The council argues the site lacks the necessary facilities and services to support asylum seekers, warning that the proposal poses risks to both residents and those being housed. \n\nThe local authority is also challenging a wider government proposal to accommodate 205 asylum seekers across the district, describing that figure as unreasonable. Officials have requested that the Home Office reconsider the plan, noting that the council has not been properly consulted. The Home Office has confirmed it will review the council's submission before reaching a final decision on the site.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/full-objection-made-by-council-over-plans-to-house-26-women-9486077/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/BULZXX1VCTM8BUZCXE14.jpg",
-      "published": "2026-10-08T08:39:14+00:00",
-      "generated_at": "2026-10-08T12:17:17.546013+00:00",
-      "rss_date": "Thu, 08 Oct 2026 12:17:17 +0000"
-    },
-    {
-      "id": "fenland-news-ca1d3b27e5bc8999f8410023",
-      "headline": "King’s Lynn firewalk raises funds for local charities",
-      "brief": "Participants have taken part in a charity firewalk at Lynnsport in King’s Lynn. The event, held last Friday, was organised by the King’s Lynn Priory Satellite Rotary Club. Six teams and five individuals walked barefoot across hot coals to raise money for eight different Norfolk charities. \n\nThe challenge was led by Mark and Tanya Daniels from Charity Firewalk, who also provided a fire performance for those in attendance. While the final total raised is not yet known, organisers have thanked the various sponsors and volunteers who supported the event. Last year’s inaugural firewalk raised more than £33,000. Donations are still being collected to support the chosen local causes.",
-      "original_url": "https://www.lynnnews.co.uk/news/hot-footing-it-over-coals-for-charity-9486084/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/WCZXYHSCZZBH5ZM57GKA.jpg",
-      "published": "2026-10-08T09:07:29+00:00",
-      "generated_at": "2026-10-08T12:17:05.026643+00:00",
-      "rss_date": "Thu, 08 Oct 2026 12:17:05 +0000"
-    },
-    {
-      "id": "fenland-news-074d1b0be62fe3ae1d5626ef",
-      "headline": "Questions raised over town hall sale",
-      "brief": "A local councillor is seeking answers regarding the recent sale of a town hall to a businessman. The transaction has been defended by officials following the request for further information. No further details regarding the location or the identity of those involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOemowWVkzVWhBUTJhOVlVMzRKX3BicHd3OS1zT3h0bVJEcDMzaVI5SUUyeTdWSjBmQWN5Z3A3RXJoMC0zNVc4bV9ndE9WdGYtRFdMcVZNbkd2QWNtLVIxam1UOHlGelltSGVPRmpnUUJndG92RkxuNkV0aThKb2dydGRsa1IwczhIMUIxR0VzdzVacHhQeUctM2RETU5DN1k?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-05-19T07:00:00+00:00",
-      "generated_at": "2026-10-08T12:15:49.929757+00:00",
-      "rss_date": "Thu, 08 Oct 2026 12:15:49 +0000"
-    },
-    {
-      "id": "fenland-news-a787788e307402dbccedcd3f",
-      "headline": "Police appeal for witnesses following fatal Sawtry collision",
-      "brief": "A 23-year-old motorcyclist from Yaxley has died following a collision in Sawtry earlier this week. The incident occurred on Old North Road at approximately 12:50pm, involving a black Kawasaki motorbike and a red Volvo lorry. The motorcyclist was taken to Addenbrooke’s Hospital but later passed away from his injuries.\n\nThe 76-year-old lorry driver from Wisbech was uninjured. He was arrested on suspicion of causing serious injury by careless driving and has been released on bail until January 4. Police are asking anyone with dashcam footage or information regarding the incident to come forward. You can report details via the force website quoting reference 35/77423/26, or by calling 101.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/motorcyclist-dies-after-being-involved-in-lorry-crash-9486145/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/QKZO6F0KD46LH2WF1G6M.jpg",
-      "published": "2026-10-08T11:42:45+00:00",
-      "generated_at": "2026-10-08T12:15:38.036686+00:00",
-      "rss_date": "Thu, 08 Oct 2026 12:15:38 +0000"
     }
   ]
 }
