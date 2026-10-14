@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-13T21:59:22.079146+00:00",
+  "updated_at": "2026-10-14T02:12:00.850033+00:00",
   "stories": [
+    {
+      "id": "fenland-news-d08ac816421969fdb98f5221",
+      "headline": "Principal leaves Spalding academy",
+      "brief": "Parents of students at a Spalding academy have expressed confusion following the departure of the school's principal. Reports indicate that the head of the academy has left their position, though no further details regarding the circumstances of the exit have been provided. Families connected to the school are currently seeking clarity on the leadership change.",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNS3QwRnVkYjcwQ09NOTItRlJIYTFqM055YXRNbG55LW83VnQ4NEJUV1E1REN2dlF0YzBlamNWZ2YzUDF5VUEwZGg5SUR2YXFBZ3MxTV92Ny1HbnVRUGVQYXktcU1COGNoblBHRDRnTGNlQXZlY3ZFdUx0NDdLc2xycm5Jc1lOX2xnaUR3YUlMLU1uTmtPN2JDS244b3lpS3ZTUEVXX2lsT19zSjlqU0Q0?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-05-04T07:00:00+00:00",
+      "generated_at": "2026-10-14T02:11:41.919146+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:41 +0000"
+    },
+    {
+      "id": "fenland-news-8df96f40d69edc108df7944c",
+      "headline": "Further evidence required regarding former brickworks site",
+      "brief": "Officials have stated that more information is needed to address ongoing concerns surrounding a former brickworks site. According to reports from the BBC, the current level of evidence is insufficient to resolve the issues raised about the location. No further details have been provided regarding the specific nature of the concerns or the identity of the site in question. Residents are advised that the matter remains under review as authorities seek additional data to clarify the situation.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zcGViU0h2RkJjX1VWTlU0bDF0RGZuYmxOVmJtQXpBakZUSkdUQXhlS3ZWUVp4ZlhmcG1zY2hDNWtOSHRpTzVmN01MMlF1UVRHeVJ3SXdZVDhXQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-01-13T08:00:00+00:00",
+      "generated_at": "2026-10-14T02:11:40.781483+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:40 +0000"
+    },
+    {
+      "id": "fenland-news-5f87bc9c34639ab60e3fbcd5",
+      "headline": "Organic coffee chain set to open in King’s Lynn",
+      "brief": "A new coffee shop is coming to King’s Lynn High Street. Esquires, The Organic Coffee Company, has received planning permission from West Norfolk Council to install signage at the former Coneys, Burton and Dorothy Perkins site at numbers 98 to 99. The premises have remained vacant since February, though workmen have been spotted inside the building this week. \n\nThe brand, which originated in Canada in 1993, already operates a franchise in Swaffham. An application for the new signage was submitted by the company’s brand project manager, Ash Flawn. Esquires has not yet confirmed an official opening date for the King’s Lynn location.",
+      "original_url": "https://www.lynnnews.co.uk/news/ethical-coffee-chain-to-open-in-town-9486182/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/CPOB2THN3GN6MM1XXIRB.jpg",
+      "published": "2026-10-08T15:27:59+00:00",
+      "generated_at": "2026-10-14T02:11:39.615853+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:39 +0000"
+    },
+    {
+      "id": "fenland-news-1714dad02570cacb7e441024",
+      "headline": "Eye care delivery to be discussed at Westminster event",
+      "brief": "The Association of Optometrists is set to highlight how Integrated Care Boards are delivering eye care services. The topic will be the focus of discussions at the upcoming Westminster Eye Health Day. The event aims to examine the current provision of these services across the country.",
+      "original_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX1JZa1VqWUZwQl9CWV9ha0JYeXhXMm43RTZoaWV4bV94Si1RT25INFU1aF9UZ1RsdFJqUFB5dVd1Zmt2Q2tPemd1a3FtMHdHaC1BTUJVbVdTOTJMYzRNekpYZG1lSTZveUVaVXZwLU16Vk5xOTZqZjRJUFdTUHFyNzA4OF9IOFM4c3ROWVloYzlRVTJaYTNzdWltMnJFZ0RsOGRGWHFNSlZ1alZGMnlTcy11VlhkS2pINkhUOXpSNDVQekZyZTNWTQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-13T16:01:55+00:00",
+      "generated_at": "2026-10-14T02:11:36.567928+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:36 +0000"
+    },
+    {
+      "id": "fenland-news-8d85ceea820147d03a10757b",
+      "headline": "Potential housing for asylum seekers in Fenland",
+      "brief": "Reports suggest that up to 200 asylum seekers could potentially be housed within the Fenland area. The information, which originated from the BBC, is currently being discussed regarding the local impact of such a proposal. No further details have been confirmed at this stage regarding specific locations or timelines for the potential arrivals. Residents are advised to monitor official channels for any updates as the situation develops.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02ckRaSldzZkRRd2dnai1ndUxkQkRTVm1jb29CUTJaMzhzQnQ1dGd2OV9JQWVTVm54NWI0SGZfVzFUcW9wUmpiOHdLd2JoVDZLLWEzeFZLQjVnc1dqSWc?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-13T05:16:02+00:00",
+      "generated_at": "2026-10-14T02:11:35.591899+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:35 +0000"
+    },
+    {
+      "id": "fenland-news-fa79e8912b0a6de4c733bfc3",
+      "headline": "School and parents in correspondence following protest",
+      "brief": "School leaders and parents have exchanged letters following a recent protest. The communication comes as the school aims to minimise disruption for students during the current exam season. No further details regarding the nature of the protest or the specific school involved have been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTG1DSFQ2RG9tQjhLSjNFc3U0XzBQVm9YbTdVU0VIcl9CTGJqSTBiZmNSS0tFeTRZVzlNdmY2bFBfTUFuWVVwZVlyd1RJTjh3NWQtcUUtT2ZEa2hFdERqSlN2R3V0SFdDMEtsQ1R4WEtSbUhsRXlRcmVZeTg2ZEdBVC01Y3VRX3ZOQXVBa2ZnZHZLeEhyeHEyNjVRbzRyZ0NxdEdzU0hSOXdOTlRieVBRWmJR?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-05-06T07:00:00+00:00",
+      "generated_at": "2026-10-14T02:11:34.642473+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:34 +0000"
+    },
+    {
+      "id": "fenland-news-82e97832e42a97f1a22dd844",
+      "headline": "Police appeal following fatal collision in King’s Lynn",
+      "brief": "Norfolk Police are asking for witnesses to come forward after a fatal road traffic collision in King’s Lynn. The incident occurred at approximately 11pm on Friday when a black Jeep Grand Cherokee left the road at the Knights Hill roundabout on Grimston Road. The driver, a man in his 60s, was the only person in the vehicle and sadly died at the scene.\n\nOfficers are requesting that anyone who saw the collision, or who has dashcam footage of the vehicle’s driving beforehand, contacts the force. You should quote incident number 587 of October 9 when providing information to Norfolk Police. The road was closed for a time while emergency services dealt with the scene.",
+      "original_url": "https://www.lynnnews.co.uk/news/witness-appeal-after-fatal-collision-9486554/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/UJT3VU3ZMW4UNLQMMG3Y.jpg",
+      "published": "2026-10-12T12:16:01+00:00",
+      "generated_at": "2026-10-14T02:11:28.472528+00:00",
+      "rss_date": "Wed, 14 Oct 2026 02:11:28 +0000"
+    },
     {
       "id": "fenland-news-dd633c09b04dcfe8d855ac2d",
       "headline": "New youth hub to open in Wisbech",
@@ -1023,83 +1100,6 @@
       "published": "2026-01-13T08:00:00+00:00",
       "generated_at": "2026-10-09T03:06:46.041392+00:00",
       "rss_date": "Fri, 09 Oct 2026 03:06:46 +0000"
-    },
-    {
-      "id": "fenland-news-2a0e34efe8f226dc780d1ef9",
-      "headline": "Looking back at October 2013 business news in King’s Lynn",
-      "brief": "We are taking a look back at business stories from October 2013 across the region. During that month, the Fenman pub, located opposite the King’s Lynn railway station, reopened its doors following a £15,000 refurbishment. The project was led by owners Tony and Julie Thompson.\n\nElsewhere in the area, Beers of Europe in Garage Lane, Setchey, received planning permission to expand their site. The approval was granted despite some concerns raised regarding road safety. These stories formed part of the local business landscape in the Fens ten years ago.",
-      "original_url": "https://www.lynnnews.co.uk/news/beer-store-told-it-could-expand-and-town-centre-pub-reopened-9485542/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/YT05OHRARBPBN4WPYPIR.jpg",
-      "published": "2026-10-08T05:00:00+00:00",
-      "generated_at": "2026-10-09T03:06:42.028613+00:00",
-      "rss_date": "Fri, 09 Oct 2026 03:06:42 +0000"
-    },
-    {
-      "id": "fenland-news-b9a99eb66be0a381066483dd",
-      "headline": "East Cambridgeshire approves new inclusive playground strategy",
-      "brief": "East Cambridgeshire District Council has officially approved a new strategy aimed at increasing the number of inclusive playgrounds across the region. The plan focuses on creating play areas that are accessible to all children, ensuring facilities meet a wider range of needs. Local families can expect to see these improvements implemented as the council begins to roll out the new policy. Further details regarding specific locations and timelines for these upgrades are expected to be released as the project progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbTd5NzlWTm1iUWYyMmk5dVVib21mWmc0U2ttSlhCS2xRcW1fWnNKYnhZU2ladjZGUkNDeFFCeEx5eUZTdVNIR0l1aHN3T2Z6cHBrbWd0ZWtZZDVBRkdzTHA5WFVvQ3JROFZKU3Y2UmhZdXV3dkhrbzF2bHVCMXprLXlCTVZROWczUVRYUHdSMzhrLWJvT2poV2RPS18tVTBfVFFnVm5n?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-06T03:30:00+00:00",
-      "generated_at": "2026-10-09T03:06:32.825857+00:00",
-      "rss_date": "Fri, 09 Oct 2026 03:06:32 +0000"
-    },
-    {
-      "id": "fenland-news-7d8a6b01dea51442c152ab9f",
-      "headline": "King’s Lynn charity event helps tackle veteran isolation",
-      "brief": "A King’s Lynn charity has hosted a social evening to help combat isolation among the local Armed Forces community. Beneficiaries of The Bridge for Heroes enjoyed a trip to the Strikes bowling alley in Gaywood, followed by a fish and chip supper at the charity’s South Clough Lane centre. \n\nThe outing was made possible through funding from Project Out and About Norfolk, which is supported by the Norfolk Community Foundation. The initiative aims to improve mental health by providing activities for veterans and their families across West Norfolk. Members of the Armed Forces community interested in learning more about these services can contact The Bridge for Heroes on 01553 760230.",
-      "original_url": "https://www.lynnnews.co.uk/news/great-to-get-out-bowling-followed-by-fish-and-chips-9486157/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/MDHUOULGLAFIJ15MFZQB.jpg",
-      "published": "2026-10-08T23:00:00+00:00",
-      "generated_at": "2026-10-09T03:06:29.034606+00:00",
-      "rss_date": "Fri, 09 Oct 2026 03:06:29 +0000"
-    },
-    {
-      "id": "fenland-news-fdf7c69130379698a94d8968",
-      "headline": "Firefighters tackle field blaze in Fenland",
-      "brief": "Fire crews are currently responding to a field fire in a Fenland town. Emergency services were called to the scene to manage the blaze. No further details regarding the exact location or the cause of the fire have been released at this time. Residents are advised to stay clear of the area while operations continue.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUnE1MV92YVRNa040eVBhX3g4eFhlbDJZSkJyYk5PT0JqcjVIakw4d2xiTXoyc1JvN1NsWWxGNmkzYlcxVTB3Yzd2eGRwMzJQQmxYeXk4WWtWbVVwbUpwbGtKaGhZY2IzaVJsQ1dwSFpfSmE3OTJRSGY2aWpuR1V4TmFfcWtCb0loamxYZUwydjlDdUlrWHRORW14aw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-08-08T07:00:00+00:00",
-      "generated_at": "2026-10-08T22:30:31.791196+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:31 +0000"
-    },
-    {
-      "id": "fenland-news-5f87bc9c34639ab60e3fbcd5",
-      "headline": "Ethical coffee chain set to open in King’s Lynn",
-      "brief": "A new organic coffee shop is coming to King’s Lynn. Esquires, The Organic Coffee Company, is planning to move into the former Coneys, Burton, and Dorothy Perkins premises at 98 to 99 High Street. The site has remained vacant since February, but workmen have been spotted inside the building this week. \n\nWest Norfolk Council has granted planning permission for the chain to install its signage at the location. The application was submitted by brand project manager Ash Flawn. Esquires, which originated in Canada, recently opened another franchise in Swaffham. The company has not yet confirmed an official opening date for the new King’s Lynn branch.",
-      "original_url": "https://www.lynnnews.co.uk/news/ethical-coffee-chain-to-open-in-town-9486182/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/CPOB2THN3GN6MM1XXIRB.jpg",
-      "published": "2026-10-08T15:27:59+00:00",
-      "generated_at": "2026-10-08T22:30:29.553108+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:29 +0000"
-    },
-    {
-      "id": "fenland-news-4d09e29f67e4170d1f13a9f6",
-      "headline": "Peterborough man faces court over indecent images charge",
-      "brief": "A man from Peterborough has appeared in court accused of encouraging a young boy to share nude photographs. The case was heard following reports published by the BBC. No further details regarding the defendant or the specific court proceedings have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpU2dGbTBobUk1bkhaM2JqXzZnYmVPSEFDUnVma1ZKUi1qWVlGX004NEF0aTllcVozdlFUNXJqanRsYmxkcm1ocEtxVWVfRnRQYkNmQVFINHFGZ1k?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-08T19:27:29+00:00",
-      "generated_at": "2026-10-08T22:30:27.641062+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:27 +0000"
-    },
-    {
-      "id": "fenland-news-9546079fbf88166caace4de4",
-      "headline": "Long Sutton housing development plans refused",
-      "brief": "Plans for a new housing development in Long Sutton have been turned down by the local council. The proposal sought permission to build more than 120 homes in the area. South Holland District Council has rejected the application, meaning the project will not proceed as planned.",
-      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckVCV1lBa0JIcUtfYXJoOVdmY2l2enhwc3c3NEp0WnpSNlZBWVJLMy1EMFVoRzlaWkVha0dWYlV5dGxmb2k5d1NnN0ZoRkVUNmNybEc1bDhkendkOGdhNmFaU2xiZ1p2cWhCZks3UXlRMmdaSll3S0Y2Z1puMkNwNVVxWkFxRWNHT3liQtIBkgFBVV95cUxNc3EtdGpkVUd3bW8wTmNnNDBpbXdySzF0VlByS1RoM1MzR1BrSllXbEQ0OGRiVjhlbUstOGVfdzZCRXMxWHhUQkhDejZMNTdrMmRIMlRCVVR6Um83azVLV2RCMjVPeDFOUFQycGhtUFhVaXQySFg0N1J4Q0Yzd3lZcl9sZ1U0bDJoZkRNaS04S1JTQQ?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-04-04T07:00:00+00:00",
-      "generated_at": "2026-10-08T22:30:21.805011+00:00",
-      "rss_date": "Thu, 08 Oct 2026 22:30:21 +0000"
     }
   ]
 }
