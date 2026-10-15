@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="far-forms.css?v=1">
 
   <script src="site-nav.js?v=6" defer></script>
+  <style>
+    #voucherExchangeHelp[hidden]{display:none}
+    #voucherExchangeHelp{padding:18px;border-left:3px solid var(--gold);background:#17140f;border-radius:8px;color:#e6e6e6;line-height:1.6}
+    #voucherExchangeHelp p{margin:0 0 8px}
+    #voucherExchangeHelp p:last-child{margin-bottom:0}
+  </style>
 </head>
 
 
@@ -62,12 +68,14 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryBusiness">
             Business / organisation *
           </label>
 
           <input
+            id="enquiryBusiness"
             name="business_name"
+            maxlength="200"
             required
           >
 
@@ -76,12 +84,14 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryName">
             Contact name *
           </label>
 
           <input
+            id="enquiryName"
             name="name"
+            maxlength="120"
             required
           >
 
@@ -90,12 +100,14 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryEmail">
             Email *
           </label>
 
           <input
+            id="enquiryEmail"
             name="email"
+            maxlength="200"
             type="email"
             required
           >
@@ -105,12 +117,14 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryPhone">
             Phone
           </label>
 
           <input
+            id="enquiryPhone"
             name="phone"
+            type="tel"
           >
 
         </div>
@@ -118,11 +132,11 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryPackage">
             Interested in
           </label>
 
-          <select name="package_interest" aria-label="Interested in"><option value="">Not sure yet</option><option value="FAR Starter">FAR Starter — airtime only</option>
+          <select id="enquiryPackage" name="package_interest" aria-label="Interested in"><option value="">Not sure yet</option><option value="FAR Starter">FAR Starter — airtime only</option>
 <option value="FAR Local">FAR Local — airtime only</option>
 <option value="FAR Plus">FAR Plus — airtime only</option>
 <option value="FAR Prime">FAR Prime — airtime only</option>
@@ -134,6 +148,7 @@
 <option value="Programme sponsorship">Programme sponsorship</option>
 <option value="Station sponsorship">Station sponsorship</option>
 <option value="Website advertising">Website advertising</option>
+<option value="Voucher exchange">Voucher exchange — non-audio advertising</option>
 <option value="Something different">Something different</option></select>
 
         </div>
@@ -141,11 +156,11 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryArtwork">
             Artwork / audio ready?
           </label>
 
-          <select name="artwork_ready">
+          <select id="enquiryArtwork" name="artwork_ready">
 
             <option value="">
               Choose
@@ -170,11 +185,12 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryWebsite">
             Website
           </label>
 
           <input
+            id="enquiryWebsite"
             name="website_url"
             type="url"
             placeholder="https://"
@@ -185,25 +201,34 @@
 
         <div class="far-field">
 
-          <label>
+          <label for="enquiryDates">
             Preferred campaign dates
           </label>
 
           <input
+            id="enquiryDates"
             name="campaign_dates"
           >
 
         </div>
 
 
+        <div id="voucherExchangeHelp" class="far-field full" hidden>
+          <p><strong>Offer vouchers in exchange for advertising</strong></p>
+          <p>Tell us what each voucher includes, its face value, how many you can offer, the expiry date and any redemption restrictions. If you have an existing non-audio FAR package in mind, include its name.</p>
+          <p>FAR will resell the agreed vouchers and retain the proceeds. Sending this enquiry does not commit you to an exchange. We will agree the advertising package and voucher terms with you first.</p>
+        </div>
+
         <div class="far-field full">
 
-          <label>
+          <label for="enquiryMessage">
             Tell us what you need *
           </label>
 
           <textarea
+            id="enquiryMessage"
             name="message"
+            maxlength="3000"
             required
           ></textarea>
 
@@ -214,6 +239,7 @@
 
           <input
             name="website"
+            aria-label="Leave this field empty"
             tabindex="-1"
             autocomplete="off"
           >
@@ -238,8 +264,10 @@
 
 
       <div
-        id="formStatus"
-        class="far-status"
+      id="formStatus"
+      class="far-status"
+      role="status"
+      aria-live="polite"
       ></div>
 
 
@@ -334,6 +362,27 @@ if (requestedPackage && Array.from(packageSelect.options).some(o => o.value === 
   packageSelect.value = requestedPackage;
 }
 
+const voucherHelp = document.getElementById('voucherExchangeHelp');
+const messageField = f.elements.namedItem('message');
+function updateVoucherHelp() {
+  const isVoucherExchange = packageSelect.value === 'Voucher exchange';
+  voucherHelp.hidden = !isVoucherExchange;
+  messageField.placeholder = isVoucherExchange
+    ? 'Voucher entitlement, face value, quantity, expiry, redemption conditions and the non-audio advertising package you are interested in.'
+    : '';
+  if (isVoucherExchange) messageField.setAttribute('aria-describedby', 'voucherExchangeHelp');
+  else messageField.removeAttribute('aria-describedby');
+  const hero = document.querySelector('.far-form-hero');
+  hero.querySelector('.eyebrow').textContent = isVoucherExchange ? 'LOCAL BUSINESS VOUCHERS' : 'ADVERTISING & SPONSORSHIP';
+  hero.querySelector('.lead').textContent = isVoucherExchange
+    ? "Offer your business vouchers in exchange for one of FAR's existing non-audio advertising packages."
+    : 'Ask about advertising, sponsorship or a campaign that does not fit a standard package.';
+  document.querySelector('label[for="enquiryArtwork"]').textContent = isVoucherExchange ? 'Artwork ready?' : 'Artwork / audio ready?';
+}
+packageSelect.addEventListener('change', updateVoucherHelp);
+f.addEventListener('reset', () => requestAnimationFrame(updateVoucherHelp));
+updateVoucherHelp();
+
 f.onsubmit = async e => {
 
   e.preventDefault();
@@ -400,7 +449,7 @@ f.onsubmit = async e => {
   catch(x){
 
     s.textContent =
-      x.message;
+      "Your enquiry could not be sent. Please try again, or email fenlandangelsradio@gmail.com. Your details are still in the form.";
 
     s.className =
       "far-status error";
@@ -424,3 +473,4 @@ f.onsubmit = async e => {
 </body>
 
 </html>
+
