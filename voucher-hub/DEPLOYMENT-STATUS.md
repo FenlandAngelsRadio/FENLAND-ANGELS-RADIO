@@ -5,8 +5,8 @@
 - Seven SQL migrations installed on FAR’s existing Supabase project, `nkdjnrycpdiwburtkzen`, including staff-only internal offer records.
 - Website hub published at https://fenlandangelsradio.co.uk/voucher-app.html and verified using the existing FAR staff session.
 - Launch target confirmed by the owner: **Friday 30 October 2026**. Sales remain disabled.
-- The owner approved creation of the named SumUp API credential and its storage in Supabase server secrets. The key and merchant reference have been saved; merchant verification and sandbox checkout testing are still required.
-- An existing Resend API credential was found in the project. Verified sending-domain and sender configuration still need checking; no new email service account has been created.
+- The owner approved creation of the named SumUp API credential and its storage in Supabase server secrets. The key and merchant reference have been saved and the merchant account verified. Sandbox checkout testing remains required.
+- Resend confirms fenlandangelsradio.co.uk is verified. With owner approval, a dedicated sending-only FAR Voucher Hub key restricted to that domain was saved in server secrets and Supabase Auth SMTP. Sender: vouchers@fenlandangelsradio.co.uk. Delivery is not yet tested; no email was sent.
 - Added automatic agreement drafts from saved offers, visibly unsigned and requiring review/completion before signing.
 - Added owner/deputy-only live connection checks and a one-time Pandle API connection form. Pandle posting remains disabled.
 - Private agreement/voucher storage bucket and staff/business access rules installed.
@@ -31,9 +31,9 @@ The calculation is enforced by the database as well as displayed automatically i
 
 ## Required before customer launch
 
-- SumUp API credential and merchant confirmation; hosted checkout sandbox test.
-- Pandle API access/authentication and verified account/tax/currency mappings; controlled test-company posting. The API’s availability on the current plan is unverified.
-- A verified sender for voucher email delivery and configured SMTP for business sign-in/invitations.
+- SumUp hosted checkout sandbox test.
+- Pandle API access/authentication and verified account/tax/currency mappings; controlled test-company posting. The API sign-in returned HTTP 401 using the owner-entered email/password. The cause and availability on the current plan remain unverified. Pandle documents OAuth app registration through support@pandle.com as another supported connection route.
+- Test voucher and business sign-in email delivery with an approved recipient.
 - Worker secret and scheduled background processing, then monitoring.
 - Gateway abuse protection, production upload/login/phone-camera tests, refund procedure and final offer terms.
 - Review non-cash voucher-for-advertising accounting with the accountant. Stored advertising credit is not posted as a cash receipt.

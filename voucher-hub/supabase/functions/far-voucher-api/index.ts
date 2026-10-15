@@ -7,6 +7,7 @@ const db=createClient(env('SUPABASE_URL'),env('SUPABASE_SERVICE_ROLE_KEY'),{auth
 const origin=env('APP_ORIGIN')||'https://fenlandangelsradio.co.uk';
 const appUrl=env('APP_URL')||'https://fenlandangelsradio.co.uk/voucher-app.html';
 const merchant=env('SUMUP_MERCHANT_CODE');
+const emailKey=()=>env('FAR_VOUCHER_RESEND_API_KEY')||env('RESEND_API_KEY');
 const sumupBase='https://api.sumup.com';
 const check=(r:any)=>{if(r.error)throw Error(r.error.message);return r.data;};
 const rpc=async(name:string,args:Record<string,unknown>={})=>check(await db.rpc(name,args));
@@ -120,9 +121,9 @@ async function runJobs(){
    if(order.status!=='paid')throw Error('Order requires review');
    let external='';
    if(job.kind==='email'){
-    if(!env('RESEND_API_KEY')||!env('EMAIL_FROM'))throw Error('Voucher email delivery is not connected');
+    if(!emailKey()||!env('EMAIL_FROM'))throw Error('Voucher email delivery is not connected');
     const ticket=await rpc('far_voucher_ticket',{p_token:order.ticket_token});
-    const response=await fetch('https://api.resend.com/emails',{method:'POST',signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${env('RESEND_API_KEY')}`,'Content-Type':'application/json','Idempotency-Key':`far-voucher-${job.id}`},body:JSON.stringify({from:env('EMAIL_FROM'),to:[order.customer_email],subject:'Your FAR voucher',html:ticketEmail(order,ticket,`${appUrl}?ticket=${order.ticket_token}`)})});
+    const response=await fetch('https://api.resend.com/emails',{method:'POST',signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${emailKey()}`,'Content-Type':'application/json','Idempotency-Key':`far-voucher-${job.id}`},body:JSON.stringify({from:env('EMAIL_FROM'),to:[order.customer_email],subject:'Your FAR voucher',html:ticketEmail(order,ticket,`${appUrl}?ticket=${order.ticket_token}`)})});
     if(!response.ok)throw Error(`Email delivery failed (${response.status})`);external=(await response.json()).id;
    }else external=await pandle(job,order);
    await update('far_voucher_jobs',job.id,{state:'sent',external_id:external,lease_until:null,last_error:null});results.push({id:job.id,state:'sent'});
@@ -174,12 +175,12 @@ Deno.serve(async(request:Request)=>{
    const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
    const management=['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase());
    const auth=check(await db.from('far_voucher_connector_state').select('name').eq('name','pandle_auth').maybeSingle());
-   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!env('RESEND_API_KEY')&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true',pandle_session:!!auth,can_configure:management};
+   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!emailKey()&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true',pandle_session:!!auth,can_configure:management};
    if(input.verify){
     if(!management)return json({error:'An owner or deputy manager must check connections'},403);
     const checks=await Promise.allSettled([
      env('SUMUP_API_KEY')?provider('/v0.1/me'):Promise.reject(Error('SumUp key not configured')),
-     (async()=>{if(!env('RESEND_API_KEY'))throw Error('Email key not configured');const r=await fetch('https://api.resend.com/domains',{signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${env('RESEND_API_KEY')}`}});if(!r.ok)throw Error(`Email domain check failed (${r.status})`);return r.json();})()
+     (async()=>{if(!emailKey())throw Error('Email key not configured');const r=await fetch('https://api.resend.com/domains',{signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${emailKey()}`}});if(!r.ok)throw Error(r.status===401||r.status===403?'Domain lookup unavailable with this key; verify domain in Resend. Sending access is not tested here.':`Email domain check failed (${r.status})`);return r.json();})()
     ]);
     const sumup=checks[0];
     result.sumup_verified=sumup.status==='fulfilled'&&(sumup.value.merchant_profile?.merchant_code||sumup.value.merchant_code)===merchant;
