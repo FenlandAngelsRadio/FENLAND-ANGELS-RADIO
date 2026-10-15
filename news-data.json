@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-15T15:46:18.285050+00:00",
+  "updated_at": "2026-10-15T20:35:07.723644+00:00",
   "stories": [
+    {
+      "id": "fenland-news-eedbacda3b42a3683f71cbc2",
+      "headline": "Man sentenced for murder in Cambridgeshire",
+      "brief": "A man has been sentenced for murder following an investigation by Cambridgeshire Constabulary. The force described the incident as a cold-blooded killing. No further details regarding the identity of the individual or the location of the sentencing have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSldpRWtodC1HSjU1ZXFwZl9iQVNJUE5sblFkTmxBOHNKTXA3b1V2c29EQzcxSFM3Wl9rV09VaGFVSW94ZXpPQWVicWhPVjdxWmx4U3NPaXFzUlJBdGxTRm9lSUVnU1ViZ2lMby1zRmJxU2VROUR6dUZQaUd1TFBOX3hBeUNCTnhuX0dWUzNEUjNTQlJ0ai1jQ1F6M1B0VGFDbkVtaA?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-07-09T07:00:00+00:00",
+      "generated_at": "2026-10-15T20:33:52.388360+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:52 +0000"
+    },
+    {
+      "id": "fenland-news-8593ecfb0f3d3291deaf8fe0",
+      "headline": "West Norfolk Council declines to detail swimming pool planning costs",
+      "brief": "West Norfolk Council has declined a request to provide a breakdown of the £845,609 spent on planning a new swimming pool at Lynnsport. The local authority stated that the information is commercially sensitive and that releasing details could prejudice future contract negotiations. \n\nThe proposed £23 million facility is intended to replace the existing St James Swimming Pool. Council leader Alistair Beales defended the expenditure, noting that planning in a flood zone involves uncertain ground conditions. While the council approved the planning budget last month, officials emphasised that the project remains in the development phase. Previous attempts to relocate the pool to Lynnsport were abandoned after feasibility studies suggested costs could exceed £45 million.",
+      "original_url": "https://www.lynnnews.co.uk/news/council-refuses-to-share-cost-breakdown-of-850k-spend-for-p-9487073/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/3DHNVVM8MDY1UUZZK0Z8.jpg",
+      "published": "2026-10-15T11:42:03+00:00",
+      "generated_at": "2026-10-15T20:33:48.545194+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:48 +0000"
+    },
+    {
+      "id": "fenland-news-64b434a8a9d9556df46741f8",
+      "headline": "Man charged following Cambridgeshire burglaries",
+      "brief": "Police have named a man who has been charged in connection with a series of burglaries across Cambridgeshire. The charges follow a recent spate of incidents reported throughout the county. Authorities confirmed the identity of the individual as part of their ongoing response to the offences. Further details regarding the case are expected to emerge as legal proceedings continue.",
+      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHdmck01R3k1M0xFdkpiandTV1RjNUJFeVd6WkdrT0Y2ZTZyeEh3RlJHNEVMVEVnVmJYNWNRaHl5NGZCd3g3WldmUFgzWExOQU05eXNiSEVTRFNObmtEVUhSdVlHV2dydjRRZ3c0Y0hmcTdOWXJodWN4ckN1cHFXeHJTVmh4TlBBbldrc2laTk1qcmNtb1UwNw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-15T11:23:00+00:00",
+      "generated_at": "2026-10-15T20:33:41.308846+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:41 +0000"
+    },
+    {
+      "id": "fenland-news-5d7d16fae0ca2bf5e0dbdd95",
+      "headline": "Lincolnshire village identified as one of the country's most deprived areas",
+      "brief": "A village in Lincolnshire has been highlighted as one of the most deprived locations in the UK. According to a report from the Spalding South Holland News, the area is being described as a \"forgotten\" community. The findings place the village among the most disadvantaged regions across the country. No further details regarding the specific location or the criteria used for the assessment have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQm1ZeDdmYWxOb0RiQ29lWDNWd2xUaVNPX3FRRk1yQXNldjlUb0RYdEprZF9VY0RDbXlKRVpfSWZ6NXhoUVVDU0ZBcEN2N0xaQm1xM1E0QzBBUm0wYkR6eWtDZ0NGei0ybU1jMklVbldXdEtxRHk4QUxBQTBfX0x5NDhIcXFYVm9SM0pzZlhIellYalloRG5PcFB5UEM5X1NlRTl6VUpCWjJfRlBhOUR6TA?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-08-26T07:00:00+00:00",
+      "generated_at": "2026-10-15T20:33:38.540451+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:38 +0000"
+    },
+    {
+      "id": "fenland-news-626364b468261c5ad50e52d4",
+      "headline": "Police arrest suspect following March service station break-in",
+      "brief": "Police have made an arrest following a break-in at a service station in March. Officers are currently investigating the circumstances surrounding the incident. No further details regarding the identity of the individual arrested or the extent of the damage have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PbkpNMUtIZGN6V3hQZmJJT2RWVGNYUnZCS0VwbXc4UHNJMXMtZC1RX2pUQm12a3ZlY0RaV0lwOVRZa0MzZ3dmWEpCWlNxRWcxVDBreUlUWmJlNnc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-15T10:32:51+00:00",
+      "generated_at": "2026-10-15T20:33:36.727618+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:36 +0000"
+    },
+    {
+      "id": "fenland-news-a947737f35400212f093083f",
+      "headline": "Police appeal following serious collision in Sawtry",
+      "brief": "Police are appealing for witnesses after a serious collision between a lorry and a motorbike in Sawtry yesterday. The incident occurred at approximately 12:50pm on the B1043 Old North Road, involving a red Volvo HGV and a black Kawasaki motorbike. The motorcyclist, a 23-year-old man from Yaxley, was taken to Addenbrooke’s Hospital with life-threatening injuries. \n\nThe lorry driver, a 76-year-old man from Wisbech, was arrested on suspicion of causing serious injury by careless driving and has been released on bail until January 4. Officers are urging anyone with information or dashcam footage to contact the police via their website or by calling 101, quoting reference 35/77423/26.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/appeal-after-serious-collision-leaves-motorcyclist-with-life-9485807/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/6TFYAAIE6V5HEI5R5X8R.jpg",
+      "published": "2026-10-06T14:50:59+00:00",
+      "generated_at": "2026-10-15T20:33:34.979355+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:34 +0000"
+    },
+    {
+      "id": "fenland-news-c6d61e7dbc16eab5e445422a",
+      "headline": "Future of West Lynn’s Freebridge Farm site remains uncertain",
+      "brief": "The Freebridge Farm restaurant in West Lynn could potentially reopen following a national deal involving its parent company, Whitbread PLC. The site on Clenchwarton Road closed last month as part of a wider move to reduce the number of Brewers Fayre and Beefeater locations across the UK. \n\nTwo hospitality firms, Common Table Group and Queensway Inns, have now acquired over 100 branches between them. While it is not yet confirmed if the West Lynn site is included in this purchase, the new owners plan to begin reopening locations as early as next month. The move is expected to create 1,400 jobs across the country.",
+      "original_url": "https://www.lynnnews.co.uk/news/recently-closed-restaurant-could-reopen-as-companies-snap-up-9487168/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/YN8RYOYV8PMEH6YN871Y.jpg",
+      "published": "2026-10-15T16:26:14+00:00",
+      "generated_at": "2026-10-15T20:33:31.892455+00:00",
+      "rss_date": "Thu, 15 Oct 2026 20:33:31 +0000"
+    },
     {
       "id": "fenland-news-0597fdc096af58e5b0875b47",
       "headline": "Cambridgeshire man charged following incident outside nursery",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-09T12:06:00+00:00",
       "generated_at": "2026-10-11T02:14:29.010077+00:00",
       "rss_date": "Sun, 11 Oct 2026 02:14:29 +0000"
-    },
-    {
-      "id": "fenland-news-1c640afca46b2d2a39d9c0a8",
-      "headline": "Two men released following imitation firearm arrest",
-      "brief": "Lincolnshire Police have released two men without charge following an investigation into an imitation firearm. Officers had previously arrested the pair in connection with the incident. No further action will be taken against them.",
-      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRFlJREE3TmkwNFVLM3Zuc1BORXVsVktTeE1VV2dGLVBTN21ScDYtb2I4d21IMzZVd21HNzhsTERHejVRdjgzNW5IalYxM3pGWHRzX2tneHJYRWpYYWV4ZDY1QVZUN3ZJZlJPM3pRTGxoZktwMWpBcUROTF9od3ZtZUFuLTJNdVBkMk40UTdrOWVKZmc3?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2024-01-17T08:00:00+00:00",
-      "generated_at": "2026-10-11T02:14:27.819322+00:00",
-      "rss_date": "Sun, 11 Oct 2026 02:14:27 +0000"
-    },
-    {
-      "id": "fenland-news-d944ee268234cff475368eab",
-      "headline": "Eight-week road closure near Chatteris",
-      "brief": "Drivers in the Fens are being advised of an upcoming road closure near Chatteris. A stretch of road in the area is set to be shut for eight weeks to allow for essential repair work to be carried out. Motorists are encouraged to plan their journeys in advance and allow extra time for travel while these works are underway.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-02-02T08:00:00+00:00",
-      "generated_at": "2026-10-11T02:14:26.746333+00:00",
-      "rss_date": "Sun, 11 Oct 2026 02:14:26 +0000"
-    },
-    {
-      "id": "fenland-news-c7e1402c2d761424ccf82559",
-      "headline": "Peterborough United secure victory over Leicester City",
-      "brief": "Peterborough United have defeated Leicester City in a League One fixture. The match concluded with a final score of three goals to one in favour of Peterborough. Highlights of the game have been made available via Sky Sports.",
-      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRDVHOVQ1dVFXNWRSOE9WTmtBbHcxaF91QmN1dm9OMEh0SXhSUG1CSXVUb0ZaWHNHR1NqUDEzSjYtM2RWczFmR25NU04tSl9DNmZFNzBnMjRWZ2Q2amZVeG1wNmNIajM3UjFwOGltR1lrUDRWc2d4M1BQU0F6U19aQWRURkxWNjVSeWJOS2hNYUZjaENjWV91aGdIM3dXZ1BtQmxPajBjOF9rQU80b2Zv?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-10T16:46:11+00:00",
-      "generated_at": "2026-10-11T02:14:23.743111+00:00",
-      "rss_date": "Sun, 11 Oct 2026 02:14:23 +0000"
-    },
-    {
-      "id": "fenland-news-d330022182fe642a0e57b460",
-      "headline": "Fundraising appeal launched for new school equipment",
-      "brief": "A school is seeking to raise 80,000 pounds to pay for equipment in a new building. The project aims to secure the necessary funds to fully furnish the facility. Further details regarding the fundraising campaign and the specific equipment required have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUzE1S2ZBdF9xeld5bnNINWdMMDBucVp6cmRBU0gwSDlNSWNndVhLeEVqT2JoMDNhMmJKblhlNGNiTms3SjA2cW9CYldTTnFTTkFSTnNVUk15T1BqTVJNTGdHZVNOSEtkMW81SlJyUGZPMkdabUg5ajcwTEtsVGZhWDNIMGgtcWl3eEhyVVhEQU9mVlZBQXlpNTVkazAtd3lKQ2pyYTg4aGg5Q1ZDYWZacHBn?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-11-03T08:00:00+00:00",
-      "generated_at": "2026-10-11T02:14:21.837663+00:00",
-      "rss_date": "Sun, 11 Oct 2026 02:14:21 +0000"
-    },
-    {
-      "id": "fenland-news-e1e00fb7896b00d25cd9f879",
-      "headline": "King’s Lynn teenager completes Rotary youth leadership programme",
-      "brief": "An 18-year-old Scout leader from King’s Lynn has praised a recent training scheme after completing the Rotary Youth Leadership Awards. Emma Peers was sponsored by the Rotary Club of King’s Lynn to attend the week-long programme at Grafham Water this August. \n\nThe course is designed to help young people aged 18 to 25 develop skills for their careers and community life. During the week, participants took part in team-building exercises, including raft racing and an overnight expedition involving sailing and hiking. Ms Peers, who led her team during the expedition, told local Rotarians that the experience significantly boosted her self-confidence and described the programme as the best thing she has ever done.",
-      "original_url": "https://www.lynnnews.co.uk/news/youth-leadership-award-was-the-best-experience-for-teenage-9486038/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/F4YCOV7X4IW1YMN7SK8E.jpg",
-      "published": "2026-10-08T05:00:00+00:00",
-      "generated_at": "2026-10-11T02:14:00.652431+00:00",
-      "rss_date": "Sun, 11 Oct 2026 02:14:00 +0000"
-    },
-    {
-      "id": "fenland-news-accef85073ead003e94cc1ba",
-      "headline": "Saxon Pit residents raise concerns over local site",
-      "brief": "People living near the Saxon Pit have reported issues with dust, noise, and unpleasant odours. Residents state that these factors are currently impacting their daily lives. The concerns were highlighted in a recent report by the March Chatteris Whittlesey News.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS1hrT05wRC1kOHBMcW9SeDZwOE8tT1c4dzQwUlNuM0VibVNfQTJ4YzdYRXBEb3dmMEViZHhzNFVxT0pNQV9Fem4yRGpWTjMyQ3R3cERTS1VJOHBsUEVWVFVfSlhCWS00REYzQmszTjh1bUpBRVlYTWFIbGNjYmZNYmJuRC1WM1VsaG43cmJYU0FnWldFaElBalRHcGVoWU45Y09z?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-09T16:42:00+00:00",
-      "generated_at": "2026-10-10T20:43:23.610266+00:00",
-      "rss_date": "Sat, 10 Oct 2026 20:43:23 +0000"
-    },
-    {
-      "id": "fenland-news-e09bb0a069337da4ecc2b31d",
-      "headline": "Hazardous waste disposal days announced for King’s Lynn",
-      "brief": "Residents in the Fens can dispose of hazardous household items at the Saddlebow recycling centre later this month. Norfolk County Council is hosting two collection events at The Willows Business Park on Friday, October 23, and Saturday, October 24. \n\nItems such as paint, bleach, fertilisers, and aerosols will be accepted free of charge between 9am and 4pm. Please note that these events are for household waste only and are not open to businesses. You must book a time slot in advance, with bookings opening at 9am on Thursday, October 15. To secure a slot or check the full list of accepted items, visit norfolk.gov.uk/hazardouswaste or call 0344 800 8020.",
-      "original_url": "https://www.lynnnews.co.uk/news/two-dates-to-take-household-hazardous-waste-to-the-tip-9485990/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/36NHR1QHEF4K46A45S8S.jpg",
-      "published": "2026-10-08T05:00:00+00:00",
-      "generated_at": "2026-10-10T20:43:20.106543+00:00",
-      "rss_date": "Sat, 10 Oct 2026 20:43:20 +0000"
     }
   ]
 }
