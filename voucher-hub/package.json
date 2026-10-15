@@ -1,0 +1,1 @@
+{"name":"far-voucher-app","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs"},"dependencies":{"@electric-sql/pglite":"^0.5.10","@supabase/supabase-js":"^2.117.3","esbuild":"^0.28.2","jsqr":"^1.4.0","qrcode":"^1.5.4"}}

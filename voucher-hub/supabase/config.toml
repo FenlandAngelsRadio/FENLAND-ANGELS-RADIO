@@ -1,0 +1,2 @@
+[functions.far-voucher-api]
+verify_jwt = false
