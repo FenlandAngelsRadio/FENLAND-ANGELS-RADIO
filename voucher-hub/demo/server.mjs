@@ -10,7 +10,7 @@ create function auth.uid() returns uuid language sql as $$select nullif(current_
 create function auth.jwt() returns jsonb language sql as $$select jsonb_build_object('email',current_setting('request.jwt.claim.email',true))$$;
 create table far_admins(user_id uuid,role text,permissions jsonb);
 insert into far_admins values('00000000-0000-0000-0000-000000000001','owner','[]');`);
-for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
+for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql','202610150007_staff_only_offer_records.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
 const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
 const [{id:business}]=await q("insert into far_voucher_businesses(name,contact_email) values('Demo · Riverside Cafe','cafe@example.test') returning id");
 await q('insert into far_voucher_members values($1,$2)',[business,'cafe@example.test']);

@@ -2,7 +2,13 @@
 
 ## Installed and verified
 
-- Six SQL migrations installed on FAR’s existing Supabase project, `nkdjnrycpdiwburtkzen`.
+- Seven SQL migrations installed on FAR’s existing Supabase project, `nkdjnrycpdiwburtkzen`, including staff-only internal offer records.
+- Website hub published at https://fenlandangelsradio.co.uk/voucher-app.html and verified using the existing FAR staff session.
+- Launch target confirmed by the owner: **Friday 30 October 2026**. Sales remain disabled.
+- The owner approved creation of the named SumUp API credential and its storage in Supabase server secrets. The key and merchant reference have been saved; merchant verification and sandbox checkout testing are still required.
+- An existing Resend API credential was found in the project. Verified sending-domain and sender configuration still need checking; no new email service account has been created.
+- Added automatic agreement drafts from saved offers, visibly unsigned and requiring review/completion before signing.
+- Added owner/deputy-only live connection checks and a one-time Pandle API connection form. Pandle posting remains disabled.
 - Private agreement/voucher storage bucket and staff/business access rules installed.
 - `far-voucher-api` server function deployed. Its legacy gateway JWT check was switched off with the owner’s explicit approval; staff actions use server-side identity and permission checks.
 - Hub sign-in redirect addresses added, limited to FAR’s voucher page.
