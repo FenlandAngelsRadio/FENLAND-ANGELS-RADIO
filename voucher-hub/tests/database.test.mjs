@@ -16,6 +16,7 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await db.exec(await readFile(new URL('../supabase/migrations/202610150004_voucher_recovery.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610150005_exchange_value.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610150006_rounded_sale_price.sql',import.meta.url),'utf8'));
+ await db.exec(await readFile(new URL('../supabase/migrations/202610150007_staff_only_offer_records.sql',import.meta.url),'utf8'));
  await db.exec(`create schema storage;create table storage.buckets(id text primary key,name text,public boolean,file_size_limit bigint,allowed_mime_types text[]);create table storage.objects(id uuid default gen_random_uuid(),bucket_id text,name text);alter table storage.objects enable row level security;grant usage on schema storage to authenticated;grant select,insert on storage.objects to authenticated;`);
  await db.exec(await readFile(new URL('../supabase/migrations/202610150002_voucher_documents.sql',import.meta.url),'utf8'));
  const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
@@ -64,6 +65,12 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await assert.rejects(q('update far_voucher_offers set face_minor=1000 where id=$1',[offer]),/has orders/);
  await q('update far_voucher_offers set active=false where id=$1',[offer]);
  await identity('00000000-0000-0000-0000-000000000002','cafe@example.test');
+ const businessContext=(await q('select far_voucher_context() as context'))[0].context;
+ assert.equal(businessContext.admin,false,'business login cannot select the station dashboard');
+ assert.equal(businessContext.businesses.length,1);
+ for(const table of ['offers','documents','jobs','settings','events']){
+  assert.equal((await q(`select count(*)::integer n from far_voucher_${table}`))[0].n,0,`business cannot read station ${table}`);
+ }
  assert.equal((await q('select count(*)::integer n from far_voucher_stock'))[0].n,0,'businesses cannot list unused supplier codes');
  assert.equal((await q('select count(*)::integer n from far_voucher_businesses'))[0].n,1);
  assert.equal((await q('select count(*)::integer n from far_voucher_orders'))[0].n,0);
