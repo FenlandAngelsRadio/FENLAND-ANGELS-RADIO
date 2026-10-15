@@ -6,7 +6,7 @@
 
   <meta
     name="description"
-    content="Fenland Angels Radio Voucher Shop — coming soon."
+    content="Local business vouchers from Fenland Angels Radio. Coming soon. Businesses can enquire about exchanging vouchers for non-audio advertising."
   >
 
   <title>FAR Voucher Shop | Fenland Angels Radio</title>
@@ -132,6 +132,20 @@
       max-width:900px;
     }
 
+    .voucher-notice{padding:16px 20px;border-left:3px solid var(--gold);background:#15130f;color:#eee;line-height:1.6}
+    .voucher-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:0;list-style:none;counter-reset:voucher-step}
+    .voucher-steps li{counter-increment:voucher-step;padding:26px;border:1px solid #34312a;border-radius:16px;background:var(--panel)}
+    .voucher-steps li::before{content:counter(voucher-step);display:block;color:var(--gold);font-size:30px;font-weight:bold;margin-bottom:12px}
+    .voucher-steps h3{font-size:22px;margin:0 0 12px}
+    .voucher-steps p{color:#d2d6df;line-height:1.65;margin:0}
+    .voucher-faq{max-width:960px;margin-top:28px}
+    .voucher-faq details{border-bottom:1px solid #34312a;padding:20px 0}
+    .voucher-faq summary{cursor:pointer;font-size:19px;font-weight:bold;line-height:1.5}
+    .voucher-faq p{color:#d2d6df;line-height:1.65}
+    main a:focus-visible,main summary:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+    @media(max-width:900px){.voucher-steps{grid-template-columns:1fr}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
     @media(max-width:900px){
       .voucher-hero{
         grid-template-columns:1fr;
@@ -188,9 +202,9 @@
 
         <a
           class="btn outline"
-          href="contact.html"
+          href="#business-vouchers"
         >
-          Voucher Enquiry
+          I'm a local business
         </a>
 
       </div>
@@ -231,31 +245,31 @@
       </h2>
 
       <p>
-        We are preparing the FAR Voucher Shop now. Once live, vouchers will be available to browse and purchase online.
+        Discover local offers and support independent radio across the Fens. When the shop launches, each voucher will be for a named participating business.
       </p>
+
+      <p class="voucher-notice">There are no vouchers available to buy yet. Offers, prices and redemption terms will appear here before sales open.</p>
 
     </div>
 
 
     <div class="voucher-grid">
 
-      <article class="voucher-card featured">
+      <article class="voucher-card featured" id="business-vouchers" aria-labelledby="business-vouchers-title">
 
         <p class="eyebrow">
-          FAR VOUCHERS
+          FOR LOCAL BUSINESSES
         </p>
 
-        <h3>
-          Voucher Shop
+        <h3 id="business-vouchers-title">
+          Turn vouchers into advertising
         </h3>
 
         <p>
-          Browse upcoming Fenland Angels Radio voucher offers once the shop officially launches.
+          Exchange an agreed batch of your business vouchers for one of FAR's existing non-audio advertising packages. You receive £1 of advertising for every £1 of vouchers supplied at their actual face value. FAR rounds each voucher’s face value to the nearest pound (50p rounds up), sells it for half that rounded amount and keeps the sales proceeds. Your business honours the vouchers under the agreed terms.
         </p>
 
-        <span class="btn outline coming-soon">
-          <span data-cms="voucher_status">Coming Soon</span>
-        </span>
+        <a class="btn outline" href="advertising-enquiry.html?package=Voucher%20exchange">Enquire about a voucher exchange</a>
 
       </article>
 
@@ -285,6 +299,25 @@
 
     </div>
 
+  </section>
+
+
+  <section class="section" aria-labelledby="voucher-how-title">
+    <div class="section-heading">
+      <p class="eyebrow">HOW IT WILL WORK</p>
+      <h2 id="voucher-how-title">Local offers. Clear terms.</h2>
+    </div>
+    <ol class="voucher-steps">
+      <li><h3>Choose a local offer</h3><p>See which business accepts the voucher, what it includes, its price, expiry date and any booking or spending conditions.</p></li>
+      <li><h3>Buy through SumUp</h3><p>Once sales open, checkout will be handled by SumUp. Each offer will explain how and when you will receive your voucher.</p></li>
+      <li><h3>Redeem with the business</h3><p>Follow the offer's redemption instructions and present your voucher to the named business before it expires.</p></li>
+    </ol>
+    <div class="voucher-faq">
+      <details><summary>Can I buy a voucher now?</summary><p>Not yet. We are preparing the first offers. There are currently no voucher products or payment links on this page.</p></details>
+      <details><summary>Where can I use a voucher?</summary><p>Each voucher will be valid only at the business named on that offer, subject to its published terms. It will not be a general balance to spend at any business.</p></details>
+      <details><summary>What will I need to check before buying?</summary><p>The entitlement, selling price, expiry date, delivery method, booking requirements and any restrictions. Offer-specific terms and the applicable purchase and refund information will be available before checkout opens.</p></details>
+      <details><summary>How does my business join?</summary><p>Send a voucher exchange enquiry with your proposed offer and quantity. FAR will agree the voucher value, redemption conditions and existing non-audio advertising package with you before either side commits.</p><a href="advertising-enquiry.html?package=Voucher%20exchange">Send a business enquiry</a></details>
+    </div>
   </section>
 
 
