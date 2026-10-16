@@ -69,9 +69,9 @@ const server=createServer(async(req,res)=>{
    if(url.pathname==='/functions/v1/far-voucher-api'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({sumup:false,email:false,pandle:false,sales:false,error:url.searchParams.get('action')==='connections'?undefined:'Local demo: no external changes are made'}));return;}
   }
   const path=url.pathname==='/'?'voucher-app.html':url.pathname.slice(1);
-  const files={'voucher-app.html':'demo/dist/voucher-app.html','voucher-app.js':'demo/dist/voucher-app.js','voucher-app.css':'src/voucher-app.css','events-config.js':'demo/dist/events-config.js'};
+  const files={'voucher-app.html':'demo/dist/voucher-app.html','voucher-app.js':'demo/dist/voucher-app.js','voucher-app.css':'src/voucher-app.css','events-config.js':'demo/dist/events-config.js','voucher-app.webmanifest':'src/voucher-app.webmanifest','voucher-app-192.png':'src/voucher-app-192.png','voucher-app-512.png':'src/voucher-app-512.png'};
   if(!files[path]){res.writeHead(404);res.end('Not found');return;}
-  res.setHeader('Content-Type',({'html':'text/html','js':'text/javascript','css':'text/css'})[extname(path).slice(1)]);res.setHeader('Cache-Control','no-store');res.end(await readFile(files[path]));
+  res.setHeader('Content-Type',({'html':'text/html','js':'text/javascript','css':'text/css','webmanifest':'application/manifest+json','png':'image/png'})[extname(path).slice(1)]);res.setHeader('Cache-Control','no-store');res.end(await readFile(files[path]));
  }catch{res.writeHead(500);res.end('Local preview error');}
 });
 server.listen(8774,'127.0.0.1',()=>console.log(JSON.stringify({url:'http://127.0.0.1:8774/voucher-app.html',businessUrl:'http://127.0.0.1:8774/voucher-app.html?as=business',ticketUrl:`http://127.0.0.1:8774/voucher-app.html?ticket=${order.ticket_token}`,sampleCode:code})));

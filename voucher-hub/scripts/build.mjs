@@ -21,5 +21,5 @@ for(const input of Object.keys(result.metafile.inputs)){
  }
 }
 await writeFile('dist/voucher-app.licenses.txt',[...notices.values()].join('\n\n----------------------------------------\n\n'));
-for(const file of ['voucher-app.html','voucher-app.css'])await copyFile(`src/${file}`,`dist/${file}`);
+for(const file of ['voucher-app.html','voucher-app.css','voucher-app.webmanifest','voucher-app-192.png','voucher-app-512.png'])await copyFile(`src/${file}`,`dist/${file}`);
 console.log('Voucher Hub built. Use the existing events-config.js alongside these files.');

@@ -1,0 +1,26 @@
+{
+  "id": "/voucher-app.html",
+  "name": "FAR Voucher Hub",
+  "short_name": "FAR Vouchers",
+  "description": "Check and redeem your business vouchers with Fenland Angels Radio.",
+  "start_url": "/voucher-app.html",
+  "scope": "/voucher-app.html",
+  "display": "standalone",
+  "background_color": "#0c151b",
+  "theme_color": "#0c151b",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "voucher-app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "voucher-app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

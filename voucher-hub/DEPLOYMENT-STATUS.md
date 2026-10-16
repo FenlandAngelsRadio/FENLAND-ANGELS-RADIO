@@ -14,6 +14,8 @@
 - Pandle support was contacted from FAR Gmail about HTTP 401 and supported OAuth registration. No reply was found at the latest check. No passwords or API keys were included.
 - SumUp sandbox created with explicit owner approval, including its required terms. A sandbox-only key is stored separately in server secrets. Two hosted sandbox checkout links were created successfully, but no test payment was completed. At the owner's direction, separate sandbox work was shelved and its polling removed from the live worker. The owner plans a personal £1 live payment test after the build is ready; no live-sales controls were enabled.
 - Live app updated with the planned 30 October launch date and a staff-only background-processing status based on the last successful run. Business users still see only redemption.
+- Added phone home-screen support: app manifest, 192/512 icons and an Add to phone control with iPhone/Android instructions. Browser UI checked locally; installation on a physical phone remains to be checked. No private voucher data is cached for offline use.
+- Losing the connection clears a previous voucher-check result and shows an offline warning. A failed redemption request now restores the confirmation button correctly. All 13 automated checks pass, including this regression.
 - Private agreement/voucher storage bucket and staff/business access rules installed.
 - `far-voucher-api` server function deployed. Its legacy gateway JWT check was switched off with the owner’s explicit approval; staff actions use server-side identity and permission checks.
 - Hub sign-in redirect addresses added, limited to FAR’s voucher page.

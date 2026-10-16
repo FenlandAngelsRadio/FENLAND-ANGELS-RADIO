@@ -138,7 +138,7 @@ function normalizeCode(value){try{const u=new URL(value);if(u.searchParams.get('
 function redeem(container=root){
  stopCamera();
  container.innerHTML=`<div class="redeem">${context.admin?'':heading('Check. Confirm. Redeem.','For '+context.businesses.map(b=>esc(b.name)).join(', '))}<section class="panel"><p class="eyebrow">BUSINESS REDEMPTION</p><h2>Check a customer’s voucher</h2><p class="muted">Scan the QR code or type the FAR code. Check the details before accepting it.</p><form id="redeem-form"><label for="voucher-code">FAR voucher code</label><input id="voucher-code" name="code" autocomplete="off" spellcheck="false" required placeholder="FAR-…" value="${esc(params.get('voucher')||'')}"><div class="actions"><button type="submit">Check voucher</button><button type="button" id="scan" class="quiet">Scan QR code</button></div></form><video id="camera" playsinline muted hidden></video><button id="stop-scan" class="quiet" hidden>Stop camera</button><div id="voucher-result" aria-live="polite"></div></section></div>`;
- bindForm('#redeem-form',async fd=>{stopCamera();showResult(await rpc('far_voucher_lookup',{p_code:normalizeCode(String(fd.get('code'))),p_redeem:false}));});
+ bindForm('#redeem-form',async fd=>{if(!navigator.onLine)throw Error('Reconnect before checking this voucher');stopCamera();showResult(await rpc('far_voucher_lookup',{p_code:normalizeCode(String(fd.get('code'))),p_redeem:false}));});
  $('#scan').onclick=async()=>{
   try{
    stopCamera();stream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'}},audio:false});
@@ -150,9 +150,10 @@ function redeem(container=root){
  $('#stop-scan').onclick=()=>{stopCamera();$('#camera').hidden=true;$('#stop-scan').hidden=true;};
 }
 function showResult(result){
+ if(!navigator.onLine){$('#voucher-result').replaceChildren();toast('Reconnect and check the voucher again before accepting it.',true);return;}
  const good=['valid','success'].includes(result.result);
  $('#voucher-result').innerHTML=`<div class="result${good?'':' bad'}"><h2>${({valid:'Ready to redeem',success:'Voucher redeemed',redeemed:'Already redeemed',expired:'Voucher expired',not_found:'Code not found',not_valid:'Do not accept',inactive:'Access paused'})[result.result]||'Check required'}</h2><p>${esc(result.message)}</p>${result.code?`<code>${esc(result.code)}</code><h3>${esc(result.title)}</h3><p>${esc(result.entitlement)}</p><p>${esc(result.terms)}</p><small>Expires ${day(result.expires_on)}${result.redeemed_at?' · Redeemed '+new Date(result.redeemed_at).toLocaleString('en-GB'):''}</small>`:''}${result.result==='valid'?'<div class="actions"><button id="confirm-redeem">Confirm redemption</button></div>':''}</div>`;
- $('#confirm-redeem')?.addEventListener('click',async event=>{event.currentTarget.disabled=true;try{showResult(await rpc('far_voucher_lookup',{p_code:result.code,p_redeem:true}));}catch(e){toast('Could not confirm. Check the voucher again before accepting it.',true);event.currentTarget.disabled=false;}});
+ $('#confirm-redeem')?.addEventListener('click',async event=>{const button=event.currentTarget;button.disabled=true;try{if(!navigator.onLine)throw Error('Reconnect before redeeming this voucher');showResult(await rpc('far_voucher_lookup',{p_code:result.code,p_redeem:true}));}catch(e){toast('Could not confirm. Check the voucher again before accepting it.',true);if(button.isConnected)button.disabled=false;}});
 }
 async function ticket(){
  const token=params.get('ticket');
@@ -193,3 +194,16 @@ async function init(){
 }
 window.addEventListener('pagehide',stopCamera);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopCamera();});init();
 
+
+let installPrompt;
+const installButton=$('#install-app');
+if(window.matchMedia('(display-mode: standalone)').matches||navigator.standalone)installButton.hidden=true;
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;installButton.textContent='Install app';});
+installButton.onclick=async()=>{if(installPrompt){const prompt=installPrompt;installPrompt=null;await prompt.prompt();const choice=await prompt.userChoice;if(choice.outcome==='accepted')installButton.hidden=true;}else $('#install-help').showModal();};
+$('#close-install-help').onclick=()=>$('#install-help').close();
+window.addEventListener('appinstalled',()=>{installButton.hidden=true;installPrompt=null;});
+function connectionChanged(){
+ $('#offline-notice').hidden=navigator.onLine;
+ if(!navigator.onLine){stopCamera();if($('#voucher-result'))$('#voucher-result').replaceChildren();}
+}
+window.addEventListener('offline',connectionChanged);window.addEventListener('online',connectionChanged);connectionChanged();
