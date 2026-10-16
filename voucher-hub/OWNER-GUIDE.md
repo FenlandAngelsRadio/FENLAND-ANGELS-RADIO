@@ -36,6 +36,6 @@ If no refund is made, **Release pause** first verifies that SumUp still confirms
 
 SumUp's live credential, voucher email sender, sign-in SMTP settings and minute-by-minute background processing are installed. One voucher-sender test email was delivered to FAR Gmail.
 
-Pandle has rejected API sign-in. Its supported account-authorisation route and renewal code are prepared, and support has been sent the registration/callback details. Automatic accounting remains off until registration, account mapping and posting are verified. Do not paste passwords or provider secrets into chat.
+Pandle has rejected API sign-in. Its supported account-authorisation route and renewal code are built. Support replied asking for the application name and HTTPS redirect URI for their developers; both have been supplied. Their API approval/application credentials are awaited. Automatic accounting remains off until registration, account mapping and posting are verified. Do not paste passwords or provider secrets into chat.
 
 Sales remain off. Planned launch is **Friday 30 October 2026**. The owner will make the £1 live test once the build and connections are ready. The first real business's documents, business invitation/login, phone scanning, reviewed terms and payment/accounting checks must be completed before public sales open.
