@@ -1,6 +1,6 @@
 import {createClient} from 'npm:@supabase/supabase-js@2.117.3';
 import {minor,verifyPayment,bankEntry,ticketEmail,isReversed} from './core.mjs';
-import {pandleMapping,pandleSession} from './integrations.mjs';
+import {pandleMapping,pandleSession,pandleOAuthToken,pandleConnection} from './integrations.mjs';
 
 const env=(name:string)=>Deno.env.get(name)||'';
 const db=createClient(env('SUPABASE_URL'),env('SUPABASE_SERVICE_ROLE_KEY'),{auth:{persistSession:false,autoRefreshToken:false}});
@@ -77,15 +77,8 @@ async function pandle(job:any,order:any){
   const mapping=mappingState?.value||JSON.parse(env('PANDLE_MAPPING'));
   const body=bankEntry(order,mapping,job.kind);
   const saved=check(await db.from('far_voucher_connector_state').select('value').eq('name','pandle_auth').maybeSingle());
-  let auth=saved?.value||JSON.parse(env('PANDLE_AUTH_JSON'));
-  if(!auth['access-token']||!auth.client||!auth.uid)throw Error('Pandle authentication missing');
-  const request=async(path:string,init:RequestInit={})=>{
-   const response=await fetch('https://my.pandle.com/api/v1'+path,{...init,signal:AbortSignal.timeout(20000),headers:{...auth,'Content-Type':'application/json','Accept':'application/json'}});
-   const rotated=response.headers.get('access-token');
-   if(rotated){auth={...auth,'access-token':rotated,client:response.headers.get('client')||auth.client,uid:response.headers.get('uid')||auth.uid};check(await db.from('far_voucher_connector_state').upsert({name:'pandle_auth',value:auth}));}
-   if(!response.ok)throw Error(`Pandle request failed (${response.status})`);
-   return response.json();
-  };
+  const auth=saved?.value||JSON.parse(env('PANDLE_AUTH_JSON'));
+  const {request}=pandleConnection(auth,{clientId:env('PANDLE_OAUTH_CLIENT_ID'),clientSecret:env('PANDLE_OAUTH_CLIENT_SECRET'),save:async(value:any)=>{check(await db.from('far_voucher_connector_state').upsert({name:'pandle_auth',value}));}});
   const base=`/companies/${mapping.company}/bank_accounts/${mapping.bank}/bank_transactions`;
   // Pandle has no documented idempotency header: reconcile the exact stable marker.
   const deadline=Date.now()+45000;
@@ -111,6 +104,56 @@ async function pandle(job:any,order:any){
   }
   throw Error('Accounting history exceeds reconciliation limit');
  }finally{check(await db.from('far_voucher_connector_state').delete().eq('name','pandle_lock'));}
+}
+async function pandleAccounts(request:any){
+ const deadline=Date.now()+65000;
+ const list=async(path:string)=>{const all=[];for(let page=1;page<=50;page++){if(Date.now()>deadline)throw Error('Accounting setup timed out safely. Try again.');const r=await request(`${path}${path.includes('?')?'&':'?'}page=${page}&size=100`);if(!Array.isArray(r.data))throw Error('Unexpected accounting response');if(!r.data.length)return all;all.push(...r.data);}throw Error('Accounting list is larger than expected');};
+ const companies=await list('/companies'),banks=await list('/companies/123178/bank_accounts');
+ const categories=[...await list('/companies/123178/nominal_accounts?account_type=revenue'),...await list('/companies/123178/nominal_accounts?account_type=expense')];
+ const taxes=await list('/companies/123178/tax_codes'),currencies=await list('/financial/currencies');
+ return pandleMapping({companies,banks,categories,taxes,currencies});
+}
+const pandleRedirectUri=()=>`${env('SUPABASE_URL')}/functions/v1/far-voucher-api?action=pandle_oauth_callback`;
+async function stateName(state:string){
+ if(!/^[a-f0-9]{64}$/.test(state))throw Error('Invalid connection state');
+ const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(state));
+ return 'pandle_oauth_state_'+Array.from(new Uint8Array(hash),v=>v.toString(16).padStart(2,'0')).join('');
+}
+function pandleReturn(result:string){return new Response(null,{status:303,headers:{Location:`${appUrl}?pandle_connection=${result}`,'Cache-Control':'no-store','Referrer-Policy':'no-referrer'}});}
+async function pandleCallback(url:URL){
+ let locked=false;
+ try{
+  const name=await stateName(url.searchParams.get('state')||'');
+  const claimed=check(await db.from('far_voucher_connector_state').delete().eq('name',name).select('value'));
+  if(claimed?.length!==1||!Number.isFinite(claimed[0].value.expires_at)||claimed[0].value.expires_at<Date.now())return pandleReturn('expired');
+  if(url.searchParams.has('error'))return pandleReturn('cancelled');
+  const code=url.searchParams.get('code');if(!code||code.length>4096)return pandleReturn('failed');
+  const staff=check(await db.from('far_admins').select('role').eq('user_id',claimed[0].value.owner_id).maybeSingle());
+  if(!['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase()))return pandleReturn('failed');
+  if(!env('PANDLE_OAUTH_CLIENT_ID')||!env('PANDLE_OAUTH_CLIENT_SECRET'))return pandleReturn('unavailable');
+  locked=await rpc('far_voucher_connector_lock');if(!locked)return pandleReturn('busy');
+  let auth=await pandleOAuthToken({client_id:env('PANDLE_OAUTH_CLIENT_ID'),client_secret:env('PANDLE_OAUTH_CLIENT_SECRET'),grant_type:'authorization_code',redirect_uri:pandleRedirectUri(),code});
+  const {request}=pandleConnection(auth,{clientId:env('PANDLE_OAUTH_CLIENT_ID'),clientSecret:env('PANDLE_OAUTH_CLIENT_SECRET'),save:async(value:any)=>{auth=value;}});
+  const mapping=await pandleAccounts(request);
+  check(await db.from('far_voucher_connector_state').upsert([{name:'pandle_auth',value:auth},{name:'pandle_mapping',value:mapping},{name:'pandle_health',value:{state:'connected',checked_at:new Date().toISOString()}}]));
+  return pandleReturn('connected');
+ }catch{return pandleReturn('failed');}
+ finally{if(locked)check(await db.from('far_voucher_connector_state').delete().eq('name','pandle_lock'));}
+}
+async function maintainPandle(force=false){
+ const saved=check(await db.from('far_voucher_connector_state').select('value').eq('name','pandle_auth').maybeSingle());
+ if(!saved)return;
+ const health=check(await db.from('far_voucher_connector_state').select('value').eq('name','pandle_health').maybeSingle());
+ if(!force&&health?.value?.checked_at&&Date.now()-Date.parse(health.value.checked_at)<24*3600000)return;
+ if(!await rpc('far_voucher_connector_lock'))return;
+ try{
+  const current=check(await db.from('far_voucher_connector_state').select('value').eq('name','pandle_auth').maybeSingle());
+  if(!current)return;
+  const {request}=pandleConnection(current.value,{clientId:env('PANDLE_OAUTH_CLIENT_ID'),clientSecret:env('PANDLE_OAUTH_CLIENT_SECRET'),save:async(value:any)=>{check(await db.from('far_voucher_connector_state').upsert({name:'pandle_auth',value}));}});
+  await request('/companies?page=1&size=1');
+  check(await db.from('far_voucher_connector_state').upsert({name:'pandle_health',value:{state:'connected',checked_at:new Date().toISOString()}}));
+ }catch(error){check(await db.from('far_voucher_connector_state').upsert({name:'pandle_health',value:{state:'needs_attention',checked_at:new Date().toISOString(),message:error instanceof Error?error.message:'Pandle needs reconnecting'}}));}
+ finally{check(await db.from('far_voucher_connector_state').delete().eq('name','pandle_lock'));}
 }
 async function runJobs(){
  const jobs=await rpc('far_voucher_claim_jobs',{p_limit:1});
@@ -153,8 +196,9 @@ async function approvedEmailTest(){
 }
 Deno.serve(async(request:Request)=>{
  if(request.method==='OPTIONS')return json({});
- if(request.method!=='POST')return json({error:'POST required'},405);
  const url=new URL(request.url);const action=url.searchParams.get('action');
+ if(request.method==='GET'&&action==='pandle_oauth_callback')return pandleCallback(url);
+ if(request.method!=='POST')return json({error:'POST required'},405);
  try{
   if(action==='webhook'){
    const body=await request.json();if(body.event_type!=='CHECKOUT_STATUS_CHANGED'||typeof body.id!=='string')return json({});
@@ -164,9 +208,9 @@ Deno.serve(async(request:Request)=>{
   }
   if(action==='worker'){
    if(!env('WORKER_SECRET')||request.headers.get('Authorization')!==`Bearer ${env('WORKER_SECRET')}`)return json({error:'Access denied'},401);
-   const pending=check(await db.from('far_voucher_orders').select('*').in('status',['pending','paid']).order('last_checked_at',{ascending:true,nullsFirst:true}).limit(2));
+   const pending=check(await db.from('far_voucher_orders').select('*').in('status',['pending','paid','refund_review']).order('last_checked_at',{ascending:true,nullsFirst:true}).limit(2));
    for(const order of pending){try{await reconcile(order);}catch(error){await update('far_voucher_orders',order.id,{last_checked_at:new Date().toISOString(),last_payment_error:error instanceof Error?error.message:'Payment verification needs attention'});}}
-   const jobs=await runJobs();await approvedEmailTest();
+   const jobs=await runJobs();await approvedEmailTest();await maintainPandle();
    check(await db.from('far_voucher_connector_state').upsert({name:'worker_health',value:{last_completed_at:new Date().toISOString(),jobs_processed:jobs.length}}));
    return json({jobs});
   }
@@ -193,10 +237,12 @@ Deno.serve(async(request:Request)=>{
   if(action==='connections'){
    const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
    const management=['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase());
+   if(input.verify&&management)await maintainPandle(true);
    const auth=check(await db.from('far_voucher_connector_state').select('name').eq('name','pandle_auth').maybeSingle());
+   const pandleHealth=check(await db.from('far_voucher_connector_state').select('value').eq('name','pandle_health').maybeSingle());
    const health=check(await db.from('far_voucher_connector_state').select('value').eq('name','worker_health').maybeSingle());
    const completed=health?.value?.last_completed_at;
-   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!emailKey()&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true',pandle_session:!!auth,can_configure:management,worker:!!completed&&Date.now()-Date.parse(completed)<300000,worker_last_completed:completed||null};
+   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!emailKey()&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true'&&!!auth&&pandleHealth?.value?.state!=='needs_attention',pandle_session:!!auth,pandle_needs_attention:pandleHealth?.value?.state==='needs_attention',can_configure:management,pandle_oauth_ready:!!env('PANDLE_OAUTH_CLIENT_ID')&&!!env('PANDLE_OAUTH_CLIENT_SECRET'),worker:!!completed&&Date.now()-Date.parse(completed)<300000,worker_last_completed:completed||null};
    if(input.verify){
     if(!management)return json({error:'An owner or deputy manager must check connections'},403);
     const checks=await Promise.allSettled([
@@ -212,6 +258,16 @@ Deno.serve(async(request:Request)=>{
    }
    return json(result);
   }
+  if(action==='pandle_oauth_start'){
+   const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
+   if(!['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase()))return json({error:'Owner or deputy manager access required'},403);
+   if(!env('PANDLE_OAUTH_CLIENT_ID')||!env('PANDLE_OAUTH_CLIENT_SECRET'))throw Error('Waiting for Pandle to register FAR’s app connection. Your existing account is unchanged.');
+   const state=Array.from(crypto.getRandomValues(new Uint8Array(32)),v=>v.toString(16).padStart(2,'0')).join('');
+   const name=await stateName(state);
+   check(await db.from('far_voucher_connector_state').insert({name,value:{owner_id:user.id,expires_at:Date.now()+10*60000}}));
+   const url=new URL('https://my.pandle.com/oauth/authorize');url.search=new URLSearchParams({client_id:env('PANDLE_OAUTH_CLIENT_ID'),redirect_uri:pandleRedirectUri(),response_type:'code',state}).toString();
+   return json({url:url.href});
+  }
   if(action==='pandle_connect'){
    const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
    if(!['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase()))return json({error:'Owner or deputy manager access required'},403);
@@ -220,20 +276,27 @@ Deno.serve(async(request:Request)=>{
    if(!await rpc('far_voucher_connector_lock'))throw Error('Accounting connection is busy. Try again shortly.');
    try{
     let auth=await pandleSession(email,password);delete input.password;
-    const get=async(path:string)=>{
-     const r=await fetch('https://my.pandle.com/api/v1'+path,{signal:AbortSignal.timeout(15000),headers:{...auth,Accept:'application/json'}});
-     if(r.headers.get('access-token'))auth={...auth,'access-token':r.headers.get('access-token'),client:r.headers.get('client')||auth.client,uid:r.headers.get('uid')||auth.uid,expiry:r.headers.get('expiry')||auth.expiry};
-     if(!r.ok)throw Error(`Pandle API access check failed (${r.status})`);return r.json();
-    };
-    const deadline=Date.now()+65000;
-    const list=async(path:string)=>{const all=[];for(let page=1;page<=50;page++){if(Date.now()>deadline)throw Error('Accounting setup timed out safely. Try again.');const r=await get(`${path}${path.includes('?')?'&':'?'}page=${page}&size=100`);if(!Array.isArray(r.data))throw Error('Unexpected accounting response');if(!r.data.length)return all;all.push(...r.data);}throw Error('Accounting list is larger than expected');};
-    const companies=await list('/companies'),banks=await list('/companies/123178/bank_accounts');
-    const categories=[...await list('/companies/123178/nominal_accounts?account_type=revenue'),...await list('/companies/123178/nominal_accounts?account_type=expense')];
-    const taxes=await list('/companies/123178/tax_codes'),currencies=await list('/financial/currencies');
-    const mapping=pandleMapping({companies,banks,categories,taxes,currencies});
-    check(await db.from('far_voucher_connector_state').upsert([{name:'pandle_auth',value:auth},{name:'pandle_mapping',value:mapping}]));
+    const {request}=pandleConnection(auth,{save:async(value:any)=>{auth=value;}});
+    const mapping=await pandleAccounts(request);
+    check(await db.from('far_voucher_connector_state').upsert([{name:'pandle_auth',value:auth},{name:'pandle_mapping',value:mapping},{name:'pandle_health',value:{state:'connected',checked_at:new Date().toISOString()}}]));
     return json({connected:true,message:'Pandle API access and FAR account mappings verified. Posting remains disabled until the final accounting checks.'});
    }finally{delete input.password;check(await db.from('far_voucher_connector_state').delete().eq('name','pandle_lock'));}
+  }
+  if(action==='review_order'){
+   const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
+   if(!['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase()))return json({error:'Owner or deputy manager access required'},403);
+   const order=await one('far_voucher_orders',input.id);
+   if(input.mode==='check'){await reconcile(order);return json({message:'Payment status checked directly with SumUp.'});}
+   if(input.mode==='release'){
+    if(order.status!=='refund_review'||order.review_source!=='staff_hold')throw Error('Only a staff review pause can be released');
+    const checkout=await provider(`/v0.1/checkouts/${encodeURIComponent(order.checkout_id)}`);
+    if(checkout.status!=='PAID')throw Error('SumUp has not confirmed a valid payment. The voucher remains paused.');
+    const transaction=await provider(`/v2.1/merchants/${encodeURIComponent(merchant)}/transactions?id=${encodeURIComponent(checkout.transaction_id)}`);
+    if(!verifyPayment(order,checkout,transaction,merchant))throw Error('Payment could not be verified. The voucher remains paused.');
+    return json(await rpc('far_voucher_review_hold',{p_order:order.id,p_actor:user.id,p_release:true}));
+   }
+   if(input.mode==='hold')return json(await rpc('far_voucher_review_hold',{p_order:order.id,p_actor:user.id,p_release:false}));
+   throw Error('Choose a valid review action');
   }
   if(action==='invite'){
    const email=String(input.email||'').trim().toLowerCase();

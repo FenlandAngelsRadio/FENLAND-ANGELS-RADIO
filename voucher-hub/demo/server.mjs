@@ -10,7 +10,7 @@ create function auth.uid() returns uuid language sql as $$select nullif(current_
 create function auth.jwt() returns jsonb language sql as $$select jsonb_build_object('email',current_setting('request.jwt.claim.email',true))$$;
 create table far_admins(user_id uuid,role text,permissions jsonb);
 insert into far_admins values('00000000-0000-0000-0000-000000000001','owner','[]');`);
-for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql','202610150007_staff_only_offer_records.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
+for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql','202610150007_staff_only_offer_records.sql','202610160008_refund_review_controls.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
 const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
 const [{id:business}]=await q("insert into far_voucher_businesses(name,contact_email) values('Demo · Riverside Cafe','cafe@example.test') returning id");
 await q('insert into far_voucher_members values($1,$2)',[business,'cafe@example.test']);
@@ -66,7 +66,18 @@ const server=createServer(async(req,res)=>{
     const result=queue.then(()=>request(JSON.parse(raw)));queue=result.catch(()=>{});
     try{res.setHeader('Content-Type','application/json');res.end(JSON.stringify({data:await result,error:null}));}catch(e){res.end(JSON.stringify({data:null,error:{message:e.message}}));}return;
    }
-   if(url.pathname==='/functions/v1/far-voucher-api'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({sumup:false,email:false,pandle:false,sales:false,error:url.searchParams.get('action')==='connections'?undefined:'Local demo: no external changes are made'}));return;}
+   if(url.pathname==='/functions/v1/far-voucher-api'){
+    res.setHeader('Content-Type','application/json');
+    if(url.searchParams.get('action')==='review_order'){
+     const input=JSON.parse(raw);
+     if(input.mode==='hold'){
+      const result=queue.then(async()=>{await db.exec('reset role');return (await q('select far_voucher_review_hold($1,$2,false) result',[input.id,'00000000-0000-0000-0000-000000000001']))[0].result;});queue=result.catch(()=>{});
+      try{res.end(JSON.stringify(await result));}catch(error){res.end(JSON.stringify({error:error.message}));}return;
+     }
+     res.end(JSON.stringify({error:'The local preview cannot verify SumUp payments. No external changes were made.'}));return;
+    }
+    res.end(JSON.stringify({sumup:false,email:false,pandle:false,sales:false,can_configure:true,error:url.searchParams.get('action')==='connections'?undefined:'Local demo: no external changes are made'}));return;
+   }
   }
   const path=url.pathname==='/'?'voucher-app.html':url.pathname.slice(1);
   const files={'voucher-app.html':'demo/dist/voucher-app.html','voucher-app.js':'demo/dist/voucher-app.js','voucher-app.css':'src/voucher-app.css','events-config.js':'demo/dist/events-config.js','voucher-app.webmanifest':'src/voucher-app.webmanifest','voucher-app-192.png':'src/voucher-app-192.png','voucher-app-512.png':'src/voucher-app-512.png'};

@@ -17,6 +17,7 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await db.exec(await readFile(new URL('../supabase/migrations/202610150005_exchange_value.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610150006_rounded_sale_price.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610150007_staff_only_offer_records.sql',import.meta.url),'utf8'));
+ await db.exec(await readFile(new URL('../supabase/migrations/202610160008_refund_review_controls.sql',import.meta.url),'utf8'));
  await db.exec(`create schema storage;create table storage.buckets(id text primary key,name text,public boolean,file_size_limit bigint,allowed_mime_types text[]);create table storage.objects(id uuid default gen_random_uuid(),bucket_id text,name text);alter table storage.objects enable row level security;grant usage on schema storage to authenticated;grant select,insert on storage.objects to authenticated;`);
  await db.exec(await readFile(new URL('../supabase/migrations/202610150002_voucher_documents.sql',import.meta.url),'utf8'));
  const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
@@ -57,6 +58,18 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  assert.equal((await settle())[0].id,(await settle())[0].id);
  assert.equal((await q('select count(*)::integer n from far_voucher_jobs'))[0].n,2,'one email and one accounting job');
  const [{code}]=await q('select code from far_voucher_stock where order_id=$1',[order.id]);
+ await q('select far_voucher_review_hold($1,$2,false)',[order.id,owner]);
+ await q('select far_voucher_review_hold($1,$2,false)',[order.id,owner]);
+ assert.equal((await q("select count(*)::integer n from far_voucher_events where action='review_pause'"))[0].n,1,'repeated pause creates one audit event');
+ assert.equal((await q('select status,review_source from far_voucher_orders where id=$1',[order.id]))[0].review_source,'staff_hold');
+ assert.equal((await q('select status from far_voucher_stock where order_id=$1',[order.id]))[0].status,'void');
+ await assert.rejects(q('select far_voucher_review_hold($1,$2,false)',[order.id,'00000000-0000-0000-0000-000000000002']),/Management access/);
+ await identity('00000000-0000-0000-0000-000000000002','cafe@example.test');
+ assert.equal((await q('select far_voucher_lookup($1,false) r',[code]))[0].r.result,'not_valid','paused vouchers cannot be redeemed');
+ await assert.rejects(q('select far_voucher_review_hold($1,$2,true)',[order.id,owner]),/permission denied/);
+ await identity(owner,'owner@example.test','service_role');
+ await q('select far_voucher_review_hold($1,$2,true)',[order.id,owner]);
+ assert.equal((await q('select status from far_voucher_stock where order_id=$1',[order.id]))[0].status,'issued','a released pause returns only its issued voucher');
  const second=await reserve(crypto.randomUUID());
  await assert.rejects(reserve(crypto.randomUUID()),/Sold out/);
  await q('select far_voucher_release($1)',[second.id]);
@@ -86,6 +99,8 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await identity(owner,'owner@example.test','service_role');
  await q('select far_voucher_refund_review($1)',[order.id]);
  assert.equal((await q('select status from far_voucher_orders where id=$1',[order.id]))[0].status,'refund_review');
+ await assert.rejects(q('select far_voucher_review_hold($1,$2,true)',[order.id,owner]),/Only a staff review pause/);
+ assert.equal((await q('select review_source from far_voucher_orders where id=$1',[order.id]))[0].review_source,'provider_reversal');
  assert.equal((await q("select count(*)::integer n from far_voucher_stock where status='available'"))[0].n,0,'refund never replenishes stock');
  await identity('','', 'anon');
  await assert.rejects(lookup(),/permission denied/);

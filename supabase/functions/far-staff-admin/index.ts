@@ -173,6 +173,7 @@ Deno.serve(async (req) => {
       "inbox",
       "applications",
       "advertising",
+      "vouchers",
     ];
 
     if (

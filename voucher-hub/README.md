@@ -1,10 +1,11 @@
 # FAR Voucher Hub
 
-An addition to Fenland Angels Radio’s existing static website and Supabase project. It is not a separate subscription platform. **The voucher tables, private storage bucket and server function have been installed. Sales remain OFF; payment, accounting and email delivery are not connected.** See `DEPLOYMENT-STATUS.md` for the current handover.
+An addition to Fenland Angels Radio’s existing static website and Supabase project. It is not a separate subscription platform. **The voucher tables, private storage bucket, server function, SumUp credential, email sender and background worker are installed. Sales remain OFF. Pandle is waiting for provider access.** See `DEPLOYMENT-STATUS.md` for the current handover.
 
 ## Everyday use
 
 1. FAR staff sign in with an existing FAR account. Owners and deputy managers have access; other staff need the existing `vouchers` permission.
+   Management can select **Voucher Hub** when inviting staff through **Staff & Permissions**, or tick **Voucher Hub** and save permissions for an existing staff member. The website admin dashboard's Commercial section links directly to the hub. Business accounts use the same hub address and receive only redemption access. **Add to phone** provides home-screen installation or browser instructions.
 2. Add the business and create its offer. Enter the actual voucher face value and agreed quantity. Advertising credit automatically equals face value × quantity (£1 of advertising for each £1 of vouchers). The customer price automatically rounds each voucher’s face value to the nearest whole pound (50p rounds up), then takes 50%. For example: £20.49 → £10; £20.50 → £10.50; £20.75 → £10.50. Advertising credit still uses the actual face value. Record expiry, advertising package, start/end dates and delivery commitment.
 3. Upload the signed agreement and original voucher file privately. Add the agreed quantity or paste the business’s unique voucher codes. The hub creates its own unique FAR code per voucher.
 4. Approve and invite the business’s email. The business signs in using an email link and only sees its own redemption screen.
@@ -46,7 +47,7 @@ Tests execute migrations and access rules in PostgreSQL (PGlite), including paym
 
 ## Production installation — leave sales OFF
 
-1. The seven migrations have been applied to FAR’s Supabase project in numeric order, following a check of the existing `far_admins` schema and confirmation no voucher tables existed. They add the private `far-voucher-documents` bucket and keep internal offer records staff-only. Do not rerun these creation scripts on the installed project. For a fresh staging project, back up first and apply them in numeric order. Adding SQL files to GitHub does not apply them automatically.
+1. The eight migrations have been applied to FAR’s Supabase project in numeric order, following a check of the existing `far_admins` schema and confirmation no voucher tables existed. They add the private `far-voucher-documents` bucket and keep internal offer records staff-only. Do not rerun these creation scripts on the installed project. For a fresh staging project, back up first and apply them in numeric order. Adding SQL files to GitHub does not apply them automatically.
 2. Deploy `supabase/functions/far-voucher-api` with its `core.mjs`. Its gateway `verify_jwt=false` permits public checkout/webhooks; the handler itself authenticates staff actions and separately authenticates the worker. Only server service-role calls can reserve, issue, release stock or post accounting jobs.
 3. Configure server secrets from `.env.example`, through Supabase secrets/Vault only. Supabase supplies its standard URL/service/anon variables. Set `APP_ORIGIN` to the exact production origin and `APP_URL` to the final hub page. Keep `SALES_ENABLED=false` and the database `far_voucher_settings.sales_enabled=false`.
 4. Add the exact hub URL to Supabase Auth’s redirect allowlist, keep email confirmation enabled, use invitation-only business accounts, and configure a real SMTP sender for login links. Existing FAR staff can also enter via their existing authenticated dashboard session. Do not enable arbitrary public staff permissions.
@@ -76,3 +77,15 @@ Tests execute migrations and access rules in PostgreSQL (PGlite), including paym
 - https://supabase.com/docs/guides/database/postgres/row-level-security
 
 Customer launch is not complete until the above connections are installed and tested. No live payments have been enabled.
+
+## Pandle app authorisation
+
+Register the exact callback `https://nkdjnrycpdiwburtkzen.supabase.co/functions/v1/far-voucher-api?action=pandle_oauth_callback` with Pandle support. Store the supplied application credentials only as `PANDLE_OAUTH_CLIENT_ID` and `PANDLE_OAUTH_CLIENT_SECRET` in Supabase server secrets. The owner/deputy starts **Connect Pandle** from the hub. No Pandle password is entered into this flow. The callback consumes a hashed, short-lived, owner-bound state, verifies current management status and checks the exact legal company and FAR categories before saving tokens/mapping. Posting remains off.
+
+OAuth refresh tokens remain server-only. The worker checks a saved connection daily; financial requests refresh access before expiry. Reads can retry once after a rejected token; financial writes are never automatically repeated after an uncertain request. Existing header-token connections remain supported and their rotated expiry is saved. The invitation service at the repository root also includes the narrow `vouchers` permission addition; an identical source copy is included under this package's Supabase functions.
+
+## Sales reviews and exports
+
+Management can pause a paid voucher from **Sales & reviews** without moving money. Its code is blocked, queued work is held and the actor is recorded. Releasing a staff pause requires fresh SumUp payment verification. A provider-confirmed reversal cannot be released, and a redeemed voucher never becomes reusable. SumUp remains the place where the owner executes an agreed refund. Refund accounting is reviewed rather than guessed.
+
+The sales CSV contains payment amounts/fees/statuses. The separate agreements CSV has one row per offer, including the non-cash advertising credit, quantity, dates and commitment, avoiding repeated agreement values on each voucher row. This export does not silently post barter transactions.

@@ -3,7 +3,7 @@ import {transform} from 'esbuild';
 const main=await readFile('supabase/functions/far-voucher-api/index.ts','utf8');
 const core=await readFile('supabase/functions/far-voucher-api/core.mjs','utf8');
 const integrations=await readFile('supabase/functions/far-voucher-api/integrations.mjs','utf8');
-const joined=main.replace(/^import \{minor,verifyPayment,bankEntry,ticketEmail,isReversed\} from '\.\/core\.mjs';$/m,core).replace(/^import \{pandleMapping,pandleSession\} from '\.\/integrations\.mjs';$/m,integrations);
+const joined=main.replace(/^import \{minor,verifyPayment,bankEntry,ticketEmail,isReversed\} from '\.\/core\.mjs';$/m,core).replace(/^import \{[^}]+\} from '\.\/integrations\.mjs';$/m,integrations);
 await transform(joined,{loader:'ts',target:'es2022'});
 await mkdir('deployment',{recursive:true});
 await writeFile('deployment/index.ts',joined);

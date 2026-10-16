@@ -2,13 +2,15 @@
 
 ## Installed and verified
 
-- Seven SQL migrations installed on FAR’s existing Supabase project, `nkdjnrycpdiwburtkzen`, including staff-only internal offer records.
+- Eight SQL migrations installed on FAR’s existing Supabase project, `nkdjnrycpdiwburtkzen`, including staff-only internal offer records and management-only voucher review holds.
 - Website hub published at https://fenlandangelsradio.co.uk/voucher-app.html and verified using the existing FAR staff session.
 - Launch target confirmed by the owner: **Friday 30 October 2026**. Sales remain disabled.
 - The owner approved creation of the named SumUp API credential and its storage in Supabase server secrets. The key and merchant reference have been saved and the merchant account verified. Sandbox checkout testing remains required.
 - Resend confirms fenlandangelsradio.co.uk is verified. With owner approval, a dedicated sending-only FAR Voucher Hub key restricted to that domain was saved in server secrets and Supabase Auth SMTP. Sender: vouchers@fenlandangelsradio.co.uk. Voucher sending was tested with one owner-approved email; business sign-in SMTP delivery still needs a separate check.
 - Added automatic agreement drafts from saved offers, visibly unsigned and requiring review/completion before signing.
 - Added owner/deputy-only live connection checks and a one-time Pandle API connection form. Pandle posting remains disabled.
+- Added Pandle OAuth authorisation-code support, hashed single-use owner-bound connection state, expired-state rejection, server-only refresh-token storage, renewal before expiry and daily connection checks. This is coded and tested; real authorisation remains blocked until Pandle supplies app registration credentials. Its exact callback URI was sent in the existing support email thread.
+- Staff & Permissions now offers Voucher Hub in the initial invitation form, and far-staff-admin accepts that permission. No existing staff roles or permissions were changed.
 - Approved background processing installed: encrypted worker credential in server secrets and Vault, one active cron job every minute, successful scheduled execution and server health timestamp verified. Checkout rate-limit salt is configured.
 - One explicitly approved test email was sent through the voucher sender and confirmed received in FAR Gmail. The worker records a one-time test claim and never automatically retries an uncertain send. Supabase Auth SMTP is saved, but business sign-in email delivery remains to be tested separately.
 - Pandle support was contacted from FAR Gmail about HTTP 401 and supported OAuth registration. No reply was found at the latest check. No passwords or API keys were included.
@@ -16,6 +18,8 @@
 - Live app updated with the planned 30 October launch date and a staff-only background-processing status based on the last successful run. Business users still see only redemption.
 - Added phone home-screen support: app manifest, 192/512 icons and an Add to phone control with iPhone/Android instructions. Browser UI checked locally; installation on a physical phone remains to be checked. No private voucher data is cached for offline use.
 - Losing the connection clears a previous voucher-check result and shows an offline warning. A failed redemption request now restores the confirmation button correctly. All 13 automated checks pass, including this regression.
+- Added Sales & reviews, sales CSV export, an audited management-only pause/release workflow and direct provider payment checks. A pause does not refund money; release requires server verification and cannot restore a provider-confirmed reversal. Pausing blocks business redemption. Verified reversals never restock a voucher.
+- All 19 automated checks pass, including database pause/release/access rules, OAuth state rejection and token renewal, and management-only staff permission assignment. The local browser check confirmed that a paused voucher is rejected in the business screen.
 - Private agreement/voucher storage bucket and staff/business access rules installed.
 - `far-voucher-api` server function deployed. Its legacy gateway JWT check was switched off with the owner’s explicit approval; staff actions use server-side identity and permission checks.
 - Hub sign-in redirect addresses added, limited to FAR’s voucher page.
