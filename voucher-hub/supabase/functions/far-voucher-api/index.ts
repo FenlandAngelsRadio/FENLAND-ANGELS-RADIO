@@ -134,6 +134,23 @@ async function runJobs(){
  }
  return results;
 }
+async function approvedEmailTest(){
+ const name='email_connection_test_20261015';
+ const row=check(await db.from('far_voucher_connector_state').select('value').eq('name',name).maybeSingle());
+ if(row?.value?.state!=='requested')return;
+ // Claim once atomically. An uncertain send is reviewed rather than automatically repeated.
+ const claimed=check(await db.from('far_voucher_connector_state').update({value:{state:'processing',started_at:new Date().toISOString()}}).eq('name',name).eq('value->>state','requested').select('name'));
+ if(!claimed?.length)return;
+ try{
+  if(!emailKey()||!env('EMAIL_FROM'))throw Error('Email sender not configured');
+  const r=await fetch('https://api.resend.com/emails',{method:'POST',signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${emailKey()}`,'Content-Type':'application/json','Idempotency-Key':name},body:JSON.stringify({from:env('EMAIL_FROM'),to:['fenlandangelsradio@gmail.com'],subject:'TEST ONLY - FAR Voucher Hub email connection',html:'<h1>FAR Voucher Hub - test email</h1><p>This is the single connection test approved by FAR. It is not a voucher, order or payment.</p><p>Voucher sales remain switched off.</p>'})});
+  if(!r.ok)throw Error(`Email test failed (${r.status})`);
+  const sent=await r.json();
+  check(await db.from('far_voucher_connector_state').update({value:{state:'sent',provider_id:sent.id,sent_at:new Date().toISOString()}}).eq('name',name));
+ }catch(error){
+  check(await db.from('far_voucher_connector_state').update({value:{state:'review',error:error instanceof Error?error.message:'Email test needs review',checked_at:new Date().toISOString()}}).eq('name',name));
+ }
+}
 Deno.serve(async(request:Request)=>{
  if(request.method==='OPTIONS')return json({});
  if(request.method!=='POST')return json({error:'POST required'},405);
@@ -149,7 +166,9 @@ Deno.serve(async(request:Request)=>{
    if(!env('WORKER_SECRET')||request.headers.get('Authorization')!==`Bearer ${env('WORKER_SECRET')}`)return json({error:'Access denied'},401);
    const pending=check(await db.from('far_voucher_orders').select('*').in('status',['pending','paid']).order('last_checked_at',{ascending:true,nullsFirst:true}).limit(2));
    for(const order of pending){try{await reconcile(order);}catch(error){await update('far_voucher_orders',order.id,{last_checked_at:new Date().toISOString(),last_payment_error:error instanceof Error?error.message:'Payment verification needs attention'});}}
-   return json({jobs:await runJobs()});
+   const jobs=await runJobs();await approvedEmailTest();
+   check(await db.from('far_voucher_connector_state').upsert({name:'worker_health',value:{last_completed_at:new Date().toISOString(),jobs_processed:jobs.length}}));
+   return json({jobs});
   }
   if(request.headers.get('Origin')!==origin)return json({error:'Access denied'},403);
   const input=await request.json();
