@@ -194,7 +194,9 @@ Deno.serve(async(request:Request)=>{
    const staff=check(await db.from('far_admins').select('role').eq('user_id',user.id).maybeSingle());
    const management=['owner','deputy_manager'].includes(String(staff?.role||'').toLowerCase());
    const auth=check(await db.from('far_voucher_connector_state').select('name').eq('name','pandle_auth').maybeSingle());
-   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!emailKey()&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true',pandle_session:!!auth,can_configure:management};
+   const health=check(await db.from('far_voucher_connector_state').select('value').eq('name','worker_health').maybeSingle());
+   const completed=health?.value?.last_completed_at;
+   const result:any={sales:env('SALES_ENABLED')==='true',sumup:!!env('SUMUP_API_KEY')&&!!merchant,email:!!emailKey()&&!!env('EMAIL_FROM'),pandle:env('PANDLE_ENABLED')==='true',pandle_session:!!auth,can_configure:management,worker:!!completed&&Date.now()-Date.parse(completed)<300000,worker_last_completed:completed||null};
    if(input.verify){
     if(!management)return json({error:'An owner or deputy manager must check connections'},403);
     const checks=await Promise.allSettled([

@@ -12,6 +12,8 @@
 - Approved background processing installed: encrypted worker credential in server secrets and Vault, one active cron job every minute, successful scheduled execution and server health timestamp verified. Checkout rate-limit salt is configured.
 - One explicitly approved test email was sent through the voucher sender and confirmed received in FAR Gmail. The worker records a one-time test claim and never automatically retries an uncertain send. Supabase Auth SMTP is saved, but business sign-in email delivery remains to be tested separately.
 - Pandle support was contacted from FAR Gmail about HTTP 401 and supported OAuth registration. No reply was found at the latest check. No passwords or API keys were included.
+- SumUp sandbox created with explicit owner approval, including its required terms. A sandbox-only key is stored separately in server secrets. Two hosted sandbox checkout links were created successfully, but no test payment was completed. At the owner's direction, separate sandbox work was shelved and its polling removed from the live worker. The owner plans a personal £1 live payment test after the build is ready; no live-sales controls were enabled.
+- Live app updated with the planned 30 October launch date and a staff-only background-processing status based on the last successful run. Business users still see only redemption.
 - Private agreement/voucher storage bucket and staff/business access rules installed.
 - `far-voucher-api` server function deployed. Its legacy gateway JWT check was switched off with the owner’s explicit approval; staff actions use server-side identity and permission checks.
 - Hub sign-in redirect addresses added, limited to FAR’s voucher page.
