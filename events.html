@@ -91,6 +91,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="events-config.js"></script>
+<script src="event-media.js?v=1"></script>
 <script>
 (function(){
   const list = document.getElementById('eventsList');
@@ -126,7 +127,7 @@
   }
 
   async function loadEvents(){
-    const today = new Date().toISOString().slice(0,10);
+    const today = FAREventMedia.londonNow().day;
 
     const { data, error } = await client
       .from('events')
@@ -147,7 +148,19 @@
       return;
     }
 
-    list.innerHTML = data.map(event => {
+    let media = {};
+    try { media = await FAREventMedia.load(client); }
+    catch (error) {
+      console.error(error);
+      list.innerHTML = '<div class="event-empty">Event posters are temporarily unavailable. Please try again shortly.</div>';
+      return;
+    }
+    const upcoming = data.filter(event => FAREventMedia.upcoming(event));
+    if (!upcoming.length) {
+      list.innerHTML = '<div class="event-empty">No upcoming events are listed yet. Organising something locally? Submit it to FAR.</div>';
+      return;
+    }
+    list.innerHTML = upcoming.map(event => {
       const when = [
         prettyDate(event.event_date),
         event.start_time ? prettyTime(event.start_time) : '',
@@ -157,13 +170,14 @@
       const place = [event.venue,event.town].filter(Boolean).join(', ');
 
       return `
-        <article class="event-card">
+        <article class="event-card" data-event-id="${escapeHtml(event.id)}">
           <div class="event-meta">
             <span>${escapeHtml(when)}</span>
             ${place ? `<span>${escapeHtml(place)}</span>` : ''}
           </div>
 
           <h2>${escapeHtml(event.title)}</h2>
+          ${FAREventMedia.figure(media[event.id])}
 
           ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ''}
 
@@ -180,6 +194,7 @@
   }
 
   loadEvents();
+  setInterval(loadEvents, 60000);
 })();
 </script>
 
