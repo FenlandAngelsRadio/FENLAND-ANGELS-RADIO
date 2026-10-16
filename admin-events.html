@@ -136,10 +136,14 @@
 <script src="events-config.js"></script>
 
 
+<script src="admin-media.js?v=1"></script>
+<script src="event-media.js?v=1"></script>
 <script>
 
 (function(){
 
+  let activeAdmin = null;
+  let eventMedia = {};
   const cfg =
     window.FAR_EVENTS_CONFIG || {};
 
@@ -306,6 +310,7 @@
       return;
     }
 
+    activeAdmin = admin;
     loginPanel.hidden = true;
     adminPanel.hidden = false;
 
@@ -416,6 +421,7 @@
     }
 
 
+    eventMedia = await FAREventMedia.load(client);
     eventList.innerHTML =
       data.map(event => {
 
@@ -609,8 +615,50 @@
 
       }).join('');
 
+    attachEventImages(data);
   }
 
+
+
+  function attachEventImages(events) {
+    const management = ['owner','deputy_manager'].includes((activeAdmin?.role || '').toLowerCase());
+    for (const event of events) {
+      const card = eventList.querySelector('[data-id="' + event.id + '"]');
+      const media = eventMedia[event.id] || {};
+      const panel = document.createElement('section');
+      panel.style.cssText = 'border-top:1px solid #363a43;margin-top:20px;padding-top:18px';
+      panel.innerHTML = '<h2>Event poster or photo</h2><p>Every published event needs an image we have permission to use. Save the image before publishing.</p>';
+      const controls = {};
+      for (const [key,label,type] of [
+        ['image_url','Image address','url'], ['alt','Describe the image','text'],
+        ['credit','Image credit (shown publicly)','text'], ['source_url','Organiser or licensed image source','url'],
+        ['permission_note','Permission summary (public record; no private email details)','text'],
+        ['checked_on','Details last checked','date']
+      ]) {
+        const wrap = document.createElement('div'); wrap.className = 'event-field';
+        const labelEl = document.createElement('label'); labelEl.htmlFor = event.id + '-' + key; labelEl.textContent = label;
+        const input = document.createElement('input'); input.id = labelEl.htmlFor; input.type = type; input.value = media[key] || ''; input.disabled = !management;
+        wrap.append(labelEl,input); panel.append(wrap); controls[key] = input;
+      }
+      const permissionLabel = document.createElement('label');
+      const permission = document.createElement('input'); permission.type = 'checkbox'; permission.checked = media.permission_confirmed === true; permission.disabled = !management;
+      permissionLabel.append(permission, document.createTextNode(' I have checked permission to publish this image.')); panel.append(permissionLabel);
+      const save = document.createElement('button'); save.type = 'button'; save.className = 'far-action'; save.textContent = 'Save event image'; save.hidden = !management;
+      const status = document.createElement('p'); status.setAttribute('role','status');
+      panel.append(document.createElement('br'),save,status); card.append(panel);
+      FARMedia.attach(controls.image_url, {db:client, role:(activeAdmin?.role || '').toLowerCase(), folder:'events/' + event.id, saveButtons:[save,...card.querySelectorAll('button[data-action]')], saveLabel:'Save event image', label:'event image'});
+      save.onclick = async () => {
+        save.disabled = true; status.textContent = 'Saving event image…';
+        try {
+          const values = Object.fromEntries(Object.entries(controls).map(([key,input]) => [key,input.value.trim()]));
+          values.permission_confirmed = permission.checked;
+          await FAREventMedia.save(client,event,values);
+          eventMedia[event.id] = values; status.textContent = 'Event image saved. It appears on the website when this event is approved.';
+        } catch(error) { status.textContent = error.message; }
+        finally { save.disabled = false; }
+      };
+    }
+  }
 
   function collectCard(card){
 
@@ -696,6 +744,8 @@
 
 
         if(action === 'approve'){
+          eventMedia = await FAREventMedia.load(client);
+          if (!FAREventMedia.valid(eventMedia[eventId])) throw new Error('Save a permitted event image before publishing this event.');
 
           updates.status =
             'approved';
