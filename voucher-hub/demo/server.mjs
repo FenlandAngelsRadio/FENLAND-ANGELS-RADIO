@@ -10,7 +10,7 @@ create function auth.uid() returns uuid language sql as $$select nullif(current_
 create function auth.jwt() returns jsonb language sql as $$select jsonb_build_object('email',current_setting('request.jwt.claim.email',true))$$;
 create table far_admins(user_id uuid,role text,permissions jsonb);
 insert into far_admins values('00000000-0000-0000-0000-000000000001','owner','[]');`);
-for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql','202610150007_staff_only_offer_records.sql','202610160008_refund_review_controls.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
+for(const file of ['202610150001_far_vouchers.sql','202610150003_voucher_safeguards.sql','202610150004_voucher_recovery.sql','202610150005_exchange_value.sql','202610150006_rounded_sale_price.sql','202610150007_staff_only_offer_records.sql','202610160008_refund_review_controls.sql','202610160009_checkout_burst_limit.sql'])await db.exec(await readFile(`supabase/migrations/${file}`,'utf8'));
 const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
 const [{id:business}]=await q("insert into far_voucher_businesses(name,contact_email) values('Demo · Riverside Cafe','cafe@example.test') returning id");
 await q('insert into far_voucher_members values($1,$2)',[business,'cafe@example.test']);
@@ -54,7 +54,7 @@ async function request(body){
  }else if(body.op==='update'){
   const assignments=Object.entries(body.value).map(([k,v])=>{args.push(v);return quote(k)+'=$'+args.length;});
   sql=`update ${body.table} set ${assignments.join(',')}${where?' where '+where:''} returning *`;
- }else sql+=where?' where '+where:'';
+ }else {sql+=where?' where '+where:'';if(body.sort?.length)sql+=' order by '+body.sort.map(([column,ascending])=>quote(column)+(ascending?' asc':' desc')).join(',');if(body.range){const offset=Math.max(0,Number(body.range[0])||0),limit=Math.min(1000,Math.max(1,Number(body.range[1])-offset+1));args.push(limit,offset);sql+=` limit $${args.length-1} offset $${args.length}`;}}
  const rows=await q(sql,args);return body.single?rows[0]:rows;
 }
 const server=createServer(async(req,res)=>{

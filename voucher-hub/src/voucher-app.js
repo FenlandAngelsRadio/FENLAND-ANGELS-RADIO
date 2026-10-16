@@ -1,4 +1,5 @@
 import {agreementDraft} from './agreement.mjs';
+import {readAllRows} from './records.mjs';
 import {advertisingCredit,customerPrice} from './exchange.mjs';
 import {createClient} from '@supabase/supabase-js';
 import QRCode from 'qrcode';
@@ -39,7 +40,7 @@ function login(){
 }
 async function loadData(){
  const tables=['businesses','offers','documents','stock','orders','jobs','members','settings'];
- const results=await Promise.allSettled(tables.map(async name=>[name,check(await client.from(`far_voucher_${name}`).select('*'))]));
+ const results=await Promise.allSettled(tables.map(async name=>[name,await readAllRows(client,`far_voucher_${name}`)]));
  for(const r of results){if(r.status==='rejected')throw r.reason;data[r.value[0]]=r.value[1];}
 }
 async function refresh(){await loadData();dashboard();}

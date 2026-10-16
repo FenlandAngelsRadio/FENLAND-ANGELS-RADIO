@@ -14,6 +14,16 @@ const rpc=async(name:string,args:Record<string,unknown>={})=>check(await db.rpc(
 const one=async(table:string,id:string)=>check(await db.from(table).select('*').eq('id',id).single());
 const update=async(table:string,id:string,value:any)=>check(await db.from(table).update(value).eq('id',id));
 const json=(data:any,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','Access-Control-Allow-Origin':origin,'Access-Control-Allow-Headers':'authorization,apikey,content-type','Access-Control-Allow-Methods':'POST,OPTIONS','Vary':'Origin'}});
+async function readInput(request:Request){
+ const text=await request.text();if(new TextEncoder().encode(text).length>16384)throw Error('This request is too large');
+ let input;try{input=JSON.parse(text);}catch{throw Error('Send a valid JSON request');}
+ if(!input||typeof input!=='object'||Array.isArray(input))throw Error('Send a JSON object');
+ return input;
+}
+async function rateKey(source:string){
+ const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(env('RATE_LIMIT_SALT')+'|'+source));
+ return Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
+}
 async function provider(path:string,init:RequestInit={}){
  const r=await fetch(sumupBase+path,{...init,signal:AbortSignal.timeout(15000),headers:{Authorization:`Bearer ${env('SUMUP_API_KEY')}`,'Content-Type':'application/json'}});
  if(!r.ok)throw Error(`SumUp request failed (${r.status})`);return await r.json();
@@ -201,7 +211,7 @@ Deno.serve(async(request:Request)=>{
  if(request.method!=='POST')return json({error:'POST required'},405);
  try{
   if(action==='webhook'){
-   const body=await request.json();if(body.event_type!=='CHECKOUT_STATUS_CHANGED'||typeof body.id!=='string')return json({});
+   const body=await readInput(request);if(body.event_type!=='CHECKOUT_STATUS_CHANGED'||typeof body.id!=='string')return json({});
    const order=check(await db.from('far_voucher_orders').select('*').eq('checkout_id',body.id).maybeSingle());
    if(order)await reconcile(order);
    return new Response(null,{status:204});
@@ -215,13 +225,16 @@ Deno.serve(async(request:Request)=>{
    return json({jobs});
   }
   if(request.headers.get('Origin')!==origin)return json({error:'Access denied'},403);
-  const input=await request.json();
+  const input=await readInput(request);
   if(action==='checkout'){
+   if(env('SALES_ENABLED')!=='true')throw Error('Voucher sales are not open yet');
    if(!env('RATE_LIMIT_SALT'))throw Error('Checkout protection is not configured');
    const source=String(input.email||'').trim().toLowerCase();
-   const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(env('RATE_LIMIT_SALT')+source));
-   const key=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
+   if(source.length>200||!/^([^\s@]+)@[^\s@]+\.[^\s@]+$/.test(source))throw Error('Enter a valid email address');
+   if(!await rpc('far_voucher_rate_limit_window',{p_key:await rateKey('checkout-store'),p_limit:100}))return json({error:'The voucher shop is busy. Please try again in 15 minutes.'},429);
+   const key=await rateKey('checkout-email:'+source);
    if(!await rpc('far_voucher_rate_limit',{p_key:key}))return json({error:'Too many checkout requests. Please try again in 15 minutes.'},429);
+   input.email=source;
    return json(await checkout(input));
   }
   if(action==='status'){

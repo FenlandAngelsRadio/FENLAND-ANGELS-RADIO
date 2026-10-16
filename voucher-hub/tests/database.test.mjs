@@ -18,6 +18,7 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await db.exec(await readFile(new URL('../supabase/migrations/202610150006_rounded_sale_price.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610150007_staff_only_offer_records.sql',import.meta.url),'utf8'));
  await db.exec(await readFile(new URL('../supabase/migrations/202610160008_refund_review_controls.sql',import.meta.url),'utf8'));
+ await db.exec(await readFile(new URL('../supabase/migrations/202610160009_checkout_burst_limit.sql',import.meta.url),'utf8'));
  await db.exec(`create schema storage;create table storage.buckets(id text primary key,name text,public boolean,file_size_limit bigint,allowed_mime_types text[]);create table storage.objects(id uuid default gen_random_uuid(),bucket_id text,name text);alter table storage.objects enable row level security;grant usage on schema storage to authenticated;grant select,insert on storage.objects to authenticated;`);
  await db.exec(await readFile(new URL('../supabase/migrations/202610150002_voucher_documents.sql',import.meta.url),'utf8'));
  const q=async(sql,args=[]) => (await db.query(sql,args)).rows;
@@ -46,6 +47,12 @@ test('stock, payment and business access rules run in PostgreSQL',async()=>{
  await assert.rejects(q('update far_voucher_stock set status=\'issued\''),/permission denied/);
  await identity(owner,'owner@example.test','service_role');
  const key=crypto.randomUUID();
+ const rateKey='a'.repeat(64);
+ for(let n=0;n<100;n++)assert.equal((await q('select far_voucher_rate_limit_window($1,100) allowed',[rateKey]))[0].allowed,true);
+ assert.equal((await q('select far_voucher_rate_limit_window($1,100) allowed',[rateKey]))[0].allowed,false);
+ await q("update far_voucher_rate_limits set window_started=now()-interval '16 minutes' where key=$1",[rateKey]);
+ assert.equal((await q('select far_voucher_rate_limit_window($1,100) allowed',[rateKey]))[0].allowed,true,'burst allowance resets after its window');
+ await assert.rejects(q('select far_voucher_rate_limit_window($1,1001)',[rateKey]),/Invalid rate-limit configuration/);
  await assert.rejects(q('select far_voucher_reserve($1,$2,$3)',[offer,'buyer@example.test',key]),/not open/);
  await q('update far_voucher_settings set sales_enabled=true');
  const reserve=async(k)=> (await q('select far_voucher_reserve($1,$2,$3) as r',[offer,'buyer@example.test',k]))[0].r;
