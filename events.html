@@ -9,6 +9,21 @@
 <link rel="stylesheet" href="site-nav.css?v=5">
 <link rel="stylesheet" href="events-system.css?v=1">
 <script src="site-nav.js?v=6" defer></script>
+<style>
+.event-filters{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:16px;align-items:end;margin-bottom:20px;padding:20px;border:1px solid #343942;border-radius:16px;background:#0d0f13}
+.event-filters input,.event-filters select{min-height:46px;min-width:0}
+.event-filters .event-field{min-width:0}
+.event-filters :focus-visible,#eventMore:focus-visible{outline:3px solid #d4aa47;outline-offset:3px}
+.event-agenda .event-month{margin:32px 0 16px;padding-bottom:12px;border-bottom:2px solid #b90f15;font-size:clamp(23px,3vw,32px)}
+.event-agenda .event-date{display:inline-block;color:#d4aa47}
+.event-agenda .event-card{min-width:0;overflow-wrap:anywhere}
+.event-agenda .event-card h3{font-size:1.5rem}
+#eventResults{color:#cfd2d9}
+#eventMore{margin-top:24px}
+#eventMore[hidden]{display:none}
+@media(max-width:850px){.event-filters{grid-template-columns:1fr 1fr}.event-filters .event-field:first-child{grid-column:1/-1}}
+@media(max-width:480px){.event-filters{grid-template-columns:1fr}.event-filters .event-field:first-child{grid-column:auto}}
+</style>
 </head>
 
 <body>
@@ -36,10 +51,18 @@
     </a>
   </div>
 
-  <div id="eventsList" class="events-list">
+  <form id="eventFilters" class="event-filters" role="search" aria-label="Find local events">
+    <div class="event-field"><label for="eventSearch">Search events</label><input id="eventSearch" type="search" placeholder="Event, venue or keyword"></div>
+    <div class="event-field"><label for="eventMonth">Month</label><select id="eventMonth"><option value="">All upcoming months</option></select></div>
+    <div class="event-field"><label for="eventTown">Town or area</label><select id="eventTown"><option value="">All areas</option></select></div>
+    <button class="far-action secondary" type="reset">Clear filters</button>
+  </form>
+  <p id="eventResults" role="status" aria-live="polite"></p>
+  <div id="eventsList" class="event-agenda">
     <div class="event-loading">Loading upcoming events…</div>
   </div>
 
+  <button id="eventMore" class="far-action secondary" type="button" hidden>Show more events</button>
 </section>
 
 </main>
@@ -126,6 +149,53 @@
     return value.slice(0,5);
   }
 
+  const filters = document.getElementById('eventFilters');
+  const search = document.getElementById('eventSearch');
+  const month = document.getElementById('eventMonth');
+  const town = document.getElementById('eventTown');
+  const results = document.getElementById('eventResults');
+  const more = document.getElementById('eventMore');
+  let events = [], media = {}, limit = 12;
+  const monthLabel = key => new Intl.DateTimeFormat('en-GB',{month:'long',year:'numeric'}).format(new Date(key+'-01T12:00:00'));
+  function options(select, values, label) {
+    const chosen = select.value;
+    select.innerHTML = '<option value="">' + label + '</option>' + values.map(value => '<option value="'+escapeHtml(value)+'">'+escapeHtml(select === month ? monthLabel(value) : value)+'</option>').join('');
+    if (values.includes(chosen)) select.value = chosen;
+  }
+  function render() {
+    const query = search.value.trim().toLocaleLowerCase('en-GB');
+    const matching = events.filter(event => FAREventMedia.upcoming(event) &&
+      (!month.value || event.event_date.slice(0,7) === month.value) &&
+      (!town.value || (event.town || '').trim() === town.value) &&
+      (!query || [event.title,event.description,event.venue,event.town].join(' ').toLocaleLowerCase('en-GB').includes(query)));
+    results.textContent = matching.length ? matching.length + ' upcoming event' + (matching.length === 1 ? '' : 's') + ' · showing ' + Math.min(limit,matching.length) : 'No matching upcoming events';
+    more.hidden = matching.length <= limit;
+    if (!matching.length) {
+      list.innerHTML = '<div class="event-empty">No upcoming events match your selection. Try clearing the filters, or <a href="submit-event.html">tell FAR about an event</a>.</div>';
+      return;
+    }
+    let previous = '';
+    list.innerHTML = matching.slice(0,limit).map(event => {
+      const key = event.event_date.slice(0,7);
+      const heading = key !== previous ? (previous ? '</div></section>' : '') + '<section><h2 class="event-month">'+escapeHtml(monthLabel(key))+'</h2><div class="events-list">' : '';
+      previous = key;
+      const when = [prettyDate(event.event_date),event.start_time ? prettyTime(event.start_time) : '',event.end_time ? '– '+prettyTime(event.end_time) : ''].filter(Boolean).join(' ');
+      const place = [event.venue,event.town].filter(Boolean).join(', ');
+      let booking = '';
+      try { const address = new URL(event.booking_url); if (['https:','http:'].includes(address.protocol)) booking = address.href; } catch (_) {}
+      return heading + '<article class="event-card" data-event-id="'+escapeHtml(event.id)+'"><div class="event-meta"><span>'+escapeHtml(when)+'</span>'+(place ? '<span>'+escapeHtml(place)+'</span>' : '')+'</div><h3>'+escapeHtml(event.title)+'</h3>'+FAREventMedia.figure(media[event.id])+(event.description ? '<p>'+escapeHtml(event.description)+'</p>' : '')+(event.price_text ? '<p><strong>'+escapeHtml(event.price_text)+'</strong></p>' : '')+(booking ? '<a class="event-link" href="'+escapeHtml(booking)+'" target="_blank" rel="noopener">More information / tickets →</a>' : '')+'</article>';
+    }).join('') + '</div></section>';
+  }
+  filters.addEventListener('submit', event => event.preventDefault());
+  filters.addEventListener('input', () => { limit = 12; render(); });
+  filters.addEventListener('change', () => { limit = 12; render(); });
+  filters.addEventListener('reset', () => { setTimeout(() => { limit = 12; render(); }, 0); });
+  more.addEventListener('click', () => {
+    const count = list.querySelectorAll('article').length;
+    limit += 12; render();
+    const next = list.querySelectorAll('article')[count];
+    if (next) { next.tabIndex = -1; next.focus(); }
+  });
   async function loadEvents(){
     const today = FAREventMedia.londonNow().day;
 
@@ -144,53 +214,16 @@
     }
 
     if(!data || !data.length){
-      list.innerHTML = '<div class="event-empty">No upcoming events are listed yet. Organising something locally? Submit it to FAR.</div>';
+      events = []; render();
       return;
     }
 
-    let media = {};
     try { media = await FAREventMedia.load(client); }
-    catch (error) {
-      console.error(error);
-      list.innerHTML = '<div class="event-empty">Event posters are temporarily unavailable. Please try again shortly.</div>';
-      return;
-    }
-    const upcoming = data.filter(event => FAREventMedia.upcoming(event));
-    if (!upcoming.length) {
-      list.innerHTML = '<div class="event-empty">No upcoming events are listed yet. Organising something locally? Submit it to FAR.</div>';
-      return;
-    }
-    list.innerHTML = upcoming.map(event => {
-      const when = [
-        prettyDate(event.event_date),
-        event.start_time ? prettyTime(event.start_time) : '',
-        event.end_time ? '– ' + prettyTime(event.end_time) : ''
-      ].filter(Boolean).join(' ');
-
-      const place = [event.venue,event.town].filter(Boolean).join(', ');
-
-      return `
-        <article class="event-card" data-event-id="${escapeHtml(event.id)}">
-          <div class="event-meta">
-            <span>${escapeHtml(when)}</span>
-            ${place ? `<span>${escapeHtml(place)}</span>` : ''}
-          </div>
-
-          <h2>${escapeHtml(event.title)}</h2>
-          ${FAREventMedia.figure(media[event.id])}
-
-          ${event.description ? `<p>${escapeHtml(event.description)}</p>` : ''}
-
-          ${event.price_text ? `<p><strong>${escapeHtml(event.price_text)}</strong></p>` : ''}
-
-          ${event.booking_url ? `
-            <a class="event-link" href="${escapeHtml(event.booking_url)}" target="_blank" rel="noopener">
-              More information / tickets →
-            </a>
-          ` : ''}
-        </article>
-      `;
-    }).join('');
+    catch (error) { console.error(error); /* Keep event details available if posters fail. */ }
+    events = data.filter(event => FAREventMedia.upcoming(event));
+    options(month, [...new Set(events.map(event => event.event_date.slice(0,7)))].sort(), 'All upcoming months');
+    options(town, [...new Set(events.map(event => (event.town || '').trim()).filter(Boolean))].sort((a,b) => a.localeCompare(b,'en-GB')), 'All areas');
+    render();
   }
 
   loadEvents();
