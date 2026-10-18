@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-17T19:44:41.704657+00:00",
+  "updated_at": "2026-10-18T01:35:07.623677+00:00",
   "stories": [
+    {
+      "id": "fenland-news-4c3c5821abc933be1c1808a1",
+      "headline": "Water supply disruption reported in Littleport",
+      "brief": "Residents in Littleport are currently experiencing a loss of water supply following a burst water main. According to reports from the Ely East Cambridgeshire News, the incident has left homes and businesses in the area without water. \n\nEngineers are working to address the issue, though a timeline for when supplies will be fully restored has not yet been confirmed. Those living in the affected area are advised to check local updates for further information as the situation develops.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGVEb3pKcS1MNmRHSDNRdk5GcHpwRWY1XzJhcFBWa3VOZUJWT0p2RDFCTnF3ZHJWeTRMaXJVczZ2ZEh5THZiQTAyT0FNdTFLUVM3S2dmNDlLTkkwNi1FdTN3Q3lRYWZmV2w3S0t6d0hCd3lZN1dDRDY0OEVqUUxDQVpXc0R1TWZoamdiVVl5d3RvNTDSAZgBQVVfeXFMUDFTalFyMVg4M2p2Wk4xUlJqa0Q3b2t3Q0plRGppZXdmbXVocTFSVUJQWHNoQ1lkbkprdGlJODg2ZFQ3S2lNS0prOFRyZE5HdlJmbEk2eDBuR2M3NUhGTkZHZHlvWUdxNFl1cFc0UXZUa21hSmxRSmR3ZXhROGtTNjV2eWVNUDVOd3lUeXViNDNoR3FyVWp2NUw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-14T13:03:00+00:00",
+      "generated_at": "2026-10-18T01:34:43.551524+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:43 +0000"
+    },
+    {
+      "id": "fenland-news-86d44017199923f4bb1211c6",
+      "headline": "Long Sutton travel agents prepare for Santa",
+      "brief": "Staff at a travel agency in Long Sutton have been busy preparing for the festive season by packing a suitcase for Santa Claus. The local team organised the special display to mark the arrival of Christmas. Residents in the area can view the festive luggage at the branch as part of their seasonal preparations.",
+      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFTk5FbUZUTVBlaFo5VXphZWFLYVNaMmlDaVFON0FwZWI1czdiMWNtUUZpN3VIbVMwalpvR3RxU1I2Q01xYThHNkM0eWtDNVNkc2x2ZzJlU0VvLU93elNUTmxrUjJsRlI1c3JKVmFHSmxRaDdOa1U4WXNMdw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2019-12-18T08:00:00+00:00",
+      "generated_at": "2026-10-18T01:34:42.388933+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:42 +0000"
+    },
+    {
+      "id": "fenland-news-fb2f3fdfb9c98e9b7616151d",
+      "headline": "Seven-year-old boy dies following incident in Wimblington",
+      "brief": "A seven-year-old boy has died following reports of a child in the water at Wimblington. Emergency services were called to the scene to respond to the incident. No further details regarding the circumstances have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nd24zYk9CSXRuck1Md2ZkajhVdnRMbnJtaEhJblZTTW1EMlQ2aHhtVGJpYlY3SVJFSWN5eGtQeGg4MFFpbklCRW1HekRpbERvOFpERzJBYkFrUQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-04-08T07:00:00+00:00",
+      "generated_at": "2026-10-18T01:34:41.120160+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:41 +0000"
+    },
+    {
+      "id": "fenland-news-90b7186635b7d6a61e5369c3",
+      "headline": "Rail disruption reported between Peterborough and Doncaster",
+      "brief": "Passengers travelling by rail this Sunday are being advised of disruption to LNER services. The issues are affecting the line running between Peterborough and Doncaster. Those planning to travel on this route are encouraged to check their journey details before setting off, as the service alterations may impact travel times across the region.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSTm9yY0Q0ZEt0cGdZUW9XWVRLVHE4SFRIQ0UzY0JGSFhpQldQY1otMkc5VG5iaF9WN0VXV25aNnFpMzh1MndLa05jbkN3VUFLWThQeGw5OTZoVW5rYmc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-17T05:33:03+00:00",
+      "generated_at": "2026-10-18T01:34:39.982699+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:39 +0000"
+    },
+    {
+      "id": "fenland-news-4db94026b6e564afb45219d4",
+      "headline": "Anglian Water issues update on East Cambridgeshire supply problems",
+      "brief": "Residents in East Cambridgeshire are facing ongoing water supply issues today. Anglian Water has released an update regarding the situation, though specific details on the cause or the number of affected properties remain limited. The utility company is currently working to resolve the disruption across the region. \n\nCustomers are advised to check the Anglian Water website for the latest information and updates on when their service is expected to return to normal. We will bring you more on this story as further details become available.",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRVBGVTFPR3doZ0tHRG51STloSTFyMmt3MFRkRlFwRjhDbUNXM2lZTHZucjk1dGFGLVZ3WjZmaVB4dFFUUTAyYzZTOHdZWW5ibG1HdTRsSzlEeGkyVzZiakd5T3p4bU1sZDBNTTIxWmYxM1JNS0gxaVc3OUFnenVGdEN1WkhySnB1c3NUaDUxQ1JUV3hmN1lCWlJybTNYQ3M?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-14T13:32:00+00:00",
+      "generated_at": "2026-10-18T01:34:37.719329+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:37 +0000"
+    },
+    {
+      "id": "fenland-news-38a9f897c227c88b182c9a52",
+      "headline": "Company denies environmental charges in Long Sutton",
+      "brief": "A company is contesting environmental charges relating to two sites in Long Sutton. The firm has entered formal denials regarding the allegations brought against them. No further details regarding the nature of the charges or the identity of the business have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnhIN2FPOGYtdUgxSzlBSUNJWFNjSzF6ODF0eG5LSUFkWXc0cjFJUVNsaXNCNzZjY1I5aERfRzlhYnFFVDcwS0syRURmSkZhczBubDF2d25JRzJtUGlScERqbkpNRkNuM2pEdTVJT3VHekh5TUw1a0tQOXBGV1o0WVlySk9DNFdrQ0VYZHBLMWdaZklp?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2023-07-05T07:00:00+00:00",
+      "generated_at": "2026-10-18T01:34:33.140418+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:33 +0000"
+    },
+    {
+      "id": "fenland-news-8207081625144b6cc1490a10",
+      "headline": "Ten road closures planned across Cambridgeshire this week",
+      "brief": "Motorists travelling across Cambridgeshire are being advised to plan their journeys carefully over the coming days. A total of ten road closures are scheduled to take place across the county throughout this week. Drivers are encouraged to check local travel updates before setting off to avoid potential delays caused by these works.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZXRZcDZuS195LTZtbEhWZ2l1cXU4YnBtRFZCR05rdEdhMWlfSTRacWdZekNFTUxZTmtURGVadWJrMkU4ZXRwZUJubG1RdDlsb0Q4NlN0X2p0U1RqcWExbTRUckJZYnEwdHZhbkVWaFJtSi1WMUFZZGU4d0hkSy1sOEgzWndRSmZFbWl6Y21DLW1qb0E?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-16T07:00:00+00:00",
+      "generated_at": "2026-10-18T01:34:31.284344+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:31 +0000"
+    },
+    {
+      "id": "fenland-news-3d74d5754611870aa5e2b983",
+      "headline": "West Norfolk schools support mental health campaign",
+      "brief": "Pupils and staff across several West Norfolk schools have marked World Mental Health Day by taking part in the ‘Hello Yellow’ campaign. Participants wore bright colours to raise awareness and funds for the charity Young Minds. At West Lynn Primary School, children and staff held a special assembly and completed mental health-related classroom activities. \n\nOther schools within the West Norfolk Academies Trust also joined the initiative, including Smithdon High School in Hunstanton, St Clement’s High School in Terrington St Clement, and Clenchwarton Primary. The schools shared donation links via their newsletters and websites to support the charity’s work. West Lynn Primary typically raises around £200 for the cause during this annual event.",
+      "original_url": "https://www.lynnnews.co.uk/news/primary-pupils-look-bright-9486683/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/5AK430QVS5M8LM7YGQVP.jpg",
+      "published": "2026-10-14T05:00:00+00:00",
+      "generated_at": "2026-10-18T01:34:02.959560+00:00",
+      "rss_date": "Sun, 18 Oct 2026 01:34:02 +0000"
+    },
     {
       "id": "fenland-news-1c640afca46b2d2a39d9c0a8",
       "headline": "Two men released following imitation firearm arrest",
@@ -1012,94 +1100,6 @@
       "published": "2026-05-06T07:00:00+00:00",
       "generated_at": "2026-10-14T02:11:34.642473+00:00",
       "rss_date": "Wed, 14 Oct 2026 02:11:34 +0000"
-    },
-    {
-      "id": "fenland-news-82e97832e42a97f1a22dd844",
-      "headline": "Police appeal following fatal collision in King’s Lynn",
-      "brief": "Norfolk Police are asking for witnesses to come forward after a fatal road traffic collision in King’s Lynn. The incident occurred at approximately 11pm on Friday when a black Jeep Grand Cherokee left the road at the Knights Hill roundabout on Grimston Road. The driver, a man in his 60s, was the only person in the vehicle and sadly died at the scene.\n\nOfficers are requesting that anyone who saw the collision, or who has dashcam footage of the vehicle’s driving beforehand, contacts the force. You should quote incident number 587 of October 9 when providing information to Norfolk Police. The road was closed for a time while emergency services dealt with the scene.",
-      "original_url": "https://www.lynnnews.co.uk/news/witness-appeal-after-fatal-collision-9486554/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/UJT3VU3ZMW4UNLQMMG3Y.jpg",
-      "published": "2026-10-12T12:16:01+00:00",
-      "generated_at": "2026-10-14T02:11:28.472528+00:00",
-      "rss_date": "Wed, 14 Oct 2026 02:11:28 +0000"
-    },
-    {
-      "id": "fenland-news-dd633c09b04dcfe8d855ac2d",
-      "headline": "New youth hub to open in Wisbech",
-      "brief": "A new youth hub is opening at the Annabelle Davis Centre on Love Lane in Wisbech to support young people aged 16 to 25. Run by the charity Centre 33 and backed by the Cambridgeshire and Peterborough Combined Authority, the facility aims to help those not currently in education, employment, or training.\n\nThe hub will provide a single location for guidance on careers, skills, housing, and wellbeing. It is designed to address local unemployment, with recent figures suggesting over 14% of young people in the county are currently without work or training. While based in Wisbech, the project will also conduct outreach work to support young people living in rural Fenland communities.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/new-youth-hub-to-tackle-unemployment-and-provide-vital-suppo-9486592/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/7CKKGX1EWPIL8HOEI281.jpg",
-      "published": "2026-10-13T05:00:00+00:00",
-      "generated_at": "2026-10-13T21:59:04.271187+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:59:04 +0000"
-    },
-    {
-      "id": "fenland-news-e18d9780ce1133419eb31e2c",
-      "headline": "Protest planned over potential Queen Elizabeth Hospital service closures",
-      "brief": "Campaigners are organising a \"human A&E queue\" in King’s Lynn this Saturday, October 17, to protest against potential service closures at the Queen Elizabeth Hospital. The demonstration, taking place at Tuesday Market Place from 11.30am until 12pm, aims to highlight concerns over reports that emergency, maternity, and intensive care departments could be shut. \n\nParticipants are encouraged to bring placards displaying their home town and travel time to the hospital. The Norfolk and Waveney University Hospitals Group has stated that the documents regarding these potential changes are preliminary and that no final decisions have been made. Residents, local politicians, and MPs are expected to attend the event to voice their opposition to the proposals.",
-      "original_url": "https://www.lynnnews.co.uk/news/residents-urged-to-form-human-a-e-queue-amid-potential-hos-9486580/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/86YTTBSX7B90QP2L81PP.jpg",
-      "published": "2026-10-13T09:17:08+00:00",
-      "generated_at": "2026-10-13T21:59:02.458343+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:59:02 +0000"
-    },
-    {
-      "id": "fenland-news-85d8ab0651525c232648fce8",
-      "headline": "AI technology improves diabetes eye screening access",
-      "brief": "New research from the London School of Hygiene and Tropical Medicine suggests that artificial intelligence is helping more people living with diabetes to access essential eye care. The study indicates that implementing AI-based screening tools can successfully increase the number of patients receiving sight-saving examinations. Health experts believe this development could play a significant role in managing diabetes-related complications across the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYk1ESHcyUGEzQ2NJdWNjczcwVnhqSTJraVJXUllNQnE5bkVic19XTFZVUW5KejU3N2wzWkRTeXQtcDJUMk1zSGhQVXFIU3pURnZ4Nk9CTVRGWkJCcTF4U2ZvRkU4UnA4NFlJNXVSbTNjQjdPOFBTV19MY1RCYzZLNGgzbURHR2p5MG1fN0g3eGVoWk5VN3F3OVZILUJGcFlWWXBoRG5YMEgzYTM1cVhheS1ETQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-13T08:01:08+00:00",
-      "generated_at": "2026-10-13T21:58:57.155338+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:58:57 +0000"
-    },
-    {
-      "id": "fenland-news-f7853ca84b1d4e66415f5a6c",
-      "headline": "Traveller pitch approved on agricultural land near Ely",
-      "brief": "Planning permission has been granted for a single traveller pitch on agricultural land in the Ely area. The decision was reached despite formal concerns raised by the local council regarding the site. The approval allows for the development of the pitch on the designated plot, notwithstanding the objections previously put forward by planning officials.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1piNHRVTHBXX3VPUEY5a3pwU0RyaDdsX09PZWxDbzNYNnQtcHNUN3VxSWNqYkFwYlpCWDM3STI5NTJhN2FWcmEzZmxPSWpYZzdCMm04YkVENnNvNENyamdxS0pza3NoOEJsM21QQl9ZbzdqQ18wNlh5R3BaeS1FaGdRNEpIZGFIRVZNS1N4bGkwTUVlQzF4MVRVZVZmYU94NEphRTR0Wkg?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-13T16:00:00+00:00",
-      "generated_at": "2026-10-13T21:58:56.298703+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:58:56 +0000"
-    },
-    {
-      "id": "fenland-news-fa79e8912b0a6de4c733bfc3",
-      "headline": "School and parents exchange letters following protest",
-      "brief": "School leaders and parents have been exchanging letters following a recent protest. The correspondence comes as officials work to minimise any disruption to the upcoming exam season. No further details regarding the nature of the protest or the specific school involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTG1DSFQ2RG9tQjhLSjNFc3U0XzBQVm9YbTdVU0VIcl9CTGJqSTBiZmNSS0tFeTRZVzlNdmY2bFBfTUFuWVVwZVlyd1RJTjh3NWQtcUUtT2ZEa2hFdERqSlN2R3V0SFdDMEtsQ1R4WEtSbUhsRXlRcmVZeTg2ZEdBVC01Y3VRX3ZOQXVBa2ZnZHZLeEhyeHEyNjVRbzRyZ0NxdEdzU0hSOXdOTlRieVBRWmJR?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-05-06T07:00:00+00:00",
-      "generated_at": "2026-10-13T21:58:55.113693+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:58:55 +0000"
-    },
-    {
-      "id": "fenland-news-a9e483a26fbf667562719307",
-      "headline": "Campaign launched against East Cambridgeshire wind farm proposals",
-      "brief": "A new campaign has been established to oppose plans for two wind farms in East Cambridgeshire. The proposed developments are located on Grade 1 agricultural land. Further details regarding the specific locations or the groups involved in the opposition have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFA0cWxfcjdqeGJtOGRsVzA3VWtuR0EtOVBPZ1g4TUYzUWlEQ2ZFWWZXejJSM3hDbUs1eE15clpWRmMza1p6ZlBoN0VnVGFKQmUxdlNCTmVCR1JPNm9qS1QtWVVXRUpaT0dyWFZ6ZHJoaGpWVWMzWlZXRGFyY0k2V0JSWFhWdU9HU0kzdnZjenJLMlAxSGc0?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-01T07:00:00+00:00",
-      "generated_at": "2026-10-13T21:58:54.292832+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:58:54 +0000"
-    },
-    {
-      "id": "fenland-news-0b8a01a029337e6ede4ec39f",
-      "headline": "New Police Community Support Officer joins Wisbech team",
-      "brief": "A new Police Community Support Officer has joined the neighbourhood policing team in Wisbech. Jamie Gray-Esson has begun his role following the completion of his training. Since starting, he has been involved in several arrests following foot chases and has assisted colleagues with various crime enquiries.\n\nOfficer Gray-Esson has also been conducting patrols across local towns and villages, where he has engaged with shop staff, stallholders, and homeless individuals. In Wisbech town centre, he has been issuing parking tickets, with activity focused on Hill Street, Union Street, High Street, and East Place. The local policing team is encouraging residents to say hello if they see him out on patrol.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/new-police-community-support-officer-straight-to-work-after-9486664/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/E5CVZ32L7WWYMLKLLY55.jpg",
-      "published": "2026-10-13T08:43:48+00:00",
-      "generated_at": "2026-10-13T21:58:53.080212+00:00",
-      "rss_date": "Tue, 13 Oct 2026 21:58:53 +0000"
     }
   ]
 }
