@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-18T19:42:40.524574+00:00",
+  "updated_at": "2026-10-19T01:47:32.790738+00:00",
   "stories": [
+    {
+      "id": "fenland-news-a7e9016882927cfe9c60a446",
+      "headline": "Potential housing for asylum seekers in Fenland",
+      "brief": "Reports suggest that Fenland could potentially accommodate up to 200 asylum seekers. The information, which originated from the BBC, is currently being discussed regarding the possibility of housing this number of people within the district. No further details have been confirmed at this stage regarding specific locations or timelines for such a proposal. We will continue to monitor the situation for any updates that may affect local residents.",
+      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xZXNxbjFuM0xRYzVSX2loVmpkWThQZGVvZHBPM0dNMXJDeHNTd2JnTVdUNUZ5NUhhUXp4TzFFcFZZNkphQktBTHRsYW9xekYwSWVPYVZzUEVSNzQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-13T05:16:02+00:00",
+      "generated_at": "2026-10-19T01:47:18.663790+00:00",
+      "rss_date": "Mon, 19 Oct 2026 01:47:18 +0000"
+    },
+    {
+      "id": "fenland-news-1b4185087c15643108638e5e",
+      "headline": "Peterborough United Women climb National League table",
+      "brief": "Peterborough United Women are enjoying a successful run of form. The team is currently moving up the National League standings, reaching a series of notable milestones during their recent campaign.",
+      "original_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNaU1QM180WDVCZWJxMklFRmhIQS1KdGFsTDktQmg4SUVIV192QUxGTEZSejdBclFPZ3Z4bzRmaV9XamlvZ2VWelJBOHhvS2xpSTRuTTZCMFlnczVQdWJsNEV3UkE0Z0MzVTR6djJudnFvc1U0SGlHWDdFVlAyek9KNHotVEpFWnRvWU1MMkNBblV1aWhFUEZOVW9FNDQyVDBxUUl6a0Zkb3dGM1RDRWxiSlB1VF9yOTJlNjJpY3dxcEVDa0hHekZnRm5PaTRIVHVnekIwUG9kV2J6U3JkX2dvdkZsNktyTlRESUIxd2kxbXZ1QnlJLUo2YkRUNmdtLUVnZmNNS3BNZHpXQQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-18T21:34:00+00:00",
+      "generated_at": "2026-10-19T01:47:15.384096+00:00",
+      "rss_date": "Mon, 19 Oct 2026 01:47:15 +0000"
+    },
+    {
+      "id": "fenland-news-dc8769744d9c9d9a941f193d",
+      "headline": "Plans revealed for major wind farm project in Shippea Hill",
+      "brief": "A new wind farm development has been proposed for Shippea Hill. The project is estimated to cost more than £100 million. Further details regarding the scale and timeline of the construction are expected to emerge as the planning process continues. Residents are advised to keep an eye on local planning portals for updates on how this significant infrastructure investment might impact the surrounding area.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05Y2tHZFFnZ0dQeU02WjgtQ3c2RFhHbXFvWXNYcXB6cDhwdU9iR1pCdnh2dGFTd1VYMnVFQ0g1X0Y2RzZhT0tXUnFjbldoMDNNdXlHSHhfRFJ3bVNXY2c?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-15T05:14:45+00:00",
+      "generated_at": "2026-10-19T01:47:14.496103+00:00",
+      "rss_date": "Mon, 19 Oct 2026 01:47:14 +0000"
+    },
+    {
+      "id": "fenland-news-7fcdc0782a60d2a53ffb86d1",
+      "headline": "Fifteen road closures announced across Cambridgeshire",
+      "brief": "Motorists travelling across Cambridgeshire are being advised of fifteen separate road closures taking place throughout this week. The disruptions, reported by Peterborough Matters, may affect travel plans for those commuting across the county. Drivers are encouraged to check their routes before setting off to avoid potential delays caused by these works. No specific locations or durations for the closures have been provided at this time, so residents are urged to remain alert for local signage and traffic updates while travelling in the area.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNmZSMEs2S0lZSy1wMkRteUdkWmF1eUZRbGw4TUE5dHYzQllxT0lfQVJla184R21qTlpEU0RFcUpzc0otMi13ekhRRW1fNC1mc3Y1RHpBUGhnRVp6S01SRWt3SlRhNDYwTU9iRnY5ZktCWTJMN0pBVTMwMGRPTTQ3RDVMcGY5QkxUV0NvVkthV3I2N2tMazh6Z2NYTFNNeGot?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-23T07:00:00+00:00",
+      "generated_at": "2026-10-19T01:47:12.854339+00:00",
+      "rss_date": "Mon, 19 Oct 2026 01:47:12 +0000"
+    },
     {
       "id": "fenland-news-957d1e68474e8b8070c94b23",
       "headline": "Peterborough Sports extend unbeaten streak to ten matches",
@@ -1056,50 +1100,6 @@
       "published": "2026-10-12T04:12:11+00:00",
       "generated_at": "2026-10-15T01:53:16.103541+00:00",
       "rss_date": "Thu, 15 Oct 2026 01:53:16 +0000"
-    },
-    {
-      "id": "fenland-news-dd633c09b04dcfe8d855ac2d",
-      "headline": "New youth hub to open in Wisbech",
-      "brief": "A new youth hub is opening in Wisbech to support young people aged 16 to 25 across Fenland. Based at the Annabelle Davis Centre on Love Lane, the facility aims to help those not currently in education, employment, or training. Run by the charity Centre 33 and backed by the Cambridgeshire and Peterborough Combined Authority, the hub will provide a single location for guidance on careers, skills, housing, and wellbeing. The project intends to reduce the number of young people struggling to access work by offering joined-up support. Outreach services will also be available to ensure those in rural communities can access help. Organisations interested in partnering with the hub are invited to make contact.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/new-youth-hub-to-tackle-unemployment-and-provide-vital-suppo-9486592/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/7CKKGX1EWPIL8HOEI281.jpg",
-      "published": "2026-10-13T05:00:00+00:00",
-      "generated_at": "2026-10-15T01:53:01.881137+00:00",
-      "rss_date": "Thu, 15 Oct 2026 01:53:01 +0000"
-    },
-    {
-      "id": "fenland-news-27062fdd736f9ebd3c891bc9",
-      "headline": "Queen Elizabeth Hospital staff honoured as local concerns grow",
-      "brief": "Staff at the Queen Elizabeth Hospital in King’s Lynn have been recognised for their work at a recent awards ceremony held at the Lynn Corn Exchange. The event celebrated the efforts of nominated employees across a variety of categories.\n\nMeanwhile, residents are expressing concern regarding the future of services at the hospital, including the potential downgrading of the A&E department. Public debate also continues over housing expansion in the region, with specific criticism directed at the 340-home Willows development in Downham Market. Residents have raised fears that local infrastructure, including medical surgeries, is currently unable to support the growing population.",
-      "original_url": "https://www.lynnnews.co.uk/news/your-views-on-awards-and-downgrading-at-hospital-and-overde-9486763/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/VDKGHFHOT3NQYZVX12UA.jpg",
-      "published": "2026-10-14T05:00:00+00:00",
-      "generated_at": "2026-10-15T01:52:44.206872+00:00",
-      "rss_date": "Thu, 15 Oct 2026 01:52:44 +0000"
-    },
-    {
-      "id": "fenland-news-f62ac4562c9bcc2fd232c5da",
-      "headline": "Union warns of potential food shortages following Princes factory strike",
-      "brief": "The Unite union has warned that industrial action at the Princes factory could result in food shortages. The dispute involves staff at the site, with union representatives highlighting the potential impact on supply chains. No further details regarding the specific timeline of the strike or the affected product lines have been confirmed at this stage. Residents across the Fens are advised to monitor the situation for any updates regarding local availability of goods.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuZVlmYTNkOWNXSFA0VjdiMFgzTHdyNmN0X1I3cTFtMEcwUXJ3MDNlcmI5M21TVTVxMm5lRzZ6RFg1LXhTVEZSWE45SnZrVjM5aXM4TnNkTmlKTWZI?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-01-02T08:00:00+00:00",
-      "generated_at": "2026-10-14T20:59:19.167518+00:00",
-      "rss_date": "Wed, 14 Oct 2026 20:59:19 +0000"
-    },
-    {
-      "id": "fenland-news-739b7e67d11f671a7e383cc6",
-      "headline": "Whittlesey man sentenced for assault and coercive control",
-      "brief": "A man from Whittlesey has been sent to prison following a court case involving his former partner. He was convicted of charges relating to coercive control and strangulation. The case was reported by Cambsnews.",
-      "original_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON3BzaWpDd0NaVGRkWXA3YlA2WDRDNmY0MDJ2THFIQXQ0M1hTTzd4TkRveHVGQ2JNNGlIM1ZFZ0hpblMzQks2Z21Ha3pxalBmbjJ4d0lUYnNtMVFuUTg4Z1QtSDBtU0VtbE13bjBRM0tGUG1EZlRNUEpDdXVLTUVRSGt0VmpZZ0JLUTNNQUNuc01ycEdadnVia1BvbmdOUHRkRVc5NmI4TTlzVS1GTXpTZ1BXRTk?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-14T09:25:00+00:00",
-      "generated_at": "2026-10-14T20:59:17.566462+00:00",
-      "rss_date": "Wed, 14 Oct 2026 20:59:17 +0000"
     }
   ]
 }
