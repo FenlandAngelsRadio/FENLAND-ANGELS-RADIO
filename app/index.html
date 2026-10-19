@@ -12,6 +12,7 @@
 <link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="stylesheet" href="./style.css?v=11">
 <link rel="stylesheet" href="../live-player.css?v=1">
+<link rel="stylesheet" href="../unified-player.css?v=1">
 </head>
 <body>
 <main class="app">
@@ -23,32 +24,18 @@
     </div>
   </header>
 
-  <section class="player">
-    <div class="status"><i></i> ON AIR</div>
-    <img class="player-artwork" src="./fenland-angels-radio-logo.jpg" alt="">
-    <h1>Fenland Angels Radio</h1>
-    <p>Independent Music Radio Community</p>
-
-    <button id="play" class="play" type="button" aria-label="Play live radio">▶</button>
-
-    <div class="state">
-      <span id="state" role="status" aria-live="polite">Tap play to listen live</span>
-      <b>320 kbps</b>
-    </div>
-
-    <div class="volume">
-      <span>🔊</span>
-      <input id="volume" aria-label="Volume" type="range" min="0" max="1" step="0.01" value="0.8">
-    </div>
-
-    <div class="listener-hours">HOURS LISTENED TO FAR <strong id="farLifetimeHours">300.6</strong></div>
-
-    <div class="now">
-      <small>NOW PLAYING</small>
-      <strong>Fenland Angels Radio</strong>
-      <span>Live from The Fens</span>
-    </div>
-  </section>
+  <section class="far-unified-player" aria-label="Fenland Angels Radio live player">
+  <div class="far-unified-art"><img id="currentShowImage" src="../fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio programme artwork"></div>
+  <div class="far-unified-controls">
+    <div class="far-unified-heading"><img class="far-unified-mark" src="../fenland-angels-radio-logo.jpg" alt=""><span>FENLAND ANGELS RADIO</span><span class="far-unified-live">LIVE</span></div>
+    <h1>The Sound of the Fens</h1>
+    <p class="far-unified-tagline">Independent music. Local voices. Your station.</p>
+    <div class="far-unified-listen"><button id="play" class="play" type="button" aria-label="Play Fenland Angels Radio" aria-pressed="false">▶</button><div><div id="state" role="status" aria-live="polite">Tap play to listen live</div><span class="far-unified-quality">Live radio · 320 kbps</span></div></div>
+    <a class="far-unified-show" href="../schedule.html"><span class="far-unified-show-label">ON AIR NOW</span><strong id="currentShowName">Fenland Angels Radio</strong><span id="currentShowTime">View the programme schedule</span><span class="far-unified-schedule">Full schedule ↗</span></a>
+    <label class="far-unified-volume" for="volume"><span>Volume</span><input id="volume" type="range" min="0" max="1" step="0.01" value="0.8"></label>
+  </div>
+  
+</section>
 
   <a class="website" href="https://fenlandangelsradio.co.uk/" target="_blank" rel="noopener">Visit full website</a>
   <button id="installApp" class="website" type="button">📱 Install App</button>
@@ -61,10 +48,10 @@
 <script src="../events-config.js?v=11"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="../far-analytics.js?v=13"></script>
-<script>
-(function(){async function updateFarLifetime(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const r=await fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{cache:"no-store",headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY}});if(!r.ok)return;const j=await r.json();const el=document.getElementById("farLifetimeHours");if(el&&Number.isFinite(Number(j.lifetime_hours)))el.textContent=Number(j.lifetime_hours).toLocaleString("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarLifetime();setInterval(updateFarLifetime,30000)})();
-</script>
-<script src="./app.js?v=15"></script>
+
+<script src="../far-cms.js?v=1"></script>
+<script src="../unified-player.js?v=1" defer></script>
+<script src="./app.js?v=16"></script>
 <script src="../player-audio.js?v=1"></script>
 </body>
 </html>

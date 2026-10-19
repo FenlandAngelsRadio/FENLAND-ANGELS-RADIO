@@ -242,6 +242,7 @@
 </style>
 
 <link rel="stylesheet" href="live-player.css?v=1">
+<link rel="stylesheet" href="unified-player.css?v=1">
 </head>
 
 
@@ -256,119 +257,18 @@
   <main class="home-main">
 <div class="home-hero-wrap">
 
-  <section class="far-now-playing">
-
-    <!-- CURRENTLY ON AIR -->
-
-    <div class="far-current-show">
-
-      <div class="far-current-label">
-        CURRENTLY ON AIR
-      </div>
-
-      <h2 id="currentShowName">
-        Fenland Angels Radio
-      </h2>
-
-      <div class="far-show-image-wrap">
-        <img
-          id="currentShowImage"
-          src="fenland-angels-radio-logo.jpg"
-          alt="Current programme"
-        >
-      </div>
-
-      <div
-        class="far-show-time"
-        id="currentShowTime"
-      >
-        Live across the Fens
-      </div>
-
-      <a
-        class="far-schedule-link"
-        href="schedule.html"
-      >
-        View full schedule →
-      </a>
-
-    </div>
-
-
-    <!-- LIVE PLAYER -->
-
-    <div class="far-live-player">
-
-      <span class="far-on-air">
-        LIVE
-      </span>
-
-      <img
-        class="far-player-logo"
-        src="fenland-angels-radio-logo.jpg"
-        alt="Fenland Angels Radio"
-      >
-
-      <h2>
-        Fenland Angels Radio
-      </h2>
-
-      <p class="far-player-tagline">
-        <span data-cms="station_tagline">The Sound of the Fens</span>
-      </p>
-
-      <button
-        class="far-big-play"
-        id="mainPlay"
-        type="button"
-        aria-label="Play Fenland Angels Radio"
-      >
-        ▶
-      </button>
-
-      <div
-        class="far-player-status"
-        id="playerStatus" role="status" aria-live="polite"
-      >
-        Tap play to listen live
-      </div>
-
-      <div class="far-listener-hours">HOURS LISTENED TO FAR · <b id="farLifetimeHours">300.6</b></div>
-
-      <div class="far-player-quality">
-        Fenland Angels Radio · 320 kbps
-      </div>
-
-      <input
-        id="volume"
-        class="far-player-volume"
-        type="range"
-        min="0"
-        max="1"
-        step="0.01"
-        value="0.9"
-        aria-label="Volume"
-      >
-
-      <div class="far-volume-row">
-        <span>🔈</span>
-        <span>Volume</span>
-        <span>🔊</span>
-      </div>
-
-      <audio
-        id="radioStream"
-        preload="none"
-      >
-        <source
-          src="https://hq3.yesstreaming.net/fenlandangelsradio/stream"
-          type="audio/mpeg"
-        >
-      </audio>
-
-    </div>
-
-  </section>
+  <section class="far-unified-player" aria-label="Fenland Angels Radio live player">
+  <div class="far-unified-art"><img id="currentShowImage" src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio programme artwork"></div>
+  <div class="far-unified-controls">
+    <div class="far-unified-heading"><img class="far-unified-mark" src="fenland-angels-radio-logo.jpg" alt=""><span>FENLAND ANGELS RADIO</span><span class="far-unified-live">LIVE</span></div>
+    <h2>The Sound of the Fens</h2>
+    <p class="far-unified-tagline">Independent music. Local voices. Your station.</p>
+    <div class="far-unified-listen"><button id="mainPlay" class="far-big-play" type="button" aria-label="Play Fenland Angels Radio" aria-pressed="false">▶</button><div><div id="playerStatus" role="status" aria-live="polite">Tap play to listen live</div><span class="far-unified-quality">Live radio · 320 kbps</span></div></div>
+    <a class="far-unified-show" href="schedule.html"><span class="far-unified-show-label">ON AIR NOW</span><strong id="currentShowName">Fenland Angels Radio</strong><span id="currentShowTime">View the programme schedule</span><span class="far-unified-schedule">Full schedule ↗</span></a>
+    <label class="far-unified-volume" for="volume"><span>Volume</span><input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"></label>
+  </div>
+  <audio id="radioStream" preload="none"><source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg"></audio>
+</section>
 
 </div>
 
@@ -839,18 +739,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="events-config.js"></script>
 <script src="far-cms.js?v=1"></script>
-<script>
-async function updateFAROnAir(){
-  try{
-    const rows=await FARCMS.schedule(),show=FARCMS.current(rows); if(!show)return;
-    const title=document.getElementById("currentShowName"),image=document.getElementById("currentShowImage"),time=document.getElementById("currentShowTime");
-    if(title)title.textContent=show.show_name;
-    if(image){image.src=show.image||"fenland-angels-radio-logo.jpg";image.alt=show.show_name}
-    if(time)time.textContent=show.start_time.slice(0,5)+" – "+show.end_time.slice(0,5);
-  }catch(e){console.error("FAR schedule",e)}
-}
-updateFAROnAir();setInterval(updateFAROnAir,60000);
-</script>
+<script src="unified-player.js?v=1" defer></script>
   <script>
 function farEscape(value = '') {
   return String(value).replace(
@@ -1007,9 +896,7 @@ const stories =
 </script>
   <script src="events-config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script>
-  (function(){async function updateFarLifetime(){try{const cfg=window.FAR_EVENTS_CONFIG||{};if(!cfg.SUPABASE_URL||!cfg.SUPABASE_ANON_KEY)return;const r=await fetch(cfg.SUPABASE_URL+"/functions/v1/far-audience",{cache:"no-store",headers:{apikey:cfg.SUPABASE_ANON_KEY,Authorization:"Bearer "+cfg.SUPABASE_ANON_KEY}});if(!r.ok)return;const j=await r.json();const el=document.getElementById("farLifetimeHours");if(el&&Number.isFinite(Number(j.lifetime_hours)))el.textContent=Number(j.lifetime_hours).toLocaleString("en-GB",{minimumFractionDigits:1,maximumFractionDigits:1})}catch(e){}}updateFarLifetime();setInterval(updateFarLifetime,30000)})();
-  </script>
+  
   <script src="far-analytics.js?v=13"></script>
   <script src="app.js?v=15"></script>
   <script src="player-audio.js?v=1"></script>
