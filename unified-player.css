@@ -1,34 +1,31 @@
-/* Unified FAR homepage and installed web-app player. */
-.far-unified-player{display:grid;grid-template-columns:minmax(220px,.85fr) minmax(0,1.3fr);gap:clamp(28px,5vw,76px);align-items:center;padding:clamp(26px,4vw,54px);border:1px solid #675123;border-radius:26px;background:radial-gradient(ellipse at 0 0,#38281155,transparent 65%),#101116;box-shadow:0 24px 70px #0006;color:#fff;text-align:left;overflow:hidden}
-.far-unified-art{min-width:0;position:relative}
-.far-unified-art img{display:block;width:100%;aspect-ratio:1;max-width:360px;margin:auto;object-fit:cover;border-radius:18px;box-shadow:0 16px 45px #0008;border:1px solid #ffffff19}
-.far-unified-controls{min-width:0}
-.far-unified-heading{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:1.5px;font-weight:800;color:#e5c06a}
-.far-unified-mark{width:34px;height:34px;object-fit:contain;border-radius:8px}
-.far-unified-live{margin-left:auto;flex-shrink:0;padding:6px 9px;border-radius:6px;background:#d81326;color:white;font-size:10px;letter-spacing:1px}
-.far-unified-player h1,.far-unified-player h2{font-size:clamp(27px,3.3vw,43px);line-height:1.12;margin:20px 0 10px;color:#fff}
-.far-unified-tagline{color:#b7bac2;font-size:14px;line-height:1.6;margin:0}
-.far-unified-listen{display:flex;align-items:center;gap:20px;margin:28px 0}
-.far-unified-listen button{display:grid;place-items:center;flex-shrink:0;width:76px;height:76px;padding:0;border:1px solid #ff5260;border-radius:50%;background:#e41b2c;color:#fff;font-size:29px;cursor:pointer;box-shadow:0 8px 30px #e41b2c30}
-.far-unified-listen button:hover{background:#f32b3d}
-.far-unified-listen [role=status]{font-size:15px;line-height:1.5;font-weight:700}
-.far-unified-quality{display:block;margin-top:5px;color:#a4a8b2;font-size:12px}
-.far-unified-show{display:grid;grid-template-columns:1fr auto;gap:5px 14px;align-items:center;padding:17px 19px;border:1px solid #715724;border-radius:13px;background:#d8aa3c09;color:#fff;text-decoration:none}
-.far-unified-show-label{grid-column:1/-1;color:#e5c06a;font-size:10px;letter-spacing:1.7px;font-weight:800}
-.far-unified-show strong{font-size:19px;overflow-wrap:anywhere;line-height:1.35}
-#currentShowTime{grid-column:1;color:#c8cbd2;font-size:13px;line-height:1.5}
-.far-unified-schedule{grid-column:2;grid-row:2/4;color:#e5c06a;font-size:12px;white-space:nowrap}
-.far-unified-show:hover{border-color:#edc368;background:#d8aa3c14}
-.far-unified-volume{display:flex;gap:18px;align-items:center;margin-top:22px;color:#bbc0ca;font-size:12px}
-.far-unified-volume input{min-width:0;width:100%;min-height:32px;accent-color:#e41b2c;cursor:pointer}
-.far-unified-player button:focus-visible,.far-unified-player a:focus-visible,.far-unified-player input:focus-visible{outline:3px solid #f3ce6f;outline-offset:5px}
+/* Programme left; station identity and listening controls right. */
+.far-unified-player{box-sizing:border-box;display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);width:100%;max-width:1080px;margin:auto;overflow:hidden;border:1px solid #66522c;border-radius:18px;box-shadow:0 16px 40px #0005;color:#fff;text-align:center;background:#111318}
+.far-unified-programme{display:flex;flex-direction:column;align-items:center;padding:28px;background:#17191e;border-right:1px solid #ffffff12;min-width:0}
+.far-unified-show-label{font-size:11px;letter-spacing:1.5px;color:#d7bb79;font-weight:700}
+.far-unified-programme h2{font-size:25px;line-height:1.2;margin:12px 0 18px;color:#fff;overflow-wrap:anywhere}
+.far-unified-art{width:100%;max-width:260px;min-width:0;margin:auto}
+.far-unified-art img{display:block;width:100%;height:auto;max-height:250px;object-fit:contain;border-radius:9px}
+#currentShowTime{display:block;margin-top:16px;font-size:12px;color:#c6c8d0;line-height:1.4}
+.far-unified-schedule{display:inline-block;margin-top:7px;color:#dfc27e;font-size:12px;text-decoration:none}
+.far-unified-schedule:hover{text-decoration:underline}
+.far-unified-controls{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:30px 38px;min-width:0;background:radial-gradient(ellipse at 50% 5%,#3b2d1c 0,transparent 75%),#101216}
+.far-unified-mark{display:block;width:120px;height:120px;object-fit:contain;border-radius:10px}
+.far-unified-station{margin:18px 0 25px;font-size:25px;line-height:1.2;font-weight:750;color:#fff}
+.far-unified-volume{display:flex;align-items:center;gap:13px;width:100%;max-width:390px;color:#e8e0cf}
+.far-unified-volume input{min-width:0;width:100%;min-height:30px;accent-color:#d7b35f;cursor:pointer}
+.far-unified-volume output{min-width:36px;font-size:12px;font-variant-numeric:tabular-nums;text-align:right}
+.far-unified-volume button{flex-shrink:0;width:34px;height:34px;border:1px solid #76613a;border-radius:50%;background:transparent;color:#e9ce8e;font-size:22px;line-height:1;cursor:pointer}
+.far-unified-listen{position:relative;display:flex;align-items:center;justify-content:center;width:100%;margin:17px 0 12px}
+.far-unified-listen button{display:grid;place-items:center;width:76px;height:76px;border:1px solid #ff7a80;border-radius:50%;padding:0;background:#e51d30;color:#fff;font-size:30px;cursor:pointer;box-shadow:0 6px 20px #e51d3026}
+.far-unified-listen button:hover{background:#f02c3d}
+.far-unified-live{position:absolute;left:calc(50% + 62px);font-size:10px;letter-spacing:1px;color:#d7bb79;white-space:nowrap}
+.far-unified-live i{display:inline-block;width:6px;height:6px;background:#e51d30;border-radius:50%;margin-right:4px;vertical-align:1px}
+.far-unified-controls [role=status]{font-size:12px;color:#d1d3da;line-height:1.5;min-height:18px}
+.far-unified-quality{margin-top:6px;font-size:10px;color:#939aa7}
 .far-unified-player audio{display:none}
-.app .far-unified-player{grid-template-columns:minmax(0,1fr);gap:24px;padding:24px 20px}
-.app .far-unified-art img{max-width:270px}
-.app .far-unified-player h1{font-size:28px}
-.app .far-unified-heading{font-size:9px;letter-spacing:1px}
-.app .far-unified-mark{width:28px;height:28px}
-.app .far-unified-show{padding:15px}
-.app .far-unified-schedule{font-size:11px}
-@media(max-width:650px){.far-unified-player{grid-template-columns:minmax(0,1fr);gap:25px;padding:24px 20px;border-radius:20px}.far-unified-art img{max-width:270px}.far-unified-player h2{font-size:29px}.far-unified-heading{font-size:10px;letter-spacing:1px}.far-unified-schedule{font-size:11px}.far-unified-listen{margin:24px 0}}
-@media(max-width:360px){.far-unified-show{grid-template-columns:1fr}.far-unified-schedule{grid-column:1;grid-row:auto}.far-unified-heading{letter-spacing:.5px}}
+.far-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.far-unified-player button:focus-visible,.far-unified-player a:focus-visible,.far-unified-player input:focus-visible{outline:3px solid #f3ce6f;outline-offset:4px}
+@media(max-width:650px){.far-unified-player{grid-template-columns:1fr;border-radius:16px}.far-unified-programme{padding:20px;border-right:0;border-bottom:1px solid #ffffff12}.far-unified-programme h2{font-size:22px;margin:10px 0 14px}.far-unified-art{max-width:180px}.far-unified-art img{max-height:180px}#currentShowTime{margin-top:12px}.far-unified-controls{padding:22px}.far-unified-mark{width:66px;height:66px}.far-unified-station{font-size:21px;margin:12px 0 16px}.far-unified-listen{margin:14px 0 10px}.far-unified-listen button{width:66px;height:66px;font-size:27px}.far-unified-live{left:calc(50% + 53px)}}
+
+.app .far-unified-player{grid-template-columns:1fr}.app .far-unified-programme{padding:20px;border-right:0;border-bottom:1px solid #ffffff12}.app .far-unified-programme h2{font-size:22px;margin:10px 0 14px}.app .far-unified-art{max-width:180px}.app .far-unified-art img{max-height:180px}.app .far-unified-controls{padding:22px}.app .far-unified-mark{width:66px;height:66px}.app .far-unified-station{font-size:21px;margin:12px 0 16px}.app .far-unified-listen button{width:66px;height:66px;font-size:27px}.app .far-unified-live{left:calc(50% + 53px)}
+.app button.website{background:transparent;color:#fff;font:inherit;font-size:14px;cursor:pointer}

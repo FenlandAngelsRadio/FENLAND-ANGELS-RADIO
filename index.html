@@ -242,7 +242,7 @@
 </style>
 
 <link rel="stylesheet" href="live-player.css?v=1">
-<link rel="stylesheet" href="unified-player.css?v=1">
+<link rel="stylesheet" href="unified-player.css?v=2">
 </head>
 
 
@@ -258,14 +258,20 @@
 <div class="home-hero-wrap">
 
   <section class="far-unified-player" aria-label="Fenland Angels Radio live player">
-  <div class="far-unified-art"><img id="currentShowImage" src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio programme artwork"></div>
+  <div class="far-unified-programme">
+    <span class="far-unified-show-label">CURRENTLY ON AIR</span>
+    <h2 id="currentShowName">Fenland Angels Radio</h2>
+    <div class="far-unified-art"><img id="currentShowImage" src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio programme artwork"></div>
+    <span id="currentShowTime">View the programme schedule</span>
+    <a class="far-unified-schedule" href="schedule.html">Full schedule ↗</a>
+  </div>
   <div class="far-unified-controls">
-    <div class="far-unified-heading"><img class="far-unified-mark" src="fenland-angels-radio-logo.jpg" alt=""><span>FENLAND ANGELS RADIO</span><span class="far-unified-live">LIVE</span></div>
-    <h2>The Sound of the Fens</h2>
-    <p class="far-unified-tagline">Independent music. Local voices. Your station.</p>
-    <div class="far-unified-listen"><button id="mainPlay" class="far-big-play" type="button" aria-label="Play Fenland Angels Radio" aria-pressed="false">▶</button><div><div id="playerStatus" role="status" aria-live="polite">Tap play to listen live</div><span class="far-unified-quality">Live radio · 320 kbps</span></div></div>
-    <a class="far-unified-show" href="schedule.html"><span class="far-unified-show-label">ON AIR NOW</span><strong id="currentShowName">Fenland Angels Radio</strong><span id="currentShowTime">View the programme schedule</span><span class="far-unified-schedule">Full schedule ↗</span></a>
-    <label class="far-unified-volume" for="volume"><span>Volume</span><input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"></label>
+    <img class="far-unified-mark" src="fenland-angels-radio-logo.jpg" alt="Fenland Angels Radio logo">
+    <h2 class="far-unified-station">Fenland Angels Radio</h2>
+    <div class="far-unified-volume"><button id="playerMute" type="button" aria-label="Mute audio" aria-pressed="false">♪</button><label for="volume" class="far-visually-hidden">Volume</label><input id="volume" type="range" min="0" max="1" step="0.01" value="0.9"><output id="volumePercent" for="volume">90%</output></div>
+    <div class="far-unified-listen"><button id="mainPlay" type="button" aria-label="Play Fenland Angels Radio" aria-pressed="false">▶</button><span class="far-unified-live"><i aria-hidden="true"></i> LIVE</span></div>
+    <div id="playerStatus" role="status" aria-live="polite">Tap play to listen live</div>
+    <span class="far-unified-quality">Live stream · 320 kbps</span>
   </div>
   <audio id="radioStream" preload="none"><source src="https://hq3.yesstreaming.net/fenlandangelsradio/stream" type="audio/mpeg"></audio>
 </section>
@@ -739,7 +745,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="events-config.js"></script>
 <script src="far-cms.js?v=1"></script>
-<script src="unified-player.js?v=1" defer></script>
+<script src="unified-player.js?v=2" defer></script>
   <script>
 function farEscape(value = '') {
   return String(value).replace(
@@ -904,3 +910,4 @@ const stories =
 <script src="far-content.js?v=1"></script><script>(async()=>{try{const m=await FARContent.all();FARContent.apply(m);const e=document.getElementById('cmsContactEmail'),p=document.getElementById('cmsContactPhone');if(e)e.href='mailto:'+m.contact_email;if(p)p.href='tel:'+String(m.contact_phone||'').replace(/[^+\d]/g,'')}catch(e){console.error('FAR CMS',e)}})();</script></body>
 
 </html>
+

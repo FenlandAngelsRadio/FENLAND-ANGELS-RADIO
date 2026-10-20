@@ -1,13 +1,13 @@
-const CACHE='fenland-angels-phone-app-v16';
+const CACHE='fenland-angels-phone-app-v17';
 
 const ASSETS=[
   './index.html',
   './style.css?v=11',
   '../live-player.css?v=1',
-  '../unified-player.css?v=1',
-  '../unified-player.js?v=1',
+  '../unified-player.css?v=2',
+  '../unified-player.js?v=2',
   '../far-cms.js?v=1',
-  './app.js?v=16',
+  './app.js?v=17',
   '../player-audio.js?v=1',
   './manifest.webmanifest',
   './fenland-angels-radio-logo.jpg',
@@ -19,7 +19,8 @@ self.addEventListener('install',e=>{
   e.waitUntil(
     caches.open(CACHE).then(c=>c.addAll(ASSETS))
   );
-  self.skipWaiting();
+  // Updates wait for existing app windows to close; never force a live listener to reload.
+  if(!self.registration.active) self.skipWaiting();
 });
 
 self.addEventListener('activate',e=>{
@@ -62,3 +63,4 @@ self.addEventListener('fetch',e=>{
       )
   );
 });
+

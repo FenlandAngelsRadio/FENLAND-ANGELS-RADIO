@@ -2,12 +2,14 @@ const radio=document.getElementById('radio');
 const play=document.getElementById('play');
 const state=document.getElementById('state');
 const volume=document.getElementById('volume');
+let playbackRequested=false;
 
 // Keep the same perceived-volume curve as the website player.
 radio.volume=Number(volume.value) ** 2;
 
 play.addEventListener('click',async()=>{
   if(radio.paused){
+    playbackRequested=true;
     state.textContent='Connecting…';
     try{
       if(window.FARPlayerAudio) await window.FARPlayerAudio.prepare(radio);
@@ -15,9 +17,11 @@ play.addEventListener('click',async()=>{
       radio.load();
       await radio.play();
     }catch(e){
+      playbackRequested=false;
       state.textContent='Could not connect';
     }
   }else{
+    playbackRequested=false;
     radio.pause();
   }
 });
@@ -49,15 +53,21 @@ volume.addEventListener('input',()=>{
 });
 
 if('serviceWorker' in navigator){
-  let reloadingForWorker=false;
-  navigator.serviceWorker.addEventListener('controllerchange',()=>{
-    if(reloadingForWorker) return;
+  let reloadingForWorker=false, workerUpdatePending=false;
+  function applyWorkerUpdateWhenIdle(){
+    if(!workerUpdatePending||reloadingForWorker||playbackRequested||!radio.paused)return;
     reloadingForWorker=true;
     location.reload();
+  }
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    workerUpdatePending=true;
+    applyWorkerUpdateWhenIdle();
   });
+  // An update must not reload an active or connecting live player.
+  radio.addEventListener('pause',()=>queueMicrotask(applyWorkerUpdateWhenIdle));
   window.addEventListener('load',async()=>{
     try{
-      const reg=await navigator.serviceWorker.register('./service-worker.js?v=16',{updateViaCache:'none'});
+      const reg=await navigator.serviceWorker.register('./service-worker.js?v=17',{updateViaCache:'none'});
       await reg.update();
       setInterval(()=>reg.update().catch(()=>{}),60000);
     }catch(e){}
@@ -133,3 +143,4 @@ if (runningAsApp) {
   if (installHint)
     installHint.style.display='none';
 }
+
