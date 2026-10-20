@@ -1,6 +1,50 @@
 {
-  "updated_at": "2026-10-20T10:28:51.495109+00:00",
+  "updated_at": "2026-10-20T15:51:57.567361+00:00",
   "stories": [
+    {
+      "id": "fenland-news-b861372b19043bfaf1b0ae54",
+      "headline": "King’s Lynn students design new logo for local educational charity",
+      "brief": "Graphic design students from the College of West Anglia have been recognised for their work on a new logo challenge. Armanda Rakstys, Chloe Wilson, and Kian Moon were tasked with creating a visual identity for the West Norfolk and King’s Lynn Girls’ Schools Trust. The project required the Level 3 students to reflect the charity’s history and its commitment to supporting education for girls and young women in the region. \n\nThe trust, which was established in 1983, manages funds from the former West Norfolk and King’s Lynn High School for Girls. College staff and trust representatives praised the students for their research, professionalism, and creative approach to the brief.",
+      "original_url": "https://www.lynnnews.co.uk/news/creative-designs-for-charity-s-logo-challenge-9487717/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/52N2S5G7MRR1OFDXU0FY.jpg",
+      "published": "2026-10-20T10:45:34+00:00",
+      "generated_at": "2026-10-20T15:51:36.143152+00:00",
+      "rss_date": "Tue, 20 Oct 2026 15:51:36 +0000"
+    },
+    {
+      "id": "fenland-news-fefd00c174db68c2acd0a5ef",
+      "headline": "East Cambridgeshire District Council seeks devolution pilot",
+      "brief": "East Cambridgeshire District Council is challenging plans for Local Government Reorganisation. The authority has formally called for a devolution pilot to be introduced instead. The move comes as the council seeks to address proposed changes to local administrative structures. No further details regarding the timeline or the specific nature of the pilot scheme have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnBNbzBER3JUMGlGelVlZjk5X1Z5VXlLU2VCTUVqOG5GS0NQRUdTNjN6UmktZmJoLUlHYzBUOW9DZWItLWFLOHVpYTJMOXA2VmZkUVBCalROeUYyZEJybFhhRlUyd0NLSHZLdEJmM1RZWGxTWEVLdTBDZHJkZkwzS0dUZzFOWTlXSUpqT0kzYWZzeDVz?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-20T08:59:36+00:00",
+      "generated_at": "2026-10-20T15:51:32.452049+00:00",
+      "rss_date": "Tue, 20 Oct 2026 15:51:32 +0000"
+    },
+    {
+      "id": "fenland-news-6b26669c42053748a1f71886",
+      "headline": "Planning appeal granted for 152 new homes in Cambridgeshire",
+      "brief": "A housing development of 152 dwellings in Cambridgeshire has been given the go-ahead following a successful planning appeal. The project, which was previously stalled, will now proceed after the decision was overturned. Further details regarding the specific location of the site or the timeline for construction have not yet been released. Residents are advised to keep an eye on local planning portals for any upcoming updates regarding the development's progress.",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUnVqUlVZcUEzWkQ0ZlJmSzFDNUVTZDJjQl93QWozWVhld0FhLTJMX1VZcUVaTWlLR3R3YTB4czYyYzJCc2toZkdfUHZQUVdocXRjNzd1LVJzRFd6MENiTE9fWkhwalAyT0RYWl9EV1JqZkZiY1FqcmJtek1qYmFwZDR0RGxoRUU2eHc?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-01T07:00:00+00:00",
+      "generated_at": "2026-10-20T15:51:16.617166+00:00",
+      "rss_date": "Tue, 20 Oct 2026 15:51:16 +0000"
+    },
+    {
+      "id": "fenland-news-30d2f0c99047382f87e90a84",
+      "headline": "Wisbech teenager to be sentenced for park knife attack",
+      "brief": "An eighteen-year-old man from Wisbech is due to be sentenced next month following a knife attack in a local park. Densias Griaitis, of The Lawns, was found guilty at Peterborough Magistrates' Court last Tuesday. He was convicted of grievous bodily harm with intent and possession of an offensive weapon.\n\nThe charges follow an incident at Wisbech Park on August 20 last year, where a sixteen-year-old boy was wounded. Griaitis has been remanded on conditional bail and is scheduled to appear at Cambridge Crown Court for sentencing on November 17.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/18-year-old-to-be-sentenced-next-month-for-wounding-boy-duri-9487736/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/FFAVXFBQQVAV23NRKLNR.jpg",
+      "published": "2026-10-20T15:22:19+00:00",
+      "generated_at": "2026-10-20T15:51:08.863450+00:00",
+      "rss_date": "Tue, 20 Oct 2026 15:51:08 +0000"
+    },
     {
       "id": "fenland-news-22ead13e3474da5123f3bea6",
       "headline": "Wisbech councillors urge police to tackle traffic and anti-social behaviour",
@@ -1056,50 +1100,6 @@
       "published": "2026-10-06T16:04:47+00:00",
       "generated_at": "2026-10-16T01:42:19.675357+00:00",
       "rss_date": "Fri, 16 Oct 2026 01:42:19 +0000"
-    },
-    {
-      "id": "fenland-news-eedbacda3b42a3683f71cbc2",
-      "headline": "Man sentenced for murder in Cambridgeshire",
-      "brief": "A man has been sentenced for murder following an investigation by Cambridgeshire Constabulary. The force described the incident as a cold-blooded killing. No further details regarding the identity of the individual or the location of the sentencing have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSldpRWtodC1HSjU1ZXFwZl9iQVNJUE5sblFkTmxBOHNKTXA3b1V2c29EQzcxSFM3Wl9rV09VaGFVSW94ZXpPQWVicWhPVjdxWmx4U3NPaXFzUlJBdGxTRm9lSUVnU1ViZ2lMby1zRmJxU2VROUR6dUZQaUd1TFBOX3hBeUNCTnhuX0dWUzNEUjNTQlJ0ai1jQ1F6M1B0VGFDbkVtaA?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-07-09T07:00:00+00:00",
-      "generated_at": "2026-10-15T20:33:52.388360+00:00",
-      "rss_date": "Thu, 15 Oct 2026 20:33:52 +0000"
-    },
-    {
-      "id": "fenland-news-8593ecfb0f3d3291deaf8fe0",
-      "headline": "West Norfolk Council declines to detail swimming pool planning costs",
-      "brief": "West Norfolk Council has declined a request to provide a breakdown of the £845,609 spent on planning a new swimming pool at Lynnsport. The local authority stated that the information is commercially sensitive and that releasing details could prejudice future contract negotiations. \n\nThe proposed £23 million facility is intended to replace the existing St James Swimming Pool. Council leader Alistair Beales defended the expenditure, noting that planning in a flood zone involves uncertain ground conditions. While the council approved the planning budget last month, officials emphasised that the project remains in the development phase. Previous attempts to relocate the pool to Lynnsport were abandoned after feasibility studies suggested costs could exceed £45 million.",
-      "original_url": "https://www.lynnnews.co.uk/news/council-refuses-to-share-cost-breakdown-of-850k-spend-for-p-9487073/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/3DHNVVM8MDY1UUZZK0Z8.jpg",
-      "published": "2026-10-15T11:42:03+00:00",
-      "generated_at": "2026-10-15T20:33:48.545194+00:00",
-      "rss_date": "Thu, 15 Oct 2026 20:33:48 +0000"
-    },
-    {
-      "id": "fenland-news-64b434a8a9d9556df46741f8",
-      "headline": "Man charged following Cambridgeshire burglaries",
-      "brief": "Police have named a man who has been charged in connection with a series of burglaries across Cambridgeshire. The charges follow a recent spate of incidents reported throughout the county. Authorities confirmed the identity of the individual as part of their ongoing response to the offences. Further details regarding the case are expected to emerge as legal proceedings continue.",
-      "original_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHdmck01R3k1M0xFdkpiandTV1RjNUJFeVd6WkdrT0Y2ZTZyeEh3RlJHNEVMVEVnVmJYNWNRaHl5NGZCd3g3WldmUFgzWExOQU05eXNiSEVTRFNObmtEVUhSdVlHV2dydjRRZ3c0Y0hmcTdOWXJodWN4ckN1cHFXeHJTVmh4TlBBbldrc2laTk1qcmNtb1UwNw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-15T11:23:00+00:00",
-      "generated_at": "2026-10-15T20:33:41.308846+00:00",
-      "rss_date": "Thu, 15 Oct 2026 20:33:41 +0000"
-    },
-    {
-      "id": "fenland-news-5d7d16fae0ca2bf5e0dbdd95",
-      "headline": "Lincolnshire village identified as one of the country's most deprived areas",
-      "brief": "A village in Lincolnshire has been highlighted as one of the most deprived locations in the UK. According to a report from the Spalding South Holland News, the area is being described as a \"forgotten\" community. The findings place the village among the most disadvantaged regions across the country. No further details regarding the specific location or the criteria used for the assessment have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQm1ZeDdmYWxOb0RiQ29lWDNWd2xUaVNPX3FRRk1yQXNldjlUb0RYdEprZF9VY0RDbXlKRVpfSWZ6NXhoUVVDU0ZBcEN2N0xaQm1xM1E0QzBBUm0wYkR6eWtDZ0NGei0ybU1jMklVbldXdEtxRHk4QUxBQTBfX0x5NDhIcXFYVm9SM0pzZlhIellYalloRG5PcFB5UEM5X1NlRTl6VUpCWjJfRlBhOUR6TA?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-08-26T07:00:00+00:00",
-      "generated_at": "2026-10-15T20:33:38.540451+00:00",
-      "rss_date": "Thu, 15 Oct 2026 20:33:38 +0000"
     }
   ]
 }
