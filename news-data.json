@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-20T20:55:50.434239+00:00",
+  "updated_at": "2026-10-21T02:05:12.957819+00:00",
   "stories": [
+    {
+      "id": "fenland-news-ca8c9a82464728edcefac847",
+      "headline": "Three Lincolnshire men jailed following shooting incident",
+      "brief": "Three men from Lincolnshire have been sentenced to prison following a shooting at a residential property. The house was occupied by a mother and her young child at the time of the incident. The details of the sentencing were reported by the Peterborough Telegraph.",
+      "original_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRWM5MjB4NnlKNks4N1NrWkpGN2h2ektvZ0gzZTdpMzcwLWU1RVNma3pYNDNxT0p4R29CNE9kTGJUdkN5TVZJdUxOWXdaUHNfZVY5RVM4WUNTeWs3ZWxCT1EzSzROa0V6eUpjbGVaOTQxZzM1WXE0YXZYakhpX0VkT0piemJqUHl1WlVZWEJ1TV9MNHZWSG51NkZUaDVoY0ItWG1BY25OdWdyX3hNb3VfUkx1UEgzbGVtTVVULXJIQm81ckE4dDNUTGozVjJwTU1zSE4wSEdOa20?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2017-06-27T07:00:00+00:00",
+      "generated_at": "2026-10-21T02:05:03.141056+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:05:03 +0000"
+    },
+    {
+      "id": "fenland-news-ed7da9d8b68b7445aa68cda9",
+      "headline": "Twelve road closures planned across Cambridgeshire this week",
+      "brief": "Motorists travelling across Cambridgeshire are being advised of upcoming disruption on the county's road network. A total of twelve road closures are scheduled to take place throughout the week. Drivers are encouraged to check their routes before setting off to avoid potential delays caused by these works. Further details regarding the specific locations and timings of the affected roads can be found via local traffic reporting services.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNkhqSkRaYmMxbGVUblJYdVo4dWdZT1d1OWlHeXFSX2taVFNiZXQxOGZpcHQ1OE1yM3FxcHFtTVctakhNaDZXdHYtWHh4cDJKRllyTHBsclNGbU1BemZaNFIwVm5jdFdtOHJtS1lFMjNic0hpY1BEV1JCbHBWTE1SbWhlaEt0UlFiVG0zM3p3VQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-05-31T07:00:00+00:00",
+      "generated_at": "2026-10-21T02:04:53.758157+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:53 +0000"
+    },
+    {
+      "id": "fenland-news-df790ec4ff2b662cc8b7e2a7",
+      "headline": "King’s Lynn Rotary Club pledges support for therapy room project",
+      "brief": "The Rotary Club of King’s Lynn has promised to support a refurbishment project at the Mr Bee’s Family Centre. The pledge follows a presentation by Abbie Mulcairn from the charity Brave Futures, which provides specialist support to children and young people across Norfolk and Suffolk who have experienced sexual abuse.\n\nDuring the meeting, the charity highlighted that referrals at their King’s Lynn centre have more than doubled over the past six months. Rotary club members heard that the organisation is currently managing high demand while navigating challenges within the criminal justice system. The club president confirmed they will assist with the planned improvements to the centre’s therapy room.",
+      "original_url": "https://www.lynnnews.co.uk/news/club-pledges-support-for-therapy-room-revamp-project-9487637/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/1UGP0X4NG1QBZ5D5WP6H.jpg",
+      "published": "2026-10-20T05:00:00+00:00",
+      "generated_at": "2026-10-21T02:04:52.345696+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:52 +0000"
+    },
+    {
+      "id": "fenland-news-102af1128ec69a77362f0f48",
+      "headline": "Peterborough United defeated by Huddersfield Town",
+      "brief": "Peterborough United suffered a four-one defeat away to Huddersfield Town. The result was confirmed following the latest round of fixtures.",
+      "original_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nSkpGa2p6TVVwTUFMZ0pVbDRPeldZSXZSbVJibWl6Y0JfNDYwNTNzWE83REVaTjhvcDV2anJBZnRHbEF2VElNTnBrSkVDclBKZk9zck96aWZkeVc1eC1TMjNURQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-20T23:24:05+00:00",
+      "generated_at": "2026-10-21T02:04:36.263310+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:36 +0000"
+    },
+    {
+      "id": "fenland-news-dee91ac8bc00a4800727da7a",
+      "headline": "Plans submitted for 34 new park homes in East Cambridgeshire",
+      "brief": "A planning proposal has been put forward for the construction of 34 bungalow-style residential park homes in an East Cambridgeshire town. The development would see the new properties built to provide additional housing in the area. No further details regarding the specific location or the timeline for the project have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRGIxTTdPZFpMbk9LMEdRTnA0ZzFORGV6UlpPZzJfYnFtN2RVUVBadE01dEU1aFYzd29jdW9VNnFJU29ENXZQb0JYTGMxMHVnaVBMZmZoM1BZY3NCRjAzNk9Ud1JSaDBqZHZSOGYwMENfbTI4a0ZfQVR2SWJRY20taDh4NHFna1BfY2Nsem1iVEJnclM1Vnc?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-20T09:51:00+00:00",
+      "generated_at": "2026-10-21T02:04:27.492028+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:27 +0000"
+    },
+    {
+      "id": "fenland-news-f4cc6d4925e3db702510e63c",
+      "headline": "New career for former roofer at HMP Whitemoor",
+      "brief": "A former roofer has begun a new career at HMP Whitemoor. The individual, who previously worked in the roofing trade, has now taken up a position at the prison facility. No further details regarding the nature of the role or the start date have been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONlNyb0hfUGZZakg3allCRHMydVRkN2NiUEg2bWhVRnhOTFVJQi1nZUtUX2prbUhmNDdtWi1BNE13NjN0ZnMxV1hObW51eEliaGNvNnE1bE9kbk1jb0xUSjRWSEluY0FqZnBudkJNbWlfNDJtdTJLNlAwYWo1dFV1elhSMVBFcndjSHNXdnRpTHdkUQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-05T07:00:00+00:00",
+      "generated_at": "2026-10-21T02:04:24.810840+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:24 +0000"
+    },
+    {
+      "id": "fenland-news-f12140cc2352f0434f822118",
+      "headline": "University Centre West Anglia students celebrate graduation in King’s Lynn",
+      "brief": "Fifty-nine students from the University Centre West Anglia marked the completion of their degrees during a ceremony at Lynn Minster on Saturday, October 10. The graduates, who studied subjects ranging from Computer Science to Primary Education, took part in a traditional academic procession through the town centre following the formal proceedings. \n\nDuring the event, Emma Claridge received the Outstanding Student Award for her work in Primary Education. University officials highlighted the importance of providing local higher education opportunities to support the skills needs of employers across the region. The celebrations concluded with a gathering at the Lynn campus for graduates, their families, and staff.",
+      "original_url": "https://www.lynnnews.co.uk/news/we-did-it-celebrations-as-university-students-graduate-in-9487688/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/6VU3IAGX5O5Z11TMK8TZ.jpg",
+      "published": "2026-10-20T09:13:38+00:00",
+      "generated_at": "2026-10-21T02:04:13.586751+00:00",
+      "rss_date": "Wed, 21 Oct 2026 02:04:13 +0000"
+    },
     {
       "id": "fenland-news-5546e6cdb215f0cf2fce1c68",
       "headline": "Residents report sewage smell in Cambridgeshire market town",
@@ -1023,83 +1100,6 @@
       "published": "2025-03-31T07:00:00+00:00",
       "generated_at": "2026-10-16T20:07:03.517155+00:00",
       "rss_date": "Fri, 16 Oct 2026 20:07:03 +0000"
-    },
-    {
-      "id": "fenland-news-4f5c19ad1b60b8087238c121",
-      "headline": "Former Wisbech Town FC president returns to watch match",
-      "brief": "A resident of Orchard House Care Home in Wisbech has enjoyed a special return to his former football club. John Petch, who served as president of Wisbech Town Football Club for 16 years, expressed a wish to see his hometown team play once again. Staff from the care home arranged for Mr Petch and his wife, Sheila, to attend Saturday’s match, which included lunch at Bygones. \n\nMr Petch, who stepped down from his role in 2020 after nearly 60 years of service, was greeted by many familiar faces, including club chairman Paul Brenchley. He described the experience as a fantastic day, made even better by a victory for the home side.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/care-home-resident-and-former-football-club-president-s-wish-9487341/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/966WHEY5UB0ZV6LM6YJX.jpg",
-      "published": "2026-10-16T13:49:13+00:00",
-      "generated_at": "2026-10-16T20:06:35.850203+00:00",
-      "rss_date": "Fri, 16 Oct 2026 20:06:35 +0000"
-    },
-    {
-      "id": "fenland-news-4c08d95610f6bf7dd17a5449",
-      "headline": "New NHS guidance changes ward access for Norfolk hospitals",
-      "brief": "Norfolk hospitals, including the Queen Elizabeth Hospital in King’s Lynn, are updating their policies following new guidance from NHS England. The rules require that single-sex hospital services, such as wards, toilets, and bathrooms, be provided based on a patient's biological sex rather than gender identity. \n\nThe Norfolk and Waveney University Hospitals Group says it is reviewing the implications of the guidance to ensure compliance. The new policy, which also applies to mental health facilities and GP surgeries, includes exceptions for areas like A&E and critical care. Where biological sex placement is not clinically appropriate, hospitals are instructed to provide alternatives, such as single rooms. Trusts have been asked to implement these changes at pace.",
-      "original_url": "https://www.lynnnews.co.uk/news/hospital-to-stop-allowing-trans-women-onto-female-wards-foll-9487339/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/RAJ4CU158RM75BTB3K4A.jpg",
-      "published": "2026-10-16T13:48:26+00:00",
-      "generated_at": "2026-10-16T20:06:33.273744+00:00",
-      "rss_date": "Fri, 16 Oct 2026 20:06:33 +0000"
-    },
-    {
-      "id": "fenland-news-71ba709580be055f03c0e18b",
-      "headline": "Long Sutton pedestrian crossing to be refurbished",
-      "brief": "Lincolnshire County Council has announced plans to refurbish the pedestrian crossing on High Street in Long Sutton. The local authority confirmed the upcoming works as part of its ongoing maintenance programme for the area. Residents and motorists travelling through the town centre are advised to prepare for potential changes to the road layout while the improvements are carried out. Further details regarding the specific start date and any traffic management measures will be provided by the council in due course.",
-      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1RhMUx2V3VyMmVNR2VsNnFsX0hmQkdQN1QtTWl6cE5pdWZIXzdnTk5QbWtwdG1xdUlULVl2QzZIX1c4alRtb1hUNWJRXzhYRW5xRDNpT200NHhoMUtmZ1dtOENpaGVJclZZSnRRMy1RY2Q2LU96cjNWRmJ1WG00NThnNTFfRW1waDhKUkZBV0F4bnlGZnNlSV84SnFVYndDc1hmTTN2NTdPQkVaUHc2Y0lweUJldw?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2022-04-29T07:00:00+00:00",
-      "generated_at": "2026-10-16T10:09:14.253031+00:00",
-      "rss_date": "Fri, 16 Oct 2026 10:09:14 +0000"
-    },
-    {
-      "id": "fenland-news-b6a1b30b58668e8cc2adefc2",
-      "headline": "Campaigners oppose school leisure centre closure",
-      "brief": "Local campaigners are challenging a decision to close a school leisure centre. The move has been described as a difficult start to the new year for those who use the facility. The Spalding South Holland News reports that the school’s decision to shut the site has prompted a fight from those opposed to the closure. No further details regarding the timeline for the shutdown or the specific school involved have been confirmed at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmdUcWN5MFQ3TEc0eWdZYmhaNDkyZThrR2NvTEhIRTJSMS1ORXBEVVM1eW5jUk9mVjQtY1NGYkZwT00wZ1VwUHFLZlRfYWRvODNTR1hudjNwWmRMc25aaGVZUDdqd2NlOHNsYkxZbkhJVmlHVkh6TTZfS3NwWUZFMDZlUHNvWVJuUkp2bXAyWkcweklBUmlJWVZwT3o3S0d6bkhJRTRUWk85R09nMk1v?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-01-07T08:00:00+00:00",
-      "generated_at": "2026-10-16T10:08:31.642086+00:00",
-      "rss_date": "Fri, 16 Oct 2026 10:08:31 +0000"
-    },
-    {
-      "id": "fenland-news-bcfd703bee5ae1724d9f4d5a",
-      "headline": "Concerns raised over potential Queen Elizabeth Hospital service changes",
-      "brief": "Independent borough councillor Jo Rust has raised concerns regarding a strategic review of Norfolk’s three hospitals. A leaked report suggests potential plans to centralise Accident and Emergency services in Norwich and downgrade facilities at the Queen Elizabeth Hospital in King’s Lynn. \n\nSenior doctors have warned that such changes could lead to a workforce crisis and increased distress for patients. The hospital’s chief executive, Lesley Dwyer, has cited changing healthcare needs and birth rates as reasons for reviewing maternity, ICU, and A&E services. A protest is planned for this Saturday at 11.30am at the Tuesday Market Place in King’s Lynn. Residents are being encouraged to share their views by emailing Healthwatch Norfolk.",
-      "original_url": "https://www.lynnnews.co.uk/news/a-new-fight-on-our-hands-9486976/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/ZS64YJCTVO2JFY2BX913.jpg",
-      "published": "2026-10-16T05:00:00+00:00",
-      "generated_at": "2026-10-16T10:08:26.700035+00:00",
-      "rss_date": "Fri, 16 Oct 2026 10:08:26 +0000"
-    },
-    {
-      "id": "fenland-news-083d0b90d40563811c89875b",
-      "headline": "New indoor cycling studio to open in Cambridgeshire",
-      "brief": "A new indoor cycling studio is set to open in a Cambridgeshire town. The facility is being described as the first of its kind in the area. Further details regarding the exact location and opening date have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkFTdU11TU44d1dRZFg4UzRYa1BXQ3h5d2NPR3d5MTFQX2lWQnhHOU85SDRCbjRxRHVKYnJ4MDJoTklMRmJlMnZWTDVuNU5RWldPVTRRaVlKZlJjSVRtNkQ4UzQwMmYyYWdHSVNraXZmcHpraFp3aERfRmlBenBRMmtNM0lTYWRPU3ktSkd1TlJkdFRW?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-06-15T07:00:00+00:00",
-      "generated_at": "2026-10-16T01:42:44.682133+00:00",
-      "rss_date": "Fri, 16 Oct 2026 01:42:44 +0000"
-    },
-    {
-      "id": "fenland-news-27d21cb4fa6df0e41ff25518",
-      "headline": "Looking back at local news from the archives",
-      "brief": "We are looking back at local stories from the archives this week. In 1994, staff from the Methwold firm Howard Long International raised £2,600 for the Queen Elizabeth Hospital in King’s Lynn. The money, collected through a sponsored three-legged pub crawl, was used to furnish a quiet room near the accident and emergency department.\n\nMeanwhile, in 2001, protestors gathered outside RAF Feltwell for a peaceful vigil. Around 20 people took part in the demonstration, which was part of a global movement opposing the militarisation of space and the American National Missile Defence plans. The event also served as a response to the conflict in Afghanistan.",
-      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-runners-raise-thousands-for-hospital-in-1994-a-9486316/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/GF7F3XXDJJIYM6DQCA8L.jpg",
-      "published": "2026-10-15T05:00:00+00:00",
-      "generated_at": "2026-10-16T01:42:43.717216+00:00",
-      "rss_date": "Fri, 16 Oct 2026 01:42:43 +0000"
     }
   ]
 }
