@@ -6,7 +6,7 @@ function header(){const h=document.createElement("header");h.className="far-head
 <button class="far-menu-toggle" type="button" aria-expanded="false" aria-controls="farMainNavigation">Menu</button>
 <nav id="farMainNavigation" class="far-nav" aria-label="Main Navigation">
 <div class="far-dropdown"><button class="far-dropbtn">News &amp; Weather <span class="far-arrow">⌄</span></button><div class="far-menu"><div class="far-menu-inner"><span id="farCmsNavNews"><a href="news.html">News</a><a href="weather.html">Weather</a></span></div></div></div>
-<div class="far-dropdown"><button class="far-dropbtn">Community <span class="far-arrow">⌄</span></button><div class="far-menu"><div class="far-menu-inner"><span id="farCmsNavCommunity"><a href="events.html">Events</a><a href="podcasts.html">Podcasts</a></span></div></div></div>
+<div class="far-dropdown"><button class="far-dropbtn">Community <span class="far-arrow">⌄</span></button><div class="far-menu"><div class="far-menu-inner"><span id="farCmsNavCommunity"><a href="events.html">Events</a><a href="podcasts.html">Podcasts</a><a href="far-discovery.html">FAR Discovery</a></span></div></div></div>
 <div class="far-dropdown"><button class="far-dropbtn">On Air <span class="far-arrow">⌄</span></button><div class="far-menu"><div class="far-menu-inner"><span id="farCmsNavOnAir"><a href="other-ways-to-listen.html">Other Ways to Listen</a><a href="schedule.html">Schedule</a><a href="public-file.html">Public File</a><a href="team.html">Presenters &amp; Team</a></span></div></div></div>
 <span id="farCmsNavMain"><a href="vouchers.html">Vouchers</a></span></nav><button class="far-listen">🎧 Listen Live</button>`;h.querySelector(".far-listen").onclick=openPlayer;
 const toggle=h.querySelector('.far-menu-toggle'),nav=h.querySelector('.far-nav');
@@ -24,6 +24,7 @@ const cfg=window.FAR_EVENTS_CONFIG||{},db=supabase.createClient(cfg.SUPABASE_URL
 const {items,pages}=await FARNavigation.read(db), links=FARNavigation.resolve(items,pages);
 const targets={news:'farCmsNavNews',community:'farCmsNavCommunity',on_air:'farCmsNavOnAir',main:'farCmsNavMain'};
 Object.entries(targets).forEach(([menu,id])=>{const box=document.getElementById(id);if(!box)return;box.replaceChildren();links.filter(link=>link.location===menu).forEach(link=>{const a=document.createElement('a');a.href=FARNavigation.safeHref(link.href);a.textContent=link.label;box.appendChild(a)});const dropdown=box.closest('.far-dropdown');if(dropdown){dropdown.hidden=!box.children.length;dropdown.style.display=box.children.length?'':'none'}});
+const discoveryBox=document.getElementById('farCmsNavCommunity');if(discoveryBox&&!Array.from(discoveryBox.querySelectorAll('a')).some(a=>new URL(a.href,location.href).pathname.endsWith('/far-discovery.html'))){const a=document.createElement('a');a.href='far-discovery.html';a.textContent='FAR Discovery';discoveryBox.append(a);const d=discoveryBox.closest('.far-dropdown');if(d){d.hidden=false;d.style.display='';}}
 }catch(e){console.error("FAR CMS navigation",e)}}
 function init(){const o=document.querySelector("header"),n=header();o?o.replaceWith(n):document.body.prepend(n);footer();loadCmsPages()}
 document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()
@@ -40,3 +41,4 @@ window.addEventListener("scroll",()=>{const h=document.querySelector(".far-heade
   s.dataset.farAnalytics='1';
   document.head.appendChild(s);
 })();
+
