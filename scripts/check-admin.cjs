@@ -18,17 +18,26 @@ assert.equal(nav.safeHref('data:text/html,test'), null);
 assert.equal(nav.resolve([{id:2,enabled:true,href:'page.html?slug=appeal',location:'news'}], [page]).length, 1);
 assert.equal(nav.resolve([{id:2,enabled:true,href:'page.html?slug=missing',location:'news'}], []).length, 0);
 const dashboard = source('admin-dashboard.html');
-const permissionKeys = [...dashboard.matchAll(/class="admin-card" data-permission="([^"]+)"/g)].map(m => m[1]);
-assert.equal(new Set(permissionKeys).size, permissionKeys.length, 'Duplicate dashboard module');
-const cards = permissionKeys.map(permission => ({dataset:{permission},style:{},hidden:false}));
+const modules = [...dashboard.matchAll(/class="admin-card" data-permission="([^"]+)" href="([^"]+)"/g)].map(m => ({permission:m[1],href:m[2]}));
+assert.equal(modules.length, [...dashboard.matchAll(/class="admin-card" data-permission=/g)].length, 'Every permission-gated module must have a destination');
+assert.equal(new Set(modules.map(m=>m.href)).size, modules.length, 'Duplicate dashboard destination');
+// Multiple tools can intentionally share one existing permission. Discovery
+// reuses Website Pages access; it must not create or bypass an access grant.
+assert.deepEqual(modules.filter(m=>m.permission==='pages').map(m=>m.href), ['admin-discovery.html','admin-pages.html']);
+const cards = modules.map(({permission,href}) => ({dataset:{permission},href,style:{},hidden:false}));
 const managementCards = [{style:{},hidden:false}];
 const group = {querySelectorAll:()=>cards};
 const document = {querySelectorAll: selector => selector==='[data-permission]'?cards:selector==='[data-management-only]'?managementCards:[group]};
 const body=dashboard.match(/function applyAccess\(admin\)\{([\s\S]*?)\n  \}/)[1];
 const apply=vm.runInNewContext('(function(admin){'+body+'})',{document});
 apply({role:'staff',permissions:['pages','events']});
-assert.deepEqual(cards.filter(c=>!c.hidden).map(c=>c.dataset.permission),['events','pages']);
+assert.deepEqual(cards.filter(c=>!c.hidden).map(c=>c.href),['admin-events.html','admin-discovery.html','admin-pages.html']);
 assert.equal(managementCards[0].hidden,true);
+apply({role:'staff',permissions:['pages']});
+assert.deepEqual(cards.filter(c=>!c.hidden).map(c=>c.href),['admin-discovery.html','admin-pages.html']);
+apply({role:'staff',permissions:['events']});
+assert.equal(cards.filter(c=>c.dataset.permission==='pages').every(c=>c.hidden),true);
+apply({role:'staff',permissions:['not-a-module']});assert.equal(cards.every(c=>c.hidden),true);
 apply({role:'staff',permissions:[]});assert.equal(group.hidden,true);
 for(const role of ['owner','deputy_manager']){apply({role,permissions:[]});assert.equal(cards.every(c=>!c.hidden),true);assert.equal(managementCards[0].hidden,false);}
 let parsed=0;
