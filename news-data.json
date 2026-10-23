@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-23T10:34:29.311422+00:00",
+  "updated_at": "2026-10-23T15:58:41.707174+00:00",
   "stories": [
+    {
+      "id": "fenland-news-4eae041d5c783acc67877f90",
+      "headline": "Long Sutton dental practice sold",
+      "brief": "A dental practice in Long Sutton has been sold for the first time. The business transaction was facilitated by the specialist firm Christie and Co. No further details regarding the new ownership or potential changes to patient services have been released at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa2ptMUsyUzBiX0tCR0E2Z2taa3VWRlVKbmEwX1RnZnN6VTZ5RG1yZ1lqdTV2Wi0xcnBQMWVESmVRUzJJUGN4RVpkeXR2SXZHalRJd3htNlJ0cnZyN0VJemo5a21pM0VJa3ZjeVVVUWxicE1GWHI2QnpjVS1YSmNfdGhaOXh4ZmZ5TzFfNXZ6Y1J0VktvblVlZFBSNU5Fbk1MOXVF?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2025-03-30T07:00:00+00:00",
+      "generated_at": "2026-10-23T15:58:18.848210+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:58:18 +0000"
+    },
+    {
+      "id": "fenland-news-6a016ac76d0c2f7421662451",
+      "headline": "New arrival for Chatteris fire crew",
+      "brief": "Cambridgeshire Fire and Rescue Service has announced a new addition to the team based in Chatteris. The service confirmed that firefighters at the station have been joined by a new colleague. No further details regarding the nature of the arrival have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUJ2WXZfTVR5UF9ua25hb19YdFVGWVdxS3QzTVVic1doOThyNmdwLWtKQzhtSWZEQ2VUcW9OajFSZVJWWXItQmo2dzYtSjNHVkNLRDlFR1FCWGZOUng4SE5GVHU2T3o2amxVMUR0d1RzUnB2LVVBSXd0SWNhcXdXblBib3I3VmQtUFRheFBOQzViZGlJWFNWQjVJY2E5THRyY19J?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-06T07:00:00+00:00",
+      "generated_at": "2026-10-23T15:58:14.516886+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:58:14 +0000"
+    },
+    {
+      "id": "fenland-news-9ed4f041d8f99366468fa1c7",
+      "headline": "Halloween party planned for North Lynn Discovery Centre",
+      "brief": "Families are invited to a free Halloween event at the Discovery Centre in North Lynn on Thursday, October 29. The party runs from midday until 3pm and features a variety of seasonal activities, including a disco, arts and crafts, and a word hunt. Attendees can also take part in a best-dressed competition and enjoy face painting provided by Leah’s Little Faces. \n\nThe centre, which is managed by Freebridge Community Housing, is located on Columbia Way. Organisers are reminding visitors that parking at the venue is limited.",
+      "original_url": "https://www.lynnnews.co.uk/news/get-dressed-up-for-centre-s-spooktacular-party-9488361/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/WYGLSJVPPWLCNXTW8J8N.jpg",
+      "published": "2026-10-23T13:16:03+00:00",
+      "generated_at": "2026-10-23T15:57:57.365296+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:57:57 +0000"
+    },
+    {
+      "id": "fenland-news-cdb47b899588867771217dc0",
+      "headline": "Whittlesey pub to close its doors",
+      "brief": "A public house in Whittlesey is set to cease trading. According to reports from the Peterborough Fenland Edge News, the establishment has served its final customers. No further details regarding the reasons for the closure or the future of the premises have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORURtQl9Bczd6bWtoYzBiVTBWRGVxRmwxRHBxR1lOWFUwZnFaUEJqRy1qcHEyYkpnTEhlc2NkNXBWTEdVU0JrR3JxME1XWjVOSDg0UndhdDJXaThzOGFoSUxnRTRzQnU3WUdVTTI4OGUzaHJYcWNWaWFjUEQ4M1JUVmYyd1JyX0Q0RFl1SzJyQXBpLU41Si00N2UxY3hLckJK?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-23T12:38:00+00:00",
+      "generated_at": "2026-10-23T15:57:24.649053+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:57:24 +0000"
+    },
+    {
+      "id": "fenland-news-8b5f799b2a9d24203fe45ef9",
+      "headline": "Report identifies most affordable Cambridgeshire housing area",
+      "brief": "A new report from the Ely East Cambridgeshire News has highlighted the most affordable location for property buyers within the county. The publication identifies the specific area where house prices are currently at their lowest across Cambridgeshire. Residents looking to enter the local property market may wish to consult the full report for further details on these findings.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFNUUUtGd1dxYkRTaWlDM0xYaHdTY3c2MjREVl8xWjRaOGx0c0dkRnJVNm9DVHVDR2RUWFJVb3l0cDNVZ0JTclJDYkpTZ2dpRjBySTFwX0dza2xNaVY3US04TkNqM0tZSjM2cldObHRfVDM4WlgwUkZhLVVhTXJlNjJBNXpPS1hPclhIRE1RTETSAZYBQVVfeXFMTTJSRThHTm1ZSzU5ZlV2ZmZSaHU2Vmt3aTdPWmFBQVhBZ0U2dlYzSVMzYWUwV2YtYV8xeGFySjJ6TkttYkVlM05qZUJYNGhnamVOQjhkMHFZVEJwOGoyX0VIZ0JkaDVjZlFlR0YtWk1ocEJQYjk1Q3pqYmVHM0lrQ2NaZnFjQi1NM1NVcjBqZ01kZlBzTDBn?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-23T11:04:00+00:00",
+      "generated_at": "2026-10-23T15:57:11.567337+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:57:11 +0000"
+    },
+    {
+      "id": "fenland-news-a4b93dbf986c98246b6c5384",
+      "headline": "Investment announced for Hoddins Way Business Park",
+      "brief": "Lincolnshire County Council has confirmed new investment for the Hoddins Way Business Park. Officials have described the site as a thriving location for local commerce. The funding is intended to support the ongoing development of the business park, which serves as a key hub for the area. No further details regarding the specific nature of the improvements or the total value of the investment have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzg2RTlmTDd4U2o2YzNlaUt5Z05Hd1hWTHZIbjVxRW0wWE1rQWYwQ3Y0MFhUc28tRmYyMy1zRmtJVzVPQVd3OVo5T1gzWkhOY0hRMW9JZ21SaGhad29oRi1YaW1lbkEzYUtlbW1kMS1ha1FLdDRrY2ZLVHh6czlPakE3Y3BIU2JtSDR1WEVKNXlOT25pWGZnT0MxOXNMMlA5R0kteEd3WmY1SVZGWWlR?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-07-30T07:00:00+00:00",
+      "generated_at": "2026-10-23T15:57:06.242259+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:57:06 +0000"
+    },
+    {
+      "id": "fenland-news-c9d81b621fa1a89d66d262e2",
+      "headline": "Fire service confirms Fenland house fire was accidental",
+      "brief": "Cambridgeshire Fire and Rescue Service has confirmed that a recent house fire in a Fenland town was accidental. Officials have concluded their investigation into the incident, determining that the blaze was not started deliberately. No further details regarding the specific location or the extent of the damage have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3JFQ2ZnbHhrZWNRUWg0TlEtWndmbUNocEp0SEJubW1RUkN3aVBGWkVJSVg1XzV3SjBoWWJZNjRHMEd0dUUwdGUwVUNNaGlnYldxOHNXQlRBd1VoRWhsRzJVSDYwUlpBOGdhaVcxVXJJWVVGRkZvX1Y0WkpyQms1SjN4QnQ2NV9YdWZISHcwY180ZmtsSEVscDJR?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-23T12:42:00+00:00",
+      "generated_at": "2026-10-23T15:56:31.329845+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:56:31 +0000"
+    },
+    {
+      "id": "fenland-news-9a538a49081810559d012487",
+      "headline": "Plans submitted for 80-bed care home in King’s Lynn",
+      "brief": "A planning application has been submitted to West Norfolk Council for a new 80-bed care home in King’s Lynn. Proposed by Kori Developments Ltd, the facility would be located off the Queen Elizabeth Way roundabout, adjacent to Mintlyn Crematorium. The site would feature en-suite bedrooms, communal areas including a café and hair salon, and 32 parking spaces.\n\nDevelopers state the project aims to address a local shortage of elderly care provision and is expected to create 80 jobs, with up to 25 staff on-site at any time. If approved, the home will provide dementia, respite, and end-of-life care. A decision on the proposal is expected by January 22.",
+      "original_url": "https://www.lynnnews.co.uk/news/plans-launched-for-new-elderly-care-home-near-crematorium-9488424/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/3ONY8IEL8MI1DUONJM7R.jpg",
+      "published": "2026-10-23T15:48:37+00:00",
+      "generated_at": "2026-10-23T15:56:21.364825+00:00",
+      "rss_date": "Fri, 23 Oct 2026 15:56:21 +0000"
+    },
     {
       "id": "fenland-news-8ffb5f1af86d9c449aae6f60",
       "headline": "Firefighters extinguish forklift blaze in Wisbech",
@@ -1012,94 +1100,6 @@
       "published": "2026-10-18T04:30:00+00:00",
       "generated_at": "2026-10-18T09:55:30.573670+00:00",
       "rss_date": "Sun, 18 Oct 2026 09:55:30 +0000"
-    },
-    {
-      "id": "fenland-news-c794555ac0d60fbd4c6586b6",
-      "headline": "Long Sutton pensioner remanded in custody",
-      "brief": "A 74-year-old resident from Long Sutton has been remanded in custody. The decision was made following a court appearance at Lincoln Magistrates’ Court. No further details regarding the case have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNekpOd01lMlQwdnFycXMzY2doNldpQ3piZnRUQWQ0dlU5VzNxMUFKU2t0Ync0NmpnWDZfX1psOWZ5Z19CR2pTVTVpa0p0N21DOEg4WU82Uzc3alVnVzd2ZEFkMU9nel9QX1JScHZSbUpvaWlnaFo4ZjlBYmtBN1hnLTF6N1RDN3lMU0dUR1dR?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-08-07T07:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:29.106300+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:29 +0000"
-    },
-    {
-      "id": "fenland-news-9a1defdd3be215e4a0afe5b0",
-      "headline": "Potential plans for two new wind farms in Cambridgeshire",
-      "brief": "Proposals have emerged for the construction of two large-scale wind farms. The projects are earmarked for locations within Cambridgeshire and along the county border. Further details regarding the specific sites or the timeline for these developments have not yet been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN01yZFpvYlFnQmFiRU54UE9fNnZTX2lkTVhTQnJFTUkxN2hoVFV0NWZWS2tENU5Gc1dOcFU4bXdKLTRVR0JCUDdfckFUQXdLMFFOdFRTRkx0SWR2Z2lORW84bHM1bXBLeUtlN1NnOTFkNVUtek9fQ0thN09LNHR6NG1ta3pmYnQyeUJv0gGQAUFVX3lxTFBVeklTcXQxb2o3SktJeTFidEttMC1rMWdYcno4Tll2Nko2XzdWdGJfSThtWFVhWjlnWnRzWUFjd19UaFJMS0lRMzAxTUt2WTZLelFERlhFcjZQLVd5ZTJCSUpSZWt6Z1NuUXA4NU8yREVHVUtqU0twUGtvX1ZKNUlzeTBBUGhYQ2xmc3VqLTZ3Rg?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-16T15:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:27.818905+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:27 +0000"
-    },
-    {
-      "id": "fenland-news-1b06451f0e5cb114a5f2f9fd",
-      "headline": "Campaign launches to improve child visibility as clocks go back",
-      "brief": "A new safety initiative, Be Bright Be Seen, is offering thousands of free reflective keyrings to schools, youth groups, and sports clubs across the region. Sponsored by Ashwood Homes, the campaign aims to help children remain visible to motorists as the nights draw in. With the clocks changing this Sunday, October 25, organisers are encouraging the use of reflective gear and bright clothing for pedestrians and cyclists.\n\nTeachers and youth leaders can apply for an allocation of the keyrings online at the Fenland Citizen website. Applications close this Sunday. The campaign follows recent national data highlighting a rise in road traffic injuries, emphasising the importance of staying visible during the darker winter months.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/our-be-bright-be-seen-campaign-to-make-children-visible-on-d-9487091/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/NIN0AU6J1CMTODU7GLUN.jpg",
-      "published": "2026-10-18T05:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:23.160702+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:23 +0000"
-    },
-    {
-      "id": "fenland-news-63001f2f93f6fe8c2c02ce34",
-      "headline": "South Lynn man admits assault following domestic dispute",
-      "brief": "A 48-year-old man from South Lynn has pleaded guilty to common assault at Lynn Magistrates’ Court. Cornelius Doddy, of Wisbech Road, admitted to threatening his ex-partner with an ironing board during an argument on July 29. The court heard that the dispute began in a car and continued at their home, where the defendant was reportedly intoxicated. No injuries were sustained during the incident.\n\nIn mitigation, the court was told that tensions regarding a potential restaurant venture had contributed to the disagreement. Magistrates have ordered a pre-sentence report, and Mr Doddy has been released on conditional bail. He is due to return to court for sentencing on December 1.",
-      "original_url": "https://www.lynnnews.co.uk/news/restaurant-venture-tensions-led-to-man-threatening-to-throw-9487262/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/9I48LYRLTZYDN2KTL3UL.jpg",
-      "published": "2026-10-18T05:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:21.048180+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:21 +0000"
-    },
-    {
-      "id": "fenland-news-4c3c5821abc933be1c1808a1",
-      "headline": "Water supply disruption reported in Littleport",
-      "brief": "Residents in Littleport are currently experiencing a loss of water supply following a burst water main. According to reports from the Ely East Cambridgeshire News, the incident has left homes and businesses in the area without water. \n\nEngineers are working to address the issue, though a timeline for when supplies will be fully restored has not yet been confirmed. Those living in the affected area are advised to check local updates for further information as the situation develops.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaGVEb3pKcS1MNmRHSDNRdk5GcHpwRWY1XzJhcFBWa3VOZUJWT0p2RDFCTnF3ZHJWeTRMaXJVczZ2ZEh5THZiQTAyT0FNdTFLUVM3S2dmNDlLTkkwNi1FdTN3Q3lRYWZmV2w3S0t6d0hCd3lZN1dDRDY0OEVqUUxDQVpXc0R1TWZoamdiVVl5d3RvNTDSAZgBQVVfeXFMUDFTalFyMVg4M2p2Wk4xUlJqa0Q3b2t3Q0plRGppZXdmbXVocTFSVUJQWHNoQ1lkbkprdGlJODg2ZFQ3S2lNS0prOFRyZE5HdlJmbEk2eDBuR2M3NUhGTkZHZHlvWUdxNFl1cFc0UXZUa21hSmxRSmR3ZXhROGtTNjV2eWVNUDVOd3lUeXViNDNoR3FyVWp2NUw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-14T13:03:00+00:00",
-      "generated_at": "2026-10-18T01:34:43.551524+00:00",
-      "rss_date": "Sun, 18 Oct 2026 01:34:43 +0000"
-    },
-    {
-      "id": "fenland-news-86d44017199923f4bb1211c6",
-      "headline": "Long Sutton travel agents prepare for Santa",
-      "brief": "Staff at a travel agency in Long Sutton have been busy preparing for the festive season by packing a suitcase for Santa Claus. The local team organised the special display to mark the arrival of Christmas. Residents in the area can view the festive luggage at the branch as part of their seasonal preparations.",
-      "original_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFTk5FbUZUTVBlaFo5VXphZWFLYVNaMmlDaVFON0FwZWI1czdiMWNtUUZpN3VIbVMwalpvR3RxU1I2Q01xYThHNkM0eWtDNVNkc2x2ZzJlU0VvLU93elNUTmxrUjJsRlI1c3JKVmFHSmxRaDdOa1U4WXNMdw?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2019-12-18T08:00:00+00:00",
-      "generated_at": "2026-10-18T01:34:42.388933+00:00",
-      "rss_date": "Sun, 18 Oct 2026 01:34:42 +0000"
-    },
-    {
-      "id": "fenland-news-fb2f3fdfb9c98e9b7616151d",
-      "headline": "Seven-year-old boy dies following incident in Wimblington",
-      "brief": "A seven-year-old boy has died following reports of a child in the water at Wimblington. Emergency services were called to the scene to respond to the incident. No further details regarding the circumstances have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Nd24zYk9CSXRuck1Md2ZkajhVdnRMbnJtaEhJblZTTW1EMlQ2aHhtVGJpYlY3SVJFSWN5eGtQeGg4MFFpbklCRW1HekRpbERvOFpERzJBYkFrUQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-04-08T07:00:00+00:00",
-      "generated_at": "2026-10-18T01:34:41.120160+00:00",
-      "rss_date": "Sun, 18 Oct 2026 01:34:41 +0000"
-    },
-    {
-      "id": "fenland-news-90b7186635b7d6a61e5369c3",
-      "headline": "Rail disruption reported between Peterborough and Doncaster",
-      "brief": "Passengers travelling by rail this Sunday are being advised of disruption to LNER services. The issues are affecting the line running between Peterborough and Doncaster. Those planning to travel on this route are encouraged to check their journey details before setting off, as the service alterations may impact travel times across the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSTm9yY0Q0ZEt0cGdZUW9XWVRLVHE4SFRIQ0UzY0JGSFhpQldQY1otMkc5VG5iaF9WN0VXV25aNnFpMzh1MndLa05jbkN3VUFLWThQeGw5OTZoVW5rYmc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-17T05:33:03+00:00",
-      "generated_at": "2026-10-18T01:34:39.982699+00:00",
-      "rss_date": "Sun, 18 Oct 2026 01:34:39 +0000"
     }
   ]
 }
