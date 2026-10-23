@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-23T15:58:41.707174+00:00",
+  "updated_at": "2026-10-23T20:40:44.351238+00:00",
   "stories": [
+    {
+      "id": "fenland-news-38a9f897c227c88b182c9a52",
+      "headline": "Long Sutton firm denies environmental charges",
+      "brief": "A company is contesting environmental charges relating to two sites in Long Sutton. The business has entered formal denials regarding the allegations brought against it. No further details regarding the nature of the charges or the specific locations involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnhIN2FPOGYtdUgxSzlBSUNJWFNjSzF6ODF0eG5LSUFkWXc0cjFJUVNsaXNCNzZjY1I5aERfRzlhYnFFVDcwS0syRURmSkZhczBubDF2d25JRzJtUGlScERqbkpNRkNuM2pEdTVJT3VHekh5TUw1a0tQOXBGV1o0WVlySk9DNFdrQ0VYZHBLMWdaZklp?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2023-07-05T07:00:00+00:00",
+      "generated_at": "2026-10-23T20:40:32.206362+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:32 +0000"
+    },
+    {
+      "id": "fenland-news-1763fccf64d4a19c77770727",
+      "headline": "West Norfolk and Breckland schools feature in unofficial league table",
+      "brief": "A new unofficial league table published by The Telegraph has rated several schools across West Norfolk and Breckland as below average. The rankings, based on a 40-point system using 2025/26 academic data, placed Springwood High School in King’s Lynn as the area’s top performer with a rating of good. Downham Market Academy and Fakenham Academy were both rated as fair.\n\nHowever, local education trusts have questioned the findings. Representatives argued that the rankings fail to capture the full context of school improvement or the progress made by pupils. Marshland High School’s head teacher, Craig Jansen, criticised the methodology, suggesting it does not fairly account for the socioeconomic challenges faced by schools serving disadvantaged communities.",
+      "original_url": "https://www.lynnnews.co.uk/news/many-west-norfolk-and-breckland-schools-rated-below-average-9488106/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/WD7X0WE15PCSDTPKMP8K.jpg",
+      "published": "2026-10-22T13:11:44+00:00",
+      "generated_at": "2026-10-23T20:40:30.600008+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:30 +0000"
+    },
+    {
+      "id": "fenland-news-e8df698f5569624e6ff6b2a0",
+      "headline": "Artist Cici Wu featured in Frieze magazine",
+      "brief": "The artist Cici Wu is the subject of a recent feature in the publication Frieze. The article, titled \"Cici Wu’s Lanterns Flicker in the Mind’s Eye,\" explores the work of the artist. Further details regarding the exhibition or the specific nature of the pieces discussed can be found in the latest edition of the magazine.",
+      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZVmdPWWsxc1k4NGwxYTNmZ21PTnNRMktRek5ZWFhhbnczS3lZdUQzajZhSnFreE9QUDZzdFlwVVdFNTBFVzA3Yk1EUlhkeEhTZjI3TTFCOA?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-23T18:05:27+00:00",
+      "generated_at": "2026-10-23T20:40:28.429902+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:28 +0000"
+    },
+    {
+      "id": "fenland-news-4752f99bd8bfddb5b9a2242f",
+      "headline": "Police appeal following East Cambridgeshire shop thefts",
+      "brief": "Officers in East Cambridgeshire are currently searching for individuals wanted in connection with a series of shop thefts. Police are asking for the public's assistance as they investigate these incidents across the local area. Anyone with information regarding these matters is encouraged to contact the authorities.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZHBPVlhFUkRUbHVzQVVOZnBKMG1sQTFGUzU5TnRGTTBoM3R0dkg0NjlsS1hqYjFlV002MmE3SEZhOURFSWFWaGZsZEgxalFvMTJfaVdMRDR4X1dLVHJfaDFuRjlsZjNJOTQyRG12ejRMX2Rhb2RNWXJhZHFfRVhvb041WTVucHpDZzZadlJn?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-23T13:40:00+00:00",
+      "generated_at": "2026-10-23T20:40:27.555105+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:27 +0000"
+    },
+    {
+      "id": "fenland-news-c4af18679d31dd152b4512f1",
+      "headline": "Dispersal orders issued for Holbeach and Sutton Bridge",
+      "brief": "Lincolnshire Police have put two 48-hour dispersal orders in place for Holbeach and Sutton Bridge. These orders grant officers additional powers to move individuals out of the designated areas to prevent anti-social behaviour. Residents in these parts of the Fens should be aware that the measures are now active. Police have not provided further details regarding the specific incidents that led to the decision, but the orders remain in effect for the two-day period.",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRXBDTVkzSG5wZU1WWUhZY2lCVmdPbDNibHgzWVVDalhPSFJNM3BlZGJzbXFmOE43NVVHTDN6YjFVLWJ6ZE9OWUxpbDdsak9ZT005T2hfeldvLTJDNHhUMFE3SElRMzI4U19VSlUxNUhxQUN0U1laRV84WGpwWlBVWDFjczNHN3JoWXo1M3Y3ZWhDMWlLOUtzYlZnZXZQY1Q1SXlYQ3pPd09KMnVNckNFcnRnQzdtdUJpc08yRDJhSVVoQU5xTEE?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-10-23T14:35:00+00:00",
+      "generated_at": "2026-10-23T20:40:26.448924+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:26 +0000"
+    },
+    {
+      "id": "fenland-news-d944ee268234cff475368eab",
+      "headline": "Eight-week road closure near Chatteris",
+      "brief": "Drivers in the Fens are being advised of an upcoming road closure near Chatteris. A stretch of road in the area is set to be shut for eight weeks to allow for essential repair work to take place. Motorists are encouraged to plan their journeys in advance to avoid potential delays while these works are carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-02-02T08:00:00+00:00",
+      "generated_at": "2026-10-23T20:40:13.924472+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:13 +0000"
+    },
+    {
+      "id": "fenland-news-10467de4b7652bd35528b845",
+      "headline": "Concerns grow over potential maternity service cuts in King’s Lynn",
+      "brief": "Campaigners and MPs have raised alarms over the future of maternity services at the Queen Elizabeth Hospital in King’s Lynn. The facility is being reviewed by the Norfolk and Waveney University Hospitals Group, which is considering centralising services at the Norfolk and Norwich University Hospital. \n\nThe Queen Elizabeth and the James Paget Hospital in Gorleston are among the 12 smallest consultant-led maternity units in England. While hospital bosses state no decisions have been made, critics warn that potential closures would force women to travel longer distances for care. A clinical strategy regarding the future of these services is expected to be presented to the Norfolk County Council’s health overview and scrutiny committee next month.",
+      "original_url": "https://www.lynnnews.co.uk/news/fears-over-maternity-care-loss-9488443/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/3OZYE2E5F0MZ7TSJXJ3T.jpg",
+      "published": "2026-10-23T16:35:42+00:00",
+      "generated_at": "2026-10-23T20:40:10.989052+00:00",
+      "rss_date": "Fri, 23 Oct 2026 20:40:10 +0000"
+    },
     {
       "id": "fenland-news-4eae041d5c783acc67877f90",
       "headline": "Long Sutton dental practice sold",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-18T05:23:45+00:00",
       "generated_at": "2026-10-18T14:51:59.952906+00:00",
       "rss_date": "Sun, 18 Oct 2026 14:51:59 +0000"
-    },
-    {
-      "id": "fenland-news-612f2138dd4557ed20452242",
-      "headline": "New £110,000 annual fund launched for Cambridgeshire families",
-      "brief": "A new financial support scheme has been announced for families across Cambridgeshire. Council leader Rayo confirmed that a fund worth £110,000 per year is being established to provide timely assistance to local households. The initiative aims to offer support to those in need throughout the region.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGxfX2pYMmZCclNUM0JmV2QxOFg2RXFsdjR6NXVWWlV4aHFIOUhZVE8ycEtaY1p5NG1jQUdYbzZ1RVdPNHhiSkcyTjFhNHNmaWFRUTJZMVhHcFZLd05YTjFwZmZEc1JHRm1CbDVlbWotb2l2LTA1dVVIYW5MU2tkZ1lablc4VE1hMmtXbVVuQTJIOHJJZ0ZuVHlNVGt2QjlJX1lmNVVGRDRNeGREQU1wMWZxN29haHN3aF9fQk42QWxUUQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-18T04:08:16+00:00",
-      "generated_at": "2026-10-18T14:51:59.004512+00:00",
-      "rss_date": "Sun, 18 Oct 2026 14:51:59 +0000"
-    },
-    {
-      "id": "fenland-news-efecb86b8a368eb79f89b510",
-      "headline": "Cambridgeshire man charged following incident near nursery",
-      "brief": "A man from Cambridgeshire has been named following an accusation of indecent exposure. The individual is alleged to have masturbated in a bush located outside a nursery. The report was published by Peterborough Matters. No further details regarding the identity of the man or the specific location of the nursery have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmpQdU9yOUlHVXhYSGNrYkVDdWhzd2VIbmUzMVBwcC1RQTVBekRnQmJYdEJfVFZJa0dqNnZjbUNDNW9oVTZJWldwNFdob2lOblNaZEJua3RoVjdnRFM1eXBPdzN5UHU0ZkV4aXBLZEdQY014MkRQazlST095Tmx0YTRUVFIzUWJnUTRna1pTanZodUlOQ2M5MmhRcHd6ZTRqTXRUeDh1cw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-15T14:30:00+00:00",
-      "generated_at": "2026-10-18T14:51:57.191445+00:00",
-      "rss_date": "Sun, 18 Oct 2026 14:51:57 +0000"
-    },
-    {
-      "id": "fenland-news-dafcb1512b926aeb11f3fd40",
-      "headline": "MasterChef star returns to King’s Lynn for special menu",
-      "brief": "MasterChef: The Professionals semi-finalist Polly Norman has returned to her roots in Norfolk for two special evenings at King’s Lynn Golf Club. The 24-year-old from Upwell, who began her career at the club as a teenager, teamed up with head chef Liam Nicol to prepare a four-course menu featuring local game and coastal produce. \n\nPolly, who now works at Simpson’s in the Strand in London, previously worked as an assistant professional at the golf club before pursuing a culinary career. She says she hopes to eventually return to the county permanently to open her own gastropub on the Norfolk coast.",
-      "original_url": "https://www.lynnnews.co.uk/news/from-golf-clubs-to-kitchen-knives-masterchef-star-returns-t-9487448/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/17S2FEFYIA6Y81BFODYN.jpg",
-      "published": "2026-10-18T10:09:20+00:00",
-      "generated_at": "2026-10-18T14:51:56.209366+00:00",
-      "rss_date": "Sun, 18 Oct 2026 14:51:56 +0000"
-    },
-    {
-      "id": "fenland-news-ff09ca83e5dffe4103a056bc",
-      "headline": "Deliberate rubbish fire reported in Fenland",
-      "brief": "Fire crews have attended an incident involving burning rubbish near a road in the Fens. Officials have confirmed that the blaze was started deliberately. No further details regarding the exact location or any potential damage have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbU5raGpvQzFKdk9lMVE4Z1h1aFBEZmxqN2ZKR0p2Um56RnFtTExtbVJWWS1rall3ZU40ejdKM0ZrU0h3VEp1SFZWNnZRNzBocEFIdkZMMTBkbkNNNlVDYV9xZ0xSZWprdHk4R1gzTThmQmZxcWV4bUVuc21lcm5UazNDYk5BTXhZZnpSLUxoQnFvYTRmNkpGTDg1dzBJdw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-08-03T07:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:35.481143+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:35 +0000"
-    },
-    {
-      "id": "fenland-news-fd2a8aab7c44d4a4134329b3",
-      "headline": "Public invited to share views on future of Norfolk hospital services",
-      "brief": "The Norfolk and Waveney University Hospitals Group has launched a new campaign titled Case for Change. The initiative aims to plan how hospital care is delivered across the region for future generations. While officials state that no decisions regarding service changes have been made, they are encouraging the public to share their experiences via an independent Healthwatch survey. The survey remains open until Friday, November 6.\n\nIn other news, the Queen Elizabeth Hospital recently held its annual Team QEH Awards, presenting 14 prizes to staff members. Additionally, the hospital has begun its seasonal flu vaccination campaign for staff, urging those eligible to get protected ahead of the winter months. Further details on the survey can be found on the group's website.",
-      "original_url": "https://www.lynnnews.co.uk/news/shaping-the-future-of-healthcare-services-9486781/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/FXSPJGQW66Y278TCHG1F.jpg",
-      "published": "2026-10-18T05:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:34.614065+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:34 +0000"
-    },
-    {
-      "id": "fenland-news-581d5353567efe9ebd70d40c",
-      "headline": "Peterborough United fans react to Robbie Savage appointment",
-      "brief": "Supporters of Peterborough United have expressed enthusiasm following the appointment of Robbie Savage as the club's new manager. Fans are welcoming the change in leadership, with many describing the team’s current style of play as a return to the club's reputation for being great entertainers.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNckROU3NINmhBcnlRLWc4Sjk1WHpEbFhJN0JRWnEtZk9OWXVnRm9RVURMdFlJRzE1VlJSN05VMXRFcERCWER5d2Z2aVJyOTFvUFlKU3Uyb2Y5a2ZrSnR3SVVmQ3ZrU3JvY2VRMTMxZ2RQdFUtVkpwSWozRzVpZ1daNnZ4azBXZzR6RUVJdTRSZ0l6T1FHalRUR3k4dWszdnY1WVFudGZVVUlLQXpZakkwTTdrVUw1TmZWcHhrRVJzV1dZalVQMjdoalhIQ2NqM29SNEZZdFdqclE5emc3Yy1wZlQ3NTNJaWFEZTJZTVB1anB4TGl6ZFNfaHR6WHhUMGJ3YTZwUG5HTlg5Q1Q0Y3l6UElaeWQ5eHFlMU5NOXcyel9vRk0?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-18T09:00:00+00:00",
-      "generated_at": "2026-10-18T09:55:31.995622+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:31 +0000"
-    },
-    {
-      "id": "fenland-news-ba9d6d3d347d305838fde9e5",
-      "headline": "East Cambridgeshire District Council leader seeks devolution pilot status",
-      "brief": "The leader of East Cambridgeshire District Council, Councillor Anna Bailey, has formally requested that the government designate the region as a devolution pilot area. The proposal aims to secure greater local control over decision-making and resources for the district. Councillor Bailey has outlined her reasons for pursuing this status, suggesting that a pilot scheme would benefit the area by allowing for more tailored governance. Further details regarding the potential impact of this move on local services and administration are expected as the request is considered by central government officials.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZjREV2VzUWJJbWZrVFl2WmUtQ2JvRTRzRndKbzZtemJoSmxmRFdFZnFHUmlVZTR1M2xiWTMwbWZaSkVfWlJWRlQwZDZvcGRBcW0wTGl5ZVJwVkt0MDN3STllRVp3RVJvYUhrZEtSeU5RWEpHRGxaS1V0SnpCcUdaVnIwcUEwakV1OGRibUhJRWkzanZjQTNLYzg4blQtc24zWHJmQk9RbURiWW9YNHl6MVpn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-18T04:30:00+00:00",
-      "generated_at": "2026-10-18T09:55:30.573670+00:00",
-      "rss_date": "Sun, 18 Oct 2026 09:55:30 +0000"
     }
   ]
 }
