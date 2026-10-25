@@ -137,7 +137,7 @@
 
 
 <script src="admin-media.js?v=1"></script>
-<script src="event-media.js?v=1"></script><script src="event-workflow.js?v=1"></script>
+<script src="event-media.js?v=2"></script><script src="event-workflow.js?v=2"></script>
 <script>
 
 (function(){
@@ -625,7 +625,7 @@
 
     attachEventImages(data);
     if (!eventWorkflow) eventWorkflow = new FAREventWorkflow.EventWorkflow(client,eventList,activeAdmin,activeUserId);
-    await eventWorkflow.mount(data);
+    await eventWorkflow.mount(data.map(event => ({...event,end_date:eventMedia[event.id]?.end_date})));
   }
 
 
@@ -638,6 +638,21 @@
       const panel = document.createElement('section');
       panel.style.cssText = 'border-top:1px solid #363a43;margin-top:20px;padding-top:18px';
       panel.innerHTML = '<h2>Event poster or photo</h2><p>Every published event needs an image we have permission to use. Save the image before publishing.</p>';
+      const dateLabel=document.createElement('label'); dateLabel.htmlFor=event.id+'-end_date'; dateLabel.textContent='Final date (multi-day events; optional)';
+      const dateInput=document.createElement('input');dateInput.type='date';dateInput.id=dateLabel.htmlFor;dateInput.min=event.event_date;dateInput.value=media.end_date||'';dateInput.disabled=!management;
+      const dateSave=document.createElement('button');dateSave.type='button';dateSave.className='far-action';dateSave.textContent='Save event dates';dateSave.hidden=!management;
+      const dateStatus=document.createElement('p');dateStatus.setAttribute('role','status');
+      panel.append(dateLabel,dateInput,dateSave,dateStatus);
+      dateSave.onclick=async()=>{
+        dateSave.disabled=true;dateStatus.textContent='Saving event dates…';
+        try {
+          const saved=await FAREventMedia.saveDates(client,event,dateInput.value);
+          eventMedia[event.id]=saved;
+          const row=eventWorkflow?.events.find(item=>item.id===event.id);if(row)row.end_date=saved.end_date;
+          dateStatus.textContent='Event dates saved. Approval is unchanged; no message has been sent.';
+        }catch(error){dateStatus.textContent=error.message;}
+        finally{dateSave.disabled=false;await eventWorkflow?.refresh();}
+      };
       const controls = {};
       for (const [key,label,type] of [
         ['image_url','Image address','url'], ['alt','Describe the image','text'],
@@ -661,9 +676,10 @@
         save.disabled = true; status.textContent = 'Saving event image…';
         try {
           const values = Object.fromEntries(Object.entries(controls).map(([key,input]) => [key,input.value.trim()]));
+          values.end_date=dateInput.value||null;
           values.permission_confirmed = permission.checked;
-          await FAREventMedia.save(client,event,values);
-          eventMedia[event.id] = values; await eventWorkflow?.refresh(); status.textContent = 'Event image saved. It appears on the website when this event is approved.';
+          const saved = await FAREventMedia.save(client,event,values);
+          eventMedia[event.id] = saved; await eventWorkflow?.refresh(); status.textContent = 'Event image saved. It appears on the website when this event is approved.';
         } catch(error) { status.textContent = error.message; }
         finally { save.disabled = false; }
       };
