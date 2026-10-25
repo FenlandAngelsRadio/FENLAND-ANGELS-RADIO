@@ -1,7 +1,7 @@
 (function(){
  'use strict';
  const labels={needs_review:'Needs review',in_progress:'In progress',waiting:'Waiting for information',completed:'Completed'};
- const actions={claim:'Took this event',assign:'Reassigned',release:'Released to the team',note:'Added a note',details_saved:'Saved event details',poster_saved:'Saved poster',approved:'Approved and published',rejected:'Rejected',deleted:'Deleted',...labels};
+ const actions={claim:'Took this event',assign:'Reassigned',release:'Released to the team',note:'Added a note',details_saved:'Saved event details',poster_saved:'Saved event dates or image',approved:'Approved and published',rejected:'Rejected',deleted:'Deleted',...labels};
  const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function state(event,work){return work||{event_id:event.id,assigned_to:null,progress:['approved','rejected'].includes(event.status)?'completed':'needs_review',version:0};}
  function matches(view,event,work,uid,upcoming){
