@@ -114,7 +114,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="events-config.js"></script>
-<script src="event-media.js?v=1"></script>
+<script src="event-media.js?v=2"></script>
 <script>
 (function(){
   const list = document.getElementById('eventsList');
@@ -165,7 +165,7 @@
   function render() {
     const query = search.value.trim().toLocaleLowerCase('en-GB');
     const matching = events.filter(event => FAREventMedia.upcoming(event) &&
-      (!month.value || event.event_date.slice(0,7) === month.value) &&
+      (!month.value || FAREventMedia.months(event).includes(month.value)) &&
       (!town.value || (event.town || '').trim() === town.value) &&
       (!query || [event.title,event.description,event.venue,event.town].join(' ').toLocaleLowerCase('en-GB').includes(query)));
     results.textContent = matching.length ? matching.length + ' upcoming event' + (matching.length === 1 ? '' : 's') + ' · showing ' + Math.min(limit,matching.length) : 'No matching upcoming events';
@@ -176,10 +176,10 @@
     }
     let previous = '';
     list.innerHTML = matching.slice(0,limit).map(event => {
-      const key = event.event_date.slice(0,7);
+      const key = month.value || FAREventMedia.months(event)[0];
       const heading = key !== previous ? (previous ? '</div></section>' : '') + '<section><h2 class="event-month">'+escapeHtml(monthLabel(key))+'</h2><div class="events-list">' : '';
       previous = key;
-      const when = [prettyDate(event.event_date),event.start_time ? prettyTime(event.start_time) : '',event.end_time ? '– '+prettyTime(event.end_time) : ''].filter(Boolean).join(' ');
+      const when = [FAREventMedia.dateRange(event).map(prettyDate).join(' – '),event.start_time ? prettyTime(event.start_time) : '',event.end_time ? '– '+prettyTime(event.end_time) : ''].filter(Boolean).join(' ');
       const place = [event.venue,event.town].filter(Boolean).join(', ');
       let booking = '';
       try { const address = new URL(event.booking_url); if (['https:','http:'].includes(address.protocol)) booking = address.href; } catch (_) {}
@@ -198,12 +198,16 @@
   });
   async function loadEvents(){
     const today = FAREventMedia.londonNow().day;
+    try { media = await FAREventMedia.load(client); }
+    catch (error) { console.error(error); /* Single-day events remain available if metadata fails. */ }
+    const rangeStarts = Object.values(media).filter(item => FAREventMedia.isDay(item.end_date) && FAREventMedia.isDay(item.start_date) && item.end_date >= today).map(item => item.start_date).filter(Boolean);
+    const earliest = rangeStarts.length ? [today,...rangeStarts].sort()[0] : today;
 
     const { data, error } = await client
       .from('events')
       .select('id,title,event_date,start_time,end_time,venue,town,description,price_text,booking_url')
       .eq('status','approved')
-      .gte('event_date', today)
+      .gte('event_date', earliest)
       .order('event_date',{ascending:true})
       .order('start_time',{ascending:true});
 
@@ -218,10 +222,8 @@
       return;
     }
 
-    try { media = await FAREventMedia.load(client); }
-    catch (error) { console.error(error); /* Keep event details available if posters fail. */ }
-    events = data.filter(event => FAREventMedia.upcoming(event));
-    options(month, [...new Set(events.map(event => event.event_date.slice(0,7)))].sort(), 'All upcoming months');
+    events = data.map(event => ({...event,end_date:media[event.id]?.end_date})).filter(event => FAREventMedia.upcoming(event));
+    options(month, [...new Set(events.flatMap(event => FAREventMedia.months(event)))].sort(), 'All upcoming months');
     options(town, [...new Set(events.map(event => (event.town || '').trim()).filter(Boolean))].sort((a,b) => a.localeCompare(b,'en-GB')), 'All areas');
     render();
   }
