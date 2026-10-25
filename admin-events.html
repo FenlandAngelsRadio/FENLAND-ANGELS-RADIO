@@ -143,6 +143,8 @@
 (function(){
 
   let activeAdmin = null;
+  let activeUserId = null;
+  let authReady = false;
   let eventMedia = {};
   const cfg =
     window.FAR_EVENTS_CONFIG || {};
@@ -293,6 +295,8 @@
 
 
     if(!session){
+      activeUserId = null;
+      authReady = true;
 
       loginPanel.hidden = false;
       adminPanel.hidden = true;
@@ -310,6 +314,8 @@
       return;
     }
 
+    activeUserId = session.user.id;
+    authReady = true;
     activeAdmin = admin;
     loginPanel.hidden = true;
     adminPanel.hidden = false;
@@ -868,16 +874,19 @@
   );
 
 
-  client.auth.onAuthStateChange(
-    () => {
-
-      setTimeout(
-        refreshAuth,
-        0
-      );
-
+  client.auth.onAuthStateChange((event, session) => {
+    // Token refresh and repeated sign-in notifications must not rebuild a live
+    // event form or detach the file input while its picker/upload is active.
+    if (event === 'SIGNED_OUT') {
+      activeUserId = null;
+      loginPanel.hidden = false;
+      adminPanel.hidden = true;
+      return;
     }
-  );
+    if (authReady && event === 'SIGNED_IN' && session?.user.id !== activeUserId) {
+      setTimeout(refreshAuth, 0);
+    }
+  });
 
 
   refreshAuth();
