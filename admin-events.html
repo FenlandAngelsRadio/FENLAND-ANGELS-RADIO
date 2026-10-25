@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="site-nav.css?v=5">
 <link rel="stylesheet" href="events-system.css?v=1">
 <script src="site-nav.js?v=6" defer></script>
-<link rel="stylesheet" href="admin-ui.css?v=1"></head>
+<link rel="stylesheet" href="admin-ui.css?v=1"><link rel="stylesheet" href="event-workflow.css?v=1"></head>
 
 <body>
 
@@ -137,12 +137,13 @@
 
 
 <script src="admin-media.js?v=1"></script>
-<script src="event-media.js?v=1"></script>
+<script src="event-media.js?v=1"></script><script src="event-workflow.js?v=1"></script>
 <script>
 
 (function(){
 
   let activeAdmin = null;
+  let eventWorkflow = null;
   let activeUserId = null;
   let authReady = false;
   let eventMedia = {};
@@ -296,6 +297,7 @@
 
     if(!session){
       activeUserId = null;
+      eventWorkflow?.destroy(); eventWorkflow = null;
       authReady = true;
 
       loginPanel.hidden = false;
@@ -622,6 +624,8 @@
       }).join('');
 
     attachEventImages(data);
+    if (!eventWorkflow) eventWorkflow = new FAREventWorkflow.EventWorkflow(client,eventList,activeAdmin,activeUserId);
+    await eventWorkflow.mount(data);
   }
 
 
@@ -659,7 +663,7 @@
           const values = Object.fromEntries(Object.entries(controls).map(([key,input]) => [key,input.value.trim()]));
           values.permission_confirmed = permission.checked;
           await FAREventMedia.save(client,event,values);
-          eventMedia[event.id] = values; status.textContent = 'Event image saved. It appears on the website when this event is approved.';
+          eventMedia[event.id] = values; await eventWorkflow?.refresh(); status.textContent = 'Event image saved. It appears on the website when this event is approved.';
         } catch(error) { status.textContent = error.message; }
         finally { save.disabled = false; }
       };
@@ -745,6 +749,7 @@
           alert(
             'Changes saved.'
           );
+          await eventWorkflow?.refresh();
 
         }
 
@@ -879,6 +884,7 @@
     // event form or detach the file input while its picker/upload is active.
     if (event === 'SIGNED_OUT') {
       activeUserId = null;
+      eventWorkflow?.destroy(); eventWorkflow = null;
       loginPanel.hidden = false;
       adminPanel.hidden = true;
       return;
