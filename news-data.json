@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-26T22:54:08.941550+00:00",
+  "updated_at": "2026-10-27T05:40:25.439802+00:00",
   "stories": [
+    {
+      "id": "fenland-news-d759d14918e83b83098c2b77",
+      "headline": "Nearly 90 dogs seized from Spalding property",
+      "brief": "Authorities have seized almost 90 dogs from a property in Spalding. The operation took place over the weekend. No further details regarding the circumstances of the seizure or the current welfare of the animals have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzZrTVpsZlZaUktPR0JWMTZIODJmUkU0SWxzenhUNmgtdk9vbVdNY2JJOWh4empEWTktczA2a181dDRKMmo0ci15T1BXOXVtWUVoelZrYm5fOEhYa1ZWRDlpYVlzOHJ4SV9xZ0JFeFBWSkpUVktwWThwMTRfbW9sNnRBUVRvV1dSV1dXZ2hmWmc0WGlTVjN4VElQV1pJd3VhSkVhNFdzYkROdw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-06-29T07:00:00+00:00",
+      "generated_at": "2026-10-27T05:40:16.930698+00:00",
+      "rss_date": "Tue, 27 Oct 2026 05:40:16 +0000"
+    },
+    {
+      "id": "fenland-news-f4c45d6bab817e5e7a577aba",
+      "headline": "Hunstanton man reaches 200th conviction for shoplifting",
+      "brief": "A 59-year-old man from Hunstanton has appeared in court after reaching a milestone of 200 criminal convictions. James Leonard, of Park Road, pleaded guilty at Lynn Magistrates’ Court on Thursday to stealing two Mars bars and a fizzy drink from the One Beyond store in King’s Lynn. The items, valued at £4.69, were taken on September 12.\n\nDuring the hearing, the court heard that Leonard expressed disappointment in his own actions. Magistrates fined him £45 and ordered him to pay a £16 victim surcharge along with £45 in court costs.",
+      "original_url": "https://www.lynnnews.co.uk/news/not-a-cause-for-celebration-mars-bar-thief-reaches-200-of-9488274/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/ZNX3J78MFXFJDW1WS2MK.jpg",
+      "published": "2026-10-26T06:00:00+00:00",
+      "generated_at": "2026-10-27T05:40:08.050914+00:00",
+      "rss_date": "Tue, 27 Oct 2026 05:40:08 +0000"
+    },
+    {
+      "id": "fenland-news-19fb436df241a6047d8a058d",
+      "headline": "Peterborough council considers new firework restrictions",
+      "brief": "Peterborough City Council is considering a new Public Space Protection Order aimed at reducing firework-related nuisance in the area. The proposed measures are designed to address concerns regarding the impact of fireworks on local residents. Further details on the scope of the order and how it might be enforced are expected to be discussed as the plans progress. Residents are advised to monitor official council communications for updates on the potential implementation of these new rules.",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWF9zUkxNejNvaWZ1bGhuZUFodDg1TEp3blEyS3FCYW9QTHRYNXBkbkVsVF85cUJrSU1FaUpFMkhralZ3ektBV25IQ3o1anFrcUY1QVVxeDdwVzZsZjl6THRPaUd1VUdSdVpfV1BrbDV3S1d5TnMyRTlSenlTQzVVc0NaMVZVN1FJM2dxTlFaY1k2RkJHZlhYYldBVEJqTzZTaVdzbTlrWnlQWU5XXzV3V2VZOURYYzg?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-27T04:59:00+00:00",
+      "generated_at": "2026-10-27T05:40:06.207763+00:00",
+      "rss_date": "Tue, 27 Oct 2026 05:40:06 +0000"
+    },
+    {
+      "id": "fenland-news-80cc647618b32cce532083df",
+      "headline": "Archaeological discovery in Littleport sheds light on Roman history",
+      "brief": "An archaeological excavation in Littleport has provided new insights into an early Roman field system. The findings have helped experts resolve long-standing questions regarding the layout and function of the site. Researchers believe the discovery offers a clearer understanding of how the land was managed during the Roman period in the region.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IU0FYeHRpRW1uN24tYVlubjJ1eG1odjBkTmZjUDJlSjMtMXBQY0Z2cVkzSnFJbWlvVTdCN1BURHNEV3ZGdDF2MEhzRktIT0tVV2J5dG1WSmdxNGdjaFE?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-25T06:15:18+00:00",
+      "generated_at": "2026-10-27T05:40:04.748014+00:00",
+      "rss_date": "Tue, 27 Oct 2026 05:40:04 +0000"
+    },
+    {
+      "id": "fenland-news-ffe69e460b9af0a530fc2ba9",
+      "headline": "Queen Elizabeth Hospital receives £3.9m for winter urgent care",
+      "brief": "The Queen Elizabeth Hospital in King’s Lynn has been awarded £3.9 million in government funding to boost urgent and emergency care services. The investment aims to help the hospital manage increased demand during the winter months by allowing staff to treat minor illnesses and injuries separately from emergency cases. \n\nWork to reconfigure the emergency department is already underway, with plans for a new urgent treatment centre to follow. Local MPs Terry Jermy and James Wild have welcomed the funding, though both continue to press for long-term commitments regarding the future of the hospital’s 24/7 A&E department. This grant is part of a wider £140 million national investment across 14 urgent care schemes in England.",
+      "original_url": "https://www.lynnnews.co.uk/news/hospital-welcomes-3-9m-funding-for-urgent-care-ahead-of-win-9488524/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/LUIPP4E6LJLYDVNJHQUX.jpg",
+      "published": "2026-10-26T12:29:38+00:00",
+      "generated_at": "2026-10-27T05:39:54.101325+00:00",
+      "rss_date": "Tue, 27 Oct 2026 05:39:54 +0000"
+    },
     {
       "id": "fenland-news-626364b468261c5ad50e52d4",
       "headline": "Police arrest following break-in at services",
@@ -1045,61 +1100,6 @@
       "published": "2026-10-21T11:00:00+00:00",
       "generated_at": "2026-10-22T01:56:32.424012+00:00",
       "rss_date": "Thu, 22 Oct 2026 01:56:32 +0000"
-    },
-    {
-      "id": "fenland-news-d1c866a1af430e8a22e4ef15",
-      "headline": "Met Office weather update for Long Sutton",
-      "brief": "The Met Office has issued a weather update for Long Sutton in Lincolnshire. Residents in the area are advised to check the latest forecasts for any potential changes in local conditions. Further information regarding the current weather outlook for the town is available through official Met Office channels.",
-      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rSlNDeVdUMldGSWJnbGZsTzg3dHBvTFN4SmJhNXJUVGFPVjB1Z2RfRzROQVpSOUZ1cExfSF9MMlBKbHhVdHZPRktCZGl4SEs5T2hkbFNRQ2I3N0wtaVYwTQ?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2024-11-28T09:33:57+00:00",
-      "generated_at": "2026-10-22T01:56:26.412912+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:56:26 +0000"
-    },
-    {
-      "id": "fenland-news-220c98b75175e24243de92da",
-      "headline": "Wisbech college hosts event to encourage young women into STEM careers",
-      "brief": "Students from across the Fens have attended a special event at the College of West Anglia’s Green Skills Academy in Wisbech. The \"Girls in STEM\" day aimed to inspire young women to consider careers in science, technology, engineering, and mathematics.\n\nPupils from Thomas Clarkson Academy in Wisbech and Neale-Wade Academy in March joined college students for practical activities, including virtual welding and thermal imaging. Representatives from various industries, including Anglian Water and Polypipe, were on hand to discuss career pathways. Organisers say the event was designed to challenge traditional gender stereotypes and highlight the growing need for a diverse workforce in sectors supporting a greener economy.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/young-women-left-inspired-after-exploring-potential-career-p-9487869/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/CEDJFDGGK9HG1N5IZQER.jpg",
-      "published": "2026-10-21T09:17:45+00:00",
-      "generated_at": "2026-10-22T01:55:39.207055+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:55:39 +0000"
-    },
-    {
-      "id": "fenland-news-09fbe3f2695e3427f467b375",
-      "headline": "Nine new bus shelters installed across King’s Lynn",
-      "brief": "Nine new bus shelters have been installed in and around King’s Lynn following an £82,500 replacement programme. The project, funded by West Norfolk Council and a Norfolk County Council grant, replaces ageing structures that had suffered from damage and structural issues. \n\nNew shelters are now located on Winston Churchill Drive, William Booth Road, Gayton Road, Saddlebow Road, Queen Mary Road, and Parkway. Officials say the modern replacements are expected to last for 25 years. By removing advertising and electrical connections from the previous sites, the council expects to recoup its investment within four and a half years.",
-      "original_url": "https://www.lynnnews.co.uk/news/nine-old-or-damaged-bus-shelters-replaced-with-new-high-qua-9487886/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/PCXR5CZGCTSBE88R0BZE.jpg",
-      "published": "2026-10-21T10:15:05+00:00",
-      "generated_at": "2026-10-22T01:55:32.848192+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:55:32 +0000"
-    },
-    {
-      "id": "fenland-news-22176f060998df70940e20da",
-      "headline": "Changes to opening hours at local leisure centre",
-      "brief": "Residents in the Spalding area are being advised of upcoming changes to the opening hours at their local leisure centre. While the facility will remain open for public use, the times at which visitors can access the site are set to be adjusted. Further details regarding the specific new operating schedule have not yet been confirmed. Users are encouraged to check for updates before planning their next visit to the centre.",
-      "original_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMkR1TTBlQy1hX3FtSWUzbkdxWmZRdXlkUVZ3WldrOXp6U21mby1rMHFVeHFXdEFYWEh4by1tOHpYMHdhS2xraWFSM0p2S29zcjVzVE1XUExlWmVaQVltNDA0RG4zLVI5c0Y2cHR5VFFTdElsQ1NlX0dqRmE2UHBNaFBsMnB5d1hMOFlzZXFDT1dlY2stYVNneTZKeDgzbmpBcFVjLS1VY0RxSjE0T2NjRA?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2024-10-24T07:00:00+00:00",
-      "generated_at": "2026-10-21T20:56:09.923225+00:00",
-      "rss_date": "Wed, 21 Oct 2026 20:56:09 +0000"
-    },
-    {
-      "id": "fenland-news-bf1515f718d2360c05c5c485",
-      "headline": "East Anglia care staff honoured at Black Swan awards",
-      "brief": "Outstanding care workers from across East Anglia have been recognised for their dedication at the recent Black Swan Care Awards. The event celebrated the hard work and commitment of staff members working within the care sector throughout the region. The awards highlight the essential contributions made by these professionals in supporting residents and their families.",
-      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaE1HY2VGZHJ5eEFuVDNhZzZFREJBOHJwR2EtYXVYSVdySlhGSTRYQ1V0eW1WYm9SdVpRaUdjTzJySzkxb3VRTS1vR1ZSVzZqd1ZaUXh2aGJmT2pMVnQ5X2JvRHcxVUFuU1FabXZrZ1MyX2pISkQwMlZreWFud2p2eHJRNHdyTDdaR1Awa0FoY0VqTHhIZXIwclladFNwa2xMS0UtRnV4VlF3RmZO?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-20T15:37:51+00:00",
-      "generated_at": "2026-10-21T20:55:41.085968+00:00",
-      "rss_date": "Wed, 21 Oct 2026 20:55:41 +0000"
     }
   ]
 }
