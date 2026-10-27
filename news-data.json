@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-10-27T18:23:18.673382+00:00",
+  "updated_at": "2026-10-27T22:39:31.156969+00:00",
   "stories": [
+    {
+      "id": "fenland-news-4a8a75054fe71097b641aff8",
+      "headline": "Recent cases heard at King’s Lynn Magistrates’ Court",
+      "brief": "King’s Lynn Magistrates’ Court dealt with a series of cases last week involving theft, driving offences, and arson. Among those appearing were several prolific shoplifters, including James Leonard, who reached his 200th recorded offence after stealing items from a local store. Other defendants faced sentencing for supermarket thefts in Downham, Sheringham, and Fakenham.\n\nThe court also addressed driving offences, including individuals caught without valid licences or insurance, and a case of arson at the St James Multi-Storey Car Park. Additionally, magistrates heard cases involving public order offences, drug possession, and the assault of a police officer. Defendants received various penalties, ranging from fines and community orders to custodial sentences.",
+      "original_url": "https://www.lynnnews.co.uk/news/court-hears-of-prolific-shoplifters-car-park-arsonist-and-a-9488659/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/358A08V4UVYDZ6WOUYO2.jpg",
+      "published": "2026-10-27T06:00:00+00:00",
+      "generated_at": "2026-10-27T22:39:20.605336+00:00",
+      "rss_date": "Tue, 27 Oct 2026 22:39:20 +0000"
+    },
+    {
+      "id": "fenland-news-2ecd79f7aa863b564047263f",
+      "headline": "Police investigate stabbing outside Littleport Co-op",
+      "brief": "Two men have been stabbed in an incident outside the Co-op store in Littleport. Reports describe the attack as unprovoked. Local authorities are currently investigating the circumstances surrounding the event. Anyone with information regarding the incident is encouraged to contact the police.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3R2eDE4ejVEVjMxeFBSVm9EVHF4TlV3XzBrbUxPSlB4Q1NvWThXam9ka0U5MFowdmNpaWNlbnZtNUlrdDBmYjQ5QWlHenNndEE0VGRpRVpuNzFsV1F2RDdMYzljRVhGQUdaMzQtdkh0bmNDelJ2WWVUdkh4Z0NWaGFFVnJ2Ylc1SDFxSDhPTENUVzZtblVsaldsb9IBoAFBVV95cUxNMFNra3d1TGJiTnFGeUU4NFVvZDdNQ0lrOGpPdm5jdXJiSUliaEZUckhCT3ZwRjJEdVpZdWtueXVfS05ua2s0LXZwRDRvNUVWc0NrTXN1OGlKaWw1cEhNRk5nbkJHSV83ckF2QVFXM2tzQTNYaEJtQ1NkSEVDSFhrVjMyZy1XbDhCVE94SFRTakU1YjVuV3RjdDFWX2l2VTE2?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-27T16:20:00+00:00",
+      "generated_at": "2026-10-27T22:39:18.482176+00:00",
+      "rss_date": "Tue, 27 Oct 2026 22:39:18 +0000"
+    },
+    {
+      "id": "fenland-news-9067b75ba6277d2253ce8926",
+      "headline": "Roadworks scheduled for A17 between Holbeach and Sutton Bridge",
+      "brief": "Drivers in the Fens should prepare for disruption this weekend as surfacing works begin on the A17. Lincolnshire County Council has confirmed that the maintenance project will take place on the stretch of road located between Holbeach and Sutton Bridge. Motorists are advised to plan their journeys accordingly while these improvements are carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRDRaa1hNNW1HT1k5LTg3cW5sLWlPbGxzc1NYVGhKOWxtNTRBc3lRYmktYzE3V0dWaEZWLUYxREYyVFhBa0V0bXc0VmNWN0ExSVFCbm9kQUJnYk9CbjhxUHV2MmJESXBZdHdfU0lfaC1Dc3hDc3dFVUZqbzIyRktaLVloeHlkQXU2LTN2ZUNWeTJmeklsTlVtT0tGYldTOGhNVlRsZTFHOGJmcXdEU0pBRHZIQ2tNR3c3amNyNWp4RQ?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2021-04-22T07:00:00+00:00",
+      "generated_at": "2026-10-27T22:39:17.517113+00:00",
+      "rss_date": "Tue, 27 Oct 2026 22:39:17 +0000"
+    },
+    {
+      "id": "fenland-news-d944ee268234cff475368eab",
+      "headline": "Eight-week road closure near Chatteris",
+      "brief": "Drivers in the Fens should prepare for disruption near Chatteris. A road in the area is set to be closed for eight weeks to allow for essential repair work to take place. Motorists are advised to plan their journeys accordingly while these works are carried out.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-02-02T08:00:00+00:00",
+      "generated_at": "2026-10-27T22:39:16.540845+00:00",
+      "rss_date": "Tue, 27 Oct 2026 22:39:16 +0000"
+    },
+    {
+      "id": "fenland-news-1403b8c00e013cc0c6778df6",
+      "headline": "Rock Choir raises over £1,000 for Army Benevolent Fund",
+      "brief": "Members of the King’s Lynn and Peterborough Rock Choir have raised more than £1,100 for the Army Benevolent Fund. The group performed at Downham Market’s Methodist Church on Saturday, October 3, as part of the church’s 60th birthday celebrations. \n\nThe concert featured two 50-minute sets of popular hits, with funds collected through ticket sales and refreshments. The Army Benevolent Fund provides ongoing support to soldiers, veterans, and their families. Choir leader Sally Rose thanked the audience for their participation and support during the event. Those interested in joining the Rock Choir can find more information on their official website.",
+      "original_url": "https://www.lynnnews.co.uk/news/choir-hits-the-right-note-for-good-cause-9488676/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/LE1QR2U1IW4X1RJBQJY9.jpg",
+      "published": "2026-10-27T06:00:00+00:00",
+      "generated_at": "2026-10-27T22:39:15.599402+00:00",
+      "rss_date": "Tue, 27 Oct 2026 22:39:15 +0000"
+    },
     {
       "id": "fenland-news-1859daf65da6370dcd1efe6d",
       "headline": "King’s Lynn Town Hall to host memorial lecture on Margery Kempe",
@@ -1045,61 +1100,6 @@
       "published": "2026-10-23T10:00:22+00:00",
       "generated_at": "2026-10-23T10:32:47.234907+00:00",
       "rss_date": "Fri, 23 Oct 2026 10:32:47 +0000"
-    },
-    {
-      "id": "fenland-news-bfe17c6a5810e988b9c90b9c",
-      "headline": "Wisbech St Mary Academy hosts fundraiser for annual firework display",
-      "brief": "Pupils at Wisbech St Mary CofE Academy have held a special fundraising day to support the school’s upcoming Firework Spectacular. Children attended school in non-uniform and elaborate hairstyles to collect donations for the event's bottle stall. \n\nThe Firework Spectacular is scheduled for Saturday, November 7, and has been a local tradition for over 40 years. Organisers say the event is open to the entire community, not just those with links to the school. Residents are encouraged to book tickets in advance to secure a discount before the November 6 deadline. Tickets are available online via TicketSource.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/school-fundraiser-for-upcoming-firework-spectacular-9488171/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/H0LVZRNFV3NFHUADY4NT.jpg",
-      "published": "2026-10-22T14:52:35+00:00",
-      "generated_at": "2026-10-23T02:00:47.861393+00:00",
-      "rss_date": "Fri, 23 Oct 2026 02:00:47 +0000"
-    },
-    {
-      "id": "fenland-news-add8074c70aca0adb19918e9",
-      "headline": "Volunteers help create new wildflower meadow in King’s Lynn",
-      "brief": "Volunteers have joined West Norfolk Council staff to plant hundreds of native wildflower plugs at the Fairstead recreation ground in King’s Lynn. The project aims to transform the site into a diverse meadow to support local wildlife, including bees and butterflies. This work follows the earlier spreading of green hay to introduce native seeds to the area. \n\nThe initiative is part of the council’s Pollinator Action Plan, which seeks to restore habitats across the borough. Officials say the lessons learned at the Fairstead site will help guide future nature recovery projects in West Norfolk. The council has thanked the Nature Volunteer Network for their assistance in establishing this new green space for the community.",
-      "original_url": "https://www.lynnnews.co.uk/news/volunteers-help-plant-wildflower-meadow-9488093/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/KPQZMP9DIEGYKWMJGUTX.jpg",
-      "published": "2026-10-22T11:25:41+00:00",
-      "generated_at": "2026-10-23T02:00:45.006297+00:00",
-      "rss_date": "Fri, 23 Oct 2026 02:00:45 +0000"
-    },
-    {
-      "id": "fenland-news-a6e70be63f3c8152b92ed77b",
-      "headline": "Nine-hour weather warning issued for Cambridgeshire",
-      "brief": "A weather warning is currently in place across Cambridgeshire as Storm Austen moves into the region. Forecasters have issued the alert for a nine-hour period. Residents are advised to stay updated on the latest conditions as the storm progresses.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUVB4VnkxRTJNSE9xM0hRekZJWURZNUxOemFHOXhOX29BMnZGWnMtNS0zRnhPTXNyRzJRVHpYWlptbE9rRGVWanlqRHpJVGFmak9pb0RDbTZVYm44MzlxcjBfcUhFREgtUFltZy1VWkZlTHRaT3ZkVHdkVmtOaGZYckJPSXg3Vmc4ejA5VmlBQ0I0Y0Y0NmfSAZsBQVVfeXFMUHB3R2hQcE1HdDlhSmJxYzJDZ2xaVmdIVWV3WEVrazVwa2hjay0zN2k3UzZydzljRWhWODRkeEVkbU9qU2huWEpVMV8wNzdPZmlZQW0yZFpjeGNqcE5sQnlvT0pCVnJ2MG00V3U2M1BCRk00REZyLWktemttU2lBWi1nN3puanc2NThzQlNBVzFKSmVzQWktdjM1WGM?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-22T13:01:00+00:00",
-      "generated_at": "2026-10-23T02:00:31.058208+00:00",
-      "rss_date": "Fri, 23 Oct 2026 02:00:31 +0000"
-    },
-    {
-      "id": "fenland-news-9bff4d3b606cf2608d1ff53f",
-      "headline": "Lincolnshire man avoids prison sentence amid jail overcrowding",
-      "brief": "A man from Lincolnshire has avoided a custodial sentence due to current prison overcrowding. The decision was reported by the BBC, noting that the capacity issues within the jail system influenced the outcome of the case. No further details regarding the individual or the nature of the offence have been released.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWbmJaNVBBQk1idGllTk1MMkxKNC1zSE0xOENvT1Bzc1NfS245UFVqcTZlV0MyTURyYlI4TGZ0Y2dIZFZFTVFhUm9wZ2lLOWpEckdVWlFfZ1lEVktw?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2024-09-06T07:00:00+00:00",
-      "generated_at": "2026-10-23T02:00:30.144948+00:00",
-      "rss_date": "Fri, 23 Oct 2026 02:00:30 +0000"
-    },
-    {
-      "id": "fenland-news-626364b468261c5ad50e52d4",
-      "headline": "Police arrest following break-in at services",
-      "brief": "Police have made an arrest in connection with a break-in at a service station. Officers are currently investigating the incident. No further details regarding the location or the identity of the individual detained have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PbkpNMUtIZGN6V3hQZmJJT2RWVGNYUnZCS0VwbXc4UHNJMXMtZC1RX2pUQm12a3ZlY0RaV0lwOVRZa0MzZ3dmWEpCWlNxRWcxVDBreUlUWmJlNnc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-15T10:32:51+00:00",
-      "generated_at": "2026-10-23T02:00:28.692127+00:00",
-      "rss_date": "Fri, 23 Oct 2026 02:00:28 +0000"
     }
   ]
 }
