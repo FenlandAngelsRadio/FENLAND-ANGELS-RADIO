@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-27T05:40:25.439802+00:00",
+  "updated_at": "2026-10-27T12:43:10.110136+00:00",
   "stories": [
+    {
+      "id": "fenland-news-e5a5d966325c32396ebd9154",
+      "headline": "New book examines the impact of the 1643 Siege of King’s Lynn",
+      "brief": "A new book by local historian James Rye explores the long-term consequences of the 1643 Civil War siege of King’s Lynn. Titled \"The Siege of King’s Lynn 1643: A Port Divided and the Cost of Civil War,\" the work details how the three-week conflict affected trade, property repairs, and the lives of local residents. \n\nMr Rye utilised contemporary records and archaeological research to document the challenges faced by the town following its negotiated surrender. The book features historical figures including Thomas Toll and Alice L’Estrange. It is currently available for purchase online, priced at £7.99 for the paperback edition or £4.99 for the eBook.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-book-explores-town-s-civil-war-siege-and-its-lasting-imp-9488704/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/ND17B32C9M6NOGS5HFYC.jpg",
+      "published": "2026-10-27T10:17:48+00:00",
+      "generated_at": "2026-10-27T12:42:52.586171+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:52 +0000"
+    },
+    {
+      "id": "fenland-news-d4e32c46731547a74a8163bc",
+      "headline": "Peterborough United manager expresses confidence in squad",
+      "brief": "Peterborough United manager Robbie Savage has stated that his team is capable of defeating any opponent. The comments follow the club's recent performances as they look ahead to upcoming fixtures. Savage remains optimistic about the squad's potential for the remainder of the season.",
+      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54bXU0NXZ6SE0wZ1BZS3hsRXJra0UtV0puaUtIQVFNUy1fWFc3b2xLRUwyY29iSXc5TjhSMENWZWIxR0NxQ2lvOXprTE5oZDNiZlRoQ0F5VGVYMFlsQTVjZGhnZHRxcGo0?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-27T06:03:42+00:00",
+      "generated_at": "2026-10-27T12:42:50.608584+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:50 +0000"
+    },
+    {
+      "id": "fenland-news-e5071c2dc830e626bd794aac",
+      "headline": "MP calls for £500 million investment to fix Cambridgeshire roads",
+      "brief": "A local Member of Parliament is campaigning for half a billion pounds in funding to address the condition of roads across Cambridgeshire. The proposed investment is intended to repair routes built on weak soil, which have been identified as a significant issue for the county's infrastructure. The bid for £500 million aims to tackle the ongoing maintenance challenges caused by the region's specific ground conditions.",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOG5OMkVkRHQzTExsN2V5OW00eUd6d01DS2x6Y1NuQ3JhbTN6SWZwcnh5N0p4UjM5QWVud1NBLVpHbFhQTUdxR2JMOE5BTkFWemVvRWZVbTE3blhORGNtUnJSbkw2NmZKWWd3dTI3LUhWWnFqNWFVMTNBLWFuZy1oQzlZQjZNRVdjMm1KMHdmQ3JpVHZfX0x2dXNWRzg?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-27T11:29:00+00:00",
+      "generated_at": "2026-10-27T12:42:49.395021+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:49 +0000"
+    },
+    {
+      "id": "fenland-news-c4af18679d31dd152b4512f1",
+      "headline": "Dispersal orders issued for Holbeach and Sutton Bridge",
+      "brief": "Lincolnshire Police have put two 48-hour dispersal orders in place for Holbeach and Sutton Bridge. These orders grant officers additional powers to move individuals out of the designated areas for a set period. Residents in these parts of the Fens should be aware that the measures are now active. Police have not provided further details regarding the specific reasons for the orders or the exact boundaries of the affected zones.",
+      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRXBDTVkzSG5wZU1WWUhZY2lCVmdPbDNibHgzWVVDalhPSFJNM3BlZGJzbXFmOE43NVVHTDN6YjFVLWJ6ZE9OWUxpbDdsak9ZT005T2hfeldvLTJDNHhUMFE3SElRMzI4U19VSlUxNUhxQUN0U1laRV84WGpwWlBVWDFjczNHN3JoWXo1M3Y3ZWhDMWlLOUtzYlZnZXZQY1Q1SXlYQ3pPd09KMnVNckNFcnRnQzdtdUJpc08yRDJhSVVoQU5xTEE?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-10-23T14:35:00+00:00",
+      "generated_at": "2026-10-27T12:42:46.682903+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:46 +0000"
+    },
+    {
+      "id": "fenland-news-ba5345fe1906fe5922029140",
+      "headline": "Update announced for Whittlesey leisure centre project",
+      "brief": "Plans for a new leisure centre in Whittlesey have reached a significant milestone. The proposed facility, which carries an estimated cost of 18.7 million pounds, is the subject of a major update. Further details regarding the development are expected as the project progresses.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVm9pLVE3eXE2UTlsYWJJaUFoQ1VHYXFzUC12SU9RT0hiM0JIN29zcV9aYWdmeFBKRkRjRkNySzY3ZFlaTC1fQmFPdXdjaEVHYzdSSFpxaUs1XzlOMFBHdTMxbzNpV1MtdHU2R3ZpRmNlX0NYZWE1M05QWWV6V3VMOHJuUG9TcWZOS1dhLWN30gGTAUFVX3lxTE5neUdBSF9XVkVRSTNMazhFMV93X2ZMMXdXYzQyZjUyQTk0Ylg0OHkwcjVNa0ZmbXp4bFVZeHNndzIyb1BLWk1rM3B3YWR0OURzd0I4MGRCdjBYUHNIaTFfMUtQVi05b056U1pfR3daT3dFRGprMUV1WnR2dHZKUURRWUVhdnNtVzNYWkpRR2pYekdzaw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-06T07:00:00+00:00",
+      "generated_at": "2026-10-27T12:42:45.343970+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:45 +0000"
+    },
+    {
+      "id": "fenland-news-436de011aed69168c3d1b6c2",
+      "headline": "Wisbech Christmas fair returns this December",
+      "brief": "The annual Wisbech Christmas fair is set to return to the town centre on Sunday, December 13. Running from 10am until 3pm, the free event will feature live music, including a brass band, alongside various stalls and food vendors. Families can enjoy activities at the library, miniature train rides on Market Street, and visits with Santa. \n\nVisitors are encouraged to walk, cycle, or use public transport, as road closures and parking restrictions will be in effect. Free parking will be available at several council car parks and the Horsefair Shopping Centre. Additionally, the March Christmas Market is scheduled for the previous Sunday, December 6, also running from 10am to 3pm.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/christmas-fair-makes-return-with-stalls-live-music-attract-9488635/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/JRPYFAZROLEO5D0S9D3H.jpg",
+      "published": "2026-10-27T06:00:00+00:00",
+      "generated_at": "2026-10-27T12:42:39.028136+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:39 +0000"
+    },
+    {
+      "id": "fenland-news-aba834583f13844e3f9cd2dc",
+      "headline": "Downham Market toddler stars in national swimming campaign",
+      "brief": "A three-year-old from Downham Market is helping to front a new national initiative from Swim England. Phoebe Stoves and her grandmother, Gill, are featured in the ‘Love Swimming’ campaign, which highlights the benefits of pool sessions for families. \n\nPhoebe began lessons in April and has since grown in confidence after initially feeling nervous. The campaign, supported by Alive West Norfolk, encourages families to start swimming lessons this autumn. Research suggests that most children show improved water confidence after only a few sessions. Those interested in finding local classes can visit the Swim England website at swimming.org/poolfinder for more information.",
+      "original_url": "https://www.lynnnews.co.uk/news/swimming-superstar-phoebe-3-face-of-national-campaign-9488742/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/C0A6MNF5J5SJ8BQFZLDV.jpg",
+      "published": "2026-10-27T12:39:20+00:00",
+      "generated_at": "2026-10-27T12:42:36.261991+00:00",
+      "rss_date": "Tue, 27 Oct 2026 12:42:36 +0000"
+    },
     {
       "id": "fenland-news-d759d14918e83b83098c2b77",
       "headline": "Nearly 90 dogs seized from Spalding property",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-22T05:00:00+00:00",
       "generated_at": "2026-10-22T10:41:15.828464+00:00",
       "rss_date": "Thu, 22 Oct 2026 10:41:15 +0000"
-    },
-    {
-      "id": "fenland-news-db4f881a158d142f1f37edc2",
-      "headline": "Looking back at October community events in the Fens",
-      "brief": "We are taking a look back at community highlights from across the region during past Octobers. In 2017, King’s Lynn hosted a Halloween Spooktacular at the Vancouver Quarter, while young artists were celebrated at Gaywood Library’s superhero drawing competition. That same year, a 24-hour spinathon at Lynnsport raised over one thousand pounds for the British Heart Foundation.\n\nLooking further back to 2013, the Railway Arms in Downham Market was named the national cider pub of the year. Meanwhile, in Swaffham, the cemetery chapel was rededicated following a forty-five thousand pound renovation. These stories reflect a busy period of local activity, from charity fundraising and remembrance services to community celebrations held across our towns.",
-      "original_url": "https://www.lynnnews.co.uk/news/looking-back-at-halloween-spooktacular-and-superhero-drawing-9487233/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/N0FJ46TKPMBXWF5090C6.jpg",
-      "published": "2026-10-22T05:00:00+00:00",
-      "generated_at": "2026-10-22T10:40:49.778490+00:00",
-      "rss_date": "Thu, 22 Oct 2026 10:40:49 +0000"
-    },
-    {
-      "id": "fenland-news-2d70cadc948362a466bcc5bf",
-      "headline": "Peterborough council considers SEND reform to address budget gap",
-      "brief": "Peterborough City Council is looking at potential reforms to its Special Educational Needs and Disabilities services. The proposed changes are intended to help address a budget deficit currently standing at nine point nine million pounds. The local authority is exploring these measures as part of its ongoing financial planning.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40aVcxUUJuMnNKbkh2WThEbE5rQkxidHFneDRqMDRMb2o2RGk2clh2UVM0N2kwV29McGZpZE5sV2FVN05oLTdTUXVIbmVGTTFHNUpGMEZrUE5CN29oVXc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-22T05:43:46+00:00",
-      "generated_at": "2026-10-22T10:40:42.970522+00:00",
-      "rss_date": "Thu, 22 Oct 2026 10:40:42 +0000"
-    },
-    {
-      "id": "fenland-news-7443a37010010ec611530fa6",
-      "headline": "King’s Lynn ambulance station hosts stem cell donor event",
-      "brief": "Staff and volunteers at the King’s Lynn ambulance station are holding a stem cell swabbing event this Monday. The initiative aims to find a donor for Reuben, the ten-month-old son of a local paramedic, who was recently diagnosed with acute myeloid leukaemia. The East of England Ambulance Service is hosting the session to encourage more people to join the DKMS stem cell register.\n\nThose aged between 16 and 55 can participate in the simple cheek swab test. Members of the public who are unable to attend the station can also support the appeal by requesting a home testing kit through the DKMS website. Every new registration increases the potential for finding a life-saving match for patients in need of a transplant.",
-      "original_url": "https://www.lynnnews.co.uk/news/ambulance-station-to-host-stem-cell-swab-event-for-staff-in-9488071/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/EM8RNOC0FNJQ3R7N5OJV.jpg",
-      "published": "2026-10-22T10:38:47+00:00",
-      "generated_at": "2026-10-22T10:40:25.979656+00:00",
-      "rss_date": "Thu, 22 Oct 2026 10:40:25 +0000"
-    },
-    {
-      "id": "fenland-news-ba5345fe1906fe5922029140",
-      "headline": "Update on Whittlesey leisure centre plans",
-      "brief": "There has been a significant development regarding the proposed eighteen-point-seven million pound leisure centre in Whittlesey. Further details have been released concerning the project, which aims to bring new sporting and recreational facilities to the town. Residents are advised to keep an eye on local updates as the plans progress.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVm9pLVE3eXE2UTlsYWJJaUFoQ1VHYXFzUC12SU9RT0hiM0JIN29zcV9aYWdmeFBKRkRjRkNySzY3ZFlaTC1fQmFPdXdjaEVHYzdSSFpxaUs1XzlOMFBHdTMxbzNpV1MtdHU2R3ZpRmNlX0NYZWE1M05QWWV6V3VMOHJuUG9TcWZOS1dhLWN30gGTAUFVX3lxTE5neUdBSF9XVkVRSTNMazhFMV93X2ZMMXdXYzQyZjUyQTk0Ylg0OHkwcjVNa0ZmbXp4bFVZeHNndzIyb1BLWk1rM3B3YWR0OURzd0I4MGRCdjBYUHNIaTFfMUtQVi05b056U1pfR3daT3dFRGprMUV1WnR2dHZKUURRWUVhdnNtVzNYWkpRR2pYekdzaw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-06T07:00:00+00:00",
-      "generated_at": "2026-10-22T01:57:07.302505+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:57:07 +0000"
-    },
-    {
-      "id": "fenland-news-61894d7d99c3696b505b1383",
-      "headline": "Fawkes in The Walks returns to King’s Lynn",
-      "brief": "King’s Lynn is preparing for the return of the Fawkes in The Walks fireworks display on Friday, November 6. Organised by West Norfolk Council, the event features fairground rides, food stalls, and live entertainment starting at 6pm. Radio West Norfolk’s Simon Rowe will host the evening, with the mayor, Councillor Steve Bearshaw, leading the countdown to the fireworks at 8pm.\n\nEntry to the park is free, though voluntary donations are encouraged to help cover costs. Attendees are reminded that private fireworks, sparklers, pets, and drones are not permitted. Visitors are also asked to support the event by purchasing glow products from authorised sellers on-site.",
-      "original_url": "https://www.lynnnews.co.uk/news/fawkes-in-the-walks-set-to-light-up-the-skies-9487858/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/WK3VKRVYM77BI4YJC9RT.jpg",
-      "published": "2026-10-21T08:45:31+00:00",
-      "generated_at": "2026-10-22T01:56:45.261885+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:56:45 +0000"
-    },
-    {
-      "id": "fenland-news-2bcf3943e3097524e32c4f56",
-      "headline": "Optometry leaders urge sector to support global compact",
-      "brief": "The Association of Optometrists is calling for the eye care sector to join forces in support of a new global compact. Industry leaders are encouraging professionals across the field to unite behind the initiative. No further details regarding the specific aims of the compact or its impact on local services have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVTNiRVpNQzc0MkkwOVVqeFRab1o4amk4bE9tSVdxMVc1bHhVUmpUaG41c2hPQXd1N2c4a3p4QklaMTJfcmdUekxEdFp6V1dwLVh6X2VNWUVRYzJtLVFhWE5ncjRHbFZTU3ZxVEdteVFSVDRaa2lxcWN6SnlmRHBuc3VvWHlIM1FCdzk1TVZDOE5zMzN0a0tZTFVYaFJuRXZaZ19ESXduRQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-21T12:31:01+00:00",
-      "generated_at": "2026-10-22T01:56:38.524160+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:56:38 +0000"
-    },
-    {
-      "id": "fenland-news-a1fd124e81d5d42c15d10392",
-      "headline": "Funding boost for East Cambridgeshire residents in hardship",
-      "brief": "East Cambridgeshire District Council has confirmed it is receiving 110,000 pounds annually to provide support for local residents facing financial hardship. The funding is intended to assist those struggling with day-to-day costs. Further details regarding how the money will be distributed and who is eligible to apply for this assistance are expected to be released by the local authority in due course.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0Z5cWtEbzlyOVVBZVJLLUllSHRUazBpX0phclU4dFBOSGZaOGJyNlJNWmJtTGJ5TnBaSFVnWE03cGVBam9RM3NKUDZFNE85bXcyZmk1NmJJekFqV1hFRUdWRnBZbHMzS1BOVncyejEwWVJzR200T2NMRlJBM2ZVNmxmUmF2MEF5bUpfY29UZENBZDhuUTBubkFyRkZqVmhCZ0ZV?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-21T11:00:00+00:00",
-      "generated_at": "2026-10-22T01:56:32.424012+00:00",
-      "rss_date": "Thu, 22 Oct 2026 01:56:32 +0000"
     }
   ]
 }
