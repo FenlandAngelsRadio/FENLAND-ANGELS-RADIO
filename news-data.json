@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-28T13:35:44.516144+00:00",
+  "updated_at": "2026-10-28T22:53:32.213320+00:00",
   "stories": [
+    {
+      "id": "fenland-news-421afc87319e2d1dd493df44",
+      "headline": "Met Office weather update for Sutton Bridge",
+      "brief": "The Met Office has issued a weather update for the Sutton Bridge area in Lincolnshire. Residents are advised to check the latest forecasts for any potential changes to local conditions. Further information regarding the current outlook can be found via the official Met Office website.",
+      "original_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PbDhIejZYclVuRGFKYVdBMXdmY19Jek5VdXpWanljazN0RTFacGx3Nk5tUXBCYVI4SVk5ajBUUmhQVWFBLW9SajJBbzJwZ01ZeWRJX1ZUc1V0X0VNUExsNw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2024-11-27T15:13:22+00:00",
+      "generated_at": "2026-10-28T22:53:22.665584+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:22 +0000"
+    },
+    {
+      "id": "fenland-news-f15c8c8bfd03f578836d488a",
+      "headline": "New biogas plant proposed for Chatteris",
+      "brief": "Pretoria Energy has submitted a proposal to build a second biogas facility in Chatteris. The company intends to construct the new plant directly alongside its existing site in the town. Further details regarding the scale of the project or the timeline for development have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ2lDOTJDN245bmc4cHpPa1F6WmUybnhBRVVjOXZ5M1lTN2UyZTZ0NEROUnBpQ3pPb1RPaGdObkkyc1ZxZFRZcW52VDhvWldadGJvUkt3ZW9SWkJ6RFFkQURNUHVsWFo2ekhSS2dzbEdrSGFCUGVLOGNQZ2I2eW5nZ2VUMnVndDRrNjFNR0huNG1sX0RnMHlkOUdYVkFscFc4Y2xod050cFdyLWtvenJv?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-02T07:00:00+00:00",
+      "generated_at": "2026-10-28T22:53:21.172165+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:21 +0000"
+    },
+    {
+      "id": "fenland-news-c73246570bee87d8a8831719",
+      "headline": "King’s Lynn students raise funds for Breast Cancer Now",
+      "brief": "Hair and Beauty students at the College of West Anglia in King’s Lynn have raised over £135 for the charity Breast Cancer Now. During a recent ‘Wear It Pink’ event, students provided treatments including manicures and deep conditioning to members of the public. \n\nThe fundraiser allowed students to gain professional experience while encouraging important conversations about breast cancer awareness and symptoms. Course director Holly Little praised the group for their enthusiasm in combining practical learning with charitable support. The event served as the first opportunity this academic year for many of the students to work directly with clients.",
+      "original_url": "https://www.lynnnews.co.uk/news/pink-fundraiser-sees-students-showcase-skills-to-support-bre-9488669/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/A8UFTA121K5EXQ87VKYI.jpg",
+      "published": "2026-10-27T06:00:00+00:00",
+      "generated_at": "2026-10-28T22:53:17.743671+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:17 +0000"
+    },
+    {
+      "id": "fenland-news-072a916c1a3e52585a2b26d1",
+      "headline": "Peterborough United and Norwich City draw in women's football",
+      "brief": "Peterborough United and Norwich City played out a draw in their recent women's football fixture. The match between the two clubs ended with a final score of one-one.",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaE1xc21lbTh1YW1ObWlINV8walpzT1FkVmRsTFVCRWVzcy1fN3lyNHZwbjhiVmNTMVZOUGdfNkxvX09jaEJRNTBLLTltV0d6V3I5NGlSQ0NPVHh1cVBiOFFhZU54dTc2Q0lMWG9UeUxVZEo0b1lBd0I3VHJGZEhseXFoWkRMQVpxX3c?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-28T22:42:58+00:00",
+      "generated_at": "2026-10-28T22:53:09.987957+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:09 +0000"
+    },
+    {
+      "id": "fenland-news-3b1beec1f6930290b38556e8",
+      "headline": "Cambridgeshire locations named among best places to live",
+      "brief": "Eight areas across Cambridgeshire have been highlighted as the best places to live in the county. The list, published by Cambridge News, identifies these locations as stunning areas within the region. No further details regarding the specific towns or villages included in the selection were provided in the report.",
+      "original_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc0RPWmFzVWcwZ2hUWTV0UVNvN01EZFhtVkViSS1FRG90T1lUQkxYUXh5V0hPNXpRUmdjTEJabC1MVnA2T3dpeHJHZWZuV0tfTlduMndXVHFIeDIwckJ6R05jT0xsd2UyRk10c1ZZclI5ZEF2RE9oV2NlSDk1VVBSVmI5WUM5b0xhZVdWcU9oblRvWER1U3g40gGcAUFVX3lxTE9Hc0dLRDV6SFROdVFyLUtDeUFKa2tQQXFRcldfbG9pbVl3MGkteXlfamhxSkVWYWJrMXVuRUZWaDBBXzV5b2xOQnBiNjNQc080ZGwzQW9SM2NWT0lRcDJBTUhOdlE3cEZfRGV0ZFltSlhxeHJiZkhDNHRfYVB4azZ3QXhMc3hUNExIZzhnRHIyS1RlWGtjd1JVcUp6cg?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-28T16:00:00+00:00",
+      "generated_at": "2026-10-28T22:53:08.910352+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:08 +0000"
+    },
+    {
+      "id": "fenland-news-b0b06fc76d5338fe61ca8133",
+      "headline": "Red Arrows to fly over Cambridgeshire this week",
+      "brief": "Residents across Cambridgeshire are being advised that the Red Arrows are scheduled to fly over the county this week. The display team is expected to be visible in the skies as part of their current flight schedule. Those hoping to catch a glimpse of the aircraft are encouraged to look out for them throughout the coming days. Further details regarding specific timings and locations have been reported by The Hunts Post.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdXlpbjE5NkdNajgtMDQ5VjR6RnhzaFJ5MHFkVzY4TTZrWDc3eWZtUWtJb0dUZjdBNWoxNGxoMkhQTl9QRjM3VHF3SFN5VENSdS1NNldtYVNhd21mY2UyRjRwNWhjd1MyTlc4REJHTTRJdnl3eGFPLXg1NWx1WGdzZ0g4TmxodGdYV19v?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-30T07:00:00+00:00",
+      "generated_at": "2026-10-28T22:53:03.763779+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:03 +0000"
+    },
+    {
+      "id": "fenland-news-59eb1ee889c6b2f581996dcc",
+      "headline": "College of West Anglia hosts sixth annual Operation Inspire careers event",
+      "brief": "Students at the College of West Anglia’s King’s Lynn campus have taken part in the sixth annual Operation Inspire event. Held during T Levels week at the college’s sports campus, the careers fair connected students with a wide range of employers, universities, and training providers.\n\nOrganisations from sectors including healthcare, the Armed Forces, public services, and fitness were in attendance to offer career guidance and work experience information. The event, which was opened by West Norfolk Mayor Cllr Steve Bearshaw, aims to help students explore future employment pathways and build professional networks. Staff from HMP Whitemoor at March were among those represented, providing interactive demonstrations for the students in attendance.",
+      "original_url": "https://www.lynnnews.co.uk/news/event-was-fantastic-opportunity-to-showcase-career-opportu-9488974/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/VY8YB7ZP473FXNU7OZKY.jpg",
+      "published": "2026-10-28T15:37:01+00:00",
+      "generated_at": "2026-10-28T22:53:00.513603+00:00",
+      "rss_date": "Wed, 28 Oct 2026 22:53:00 +0000"
+    },
     {
       "id": "fenland-news-f190d4bb52656831eb463fee",
       "headline": "New road repair trials begin on Cambridgeshire peat land",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-16T13:49:13+00:00",
       "generated_at": "2026-10-24T09:49:08.574989+00:00",
       "rss_date": "Sat, 24 Oct 2026 09:49:08 +0000"
-    },
-    {
-      "id": "fenland-news-e93cd1a0678ea193d3b18aab",
-      "headline": "King’s Lynn man admits to car park arson",
-      "brief": "A 21-year-old man from King’s Lynn has pleaded guilty to arson following a fire at the St James Multistory Car Park. Dylan Jenkins-Drewery, of Gaywood Road, admitted to setting fire to toilet rolls while inside a cubicle on September 6. Norfolk Fire and Rescue Service attended the scene within 30 minutes to extinguish the flames, which caused damage to the cubicle and a toilet roll holder.\n\nCCTV footage captured the defendant leaving the area shortly before smoke was spotted. At Lynn Magistrates’ Court on Thursday, the court heard that Jenkins-Drewery had been playing with a lighter. The case has been adjourned for a pre-sentence report, and he is due to be sentenced on December 15.",
-      "original_url": "https://www.lynnnews.co.uk/news/arsonist-set-fire-to-car-park-toilet-while-messing-around-9488198/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/L7M15MLRQZCQZFCWVKI0.jpg",
-      "published": "2026-10-24T05:00:00+00:00",
-      "generated_at": "2026-10-24T09:48:59.912241+00:00",
-      "rss_date": "Sat, 24 Oct 2026 09:48:59 +0000"
-    },
-    {
-      "id": "fenland-news-38a9f897c227c88b182c9a52",
-      "headline": "Long Sutton firm denies environmental charges",
-      "brief": "A company is contesting environmental charges relating to two sites in Long Sutton. The business has entered formal denials regarding the allegations brought against it. No further details regarding the nature of the charges or the specific locations involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnhIN2FPOGYtdUgxSzlBSUNJWFNjSzF6ODF0eG5LSUFkWXc0cjFJUVNsaXNCNzZjY1I5aERfRzlhYnFFVDcwS0syRURmSkZhczBubDF2d25JRzJtUGlScERqbkpNRkNuM2pEdTVJT3VHekh5TUw1a0tQOXBGV1o0WVlySk9DNFdrQ0VYZHBLMWdaZklp?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2023-07-05T07:00:00+00:00",
-      "generated_at": "2026-10-23T20:40:32.206362+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:32 +0000"
-    },
-    {
-      "id": "fenland-news-1763fccf64d4a19c77770727",
-      "headline": "West Norfolk and Breckland schools feature in unofficial league table",
-      "brief": "A new unofficial league table published by The Telegraph has rated several schools across West Norfolk and Breckland as below average. The rankings, based on a 40-point system using 2025/26 academic data, placed Springwood High School in King’s Lynn as the area’s top performer with a rating of good. Downham Market Academy and Fakenham Academy were both rated as fair.\n\nHowever, local education trusts have questioned the findings. Representatives argued that the rankings fail to capture the full context of school improvement or the progress made by pupils. Marshland High School’s head teacher, Craig Jansen, criticised the methodology, suggesting it does not fairly account for the socioeconomic challenges faced by schools serving disadvantaged communities.",
-      "original_url": "https://www.lynnnews.co.uk/news/many-west-norfolk-and-breckland-schools-rated-below-average-9488106/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/WD7X0WE15PCSDTPKMP8K.jpg",
-      "published": "2026-10-22T13:11:44+00:00",
-      "generated_at": "2026-10-23T20:40:30.600008+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:30 +0000"
-    },
-    {
-      "id": "fenland-news-e8df698f5569624e6ff6b2a0",
-      "headline": "Artist Cici Wu featured in Frieze magazine",
-      "brief": "The artist Cici Wu is the subject of a recent feature in the publication Frieze. The article, titled \"Cici Wu’s Lanterns Flicker in the Mind’s Eye,\" explores the work of the artist. Further details regarding the exhibition or the specific nature of the pieces discussed can be found in the latest edition of the magazine.",
-      "original_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZVmdPWWsxc1k4NGwxYTNmZ21PTnNRMktRek5ZWFhhbnczS3lZdUQzajZhSnFreE9QUDZzdFlwVVdFNTBFVzA3Yk1EUlhkeEhTZjI3TTFCOA?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-23T18:05:27+00:00",
-      "generated_at": "2026-10-23T20:40:28.429902+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:28 +0000"
-    },
-    {
-      "id": "fenland-news-4752f99bd8bfddb5b9a2242f",
-      "headline": "Police appeal following East Cambridgeshire shop thefts",
-      "brief": "Officers in East Cambridgeshire are currently searching for individuals wanted in connection with a series of shop thefts. Police are asking for the public's assistance as they investigate these incidents across the local area. Anyone with information regarding these matters is encouraged to contact the authorities.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZHBPVlhFUkRUbHVzQVVOZnBKMG1sQTFGUzU5TnRGTTBoM3R0dkg0NjlsS1hqYjFlV002MmE3SEZhOURFSWFWaGZsZEgxalFvMTJfaVdMRDR4X1dLVHJfaDFuRjlsZjNJOTQyRG12ejRMX2Rhb2RNWXJhZHFfRVhvb041WTVucHpDZzZadlJn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-23T13:40:00+00:00",
-      "generated_at": "2026-10-23T20:40:27.555105+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:27 +0000"
-    },
-    {
-      "id": "fenland-news-c4af18679d31dd152b4512f1",
-      "headline": "Dispersal orders issued for Holbeach and Sutton Bridge",
-      "brief": "Lincolnshire Police have put two 48-hour dispersal orders in place for Holbeach and Sutton Bridge. These orders grant officers additional powers to move individuals out of the designated areas to prevent anti-social behaviour. Residents in these parts of the Fens should be aware that the measures are now active. Police have not provided further details regarding the specific incidents that led to the decision, but the orders remain in effect for the two-day period.",
-      "original_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRXBDTVkzSG5wZU1WWUhZY2lCVmdPbDNibHgzWVVDalhPSFJNM3BlZGJzbXFmOE43NVVHTDN6YjFVLWJ6ZE9OWUxpbDdsak9ZT005T2hfeldvLTJDNHhUMFE3SElRMzI4U19VSlUxNUhxQUN0U1laRV84WGpwWlBVWDFjczNHN3JoWXo1M3Y3ZWhDMWlLOUtzYlZnZXZQY1Q1SXlYQ3pPd09KMnVNckNFcnRnQzdtdUJpc08yRDJhSVVoQU5xTEE?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-10-23T14:35:00+00:00",
-      "generated_at": "2026-10-23T20:40:26.448924+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:26 +0000"
-    },
-    {
-      "id": "fenland-news-d944ee268234cff475368eab",
-      "headline": "Eight-week road closure near Chatteris",
-      "brief": "Drivers in the Fens are being advised of an upcoming road closure near Chatteris. A stretch of road in the area is set to be shut for eight weeks to allow for essential repair work to take place. Motorists are encouraged to plan their journeys in advance to avoid potential delays while these works are carried out.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sUHk1ZGU4Q3YzTWhEUjJoNHpUOWtMaE1ocTU4Z0Q4TUFDZThvNW5fT1VMQjlraTlGVVJ2cWhhMTZ5ZmpZS2ZoUkxWVDhtRDB3WTR5QzF6R2tIQQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-02-02T08:00:00+00:00",
-      "generated_at": "2026-10-23T20:40:13.924472+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:13 +0000"
     }
   ]
 }
