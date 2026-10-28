@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-10-28T06:21:10.925548+00:00",
+  "updated_at": "2026-10-28T13:35:44.516144+00:00",
   "stories": [
+    {
+      "id": "fenland-news-f190d4bb52656831eb463fee",
+      "headline": "New road repair trials begin on Cambridgeshire peat land",
+      "brief": "Cambridgeshire County Council has launched a series of trials to test new ways of maintaining roads built on peat. Seven different repair methods are being used in a project described as a first for the UK. The initiative aims to find more effective solutions for the specific challenges posed by the region's unique ground conditions. Officials hope these tests will lead to more durable road surfaces across the area.",
+      "original_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNWg4emlncWRZc1NKZENDWkFmVGFCR0JXQVd5aWpmQUZpZHlrRmZBR21xQk14dl9VWHJabE5LWXA1ZkthOUwwdHBTZGRyU1pkSDJQRjh5Y1c5Y3RiQ1M0S0VJY0VaWDNLN2JraGRPM0wxX3lsNUxyMHpqcUxDci1GbEtFc1FGVFE0aWJKRUdRSHJMbGJSeVU0VzJneXhhQXVWSFE?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-10T07:00:00+00:00",
+      "generated_at": "2026-10-28T13:35:21.636383+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:35:21 +0000"
+    },
+    {
+      "id": "fenland-news-a4c15eb01dc04d11524015d3",
+      "headline": "Funding secured for new £600,000 fire training centre in King’s Lynn",
+      "brief": "A new £600,000 specialist training facility is planned for the South Lynn fire station. The project is being funded by a joint investment of £300,000 each from Norfolk County Council and West Norfolk Council. The site will allow crews to practice for complex emergencies, including road traffic collisions and rescues at height, without needing to travel to other stations. \n\nConstruction is expected to begin next year, subject to planning consent and site surveys. Officials say the facility will help firefighters maintain vital skills locally and ensure emergency services can keep pace with the area's growing population. The development follows a record-breaking summer for Norfolk Fire and Rescue Service, which saw its busiest month on record this August.",
+      "original_url": "https://www.lynnnews.co.uk/news/funding-approved-for-planned-600k-fire-training-facility-at-9488887/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/5H33GRXQR3KBTQRPZ7SF.jpg",
+      "published": "2026-10-28T11:39:06+00:00",
+      "generated_at": "2026-10-28T13:35:19.648472+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:35:19 +0000"
+    },
+    {
+      "id": "fenland-news-413447033e4dd8c7823052cf",
+      "headline": "Peterborough United Women to face Norwich City",
+      "brief": "Peterborough United Women are set to play Norwich City in an upcoming football fixture. The match between the two clubs has been confirmed, with details regarding the preview released by Norwich City Football Club. Supporters are advised to check official club channels for further information regarding the game.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2lKYTZIX2R6RTc3bV9JQkpEMXpQSFpiOXRFcVp2STZSdm1kVVNVVlJ4aG1mbVFjcnFwMHE0Y1lDbDBiblVKdERzeFlScVh0bTVfSy1CU011OWZDeWZhb2VxOTMwaHZKektFaWN4cWRZZVREY0wwSy1DR0FLUVdaR1FXMmNfck9U?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-28T10:40:26+00:00",
+      "generated_at": "2026-10-28T13:35:15.672468+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:35:15 +0000"
+    },
+    {
+      "id": "fenland-news-c8c1aeaafb9485e468de68e2",
+      "headline": "Autumn walking spots highlighted in Cambridgeshire",
+      "brief": "A new report from The Hunts Post has identified five locations across Cambridgeshire recommended for autumn walks. The publication highlights these areas as suitable destinations for residents looking to enjoy the seasonal scenery. While specific locations were not detailed in the report, the information serves as a guide for those planning outdoor activities in the county during the coming weeks.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQei1TQm5kcTNsa1dINWZBQ3pzaGppT2o2Y0Z5MFp3enpha05SQ1k5Z0VTMV92S2cwTk56aHd4ZHBtM2dxNWRsR2x3Y2l3cGxncTBQSzZXbGlzY0pmeU9YWUE1YjdkOFVoeXhXZmQzVXJVa3E2SVN3eE1vbkNGc2dmVDEzaTBxOVR5SlFZMXNyX0g?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-26T14:00:00+00:00",
+      "generated_at": "2026-10-28T13:35:01.723421+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:35:01 +0000"
+    },
+    {
+      "id": "fenland-news-a82c9e8ab033ffd977636caf",
+      "headline": "New 'Perch Here' trail opens in Sutton Bridge",
+      "brief": "A new walking route called the 'Perch Here' trail has officially launched in Sutton Bridge. The project was introduced by Lincolnshire County Council. Residents and visitors are now able to access the trail, which is designed to encourage walking in the local area. Further details regarding the route and its features are available through the council’s official channels.",
+      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNjZ6UFZ3SlcyUnQ1c2w1ckVVb3BKT2h0OEFjYks3SktBdjdYTE9OX3lUMUVBMUVaMUJ6Tlp3NEVUMVNmaDRrdnpmLS1xYTlrTFFfQ0xJRXZrbzBSZzllVjA1anp3OXNYakRmRnEyVkh0S3p1VGVIQkQwbTJKd09XejN2ZXN1cGFLUF83c24tTEpUUk0?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2024-07-17T07:00:00+00:00",
+      "generated_at": "2026-10-28T13:34:59.837468+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:34:59 +0000"
+    },
+    {
+      "id": "fenland-news-87b8d876a3d2b0be81074c8e",
+      "headline": "Police investigate suspected car fire in Fenland town",
+      "brief": "Cambridgeshire police are investigating a suspected arson attack following a vehicle fire in a Fenland town. Officers are currently looking into the circumstances surrounding the incident. No further details regarding the exact location or the condition of the vehicle have been released at this time. Anyone with information is encouraged to contact the authorities.",
+      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORG1HaFA5VHdoYkI3bkdoSmhKQVd1TVViZUtFU1FYUUU0Z3B0VXlEbzkyUnZmVklSdFU2eUZ2bnFSUjRNcDFROVdVSDJ0ZDF0Y0ZHeXpES09yenZUT2xIR2cwY0d2R2YtMGM3a2ZNUmtkUThUX2g0Yk1uRjY5aFNWQkI5TDdDcm1lSXE0VW1qeTdCNEhWMzhBZWJqRjl0a3BJVklz?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-28T12:32:00+00:00",
+      "generated_at": "2026-10-28T13:34:53.777033+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:34:53 +0000"
+    },
+    {
+      "id": "fenland-news-43f04b63ca03da1837ca4946",
+      "headline": "Vehicle seized by police on the A47 in Wisbech",
+      "brief": "Police in Fenland have seized a van following a stop on the A47 near the Elm Hall roundabout in Wisbech. Officers from the local neighbourhood team pulled the vehicle over after noticing it was being driven with an exploded tyre.\n\nUpon inspection, the driver was reported for several offences, including driving without a valid licence or insurance. They were also reported for operating a vehicle with an insecure load. The van has since been removed from the road.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/vehicle-with-insecure-load-seized-and-driver-reported-for-nu-9488857/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/GJ8EQXM3XZG7A0Q83BKZ.jpg",
+      "published": "2026-10-28T09:25:36+00:00",
+      "generated_at": "2026-10-28T13:34:51.814355+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:34:51 +0000"
+    },
+    {
+      "id": "fenland-news-d7ca19d50e82617578101506",
+      "headline": "Repairs approved for historic King’s Lynn South Gate",
+      "brief": "West Norfolk Council has granted listed building consent for maintenance work at the historic South Gate in King’s Lynn. The project includes replacing a window on the western side, installing a new internal timber screen, and repointing brickwork around the main gateway on London Road. \n\nArchitects state the repairs are necessary to prevent further degradation of the masonry and to keep the site secure. While the council has approved the plans, there is currently no confirmed start date for the work. It remains unclear if the repairs will require any traffic restrictions on London Road or what the total cost of the project will be. Historic England has expressed support for the proposed maintenance.",
+      "original_url": "https://www.lynnnews.co.uk/news/repairs-to-town-s-historic-structure-given-green-light-9488942/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/G3RGNXPEIMMLB0J5NCKN.jpg",
+      "published": "2026-10-28T13:27:48+00:00",
+      "generated_at": "2026-10-28T13:34:34.754065+00:00",
+      "rss_date": "Wed, 28 Oct 2026 13:34:34 +0000"
+    },
     {
       "id": "fenland-news-69f17a2f0687c65a9f4c8bf5",
       "headline": "Roof repairs scheduled for Long Sutton Library",
@@ -1012,94 +1100,6 @@
       "published": "2026-02-02T08:00:00+00:00",
       "generated_at": "2026-10-23T20:40:13.924472+00:00",
       "rss_date": "Fri, 23 Oct 2026 20:40:13 +0000"
-    },
-    {
-      "id": "fenland-news-10467de4b7652bd35528b845",
-      "headline": "Concerns grow over potential maternity service cuts in King’s Lynn",
-      "brief": "Campaigners and MPs have raised alarms over the future of maternity services at the Queen Elizabeth Hospital in King’s Lynn. The facility is being reviewed by the Norfolk and Waveney University Hospitals Group, which is considering centralising services at the Norfolk and Norwich University Hospital. \n\nThe Queen Elizabeth and the James Paget Hospital in Gorleston are among the 12 smallest consultant-led maternity units in England. While hospital bosses state no decisions have been made, critics warn that potential closures would force women to travel longer distances for care. A clinical strategy regarding the future of these services is expected to be presented to the Norfolk County Council’s health overview and scrutiny committee next month.",
-      "original_url": "https://www.lynnnews.co.uk/news/fears-over-maternity-care-loss-9488443/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/3OZYE2E5F0MZ7TSJXJ3T.jpg",
-      "published": "2026-10-23T16:35:42+00:00",
-      "generated_at": "2026-10-23T20:40:10.989052+00:00",
-      "rss_date": "Fri, 23 Oct 2026 20:40:10 +0000"
-    },
-    {
-      "id": "fenland-news-4eae041d5c783acc67877f90",
-      "headline": "Long Sutton dental practice sold",
-      "brief": "A dental practice in Long Sutton has been sold for the first time. The business transaction was facilitated by the specialist firm Christie and Co. No further details regarding the new ownership or potential changes to patient services have been released at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa2ptMUsyUzBiX0tCR0E2Z2taa3VWRlVKbmEwX1RnZnN6VTZ5RG1yZ1lqdTV2Wi0xcnBQMWVESmVRUzJJUGN4RVpkeXR2SXZHalRJd3htNlJ0cnZyN0VJemo5a21pM0VJa3ZjeVVVUWxicE1GWHI2QnpjVS1YSmNfdGhaOXh4ZmZ5TzFfNXZ6Y1J0VktvblVlZFBSNU5Fbk1MOXVF?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-03-30T07:00:00+00:00",
-      "generated_at": "2026-10-23T15:58:18.848210+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:58:18 +0000"
-    },
-    {
-      "id": "fenland-news-6a016ac76d0c2f7421662451",
-      "headline": "New arrival for Chatteris fire crew",
-      "brief": "Cambridgeshire Fire and Rescue Service has announced a new addition to the team based in Chatteris. The service confirmed that firefighters at the station have been joined by a new colleague. No further details regarding the nature of the arrival have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUJ2WXZfTVR5UF9ua25hb19YdFVGWVdxS3QzTVVic1doOThyNmdwLWtKQzhtSWZEQ2VUcW9OajFSZVJWWXItQmo2dzYtSjNHVkNLRDlFR1FCWGZOUng4SE5GVHU2T3o2amxVMUR0d1RzUnB2LVVBSXd0SWNhcXdXblBib3I3VmQtUFRheFBOQzViZGlJWFNWQjVJY2E5THRyY19J?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-06T07:00:00+00:00",
-      "generated_at": "2026-10-23T15:58:14.516886+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:58:14 +0000"
-    },
-    {
-      "id": "fenland-news-9ed4f041d8f99366468fa1c7",
-      "headline": "Halloween party planned for North Lynn Discovery Centre",
-      "brief": "Families are invited to a free Halloween event at the Discovery Centre in North Lynn on Thursday, October 29. The party runs from midday until 3pm and features a variety of seasonal activities, including a disco, arts and crafts, and a word hunt. Attendees can also take part in a best-dressed competition and enjoy face painting provided by Leah’s Little Faces. \n\nThe centre, which is managed by Freebridge Community Housing, is located on Columbia Way. Organisers are reminding visitors that parking at the venue is limited.",
-      "original_url": "https://www.lynnnews.co.uk/news/get-dressed-up-for-centre-s-spooktacular-party-9488361/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/WYGLSJVPPWLCNXTW8J8N.jpg",
-      "published": "2026-10-23T13:16:03+00:00",
-      "generated_at": "2026-10-23T15:57:57.365296+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:57:57 +0000"
-    },
-    {
-      "id": "fenland-news-cdb47b899588867771217dc0",
-      "headline": "Whittlesey pub to close its doors",
-      "brief": "A public house in Whittlesey is set to cease trading. According to reports from the Peterborough Fenland Edge News, the establishment has served its final customers. No further details regarding the reasons for the closure or the future of the premises have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORURtQl9Bczd6bWtoYzBiVTBWRGVxRmwxRHBxR1lOWFUwZnFaUEJqRy1qcHEyYkpnTEhlc2NkNXBWTEdVU0JrR3JxME1XWjVOSDg0UndhdDJXaThzOGFoSUxnRTRzQnU3WUdVTTI4OGUzaHJYcWNWaWFjUEQ4M1JUVmYyd1JyX0Q0RFl1SzJyQXBpLU41Si00N2UxY3hLckJK?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-23T12:38:00+00:00",
-      "generated_at": "2026-10-23T15:57:24.649053+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:57:24 +0000"
-    },
-    {
-      "id": "fenland-news-8b5f799b2a9d24203fe45ef9",
-      "headline": "Report identifies most affordable Cambridgeshire housing area",
-      "brief": "A new report from the Ely East Cambridgeshire News has highlighted the most affordable location for property buyers within the county. The publication identifies the specific area where house prices are currently at their lowest across Cambridgeshire. Residents looking to enter the local property market may wish to consult the full report for further details on these findings.",
-      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFNUUUtGd1dxYkRTaWlDM0xYaHdTY3c2MjREVl8xWjRaOGx0c0dkRnJVNm9DVHVDR2RUWFJVb3l0cDNVZ0JTclJDYkpTZ2dpRjBySTFwX0dza2xNaVY3US04TkNqM0tZSjM2cldObHRfVDM4WlgwUkZhLVVhTXJlNjJBNXpPS1hPclhIRE1RTETSAZYBQVVfeXFMTTJSRThHTm1ZSzU5ZlV2ZmZSaHU2Vmt3aTdPWmFBQVhBZ0U2dlYzSVMzYWUwV2YtYV8xeGFySjJ6TkttYkVlM05qZUJYNGhnamVOQjhkMHFZVEJwOGoyX0VIZ0JkaDVjZlFlR0YtWk1ocEJQYjk1Q3pqYmVHM0lrQ2NaZnFjQi1NM1NVcjBqZ01kZlBzTDBn?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-23T11:04:00+00:00",
-      "generated_at": "2026-10-23T15:57:11.567337+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:57:11 +0000"
-    },
-    {
-      "id": "fenland-news-a4b93dbf986c98246b6c5384",
-      "headline": "Investment announced for Hoddins Way Business Park",
-      "brief": "Lincolnshire County Council has confirmed new investment for the Hoddins Way Business Park. Officials have described the site as a thriving location for local commerce. The funding is intended to support the ongoing development of the business park, which serves as a key hub for the area. No further details regarding the specific nature of the improvements or the total value of the investment have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRzg2RTlmTDd4U2o2YzNlaUt5Z05Hd1hWTHZIbjVxRW0wWE1rQWYwQ3Y0MFhUc28tRmYyMy1zRmtJVzVPQVd3OVo5T1gzWkhOY0hRMW9JZ21SaGhad29oRi1YaW1lbkEzYUtlbW1kMS1ha1FLdDRrY2ZLVHh6czlPakE3Y3BIU2JtSDR1WEVKNXlOT25pWGZnT0MxOXNMMlA5R0kteEd3WmY1SVZGWWlR?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-07-30T07:00:00+00:00",
-      "generated_at": "2026-10-23T15:57:06.242259+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:57:06 +0000"
-    },
-    {
-      "id": "fenland-news-c9d81b621fa1a89d66d262e2",
-      "headline": "Fire service confirms Fenland house fire was accidental",
-      "brief": "Cambridgeshire Fire and Rescue Service has confirmed that a recent house fire in a Fenland town was accidental. Officials have concluded their investigation into the incident, determining that the blaze was not started deliberately. No further details regarding the specific location or the extent of the damage have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3JFQ2ZnbHhrZWNRUWg0TlEtWndmbUNocEp0SEJubW1RUkN3aVBGWkVJSVg1XzV3SjBoWWJZNjRHMEd0dUUwdGUwVUNNaGlnYldxOHNXQlRBd1VoRWhsRzJVSDYwUlpBOGdhaVcxVXJJWVVGRkZvX1Y0WkpyQms1SjN4QnQ2NV9YdWZISHcwY180ZmtsSEVscDJR?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-23T12:42:00+00:00",
-      "generated_at": "2026-10-23T15:56:31.329845+00:00",
-      "rss_date": "Fri, 23 Oct 2026 15:56:31 +0000"
     }
   ]
 }
