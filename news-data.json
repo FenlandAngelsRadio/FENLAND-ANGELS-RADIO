@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-29T13:46:24.115101+00:00",
+  "updated_at": "2026-10-29T23:00:09.067498+00:00",
   "stories": [
+    {
+      "id": "fenland-news-bc4abfa4dd367a295cab7718",
+      "headline": "New gym equipment installed at Fenland leisure centres",
+      "brief": "Council-owned leisure centres in Chatteris, March, Whittlesey, and Wisbech are receiving a significant upgrade to their gym facilities. Fenland District Council has invested in new equipment, which is now being installed at the George Campbell Leisure Centre in March. \n\nTo facilitate these improvements, gyms at other sites will close for three days each. Chatteris Leisure Centre closes from November 2 to 5, followed by the Hudson Leisure Centre in Wisbech from November 9 to 12. Finally, the Manor Leisure Centre in Whittlesey will be closed from November 17 to 20. During these periods, swimming pools and fitness classes will remain open as usual. The Hudson Leisure Centre will also gain a new dedicated space for dynamic workouts.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/gyms-at-fenland-s-council-owned-leisure-centres-overhauled-w-9489172/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/CH32QWFF6GI7Y5I06MBJ.jpg",
+      "published": "2026-10-29T14:58:14+00:00",
+      "generated_at": "2026-10-29T22:59:53.177443+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:53 +0000"
+    },
+    {
+      "id": "fenland-news-458530126b70a44e18e281be",
+      "headline": "West Norfolk students showcase dance talent in new competition",
+      "brief": "Students from four West Norfolk Academies Trust schools have taken part in a new dance competition held at Springwood High School. Thirty-eight pupils from years seven to thirteen, representing schools in King’s Lynn, Hunstanton, Terrington St Clement, and West Walton, demonstrated their technical skills and choreography. \n\nParticipants were required to choreograph their own routines and select their own music for the event. The competition featured solo and group categories across Key Stages 3 and 4. Organisers hope the successful event will help raise the profile of dance across the Trust and lead to further projects in the future. All competitors received certificates, with trophies awarded to the winners in each category.",
+      "original_url": "https://www.lynnnews.co.uk/news/students-compete-in-dance-contest-9488656/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/2THGIU8IILBK983MK9XL.jpg",
+      "published": "2026-10-27T06:00:00+00:00",
+      "generated_at": "2026-10-29T22:59:51.450516+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:51 +0000"
+    },
+    {
+      "id": "fenland-news-583a90d51badcf639cbdb4e5",
+      "headline": "Bee-friendly roofs approved for bus stops",
+      "brief": "Plans have been approved to install mini-gardens on the roofs of bus stops. The initiative aims to support local bee populations by creating new habitats within the urban environment. The project, which was reported by the BBC, will see greenery planted atop existing bus shelter structures. No further details regarding the specific locations or the timeline for these installations have been confirmed at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5OEg2aC1PakQ3cUZPVU9KWnAyZFUxT0d3bUVPSDFGYlNXel90U1RXTmwtUnk5NFNGamtQdE1ILW0zM3Q0MkhLcld2TFh5WXdpYnFOeFBRelo1bFhNeHc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-29T11:58:00+00:00",
+      "generated_at": "2026-10-29T22:59:36.810347+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:36 +0000"
+    },
+    {
+      "id": "fenland-news-2957b20edfa3b8e555f060cc",
+      "headline": "Cambridgeshire local government reorganisation delayed",
+      "brief": "Plans to reorganise local government in Cambridgeshire have been pushed back once again. The proposed changes are facing criticism, with some describing the situation as a political merry-go-round. No new timeline for the reorganisation has been confirmed following the latest setback.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcWhMY0FQVkREbVVOVU5admRvaEVSdWJBc3dCNm0zRFl0bll4eGl6d3pPdzdVX3JvRHZCWFpSLVlhd1E1WDlmM0c2MFZrRmpETVk3RzR4U3EzZ1JPbEthaV92cFJxVk9icktvZXZEaVdLRWN3MzVrWUNYbFlJRXhxd0RNc1gyNUdaUkhwSlZ5bUc0R0FzUGNhOU5JMFF5RHAtS3hmOEtsZ1F4VU5MeHg2bURQZw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-29T16:22:00+00:00",
+      "generated_at": "2026-10-29T22:59:35.888355+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:35 +0000"
+    },
+    {
+      "id": "fenland-news-1c433fb926bf06d58151b482",
+      "headline": "New principal appointed at secondary school",
+      "brief": "A new principal has been appointed to lead a secondary school in the region. The school, which has been described as troubled, will see a change in leadership following the announcement. Further details regarding the identity of the new principal or the specific school involved have not been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaHJuNzF6Q2R3NzJSSzdzNGdCUzNQMXNWNHRJRkw5X1VlX20yWEN5YTlITnRjYTBMVEQxaEhfTVVmVVN3MXRZZzdvb3phN0xHOVNwTGZBbXJVM1kxN0VlYWFvNElpbzlnTzRwNzg1M0lBZzd0R1JWdGxETWZrWG5kWjNDV1Y0VlRKVnFUR2NiYmRmN09XbmtiOWVnX2hvbG1EYk9DYi1zRGZkSnZPSW44VFRWYw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-06-09T07:00:00+00:00",
+      "generated_at": "2026-10-29T22:59:34.931437+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:34 +0000"
+    },
+    {
+      "id": "fenland-news-0024819a485e3baf1dab3b09",
+      "headline": "Nominations open for fifth annual Fenland Citizen Business Awards",
+      "brief": "Nominations are now open for the fifth annual Fenland Citizen Business Awards. Businesses, individuals, and charities from across the district are invited to enter across eight categories, including Business of the Year, Employer of the Year, and Best New Start-Up. \n\nThe awards aim to highlight local innovation and success stories. Entries must be submitted by 5pm on Wednesday, January 6. The winners will be announced during a black-tie event held at the Wisbech St Mary Sports and Community Centre on Friday, March 19, 2027. Further details regarding entry criteria and how to nominate can be found on the Fenland Business Awards website.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/celebrating-the-best-of-business-at-fifth-annual-awards-9489182/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/OJ6OTT0UN045QG03DZ8G.jpg",
+      "published": "2026-10-29T15:55:36+00:00",
+      "generated_at": "2026-10-29T22:59:33.150209+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:33 +0000"
+    },
+    {
+      "id": "fenland-news-aba834583f13844e3f9cd2dc",
+      "headline": "Downham Market toddler stars in national swimming campaign",
+      "brief": "A three-year-old from Downham Market is helping to front a new national initiative from Swim England. Phoebe Stoves and her grandmother, Gill, are featured in the ‘Love Swimming’ campaign, which highlights the benefits of pool sessions for families. \n\nPhoebe began lessons in April and has since grown in confidence after initially feeling nervous. The campaign, supported by Alive West Norfolk, encourages families to start swimming lessons this autumn. Research cited by the organisation suggests that most children show improved water confidence after only a few sessions. Those interested in finding local classes can visit the Swim England website at swimming.org/poolfinder for more information.",
+      "original_url": "https://www.lynnnews.co.uk/news/swimming-superstar-phoebe-3-face-of-national-campaign-9488742/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/C0A6MNF5J5SJ8BQFZLDV.jpg",
+      "published": "2026-10-27T12:39:20+00:00",
+      "generated_at": "2026-10-29T22:59:31.359152+00:00",
+      "rss_date": "Thu, 29 Oct 2026 22:59:31 +0000"
+    },
     {
       "id": "fenland-news-7bd9b06709a7f151afa15453",
       "headline": "Ely MP criticises Autumn Budget",
@@ -1023,83 +1100,6 @@
       "published": "2026-10-22T05:00:00+00:00",
       "generated_at": "2026-10-24T19:50:22.763290+00:00",
       "rss_date": "Sat, 24 Oct 2026 19:50:22 +0000"
-    },
-    {
-      "id": "fenland-news-6b30187276587639a1354ab6",
-      "headline": "Peterborough United secure point against Bromley",
-      "brief": "Peterborough United earned a draw in their latest away fixture against Bromley. The result was secured after a goal from substitute Masara, who opened his account for the club during the match. The point is considered a valuable addition for the team as they continue their campaign.",
-      "original_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVEFwdGoxZmQzN3NyVmpXbVRSX3BMRmFDTW12NTZQX05lLTdiMURqaTJsZ1pWemFGVG5YdlZEaXhBaW0tVllZWnU1R2Y2T2paNmd1Tm1nby1yLXlHTzZ0ZjNKMzJmcnBfbE1qZjRQTkQwZ2paMGtrZGpyb3F5Z0N3MUFFVUhPMWtXallaZ3ZBeG1seEN1M291WG1TV2lTTXBhcGxQUVJWUFhoTlNhU1Q5UVQ2X3A4S0JhdmFXa0Q1eHlPdXFXcDRkX3FmbmoyVE96YkRkVC1uQnZpVWNJd1V6YlRJUENUVkxiUUhMdFRtV0stSVZrUnFUbXhFcl91Zw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-24T16:30:00+00:00",
-      "generated_at": "2026-10-24T19:50:20.787480+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:20 +0000"
-    },
-    {
-      "id": "fenland-news-641d58ba3d0c9a16e624ff8e",
-      "headline": "Cambridge man defends world tiddlywinks title",
-      "brief": "A Cambridge resident has successfully defended his world title at the latest tiddlywinks championship. The competitor managed to retain his crown at the event, maintaining his status as the reigning world champion.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVEs2Zml2Wk1XRzh4cGRDTTV3WTZkYnNNTjJudDVYRjN6TlRhdFBnU1hkT2hXSUkwa1BpRW9sdDRDclJTWFNMLTZDdGQtMlVwNXNkNkFrQ1VkSk0wUHlWRFRjS1M5SFA4VnNKQTF3QkE4UFYxMTRCMUFLYXdrMk9BVWhVS1ZRTlBhUUk1NldUd0lsQTdtNXJ3VnY3c9IBoAFBVV95cUxOWHBNXzA0VWVRTnlfZEtaNzBxQ081TUJsTGlkd29rSlFFazlmZHh5REFtam1uTWhJdzVfdmp2Skt6TUM5WkVBV2pJRFBUeVk2OXBjR2pRSXVQUWZZNzBva0IydjdmczY1dGNGVDVWSlA0ZERKUTlnYnNkTlgyNmJ6X1poRS1CRTVWb1pWRG1RMnlTZmRTRURFUWNIbjZNc3RV?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-24T12:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:19.599601+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:19 +0000"
-    },
-    {
-      "id": "fenland-news-f3f7e79c8f47d5acd75aa282",
-      "headline": "Students protest toilet policy at University Academy Long Sutton",
-      "brief": "Pupils at University Academy Long Sutton have staged a protest regarding changes to the school's toilet regulations. The demonstration follows the introduction of new rules concerning student access to facilities at the site. Further details regarding the specific nature of the policy changes or the school's response have not been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BR2JnZURmUTRjNlZfbUZkQ0owOXhXM2Qwal9QY0s2TTRfaDY0T21BR3R3WGx5cnpwTlRVTk5KTEdJSkdNeUZQTTQtNnk3TTVRRDBlQlpDLWlkQQ?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-05-05T07:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:18.862385+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:18 +0000"
-    },
-    {
-      "id": "fenland-news-6a016ac76d0c2f7421662451",
-      "headline": "New arrival for Chatteris fire crew",
-      "brief": "Cambridgeshire Fire and Rescue Service has announced a new addition to the team based in Chatteris. The service confirmed that firefighters at the station have been joined by a new colleague. No further details regarding the nature of the appointment have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUJ2WXZfTVR5UF9ua25hb19YdFVGWVdxS3QzTVVic1doOThyNmdwLWtKQzhtSWZEQ2VUcW9OajFSZVJWWXItQmo2dzYtSjNHVkNLRDlFR1FCWGZOUng4SE5GVHU2T3o2amxVMUR0d1RzUnB2LVVBSXd0SWNhcXdXblBib3I3VmQtUFRheFBOQzViZGlJWFNWQjVJY2E5THRyY19J?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-06T07:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:17.983172+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:17 +0000"
-    },
-    {
-      "id": "fenland-news-4f5c19ad1b60b8087238c121",
-      "headline": "Former Wisbech Town FC president returns to watch match",
-      "brief": "A resident of Orchard House Care Home in Wisbech has enjoyed a special return to his former football club. John Petch, who served as president of Wisbech Town Football Club for 16 years, expressed a wish to see his hometown team play once again. Staff from the care home arranged for Mr Petch and his wife, Sheila, to attend Saturday’s match, which included lunch at Bygones. \n\nMr Petch, who stepped down from his role in 2020 after nearly 60 years of service, was greeted by many familiar faces, including club chairman Paul Brenchley. He described the experience as a fantastic day, made even better by a victory for the home side.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/care-home-resident-and-former-football-club-president-s-wish-9487341/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/966WHEY5UB0ZV6LM6YJX.jpg",
-      "published": "2026-10-16T13:49:13+00:00",
-      "generated_at": "2026-10-24T19:50:17.124833+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:17 +0000"
-    },
-    {
-      "id": "fenland-news-5d5ef0eaefbf59bae84240b0",
-      "headline": "King’s Lynn Waterstones highlights new book on paranormal investigations",
-      "brief": "Waterstones in King’s Lynn has named Chasing the Dark by Ben Machell as its current Book of the Week. The non-fiction title explores the history of the Society for Psychical Research, focusing on the work of British naval officer Tony Cornell. Between 1950 and 2010, Cornell was a prolific investigator of psychic phenomena and paranormal events, working alongside psychologist Alan Gauld to document reports from the public. The book draws on a previously untapped archive of Cornell’s case files, examining encounters with ghosts and poltergeists. The publication is currently featured alongside the store's latest top ten bestsellers list.",
-      "original_url": "https://www.lynnnews.co.uk/news/untapped-archive-of-haunting-cases-shows-interactions-with-s-9487629/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/DJ3MXLLFUBTRDRPXLOE2.jpg",
-      "published": "2026-10-24T05:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:15.467376+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:15 +0000"
-    },
-    {
-      "id": "fenland-news-b4519b2ff0e56deef95d0235",
-      "headline": "Developer appeals butterfly park planning decision",
-      "brief": "A developer is challenging a decision to refuse planning permission for a proposed butterfly park. The move has prompted concerns from local residents. The project, which was previously rejected by planning authorities, is now the subject of an appeal process. Further details regarding the timeline for the appeal or the specific reasons for the initial refusal have not been disclosed.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTGdVaDFHZ1JYeWY1SlR1M2NzX0pSQWZoa1ExTTAyM1o4SzVpU0hRWV9GNUItLXRJVG9CUmVVcC14anJYcklxM3QzV01Hb1RmQ20xOXd6Vmc4anBvbWNIWFVFZFpJU2pkVjZEXzdfRHRfaFVQQ0J6anprTXp3bFR6QXB3YTNDVTdUY0h0S0lvd0RBbUV2WG8ybnE4bzNLZXprS0t6bFByVFJ4QUwwNE1kNTdR?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-10-14T07:00:00+00:00",
-      "generated_at": "2026-10-24T14:55:01.135894+00:00",
-      "rss_date": "Sat, 24 Oct 2026 14:55:01 +0000"
     }
   ]
 }
