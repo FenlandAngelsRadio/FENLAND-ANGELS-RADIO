@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-29T23:00:09.067498+00:00",
+  "updated_at": "2026-10-30T06:31:13.196621+00:00",
   "stories": [
+    {
+      "id": "fenland-news-9cbf69cbd37931b559f619dc",
+      "headline": "Emergency lock closures leave boaters stranded in March",
+      "brief": "Boaters are currently unable to move through March following the introduction of emergency lock closures. The restrictions have left vessels marooned in the area. No further details regarding the cause of the closures or when the locks might reopen have been provided at this stage. Those planning to travel through the town by water are advised to be aware of the disruption.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MZnQtRDRSSXJzUFMxZlZ2bXIwYkh4OHhaUDJ2U3ZlZUpVS3Z1QmVtdGJBaGVhYjc3ZlJjVjdfc29hdllfRjl1eFMzODB2bTBLTlRDY2o0OXJQdw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-08-25T07:00:00+00:00",
+      "generated_at": "2026-10-30T06:31:04.060009+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:31:04 +0000"
+    },
+    {
+      "id": "fenland-news-c5e3fb29b3ba7bd38f4ed954",
+      "headline": "King’s Lynn’s dark history explored this Halloween",
+      "brief": "As Halloween approaches, King’s Lynn is being highlighted for its centuries-old history of folklore and paranormal legends. The town’s past includes the 1590 execution of Margaret Read, who was burned at the stake in the Tuesday Market Place after being convicted of witchcraft. \n\nBeyond historical trials, the town is associated with numerous ghost stories, including reports of spectral sightings at True’s Yard Museum and the Duke’s Head Hotel. Local tales also feature a medieval exorcist’s former home and a legend involving a devil’s hoofprint left in the town’s cobbles. These stories continue to shape the town’s identity as it marks the annual celebration of Halloween on October 31.",
+      "original_url": "https://www.lynnnews.co.uk/news/did-you-know-king-s-lynn-has-centuries-old-history-of-witch-9488913/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/RXIB7MLXV6FJOZZKGJWQ.jpg",
+      "published": "2026-10-30T06:00:00+00:00",
+      "generated_at": "2026-10-30T06:31:02.838346+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:31:02 +0000"
+    },
+    {
+      "id": "fenland-news-4346767827d915cf8a9d8938",
+      "headline": "Cambridgeshire and Peterborough council restructuring delayed",
+      "brief": "Plans for a shake-up of local government across Cambridgeshire and Peterborough have been pushed back once again. The proposed changes to the structure of the councils in the region are facing further delays, according to reports. No new timeline for the implementation of these adjustments has been confirmed at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lRFdscHkxZHJXR2J0RzVIbDhtOURoTjhLNGxNVVZCYjlrR3RLcHEzNWJPakw0UW5NRjMtZm5VMEtPUUs0WHRYX3MxalVZZmZrYXpOWTd2enpoLXFZd0E?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-10-30T05:43:19+00:00",
+      "generated_at": "2026-10-30T06:31:00.972612+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:31:00 +0000"
+    },
+    {
+      "id": "fenland-news-50a06815183ee1e01cdbab64",
+      "headline": "South Cambridgeshire residents voice East West Rail concerns",
+      "brief": "People living in South Cambridgeshire have expressed concerns regarding the proposed East West Rail project. The development, which aims to improve rail connectivity across the region, has prompted local residents to speak out about the scheme. Further details on the nature of these objections have not been disclosed at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWHpndEwtajFpbHU1eTQxcm9US1BDc1NhQktnUGllaVJXMmh2dWdxRks1Vnd4YTZ4Z09RM1VEN0xNWGNVbkt6VGgxZXNwT3BnMEc5SDFfZWhNTVpOUVE1MXVoWFFxNFFMUkdSdml5MEtnNWRfMVE2YVo2RHMtS1E5czFLU1BuQzR5RmU5Wm03a2d5UUM2MXJHdDN2cU9vM0V4YzJrX2xrQUdYZ0hNWG1ISG9BRXgxU3JRYTRiSnpEUmpEUGZOTG8xbDhoZmlMUQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-10-30T06:13:16+00:00",
+      "generated_at": "2026-10-30T06:30:59.606555+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:30:59 +0000"
+    },
+    {
+      "id": "fenland-news-d06c344426fba8cb0d93c446",
+      "headline": "Missing woman located safe and well",
+      "brief": "A woman reported missing has been found safe and well. The news follows a public appeal for information regarding her whereabouts. No further details have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNREZ0d0dGUHVlZFladTJESk9sR1NWLXNuMmFfazZTclYzTWg2T19iOER2NmtlMl9xc18wbHRGZ1dIeW4wMkRCc3ZqS3pqQ0xzUjFLR3JNUkJuLVhWN0phb0c0ZWpRWklNaTM1QlhDRkZHNDhfWnQydXNOeFFEejhSc1g3THloQ0ctcm9uY21qbGZDVzJi?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-10-09T07:00:00+00:00",
+      "generated_at": "2026-10-30T06:30:53.251533+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:30:53 +0000"
+    },
+    {
+      "id": "fenland-news-92212f9129b542ccc308446e",
+      "headline": "Wisbech’s Luxe Cinema closes temporarily",
+      "brief": "The Luxe Cinema on Alexandra Road in Wisbech has announced an immediate closure. Management confirmed the venue is shut until further notice, citing unexpected circumstances. In a statement posted on social media, the cinema said it intends to contact all affected guests as soon as possible. Staff have thanked the public for their support and understanding during this time. No further details regarding the reason for the closure or a potential reopening date have been provided.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/popular-cinema-closed-until-further-notice-due-to-unexpec-9489170/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/PBGQ6J3GTH4IR8RJYH7O.jpg",
+      "published": "2026-10-29T14:34:33+00:00",
+      "generated_at": "2026-10-30T06:30:51.531675+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:30:51 +0000"
+    },
+    {
+      "id": "fenland-news-4c4a5b6ff2adbad69477d737",
+      "headline": "Marshland councillor shares budget concerns and Remembrance plans",
+      "brief": "Reform UK county councillor for Marshland North, Julian Kirk, has criticised the recent national budget. Cllr Kirk described the current system as broken, citing concerns over high taxation, rising unemployment, and unsustainable employment costs for businesses. He argued that welfare spending should be redirected towards national defence, citing the current global climate.\n\nLooking ahead, Cllr Kirk is preparing for upcoming Remembrance commemorations. He is scheduled to lay wreaths in both King’s Lynn and Norwich to mark Armistice Day and Remembrance Sunday. Additionally, the councillor commented on potential plans for a Norfolk and Suffolk mayor in 2028, expressing scepticism regarding the promise of extra government funding.",
+      "original_url": "https://www.lynnnews.co.uk/news/budget-day-sees-more-of-the-same-in-a-dangerous-world-9489057/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/QXB7I21JNONQUTRHUC9U.jpg",
+      "published": "2026-10-30T06:00:00+00:00",
+      "generated_at": "2026-10-30T06:30:44.362838+00:00",
+      "rss_date": "Fri, 30 Oct 2026 06:30:44 +0000"
+    },
     {
       "id": "fenland-news-bc4abfa4dd367a295cab7718",
       "headline": "New gym equipment installed at Fenland leisure centres",
@@ -1023,83 +1100,6 @@
       "published": "2026-08-05T07:00:00+00:00",
       "generated_at": "2026-10-25T01:42:40.953451+00:00",
       "rss_date": "Sun, 25 Oct 2026 01:42:40 +0000"
-    },
-    {
-      "id": "fenland-news-5a2b5b3edd3cb9fb77f1f246",
-      "headline": "College of West Anglia students prepare for national skills finals",
-      "brief": "Students from across the Fens have been recognised for reaching the national finals of the WorldSkills UK competition. A special event was held at the College of West Anglia to celebrate learners who successfully progressed through regional heats. \n\nAmong those honoured were Keegan Hanks and Selene Coote from King’s Lynn, and Rianna Moore from Terrington St John. Other local finalists include Wisbech students Erika Rimkus, Finn Mcauley, and Paige Marshall, alongside Marc Watson from March. The national finals take place this November, where competitors will vie for bronze, silver, and gold medals in their respective vocational fields. College principal David Pomfret praised the students for reaching the top five per cent of entrants nationwide.",
-      "original_url": "https://www.lynnnews.co.uk/news/students-going-for-gold-9487952/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/04DO9T74CQ4LPH10Z12R.jpg",
-      "published": "2026-10-22T05:00:00+00:00",
-      "generated_at": "2026-10-25T01:42:33.451674+00:00",
-      "rss_date": "Sun, 25 Oct 2026 01:42:33 +0000"
-    },
-    {
-      "id": "fenland-news-4af32bc71dd7db2f7f325fca",
-      "headline": "Peterborough United draw away at Bromley",
-      "brief": "Peterborough United finished their latest League One fixture with a share of the points. The match against Bromley ended in a one-all draw. Highlights of the game are available via Sky Sports.",
-      "original_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQazdOSGVwTHNPS0pKbmhyUlZRWnB5NWFRNUZYaEt0cDhfa3QxUGhyVVNWTExXMXpKWEE5NEhjQlRrOWRLYnU2c1E5S3Y3eUhyTWxDZkVDWHprUl9ncWd4VUhCc2RPT0didWp3Z1ZDNVhJUnA5U1djSE0zWDBiV2pFUzVGZ3FBLWZMZW9mUWgtWG1WejRZYUR3Y3c3ajFLM3BwMjlDYlFn?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-24T21:13:05+00:00",
-      "generated_at": "2026-10-25T01:42:31.075122+00:00",
-      "rss_date": "Sun, 25 Oct 2026 01:42:31 +0000"
-    },
-    {
-      "id": "fenland-news-23aa5862cc5d7d28576bac20",
-      "headline": "Soham Football Club site proposed for adult education centre",
-      "brief": "Plans have been put forward that could see Soham Football Club transformed into a new training centre for adult education. The proposal, reported by the Ely East Cambridgeshire News, suggests the football club grounds as a potential location for the facility. No further details regarding the timeline or the scope of the training programmes have been confirmed at this stage. Residents are advised to keep an eye on local planning updates for further information regarding the future of the site.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWl2U19hUXc5U0oxUlNOaUVKVTJaNUdlUjRqTk9PZkdyZWN0eGlwcFFiMEpWd1NIV3B5OWxJQ2FneXUyNUJzcWx5LUpXcjN6c3l2eGFNRzVaLXdPaURwMk5GR2pqNnBBaHNpNWFTV2lybmY1UUthY1RNZ1hDcmxEeFhaZ3dXbmF0VHZXX3Jfbi0tSVN6Ri1qNDhmajlPUQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-23T10:28:00+00:00",
-      "generated_at": "2026-10-25T01:42:26.440595+00:00",
-      "rss_date": "Sun, 25 Oct 2026 01:42:26 +0000"
-    },
-    {
-      "id": "fenland-news-87d40ab1c9a24604739b3382",
-      "headline": "Long Sutton woman enters not guilty plea to drink-drive charge",
-      "brief": "A woman from Long Sutton has appeared in court to deny a charge of being in charge of a motor vehicle while over the legal alcohol limit. The alleged incident took place in Fleet Hargate. The case is being reported by the Spalding South Holland News.",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWENzb1AwQm9JNGFCYlExa0tiLWZXeFM2cWJGOVNEQmttS2FpR2tQdEZ2Q0pFeU5LYUZmc0lhRFBtdFEzQXFzRGtsa1h1N2xQZjI4YTNqbHRoYmVtajdkVWNDcTQ2Q25qYllwVXVYZWI2cEdGYXNMYXNKcnctYmtDS3NwbHFQZHotUDBVUnMxTnhJN181LVhPdERlS2tsUnQ5M2VBc1dpM1pPeHYxSEVKUkp1MA?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-09-23T07:00:00+00:00",
-      "generated_at": "2026-10-25T01:42:24.984594+00:00",
-      "rss_date": "Sun, 25 Oct 2026 01:42:24 +0000"
-    },
-    {
-      "id": "fenland-news-edd58ba8b842a431be1719c4",
-      "headline": "Remembering life-saving training at Gaywood Primary",
-      "brief": "We are looking back at a first aid pilot scheme held for pupils at Gaywood Primary School in October 2013. The training was delivered by the team behind the SOS Project Safe Haven, which provided support in King's Lynn town centre. During the sessions, Year Six students were taught essential techniques, including how to perform CPR, apply bandages, and place someone in the recovery position. \n\nHeadteacher Paul Shanks described the initiative as a fantastic experience for the children. He noted that the skills learned at that age are likely to be remembered, providing the students with the ability to assist others should an emergency situation ever arise.",
-      "original_url": "https://www.lynnnews.co.uk/news/pupils-learnt-vital-life-saving-skills-during-pilot-course-i-9487267/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/LS8P3PEMELYM1TW8IQRN.jpg",
-      "published": "2026-10-22T05:00:00+00:00",
-      "generated_at": "2026-10-25T01:42:19.915515+00:00",
-      "rss_date": "Sun, 25 Oct 2026 01:42:19 +0000"
-    },
-    {
-      "id": "fenland-news-5371d9859f7406e9d270883f",
-      "headline": "Man jailed for long-term abuse",
-      "brief": "A man has been sentenced to time in prison following a lengthy period of abuse. Cambridgeshire Constabulary confirmed the conviction, which follows an investigation into offences committed over several years. No further details regarding the location or the specific nature of the case have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeC1KTFdfOEFTVTB3bjFuR1FvYkRIWUV4b1RYUFBkZVYtLXN2ZDVwVXhKUFJ5X2lsQ0czcG9VVlZwbGQ2SGRaOXdQc3NOTTBTZGxSZkMxWVl3eG41ZTlrbjlDZlVoN3VXa3RObmpEMVJBRmVVS21ZX2FrbUlHX3J5SExHNUFWTUxYTW45WGQ3MGg3U2FHTkN0RmZzMA?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-03T07:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:23.776932+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:23 +0000"
-    },
-    {
-      "id": "fenland-news-e70ce454fc5ed520b4bb514c",
-      "headline": "Looking back at local history in King’s Lynn and Downham Market",
-      "brief": "This week’s look back at local archives highlights two notable moments from the past. In 1961, King’s Lynn Town Council discussed ambitious plans to pedestrianise the High Street and considered the compulsory purchase of the Reffley Estate for new housing. Meanwhile, a new factory for Unicam Instruments was proposed for the Hardwick Road trading estate, with the potential to create 450 jobs.\n\nMoving to 1994, Downham Market Town Hall hosted a special \"Who Can Tell?\" fun day. The event featured storytellers, musicians, and entertainers, forming part of a two-month festival across West and North Norfolk designed to encourage children to enjoy reading.",
-      "original_url": "https://www.lynnnews.co.uk/news/on-this-week-plans-to-pedestrianise-high-street-in-1961-and-9487252/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/UPB0SXPKT5OAGC627UIT.jpg",
-      "published": "2026-10-22T05:00:00+00:00",
-      "generated_at": "2026-10-24T19:50:22.763290+00:00",
-      "rss_date": "Sat, 24 Oct 2026 19:50:22 +0000"
     }
   ]
 }
