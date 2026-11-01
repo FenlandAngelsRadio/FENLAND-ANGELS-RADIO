@@ -1,6 +1,39 @@
 {
-  "updated_at": "2026-10-31T21:54:22.310120+00:00",
+  "updated_at": "2026-11-01T06:53:42.041930+00:00",
   "stories": [
+    {
+      "id": "fenland-news-0d69c9be0faed2d520048520",
+      "headline": "Obituary notice for Rex Richardson of Long Sutton",
+      "brief": "An obituary has been published for Rex Richardson, a resident of Long Sutton in Lincolnshire. The notice, which appeared in the Spalding Guardian, confirms that Mr Richardson passed away in 2020. No further details regarding his life or funeral arrangements have been provided in the report.",
+      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSzM0N09wVE9xalRCeFJhcUc2STNFTERzTjRRSE91UEl4RUZBTDRwblhITS13REZxTFBFdTdZWE9nYkwwVFQ4a0hTN2FuMTFRYkZsb0wtak55aTZFb01Ua3A5VHBRR2JhdmZxUGZiUnZsMEdONjhqMUtrbFctMThNTS1FTFVkYnQ2WHJDRDRpOHpUY0VRcGpBNU5B?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2020-03-10T07:00:00+00:00",
+      "generated_at": "2026-11-01T06:53:34.080175+00:00",
+      "rss_date": "Sun, 01 Nov 2026 06:53:34 +0000"
+    },
+    {
+      "id": "fenland-news-ce6452fc230a2980f2982e8e",
+      "headline": "Concerns raised over proposed Chatteris energy plant",
+      "brief": "Residents in Chatteris have expressed concerns regarding a proposed energy plant for the town. Reports indicate that local people are worried about the potential for unpleasant odours resulting from the development. The plans for the new facility have been highlighted by the March Chatteris Whittlesey News.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGVKNWpkYkhkNjNZYlJnQ1BGS2xmVVVnZGNLRWk2T2RiLTNfV2NsY1Z0R0V5eXEtbEgwZ2lUMEVmbm5OTlg2SjhqRHdVT29GVUs0eVpSekZFX1BEMjJYQy1xSW5fSjd3VjQ2eGlmbVN6S1NwN3Qwa3BwRVVhN2t4NmNhTWZHclJFODZweDl2WdIBlAFBVV95cUxOaENKZVFhMHB2cnlYcndTdWpxeXpQZ3ZvZXd4XzNnM2ozaFhSdFFUNjVIZDFkZGdVMXNGMGZIdzROV1NfSmlUSERpY1NCVEFqMi1KVVVFelEwcEpOYkxUUjBMUzJJWFdJdWJYUkJvTVhqSGdiVzZXTU5YZ0llaWtUbUNSQTRXX1RUR0FyeTM4bUoyVU5V?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-09-06T07:00:00+00:00",
+      "generated_at": "2026-11-01T06:53:30.240825+00:00",
+      "rss_date": "Sun, 01 Nov 2026 06:53:30 +0000"
+    },
+    {
+      "id": "fenland-news-0e4c2e723c8eda8514207421",
+      "headline": "Future of Queen Elizabeth Hospital services to be discussed",
+      "brief": "The Norfolk and Waveney University Hospitals Group Board is meeting on Monday, November 2, to discuss a new clinical strategy for the region. The board will review a \"Case for Change\" document, which examines how healthcare services might develop over the coming decades.\n\nThis follows public concern regarding reports that accident and emergency, intensive care, and maternity services at the Queen Elizabeth Hospital in King’s Lynn could face closure. However, the hospital group has stressed that no decisions have been made. They state the meeting is not a consultation on service changes, but rather the start of a conversation about how to improve care while addressing staffing pressures and changing population needs.",
+      "original_url": "https://www.lynnnews.co.uk/news/future-of-hospital-services-to-be-discussed-as-chiefs-consid-9489403/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/XR3HQJPPFV39LSPMYBPI.jpg",
+      "published": "2026-10-30T16:31:21+00:00",
+      "generated_at": "2026-11-01T06:53:28.846440+00:00",
+      "rss_date": "Sun, 01 Nov 2026 06:53:28 +0000"
+    },
     {
       "id": "fenland-news-c8d238613f904b6d91b45cf5",
       "headline": "Age UK highlights impact of Cambridgeshire handyperson service cuts",
@@ -1067,39 +1100,6 @@
       "published": "2026-10-25T06:15:18+00:00",
       "generated_at": "2026-10-27T05:40:04.748014+00:00",
       "rss_date": "Tue, 27 Oct 2026 05:40:04 +0000"
-    },
-    {
-      "id": "fenland-news-ffe69e460b9af0a530fc2ba9",
-      "headline": "Queen Elizabeth Hospital receives £3.9m for winter urgent care",
-      "brief": "The Queen Elizabeth Hospital in King’s Lynn has been awarded £3.9 million in government funding to boost urgent and emergency care services. The investment aims to help the hospital manage increased demand during the winter months by allowing staff to treat minor illnesses and injuries separately from emergency cases. \n\nWork to reconfigure the emergency department is already underway, with plans for a new urgent treatment centre to follow. Local MPs Terry Jermy and James Wild have welcomed the funding, though both continue to press for long-term commitments regarding the future of the hospital’s 24/7 A&E department. This grant is part of a wider £140 million national investment across 14 urgent care schemes in England.",
-      "original_url": "https://www.lynnnews.co.uk/news/hospital-welcomes-3-9m-funding-for-urgent-care-ahead-of-win-9488524/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/LUIPP4E6LJLYDVNJHQUX.jpg",
-      "published": "2026-10-26T12:29:38+00:00",
-      "generated_at": "2026-10-27T05:39:54.101325+00:00",
-      "rss_date": "Tue, 27 Oct 2026 05:39:54 +0000"
-    },
-    {
-      "id": "fenland-news-626364b468261c5ad50e52d4",
-      "headline": "Police arrest following break-in at services",
-      "brief": "Police have made an arrest in connection with a break-in at a service station. Officers are currently investigating the incident. No further details regarding the location or the identity of the individual arrested have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PbkpNMUtIZGN6V3hQZmJJT2RWVGNYUnZCS0VwbXc4UHNJMXMtZC1RX2pUQm12a3ZlY0RaV0lwOVRZa0MzZ3dmWEpCWlNxRWcxVDBreUlUWmJlNnc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-10-15T07:00:00+00:00",
-      "generated_at": "2026-10-26T22:53:53.083130+00:00",
-      "rss_date": "Mon, 26 Oct 2026 22:53:53 +0000"
-    },
-    {
-      "id": "fenland-news-2790cb5595a4a56599af0206",
-      "headline": "Proposed gate for Peterborough alleyway",
-      "brief": "A new gate has been proposed for an alleyway in Peterborough. The measure follows reports that the area is currently being used by drug users. The proposal aims to restrict access to the site.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsLUE1UUE4bUQ0MVFwN3lzbjJwWGdPeXVqVnpaTTB3ZU14aDZybGMwYU9xcU5Uai1IalBpQVV2dmsySlJqNERTMmVrN2djU1dDd25GYWZ3aG9adUk?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-26T14:22:56+00:00",
-      "generated_at": "2026-10-26T22:53:49.331461+00:00",
-      "rss_date": "Mon, 26 Oct 2026 22:53:49 +0000"
     }
   ]
 }
