@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Team Chat | FAR Admin</title><meta name="robots" content="noindex,nofollow">
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="site-nav.css?v=5"><link rel="stylesheet" href="admin-ui.css?v=1">
-<link rel="stylesheet" href="admin-team-chat.css?v=2"><script src="site-nav.js?v=6" defer></script>
+<link rel="stylesheet" href="admin-team-chat.css?v=3"><script src="site-nav.js?v=6" defer></script>
 </head><body><header></header><main class="chat-shell">
 <section id="chatLogin" class="admin-box"><p class="eyebrow">FAR ADMIN</p><h1>Team chat</h1><p>Sign in with your FAR staff account.</p>
 <form id="loginForm"><label for="chatEmail">Email</label><input id="chatEmail" type="email" autocomplete="username" required>
@@ -12,11 +12,11 @@
 <section id="chatPanel" hidden>
 <div class="chat-heading"><div><p class="eyebrow">FAR ADMIN · STAFF ONLY</p><h1>Team chat</h1><p id="chatIdentity"></p></div><a class="admin-btn" href="admin-dashboard.html">← Dashboard</a></div>
 <p class="chat-intro">A shared room for the FAR team. Keep passwords and private listener details out of chat.</p>
-<div class="chat-toolbar"><button id="olderMessages" class="admin-btn" type="button" hidden>Load older messages</button><button id="refreshChat" class="admin-btn" type="button">Refresh</button><span id="chatConnection" role="status">Connecting…</span></div>
+<div class="chat-toolbar"><button id="chatView" class="admin-btn" type="button" hidden>Deleted messages</button><button id="olderMessages" class="admin-btn" type="button" hidden>Load older messages</button><button id="refreshChat" class="admin-btn" type="button">Refresh</button><span id="chatConnection" role="status">Connecting…</span></div>
 <div id="chatMessages" class="chat-messages" aria-label="Team messages" tabindex="0"></div>
 <p id="newMessageNotice" class="chat-new" hidden><button id="jumpLatest" type="button">New messages — show latest ↓</button></p>
 <form id="messageForm" class="chat-compose"><label for="messageText">Message the team</label>
 <textarea id="messageText" maxlength="2000" rows="3" placeholder="Write a message…" required></textarea>
 <div class="chat-send-row"><small>Enter adds a new line. Ctrl/⌘ + Enter sends.</small><span id="messageCount">0 / 2000</span><button id="sendMessage" class="admin-btn" type="submit">Send message</button></div>
 <p id="sendStatus" role="status" aria-live="polite"></p></form></section>
-</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="admin-team-chat.js?v=1"></script></body></html>
+</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="admin-team-chat.js?v=3"></script></body></html>

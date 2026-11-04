@@ -1,0 +1,22 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+class Element{
+ constructor(){this.children=[];this.value='';this.hidden=false;this.textContent='';this.dataset={};this.events={};this.scrollHeight=100;this.scrollTop=0;this.clientHeight=100;this.classList={toggle(){}};}
+ append(...es){for(const e of es){if(e.fragment)this.children.push(...e.children);else this.children.push(e);}}
+ prepend(e){this.children.unshift(...(e.fragment?e.children:[e]));} replaceChildren(){this.children=[];}
+ addEventListener(n,f){this.events[n]=f;}querySelector(s){return this.children.find(e=>s==='.chat-empty'&&e.className==='chat-empty');}remove(){}
+}
+async function test(staff=true,role='owner'){
+ const els={};const doc={hidden:false,getElementById:id=>els[id]??=(new Element()),createElement:()=>new Element(),createDocumentFragment:()=>Object.assign(new Element(),{fragment:true}),addEventListener(){}};
+ let messages=[{id:1,author_id:'u2',author_name:'Colleague',created_at:'2026-11-04T21:00:00Z',body:'<img src=x onerror=alert(1)>'}];let fail=false,calls=[],signedOut,revision='initial';
+ const client={auth:{getSession:async()=>({data:{session:{user:{id:'u1'}}}}),onAuthStateChange:fn=>signedOut=fn},from(table){let op={};const q={select(){return q;},eq(){return q;},limit(){return q;},order(){return q;},is(){op.removed=false;return q;},not(){op.removed=true;return q;},gt(k,v){op.after=+v;return q;},lt(k,v){op.before=+v;return q;},maybeSingle:async()=>({data:staff?{display_name:'Staff',role}:null}),then(resolve){resolve({data:messages.filter(m=>!!m.deleted_at===!!op.removed&&(!op.after||m.id>op.after)&&(!op.before||m.id<op.before))});}};return q;},rpc:async(name,args)=>{if(name==='far_team_chat_revision')return {data:revision};if(name==='far_team_chat_moderate'){messages.find(m=>m.id===args.p_id).deleted_at=args.p_deleted?'removed':null;revision+='x';return {data:true};}calls.push(args);if(fail)return {error:{message:'Network unavailable'}};const m={id:messages.length+1,author_id:'u1',author_name:'Staff',created_at:'2026-11-04T21:01:00Z',body:args.p_body};messages.push(m);return {data:m};}};
+ const context={window:{FAR_EVENTS_CONFIG:{},addEventListener(){},confirm:()=>true},supabase:{createClient:()=>client},document:doc,crypto:{randomUUID:()=>String(Math.random())},setInterval:()=>1,clearInterval(){},setTimeout,console,Date,BigInt};
+ vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname,'../admin-team-chat.js'),'utf8'),context);await new Promise(r=>setImmediate(r));
+ if(!staff){assert.equal(els.chatPanel.hidden,true);assert.match(els.loginStatus.textContent,/authorised FAR staff/);return;}
+ assert.equal(els.chatPanel.hidden,false);assert.equal(els.chatMessages.children[0].children[1].textContent,messages[0].body,'Chat body must remain text, never HTML');
+ els.messageText.value='Hello team';fail=true;await els.messageForm.events.submit({preventDefault(){}});assert.equal(els.messageText.value,'Hello team');assert.match(els.sendStatus.textContent,/draft has been kept/);
+ fail=false;await els.messageForm.events.submit({preventDefault(){}});assert.equal(calls[0].p_client_id,calls[1].p_client_id,'Retry must use same idempotency key');assert.equal(els.messageText.value,'');assert.equal(els.chatMessages.children.filter(x=>x.dataset.id==='2').length,1);
+ await els.refreshChat.onclick();assert.equal(els.chatMessages.children.filter(x=>x.dataset.id==='2').length,1,'Poll must not duplicate a message');
+ if(role==='owner'){await els.chatMessages.children.find(e=>e.dataset.id==='1').children[2].events.click();assert.equal(els.chatMessages.children.some(e=>e.dataset.id==='1'),false,'Deleted message disappears');await els.chatView.onclick();assert.equal(els.messageForm.hidden,true);await els.chatMessages.children.find(e=>e.dataset.id==='1').children[2].events.click();await els.chatView.onclick();assert.equal(els.chatMessages.children.some(e=>e.dataset.id==='1'),true,'Restored message returns');}else assert.equal(els.chatMessages.children[0].children.length,2,'Staff cannot see moderation button');
+ signedOut('SIGNED_OUT');assert.equal(els.chatPanel.hidden,true);assert.equal(els.chatMessages.children.length,0,'Sign out must clear private history');
+}
+(async()=>{await test();await test(true,'presenter');await test(false);console.log('Passed: staff access, non-staff denial, text-only rendering, failed-send draft preservation, idempotent retry, poll deduplication and sign-out clearing.');})().catch(e=>{console.error(e);process.exitCode=1;});

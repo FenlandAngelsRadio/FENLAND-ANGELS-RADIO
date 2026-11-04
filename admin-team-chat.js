@@ -5,9 +5,10 @@
   const client=supabase.createClient(config.SUPABASE_URL,config.SUPABASE_ANON_KEY);
   const $=id=>document.getElementById(id),list=$('chatMessages');
   let user=null,authBusy=false,loadBusy=false,sendBusy=false,timer=null,generation=0;
-  let newest=null,oldest=null,pending=null;const seen=new Set();
+  let newest=null,oldest=null,pending=null,manager=false,removedView=false,revision=null,moderationBusy=false;const seen=new Set();
   function status(text,error=false){$('chatConnection').textContent=text;$('chatConnection').classList.toggle('chat-error',error);}
-  function reset(){generation++;clearInterval(timer);timer=null;user=null;newest=oldest=null;pending=null;seen.clear();list.replaceChildren();$('chatPanel').hidden=true;$('chatLogin').hidden=false;$('olderMessages').hidden=true;$('messageText').value='';$('messageCount').textContent='0 / 2000';$('sendStatus').textContent='';}
+  function clearHistory(){newest=oldest=null;seen.clear();list.replaceChildren();$('olderMessages').hidden=true;$('newMessageNotice').hidden=true;}
+  function reset(){generation++;clearInterval(timer);timer=null;user=null;manager=false;removedView=false;revision=null;pending=null;clearHistory();$('chatView').hidden=true;$('chatView').textContent='Deleted messages';$('chatPanel').hidden=true;$('chatLogin').hidden=false;$('messageForm').hidden=false;$('messageText').value='';$('messageCount').textContent='0 / 2000';$('sendStatus').textContent='';}
   function bottom(){list.scrollTop=list.scrollHeight;$('newMessageNotice').hidden=true;}
   function render(rows,prepend=false,force=false){
     const atBottom=list.scrollHeight-list.scrollTop-list.clientHeight<70,oldHeight=list.scrollHeight,frag=document.createDocumentFragment();
@@ -17,18 +18,23 @@
       const article=document.createElement('article');article.className='chat-message'+(m.author_id===user?.id?' mine':'');article.dataset.id=id;
       const header=document.createElement('header'),author=document.createElement('strong'),time=document.createElement('time'),body=document.createElement('p');
       author.textContent=m.author_name;time.dateTime=m.created_at;time.textContent=new Date(m.created_at).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});time.title=new Date(m.created_at).toLocaleString('en-GB');body.textContent=m.body;
-      header.append(author,time);article.append(header,body);frag.append(article);
+      header.append(author,time);article.append(header,body);
+      if(manager){const button=document.createElement('button');button.type='button';button.className='chat-moderate';button.textContent=removedView?'Restore message':'Delete message';button.addEventListener('click',()=>moderate(m.id,!removedView));article.append(button);}
+      frag.append(article);
     }
     list.querySelector('.chat-empty')?.remove();
     if(prepend){list.prepend(frag);list.scrollTop+=list.scrollHeight-oldHeight;}else list.append(frag);
-    if(!seen.size){const p=document.createElement('p');p.className='chat-empty';p.textContent='No messages yet. Start the team conversation.';list.append(p);}
+    if(!seen.size){const p=document.createElement('p');p.className='chat-empty';p.textContent=removedView?'No deleted messages.':'No messages yet. Start the team conversation.';list.append(p);}
     if(!prepend&&(force||atBottom))bottom();else if(!prepend&&rows.length)$('newMessageNotice').hidden=false;
   }
   async function load(older=false){
     if(!user||loadBusy)return;loadBusy=true;const current=generation;
     $('olderMessages').disabled=true;$('refreshChat').disabled=true;
     try{
+      const update=await client.rpc('far_team_chat_revision');if(current!==generation)return;if(update.error)throw update.error;
+      if(revision!==null&&revision!==update.data)clearHistory();revision=update.data;
       let q=client.from('far_team_chat').select('id,author_id,author_name,body,created_at').limit(50);
+      q=removedView?q.not('deleted_at','is',null):q.is('deleted_at',null);
       const initial=newest===null;
       if(older&&oldest!==null)q=q.lt('id',oldest).order('id',{ascending:false});
       else if(!initial)q=q.gt('id',newest).order('id',{ascending:true});
@@ -45,10 +51,10 @@
     try{
       const {data:{session},error}=await client.auth.getSession();if(error)throw error;
       if(!session){reset();return;}
-      const {data:staff,error:staffError}=await client.from('far_admins').select('display_name').eq('user_id',session.user.id).maybeSingle();
+      const {data:staff,error:staffError}=await client.from('far_admins').select('display_name,role').eq('user_id',session.user.id).maybeSingle();
       if(staffError)throw staffError;if(!staff){reset();$('loginStatus').textContent='This room is for authorised FAR staff. Contact station management if you need access.';return;}
       if(user?.id===session.user.id)return;
-      reset();user=session.user;$('chatLogin').hidden=true;$('chatPanel').hidden=false;$('chatPassword').value='';$('chatIdentity').textContent='Signed in as '+(staff.display_name||'FAR colleague');
+      reset();user=session.user;manager=['owner','deputy_manager'].includes((staff.role||'').toLowerCase());$('chatView').hidden=!manager;$('chatLogin').hidden=true;$('chatPanel').hidden=false;$('chatPassword').value='';$('chatIdentity').textContent='Signed in as '+(staff.display_name||'FAR colleague');
       await load();timer=setInterval(()=>{if(!document.hidden)load();},15000);
     }catch(e){reset();$('loginStatus').textContent='Unable to check your staff access. Please try again.';}
     finally{authBusy=false;}
@@ -72,6 +78,15 @@
     finally{sendBusy=false;$('sendMessage').disabled=false;}
   });
   $('refreshChat').onclick=()=>load();$('olderMessages').onclick=()=>load(true);$('jumpLatest').onclick=bottom;
+  async function moderate(id,deleted){
+    if(!manager||moderationBusy||loadBusy)return;
+    if(!window.confirm(deleted?'Delete this message from the team room? Management can restore it from Deleted messages.':'Restore this message to the team room?'))return;
+    moderationBusy=true;const current=generation;status(deleted?'Deleting message…':'Restoring message…');
+    try{const {error}=await client.rpc('far_team_chat_moderate',{p_id:id,p_deleted:deleted});if(error)throw error;if(current!==generation)return;clearHistory();await load();}
+    catch(e){if(current===generation)status(e.message||'Could not change this message. Please retry.',true);}
+    finally{moderationBusy=false;}
+  }
+  $('chatView').onclick=async()=>{if(!manager||loadBusy||moderationBusy)return;removedView=!removedView;$('chatView').textContent=removedView?'Back to team room':'Deleted messages';$('messageForm').hidden=removedView;clearHistory();await load();};
   list.addEventListener('scroll',()=>{if(list.scrollHeight-list.scrollTop-list.clientHeight<70)$('newMessageNotice').hidden=true;});
   document.addEventListener('visibilitychange',()=>{if(!document.hidden&&user)load();});
   client.auth.onAuthStateChange(event=>{if(event==='SIGNED_OUT')reset();else if(event==='SIGNED_IN')setTimeout(auth,0);});
