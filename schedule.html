@@ -212,6 +212,8 @@
   </p>
 </section>
 
+<aside id="remembrance-notice" class="schedule-note" hidden><strong>Sunday 8 November — Remembrance Sunday, 10am–12 noon.</strong> Together, we remember, including the two-minute silence at 11am. Casey Redmond’s complete Sixties show airs at 9am.</aside>
+<script>if(new Date()>=new Date('2026-11-06T00:00:00Z')&&new Date()<new Date('2026-11-09T00:00:00Z'))document.getElementById('remembrance-notice').hidden=false;</script>
 <div class="schedule-tabs">
   <button class="schedule-tab active" data-target="monday">Monday</button>
 <button class="schedule-tab" data-target="tuesday">Tuesday</button>
@@ -285,7 +287,7 @@
 </audio>
 
 <script src="app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=2"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-cms.js?v=remembrance-20261108"></script>
 <script>
 (async()=>{function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}try{const rows=await FARCMS.schedule();for(const group of ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']){const box=document.querySelector('[data-schedule="'+group+'"]');box.innerHTML=FARCMS.forDay(rows,group).map(r=>'<article class="slot '+(r.featured?'featured':'')+'"><div class="slot-time">'+esc(r.start_time.slice(0,5))+'–'+esc(r.end_time.slice(0,5))+'<span>'+esc(r.strapline||'Programme')+'</span></div><div class="slot-copy"><h3>'+esc(r.show_name)+'</h3>'+(r.presenter?'<strong>Presented by '+esc(r.presenter)+'</strong>':'')+(r.description?'<p>'+esc(r.description)+'</p>':'')+'</div>'+(r.image?'<img class="presenter-photo" src="'+esc(r.image)+'" alt="'+esc(r.show_name)+'">':'<div class="music-placeholder">'+esc(r.show_name)+'</div>')+'</article>').join('')||'<p>No programmes listed.</p>'}}catch(e){document.querySelectorAll('[data-schedule]').forEach(x=>x.textContent='Schedule temporarily unavailable.')}})();
 </script>
