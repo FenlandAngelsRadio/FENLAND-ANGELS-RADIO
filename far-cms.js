@@ -18,7 +18,7 @@
    if(a<630)result.push({...row,end_time:'10:30:00'});
    if(b>690)result.push({...row,start_time:'11:30:00'});
   }
-  return [...result,{id:'sunday-filler-2026-11-08',day_group:'sunday',start_time:'10:00:00',end_time:'10:30:00',show_name:'Sunday Morning Music',strapline:'Sunday 8 November 2026 only',description:'Music and company before our Remembrance Sunday programme begins at 10:30am.',presenter:null,image:null,featured:false,active:true},special];
+  const filler=result.some(r=>r.day_group==='sunday'&&covers(r,600)&&covers(r,629))?[]:[{id:'sunday-filler-2026-11-08',day_group:'sunday',start_time:'10:00:00',end_time:'10:30:00',show_name:'Sunday Morning Music',strapline:'Sunday 8 November 2026 only',description:'Music and company before our Remembrance Sunday programme begins at 10:30am.',presenter:null,image:null,featured:false,active:true}];return [...result,...filler,special];
  }
 
  function forDay(rows,group){rows=remembranceSunday(rows,group);const specific=['monday','tuesday','wednesday','thursday','friday'].includes(group);const base=rows.filter(r=>r.day_group===(specific?'weekday':group));if(!specific)return base.slice().sort((a,b)=>mins(a.start_time)-mins(b.start_time));const overrides=rows.filter(r=>r.day_group===group);if(!overrides.length)return base.slice().sort((a,b)=>mins(a.start_time)-mins(b.start_time));const slots=[];let last=null;for(let m=0;m<1440;m++){const row=overrides.find(r=>covers(r,m))||base.find(r=>covers(r,m));if(!row){last=null;continue;}if(last&&last.original===row){last.end_time=fmt(m+1);continue;}last={...row,start_time:fmt(m),end_time:fmt(m+1),original:row};slots.push(last);}return slots.map(({original,...row})=>row);}
