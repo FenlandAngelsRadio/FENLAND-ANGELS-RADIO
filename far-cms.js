@@ -9,16 +9,16 @@
  function remembranceSunday(rows,group){
   const date=londonDate();
   if(group!=='sunday'||date<'2026-11-06'||date>'2026-11-08')return rows;
-  const special={id:'remembrance-2026-11-08',day_group:'sunday',start_time:'10:00:00',end_time:'12:00:00',show_name:'Remembrance Sunday',presenter:null,strapline:'Sunday 8 November 2026 only',description:'Together, we remember. Join Fenland Angels Radio for a morning of reflection, including our Remembrance tribute and the two-minute silence at 11am. Casey Redmond’s complete Sixties show airs beforehand at 9am.',image:'assets/remembrance-sunday-2026.jpg',featured:true,active:true};
+  const special={id:'remembrance-2026-11-08',day_group:'sunday',start_time:'10:30:00',end_time:'11:30:00',show_name:'Remembrance Sunday',presenter:null,strapline:'Sunday 8 November 2026 only',description:'Together, we remember. Join Fenland Angels Radio for a morning of reflection, including our Remembrance tribute and the two-minute silence at 11am. Casey Redmond’s complete Sixties show airs beforehand at 9am.',image:'assets/remembrance-sunday-2026-v2.jpg',featured:true,active:true};
   const result=[];
   for(const row of rows){
    if(row.day_group!=='sunday'){result.push(row);continue;}
    const a=mins(row.start_time),b=mins(row.end_time);
-   if(b<=a||b<=600||a>=720){result.push(row);continue;}
-   if(a<600)result.push({...row,end_time:'10:00:00'});
-   if(b>720)result.push({...row,start_time:'12:00:00'});
+   if(b<=a||b<=630||a>=690){result.push(row);continue;}
+   if(a<630)result.push({...row,end_time:'10:30:00'});
+   if(b>690)result.push({...row,start_time:'11:30:00'});
   }
-  return [...result,special];
+  return [...result,{id:'sunday-filler-2026-11-08',day_group:'sunday',start_time:'10:00:00',end_time:'10:30:00',show_name:'Sunday Morning Music',strapline:'Sunday 8 November 2026 only',description:'Music and company before our Remembrance Sunday programme begins at 10:30am.',presenter:null,image:null,featured:false,active:true},special];
  }
 
  function forDay(rows,group){rows=remembranceSunday(rows,group);const specific=['monday','tuesday','wednesday','thursday','friday'].includes(group);const base=rows.filter(r=>r.day_group===(specific?'weekday':group));if(!specific)return base.slice().sort((a,b)=>mins(a.start_time)-mins(b.start_time));const overrides=rows.filter(r=>r.day_group===group);if(!overrides.length)return base.slice().sort((a,b)=>mins(a.start_time)-mins(b.start_time));const slots=[];let last=null;for(let m=0;m<1440;m++){const row=overrides.find(r=>covers(r,m))||base.find(r=>covers(r,m));if(!row){last=null;continue;}if(last&&last.original===row){last.end_time=fmt(m+1);continue;}last={...row,start_time:fmt(m),end_time:fmt(m+1),original:row};slots.push(last);}return slots.map(({original,...row})=>row);}
