@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-11-07T22:21:25.173037+00:00",
+  "updated_at": "2026-11-08T06:45:09.196923+00:00",
   "stories": [
+    {
+      "id": "fenland-news-f0d6e00d76cbddb808f1d7c0",
+      "headline": "Peterborough knocked out of FA Cup",
+      "brief": "Peterborough United have been eliminated from the FA Cup following a heavy defeat against Reading. The match saw Charlie Savage play against a side managed by his father, Robbie Savage, as Reading secured a decisive victory over the Peterborough team.",
+      "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWRQZ056a2hWNWg5S3RzQUpZaE1XTlNjWGkwYlBDa2NyYlcydUlobkd3Nk91U0VnclpjMWdUUkxVX1NocmhzaGlKLXEwVFYzdGRHSkZtZG01YTdXS21Vc3VvWHRUTjVuVzBKa1JnTUdMUERlaVU5aXdJSUFBY19LelhydnhMaXRON0JYVUl3TmtJbllwazN3al8wWFlmS3J4aktYdWR3SUwyeENTdmZUaDktVnN5dEV1Wmc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-07T18:15:00+00:00",
+      "generated_at": "2026-11-08T06:44:43.821864+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:43 +0000"
+    },
+    {
+      "id": "fenland-news-bed01117a13128302ff754cf",
+      "headline": "Knife monument to visit Cambridgeshire",
+      "brief": "A sculpture created from knives is set to visit Cambridgeshire. According to the county’s constabulary, the monument is described as a powerful installation. Further details regarding the exact location and dates for the arrival of the artwork have not yet been released. Residents are advised to keep an eye on official police channels for updates on when and where the monument will be displayed.",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUxNdW9tUXNKa05UX2VTdHhQZmVvbVYxTEdXc1A1U2l4b3lla3ZGcGZJOE9IcjF0Q0FQemR5MEtRbzF2ejl4ak5hT1VobWpPN19JT21RRVE4WUJyX21tLU9sRjZ3ODVkcFBVNF9GNVBVYmYyZF8zdS1IWkV0Q2l2SFRfVUhLY1FqV0xER2FJNmFQNWJjOEFYeTZmNE1hMGpTTDlkY2dkRUgxZw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-04-09T07:00:00+00:00",
+      "generated_at": "2026-11-08T06:44:41.144323+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:41 +0000"
+    },
+    {
+      "id": "fenland-news-48f1437481df3572e024c9ef",
+      "headline": "Coronation Fountain to be unveiled in March",
+      "brief": "A new Coronation Fountain is set to be unveiled in the town of March. The project, located in the Cambridgeshire town, is now complete and ready for its official reveal. Further details regarding the unveiling ceremony have not yet been announced.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zdHVkcThqTzlqUHRjMFFtNTJFLTRhNHJhZEtTenN6M29lWC1sQWZtM0tfRWNxRHo3cGhfLVk1LVBkRTZCV1AzNE9aalhPeS0zQVVMemNPUXRsUE0y?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2024-11-07T08:00:00+00:00",
+      "generated_at": "2026-11-08T06:44:37.556033+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:37 +0000"
+    },
+    {
+      "id": "fenland-news-6445a404bc843d00d6451707",
+      "headline": "King’s Lynn runner to complete 45 festive fancy dress runs",
+      "brief": "A King’s Lynn athlete is preparing for a demanding fundraising challenge throughout December. Matty Parker, a member of Ryston Runners, plans to complete 45 separate 5km runs while wearing a different fancy dress costume for each outing. The initiative, titled December Dashes, aims to raise funds and awareness for the charity Caring Together, which supports unpaid carers.\n\nMr. Parker intends to visit various locations across the region, including St Ives and Swaffham, and hopes to be joined by fellow runners. His challenge concludes on New Year’s Eve at RAF Marham. Supporters can contribute to his fundraising appeal via the JustGiving website.",
+      "original_url": "https://www.lynnnews.co.uk/news/fancy-dress-festive-challenge-of-45-5km-runs-in-december-9490384/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/I1O8UPIJ5KV36DKMT0T8.jpg",
+      "published": "2026-11-08T06:00:00+00:00",
+      "generated_at": "2026-11-08T06:44:32.159232+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:32 +0000"
+    },
+    {
+      "id": "fenland-news-670ae1220316ec4d48cfb95f",
+      "headline": "Peterborough United defeated by Reading",
+      "brief": "Peterborough United suffered a heavy defeat at home yesterday, losing five-nil to Reading. The result was confirmed following the latest fixture between the two sides. Fans looking for a detailed breakdown of individual performances can find player ratings published by The Tilehurst End.",
+      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOEZtVktjRkRwMFVldTc0MWhlYVB2ck5pRmh4Z2o2NlYyRkNpNzFIazFLemUySUoyMzJVRE15WldvMGRxNUxVRlRIeVpjTVJlRmxuTkoycDQ1XzFSeUNySnJIUDRyd21VVU4yUEdubnIzMUhwM1g1X0kyZW1ueThXdnU4S0M0QUZMOWQzUGpiczVpaXQ2RkdONVFwVlZTMFRkSFBnVUNUTQ?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-07T22:44:42+00:00",
+      "generated_at": "2026-11-08T06:44:30.562598+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:30 +0000"
+    },
+    {
+      "id": "fenland-news-dc705224bf2a3644d5cb10bb",
+      "headline": "Police appeal following incident on Cambridgeshire train",
+      "brief": "British Transport Police are investigating reports of an indecent exposure on a train travelling through Cambridgeshire. Officers were alerted after a man allegedly exposed himself while seated at a table on board the service. \n\nAuthorities are now looking into the circumstances surrounding the incident. Anyone with relevant information regarding the event is encouraged to contact the British Transport Police to assist with their ongoing enquiries.",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbVdWNFNWdHYyalg2bXZ5LXNyMm9LaDI2dHRCb3QzcmhxX0xYelJwMnhVQ1lESWdRbTN2RGRCSGx0T3BnX1ExRDNSUlppalBUVHV3LVhGQXVVV1gwNVRqek00amt3dU9mN21pZEY3dlBFVEhpM2hubjJJVUVPM0doalp6cVRkdWg4YXExZnFjb0fSAZYBQVVfeXFMT2VnUkZ5dmtkUndEbTh1aDQ3N0JJUGNVTXB5d0dCUTRwRE42QmQyOE14LVFmajNnQWdjUDhoMFktcWp0cHM3U1pwNnJIcEh0N0l4blY3eWQ0Q3MxVzY3YU9uVkNsaHZVdWw5Q0dlbjZCXzdfUl9DMXpKNGdLSXM1TjN1ampXTzFHblJPQk80QTYzTTFLOEl3?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-06T13:32:00+00:00",
+      "generated_at": "2026-11-08T06:44:18.418777+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:18 +0000"
+    },
+    {
+      "id": "fenland-news-36412b2e9059f10a601de843",
+      "headline": "Plans submitted for 125 new homes in March",
+      "brief": "Proposals have been put forward for a new housing development in March. The plans involve the construction of 125 homes on a field within the town. Further details regarding the project are expected as the planning process continues.",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaSzZvWVNqUzJxQWpOb3dSZWctU1lwMTUyQlB4Q1NLam5uVEs3UmpPR09xTFl5dl9qM1pEQnJkM2xnS1l2Yk1PQU5CaXJrZk1XdnRXOF9Ld1M0dw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2024-11-11T08:00:00+00:00",
+      "generated_at": "2026-11-08T06:44:17.253572+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:17 +0000"
+    },
+    {
+      "id": "fenland-news-6d461eefbacaa15bc23d4481",
+      "headline": "Three-year driving ban for King’s Lynn drug-driver",
+      "brief": "A 35-year-old man from King’s Lynn has been disqualified from driving for three years after testing positive for cannabis. Harry Burt, of Persimmon in Fairstead, was stopped by police on Queensway in Gaywood while driving without insurance. A roadside test revealed he had double the legal limit of THC in his system.\n\nAt Lynn Magistrates’ Court on Thursday, Burt pleaded guilty to drug-driving, driving without insurance, and possession of cannabis. The court heard he had consumed the drug to assist with sleep. In addition to the driving ban, Burt was ordered to pay a total of £634 in fines, costs, and a victim surcharge.",
+      "original_url": "https://www.lynnnews.co.uk/news/drug-driver-caught-more-than-double-the-limit-on-the-straig-9490232/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/QGNRVZNIVVE5TBX4M1NI.jpg",
+      "published": "2026-11-08T06:00:00+00:00",
+      "generated_at": "2026-11-08T06:44:13.860982+00:00",
+      "rss_date": "Sun, 08 Nov 2026 06:44:13 +0000"
+    },
     {
       "id": "fenland-news-90112bd155b554badb4cd26d",
       "headline": "Peterborough United face Reading in FA Cup clash",
@@ -1012,94 +1100,6 @@
       "published": "2026-10-12T07:00:00+00:00",
       "generated_at": "2026-11-01T18:08:20.886230+00:00",
       "rss_date": "Sun, 01 Nov 2026 18:08:20 +0000"
-    },
-    {
-      "id": "fenland-news-c3fbae1b25aaec03540f4d7a",
-      "headline": "Festive events announced for True’s Yard Fisherfolk Museum",
-      "brief": "True’s Yard Fisherfolk Museum in King’s Lynn is hosting a series of Christmas events following a grant of over £2,500. The ‘Reel Bright Idea’ project includes a free Dickensian trail launching in November, alongside an exhibition on the history of Christmas tree decorations. \n\nFamilies can also enjoy free yoga classes, craft sessions, and a Christmas fair. Other highlights include a carol concert at All Saints’ Church on December 9 and evening museum openings in mid-December. Many activities are free, though some require advance booking. For full details on the schedule or to reserve a place, visit the True’s Yard website, call 01553 770479, or email info@truesyard.co.uk.",
-      "original_url": "https://www.lynnnews.co.uk/news/decking-the-halls-at-fisherfolk-museum-9489196/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/7WQGU84S1ERVK7QP30TM.jpg",
-      "published": "2026-11-01T06:00:00+00:00",
-      "generated_at": "2026-11-01T18:08:19.925457+00:00",
-      "rss_date": "Sun, 01 Nov 2026 18:08:19 +0000"
-    },
-    {
-      "id": "fenland-news-0d69c9be0faed2d520048520",
-      "headline": "Obituary notice for Rex Richardson of Long Sutton",
-      "brief": "An obituary has been published for Rex Richardson, a resident of Long Sutton in Lincolnshire. The notice, which appeared in the Spalding Guardian, confirms that Mr Richardson passed away in 2020. No further details regarding his life or funeral arrangements have been provided in the report.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSzM0N09wVE9xalRCeFJhcUc2STNFTERzTjRRSE91UEl4RUZBTDRwblhITS13REZxTFBFdTdZWE9nYkwwVFQ4a0hTN2FuMTFRYkZsb0wtak55aTZFb01Ua3A5VHBRR2JhdmZxUGZiUnZsMEdONjhqMUtrbFctMThNTS1FTFVkYnQ2WHJDRDRpOHpUY0VRcGpBNU5B?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2020-03-10T07:00:00+00:00",
-      "generated_at": "2026-11-01T06:53:34.080175+00:00",
-      "rss_date": "Sun, 01 Nov 2026 06:53:34 +0000"
-    },
-    {
-      "id": "fenland-news-ce6452fc230a2980f2982e8e",
-      "headline": "Concerns raised over proposed Chatteris energy plant",
-      "brief": "Residents in Chatteris have expressed concerns regarding a proposed energy plant for the town. Reports indicate that local people are worried about the potential for unpleasant odours resulting from the development. The plans for the new facility have been highlighted by the March Chatteris Whittlesey News.",
-      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVGVKNWpkYkhkNjNZYlJnQ1BGS2xmVVVnZGNLRWk2T2RiLTNfV2NsY1Z0R0V5eXEtbEgwZ2lUMEVmbm5OTlg2SjhqRHdVT29GVUs0eVpSekZFX1BEMjJYQy1xSW5fSjd3VjQ2eGlmbVN6S1NwN3Qwa3BwRVVhN2t4NmNhTWZHclJFODZweDl2WdIBlAFBVV95cUxOaENKZVFhMHB2cnlYcndTdWpxeXpQZ3ZvZXd4XzNnM2ozaFhSdFFUNjVIZDFkZGdVMXNGMGZIdzROV1NfSmlUSERpY1NCVEFqMi1KVVVFelEwcEpOYkxUUjBMUzJJWFdJdWJYUkJvTVhqSGdiVzZXTU5YZ0llaWtUbUNSQTRXX1RUR0FyeTM4bUoyVU5V?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-06T07:00:00+00:00",
-      "generated_at": "2026-11-01T06:53:30.240825+00:00",
-      "rss_date": "Sun, 01 Nov 2026 06:53:30 +0000"
-    },
-    {
-      "id": "fenland-news-0e4c2e723c8eda8514207421",
-      "headline": "Future of Queen Elizabeth Hospital services to be discussed",
-      "brief": "The Norfolk and Waveney University Hospitals Group Board is meeting on Monday, November 2, to discuss a new clinical strategy for the region. The board will review a \"Case for Change\" document, which examines how healthcare services might develop over the coming decades.\n\nThis follows public concern regarding reports that accident and emergency, intensive care, and maternity services at the Queen Elizabeth Hospital in King’s Lynn could face closure. However, the hospital group has stressed that no decisions have been made. They state the meeting is not a consultation on service changes, but rather the start of a conversation about how to improve care while addressing staffing pressures and changing population needs.",
-      "original_url": "https://www.lynnnews.co.uk/news/future-of-hospital-services-to-be-discussed-as-chiefs-consid-9489403/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/XR3HQJPPFV39LSPMYBPI.jpg",
-      "published": "2026-10-30T16:31:21+00:00",
-      "generated_at": "2026-11-01T06:53:28.846440+00:00",
-      "rss_date": "Sun, 01 Nov 2026 06:53:28 +0000"
-    },
-    {
-      "id": "fenland-news-c8d238613f904b6d91b45cf5",
-      "headline": "Age UK highlights impact of Cambridgeshire handyperson service cuts",
-      "brief": "Age UK has raised concerns regarding the decision by Cambridgeshire County Council to withdraw funding for its handyperson service. The service, which provided practical support to residents, will no longer receive financial backing from the local authority. The charity has highlighted the potential impact this change will have on those who relied on the assistance provided. No further details regarding the timeline for the service closure or potential alternative support options have been released by the council at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZ01Dc3lLV0ZuS09kbTNuRk9xRVVyM1NHWVZTaVB4QkZ1LVk1LVFseGRDNG1QZUhtc2NLZzVBeVRGbGhuNEVvQnh6c0R4RktyTngxRGdMTGtZSDYzMGUzQXhZMk41cHI3UXJicnlzQU1fN0J4enJqUnFEUDh5cnVQWXV2WndIN2dSQTk0dkxDdzEyV1Q1ekRFNGMzMjJpOV9ucjVzT0dVNFJXcnlKRkM1ZTdkYlJEQ19SX1dKVFQzWGhERFYzVEotRmw5elZWMGFic09wQnktS1lySXl1cXI1QjZUQzE1Rm9SeVFTQnQtb1NLMWxJVWRnYWRSNA?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-03-16T07:00:00+00:00",
-      "generated_at": "2026-10-31T21:54:01.635131+00:00",
-      "rss_date": "Sat, 31 Oct 2026 21:54:01 +0000"
-    },
-    {
-      "id": "fenland-news-0a10a6fe977851eef5da1338",
-      "headline": "Waterstones King’s Lynn names new Book of the Week",
-      "brief": "Waterstones in King’s Lynn has announced its latest Book of the Week. The store is currently highlighting The Wax Child by author Olga Ravn. The novel is a reimagining of a 17th-century Danish witch trial, exploring themes of persecution and suspicion. \n\nThe shop has also released its current top ten chart. Other titles featuring in the list include The Case of the Christmas Card by Elly Griffiths, Dungeon Crawler Carl by Matt Dinniman, and Quirky King’s Lynn by Bill Lovelock. Readers can find more information on these titles by visiting the King’s Lynn branch.",
-      "original_url": "https://www.lynnnews.co.uk/news/story-of-danish-witch-trial-is-mesmerising-and-frightening-9488437/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/V42IS6OF81JLRVXZ634D.jpg",
-      "published": "2026-10-31T06:00:00+00:00",
-      "generated_at": "2026-10-31T21:54:00.353991+00:00",
-      "rss_date": "Sat, 31 Oct 2026 21:54:00 +0000"
-    },
-    {
-      "id": "fenland-news-a17d237f0e625cce246fd203",
-      "headline": "Peterborough United defeated by Luton Town",
-      "brief": "Peterborough United have suffered a defeat in their latest League One fixture. The team lost 2-0 to Luton Town. Highlights of the match have been made available via Sky Sports.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYXU4VURSRG1UazRvaEFFSUV1VkNrUzZ0dm1pZmlqY29fUjNRS0RoY0ZPQ3hXUjV3cGNuVU5LOUhIcWYyV3ZPVnJ6WlNjdEVtaE1wYmdtZV9hODFxaUtacWhaWkR5S2ZkNzVjQVlKVzFaX3hrSkJIQ0hzVFRiMTRNaWlacHkwdVhvX0RrV3RLNW43Y00zWlJDaE5xRnlxRGhsM1k5R2RRNXBFQQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-10-31T18:07:45+00:00",
-      "generated_at": "2026-10-31T21:53:58.616289+00:00",
-      "rss_date": "Sat, 31 Oct 2026 21:53:58 +0000"
-    },
-    {
-      "id": "fenland-news-e899d0f2b48ca9468364b192",
-      "headline": "Ely restaurant receives praise for burgers",
-      "brief": "A local restaurant in Ely has been highlighted for its food, with a recent report describing the establishment as serving the best burgers in Cambridgeshire. The recognition comes from the Cambs Times, which featured the venue in a recent article. Residents looking for highly-rated dining options in the city may wish to take note of the positive review.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOak9nbGFmaHJ5T1Y3R2htVGZGQThpLUJ6ejBpSGMyRHdMZGVNR0Q5RU00a3pseVljdS16bzlUSHdHSUxoc3R3OG5GWHRNV01KbHVCZEE5c1dwLV9YVVIwaVU5TVFCVmpMNGpWckJPLWNYNFFJd0wtUWxfUVVDNDZmNGN0V1U3OXRzb2ZZa1RGVWN0MkNWYVg5SWdrV2E4UWM?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-10-31T07:20:41+00:00",
-      "generated_at": "2026-10-31T21:53:57.673223+00:00",
-      "rss_date": "Sat, 31 Oct 2026 21:53:57 +0000"
     }
   ]
 }
