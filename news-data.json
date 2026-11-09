@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-08T22:32:08.506932+00:00",
+  "updated_at": "2026-11-09T07:14:57.220536+00:00",
   "stories": [
+    {
+      "id": "fenland-news-9abc4e33e9aa7ddfc1fb660d",
+      "headline": "Police provide update on Fenland park assault",
+      "brief": "Cambridgeshire Police have issued an update regarding an alleged assault in a Fenland town park. The incident reportedly involved a victim being targeted with eggs. Authorities are currently investigating the circumstances surrounding the event. No further details regarding the location or the identity of those involved have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmJDRFZiT0VfWGFhY2RWRk9tbXFRaE1oRHBGbXFub3lzSlVYXzRnNHpYd2tHQ1kxemsxVmREbS05eTkzRjF3VzVtZjk2R2ZSajlYMHpic2hxSjYweEFkOTBrczdGeUI1Q0Q1N29NaU10MTlNTF9SZkltdC1ZU2tIeHBQNDdZMkRnSjRzVHpB?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-03T12:25:00+00:00",
+      "generated_at": "2026-11-09T07:14:28.891984+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:28 +0000"
+    },
+    {
+      "id": "fenland-news-098ad262d1fd7067a178f713",
+      "headline": "Peterborough United Women’s FA Cup match abandoned",
+      "brief": "A Peterborough United Women’s FA Cup fixture has been abandoned following a serious injury to a player. No further details regarding the incident or the player's condition have been released at this time. \n\nIn separate club news, the Peterborough United Under-18s side secured a victory, highlighted by a hat-trick from one of their players.",
+      "original_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPaXprd0ZHNGlsVGxZODRBT3Q4U1RQOENsbFl0c1Bha1JpZk9wdXo0V3FhaDh6R1REWGVqa3BKQ2FrcDBySTVuc0JVREg0WGxyRzAxX2JmTjlfRlgxeG9BdUN6Sm43VTBzWU9wZmRZRnVNZlk5Z0FMWjJkNnlHZUJtUGhhYmRENUFnLW9BR0ZpMnozVW0xeDZJdEdQX2NZUWdlMXZ0NGJmRTNQRHlmSmpZVU1xWVFvSDc2dmZyamJnRnpLNzRuTjkyZUlCT295WUZ1dTNGajltWkhXcU5Nem1ZQnJlcVptaDVBN19Hb3VIRFFkbXVNbFZXSUhHWTVsM09rRGllaHREaWhJNms?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-08T19:17:00+00:00",
+      "generated_at": "2026-11-09T07:14:27.884239+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:27 +0000"
+    },
+    {
+      "id": "fenland-news-60d76f120b1752bb02ac49ee",
+      "headline": "Ely MP appointed to lead parliamentary group on flooding and drought",
+      "brief": "Ely MP Charlotte Cane has been elected to chair a parliamentary group focused on flooding and drought. The cross-party committee examines issues related to water management and environmental challenges across the country. Ms Cane will now head the group’s efforts in Westminster, where members work to address concerns regarding flood risks and water shortages.",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPclJaYW9MbnVOUzdIRVFUUkliYk0xd040MExSMllBVjFjTFlXYk5NSVN0REk3dUI5MS1BM0lIYlc0TjFZSTVHN2lWZEt5bENjeWxIRmhqeVkyOXZoa0NhemZUWFRLWXdKclp1NmVCX0w1UDJzREFBazB3bmV0TzMxMzBITVVrbkJqTUdLVm55LXhOUEVYVVAtOTB3TjA?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-09T06:00:00+00:00",
+      "generated_at": "2026-11-09T07:14:26.836424+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:26 +0000"
+    },
+    {
+      "id": "fenland-news-010e9cd834b69147e10488db",
+      "headline": "Hundreds attend Remembrance Parade in March",
+      "brief": "Hundreds of people gathered in the Fenland town of March for the 2026 Remembrance Parade. The event saw members of the local community come together to pay their respects and honour the fallen.",
+      "original_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeTQ0WUhWUEFkdDJSeGVjaEpfRmFXNTlPeHRTSEJQQjE4RjdwQkJwOXNmSTRsR0RCOWV5UXVqblV3ckt1aXpPZDNkTWpJQmFkMDNGSkFTdDNmX3k5SzhKaWpLZkVVZEhWaDJoWW5MYXA1dVhyem8xTUJPVGd1dzdoTTFvUnU4elBwNzYyVFJCVGJKVGxlZ2FkRGk0Z1k0aEhOM2VhZG5zQTdkQ0ZLbEQ4OU1WWno4WHRReHVEUy1BRzNEdw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-08T17:23:00+00:00",
+      "generated_at": "2026-11-09T07:14:25.628639+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:25 +0000"
+    },
+    {
+      "id": "fenland-news-6c2398546bfb0c4e3ef1de71",
+      "headline": "Wisbech’s Luxe Cinema reopens following temporary closure",
+      "brief": "The Luxe Cinema on Alexandra Road in Wisbech is welcoming customers back today. The venue had been closed since earlier this week due to what management described as unexpected circumstances. \n\nIn a social media update this morning, a spokesperson confirmed that the cinema is now fully operational. The closure was necessary to allow for the renegotiation of the building's insurance policy, a process that has now been successfully completed. Doors are open for scheduled screenings from 1pm this afternoon.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/cinema-welcoming-customers-back-after-having-to-temporarily-9489314/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/Y6M4L89WVBHCQGTRVXZJ.jpg",
+      "published": "2026-10-30T12:15:33+00:00",
+      "generated_at": "2026-11-09T07:14:24.737361+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:24 +0000"
+    },
+    {
+      "id": "fenland-news-1a6fc6a8e885c537ee2be1a8",
+      "headline": "King’s Lynn man fined after failed shoplifting attempt",
+      "brief": "A 34-year-old father from Fairstead has been fined following a failed attempt to steal groceries from the Asda store in South Wootton. Brendon Smith, of William Booth Road, pleaded guilty at Lynn Magistrates’ Court to the theft of goods worth more than £400.\n\nThe court heard that on September 15, Smith and another man were intercepted by a security guard while attempting to drive away with the stolen items. The groceries were recovered at the scene. Smith was ordered to pay a total of £157, covering an £80 fine, a victim surcharge, and court costs. His co-offender did not appear in court.",
+      "original_url": "https://www.lynnnews.co.uk/news/father-s-400-shoplifting-mission-fails-after-security-guard-9490323/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/74E5MJCSUGTYXE04L4PY.jpg",
+      "published": "2026-11-09T06:00:00+00:00",
+      "generated_at": "2026-11-09T07:14:22.925686+00:00",
+      "rss_date": "Mon, 09 Nov 2026 07:14:22 +0000"
+    },
     {
       "id": "fenland-news-133092d7ff92724987cb0ad9",
       "headline": "Cambridgeshire tourist spots recognised in national list",
@@ -1034,72 +1100,6 @@
       "published": "2026-11-02T07:00:00+00:00",
       "generated_at": "2026-11-02T21:57:03.837665+00:00",
       "rss_date": "Mon, 02 Nov 2026 21:57:03 +0000"
-    },
-    {
-      "id": "fenland-news-39abb801d20e44d36bd2edc2",
-      "headline": "E-scooter battery sparks house fire in Spalding",
-      "brief": "Fire crews have confirmed that a blaze at a home in Spalding was started by an e-scooter battery. Emergency services attended the scene following the incident, which has prompted reminders about the potential risks associated with charging these devices. No further details regarding the extent of the damage or any injuries have been released at this time. Residents are being urged to ensure they follow safety guidelines when charging lithium-ion batteries for e-scooters and e-bikes.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWhpS204UHBLSHlKRFpjVlVIMC14cXEzUndIajIxOVBodndqblJKZ0tnMVFxdndVY1hLdHB5dnZkZHlqM0RjekhzZTljUEVnYVBfd0NZQzlUWUpWdU1TblZlZWUwQ2FabXo0UGF5dV9rUWVCRUdtTVFEMUJkYlROYTJNQnp2Z1RQcnBodUNNTlhydFnSAZgBQVVfeXFMTzJFcUZkZ3JNcXBVcF9vWWNSYm5uMmFFWjNoVmROZ3hZMHRJa0F6R3VFYmtPMDVjQ2VEcjc2bDRITF85ck9tcVpwM01ZOVVVdHZ4ajNqMTlCX0RlT2ZmeFd5Vkl5YllsbjJBbHJhbmhtQXJDazRjS0tlWlRiSjYyU3U3c0xiYjdtR3FrQ2syWU1VeERId0JmejM?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-03-06T08:00:00+00:00",
-      "generated_at": "2026-11-02T21:57:02.707207+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:02 +0000"
-    },
-    {
-      "id": "fenland-news-91a87e85f9f6bbaad29237c0",
-      "headline": "Fire reported at derelict hotel in Cambridgeshire",
-      "brief": "Emergency services have been called to a fire at a derelict hotel in a Cambridgeshire town. The incident was reported by the March Chatteris Whittlesey News. No further details regarding the location or the extent of the damage have been released at this time. Residents are advised to stay clear of the area while crews manage the situation.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUlOQk50OHpWYURrQTVNOXA5X1lkNHdzNWs5ZVFpdkdja2pMaUI5a1RuWE5TOW8yVENSdTlRS3ZCR2FhbHc0bGoyMGxCM09US3NYM29JUC1ZNGdPTTNIdU1PWHp4cUpKcWFfUHJ4MUdmZUU0dndMSTdzd0lXUF9wY3JhdnJLZGdCSGd3V3E4MG1nd9IBlwFBVV95cUxNZDY1UjB2MlNwSDlvTk5keWlBdkVxVG53di1EeUlZaEozX1JRV0otdXV5ZGpwOHBTZ2JqRkI0Q3plbmdlanI2bEJBdUgtSldnRjVGTlJGQW01YldfNkxoUlExanBlY1BGSWxWZElfOFVjOWpyai1pSm5FU2ZpdW1wdk5vTnpSWjJGeXk2OE5jeGozRkFYdXh3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-02T14:22:00+00:00",
-      "generated_at": "2026-11-02T21:57:01.254754+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:01 +0000"
-    },
-    {
-      "id": "fenland-news-f20791d449c49b1531551f37",
-      "headline": "Home Office to proceed with asylum accommodation in Leverington",
-      "brief": "Fenland District Council has expressed deep concern after the Home Office confirmed plans to use Roman Court in Leverington as asylum accommodation. The site is intended to house 26 women and babies. The council had previously raised objections regarding public safety, community cohesion, and the suitability of the location. \n\nThe Home Office stated that the site will only become operational once it meets all necessary legal, safety, and regulatory requirements. This decision follows recent public protests and a fire at the property, which remains under police investigation. Officials from the Home Office are scheduled to meet with council and police representatives tomorrow to discuss the matter further.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/council-condemns-home-office-decision-to-proceed-with-asylum-9489646/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/3QCVL5D3ZKI4F7NO5I9F.jpg",
-      "published": "2026-11-02T20:26:37+00:00",
-      "generated_at": "2026-11-02T21:57:00.113334+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:00 +0000"
-    },
-    {
-      "id": "fenland-news-cd53ead4dd3c82c96269a6fd",
-      "headline": "New supermarket and care home proposed for King’s Lynn",
-      "brief": "Plans have been submitted to West Norfolk Council for a new development on the outskirts of King’s Lynn. The proposal for land off Edward Benefer Way includes a new Lidl supermarket and a three-storey care home featuring 66 bedrooms. \n\nThe site, located near the Wootton Grange housing development, would also include electric vehicle charging points and dedicated parking for both facilities. Developers state the project aims to provide specialist care for older people and increase retail choice for the local community. The application is currently awaiting consideration by the council.",
-      "original_url": "https://www.lynnnews.co.uk/news/supermarket-and-66-bed-care-home-could-come-to-outskirts-of-9489601/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/5ZJF69OWH1JO9LCPCM23.jpg",
-      "published": "2026-11-02T16:06:03+00:00",
-      "generated_at": "2026-11-02T21:56:58.269157+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:56:58 +0000"
-    },
-    {
-      "id": "fenland-news-053acf3351d13806998a832e",
-      "headline": "Police investigate meat theft in Spalding",
-      "brief": "Lincolnshire Police are investigating the theft of meat from a shop in Spalding. Officers are currently looking into the incident, which was reported at a store within the town. No further details regarding the items taken or potential suspects have been released at this stage. Anyone with information that could assist the investigation is encouraged to contact the authorities.",
-      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcmkyQlZ6Zk1aYWttM2FQS2o3OUNYcDc5QkduRHhYNlBWN211Z05mZ2lzR3ZaY3hnWEtPTnlfRy1RR0lQbzgtS05Ba0FqUURYTWpzd19Jc3c2SzRBLXYwM2JFak03Ny01WlFYdHJVTDVoc0ktSzRuUmE0VDhCNFZGYURvZ253YjRFc3NqdEU2c3VheGpDSVFXS0RNZDB6UVU?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2025-04-07T07:00:00+00:00",
-      "generated_at": "2026-11-02T06:54:35.894353+00:00",
-      "rss_date": "Mon, 02 Nov 2026 06:54:35 +0000"
-    },
-    {
-      "id": "fenland-news-d5d19995b17e9e431e62de2f",
-      "headline": "Whittlesey’s Manor Leisure Centre faces potential demolition",
-      "brief": "New development plans for Whittlesey could see the total demolition of the Manor Leisure Centre. The proposal is currently under consideration as part of a wider scheme for the area. No further details regarding the timeline or potential replacements for the facility have been released at this stage. Residents are advised to monitor local planning updates for any future developments regarding the site.",
-      "original_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNVFybGY2Q2xJcGU4eGhlMDJuZjV1VmZjaG9aM1M2LVp1eHY1d0RpVGFHQllwa2xVdzRTSjR4d1Vxc21UQTVtWDZZbEpYWjd0T21ORllkU0syMnViZEJfb3lEakt1ZnVqTGRma0ZzdTVnZnpKaTdScmgxbi1qZXN0OU0xUDNyek5Xb0gxcURLek0tNDlXUVhIQWxmOFVMNjlJNXhaallPdGxGSUthekhWMzBNN045WV9tbkRWQlhmd1lNZElrcUk2OGpIdjdTZw?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-09-30T10:33:00+00:00",
-      "generated_at": "2026-11-02T06:54:14.079501+00:00",
-      "rss_date": "Mon, 02 Nov 2026 06:54:14 +0000"
     }
   ]
 }
