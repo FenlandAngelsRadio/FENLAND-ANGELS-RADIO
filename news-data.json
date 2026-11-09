@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-09T07:14:57.220536+00:00",
+  "updated_at": "2026-11-09T22:45:40.638778+00:00",
   "stories": [
+    {
+      "id": "fenland-news-5a3b92907cb9f2ec6f85698c",
+      "headline": "New planning applications submitted across Fenland",
+      "brief": "A range of new planning applications have been submitted to local councils across the Fens. Among the proposals is a project in Wisbech at 13 Alexandra Road, where plans have been lodged to convert and extend a building to create three houses and six flats. \n\nOther notable applications include the construction of three new homes on land south of 10 Sutton Road in Leverington, and a proposal for a new dwelling at Parsons Lane Drove. Additionally, the local fire station on Churchill Road in Wisbech has applied to install a back-up generator. Residents can view the full list of planning submissions through their local council’s planning portal.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/three-homes-and-six-flats-on-site-in-fenland-town-among-late-9490493/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/N9I3KL4TGERDKYBISCFU.jpg",
+      "published": "2026-11-09T10:55:33+00:00",
+      "generated_at": "2026-11-09T22:45:24.861252+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:45:24 +0000"
+    },
+    {
+      "id": "fenland-news-5f911c796c1f800017768549",
+      "headline": "King’s Lynn law firm raises over £2,000 for local charities",
+      "brief": "A charity quiz hosted by law firm Fraser Dawbarns has raised a total of £2,520. The event, held at King’s Lynn Town Hall on October 22, saw teams compete to support two local causes: Breast of Friends and the West Norfolk Autism Group. Each charity received a donation of £1,260. \n\nThe evening was hosted by the Mayor of West Norfolk, Councillor Steve Bearshaw. On the leaderboard, the team from Complete Commercial Finance secured the top spot. Both charities have been selected to receive ongoing support from the firm until April 2028. Organisers have already confirmed that the next annual quiz will take place on October 14, 2027.",
+      "original_url": "https://www.lynnnews.co.uk/news/two-charities-boosted-by-funds-raised-from-law-firm-s-annual-9490548/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/GYC1C01BGYHMJC10KP1S.jpg",
+      "published": "2026-11-09T13:59:34+00:00",
+      "generated_at": "2026-11-09T22:45:14.874211+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:45:14 +0000"
+    },
+    {
+      "id": "fenland-news-be6c8c1b7d36326f640026be",
+      "headline": "Rail disruption between Peterborough and London",
+      "brief": "Rail services between Peterborough and London are currently facing disruption. This follows an incident in which a person was struck by a train. Passengers travelling across the region are advised to check for updates before they set off, as delays are expected on this busy route. Further information regarding the status of the line can be found through National Rail Enquiries or your local train operator.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pTzBzU2Jub05iZEJVT0JjdFBPeUFCRnNXcVV1NFg4elJGLUVVeUo3NnI0aGJGWmlkdk9fUnh3OVB2aFJzWG9ENEdEZF9Qc0I4MGlXVjJ3dk9tWjI1amc?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-09T18:07:18+00:00",
+      "generated_at": "2026-11-09T22:44:50.008991+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:44:50 +0000"
+    },
+    {
+      "id": "fenland-news-313a67458b59ccf879750f9e",
+      "headline": "Spalding church lighting display confirmed to return",
+      "brief": "A popular church lighting show in Spalding is set to go ahead as planned. Organisers have confirmed the event will proceed after successfully securing the necessary funding. The display, which has previously drawn significant interest from the local community, had faced uncertainty regarding its financial backing. Further details on the schedule for the upcoming show are expected to be released soon.",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmFfRG1IWmhjamduRUdyR09IRm1ZMjFxV2FSUThldVJ2c3dYN1VQTUtSeTVfeGpzN3NrQUdnNjAySk9NN3ZmRkUwTDdPZ2Fpa0M0OXNaTUVjTDFDbTlNa1JUa28yMTZWa0dYdmk2SVgwX0EwMWJnMGpjWV8xM2d1ekVJME1pWFdNSTViaC1ZWjJOLTJhOGh2VTFfUEN0X3hZN1JRaTZGUXd2Q1ZrZGljM3Y2TQ?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2025-12-05T08:00:00+00:00",
+      "generated_at": "2026-11-09T22:44:03.707431+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:44:03 +0000"
+    },
+    {
+      "id": "fenland-news-e38873ffe6b095c06227a792",
+      "headline": "Ground Force star Tommy Walsh dies aged 69",
+      "brief": "The television presenter Tommy Walsh has died at the age of 69. Known for his role on the popular gardening programme Ground Force, Walsh had established connections to the Cambridgeshire area throughout his career. No further details regarding the circumstances of his death have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbmJuc0ROVGttUkRyYUQ0UjNkNU1CZ3NUOUFyYmpmQVZPdGRuRmdyUVRSdkE0cGpqcVkwUExERDEtU3pXYzVZbDNGYTF2cFJBTVR0SUt4R2RZY3d2Wmo1czdZLUpZUno4RWg0QWhkYnFBaGw2M19NTGc3ekg0UnJKck1GUWpWSWdpekVSZjhSNklDQkEyRjhqNUJKNWJOcERXYmlHYUo3dkh1WkozNGg3VVRTVjRIdjZiVTdXeW1zVjdEcG9s?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-09T16:51:00+00:00",
+      "generated_at": "2026-11-09T22:43:59.289977+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:43:59 +0000"
+    },
+    {
+      "id": "fenland-news-6f85bb7e1e784d18fab50661",
+      "headline": "Wisbech residents gather for Remembrance Sunday parade",
+      "brief": "Crowds gathered in Wisbech town centre on Sunday morning to mark Remembrance Day. The annual event, organised by the Town Council and the local branch of the Royal British Legion, saw cadets, armed forces members, and the public parade towards the war memorial at The Crescent.\n\nMayor Lucie Foice-Beard attended the service, which included the laying of wreaths and a two-minute silence at 11am. Among those paying their respects was 103-year-old veteran Stanley Eastgate. Local representatives praised the community for their support of the commemorations, which featured poppy displays throughout the town to honour those who lost their lives in service.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/dignitaries-cadets-and-members-of-public-gather-to-remember-9490544/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/DV3SFI8KZRCWV5OQQQTP.jpg",
+      "published": "2026-11-09T13:51:16+00:00",
+      "generated_at": "2026-11-09T22:43:58.443149+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:43:58 +0000"
+    },
+    {
+      "id": "fenland-news-bb6358aa80f91c0891d0b18e",
+      "headline": "Inquest concludes into the death of North Lynn woman",
+      "brief": "An inquest at Norfolk Coroner’s Court has concluded that the death of 57-year-old Janina Daunaraviciute was alcohol-related. The North Lynn resident was found dead in her garden on Raby Avenue in the early hours of June 26. The court heard that Ms Daunaraviciute, an agency worker, had been struggling following the death of her husband last year. Her daughter told the hearing that her mother had appeared normal earlier that evening. A post-mortem examination confirmed the cause of death as hanging, with toxicology reports showing high levels of alcohol in her system. Area coroner Johanna Thompson offered her condolences to the family. If you are affected by these issues, you can contact Samaritans on 116 123.",
+      "original_url": "https://www.lynnnews.co.uk/news/mother-appeared-normal-moments-before-she-took-her-own-lif-9490578/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/60DFH08YX47GM5E1ZIKB.jpg",
+      "published": "2026-11-09T15:43:50+00:00",
+      "generated_at": "2026-11-09T22:43:56.415065+00:00",
+      "rss_date": "Mon, 09 Nov 2026 22:43:56 +0000"
+    },
     {
       "id": "fenland-news-9abc4e33e9aa7ddfc1fb660d",
       "headline": "Police provide update on Fenland park assault",
@@ -1023,83 +1100,6 @@
       "published": "2026-03-05T08:00:00+00:00",
       "generated_at": "2026-11-03T07:16:54.042617+00:00",
       "rss_date": "Tue, 03 Nov 2026 07:16:54 +0000"
-    },
-    {
-      "id": "fenland-news-242d301a30e1e21cefae2873",
-      "headline": "Fire crews tackle blaze at former March hotel",
-      "brief": "Emergency services are currently dealing with a significant fire at a former hotel in March. Officials have warned that the building is at risk of collapse due to the severity of the blaze. Residents are advised to avoid the immediate area while fire crews work to bring the situation under control. There is no further information available at this time regarding the cause of the fire or any potential casualties.",
-      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdDlNMU85LXlhRk5FdmE3d1ZCdTJJbWh5azU2cG9YQWhVVWpiakJxdVFjdF82bUctdDNOal9LSjU2WTJjUk16TmF0enhVV1dVZWlKdDFELXZFM2h4eFJmMEJZS2ZUbHVpODRsbXlrU0tOb0dLVkY5ZUVuRW9YVXRDMWg2aEZsdk5wc1Z2bmNzUV9wRVl6UEROWkJHaUlpdFMxVFFZekNhTVNDeEI5Z2FVZDRuZVFoZVRFTzNUT0t2SWtxWEZhWDdoY3JsM2U1UkxPSHRlZTZWWlc3d0l6S3JZTG9IQQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-02T15:08:39+00:00",
-      "generated_at": "2026-11-03T07:16:53.061418+00:00",
-      "rss_date": "Tue, 03 Nov 2026 07:16:53 +0000"
-    },
-    {
-      "id": "fenland-news-43880595a1431dc966340ac8",
-      "headline": "Wisbech carpentry students build play kitchens for local playground",
-      "brief": "Carpentry students from the College of West Anglia have completed a community project for the Wisbech Adventure Playground. Level 2 students William, Marc, Reece, and Noah designed and built two bespoke play kitchens using reclaimed wood. The finished items were presented to playground representative Violet Loveridge this week. \n\nCourse lecturer Jamie Baker said the project allowed students to develop their skills while working sustainably. The new equipment is now available for children to use at The Spinney, with local officials praising the initiative for providing new opportunities for creative play. The project marks a successful collaboration between the college and the local community.",
-      "original_url": "https://www.fenlandcitizen.co.uk/news/carpentry-students-create-wooden-play-kitchens-for-playgroun-9489610/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/SWXTRQ72T5KWQWOW5IH4.jpg",
-      "published": "2026-11-03T06:00:00+00:00",
-      "generated_at": "2026-11-03T07:16:52.081519+00:00",
-      "rss_date": "Tue, 03 Nov 2026 07:16:52 +0000"
-    },
-    {
-      "id": "fenland-news-5a4690784076e6503c876ae2",
-      "headline": "Series of convictions at King’s Lynn Magistrates’ Court",
-      "brief": "A range of cases were heard at King’s Lynn Magistrates’ Court last Thursday. Several individuals appeared before the bench for driving offences, including drink and drug-driving. Among those sentenced were Oliver Saunders of Stoke Ferry, who received a 12-month driving ban for being six times over the cocaine limit, and Kevin Sherman of Necton, who was disqualified for 15 months for drink-driving.\n\nThe court also dealt with various theft and public order offences. These included a shoplifting case involving 20 bottles of whisky, a man pleading guilty to cultivating cannabis, and a case involving threatening behaviour at a restaurant in King’s Lynn. Several defendants were issued fines and court costs, with some sentencing hearings adjourned until later this year.",
-      "original_url": "https://www.lynnnews.co.uk/news/restaurant-threat-whisky-theft-and-drug-driving-among-last-9489615/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/30ZUIL4Y5ERL6EZ1C7EN.jpg",
-      "published": "2026-11-03T06:00:00+00:00",
-      "generated_at": "2026-11-03T07:16:50.574875+00:00",
-      "rss_date": "Tue, 03 Nov 2026 07:16:50 +0000"
-    },
-    {
-      "id": "fenland-news-3a80378aa21463caeb725ef4",
-      "headline": "New Ali G film released featuring Sacha Baron Cohen",
-      "brief": "Sacha Baron Cohen has returned to the screen as his well-known character Ali G in the new film, Ali G: Who Iz I? The movie, which marks Baron Cohen’s directorial debut, follows the character as he travels to America to revive his television career after discovering his girlfriend is expecting a baby. \n\nThe production features a mix of scripted scenes alongside the performer's signature hidden-camera encounters with members of the public. While reviews suggest the film’s narrative structure impacts the overall pacing, it continues to include moments of improvisation. The film also stars Morgana Robinson and Stewart Rodeheaver.",
-      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/a-fun-film-but-no-triumphant-return-9489496/",
-      "source": "Fenland Citizen",
-      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/QDBG10CH3OFKU1G4PBQA.jpg",
-      "published": "2026-11-02T10:31:59+00:00",
-      "generated_at": "2026-11-02T21:57:10.736873+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:10 +0000"
-    },
-    {
-      "id": "fenland-news-e07e4d939fedfac244bf8f9b",
-      "headline": "Power restored following North Lynn building fire",
-      "brief": "Four fire crews were called to a building blaze on Coulton Close in North Lynn yesterday evening. Firefighters from King’s Lynn, Terrington, and Sandringham arrived at the scene following a report at 7:36pm. \n\nTo ensure safety, UK Power Networks engineers isolated electricity supplies to 108 households at 8:29pm. Power was restored to all but one of those properties by 10:05pm. Crews remained on site using hose reel and main jets to tackle the fire, with the incident officially concluded at 1:51am this morning.",
-      "original_url": "https://www.lynnnews.co.uk/news/four-fire-crews-sent-to-building-blaze-which-left-108-hous-9489577/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/17G6XWHFMZBE61MEUH80.jpg",
-      "published": "2026-11-02T14:45:48+00:00",
-      "generated_at": "2026-11-02T21:57:08.807584+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:08 +0000"
-    },
-    {
-      "id": "fenland-news-bce0c00463eebecf7d08c590",
-      "headline": "Six fireworks displays planned for Peterborough this Bonfire Night",
-      "brief": "Residents in the Peterborough area have six different fireworks displays to choose from this Bonfire Night. Details of the various events have been published by the Peterborough Telegraph, offering local people a range of options for the upcoming celebrations. Those planning to attend are encouraged to check local listings for specific timings and venue information.",
-      "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVGlsSnFvR3FUNVkydTNCV2VTNlVCT2JBZkpLYkMzRGZRdWFXQ2xFR3d5OU9kOER1N3hxNE54YzRXb0JqTXlVRWtCMWQyTVc0QXdEZDVYUzdLVG1MQ2dyUTdJU2QyV0RKaXdXVDJfQkFTYkpJamZPZXZQWWFpZG9xeUF3cDFlQlh2LW1KbW90SEEwbEVOXzh6S1A0R3ZuLV9tdkFvNkdhRkJ5WUdwNm10QXRoWGJYNzVSTjJZRQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-02T13:10:00+00:00",
-      "generated_at": "2026-11-02T21:57:06.729199+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:06 +0000"
-    },
-    {
-      "id": "fenland-news-6eeafc5acea3c9a5faddf3cf",
-      "headline": "Cambridgeshire households to receive £100 energy payment",
-      "brief": "Households across Cambridgeshire are set to receive a one-off energy payment of £100. The funding is being distributed to residents in each area of the county to assist with rising costs. Further details regarding the eligibility criteria and the distribution process for these payments are expected to be released shortly. Residents are advised to monitor local updates for information on how this support will be provided in their specific district.",
-      "original_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR3pvZGNWWWtud2xyVzZVel9haHNPaXR6R3hUa0pCWFM2bXdhTk9odXViRHlvLW1ZOVNEaXNHSklfYTNvbG4wN3ZlTngwMXo1bG1Qam56R1FKTXFUQ0tKNWtLSVJ2MmZMRE1tbldpSFp4UU9UYVEzcmU3d0FmSFloZnZSV1RMM2dMN19xMFdVUkx4YjJKcWZMZVlEczlWeHliQjRV0gGoAUFVX3lxTE5XVi1QbFF6Q01WTExKdjVHcXZJT21GYWYzMThhZVFxeHUwWDE1RXhXa3AtR2Fmb1NvakEwR2t5RUZfbTl2TnZLeHV2Q29PQkMyUmJ1a1pfLWN2Z3V1WVpTNVk4NWRNQmlULVdXbUNvLUNPT1FSeFdvczN0cDZneWVMRFhfblYtTlE2MXlWQXdNM0VXOHMyTzRkcnZDaEdvVU5rWllEaEo2YQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-02T07:00:00+00:00",
-      "generated_at": "2026-11-02T21:57:03.837665+00:00",
-      "rss_date": "Mon, 02 Nov 2026 21:57:03 +0000"
     }
   ]
 }
