@@ -239,6 +239,30 @@
 @media(max-width:1180px){.content-shell{grid-template-columns:1fr;width:min(100%,860px)}.content-ads{position:static;display:grid;grid-template-columns:repeat(2,1fr)}.side-ad,.side-ad.tall{min-height:260px}.home-hero-wrap{transform:none}}
 @media(max-width:850px){.far-now-playing{grid-template-columns:1fr}.far-current-show{border-right:0;border-bottom:1px solid #2b2e35}.news-preview-grid,.voucher-grid{grid-template-columns:1fr}.community-grid,.home-bottom{grid-template-columns:1fr}.homepage-ad{grid-template-columns:1fr}.content-ads{grid-template-columns:1fr}}
 @media(max-width:600px){.home-main{padding:30px 16px 60px}.home-hero-wrap{width:100%;min-width:0}.far-now-playing{grid-template-columns:minmax(0,1fr)}.far-current-show,.far-live-player{padding:28px 22px;min-width:0;overflow-wrap:anywhere}.far-live-player{order:-1}.far-current-show{border-top:1px solid #2b2e35;border-bottom:0}.far-show-image-wrap img{max-height:170px}.far-player-logo{width:170px;height:170px}.home-panel{padding:22px}.panel-heading{align-items:flex-start;flex-direction:column}}
+
+/* Wisbech Christmas lights homepage feature — 2026 */
+.far-christmas{position:relative;isolation:isolate;overflow:hidden;width:min(96vw,1280px);box-sizing:border-box;margin:0 auto 36px;padding:clamp(28px,5vw,66px);border:1px solid #d9b56d;border-radius:24px;background:radial-gradient(ellipse at 92% 8%,#94652366,transparent 48%),radial-gradient(ellipse at 8% 100%,#961e3055,transparent 58%),linear-gradient(125deg,#112e2a,#081e20 55%,#111a24);box-shadow:0 20px 55px #0005;color:#fff}
+.far-christmas::before{content:"";position:absolute;z-index:-1;inset:0;background-image:radial-gradient(circle,#f9d88b 0 2px,transparent 3px),radial-gradient(circle,#fff9 0 1px,transparent 2px);background-size:97px 131px,163px 89px;opacity:.3;pointer-events:none}
+.far-christmas .christmas-kicker{margin:0 0 20px;color:#ffe2a2;font-size:13px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}
+.far-christmas-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(240px,1fr);gap:44px;align-items:center}
+.far-christmas h1{max-width:780px;margin:0;font-size:clamp(36px,5.3vw,70px);line-height:1.03;letter-spacing:-.035em;font-weight:900;color:#fff}
+.far-christmas h1 span{display:block;color:#ffe2a2}
+.far-christmas .christmas-lead{max-width:720px;margin:24px 0 0;font-size:clamp(17px,1.6vw,21px);line-height:1.65;color:#f4f0e7}
+.far-christmas-date{padding:26px;border:1px solid #e2bc6c77;border-radius:18px;background:#081714b8;text-align:center}
+.far-christmas-date .christmas-day{display:block;color:#ffe2a2;font-size:14px;letter-spacing:.16em;font-weight:900}
+.far-christmas-date strong{display:block;margin:2px 0;color:#fff;font-size:clamp(70px,8vw,106px);line-height:1.1}
+.far-christmas-date .christmas-month{display:block;font-size:22px;font-weight:900;color:#ffe2a2;letter-spacing:.06em}
+.far-christmas-date .christmas-place{margin:18px 0 0;font-size:17px;line-height:1.55;color:#fff}
+.far-christmas .christmas-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.far-christmas .christmas-actions a{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border-radius:9px;font-size:16px;font-weight:900;text-decoration:none;line-height:1.4}
+.far-christmas .christmas-primary{background:#ffe2a2;color:#092720;border:1px solid #ffe2a2}
+.far-christmas .christmas-secondary{background:#071b16;color:#fff;border:1px solid #e2bc6c99}
+.far-christmas .christmas-actions a:hover{filter:brightness(1.12)}
+.far-christmas a:focus-visible{outline:3px solid #fff;outline-offset:5px}
+.far-christmas .christmas-footer{margin:26px 0 0;padding-top:20px;border-top:1px solid #e2bc6c44;color:#e7e2d8;font-size:14px;line-height:1.6}
+.far-christmas .christmas-footer a{color:#ffe2a2;text-underline-offset:3px}
+@media(max-width:700px){.far-christmas{width:100%;border-radius:18px}.far-christmas-grid{grid-template-columns:minmax(0,1fr);gap:26px}.far-christmas-date{display:grid;grid-template-columns:auto 1fr;column-gap:20px;text-align:left;align-items:center}.far-christmas-date strong{grid-row:1/4;font-size:84px}.far-christmas-date .christmas-day{grid-column:2}.far-christmas-date .christmas-month{font-size:20px}.far-christmas-date .christmas-place{grid-column:1/-1;margin-top:14px}.far-christmas .christmas-actions a{flex:1 1 180px}.far-christmas h1{font-size:clamp(35px,9vw,52px)}}
+
 </style>
 
 <link rel="stylesheet" href="live-player.css?v=1">
@@ -255,7 +279,32 @@
 
 
   <main class="home-main">
-<div class="home-hero-wrap">
+
+<!-- Wisbech Christmas Lights Switch-On 2026 -->
+<section class="far-christmas" id="wisbech-christmas" aria-labelledby="wisbech-christmas-title">
+  <p class="christmas-kicker">Christmas in Wisbech · Fenland Angels Radio</p>
+  <div class="far-christmas-grid">
+    <div>
+      <h1 id="wisbech-christmas-title">Wisbech Christmas <span>Lights Switch-On</span></h1>
+      <p class="christmas-lead">A town coming together. A little Christmas magic. And your local station at the heart of it.</p>
+      <p class="christmas-lead">Join us in Wisbech Market Place on <strong>Sunday 29 November 2026</strong> as the town welcomes the festive season. Fenland Angels Radio will be there, with a live broadcast planned from our portable event studio, bringing you local voices, conversations and the atmosphere of the day.</p>
+      <p class="christmas-lead">Come and say hello to the FAR team, or listen online wherever you are. Keep listening and check back here as we share more about our coverage.</p>
+      <div class="christmas-actions">
+        <a class="christmas-primary" href="#far-home-listen">Listen to FAR ↓</a>
+        <a class="christmas-secondary" href="events.html">Explore FAR What’s On →</a>
+      </div>
+    </div>
+    <div class="far-christmas-date" aria-label="Sunday 29 November 2026, Market Place, Wisbech">
+      <span class="christmas-day">SUNDAY</span>
+      <strong>29</strong>
+      <span class="christmas-month">NOVEMBER 2026</span>
+      <p class="christmas-place">Market Place, Wisbech<br><b>Come and celebrate with your community.</b></p>
+    </div>
+  </div>
+  <p class="christmas-footer">Event organised by <a href="https://www.wisbechtowncouncil.gov.uk/" target="_blank" rel="noopener noreferrer">Wisbech Town Council</a>. FAR broadcast times and further coverage details will be announced here.</p>
+</section>
+
+<div class="home-hero-wrap" id="far-home-listen">
 
   <section class="far-unified-player" aria-label="Fenland Angels Radio live player">
   <div class="far-unified-programme">
