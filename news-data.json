@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-10T07:48:43.900507+00:00",
+  "updated_at": "2026-11-10T20:03:36.267873+00:00",
   "stories": [
+    {
+      "id": "fenland-news-149b28787e908b5fb26e29f8",
+      "headline": "Ground Force star Tommy Walsh dies aged 69",
+      "brief": "The television personality Tommy Walsh has passed away at the age of 69. Known widely for his role on the popular gardening programme Ground Force, Mr Walsh maintained notable connections to Cambridgeshire throughout his life and career. Local reports have highlighted these special links to the county following the news of his death.",
+      "original_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOGtxbmVlckk5NUVMRk1ndjJYdzJhd0pyemJ6QXh3aTRycHVsbmJ0MHhqcmNWMkx4WWlFbURqNGhtd1VtYVRaSFN3TkROQ2lkOXMwOFVzdmJsTFl0dkc3MTVCLW9yNWgwQjJhS3FQaS1JYjhnMmFBXzlXWWtVempkYW1XckNFWjMwdnQyN1B2VV82anlrQjB6R3JDY1dIMkgxcE9QaHN3aTh4akFtMlhGS3pSV2k1UWUzeWZfUnpHMm1qMnNISkFnTTNHNU1PUFp6UWNka2RGRnF4dzRGNzF3TlVWWW4?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-10T12:45:00+00:00",
+      "generated_at": "2026-11-10T20:03:23.569478+00:00",
+      "rss_date": "Tue, 10 Nov 2026 20:03:23 +0000"
+    },
+    {
+      "id": "fenland-news-4e1e626d3461db9cd1cde1eb",
+      "headline": "Police appeal following robbery in King’s Lynn",
+      "brief": "Norfolk Police are appealing for witnesses after a man and a woman were assaulted during a robbery in King’s Lynn. The incident occurred on Portland Place at approximately 10pm last Saturday. A man attacked the pair with a metal bar before stealing their mobile phones and fleeing the scene. Both victims required hospital treatment for serious hand injuries.\n\nOfficers are asking anyone who witnessed the attack or possesses relevant CCTV, doorbell, or dashcam footage to come forward. You can contact Norfolk Police on 101 or report information online, quoting crime reference 451 of November 7. Anonymous reports can also be made through Crimestoppers on 0800 555 111.",
+      "original_url": "https://www.lynnnews.co.uk/news/robber-assaults-man-and-woman-with-metal-bar-after-stealing-9490742/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/6HX33RLXW0NE0VMVG55T.jpg",
+      "published": "2026-11-10T15:36:11+00:00",
+      "generated_at": "2026-11-10T20:03:10.083673+00:00",
+      "rss_date": "Tue, 10 Nov 2026 20:03:10 +0000"
+    },
+    {
+      "id": "fenland-news-435015cbd34a4459ee33a03f",
+      "headline": "Police investigate potential links between ram raids",
+      "brief": "Police are investigating a series of ram raids that have caused significant damage across the region. Officers are currently looking into the possibility that these incidents are connected. Authorities have described the impact of the raids as devastating for the local community. Anyone with information regarding these crimes is encouraged to contact the police.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BN0N0N1lSVGZnNm5vRzE1dFc1aXVRVzdCMjdwVW42RjNoTV9HZExndXRreUxYS0NkSGJ1aUgtMnJVd0NQTWhRNklFWVBFUnVnOXlFT3dlM1FQZVRkc2c?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-10T06:19:46+00:00",
+      "generated_at": "2026-11-10T20:02:46.473225+00:00",
+      "rss_date": "Tue, 10 Nov 2026 20:02:46 +0000"
+    },
+    {
+      "id": "fenland-news-a4204421fb5e84416e5cb146",
+      "headline": "Wisbech students win national award for hedgehog conservation business",
+      "brief": "Three construction students from the College of West Anglia in Wisbech have achieved national success in the Peter Jones Foundation’s Tycoon Enterprise Competition. Finn McAuley, Marc Watson, and Erikas Rimkus, known as The Fabulous Baker’s Trio, secured joint first place in the Business for Good category. The students were recognised for their enterprise, which involves building hedgehog houses to provide safe shelter for local wildlife. \n\nThe project, developed as part of their WorldSkills enterprise work, has also supported the local charity Ryston Rachel’s Hedgehog Hotel. College staff have praised the trio for their hard work, creativity, and commitment to environmental responsibility.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/college-students-celebrate-national-success-with-award-winni-9489294/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/16QN8ON9GL8L5VJTXXMU.jpg",
+      "published": "2026-10-30T11:24:03+00:00",
+      "generated_at": "2026-11-10T20:01:54.422800+00:00",
+      "rss_date": "Tue, 10 Nov 2026 20:01:54 +0000"
+    },
+    {
+      "id": "fenland-news-05f08835b1b123cc47395e98",
+      "headline": "Pianist cycles through King’s Lynn to raise mental health awareness",
+      "brief": "A musician travelling from Land’s End to John O’Groats has stopped in King’s Lynn as part of a nationwide cycling tour. James Tofalli is riding a quadricycle with a piano mounted on the back to raise awareness for mental health and autism. The 34-year-old, who turned to music to overcome drug addiction, has already covered over 761 miles on his journey. \n\nMr Tofalli is using his not-for-profit company to provide pianos to communities and businesses across the UK. After his appearance on the High Street, he is now preparing to continue his trek towards Stamford and Newark, with plans to reach York by the end of November.",
+      "original_url": "https://www.lynnnews.co.uk/news/former-drug-addict-biking-761-miles-with-piano-onboard-makes-9490751/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/8IKPRKGZUJS0HIV8UPVY.jpg",
+      "published": "2026-11-10T16:42:49+00:00",
+      "generated_at": "2026-11-10T20:01:52.581586+00:00",
+      "rss_date": "Tue, 10 Nov 2026 20:01:52 +0000"
+    },
     {
       "id": "fenland-news-740924bd63b0a2de3357b552",
       "headline": "Highfield Littleport Academy faces potential transfer",
@@ -1045,61 +1100,6 @@
       "published": "2017-04-04T07:00:00+00:00",
       "generated_at": "2026-11-03T19:50:43.908321+00:00",
       "rss_date": "Tue, 03 Nov 2026 19:50:43 +0000"
-    },
-    {
-      "id": "fenland-news-1ce3f69ca56aa3be2d794bca",
-      "headline": "Financial boost for Chatteris Town FC",
-      "brief": "Chatteris Town Football Club has received a donation of £15,000. The funding was provided by a homebuilder based in Cambridgeshire.",
-      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZkU5UnpvTFNXUExkX0JkdFhFN29KUXdZTXdvdkt4NE8zWG1CUVdwalZocFZDdXBYTUVvWUVsY1FnTm9OVkwwVzhtcHA0M3U3WHhOT1V0QTNnTWJ1WVczWlBSLVN1QUFXdmZ1czZWenpNSVZEY25hVGgzY1AzN1h5Yy1UcXFnWlhnX0oyemc3azF5MEE1R25tdE5NbERTYkhiNWJnd3Jab0QtbWljd1AtVUJBd1ltVW9hWTQzQjZ4VzJDdU0ydFg0?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-03T10:56:00+00:00",
-      "generated_at": "2026-11-03T19:50:42.639848+00:00",
-      "rss_date": "Tue, 03 Nov 2026 19:50:42 +0000"
-    },
-    {
-      "id": "fenland-news-db0d75e7f2f605a666446b6f",
-      "headline": "Firework displays scheduled across West Norfolk this week",
-      "brief": "Residents across West Norfolk have several firework displays to look forward to this week. Events begin on Thursday, November 5, at the North Wootton Scout and Guide Headquarters, with gates opening at 5pm. On Friday, November 6, King’s Lynn hosts the Fawkes in The Walks event, featuring live entertainment from 6pm and a choreographed display at 8pm.\n\nThe weekend continues on Saturday, November 7, with the Hunstanton and District Round Table’s 50th anniversary clifftop display, and a two-part event at the Denver playing fields. Those planning to attend should check local websites for ticket information and specific entry requirements, as arrangements vary between locations.",
-      "original_url": "https://www.lynnnews.co.uk/news/where-to-watch-firework-displays-9489735/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/2BV5YYKF9DFLNSB7J455.jpg",
-      "published": "2026-11-03T12:42:49+00:00",
-      "generated_at": "2026-11-03T19:50:41.687359+00:00",
-      "rss_date": "Tue, 03 Nov 2026 19:50:41 +0000"
-    },
-    {
-      "id": "fenland-news-9d5560a8ddefdbebcc9c41fa",
-      "headline": "Second man sentenced following Peterborough robbery",
-      "brief": "A second man has been sent to prison for his involvement in a robbery in Peterborough. The incident left two teenage boys feeling extremely shaken. Legal proceedings have now concluded for the second individual involved in the case.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2IxRHRiRG9UeGxuYkhqVFpHNDRZb182dWI1Y08yaEUwSFFlb0NfZWlhZXQ5ekI5bE5ULXVoQlhNckZia1pBcGlRWUxHbVlGS25qaER4U0oxUWFWb2JVODFVR0wxS3dPaW9uUFhsNERjU2hCckpJbXhlOUdDYXNQMFVjOGFvV3Nndkd5a1daSWZPbTjSAZgBQVVfeXFMT0ZmTUtrTmp4dFdJWkVOS19LSy0wdmtBd2NPQVEwQ012cUxxemtzVkJYVW5zblF5eDZTVGwxS0tiS0xrLXhGSm9NVFhOcERqVm5MZk82aG1rX3Q1Q21XNEJaQjdLWGlOWkZtOWN1UDFRN1plYy1QT01penExSW9mbkJqTGlmY0FCdWdaRmthOGRKXzk2WDRBOXY?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-03T11:48:00+00:00",
-      "generated_at": "2026-11-03T19:50:40.080180+00:00",
-      "rss_date": "Tue, 03 Nov 2026 19:50:40 +0000"
-    },
-    {
-      "id": "fenland-news-212e7e254ab93953310757cd",
-      "headline": "Number of Cambridgeshire police officers on barred list doubles",
-      "brief": "The number of Cambridgeshire Police officers added to the national barred list has doubled over the past year. According to figures reported by the Ely Standard, the total count of officers placed on the list has seen a significant increase compared to the previous twelve-month period. The barred list is used to prevent individuals from working in policing roles across the country following findings of gross misconduct.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX3NIM2U4WVcwWkJ6VDVJRHJGRUJMM2tPNDlDWjNtU2RlRXYyMnFyR09MeWJXSFZWX25sS1Y5LS1yTG9FeFlVTkxnMU00cDlLVWJnVDNwazVYRzE1QUd4YkxEb3JZVXdxU3BiUy1xUlhjMTJrN0RjT04tRFQ2WU5Hb1lyT1k2VmpOWVRPeEhVZ0ZyU0lZZm9YdHVoUXdrdw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-03T05:30:00+00:00",
-      "generated_at": "2026-11-03T19:50:38.863346+00:00",
-      "rss_date": "Tue, 03 Nov 2026 19:50:38 +0000"
-    },
-    {
-      "id": "fenland-news-ac10426f00615b2f27926dc8",
-      "headline": "New initiative aims to revitalise local market towns",
-      "brief": "A new plan has been launched to help bring market towns back to life. The initiative features the introduction of buskers to town centres as part of efforts to boost the local area. Further details on the scheme, reported by LincsOnline, suggest the move is intended to increase activity and footfall within these communities.",
-      "original_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHFRS1c0UklKRklyUW1hdnFwcldYU2JiY2E5UXd3dU1zRW1GcFQtRHRMU2hnSFRPRXMzNk9oRUhRQkI1d2JXdDRBSVdibDN5NVdpWEx6SFlFTl9UMzNXWUlTOVk2SmU1UXNNMFJEcG5DYndiLTBHdjZMUDFqa2lSNzBlSzRBMlI3cWVTSFhKdURjM0pqWUViT2dLQkFJSzVSdFl6emVZRXE3TUVq?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2026-08-10T07:00:00+00:00",
-      "generated_at": "2026-11-03T19:50:37.680983+00:00",
-      "rss_date": "Tue, 03 Nov 2026 19:50:37 +0000"
     }
   ]
 }
