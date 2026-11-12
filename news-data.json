@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-12T07:47:24.536100+00:00",
+  "updated_at": "2026-11-12T20:29:59.914090+00:00",
   "stories": [
+    {
+      "id": "fenland-news-e7d358679b0fa7200bb91bcb",
+      "headline": "Plans submitted to convert former Wisbech funeral home into nine dwellings",
+      "brief": "A planning application has been submitted to Fenland District Council to transform a vacant former funeral home on Alexandra Road in Wisbech. The proposal, put forward by Andrew Bennett on behalf of Fitzroy Highgate Ltd, seeks to create six houses and three flats at the site. \n\nThe project involves demolishing part of the existing structure facing Love Lane to make way for a new two-storey building. The plans also include a small second-floor extension on the Alexandra Road side. If approved, the development will retain an outdoor courtyard for resident use, with potential space for cycle storage. The site has remained empty for more than three years.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/empty-former-funeral-home-could-be-turned-into-six-homes-and-9490969/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/6LBIZ13R0Z0KLWRNQ8S2.jpg",
+      "published": "2026-11-12T09:10:04+00:00",
+      "generated_at": "2026-11-12T20:29:42.425773+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:42 +0000"
+    },
+    {
+      "id": "fenland-news-b19d8f5e71ad3291016fb5ef",
+      "headline": "Caring Together Charity opens first shop in King’s Lynn",
+      "brief": "A new charity shop has opened its doors in King’s Lynn town centre today. Located on the High Street at the site of the former Cancer Research store, the shop is the first fundraising outlet for Caring Together. The charity provides advice and support to unpaid carers across Norfolk, Cambridgeshire, and Peterborough.\n\nManager Belinda Jones says the shop is now accepting donations of clothing, homeware, and toys between 9am and 4pm, Monday to Saturday. The team is also looking for new volunteers to help with the venture. Proceeds from the shop will fund essential services for those caring for family members or friends with long-term illnesses or disabilities. Further details are available on the charity’s website.",
+      "original_url": "https://www.lynnnews.co.uk/news/a-charity-s-first-fundraising-shop-has-opened-today-9491080/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/GDDA11FBPK9EYPX625RV.jpg",
+      "published": "2026-11-12T15:50:51+00:00",
+      "generated_at": "2026-11-12T20:29:38.616612+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:38 +0000"
+    },
+    {
+      "id": "fenland-news-e56da06bb80433aa30c5f0c8",
+      "headline": "Shortage of preservative-free eye drops reported",
+      "brief": "Patients who rely on preservative-free eye drops may face supply issues. According to reports from The Pharmacist, three specific types of these products are currently out of stock. Residents across the Fens who use these medications are advised to check with their local pharmacy or GP if they are concerned about their current supply. No further details regarding the cause of the shortage or expected restock dates have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObTBkc3JDOUlhTmkzU1JvaEpVdU1pRmlUeU05cVlERUtPaVhfcm9HOGN2c0J0U2Z0Qy1faXFkNVRvMkhFZ3lFdW1hZzIyRHJScEdVVlRsalNiLUhwMG5CR2dBMU9PVHpacjdLSWpVc1lZYkN3SUNKTXg0bGRhZlNfWVJ3a3VYWUpUeS1xYXFqUFgtd3pmY09ZM1FFNlhPS1E?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-12T17:01:10+00:00",
+      "generated_at": "2026-11-12T20:29:33.464135+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:33 +0000"
+    },
+    {
+      "id": "fenland-news-d1484f8ff916da142c8042db",
+      "headline": "New data released on NHS dental access for children in East Cambridgeshire",
+      "brief": "New figures have been published regarding NHS dental services for children across Ely and East Cambridgeshire. The data, reported by the Ely Standard, highlights the current state of access to dental care for young people in the region. Residents are encouraged to check the latest findings for details on how local provision is performing.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNW95WmdtMjlBU3A3OVk2TEsxcnAtOTlNdHVRZEIteWlQZURKTWZUenBnSENGRUQ4cjV4Vk9ZYjMxalVhM0xYcHhtNndjdlRiY1dOUklfSUVwVHR6V3dVU0VXTVdOdDZ3Nkc4MU83dGdfQkJ5ZURyOUdZV2NoeHpMOE9Oa3E3X0pGb3p2aXEwTThkZkxDN0lTd3Z0dUFSdw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-12T14:37:00+00:00",
+      "generated_at": "2026-11-12T20:29:26.384660+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:26 +0000"
+    },
+    {
+      "id": "fenland-news-9aa130afec3363e26bfe7bf0",
+      "headline": "Police investigate reported assault at Cambridgeshire school",
+      "brief": "Cambridgeshire Police are investigating an alleged assault involving a schoolboy. The incident is reported to have taken place at a school within the county. Authorities are currently looking into the circumstances surrounding the event. No further details regarding the location of the school or the condition of the student have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbUtfcUhRX1N0WTYxdHRJc3FRSEZ4UFBuSUFQaURLbE5KVHdYYWJqazdGMkVvWjdrbFhuZ0pRNVFXMG9KLVNNU18ybWF1UzVqZU9tZFNiTGdwVkFtX3lJVFdOTjBvZnEtX1NGbEhJeHJpbHY4XzA1VlZ4c3IxRVpYOWxuR2lBd1FUQ24tUTFocURieUdaR1dTQ29yWQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-12T14:59:00+00:00",
+      "generated_at": "2026-11-12T20:29:22.982933+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:22 +0000"
+    },
+    {
+      "id": "fenland-news-19d38072f92fa86f2b58a31b",
+      "headline": "New art exhibition opens at Wisbech Gallery",
+      "brief": "A new exhibition featuring three local emerging artists has opened at the Wisbech Gallery. Titled Flare, the showcase displays work by Ruby Bellamy, Kayleigh Brooks, and Lily Rolfe, covering themes ranging from local landscapes to human emotions. The exhibition was opened by award-winning artist EVES and will remain on display until Saturday, November 28, 2026.\n\nIn addition to the exhibition, the gallery is hosting free weekly Sketch and Social sessions every Saturday throughout November from 11am to 3pm. The gallery is open to the public Wednesday through Saturday, between 10am and 4pm. Admission to both the exhibition and the social sessions is free of charge.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/emerging-artists-take-centre-stage-at-exhibition-9491020/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/WEEXQEH045ZW658ZJVLA.jpg",
+      "published": "2026-11-12T11:40:21+00:00",
+      "generated_at": "2026-11-12T20:29:17.242540+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:17 +0000"
+    },
+    {
+      "id": "fenland-news-f6d00b6e65a9533f7ff4853a",
+      "headline": "Progress continues on new Queen Elizabeth Hospital car park",
+      "brief": "Construction of the new multi-storey car park at the Queen Elizabeth Hospital in King’s Lynn is reported to be progressing well. Project leaders confirm that the first stair core is now in place, reaching over 21 metres in height, with work on the steel foundations currently underway.\n\nThe £39 million facility is described as a vital enabling project for the future development of the hospital site. Once completed in late 2027, the six-storey building will provide space for 1,135 vehicles. The finished car park is set to include modern features such as smart signage, AI-enabled CCTV, LED motion-sensor lighting, and automatic number plate recognition technology.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-multi-storey-car-park-at-qeh-is-progressing-well-boss-9491115/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/7TDICGVTBNUS7XBVT47F.jpg",
+      "published": "2026-11-12T16:13:04+00:00",
+      "generated_at": "2026-11-12T20:29:00.102483+00:00",
+      "rss_date": "Thu, 12 Nov 2026 20:29:00 +0000"
+    },
     {
       "id": "fenland-news-c5e3ab62674a35230e288a45",
       "headline": "Police investigate armed robbery at Long Sutton newsagent",
@@ -1023,83 +1100,6 @@
       "published": "2026-11-05T17:41:53+00:00",
       "generated_at": "2026-11-06T19:43:27.827588+00:00",
       "rss_date": "Fri, 06 Nov 2026 19:43:27 +0000"
-    },
-    {
-      "id": "fenland-news-b31e4644c998e86af9d61590",
-      "headline": "A look back at West Norfolk Bonfire Night celebrations",
-      "brief": "Archive photographs have been released showcasing years of Bonfire Night celebrations across West Norfolk. The collection highlights various community events held since 2007, including the long-running Fawkes in the Walks display in King’s Lynn. \n\nThe images also feature firework events held in Hunstanton and near Downham Market, such as displays at Ryston and Stradsett Hall. The archive captures local festivities spanning nearly two decades, featuring scenes from Swaffham Football Club’s 2007 display through to more recent celebrations in 2024. Residents are invited to view the historical gallery online to look back at these community gatherings from across the region.",
-      "original_url": "https://www.lynnnews.co.uk/news/look-back-at-bonfire-night-events-in-west-norfolk-dating-bac-9490393/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/707Q3XEHODCU8PLJLZ0C.jpg",
-      "published": "2026-11-06T16:44:54+00:00",
-      "generated_at": "2026-11-06T19:43:26.616831+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:26 +0000"
-    },
-    {
-      "id": "fenland-news-66fecfc9c936dfb5b98fc77b",
-      "headline": "Football club receives £15,000 sponsorship for stand improvements",
-      "brief": "A local football club has secured a £15,000 donation from a homebuilder to support upgrades to its main stand. The funding will contribute towards improvements at the facility.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVmVST1JHd1FOVjQwZTR6aTBlYW9YVEduaTU3QzhpVjJReTZkTFhjWm1SbmFlODNGSFlHMk9XQ2E0aU4yYTViOXdwQlZRSmo5aDdBVlRvNjBvOWJKNWUxTWN5ZFpHaEU2YTdQYW5RZkNIX2lDMFBLcW5SVEtSY1lCWHlCV1RkbmxKQ1ZaVEZYZHgzUFpiRlVIQ2R1LUt6MDhhRS0xbHowd1gzZkk?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-03T10:02:00+00:00",
-      "generated_at": "2026-11-06T07:27:07.862480+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:07 +0000"
-    },
-    {
-      "id": "fenland-news-ba91478c774e9d57da94d50b",
-      "headline": "Looking back at 2014 student visit from North West Norfolk MP",
-      "brief": "We are looking back at a visit to St Clement’s High School in Terrington during November 2014. As part of Parliament Week, GCSE Citizenship students held a question-and-answer session with the then North West Norfolk MP, Henry Bellingham.\n\nDuring the event, the Year 11 pupils questioned the MP on several topics, including the proposed Lynn incinerator. The students also sought Mr Bellingham’s views on whether teenagers aged 16 and 17 should be granted the right to vote. The session provided an opportunity for the young people to engage directly with their local representative.",
-      "original_url": "https://www.lynnnews.co.uk/news/remembering-when-high-school-students-quizzed-mp-on-incinera-9489268/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/CD1KH89IZO4T61WC8LF6.jpg",
-      "published": "2026-11-05T06:00:00+00:00",
-      "generated_at": "2026-11-06T07:27:07.217227+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:07 +0000"
-    },
-    {
-      "id": "fenland-news-60756148f650b6d9a976cb62",
-      "headline": "Staffing shortages cause Royal Mail delays in Cambridgeshire",
-      "brief": "Residents across Cambridgeshire are experiencing disruptions to their postal services. Royal Mail has confirmed that the current delays are the result of ongoing staffing issues within the county. The company is working to address the situation, though it remains unclear how long the service interruptions will continue. People expecting mail are advised that deliveries may take longer than usual until the staffing levels are resolved.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyT09UQWJJSDI2ZzZQa09VNjFWeElDdU45WjR5aV9VRnFLT1o1cEhhNUI1WU9PZjRqUHhZWlNURWljcW8tSTBuOWpfRUd0ZXJtZTVUWW5MT1k5Ykk?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-06T06:14:28+00:00",
-      "generated_at": "2026-11-06T07:27:05.266309+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:05 +0000"
-    },
-    {
-      "id": "fenland-news-1bb30a84617abf85746be40e",
-      "headline": "Wildlife park closes following drop in visitor numbers",
-      "brief": "A wildlife park has announced its closure after experiencing a decline in visitor numbers. The facility, which has not been named in the report, confirmed it is shutting its doors due to the fall in attendance. No further details regarding the site's location or the exact date of the closure have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNLWk3Q3hMM0I0c09JOXdMRFZTQXlMeHd5NjBVSGxBRk9JWXo2ODJvcWlZbDVXemtxUXg5NmNmc3lzVFBmVi1JY3h6eE8tVVRkVWVJZldIRVZCVWNYa2FpQ1V2czZzWFFSdy1jVEQzQQ?oc=5",
-      "source": "Spalding South Holland News",
-      "image_url": "",
-      "published": "2020-09-02T19:23:27+00:00",
-      "generated_at": "2026-11-06T07:27:04.187990+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:04 +0000"
-    },
-    {
-      "id": "fenland-news-91a87e85f9f6bbaad29237c0",
-      "headline": "Fire reported at derelict hotel in Cambridgeshire",
-      "brief": "Emergency services have responded to a fire at a derelict hotel in a Cambridgeshire town. Details regarding the exact location and the extent of the damage remain limited at this stage. There have been no further updates provided regarding potential casualties or the cause of the blaze. Residents are advised to stay clear of the immediate area while crews manage the incident.",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUlOQk50OHpWYURrQTVNOXA5X1lkNHdzNWs5ZVFpdkdja2pMaUI5a1RuWE5TOW8yVENSdTlRS3ZCR2FhbHc0bGoyMGxCM09US3NYM29JUC1ZNGdPTTNIdU1PWHp4cUpKcWFfUHJ4MUdmZUU0dndMSTdzd0lXUF9wY3JhdnJLZGdCSGd3V3E4MG1nd9IBlwFBVV95cUxNZDY1UjB2MlNwSDlvTk5keWlBdkVxVG53di1EeUlZaEozX1JRV0otdXV5ZGpwOHBTZ2JqRkI0Q3plbmdlanI2bEJBdUgtSldnRjVGTlJGQW01YldfNkxoUlExanBlY1BGSWxWZElfOFVjOWpyai1pSm5FU2ZpdW1wdk5vTnpSWjJGeXk2OE5jeGozRkFYdXh3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-02T14:22:00+00:00",
-      "generated_at": "2026-11-06T07:27:03.270017+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:03 +0000"
-    },
-    {
-      "id": "fenland-news-d4b6e525c33609d29b6c930c",
-      "headline": "Nominations closing for 2027 West Norfolk Mayor’s Business Awards",
-      "brief": "Time is running out for businesses to enter the 2027 King’s Lynn and West Norfolk Mayor’s Business Awards. Nominations for the 38th annual event close at 5pm on Friday, November 27. Organisers are currently seeking entries for 11 categories, including the Customer Care award, which is sponsored by My House Agency. \n\nThe awards ceremony will be held at the Alive Corn Exchange in King’s Lynn on Friday, March 5. Businesses are permitted to submit nominations in up to two categories. Judges will also select an overall Mayor’s Business of the Year from the category winners, which will be announced during the black-tie event. Further details on how to nominate are available through the Lynn News.",
-      "original_url": "https://www.lynnnews.co.uk/news/who-should-be-recognised-for-excellent-customer-care-9490199/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/Z116F98IWME2RMYXWPEF.jpg",
-      "published": "2026-11-06T06:00:00+00:00",
-      "generated_at": "2026-11-06T07:27:02.384845+00:00",
-      "rss_date": "Fri, 06 Nov 2026 07:27:02 +0000"
     }
   ]
 }
