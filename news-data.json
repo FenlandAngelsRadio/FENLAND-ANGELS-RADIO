@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-12T20:29:59.914090+00:00",
+  "updated_at": "2026-11-13T07:22:56.408566+00:00",
   "stories": [
+    {
+      "id": "fenland-news-b37bba247be2fd8e705ffb10",
+      "headline": "NHS dental access for children in North East Cambridgeshire under review",
+      "brief": "Access to NHS dental services for children in North East Cambridgeshire is currently being examined. According to reports from the Ely East Cambridgeshire News, the availability of dental care for young people in the region has been placed under the spotlight. No further details regarding the scope of this review or potential changes to local services have been provided at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLTVqaG1mczM0WWxsb3ZTYm1OM2ZEZmtCTHI5T0h6V0pfQnRwanZrTEhZY25RYVVyckswNE5SaW0zX3ljSm0td0FwY2o4b25faWxmV0lvb01hS0hLbkxXdmc4UjhkZEJkS29EcDVab28xNlFadnBzSTh1WHNHUXRkbllwbEYweXVjQ2JCcDhFS2JvRnhBejRISGxaNHRzZw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-12T14:18:00+00:00",
+      "generated_at": "2026-11-13T07:22:47.593512+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:47 +0000"
+    },
+    {
+      "id": "fenland-news-c36fb6ad3ad04620cd284202",
+      "headline": "Concerns raised over potential service cuts in West Norfolk",
+      "brief": "Liberal Democrat councillor Rob Colwell is calling for greater transparency regarding proposed service cuts across West Norfolk. While the Queen Elizabeth Hospital’s 24-hour A&E remains protected, maternity and children’s inpatient services are still under review. \n\nMeanwhile, Norfolk County Council is considering budget reductions that could impact road maintenance, including a five per cent cut to the priority gritting network. Other proposals include increased costs for post-16 transport and reduced household waste disposal services. Councillor Colwell is urging residents to participate in ongoing public consultations before the December deadlines. The main budget consultation closes on December 7, with the post-16 transport consultation ending on December 15. Residents are encouraged to share how these potential changes would affect their daily lives.",
+      "original_url": "https://www.lynnnews.co.uk/news/west-norfolk-deserves-answers-before-services-are-cut-9490844/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/SX8USQLZRGUXFNKX7BY2.jpg",
+      "published": "2026-11-13T06:00:00+00:00",
+      "generated_at": "2026-11-13T07:22:45.616350+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:45 +0000"
+    },
+    {
+      "id": "fenland-news-30cfcf267310c4ca37f0b02d",
+      "headline": "New youth employment hub to open in Wisbech",
+      "brief": "A new employment hub for young people is set to open in Wisbech. The project follows the successful implementation of a similar scheme in Peterborough. Further details regarding the opening date or the specific location of the new facility have not yet been released.",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObzFUa1NBRDBoNWowSkdyWlVMZGVyek5GLUQ5OHJaSllPVmw5TExkMGxXMkdSenhiekgtLUY4LUU1Y2dsdG9EaGhnRHJuRkRuWkRFcF9CRXFrZ1Z0YWlEQTh2eTlsSjloNms0WGxVbGVidUctWWRHQ1FpWTY1bm04SDRyRWo1ZGxqSnhrb2E1U1hwNldIV3RDTmJEQW0wWmgzNHFnanRZS2ZtUUkxVjNQaE82ZEhWd1o0dkJadHNPdjF5bDlnR2RvLVJUTFl6dW5GbnRkd0h0bHBTQ1Z2alZPcnJPMA?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-13T06:31:16+00:00",
+      "generated_at": "2026-11-13T07:22:43.532590+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:43 +0000"
+    },
+    {
+      "id": "fenland-news-ab9fd2eca10001fd04e0bde6",
+      "headline": "NHS child health sessions to be held at fire station",
+      "brief": "Families in the area will soon have access to new child health services. NHS sessions for children are set to be hosted at a local fire station. The initiative aims to provide health support within the community setting. Further details regarding the schedule and specific services available are expected to be released soon.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Fbk40U1BKSEJBQ1pxZ0hUMXluUGFCbEg5czVTZTBsaEZaNGVzSU1xSUUzcGJPTUt2ZEZvWGFqRTh3YkdtN0V0ME1UTlYtMWprcFQ1MmtyYlFnRE5zUXc?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-13T06:01:10+00:00",
+      "generated_at": "2026-11-13T07:22:42.516049+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:42 +0000"
+    },
+    {
+      "id": "fenland-news-e625eac31431f94c245912cb",
+      "headline": "Police investigate potential links between ram raids",
+      "brief": "Police are investigating whether a series of ram raids could be connected. Officers are currently looking into the incidents, which have been described as devastating. No further details regarding the specific locations or dates of the crimes have been released at this time. Authorities are continuing their enquiries into the matter.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BN0N0N1lSVGZnNm5vRzE1dFc1aXVRVzdCMjdwVW42RjNoTV9HZExndXRreUxYS0NkSGJ1aUgtMnJVd0NQTWhRNklFWVBFUnVnOXlFT3dlM1FQZVRkc2c?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-10T06:19:46+00:00",
+      "generated_at": "2026-11-13T07:22:40.498766+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:40 +0000"
+    },
+    {
+      "id": "fenland-news-2b7547ff34732c6a257eec04",
+      "headline": "New documentary to capture the history of West Norfolk",
+      "brief": "A new 60-minute documentary, currently in development, aims to preserve the history and achievements of West Norfolk for future generations. Titled ‘Under the West Norfolk Skies’, the film is a partnership between West Norfolk Council and the Lynn-based production company RFA Media.\n\nThe project will explore ten key themes, including local industry, royal connections, and the area’s relationship with the River Great Ouse. It will examine the borough’s development since 1974 while tracing its deeper historical roots. The production team is currently gathering archive material and conducting interviews, with plans to make sections of the film available across digital platforms to ensure the borough's story remains accessible to a wide audience.",
+      "original_url": "https://www.lynnnews.co.uk/news/new-documentary-will-preserve-borough-s-history-for-future-g-9491131/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/08HDJJ257X6F47FBLMHY.jpg",
+      "published": "2026-11-13T06:00:00+00:00",
+      "generated_at": "2026-11-13T07:22:39.615114+00:00",
+      "rss_date": "Fri, 13 Nov 2026 07:22:39 +0000"
+    },
     {
       "id": "fenland-news-e7d358679b0fa7200bb91bcb",
       "headline": "Plans submitted to convert former Wisbech funeral home into nine dwellings",
@@ -1034,72 +1100,6 @@
       "published": "2026-11-06T11:00:48+00:00",
       "generated_at": "2026-11-06T19:43:41.988576+00:00",
       "rss_date": "Fri, 06 Nov 2026 19:43:41 +0000"
-    },
-    {
-      "id": "fenland-news-684b5302fcb467ff6bb8c7fb",
-      "headline": "ATM stolen in Cambridgeshire ram-raid",
-      "brief": "Police are investigating after an ATM was stolen from a petrol station in Cambridgeshire. The incident involved a ram-raid, where a vehicle was used to gain access to the site. Officers are currently looking into the circumstances surrounding the theft. No further details regarding the location or the suspects have been released at this time. Residents are advised to contact Cambridgeshire Police if they have any information that could assist with the ongoing investigation.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmVkX1ZCU2VLS1FKRzg2b2dSRENhRF94QkZWYUdvM01NN1FwdXo5Y1BJYms0b1E5MVNZTlJYTXFudkdvMWQtcEVhamRPMF9kMEc3cG1xMDI2TzFFSE14d2VrT2Jyal96UXZRMld2Y3JweElnZmZvR0R2QVZYOXhpTU1rV2RfOW9pOERDT2pGVDd2a1JPN0dTN3R1SFVXUQ?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-06T10:31:00+00:00",
-      "generated_at": "2026-11-06T19:43:41.011600+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:41 +0000"
-    },
-    {
-      "id": "fenland-news-9abc4e33e9aa7ddfc1fb660d",
-      "headline": "Police provide update on Fenland park assault",
-      "brief": "Cambridgeshire Police have issued an update regarding an alleged assault in a Fenland town park. The incident reportedly involved a victim who had eggs thrown at them. Authorities are currently investigating the circumstances surrounding the event. No further details regarding the location or the identity of those involved have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmJDRFZiT0VfWGFhY2RWRk9tbXFRaE1oRHBGbXFub3lzSlVYXzRnNHpYd2tHQ1kxemsxVmREbS05eTkzRjF3VzVtZjk2R2ZSajlYMHpic2hxSjYweEFkOTBrczdGeUI1Q0Q1N29NaU10MTlNTF9SZkltdC1ZU2tIeHBQNDdZMkRnSjRzVHpB?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-03T12:25:00+00:00",
-      "generated_at": "2026-11-06T19:43:40.003031+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:40 +0000"
-    },
-    {
-      "id": "fenland-news-b6b9d7e852353421660a981b",
-      "headline": "New owners take over The Swan in South Wootton",
-      "brief": "The Swan pub in South Wootton has been taken over by new management. The venue, which had previously closed due to what were described as incredibly challenging times, will now operate as a sister pub to The Crossways in Lynn. \n\nNew owners Michelle and Justin have officially taken over the reins of the business. This follows the departure of previous publicans Jay Hudson and Maggie Hodgkiss, who had been running the establishment since May. Despite an encouraging start to their time at the pub, the former operators cited difficult trading conditions as the reason for their decision to step down.",
-      "original_url": "https://www.lynnnews.co.uk/news/village-pub-which-shut-due-to-incredibly-challenging-times-9490302/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/NTQR1D6D50PUBNYHQWWD.jpg",
-      "published": "2026-11-06T12:55:19+00:00",
-      "generated_at": "2026-11-06T19:43:38.860632+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:38 +0000"
-    },
-    {
-      "id": "fenland-news-4b7656050fde34758bc56a18",
-      "headline": "Travel warning issued for Peterborough fireworks display",
-      "brief": "Peterborough City Council has released travel advice ahead of an upcoming fireworks display at the Embankment. The event is scheduled to take place on the same day as a Peterborough United home match. Officials are warning residents and visitors to plan their journeys carefully due to the expected congestion in the area. Those travelling to the city are advised to allow extra time for their travel and to consider the impact of both events occurring simultaneously.",
-      "original_url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQdkY0ajE2VXEwN2pPQXpKRXVuZzN1eEg1TnBaR1ozSExlaU42ZEplSzFYRkFfVjQ3eTdIelhkLVFjcmVoZU1zUGVqTFhvN1VxckpXUDczMVNGZExJbDRkOW45aExfX0lkemxHMUdtX3I2VjlSdE84NUhtSjlKUUJxdlBEaVJOYm4zTUs5N25qb3JLTVQtRUNnN3pobkl4TnVfbVlDOTZXQ2tNQlVrbWZQMkp3ZGI5STBNU3puLXNmaXUzMjBRdnlRaVZVQ2ttX2FXZXZmd1FvZDQwWHp6aXpJTVljYThoa3JmRkZUaDZPT0JhWDRMSjhnc1BpNTlWT29tTFlTSFhUejZXa0lVQUVBV2FQSQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-06T16:08:00+00:00",
-      "generated_at": "2026-11-06T19:43:37.149818+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:37 +0000"
-    },
-    {
-      "id": "fenland-news-477240289311d3796393a894",
-      "headline": "Cash machine stolen in petrol station ram-raid",
-      "brief": "Police are investigating after a cash machine was stolen from a petrol station. The incident involved ram-raiders who targeted the site to remove the ATM. No further details regarding the location or the timing of the theft have been released at this stage. Authorities are expected to provide more information as their inquiries continue.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oZ0tlOUtsSTVGWjI0WGZTRGoySldtSFhpcDR2QmlrTXg0MS1fdUhNOEpZQzRBc2huZTY2TmlBenN1UUp2RVVNZ2xEbzctVWRkY3hVT21DNUhOOFluT3c?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-06T12:14:06+00:00",
-      "generated_at": "2026-11-06T19:43:28.700606+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:28 +0000"
-    },
-    {
-      "id": "fenland-news-25983ee535633895ddd89f4f",
-      "headline": "Police investigate three cash machine ram-raids",
-      "brief": "Authorities are investigating a series of ram-raids targeting cash machines. Three separate incidents have been reported over the past three days. Police are currently looking into the attacks, which involved vehicles being used to gain access to the ATMs. No further details regarding the specific locations or suspects have been released at this time. Residents are advised to remain vigilant and report any suspicious activity near cash points to the police.",
-      "original_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0lqSlVlbms0MHFVbEdXRkp3aXp4TzFVeHhjSWxKTksyMDBYN0xvNExMVjViaEM3VTdCc2t1V0xjbVVYMjJsdjcxMU1RUWRyczRVdUxqTlZ5aXFuS190ZERrbTlXcXkwSzdLT0xFaF9wdDkxWkxta2F1Rnhaalg0TndvTk9lNXl2TmRzUGx1WkN4R01LS3VVVlF4SXI5eVF5WDR1dGNXSQ?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-05T17:41:53+00:00",
-      "generated_at": "2026-11-06T19:43:27.827588+00:00",
-      "rss_date": "Fri, 06 Nov 2026 19:43:27 +0000"
     }
   ]
 }
