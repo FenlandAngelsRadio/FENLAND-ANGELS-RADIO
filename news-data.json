@@ -1,6 +1,72 @@
 {
-  "updated_at": "2026-11-14T07:04:13.411807+00:00",
+  "updated_at": "2026-11-14T18:31:44.392206+00:00",
   "stories": [
+    {
+      "id": "fenland-news-2e16cc60b0fea45ab5183ae7",
+      "headline": "Tudor history revealed at March church",
+      "brief": "New details have emerged regarding the historic ceiling at a church in March. According to reports, the structure features angelic designs that date back to the Tudor period. The findings highlight the architectural heritage of the local site.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GSlRUNndFR0FsakliTzNoa2prWGMtVmY0SGtjZXRCd1lqNnd5ZS1HcTZ3RjBSRExUNzA4NEZCYlQ5Zzc1UmZ1MVJHZFdZLWd5NXlIMUZhZGhfTFVN?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2024-11-24T08:00:00+00:00",
+      "generated_at": "2026-11-14T18:31:29.629461+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:29 +0000"
+    },
+    {
+      "id": "fenland-news-4cb4c3e02021882f56224ecd",
+      "headline": "Norfolk County Council confirms David Walliams books to remain in libraries",
+      "brief": "Norfolk County Council has announced that books by author David Walliams will stay on library shelves across the county. Despite recent allegations of misconduct against the comedian, the council confirmed that titles including Gangsta Granny and Mr Stink remain available for loan.\n\nCouncillor Pat Gould stated that the library service follows established ethical principles, noting that books are generally kept unless there is a legal reason for their removal. The council added that all library collections undergo regular reviews to ensure they meet the needs of residents while maintaining a diverse range of resources.",
+      "original_url": "https://www.lynnnews.co.uk/news/david-walliams-books-will-not-be-removed-from-norfolk-libra-9491343/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/Q3LX7I8I0WUALTE0SCPA.jpg",
+      "published": "2026-11-13T16:06:38+00:00",
+      "generated_at": "2026-11-14T18:31:28.783342+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:28 +0000"
+    },
+    {
+      "id": "fenland-news-d341285c36a3632beb314c06",
+      "headline": "Police attend reported stabbing at Peterborough jewellers",
+      "brief": "Police have been called to a reported stabbing at a jewellers in Peterborough. Officers are currently responding to the incident at the business premises. No further details regarding the condition of any individuals involved or the exact location of the shop have been released at this time. We will bring you more information as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaTdiUFRYWFdqQzlXa1JOWkwzcmJrdTExWVE3U2RyN0dkN2xGRE8tcDN3ZTFIRTNDa0JVb1V4cFQ3Y2xJMXBQTkJERHpmMUl0RXhYZjl5QXVyQUtMOXVtd0otcDBpUVlnSUJrUll6SFNNVHY5REpLem9vSEZwQXhDLUJrZVBZdUxUY0lGR2FYc2ZYbUdvX2IwOXo2LVNQb3duaFFBdVJIeWVvdWYxeE1yYk5EMGo2OUE?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-14T17:40:00+00:00",
+      "generated_at": "2026-11-14T18:31:27.206679+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:27 +0000"
+    },
+    {
+      "id": "fenland-news-b95cbb8597b4f16ecef59e6b",
+      "headline": "Royal Mail reports postal delays across Cambridgeshire",
+      "brief": "Residents in Cambridgeshire are being warned of potential disruption to their postal services. Royal Mail has issued an alert regarding delays affecting various postcodes across the county. The company has released a list of the specific areas currently experiencing issues with mail delivery. Customers expecting important items are advised to check the official Royal Mail website to see if their local postcode is included in the list of affected locations. No specific timeframe for the return of normal service has been provided at this stage.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaXgxZTRCbXhyWXlHYXhaVEtLbVpnTkJDWDR4aWxsLW12Rm9VcktwbDNuVG5Icm9VTHMta1FiNXRGOUF1ck1RRUhueEV0VjhpdDFJdzh3SjNxajRtWVJHU2dXRTg1RnR3RjB0U3l5R2ptT3BSbW92N2dneWhLdFpfd2VIR1lNbEtYN3dZelhCbFZ4Y2pLMEZRQ3hMNA?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-14T14:24:24+00:00",
+      "generated_at": "2026-11-14T18:31:26.399160+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:26 +0000"
+    },
+    {
+      "id": "fenland-news-6ba8fdd9d93453f462af9b00",
+      "headline": "Two boys arrested following fire at derelict hotel",
+      "brief": "Police have arrested two boys following a major fire at a derelict hotel in Cambridgeshire. Emergency services were called to the scene to tackle the blaze at the abandoned property. Authorities have confirmed the arrests as part of their ongoing response to the incident. No further details regarding the location or the condition of the building have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdGZ6cklOUHNOS19hbHpBeVVKN0hGWXh0U2VKd2pCS0t4RE91c19waS01VXZOeC1fTTR1YnJ0NXhZb3c0cF83U0hfbUZDMUF3Qnk5aGNQVVJvazE4QzhOQUh2T1BxTDZsYUJIQXdQamFMMGswT2VJdFpXUXRIcUE4Rk5UanpNTHhVZEFEQUlkQQ?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-13T15:57:00+00:00",
+      "generated_at": "2026-11-14T18:31:25.337483+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:25 +0000"
+    },
+    {
+      "id": "fenland-news-11b70f304a1039d4082cf12a",
+      "headline": "Springwood High students take on Cambridge University academic challenges",
+      "brief": "Sixth form students at Springwood High School in King’s Lynn have participated in two annual academic competitions hosted by the University of Cambridge. The pupils were tested on their knowledge of Chemistry and Economics through a series of demanding tasks. \n\nChemistry lead Annabel Owen noted that the challenge provided students with an insight into degree-level study and university admission testing. Meanwhile, five Year 12 students took part in the Economics challenge, which required them to apply mathematical and problem-solving skills to complex topics such as interest rates and public goods. Staff at the school, which is part of the West Norfolk Academies Trust, said the exercises were designed to prepare students for the transition to university-level education.",
+      "original_url": "https://www.lynnnews.co.uk/news/students-rise-to-subject-challenge-9491253/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/ZDDVE7SOWKQ3JD5QEFJF.jpg",
+      "published": "2026-11-14T06:00:00+00:00",
+      "generated_at": "2026-11-14T18:31:24.232460+00:00",
+      "rss_date": "Sat, 14 Nov 2026 18:31:24 +0000"
+    },
     {
       "id": "fenland-news-be4392e6bd94cf9375c94d55",
       "headline": "NHS dental access for children in North East Cambridgeshire reviewed",
@@ -1034,72 +1100,6 @@
       "published": "2026-11-06T11:16:25+00:00",
       "generated_at": "2026-11-07T22:20:59.580801+00:00",
       "rss_date": "Sat, 07 Nov 2026 22:20:59 +0000"
-    },
-    {
-      "id": "fenland-news-ccde96e7915a64ae0ff2432b",
-      "headline": "Cash machine stolen in petrol station ram-raid",
-      "brief": "Police are investigating after a cash machine was stolen from a petrol station. The incident involved a ram-raid, where the suspects used a vehicle to gain access to the premises. Authorities have not yet released details regarding the location of the petrol station or the identity of those involved. Investigations into the theft are currently ongoing. Anyone with information regarding the incident is encouraged to contact the police.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oZ0tlOUtsSTVGWjI0WGZTRGoySldtSFhpcDR2QmlrTXg0MS1fdUhNOEpZQzRBc2huZTY2TmlBenN1UUp2RVVNZ2xEbzctVWRkY3hVT21DNUhOOFluT3c?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-06T12:14:06+00:00",
-      "generated_at": "2026-11-07T22:20:58.399399+00:00",
-      "rss_date": "Sat, 07 Nov 2026 22:20:58 +0000"
-    },
-    {
-      "id": "fenland-news-fecd42a10a947fcfccb4e133",
-      "headline": "Significant improvements noted at Gaywood’s Parkway Academy",
-      "brief": "Parkway Academy in Gaywood has been recognised for significant progress following a recent Ofsted inspection. Formerly known as Howard Junior School, the academy joined the Eastern Multi-Academy Trust in December 2023 following a period of instability. Inspectors visiting on October 6 and 7 praised the school’s leadership and governance, noting that expected standards are now being met across areas including teaching, attendance, and pupil behaviour. \n\nThe report highlights that confidence and belief within the school community have been successfully rebuilt. Principal Ben Paull and the trust were commended for their rapid actions in creating a positive, supportive culture. The academy, which underwent a name change and uniform update this September, is now described as a place where pupils are thriving.",
-      "original_url": "https://www.lynnnews.co.uk/news/significant-improvement-at-school-sees-it-rebuild-confide-9490225/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/Y18QPVU2TVZBZFBZ1WEZ.jpg",
-      "published": "2026-11-06T15:38:35+00:00",
-      "generated_at": "2026-11-07T22:20:57.285800+00:00",
-      "rss_date": "Sat, 07 Nov 2026 22:20:57 +0000"
-    },
-    {
-      "id": "fenland-news-bb2bc7cf010c54bca78845c0",
-      "headline": "Peterborough and Reading football match scheduled for November 7th",
-      "brief": "Football fans are looking ahead to a fixture between Peterborough and Reading. The match is scheduled to take place on the 7th of November, 2026. Details regarding the game have been noted by sports reporting services.",
-      "original_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1QkpESnhZWE9SWnRfRzRtYmRlTFhfaENSZHpfR2N3Snh5eFE2YzQxdGRERkQtQmNpLU1hWlFJWkMwZUhacDg1OWpidDF2UVE5bnFDVVluX1FGZjh6TktfcTFMc3I1ZXc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-07T20:57:05+00:00",
-      "generated_at": "2026-11-07T22:20:55.556784+00:00",
-      "rss_date": "Sat, 07 Nov 2026 22:20:55 +0000"
-    },
-    {
-      "id": "fenland-news-27c6145d93f83958d8054c3a",
-      "headline": "Concerns raised over East Cambridgeshire data centre expansion",
-      "brief": "Plans to increase the size of a data centre in East Cambridgeshire have prompted concerns. The proposal to scale up the facility is currently under discussion, though specific details regarding the project’s scope or location have not been disclosed. Residents and local stakeholders are now considering the potential impact of the development. We will bring you further updates on this story as more information becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObkVXZnpFMlZfaThzUXphQTU1YkhraDM2a2FRUkZselFpb0Zsb051UXJpc25TSTQzLWVtV1V1N1l4TDMtMWNzSG1TbHBZeHVkdFl3MDRZZHpXTFl6cmV4TVlNZXdCeDYzbTg2Y09FTjZtSzhaSjVRWk43cHhkNFdCcml3eDBYemkxWGZSekdWbU94bWpBd0E?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-04T17:00:00+00:00",
-      "generated_at": "2026-11-07T22:20:52.783183+00:00",
-      "rss_date": "Sat, 07 Nov 2026 22:20:52 +0000"
-    },
-    {
-      "id": "fenland-news-a8e2148d505468bfa9120c19",
-      "headline": "Daytime delays expected on A47 at King’s Lynn",
-      "brief": "Drivers using the A47 in King’s Lynn are being warned of potential disruption starting this Monday, November 9. National Highways is carrying out bridge survey work on the Great Ouse Bridge, which will require daytime lane closures between the Pullover and Hardwick roundabouts. The work is scheduled to continue until December 4.\n\nWhile no official diversions are in place, motorists should allow extra time for their journeys. Officials note that the project is weather-dependent and could change at short notice. Previously planned night closures for this stretch have been cancelled for now. For the latest travel updates, residents are advised to check the National Highways website.",
-      "original_url": "https://www.lynnnews.co.uk/news/expect-delays-during-the-day-on-a47-9490258/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/ZDK7CJBUKF5DAVZ7I649.jpg",
-      "published": "2026-11-06T11:03:33+00:00",
-      "generated_at": "2026-11-07T22:20:42.209475+00:00",
-      "rss_date": "Sat, 07 Nov 2026 22:20:42 +0000"
-    },
-    {
-      "id": "fenland-news-13aa19d475d6af05e7b3a287",
-      "headline": "South Cambridgeshire residents raise concerns over East West Rail project",
-      "brief": "Residents in South Cambridgeshire have expressed significant concerns regarding the potential impact of the East West Rail project. Local people are calling for greater transparency and have formally demanded to see the business case for the proposed development. Those living in the area have described the potential consequences of the scheme as devastating. There has been no further comment from the project organisers at this stage.",
-      "original_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRUdsR2xUbG80MHBtZER6MFc5cXk0WE9GMDNMSFA5a2tTYTI5b3VLd1RZeXlQX255eTVVMmJVdmdHbDB3QVpsOHhHU2FjZDE3bDcwZUFnZGZkM0w4bnVfTUNFWUswdXBhbXBIaDFMTUVkSXpoTXVldm9fbUJPekkwbWVwRnlSSVVSMkVTWTZPajBuN3NsSFRTcTBON2QyTmxEaDBLekxMY0VXdGNKNlE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-05T08:00:00+00:00",
-      "generated_at": "2026-11-07T13:36:28.909040+00:00",
-      "rss_date": "Sat, 07 Nov 2026 13:36:28 +0000"
     }
   ]
 }
