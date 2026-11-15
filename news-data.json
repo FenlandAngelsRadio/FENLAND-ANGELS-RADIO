@@ -1,6 +1,94 @@
 {
-  "updated_at": "2026-11-14T22:46:44.200364+00:00",
+  "updated_at": "2026-11-15T07:15:47.812733+00:00",
   "stories": [
+    {
+      "id": "fenland-news-8b6854439eeacd61cc269fe5",
+      "headline": "Man in critical condition following Peterborough shop robbery",
+      "brief": "A man is in a life-threatening condition following a robbery at a shop in Peterborough. Police are investigating the incident, which has left the victim with serious injuries. No further details regarding the location of the shop or the identity of those involved have been released at this time. Authorities are expected to provide updates as their enquiries continue.",
+      "original_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYmhyamdiVVZmdW12aEZpbWQ5QTNmb2FHYjJGOUN0WDFSRFJ5d3czVldyaVNTSC0wY1czSFVfRVBiUGVVNXBESEhLUF9GNi1fT1IwNlNqU09ZZ0kxT0ZRQ2xkQXprdTZwZUE5eFlaMzdqV3N5eDY4aVd2QWRxVld5ZENBVmpCSTV0Ry1ZcW1GazdTVDBNQlVVTlgxNDJRUVhoMUpodEF0V2dNZmVQZzZMS28zUGJlazd1S2xkWVRKLTlqdkV5ZjdBSjl0ekZIczdMZktva1cxeEo2WDM5U0JFZlhMaw?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-14T20:15:20+00:00",
+      "generated_at": "2026-11-15T07:15:27.309142+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:15:27 +0000"
+    },
+    {
+      "id": "fenland-news-7be0d7a0bbdc04f8d72fcbc9",
+      "headline": "Global Microsoft outage affects Cambridgeshire",
+      "brief": "A worldwide Microsoft technical issue is currently causing disruption across Cambridgeshire. Reports indicate that the outage is impacting various services throughout the county. Residents are advised to stay updated as the situation develops and local organisations work to resolve the technical problems. Further information will be provided as it becomes available.",
+      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSm10aV80aTZYc1JpX2hucHE0enJUSjRneG5PRnM2SXBKcEF6QmpqMEZydGwtNGVPRmFRWXhLcnRUNDIwRU5jYmtwRk5lQUo0bURGZGQ2VENRTEhaSDVfM3A3ZGxHSXBMRjdxQjJzRlhPeTZycHRVeFFXOTJheTkxcnNBYTlsNGR1ZnhBRDY3ODFOOEMxN3JJa1BhOGJRUQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-13T09:00:13+00:00",
+      "generated_at": "2026-11-15T07:15:26.303198+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:15:26 +0000"
+    },
+    {
+      "id": "fenland-news-f87d548748612c56f4cfed47",
+      "headline": "Proposals submitted for new BMX park in March",
+      "brief": "Planning authorities in Cambridgeshire are currently considering a proposal to build a new BMX park in the town of March. The project is currently under review, with officials evaluating the potential development. No further details regarding the timeline or specific location have been released at this stage. Residents are advised to monitor local planning portals for any future updates regarding the application.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqd2pqVW0yaDNZVm42TkRFaUhVbEpnT0ZRVWFvTnJKVkdLQkVaZEpROTdYMUNyTnpiNlZzdy1obUVwbGdUU0FSWEUwUWRzVXl3Wk1Tak5JbTBzQk02?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2024-09-17T07:00:00+00:00",
+      "generated_at": "2026-11-15T07:14:51.347770+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:51 +0000"
+    },
+    {
+      "id": "fenland-news-ef0c128b078305f830d72bd4",
+      "headline": "Former West Norfolk student celebrates university success",
+      "brief": "A student who relocated to West Norfolk from Ukraine has successfully completed her first term at Imperial College London. Nastia Kliuchnyk, who is currently reading Physics, credits her academic progress to the support she received while attending Springwood High School in King’s Lynn.\n\nAfter joining the school at the end of Year 9, Nastia overcame language barriers to achieve top grades in her GCSEs and A-Levels. She specifically praised the school’s Maths and Physics departments for their guidance during her studies. Now settled into undergraduate life, she says she is enjoying the intellectually stimulating nature of her degree and the support provided by her university.",
+      "original_url": "https://www.lynnnews.co.uk/news/success-story-for-former-high-school-pupil-9491272/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/4WM4OJT0N80HENV3EKCZ.jpg",
+      "published": "2026-11-15T06:00:00+00:00",
+      "generated_at": "2026-11-15T07:14:49.649610+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:49 +0000"
+    },
+    {
+      "id": "fenland-news-de5734529bf276b42beb4d0a",
+      "headline": "Police investigation underway following Peterborough jewellery store robbery",
+      "brief": "Police are investigating a robbery at a jewellery store in Peterborough involving six men. Officers have confirmed that one man is currently in a critical condition following the incident. Authorities are appealing for information as they continue their enquiries into the circumstances surrounding the robbery. Anyone who may have witnessed the event or has relevant information is urged to contact the police.",
+      "original_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb3JvdHlvZGpkVTZsVnA1TzBHZUdCT2xEMFVhQ3FmVGowMjJmUWltbTd1UTVHaFEzdl9fTF9qQUFDS0I0ajBkQ3FrSWp3U0NfUGdQazJ6ZVhVNi1rQVI5SE9NQnR2QklwbUFmUEhpMzR4UzZySXN4enQ5ckNKZVMyX0FhUE9kZDRMaG9iVVF4THY2UV9ISW0xclhQMGhLdm9YUThwdThmQ2k3QjdNUFVwcGFEcWVNSnZHLVVlbE9XdV9xSXlVdEVia21kN2t4UDUxZ0tz?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-14T19:25:00+00:00",
+      "generated_at": "2026-11-15T07:14:48.013476+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:48 +0000"
+    },
+    {
+      "id": "fenland-news-8a86de047145f494cdea4360",
+      "headline": "Greater Anglia service changes announced for December",
+      "brief": "Rail passengers in Cambridgeshire are being advised of upcoming adjustments to Greater Anglia services. The operator has confirmed that a series of changes to the local timetable are scheduled to take effect this December. Commuters and those planning travel across the region are encouraged to check the latest information before they travel to see how these updates might affect their specific journeys. Further details regarding the revised schedules are expected to be available through official rail channels.",
+      "original_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSnRPcHBGUW9hTi1ucklwcDB1TU9BcWFTX1FZNFJFb212ZTdoMHRteG5IZTgtOXpwUVhWRW5IS21YNFgwdmg2bTBkOGN5ZWl4VlNlak1iN3JONVo0eWZUUGxVTUloOHdRYWQzNU1kNnFoZ0lVZXJ3R2FyQzNrSm0yMjRHUVBWb090TmxKaF9sZnFPQnhxb2wtM0VpcVdFbWtzenJYU9IBqgFBVV95cUxNMGc2b3JjVWRpVDR5M0k1WDBjZHJ0TDFQOVhoSXFKdEJLcUxibUFiLUxxTUlXYVlXb0JKX1k2MUk0WVhkeGFEdDNLejRVM20xM2tOc1VwWUhkeVhPbkZPS0F0cXd3aFJBQi1GdGVmYjMwa0x0UVFuRHdpazBUcF9CeWJuRHE3UmlnUnR1T0M3ck51NmJBR2ljbUlrNnFDQngzRkhRWmFueXpydw?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-12T17:09:00+00:00",
+      "generated_at": "2026-11-15T07:14:46.648923+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:46 +0000"
+    },
+    {
+      "id": "fenland-news-59e9b3d1fed49d1baa9a21e4",
+      "headline": "Plans submitted for 125 new homes in March",
+      "brief": "Cambridgeshire authorities have announced proposals to build 125 new homes on a field in the town of March. The development plans, reported by the BBC, outline the construction of the residential properties on the site. No further details regarding the timeline for the project or the planning application process have been released at this stage. Residents are advised to monitor local planning portals for any upcoming opportunities to view the proposals or submit feedback.",
+      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EZ1d6bUFsMWVoQlBtVFYtQXU1X3FPZjJEWUpPRWI1NGRpXy13MVZLU3Fyd1UwUGI0M1R6eXNFbVNPYnJkZmlCNFRxNHpndS0zemJtSGZDZElMS2Vz?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2024-11-11T08:00:00+00:00",
+      "generated_at": "2026-11-15T07:14:44.391798+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:44 +0000"
+    },
+    {
+      "id": "fenland-news-c245ac1141cf4ccfeceb101f",
+      "headline": "South Lynn man sentenced following nightclub incident",
+      "brief": "A 31-year-old man from South Lynn has been sentenced after being removed from a King’s Lynn nightclub. Arturas Cimolonskas of Fisheries Walk was ejected from Bar 100 on Norfolk Street during the early hours of Sunday, October 17, following reports of aggressive behaviour and intoxication. \n\nPolice issued a dispersal notice, but Mr Cimolonskas was subsequently arrested for being drunk and disorderly after failing to provide his details. Appearing at Lynn Magistrates’ Court on Thursday, he admitted the offence, claiming he only wished to re-enter the venue to retrieve a bag. Magistrates handed him a six-month conditional discharge and ordered him to pay £71 in costs and surcharges.",
+      "original_url": "https://www.lynnnews.co.uk/news/man-kicked-out-of-nightclub-for-drunken-behaviour-wanted-to-9491135/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/SVYNGT66H67BD1MV9OWA.jpg",
+      "published": "2026-11-15T06:00:00+00:00",
+      "generated_at": "2026-11-15T07:14:35.399732+00:00",
+      "rss_date": "Sun, 15 Nov 2026 07:14:35 +0000"
+    },
     {
       "id": "fenland-news-0d69c9be0faed2d520048520",
       "headline": "Long Sutton resident Rex Richardson passes away",
@@ -1012,94 +1100,6 @@
       "published": "2026-01-29T20:15:43+00:00",
       "generated_at": "2026-11-08T13:55:04.652871+00:00",
       "rss_date": "Sun, 08 Nov 2026 13:55:04 +0000"
-    },
-    {
-      "id": "fenland-news-3caf6ba795f56c043b042a3e",
-      "headline": "Liberal Democrats gain control of county council",
-      "brief": "The Liberal Democrats have secured control of the county council. The change in leadership follows the latest election results.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DMXN1Z3hWRi1ZLUwyc2wxaWtDVG5zVlg2Z3pWZm1zYXNhVjgydDluY2NRSmJoa0E5eWFWSS02anlKMjYtZzBjWTJMSDFkWmM3YXRfN3FBYlRWczg3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2025-05-02T07:00:00+00:00",
-      "generated_at": "2026-11-08T13:55:03.525377+00:00",
-      "rss_date": "Sun, 08 Nov 2026 13:55:03 +0000"
-    },
-    {
-      "id": "fenland-news-4ddb7055f9909c70bf742496",
-      "headline": "North Lynn pair deny animal neglect charges",
-      "brief": "Two people from North Lynn have appeared at Lynn Magistrates’ Court to deny charges of causing prolonged neglect to a dog. Mark Ogle, aged 35, and 41-year-old Jade Kennett, both of Walpole Road, entered not guilty pleas regarding an incident alleged to have occurred on June 25. \n\nMs Kennett also denied a separate charge of using threatening words to cause alarm or distress on June 24. The case has been adjourned until January 7 to allow for further communication between the Crown Prosecution Service and the RSPCA. Mr Ogle has been released on unconditional bail, while Ms Kennett remains on bail with conditions preventing her from contacting the alleged victim of the threatening behaviour.",
-      "original_url": "https://www.lynnnews.co.uk/news/pair-deny-causing-prolonged-neglect-to-dog-9490324/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/LWIVRT7FDJPY5X686ULF.jpg",
-      "published": "2026-11-08T06:00:00+00:00",
-      "generated_at": "2026-11-08T13:55:02.646854+00:00",
-      "rss_date": "Sun, 08 Nov 2026 13:55:02 +0000"
-    },
-    {
-      "id": "fenland-news-e9f7f26591d2831ba1b43be3",
-      "headline": "Peterborough United knocked out of FA Cup",
-      "brief": "Peterborough United have been eliminated from the FA Cup following a heavy defeat. The team lost 5-0 to Reading in their latest fixture.",
-      "original_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmSEtTc2JaZ1RBWGZvbVdhQVB2cl9CMm12SUdTSnNZYlJWUjJCTWUyMXd1cnFybzNPbkhUb2JPWGRERGlXY0t1ekd4QndpamQ2dmdrVjkyUGxudHVMZ3h2QjQ2UDdtX0gw?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-08T00:12:24+00:00",
-      "generated_at": "2026-11-08T13:55:01.024718+00:00",
-      "rss_date": "Sun, 08 Nov 2026 13:55:01 +0000"
-    },
-    {
-      "id": "fenland-news-1ca0f2f5cb8903d727fbc82d",
-      "headline": "Search underway for missing 69-year-old man from March",
-      "brief": "Police have expressed concern for the welfare of a 69-year-old man who has been reported missing from March. Authorities are currently looking for the individual and are urging anyone with information regarding his whereabouts to come forward. \n\nResidents across the Fens are asked to remain vigilant and report any potential sightings to the police immediately. Further updates will be provided as more information becomes available.",
-      "original_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObUdpbTN2aDVfNWhJYmwtWnRySkQ2emFkdjBzOHRpbi0tbEMwdHRaRW1LZDdudF80ODgxU05nV0VldGdVRE5oaklkSzFRNV82SVprc2htN2FVYTRpYy01VzNDaGZ6MFFGZllmaXdPdDlmVVhBUGE5cmNTVDRhUmJ3eTZjcFo4NGNJUU8tcmVnUURFZ3lfaVlDOGd3?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-08T13:09:04+00:00",
-      "generated_at": "2026-11-08T13:54:59.381359+00:00",
-      "rss_date": "Sun, 08 Nov 2026 13:54:59 +0000"
-    },
-    {
-      "id": "fenland-news-206adac4cd864c8aac7ddea9",
-      "headline": "King’s Lynn Waterstones names festive mystery as Book of the Week",
-      "brief": "A festive murder mystery novella has been selected as the Book of the Week at the Waterstones branch in King’s Lynn. Titled The Case of the Christmas Card by author Elly Griffiths, the story follows time-travelling detective Ali Dawson. In the book, Dawson finds herself hosting Charles Dickens while investigating the death of an artist and the disappearance of a friend's daughter. The pair must work together to solve these mysteries before Christmas Day. The title is currently featured as a top pick for the start of November at the local bookshop.",
-      "original_url": "https://www.lynnnews.co.uk/news/festive-murder-mystery-novella-is-waterstones-book-of-the-we-9489889/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/D6BNL2W9BX3DTMPS3RTH.jpg",
-      "published": "2026-11-08T06:00:00+00:00",
-      "generated_at": "2026-11-08T13:54:45.733532+00:00",
-      "rss_date": "Sun, 08 Nov 2026 13:54:45 +0000"
-    },
-    {
-      "id": "fenland-news-f0d6e00d76cbddb808f1d7c0",
-      "headline": "Peterborough knocked out of FA Cup",
-      "brief": "Peterborough United have been eliminated from the FA Cup following a heavy defeat against Reading. The match saw Charlie Savage play against a side managed by his father, Robbie Savage, as Reading secured a decisive victory over the Peterborough team.",
-      "original_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaWRQZ056a2hWNWg5S3RzQUpZaE1XTlNjWGkwYlBDa2NyYlcydUlobkd3Nk91U0VnclpjMWdUUkxVX1NocmhzaGlKLXEwVFYzdGRHSkZtZG01YTdXS21Vc3VvWHRUTjVuVzBKa1JnTUdMUERlaVU5aXdJSUFBY19LelhydnhMaXRON0JYVUl3TmtJbllwazN3al8wWFlmS3J4aktYdWR3SUwyeENTdmZUaDktVnN5dEV1Wmc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-07T18:15:00+00:00",
-      "generated_at": "2026-11-08T06:44:43.821864+00:00",
-      "rss_date": "Sun, 08 Nov 2026 06:44:43 +0000"
-    },
-    {
-      "id": "fenland-news-bed01117a13128302ff754cf",
-      "headline": "Knife monument to visit Cambridgeshire",
-      "brief": "A sculpture created from knives is set to visit Cambridgeshire. According to the county’s constabulary, the monument is described as a powerful installation. Further details regarding the exact location and dates for the arrival of the artwork have not yet been released. Residents are advised to keep an eye on official police channels for updates on when and where the monument will be displayed.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUxNdW9tUXNKa05UX2VTdHhQZmVvbVYxTEdXc1A1U2l4b3lla3ZGcGZJOE9IcjF0Q0FQemR5MEtRbzF2ejl4ak5hT1VobWpPN19JT21RRVE4WUJyX21tLU9sRjZ3ODVkcFBVNF9GNVBVYmYyZF8zdS1IWkV0Q2l2SFRfVUhLY1FqV0xER2FJNmFQNWJjOEFYeTZmNE1hMGpTTDlkY2dkRUgxZw?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-04-09T07:00:00+00:00",
-      "generated_at": "2026-11-08T06:44:41.144323+00:00",
-      "rss_date": "Sun, 08 Nov 2026 06:44:41 +0000"
-    },
-    {
-      "id": "fenland-news-48f1437481df3572e024c9ef",
-      "headline": "Coronation Fountain to be unveiled in March",
-      "brief": "A new Coronation Fountain is set to be unveiled in the town of March. The project, located in the Cambridgeshire town, is now complete and ready for its official reveal. Further details regarding the unveiling ceremony have not yet been announced.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zdHVkcThqTzlqUHRjMFFtNTJFLTRhNHJhZEtTenN6M29lWC1sQWZtM0tfRWNxRHo3cGhfLVk1LVBkRTZCV1AzNE9aalhPeS0zQVVMemNPUXRsUE0y?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2024-11-07T08:00:00+00:00",
-      "generated_at": "2026-11-08T06:44:37.556033+00:00",
-      "rss_date": "Sun, 08 Nov 2026 06:44:37 +0000"
     }
   ]
 }
