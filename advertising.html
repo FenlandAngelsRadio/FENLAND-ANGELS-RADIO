@@ -131,6 +131,8 @@
       color:#fff;
     }
 
+    .ad-package-card > .ad-billing-note{font-size:14px;line-height:1.45;color:#d2d6df;margin:-8px 0 18px;flex:0}
+
     .ad-price span{
       font-size:15px;
       color:var(--muted);
@@ -297,7 +299,7 @@
       </h2>
 
       <p>
-        These affordable packages cover one month of airtime for your existing commercial of up to 30 seconds. Production is not included. Frequencies below are plays per day.
+        These affordable packages cover airtime for your existing commercial of up to 30 seconds (production is not included). To give your campaign time to build listener recognition, airtime-only packages are billed quarterly with a 3-month minimum term. Frequencies below are plays per day.
       </p>
 
     </div>
@@ -344,7 +346,8 @@
     </div>
     <div class="ad-terms">
       <h3>Clear terms before you book</h3>
-      <p>Each production bundle covers one initial advert and one month of airtime. Weekly spots are scheduled across the agreed time bands; we confirm dates and the total number of spots in your written quote. A spot is one broadcast of your advert, not one listener.</p>
+      <p>Each production bundle covers one initial advert and one month of airtime. Weekly spots are scheduled across the agreed time bands; we confirm dates and the total number of spots in your written quote. A spot is one broadcast of your advert, not one listener. Airtime-only packages require a minimum 3-month commitment, billed quarterly in advance.</p>
+      <p>To book airtime only, send an enquiry. We confirm your campaign details and dates in writing, then invoice for the quarter before your campaign starts. Quarterly airtime totals are £75 for FAR Starter, £135 for FAR Local, £195 for FAR Plus, £255 for FAR Prime and £300 for FAR Sponsor.</p>
       <p>The production brief, script support, voice, music, revisions, delivery date, usage rights and any applicable tax are confirmed before payment. Your campaign starts after you approve the finished advert. Renewal airtime and any new production are quoted separately, so you do not automatically pay for a new advert every month.</p>
       <p>Website and social placements run during the campaign. We provide a summary of scheduled/broadcast spots and digital placements; listener figures are supplied only where measured and available. Advertising does not guarantee listener numbers, enquiries or sales. Independent editorial interviews are arranged separately from paid advertising.</p>
     </div>
@@ -486,5 +489,5 @@
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="events-config.js"></script><script src="far-content.js?v=1"></script><script>
-(async()=>{const box=document.getElementById('cmsAdPackages');try{const m=await FARContent.all();FARContent.apply(m);const ps=await FARContent.packages(),esc=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[x]));box.innerHTML=ps.map((p,i)=>'<article class="ad-package-card '+(i===3?'prime':i===4?'premium':'')+'"><p class="eyebrow">AIRTIME ONLY</p><h3>'+esc(p.name)+'</h3><div class="ad-price">£'+Number(p.price).toFixed(Number(p.price)%1?2:0)+'<span>/month</span></div><strong>'+esc(p.includes||p.plays_per_day+' plays per day')+'</strong><p>'+esc(p.description)+'</p><a class="btn primary" href="advertising-enquiry.html?package='+encodeURIComponent(p.name)+'">Enquire about '+esc(p.name.replace(/^FAR\s+/i,''))+'</a></article>').join('')||'<p>Please contact FAR for current airtime packages.</p>'}catch(e){box.innerHTML='<p>Packages could not be loaded. <a href="advertising-enquiry.html">Contact FAR for current prices.</a></p>';console.error('FAR CMS',e)}})();</script></body>
+(async()=>{const box=document.getElementById('cmsAdPackages');try{const m=await FARContent.all();FARContent.apply(m);const ps=await FARContent.packages(),esc=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[x]));box.innerHTML=ps.map((p,i)=>'<article class="ad-package-card '+(i===3?'prime':i===4?'premium':'')+'"><p class="eyebrow">AIRTIME ONLY</p><h3>'+esc(p.name)+'</h3><div class="ad-price">£'+Number(p.price).toFixed(Number(p.price)%1?2:0)+'<span>/month</span></div><p class="ad-billing-note">Billed quarterly (3-month minimum)</p><strong>'+esc(p.includes||p.plays_per_day+' plays per day')+'</strong><p>'+esc(p.description)+'</p><a class="btn primary" href="advertising-enquiry.html?package='+encodeURIComponent(p.name)+'">Enquire about '+esc(p.name.replace(/^FAR\s+/i,''))+'</a></article>').join('')||'<p>Please contact FAR for current airtime packages.</p>'}catch(e){box.innerHTML='<p>Packages could not be loaded. <a href="advertising-enquiry.html">Contact FAR for current prices.</a></p>';console.error('FAR CMS',e)}})();</script></body>
 </html>
