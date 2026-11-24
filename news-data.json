@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-11-24T10:35:55.077894+00:00",
+  "updated_at": "2026-11-24T22:47:58.580570+00:00",
   "stories": [
+    {
+      "id": "fenland-news-9a2e30a0711aa33c3faa52f8",
+      "headline": "Murder investigation underway in Wisbech",
+      "brief": "Police have launched a murder investigation following the death of a 61-year-old woman in Wisbech. Officers were called to a property on Alexandra Road at 9:50pm on Saturday. A 62-year-old man, who was arrested at the scene on suspicion of murder, is currently in hospital. He is expected to remain there for a few days before being returned to police custody.\n\nDetectives say they are not looking for anyone else in connection with the incident, which they believe to be isolated. A post-mortem examination is scheduled for Thursday. Anyone with information is asked to contact police on 101, quoting Operation Emeth.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/police-say-man-accused-of-murdering-61-year-old-woman-is-in-9492614/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/43JYG8TEL7ZM8YQ49GRS.jpg",
+      "published": "2026-11-24T10:35:59+00:00",
+      "generated_at": "2026-11-24T22:47:44.114354+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:44 +0000"
+    },
+    {
+      "id": "fenland-news-f7ecb5bb942f9b61ad73d5a4",
+      "headline": "King’s Lynn literary lunch raises funds for local charities",
+      "brief": "A literary lunch held in King’s Lynn has raised nearly £500 for charity. Soroptimist International King’s Lynn hosted the event on Sunday, November 15, featuring guest speaker and biographer Midge Gillies. Attendees heard about the lives of pioneering female pilots, the subject of Ms Gillies' latest book, 'Atlantic Furies'.\n\nThe funds collected during the afternoon will be donated to the charities Break and GirlGuiding Lynn. Organisers hope the stories of these historic aviators will inspire young women to pursue their own ambitions.",
+      "original_url": "https://www.lynnnews.co.uk/news/literary-lunch-with-guest-author-raises-funds-for-charities-9492706/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/DE6TX9IH71R3EH2CAIOP.jpg",
+      "published": "2026-11-24T15:35:23+00:00",
+      "generated_at": "2026-11-24T22:47:40.475492+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:40 +0000"
+    },
+    {
+      "id": "fenland-news-7ff0512a733bf62b8f2cd69d",
+      "headline": "Conservative candidate selected for Ely",
+      "brief": "The Conservative Party has announced its candidate for the upcoming election in Ely. The individual selected for the role is a councillor who previously made history by becoming the youngest person elected to the position at the age of 18. No further details regarding the candidate's identity or the specific election date have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdm9LblZWeTB6M3BGYllQeTRiVkFweVBrMXRnZHZSSUZrRW5BdVh3RTVSbklUaW56bXg5b3g0dWd5UzdZSVBTMGVBcC1fNTdtbUxiZlp3ZVQ3X19vemFDRjZEOHduUi1mMnNSZ05CZE9OSXZnWVh2UTVkbnE1X3NMWWRmTGFnLTA3NlJvNE1nMmtiUVdiMmhpbVZKWQ?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-24T15:45:57+00:00",
+      "generated_at": "2026-11-24T22:47:33.292765+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:33 +0000"
+    },
+    {
+      "id": "fenland-news-b74752efd1539b16f5da799a",
+      "headline": "Man sentenced for prison-based burglary plot",
+      "brief": "A man has been sentenced for orchestrating a burglary while serving time in a prison cell. Lincolnshire Police confirmed the conviction, which also included charges related to traffic offences. The individual was sentenced for his role in coordinating the burglary from custody, alongside the separate driving-related matters. No further details regarding the length of the sentence or the location of the offences have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbWpkQzRkZWlFQkI1TFhhbmJydVgwdzUzSHBtT2xlRERrdVRKZXhhOWhyck9CNlZjeldlUFJZb1lsSEFKUzVlUmdmMUxCY0NMWVItNHozYy1xdklZZG10YW41LU5kZVJPVjFFR256Umo1SG8tS2xJSnljdmllcmpGdURPbFhCMU9naXpRUWpPMjNHOHZYNGhhLU5DRlFXVGh4NkQza2t0VERqT0h5TklDWjVqQnZrdw?oc=5",
+      "source": "Spalding South Holland News",
+      "image_url": "",
+      "published": "2026-06-30T07:00:00+00:00",
+      "generated_at": "2026-11-24T22:47:30.118862+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:30 +0000"
+    },
+    {
+      "id": "fenland-news-9e7f4d57eb9b4834515a610e",
+      "headline": "Fenland teenager sentenced to Young Offender Institution",
+      "brief": "A teenager from the Fenland area has been sent to a Young Offender Institution. The sentencing follows a breach of a court order. No further details regarding the individual or the nature of the original offence have been released at this time.",
+      "original_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0FSQlQ1a3RsckxvWFNDcHdFTGIxNXVzRkRjWEJBLThOOUUzajNoaU90anFZYXNrV0wtaE1RR0E2dXhnNXc1Qk5qQjUydVMxVEVxMjVOT3pSSEJXa3FIVFRDMllfeDhqZGdXQzNESmlQTlBlQkVZY1hCOXFiVGpOVmhmWjQ0Q3VVTDRJM21lMVIzbUtCY01jVGd6Yw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-24T12:30:24+00:00",
+      "generated_at": "2026-11-24T22:47:26.167534+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:26 +0000"
+    },
+    {
+      "id": "fenland-news-31f46c5e21c228de12d7da2c",
+      "headline": "Police appeal following deliberate car fire in Wisbech",
+      "brief": "Firefighters were called to Onyx Court in Wisbech on Saturday night to deal with a vehicle blaze. A crew from Thorney arrived at the scene at 10:01pm and used a hose reel to extinguish the fire. The incident is being treated as deliberate, and the crew had returned to their station by 10:45pm.\n\nPolice are now asking anyone with information regarding the fire to come forward. You can submit a report through the police website or contact Crimestoppers anonymously on 0800 555111.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/car-deliberately-set-alight-late-at-night-9492631/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/SRRH7QHC9SZHXBJH5CJL.jpg",
+      "published": "2026-11-24T11:10:57+00:00",
+      "generated_at": "2026-11-24T22:47:20.502074+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:20 +0000"
+    },
+    {
+      "id": "fenland-news-f72d792a2d274074d8e1d0a8",
+      "headline": "National operator First Bus acquires King’s Lynn company Lynx",
+      "brief": "The King’s Lynn-based bus operator Lynx has been acquired by the national firm First Bus. The move aims to expand the company's network across North and West Norfolk. Lynx, which was founded in 2014, currently manages 25 routes with a fleet of 38 vehicles and 80 staff members.\n\nThe existing management team will remain in place, and Lynx will continue to operate as a separate unit within the First Bus portfolio. Founders Julian Patterson, Andy Warnes, and Steve Challis stated that the partnership will help protect the business while providing access to national investment and expertise. First Bus says it intends to build on the existing reputation of the service to encourage further bus travel in the region.",
+      "original_url": "https://www.lynnnews.co.uk/news/exciting-new-chapter-as-national-operator-acquires-west-no-9492721/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/5GW1RBJ511LJA68XYSJW.jpg",
+      "published": "2026-11-24T16:16:38+00:00",
+      "generated_at": "2026-11-24T22:47:16.441911+00:00",
+      "rss_date": "Tue, 24 Nov 2026 22:47:16 +0000"
+    },
     {
       "id": "fenland-news-356639515c0a8d8f581550a8",
       "headline": "Children in King’s Lynn receive surprise books and bears",
@@ -1023,83 +1100,6 @@
       "published": "2026-11-11T13:58:16+00:00",
       "generated_at": "2026-11-16T22:33:29.474518+00:00",
       "rss_date": "Mon, 16 Nov 2026 22:33:29 +0000"
-    },
-    {
-      "id": "fenland-news-621dba73989b7b7960215b4c",
-      "headline": "East Cambridgeshire rejects industrial wind farm plans",
-      "brief": "East Cambridgeshire District Council has formally declined proposals for an industrial-scale wind farm. Councillor Anna Bailey has outlined the reasons behind the local authority's decision to reject the development. The move follows recent discussions regarding the suitability of such large-scale energy projects within the district. Further details regarding the council's stance on the planning application are available through the Cambridge Independent.",
-      "original_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT21nZDR6NHhqNGxUN2IwRXdlXzEtYjBHOW81QTY0dk5iYlhOeWtyZzEwQ0JYNkd1dmNFeWJSRy1yZVE1VHVaSUdGMUJ1Ri1kdUZETElzX2RlRXI0V3FrVXBmZW4tWC11ckZMVmZpOHVHcEdXTEdtdXFHWG9hNkl6ellmOUpUNVF3Q3dBY0x6eEQ3Q0JUQ3NvTmEwRm1rckpFMU9VNzRzUWZDaEVyUEdUOGVR?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-16T06:00:00+00:00",
-      "generated_at": "2026-11-16T22:33:27.918812+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:27 +0000"
-    },
-    {
-      "id": "fenland-news-d12faf9d305bf51413bba118",
-      "headline": "King’s Lynn prepares for Christmas lights switch-on this Sunday",
-      "brief": "King’s Lynn will host its annual Christmas lights switch-on this Sunday, November 22, in the Tuesday Market Place. The event begins at 2pm with an afternoon of live music and entertainment, featuring performances from local school choirs and singer Sarah Mai. Hosted by Jeremy Durrant, the celebrations will culminate with the official switch-on at 5pm, performed by the Mayor of West Norfolk, Councillor Steve Bearshaw. \n\nFurther festive activities are scheduled for the town throughout December, including a Christmas market and Santa-themed events. Meanwhile, residents in Downham and Hunstanton can look forward to their own local switch-on celebrations, which are set to take place the following weekend on Sunday, November 29.",
-      "original_url": "https://www.lynnnews.co.uk/news/town-gets-into-the-festive-spirit-with-lights-switch-on-this-9491442/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/MVNOGNBH70SWJBZQY1P0.jpg",
-      "published": "2026-11-16T10:24:42+00:00",
-      "generated_at": "2026-11-16T22:33:26.488167+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:26 +0000"
-    },
-    {
-      "id": "fenland-news-1170dbd9381ab4fdc2abf407",
-      "headline": "Rail travel disruption reported in Cambridgeshire",
-      "brief": "Rail services are currently suspended across parts of Cambridgeshire. Reports indicate that the disruption follows a failure on the network. Passengers travelling through the region are advised to check for updates before they set off, as the issue is affecting train movements in the area. No further details regarding the nature of the fault or when normal service might resume have been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYmpnQVNvRFFTem9PMmluSDJuVWNEeWNvQzNPSU9uMVpQb2RRcHJSemJKVTdqZ3dnb0lSeml4Q01uR2l2Uk5zTUlSNUVRMklSOGc1TlJEeVFhekZSTzN2WHQ1UTl6a0hGNFVURlFMd0tackpNajNKZjhYY3U3WXlXa0xHbldaa0JkX1o1Y2UyNmJPa0JRM3d3TlNJaF9kQdIBowFBVV95cUxQcXhsc2hfbExrQnZiOXVrdXZDQ2dwemhqaHRYN196MHZEa3J3eDdvM0ZwRDEyVklZZkc1dnhHSThFT29vQ3NxQUNIY1VQb3dFZFRfZllpbVo1cmZaVGJvRXRuRnVpbFh3YXd2TFZfZFVSMmo0bVdjcWVZQTZRTmxEUzBJcVBFOU9YQzNWZnJkZjNDMnQ0Y3lKQ25JQm1Ma1hpbzBz?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-16T13:50:00+00:00",
-      "generated_at": "2026-11-16T22:33:22.066213+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:22 +0000"
-    },
-    {
-      "id": "fenland-news-746ed2875b45276b09b51276",
-      "headline": "Teenagers arrested following hotel fire in March",
-      "brief": "Police have arrested a group of teenagers following a fire at a hotel in March. Authorities are treating the incident as deliberate. No further details regarding the extent of the damage or the condition of the building have been released at this time. Investigations into the circumstances surrounding the blaze are ongoing.",
-      "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ3BLTVdlVi1zbWxNR3AxZTNjMkpiVFRsb2RMb0lhU1B2ZF91YWRIaFY2c1RCaExwX0lhaHk0YUp1MU85a1Y4YmF4anR5T1pYS2tvX0p2T2Vma3RBV2xZd2JKT0Z0ckdPUlgwbU9oM3JEanJpYXhhbWxMY3FCckZHQUttVXpxNlVhQTAtTDk1UTZWcERmTlFLTGZtdlMzendQ0gGmAUFVX3lxTE1hOWpuUHNscURoaUFlLVBvNktyRkVneXNtRFBWWHRhX2hPUjVxd3o5Wll3OV9vcl8tbXZ0dktuSUdPY0lPdElqX2RaQU9HYTd5ZTBMd25XeFFPeFFvWG8weExQYkNodV9ac2ZBeTNuTzNEUmlMdThoNnB4cTluVC0wMHp0LTNRWWZRX0Nac3ppeXFKb0ZmZmxZWWlROHJyR2k3Q2hCUHc?oc=5",
-      "source": "March Chatteris Whittlesey News",
-      "image_url": "",
-      "published": "2026-11-16T09:33:00+00:00",
-      "generated_at": "2026-11-16T22:33:19.912888+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:19 +0000"
-    },
-    {
-      "id": "fenland-news-0f5cf08c1045a313b60da168",
-      "headline": "New venue The Fat Badger to open in North Wootton",
-      "brief": "A new business, The Fat Badger, is set to open in North Wootton this December. Located on Ling Common Road at the site of the former House on the Green, the venue aims to serve as a social space rather than a traditional pub. Owners Neil Williamson and Mark Wilson have renovated the premises to offer coffee, brunch, and all-day breakfast, alongside fish and chips and pizzas sourced from their other local businesses.\n\nThe venue features a bar, dining areas, and a chilled upstairs space equipped for sporting events. The site also includes a courtyard with pétanque facilities and welcomes dogs. The team is also accepting bookings for private events, including christenings and wakes.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-business-is-more-than-a-pub-with-coffee-brunch-and-9491466/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/YB0Y2T7CTWYB0P9701QQ.jpg",
-      "published": "2026-11-16T12:24:24+00:00",
-      "generated_at": "2026-11-16T22:33:18.430876+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:18 +0000"
-    },
-    {
-      "id": "fenland-news-9e7a5bbaec3f599269629c5c",
-      "headline": "Peterborough council leader forgives woman who made threats",
-      "brief": "The leader of Peterborough City Council has publicly forgiven a woman who issued a threat to kill him. Reports from the Peterborough Fenland Edge News indicate that the council leader has chosen to move past the incident. No further details regarding the identity of the individual or the circumstances surrounding the threat have been released at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lQVhGOTZNZ05NeV9PNnFMaUVkZ0doWWNKRW9sNlpBTHMzWnl4ZG00WVFRVTc5cGZ5bmYzV2NTcGZ5Sy1rTDNZd2phR3FXMENVNGhidUhMdlpwVTQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-16T06:38:05+00:00",
-      "generated_at": "2026-11-16T07:21:13.132159+00:00",
-      "rss_date": "Mon, 16 Nov 2026 07:21:13 +0000"
-    },
-    {
-      "id": "fenland-news-d2841ca7e2bde6177e64b872",
-      "headline": "New panel to oversee police use of AI in Cambridgeshire",
-      "brief": "A new panel has been established to scrutinise how police in Cambridgeshire use artificial intelligence. The group will be responsible for monitoring the implementation and application of AI technology within the force. Further details regarding the panel's specific remit and membership are expected to follow as the oversight process begins.",
-      "original_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZkhJUzhRcEEzXzB4QkJWM3NNb0E4WE9DMVAtMG00RU41dU5aWUo4NUcxcm90OUFheEZ4aXliXzhZN2VBVW4yUXg0YTNfekI4d0trWG1UY3RmQjUyUWk5amJkNFoxdkRZTWJ6QmpvLUZ2NFB6azdtRnNVRmhFT2t1RnNVVE41YmpPd0RlVTdhLTZ3WGd6TjNtU3ppdTVhTXV5ODVvWVlLaWI?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-15T17:33:58+00:00",
-      "generated_at": "2026-11-16T07:21:11.968266+00:00",
-      "rss_date": "Mon, 16 Nov 2026 07:21:11 +0000"
     }
   ]
 }
