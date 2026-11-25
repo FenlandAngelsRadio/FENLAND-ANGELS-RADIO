@@ -1,6 +1,61 @@
 {
-  "updated_at": "2026-11-24T22:47:58.580570+00:00",
+  "updated_at": "2026-11-25T09:15:42.429125+00:00",
   "stories": [
+    {
+      "id": "fenland-news-68dd337c0397913f5845bb03",
+      "headline": "West Norfolk Council and King’s Lynn Town FC join forces for White Ribbon Day",
+      "brief": "West Norfolk Council and King’s Lynn Town Football Club have launched a joint campaign to tackle male violence, harassment, and abuse against women and girls. Marking White Ribbon Day, the partnership has released a video featuring players and staff encouraging the community to challenge sexist behaviour and inappropriate comments. \n\nThe initiative is part of a three-year action plan to promote a culture of respect. Officials are urging the public to speak up against abuse and are highlighting support services for victims of domestic violence. Those seeking help can contact the Leeway charity on 0300 561 0077 or the National Domestic Abuse Helpline on 0808 2000 247. Further information is available on the council and football club’s social media channels.",
+      "original_url": "https://www.lynnnews.co.uk/news/it-takes-all-of-us-council-and-club-unite-to-call-for-end-9492760/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/LD05MSQ251Q66KPCEG1Z.jpg",
+      "published": "2026-11-25T06:00:00+00:00",
+      "generated_at": "2026-11-25T09:14:56.742618+00:00",
+      "rss_date": "Wed, 25 Nov 2026 09:14:56 +0000"
+    },
+    {
+      "id": "fenland-news-4a63f8ee6f1bb3c846676478",
+      "headline": "NHS trust adopts LEGO therapy for neurodivergent children",
+      "brief": "A Cambridgeshire NHS trust has officially adopted a LEGO-based therapy programme designed to support neurodivergent children. The initiative uses the popular building blocks as a tool to assist with development and social interaction. The programme is now being implemented across the trust to provide additional support for young people with neurodivergent conditions.",
+      "original_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1RwbnVRSlk1ZmNYbW5FNURUMkVIX3JDWkI1Y1dzeFZxd3BLMVEtbXU3YzV6SThNbklncGJrSVhWWE9Qc1pwRElVRFBnbjF6VXRrUUsyTmxwOXJFaTNDRng3dFJBMEFHdnJpbWpBT0k4QmZBaVJlSDRCYVFOZDRFc1drSXpxWWZpd2lCTmlWcmQ0OFgyY3ExczJfTGN4M05qaVlDYVZTZjFCLTJpM1QxT21HQThoMnM?oc=5",
+      "source": "Ely East Cambridgeshire News",
+      "image_url": "",
+      "published": "2026-11-25T05:48:48+00:00",
+      "generated_at": "2026-11-25T09:14:52.425232+00:00",
+      "rss_date": "Wed, 25 Nov 2026 09:14:52 +0000"
+    },
+    {
+      "id": "fenland-news-f7502b0357231d14d4a49212",
+      "headline": "B1099 near March to face further closure",
+      "brief": "The B1099 road near March is set to close once again. This follows the recent completion of a one point five million pound trial on the route, which had only reopened to traffic a few weeks ago. Motorists who use the road are advised to plan their journeys accordingly as further disruption is expected.",
+      "original_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGxmS3ZXcXhaUEl5QUZ1VF9PQlZ2cEo2Q3BFcndETHNTLXZCcVFUVGxwVjJxZjVFMnBPc1NZbVB4Z1IxWjg0ZE1ac25aOHFYaU9BT0kzeS1NTnkwWnljb0VSQWtFcGVtVFphSjUzc2U1RzdHU3l3aUVWRVZEZVZnVFhYd3ZvTTN1b1lTYw?oc=5",
+      "source": "March Chatteris Whittlesey News",
+      "image_url": "",
+      "published": "2026-11-23T12:46:01+00:00",
+      "generated_at": "2026-11-25T09:14:33.031855+00:00",
+      "rss_date": "Wed, 25 Nov 2026 09:14:33 +0000"
+    },
+    {
+      "id": "fenland-news-41c030eb58419f2844849c75",
+      "headline": "New film about the making of Rocky showing in Wisbech",
+      "brief": "The film I Play Rocky is now showing at The Light cinema in Wisbech. The 12A-rated production stars Anthony Ippolito as a young Sylvester Stallone, documenting his struggle to write and star in the original 1976 boxing classic. The movie also features AnnaSophia Robb, PJ Byrne, and Toby Kebbell. \n\nThe film explores the challenges Stallone faced while trying to get his script produced on a limited budget. Despite the title, the production focuses more on the behind-the-scenes story than the boxing matches themselves. Local cinema-goers can catch the film at The Light now.",
+      "original_url": "https://www.fenlandcitizen.co.uk/whats-on/an-exhilarating-heartwarming-and-enthralling-story-9492414/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/ESJU93I799DKPYZXSIB5.jpg",
+      "published": "2026-11-23T09:39:38+00:00",
+      "generated_at": "2026-11-25T09:14:31.969060+00:00",
+      "rss_date": "Wed, 25 Nov 2026 09:14:31 +0000"
+    },
+    {
+      "id": "fenland-news-89011655e8f21e062c5bc268",
+      "headline": "College of West Anglia students showcase films at Lynn Film Festival",
+      "brief": "Students from the College of West Anglia have showcased their creative work at the sixth annual Lynn Film Festival. Level 3 Creative Media learners produced a variety of short films, gaining experience in screenwriting, directing, and editing. Beyond their filmmaking, the students helped organise the festival’s preview evening at the Corn Exchange, with hospitality students providing catering for the event. \n\nThe films will be screened to the public on Thursday, November 26, and Sunday, November 29. Those interested in attending can purchase tickets through the King’s Lynn Corn Exchange box office or via their website. Organisers have praised the students for their professional contribution to this year’s festival programme.",
+      "original_url": "https://www.lynnnews.co.uk/news/budding-young-filmmakers-showcase-their-talents-9492734/",
+      "source": "Lynn News",
+      "image_url": "https://www.lynnnews.co.uk/_media/img/1BJ23M4RG5XETD74DEWK.jpg",
+      "published": "2026-11-25T06:00:00+00:00",
+      "generated_at": "2026-11-25T09:14:25.828025+00:00",
+      "rss_date": "Wed, 25 Nov 2026 09:14:25 +0000"
+    },
     {
       "id": "fenland-news-9a2e30a0711aa33c3faa52f8",
       "headline": "Murder investigation underway in Wisbech",
@@ -1045,61 +1100,6 @@
       "published": "2026-11-14T04:00:00+00:00",
       "generated_at": "2026-11-17T08:31:46.562817+00:00",
       "rss_date": "Tue, 17 Nov 2026 08:31:46 +0000"
-    },
-    {
-      "id": "fenland-news-f16aff7247c37807b83bb82b",
-      "headline": "New online tool ranks Norfolk postcodes by safety",
-      "brief": "A new interactive tool has been launched to rank UK postcodes based on their safety in the event of a national attack. The \"Doomsday\" checker assigns properties a score out of 100 and a safety rating from A to G, based on proximity to military bases, power stations, and other infrastructure.\n\nIn Norfolk, North Norfolk was identified as the safest region, with Cromer receiving a top rating of 10A. Conversely, areas near RAF Marham and Norwich were flagged as higher risk due to their proximity to military and utility sites. The tool, which considers factors like weather and access to medical care, is available for public use at inspectorwalls.com/doomsday.",
-      "original_url": "https://www.lynnnews.co.uk/news/new-doomsday-tool-reveals-safest-postcodes-in-norfolk-sh-9491566/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/DJTXDW0DUKDR5ID9BMLP.jpg",
-      "published": "2026-11-17T06:00:00+00:00",
-      "generated_at": "2026-11-17T08:31:44.061713+00:00",
-      "rss_date": "Tue, 17 Nov 2026 08:31:44 +0000"
-    },
-    {
-      "id": "fenland-news-91d1885fa565abad961a9cfc",
-      "headline": "Young girl seriously injured in collision near primary school",
-      "brief": "A young girl has been left with serious injuries following a road traffic collision near a primary school. Emergency services were called to the scene to assist the child. No further details regarding the exact location or the circumstances of the incident have been released at this time. Motorists are advised to remain cautious when travelling near school zones during peak hours.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XSkFTd3Z4V25BLTdFSHlvSi1QNV9wLTBWTFpIbW1YcTEzbV9BVFZYaXlTcDVYMGhCemtiX3ZnVjZFcTNYejNBN3I4ZE95b0s2ajFIOXhuWnNKbXJrZXc?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-16T14:58:47+00:00",
-      "generated_at": "2026-11-17T08:31:41.999335+00:00",
-      "rss_date": "Tue, 17 Nov 2026 08:31:41 +0000"
-    },
-    {
-      "id": "fenland-news-566e1460a0a4744fd42ec73e",
-      "headline": "Woman sustains life-changing injuries in collision",
-      "brief": "A woman has been left with life-changing injuries following a collision involving a car. The incident was reported by the BBC, with details emerging via the Ely East Cambridgeshire News. No further information regarding the location or the circumstances of the incident has been provided at this time.",
-      "original_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OeHFjdV9sMkt5NURyeHpaSExhbmpucUozdklmamRxVzRQeHdnbmNmcmNLMnd0dHQyRzQ3bWx2R0wyVkFCZ09VdTlSemppdXk2b0lFZDdFM3FqV2NpcVE?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-16T12:56:04+00:00",
-      "generated_at": "2026-11-17T08:31:40.545624+00:00",
-      "rss_date": "Tue, 17 Nov 2026 08:31:40 +0000"
-    },
-    {
-      "id": "fenland-news-4bb7b860f1c9c1f22496864e",
-      "headline": "Police appeal after Peterborough jewellery shop robbery",
-      "brief": "Cambridgeshire Constabulary has launched an appeal for information following a robbery at a jewellers in Peterborough. Officers are currently investigating the incident and are asking anyone who may have relevant details to come forward. No further information regarding the timing of the event or any items taken has been released by the force at this stage. Anyone with information that could assist the police inquiry is encouraged to contact Cambridgeshire Constabulary.",
-      "original_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWDROQU0waWx4NTl5Sll3Zm5HWG14VFRWS3ZTMlJXeUZpbzE2MnJwSGtqdDRfOU8xWUhHclRBOGgxZ1QzWjBwZ1FieGVaLUNqZ2Q0UDAyYUdONmd0eGRLZjJjTG5JeG5qRy11aXBfRTF4WWEtdzBBMW93LWRlN2RKOUVUbDNqLXhINDc5ZzgtZTl5cjJTMTY1UVIzVkpZc0lQMHlQRHV3TXNqaGhDUWVRMHNrU0huZ2R1Tm1HSW44Q19UaE0?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-14T19:23:00+00:00",
-      "generated_at": "2026-11-16T22:33:30.799879+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:30 +0000"
-    },
-    {
-      "id": "fenland-news-1236c6209bcd1d30a5627261",
-      "headline": "Cambridgeshire tech firms named in national awards",
-      "brief": "Several technology businesses based in Cambridgeshire and the wider East of England have been recognised in the latest Deloitte UK Technology Fast 50. The annual list highlights the fastest-growing companies within the sector across the country. Local firms were among those acknowledged for their performance in the industry.",
-      "original_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOTQ1X2pqOExIdDdaZWF4QVg2TTlSNjFBbk1NVG1nQkVySk9BX0lXT1JNQkFnZU1UN0RjMmRGSnVld0tKQllVODlfRnk3OEc3NnBnQ3NUWkZQSVlyc3hXMTRWa1NrWWlCSnNBMXdJejhWeGQ3SldmSnpWcXdZMlNkSk1nSFl4bld0R1lOQ1I3MDk2anItNXl3OGVBQkdwdmdxMGNkNnp6MHpWbXpwUkxmQzhzUUNaLXdGTElEdHd3?oc=5",
-      "source": "Ely East Cambridgeshire News",
-      "image_url": "",
-      "published": "2026-11-11T13:58:16+00:00",
-      "generated_at": "2026-11-16T22:33:29.474518+00:00",
-      "rss_date": "Mon, 16 Nov 2026 22:33:29 +0000"
     }
   ]
 }
