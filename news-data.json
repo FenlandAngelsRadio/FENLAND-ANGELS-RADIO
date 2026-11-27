@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-11-26T21:59:31.859481+00:00",
+  "updated_at": "2026-11-27T09:09:18.482746+00:00",
   "stories": [
+    {
+      "id": "fenland-news-0996e73c7af2588a7fd972e2",
+      "headline": "Peterborough and Cambridge prepare for local derby",
+      "brief": "Football fans in the region are looking ahead to a significant local derby match between Peterborough and Cambridge. The upcoming fixture is being described as a season-defining encounter for both clubs. Supporters are preparing for the clash, which remains a key date in the football calendar for the two sides.",
+      "original_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40RHJ2UWhjOWR1clRzbWg3Slg0OHA5T2VETExVeDBKdzZoNFhjRW9MclN2Y0dPQWpfaTMwUkFPaWl3Ni1KRENhOHF3eFdzOGZYNTNkOGxvdzJ3ZU4zLUlJUW5xWTd0ck9RSTNr?oc=5",
+      "source": "Peterborough Fenland Edge News",
+      "image_url": "",
+      "published": "2026-11-27T08:25:44+00:00",
+      "generated_at": "2026-11-27T09:09:03.994486+00:00",
+      "rss_date": "Fri, 27 Nov 2026 09:09:03 +0000"
+    },
+    {
+      "id": "fenland-news-447177e0693da450d14ce8c7",
+      "headline": "Free Christmas event announced for Wisbech",
+      "brief": "Families in Wisbech are invited to a Christmas Wonderland event at Orchard House care home. The celebration takes place on Friday, December 18, and Saturday, December 19, running from 2pm until 8pm each day. \n\nEntry to the event is free, and children under 11 can receive a gift by booking a complimentary visit with Father Christmas. The two-day gathering features a craft zone, a raffle, and various stalls selling festive items and treats. While entry and meeting Father Christmas are free, food, refreshments, and stall purchases are paid for separately. The event is open to all local residents, offering an opportunity to browse gifts and meet the care home team.",
+      "original_url": "https://www.fenlandcitizen.co.uk/news/meet-father-christmas-for-free-at-christmas-wonderland-9493017/",
+      "source": "Fenland Citizen",
+      "image_url": "https://www.fenlandcitizen.co.uk/_media/img/Y6GX6HBBTTLWEZ39ZOUF.jpg",
+      "published": "2026-11-26T11:01:06+00:00",
+      "generated_at": "2026-11-27T09:08:35.171816+00:00",
+      "rss_date": "Fri, 27 Nov 2026 09:08:35 +0000"
+    },
     {
       "id": "fenland-news-447177e0693da450d14ce8c7",
       "headline": "Free festive event at Orchard House in Wisbech",
@@ -1078,28 +1100,6 @@
       "published": "2026-11-15T10:52:40+00:00",
       "generated_at": "2026-11-18T20:55:17.609864+00:00",
       "rss_date": "Wed, 18 Nov 2026 20:55:17 +0000"
-    },
-    {
-      "id": "fenland-news-872610a9833fb37626d254c7",
-      "headline": "Terrington St Clement man cleared of assault charges",
-      "brief": "A 22-year-old man from Terrington St Clement has been cleared of assault and stalking charges at Lynn Magistrates’ Court. Ryley Dale, of Waterloo Road, had faced allegations including intentional strangulation, criminal damage, and harassment of an ex-partner between 2023 and 2024. During a summary trial on Wednesday, November 11, the Crown Prosecution Service offered no evidence, leading to the charges being dropped.\n\nMr. Dale previously gained public attention in September 2024 for his actions during a house fire in Gaywood. He was credited with helping to save four people from the property on Lynn Road after forcing entry to the building.",
-      "original_url": "https://www.lynnnews.co.uk/news/house-fire-hero-cleared-of-assault-charges-against-ex-partne-9491867/",
-      "source": "Lynn News",
-      "image_url": "https://www.lynnnews.co.uk/_media/img/BGDN1884G4FQXOZAJN2D.jpg",
-      "published": "2026-11-18T14:26:38+00:00",
-      "generated_at": "2026-11-18T20:55:15.682163+00:00",
-      "rss_date": "Wed, 18 Nov 2026 20:55:15 +0000"
-    },
-    {
-      "id": "fenland-news-c1230715abd686c75224aedf",
-      "headline": "Peterborough United Under-21s draw with Bolton Wanderers",
-      "brief": "The Peterborough United Under-21 side has finished their latest fixture with a share of the points. The match against Bolton Wanderers ended in a one-all draw.",
-      "original_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91SU45YWtGc01aQ0JLUGxTN05MWlVPZHUtSDNlaVNrcENtQzdLS0pCQ1FlX3pmZWo0NTFlei04bzV5U3ZpdnJXMnQwcDRFSWZOS0JjcFczc1pVekoxSHlFaHA2cFZSUFVEcWgzNTlYVDc5Q1VBeG9OdE9LYVRoUQ?oc=5",
-      "source": "Peterborough Fenland Edge News",
-      "image_url": "",
-      "published": "2026-11-18T15:27:09+00:00",
-      "generated_at": "2026-11-18T20:55:13.291907+00:00",
-      "rss_date": "Wed, 18 Nov 2026 20:55:13 +0000"
     }
   ]
 }
